@@ -106,14 +106,14 @@
       </b-container>
     </section>
     <div>
-      <b-modal no-stacking id="whatIsFSR" @hide="resumePlay()" size="xl" okOnly>
+      <b-modal no-stacking id="Introduction" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('whatIsFSR')}}
+            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('Introduction')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
-        <whatIsFSR />
+        
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
       <b-modal id="keyPeriods" @hide="resumePlay()" size="xl" okOnly>

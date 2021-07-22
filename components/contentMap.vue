@@ -14,10 +14,10 @@
           <span ref="item"><h2 class="colorBar1"><span class="v-inv">{{$t('navigationMenu')}}</span> {{$t('plan')}}</h2></span>    
           <menu style="list-style: none">
             <li role="menuitem">
-              <nuxt-link :to="localePath('buildwp')" v-html="$t('BuildWorkPlan')" />
+              <nuxt-link :to="localePath('buildwp')" v-html="$t('HRDelegation')" />
             </li>
             <li role="menuitem">
-              <nuxt-link :to="localePath('createbudget')" v-html="$t('CreateBudget')" />
+              <nuxt-link :to="localePath('createbudget')" v-html="$t('HRPlanning')" />
             </li>
             <li role="menuitem">
               <nuxt-link :to="localePath('planKey')" v-html="$t('KeyMessagesPlan')" />
@@ -29,7 +29,7 @@
           <h2 class="colorBar2"><span class="v-inv">{{$t('navigationMenu')}}</span> {{$t('spend')}}</h2>
           <menu style="list-style: none">
             <li role="menuitem">
-              <nuxt-link :to="localePath('spendPart1')" v-html="$t('InitiateAuthorizeSpending')" />
+              <nuxt-link :to="localePath('spendPart1')" v-html="$t('OrganizationClassification')" />
             </li>
             <li role="menuitem">
               <nuxt-link :to="localePath('spendPart2')" v-html="$t('ExerciseFinancialAuthority')" />
@@ -46,6 +46,18 @@
           </menu>
           <h2 class="colorBar3"><span class="v-inv">{{$t('navigationMenu')}}</span> {{$t('report')}}</h2>
           <menu style="list-style: none">
+            <li role="menuitem">
+              <nuxt-link :to="localePath('reportPart1')" v-html="$t('ConductPeriodicVarianceReporting')" />
+            </li>
+            <li role="menuitem">
+              <nuxt-link :to="localePath('reportPart2')" v-html="$t('ContributeReporting')" />
+            </li>
+            <li role="menuitem">
+              <nuxt-link :to="localePath('reportPart1')" v-html="$t('ConductPeriodicVarianceReporting')" />
+            </li>
+            <li role="menuitem">
+              <nuxt-link :to="localePath('reportPart2')" v-html="$t('ContributeReporting')" />
+            </li>
             <li role="menuitem">
               <nuxt-link :to="localePath('reportPart1')" v-html="$t('ConductPeriodicVarianceReporting')" />
             </li>
@@ -332,7 +344,7 @@ contentMap.closed h2.colorBar1, contentMap.closed h2.colorBar2, contentMap.close
   .color1 h2, .color2 h2, .color3 h2{
     transform: rotate(-90deg);
     transform-origin: right top;
-    font-size: 16px;
+    font-size: 13px;
     position: absolute;
     line-height: 60px;
     top: 0%;
