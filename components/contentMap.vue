@@ -14,13 +14,13 @@
           <span ref="item"><h2 class="colorBar1"><span class="v-inv">{{$t('navigationMenu')}}</span> {{$t('plan')}}</h2></span>    
           <menu style="list-style: none">
             <li role="menuitem">
-              <nuxt-link :to="localePath('buildwp')" v-html="$t('HRDelegation')" />
+              <nuxt-link :to="localePath('designPart1')" v-html="$t('HRDelegation')" />
             </li>
             <li role="menuitem">
-              <nuxt-link :to="localePath('createbudget')" v-html="$t('HRPlanning')" />
+              <nuxt-link :to="localePath('designPart2')" v-html="$t('HRPlanning')" />
             </li>
             <li role="menuitem">
-              <nuxt-link :to="localePath('planKey')" v-html="$t('KeyMessagesPlan')" />
+              <nuxt-link :to="localePath('designKey')" v-html="$t('KeyMessagesPlan')" />
             </li>
             <li role="menuitem">
               <nuxt-link :to="localePath('exam1')" v-html="$t('TestPlan')" />

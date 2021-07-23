@@ -161,7 +161,7 @@ export default {
       Captions: "",
       changeButton: false,
       popups: {
-        buildWP: {
+        designPart1: {
           references: [1],
           infos: [0],
           quiz: [8]
@@ -275,8 +275,8 @@ export default {
       var currentPage = path.substr(pos);
       
       switch(currentPage){
-        case "buildWP":
-          return this.popups.buildWP.references;
+        case "designPart1":
+          return this.popups.designPart1.references;
         case "createBudget":
           return this.popups.createBudget.references;
         case "spendPart1":
@@ -297,8 +297,8 @@ export default {
       var currentPage = path.substr(pos);
       
       switch(currentPage){
-      case "buildWP":
-          return this.popups.buildWP.infos;
+      case "designPart1":
+          return this.popups.designPart1.infos;
         case "createBudget":
           return this.popups.createBudget.infos;
         case "spendPart1":
@@ -319,8 +319,8 @@ export default {
       var currentPage = path.substr(pos);
       
       switch(currentPage){
-      case "buildWP":
-          return this.popups.buildWP.quiz;
+      case "designPart1":
+          return this.popups.designPart1.quiz;
         case "createBudget":
           return this.popups.createBudget.quiz;
         case "spendPart1":

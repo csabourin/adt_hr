@@ -172,93 +172,54 @@
     </b-container>
   </section>
   <div>
-    <b-modal no-stacking id="purpose" @hide="resumePlay()" okOnly>
+    <b-modal no-stacking id="Introduction" @hide="resumePlay()" okOnly>
       <template v-slot:modal-header="{ close }">
         <h3 class="h5">
           <img src="~/assets/InfoIcon.svg" :alt="$t('infoIcon')" width="32" height="32">
-          {{ $t('gotIt') }}
+          {{ $t('activityLinks') }}
         </h3>
         <button type="button" aria-label="Close" class="close" @click="close()">×</button>
       </template>
-      <b-row align-h="center">
-        <b-col cols="12" md="9">
-          <img src="~/assets/purposeWP.svg" alt="" class="img-fluid" style="margin-bottom: 15px; margin-top: 10px;">
-        </b-col>
-      </b-row>
-      <b-row >
-        <b-col>
-          <p>{{ $t('gotItContent') }}</p>
-        </b-col>
-      </b-row>
+      <div v-if="$i18n.locale=='fr'">
+        <p>Here is a list of resources referred to in this section.</p>
+        <ul>
+          <li><a href="" target="_blank" alt=""></a></li>
+          <li><a href="" target="_blank" alt=""></a></li>
+          <li><a href="" target="_blank" alt=""></a></li>
+        </ul>
+      </div>
+      <div v-if="$i18n.locale=='en'">
+        <p>Here is a list of resources referred to in this section.</p>
+        <ul>
+          <li><a href="https://www.canada.ca/en/public-service-commission/services/appointment-framework/delegation-overview/appointment-delegation-accountability-instrument.html#toc1.2" target="_blank" alt="Appointment Delegation and Accountability Instrument">Appointment Delegation and Accountability Instrument</a></li>
+          <li><a href="https://laws-lois.justice.gc.ca/eng/acts/F-11/" target="_blank" alt="Financial Administration Act">Financial Administration Act</a></li>
+          <li><a href="https://laws-lois.justice.gc.ca/eng/acts/p-33.01/" target="_blank" alt="Public Service Employment Act">Public Service Employment Act</a></li>
+        </ul>
+      </div>
       <template v-slot:modal-ok>{{$t('close')}}</template>
     </b-modal>
-    <b-modal no-stacking id="alignworkplan" @hide="resumePlay()" size="xl" okOnly>
+    <b-modal no-stacking id="HRAuthorities" @hide="resumePlay()" size="xl" okOnly>
       <template v-slot:modal-header="{ close }">
         <h3 class="h5">
-          <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('activityLinks')}}
+          <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('hrAuthoritiesTitle')}}
         </h3>
         <button type="button" aria-label="Close" class="close" @click="close()">×</button>
       </template>
-      <p>{{$t('gotoLinks')}}</p>
-      <planLinks /><!-- {{ $t('gotIt') }} -->
+      <HRAutorities />
       <template v-slot:modal-ok>{{$t('close')}}</template>
     </b-modal>
-    <b-modal no-stacking id="partsofwp" @hide="resumePlay()" size="xl" okOnly>
-      <template v-slot:modal-header="{ close }">
-        <h3 class="h5">
-          <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32">
-          {{$t('partsofWPTitle')}}
-        </h3>
-        <button type="button" aria-label="Close" class="close" @click="close()">×</button>
-      </template>
-      <partsOfWorkPlan />
-      <template v-slot:modal-ok>{{$t('close')}}</template>
-    </b-modal>
-    <b-modal no-stacking id="threesixty" @hide="resumePlay()" size="xl" okOnly>
+    <b-modal no-stacking id="HRDelegation" @hide="resumePlay()" size="xl" okOnly>
       <template v-slot:modal-header="{ close }">
         <h3 class="h5">
           <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32">
-          {{$t('scan360Title')}}
+          {{$t('hrDelegationTitle')}}
         </h3>
         <button type="button" aria-label="Close" class="close" @click="close()">×</button>
       </template>
-      <test360 />
+      
       <template v-slot:modal-ok>{{$t('close')}}</template>
     </b-modal>
-    <b-modal no-stacking id="completedraft" @hide="resumePlay()" size="xl" okOnly>
-      <template v-slot:modal-header="{ close }">
-        <h3 class="h5">
-          <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32">
-          {{$t('completewpDrafttitle')}}
-        </h3>
-        <button type="button" aria-label="Close" class="close" @click="close()">×</button>
-      </template>
-      <prepareWorkPlan />
-      <template v-slot:modal-ok>{{$t('close')}}</template>
-    </b-modal>
-    <b-modal no-stacking id="completewp" @hide="resumePlay()" size="xl" okOnly>
-      <template v-slot:modal-header="{ close }">
-        <h3 class="h5">
-          <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32">
-          {{$t('completewptitle')}}
-        </h3>
-        <button type="button" aria-label="Close" class="close" @click="close()">×</button>
-      </template>
-      <completeWorkplan />
-      <template v-slot:modal-ok>{{$t('close')}}</template>
-    </b-modal>
-    <b-modal no-stacking id="adjustwp" @hide="resumePlay()" size="xl" okOnly>
-      <template v-slot:modal-header="{ close }">
-        <h3 class="h5">
-          <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32">
-          {{$t('adjustwptitle')}}
-        </h3>
-        <button type="button" aria-label="Close" class="close" @click="close()">×</button>
-      </template>
-      <adjustWorkplan />
-      <template v-slot:modal-ok>{{$t('close')}}</template>
-    </b-modal>
-    <b-modal no-stacking id="reallife" @hide="resumePlay()" okOnly>
+    <b-modal no-stacking id="InRealLife" @hide="resumePlay()" okOnly>
       <template v-slot:modal-header="{ close }">
         <h3 class="h5">
           <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32">
@@ -267,18 +228,22 @@
         <button type="button" aria-label="Close" class="close" @click="close()">×</button>
       </template>
       <b-row align-h="center">
-        <b-col cols="12" md="9">
-          <img src="~/assets/inRealLifeWP.svg" alt="" class="img-fluid" style="margin-bottom: 15px; margin-top: 10px;">
-        </b-col>
-      </b-row>
+            <b-col cols="12" md="9">
+              <img src="~/assets/inRealLifeBudget.svg" alt="" class="img-fluid" style="margin-bottom: 15px; margin-top: 10px;">
+            </b-col>
+          </b-row>
       <b-row>
         <b-col>
-          <p v-html="$t('IRLText')"></p>
+          <div v-if="$i18n.locale=='en'">
+            <p>Take what you have learned into real life!</p>
+            <p>Each deputy head determines how authorities are sub-delegated. As a result, sub-delegation varies from one organization to another. It is a good practice to question if you have the authority to act before making an HR decision.</p>
+            <p>Ask your supervisor or an HR advisor where you can find your organization’s delegation instrument and how it should be used for the decisions you are making. Some human resources actions such as classification, pay, staffing may involve exercising authorities from multiple areas.</p>
+          </div>
         </b-col>
       </b-row>
       <template v-slot:modal-ok>{{$t('close')}}</template>
     </b-modal>
-    <b-modal no-stacking id="quiz" @hide="resumePlay()" size="xl" okOnly>
+    <b-modal no-stacking id="Quiz" @hide="resumePlay()" size="xl" okOnly>
       <template v-slot:modal-header="{ close }">
         <h3 class="h5">
           <img src="~/assets/QuizIcon.svg" :alt="$t('quizIcon')" width="32" height="32">
@@ -286,16 +251,16 @@
         </h3>
         <button type="button" aria-label="Close" class="close" @click="close()">×</button>
       </template>
-      <planQuiz />
+      
       <template v-slot:modal-ok>{{$t('close')}}</template>
     </b-modal>
   </div>
   <div class="bottomNav planSection">
     <div class="planSectionBar"><span>{{$t('planSectionBar')}}</span></div>
     
-    <microlearning path="buildwp" youAreHere imagePath="BuildWP.svg" size="140" time="20" :completion="$store.state.currentPlaying.buildWP_player" :text="$t('BuildWorkPlan')" type="video" />
-    <microlearning size="140" path="createbudget" time="20" :completion="$store.state.currentPlaying.createBudget_player" imagePath="CreateBud.svg" :text="$t('CreateBudget')" type="video" />
-    <microlearning path="planKey" time="5" size="140" :completion="$store.state.currentPlaying.kmPlan" imagePath="KeyMessP.svg" :text="$t('KeyMessages')" :highlighted="chosenScenario == 'refresh'" type="keyMessages" />
+    <microlearning path="designPart1" youAreHere imagePath="BuildWP.svg" size="140" time="20" :completion="$store.state.currentPlaying.buildWP_player" :text="$t('BuildWorkPlan')" type="video" />
+    <microlearning size="140" path="designPart2" time="20" :completion="$store.state.currentPlaying.createBudget_player" imagePath="CreateBud.svg" :text="$t('CreateBudget')" type="video" />
+    <microlearning path="designKey" time="5" size="140" :completion="$store.state.currentPlaying.kmPlan" imagePath="KeyMessP.svg" :text="$t('KeyMessages')" :highlighted="chosenScenario == 'refresh'" type="keyMessages" />
     <microlearning size="140" path="exam1" time="15" :completion="parseInt($store.getters['plan/getScore'],10)" imagePath="P-Test.svg" :text="$t('Test')" :highlighted="chosenScenario == 'justExam'" type="exam" questionNum="20" />
   </div>
 </div>
@@ -303,29 +268,19 @@
 <script type="text/javascript">
 import videoPlayer from '~/components/interface/videoPlayer'
 import microlearning from '~/components/microlearning'
-import partsOfWorkPlan from '~/components/slides/plan/parts_workplan'
-import planLinks from '~/components/plan_links'
-import prepareWorkPlan from '~/components/slides/plan/prepare_workplan'
-import completeWorkplan from '~/components/slides/plan/complete_workplan'
-import adjustWorkplan from '~/components/slides/plan/adjust_workplan'
-import test360 from '~/components/slides/plan/test360'
+import HRAutorities from '~/components/slides/design/designPart1HRAuthorities'
 import planQuiz from '~/components/slides/plan/planQuiz'
 import continuePopup from '~/components/continuePopup'
 export default {
   data() {
     return {
-      modalArray: ["purpose", "alignworkplan", "partsofwp", "threesixty", "completedraft", "completewp", "adjustwp", "reallife", "quiz"]
+      modalArray: ["Introduction", "HRAuthorities", "HRDelegation", "InRealLife", "Quiz"]
     }
   },
   components: {
     microlearning,
     videoPlayer,
-    planLinks,
-    test360,
-    partsOfWorkPlan,
-    prepareWorkPlan,
-    completeWorkplan,
-    adjustWorkplan,
+    HRAutorities,
     planQuiz,
     continuePopup
   },
@@ -378,36 +333,27 @@ export default {
 </style>
 <i18n>{
   "en":{
-  "gotIt":"Continue to next segment",
   "gotItContent": "Pop-ups will appear throughout the course to indicate what comes next, such as a video, an exercise, a list of links or a job aid.",
   "activityLinks":"Reference: External Links",
   "gotoLinks":"For more information, feel free to consult the following links. These links are also available in the Toolbox.",
-  "partsofWPTitle":"Activity: Parts of a Work Plan",
-  "completewpDrafttitle":"Activity: Prepare a Work Plan",
-  "completewptitle":"Activity: Complete the Work Plan",
-  "adjustwptitle":"Activity: Adjust the Work plan",
-  "scan360Title":"Apply the 360° scan",
+  "hrAuthoritiesTitle": "Activity: Recognize delegated authorities",
+  "hrDelegationTitle": "",
   "InRealLife":"In Real Life",
-  "IRLText":"<p>Take what you have learned into real life!</p><p>Your organization will have their own ways of doing things. Take a time-out from the course to scan your intranet to see which templates are used.</p><p>Connect with your colleagues, your director, or financial officer, and chat about work plans.</p> ",
   "TakeTheQuiz":"Take the Quiz",
   "transcriptText":"",
-  "planSectionBar": "PLAN"
+  "planSectionBar": "DESIGN FOUNDATION"
   },
   "fr":{
   "TakeTheQuiz":"Répondez au questionnaire",
   "activityLinks":"Référence : Liens externes",
   "gotoLinks":"Pour plus d'information, veuillez consulter les liens suivants. Ces liens sont également disponibles dans la boîte à outils.",
-  "partsofWPTitle":"Activité : Parties d’un plan de travail",
-  "completewpDrafttitle":"Activité : Préparer un plan de travail",
-  "completewptitle":"Activité : Compléter le plan de travail",
-  "adjustwptitle":"Activité : Ajuster le plan de travail",
-  "scan360Title":"Activité : Aperçu à 360 degrés",
-  "InRealLife":"Dans la vraie vie",
+  "hrAuthoritiesTitle": "",
+  "hrDelegationTitle": "",
   "IRLText":"<p>Appliquez maintenant ce que vous avez appris - dans la vraie vie!</p>  <p>Votre organisation aura sa propre fa&ccedil;on de faire les choses. Prenez le temps de consulter l’intranet pour voir quels mod&egrave;les sont utilisés.</p>  <p>Communiquez avec vos coll&egrave;gues, votre directeur ou votre agent financier pour discuter des plans de travail. </p>",
   "gotIt":"Passer au segment suivant.",
   "gotItContent": "Les fenêtres contextuelles apparaissent tout au long du cours pour indiquer ce qui vient ensuite comme une vidéo, un exercice, une liste de liens ou une aide à l’emploi.",
   "transcriptText":"",
-  "planSectionBar": "PLANIFICATION"
+  "planSectionBar": "DESIGN"
   }
   }
 </i18n>
