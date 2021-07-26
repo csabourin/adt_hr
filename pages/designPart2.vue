@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="pageTitle">
-      {{ $t('CreateBudget')}}
+      {{ $t('HRPlanning')}}
     </h1>
     <section>
       <b-row>
@@ -220,58 +220,40 @@
     </section>
     <div>
         <continue-popup id="purpose"></continue-popup>
-        <b-modal no-stacking id="financialCycle" @hide="resumePlay()" okOnly>
+        <b-modal no-stacking id="Introduction" @hide="resumePlay()" okOnly>
             <template v-slot:modal-header="{ close }">
                 <h3 class="h5">
-                    <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('financialCycle')}}
+                    <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('activityLinks')}}
                 </h3>
                 <button type="button" aria-label="Close" class="close" @click="close()">×</button>
             </template>
-            <b-row align-h="center">
-              <b-col cols="12" md="4" class="text-center">
-                <download :texts="$t('cycle')" size=128 iconColor="Scan360Background" :fileSize="this.$i18n.locale == 'en' ? '61.6' : '62,6'" name="cycle" />
-              </b-col>
-            </b-row>
+            <div v-if="$i18n.locale=='fr'">
+              <p>Here is a list of resources referred to in this section.</p>
+              <ul>
+                <li><a href="" target="_blank" alt=""></a></li>
+                <li><a href="" target="_blank" alt=""></a></li>
+                <li><a href="" target="_blank" alt=""></a></li>
+              </ul>
+            </div>
+            <div v-if="$i18n.locale=='en'">
+              <p>Take a look at this resource, which guide HR activities in a variety of areas.</p>
+              <ul>
+                <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32621&section=html" target="_blank" alt="Policy on People Management">Policy on People Management</a></li>
+                <li><a href="https://www.canada.ca/en/privy-council/campaigns/speech-throne/2020/speech-from-the-throne.html" target="_blank" alt="Speech from the Throne">Speech from the Throne</a></li>
+                <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/planned-government-spending/reports-plans-priorities.html" target="_blank" alt="Departmental Plans">Departmental Plans</a></li>
+                <li><a href="https://www.canada.ca/en/privy-council/corporate/reports-publications.html" target="_blank" alt="Annual report from the Clerk of the Privy Council">Annual report from the Clerk of the Privy Council</a></li>
+              </ul>
+            </div>
             <template v-slot:modal-ok>{{$t('close')}}</template>
         </b-modal>
-        <b-modal no-stacking id="budgetKeyTerms" @hide="resumePlay()" size="xl" okOnly>
+        <b-modal no-stacking id="overviewHRPlanning" @hide="resumePlay()" size="xl" okOnly>
             <template v-slot:modal-header="{ close }">
                 <h3 class="h5">
-                    <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('AnalyzeBudgetKT')}}
+                    <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('overviewTitle')}}
                 </h3>
                 <button type="button" aria-label="Close" class="close" @click="close()">×</button>
             </template>
-            <AnalyzeBudgetKT />
-            <template v-slot:modal-ok>{{$t('close')}}</template>
-        </b-modal>
-        <b-modal id="budgetAnalyze" @hide="resumePlay()" size="xl" okOnly>
-            <template v-slot:modal-header="{ close }">
-                <h3 class="h5">
-                    <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('budgetAnalyzeActivity')}}
-                </h3>
-                <button type="button" aria-label="Close" class="close" @click="close()">×</button>
-            </template>
-            <budgetAnalyzeActivity />
-            <template v-slot:modal-ok>{{$t('close')}}</template>
-        </b-modal>
-        <b-modal id="forecastBudget" @hide="resumePlay()" size="xl" okOnly>
-            <template v-slot:modal-header="{ close }">
-                <h3 class="h5">
-                    <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('forecastBudgetTitle')}}
-                </h3>
-                <button type="button" aria-label="Close" class="close" @click="close()">×</button>
-            </template>
-            <budgetForecastActivity />
-            <template v-slot:modal-ok>{{$t('close')}}</template>
-        </b-modal>
-        <b-modal no-stacking id="submitBudget" @hide="resumePlay()" size="xl" okOnly>
-            <template v-slot:modal-header="{ close }">
-                <h3 class="h5">
-                    <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('submitBudgetTitle')}}
-                </h3>
-                <button type="button" aria-label="Close" class="close" @click="close()">×</button>
-            </template>
-            <submitBudget />
+            <planningOverview />
             <template v-slot:modal-ok>{{$t('close')}}</template>
         </b-modal>
         <b-modal no-stacking id="reallife" @hide="resumePlay()" okOnly>
@@ -300,14 +282,14 @@
                 </h3>
                 <button type="button" aria-label="Close" class="close" @click="close()">×</button>
             </template>
-            <budgetQuiz />
+            <part2Quiz />
             <template v-slot:modal-ok>{{$t('close')}}</template>
         </b-modal>
     </div>
     <div class="bottomNav planSection">
       <div class="planSectionBar"><span>{{$t('planSectionBar')}}</span></div>
-      <microlearning path="designPart1" imagePath="BuildWP.svg" size="140" time="20" :completion="$store.state.currentPlaying.buildWP_player" :text="$t('BuildWorkPlan')" type="video" />
-      <microlearning youAreHere size="140" path="designPart2" time="20" :completion="$store.state.currentPlaying.createBudget_player" imagePath="CreateBud.svg" :text="$t('CreateBudget')" type="video" />
+      <microlearning path="designPart1" imagePath="BuildWP.svg" size="140" time="20" :completion="$store.state.currentPlaying.buildWP_player" :text="$t('HRDelegation')" type="video" />
+      <microlearning youAreHere size="140" path="designPart2" time="20" :completion="$store.state.currentPlaying.createBudget_player" imagePath="CreateBud.svg" :text="$t('HRPlanning')" type="video" />
       <microlearning path="designKey" time="5" size="140" :completion="$store.state.currentPlaying.kmPlan" imagePath="KeyMessP.svg" :text="$t('KeyMessages')" :highlighted="chosenScenario == 'refresh'" type="keyMessages" />
       <microlearning size="140" path="exam1" time="15" :completion="parseInt($store.getters['plan/getScore'],10)" imagePath="P-Test.svg" :text="$t('Test')" :highlighted="chosenScenario == 'justExam'" type="exam" questionNum="20" />
     </div>
@@ -316,28 +298,22 @@
 <script type="text/javascript">
 import videoPlayer from '~/components/interface/videoPlayer'
 import microlearning from '~/components/microlearning'
-import budgetAnalyzeActivity from '~/components/slides/plan/budgetAnalyseActivity'
-import budgetForecastActivity from '~/components/slides/plan/budgetForecastActivity'
-import AnalyzeBudgetKT from '~/components/slides/plan/AnalyzeBudgetKT'
-import submitBudget from '~/components/slides/plan/submitBudget'
-import budgetQuiz from '~/components/slides/plan/budgetQuiz'
+import planningOverview from '~/components/slides/design/designPart2Overview'
+import part2Quiz from '~/components/slides/design/designPart2Quiz'
 import continuePopup from '~/components/continuePopup'
 import download from "~/components/fileDownload"
 import HTMLJobaidLink from "~/components/HTMLJobaidLink"
 export default {
   data() {
     return {
-      modalArray: ["purpose", "financialCycle", "budgetKeyTerms", "budgetAnalyze", "forecastBudget","submitBudget", "reallife", "quiz"]
+      modalArray: ["Introduction", "overviewHRPlanning", "reallife", "quiz"]
     }
   },
   components: {
     videoPlayer,
     microlearning,
-    AnalyzeBudgetKT,
-    budgetAnalyzeActivity,
-    budgetForecastActivity,
-    submitBudget,
-    budgetQuiz,
+    planningOverview,
+    part2Quiz,
     continuePopup,
     download,
     HTMLJobaidLink
@@ -389,6 +365,8 @@ export default {
 <i18n>{
   "en":{
   "TakeTheQuiz":"Take the Quiz",
+  "activityLinks":"Reference: External Links",
+  "overviewTitle": "Activity: Overview of HR Planning",
   "submitBudgetTitle":"Activity: Submit and Adjust your Budget",
   "adjustwptitle":"Activity: Adjust the Work plan",
   "AnalyzeBudgetKT":"Activity: Analyze a Budget - Key Terms",
@@ -396,15 +374,16 @@ export default {
   "budgetAnalyzeActivity":"Activity: Analyze Available Information",
   "forecastBudgetTitle":"Activity: Forecast Your Budget Requirements",
   "InRealLife":"In Real Life",
-  "IRLText":"<p>Your organization will have their own ways of doing budget requirements. Take time out from the course and talk to your financial management advisor and director. Ask them:&nbsp;</p><ul><li>Do we have a budget template?</li><li>What budgets do we have?</li><ul><li>Operating, which includes Salary and O&amp;M</li><li>Operating and Gs&amp;Cs</li><li>Operating and Capital</li></ul><li>Is the capital budget managed centrally or by each manager?</li></ul>",
+  "IRLText":"<p><b>To supplement the knowledge required to perform HR planning, be sure to complete this additional course:</b></p><ul><li>The Introduction to Integrated Business and Human Resources planning (H300).</li></ul><p>This course will provide a more in-depth look at HR planning to help you perform your duties in this area.</p>",
   "gotIt":"Continue to next segment",
   "jumpModalPartsWP":"Jump to activity",
   "playSegment":"Play video segment",
   "transcriptText":"",
-  "planSectionBar": "PLAN"
+  "planSectionBar": "DESIGN FOUNDATION"
   },
   "fr":{
   "TakeTheQuiz":"Répondez au questionnaire",
+  "activityLinks":"Référence : Liens externes",
   "completewptitle":"Activité : Compléter le plan de travail",
   "adjustwptitle":"Activité : Ajuster le plan de travail",
   "AnalyzeBudgetKT":"Activité : Analyser un budget - Termes clés",
@@ -418,7 +397,7 @@ export default {
   "jumpModalPartsWP":"Sauter à l’activité",
   "playSegment":"Faire jouer le segment vidéo",
   "transcriptText":"",
-  "planSectionBar": "PLANIFICATION"
+  "planSectionBar": "DESIGN"
   }
   }
 </i18n>

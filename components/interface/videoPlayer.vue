@@ -162,14 +162,14 @@ export default {
       changeButton: false,
       popups: {
         designPart1: {
-          references: [1],
-          infos: [0],
-          quiz: [8]
+          references: [],
+          infos: [],
+          quiz: [4]
         },
         createBudget: {
-          references: [1],
-          infos: [0],
-          quiz: [7]
+          references: [],
+          infos: [],
+          quiz: [4]
         },
         spendPart1: {
           references: [],

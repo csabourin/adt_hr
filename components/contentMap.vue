@@ -344,7 +344,7 @@ contentMap.closed h2.colorBar1, contentMap.closed h2.colorBar2, contentMap.close
   .color1 h2, .color2 h2, .color3 h2{
     transform: rotate(-90deg);
     transform-origin: right top;
-    font-size: 13px;
+    font-size: 11px;
     position: absolute;
     line-height: 60px;
     top: 0%;
