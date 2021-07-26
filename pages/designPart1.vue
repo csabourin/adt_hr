@@ -216,7 +216,7 @@
         </h3>
         <button type="button" aria-label="Close" class="close" @click="close()">×</button>
       </template>
-      
+      <HRDelegation />
       <template v-slot:modal-ok>{{$t('close')}}</template>
     </b-modal>
     <b-modal no-stacking id="InRealLife" @hide="resumePlay()" okOnly>
@@ -251,7 +251,7 @@
         </h3>
         <button type="button" aria-label="Close" class="close" @click="close()">×</button>
       </template>
-      
+      <designPart1Quiz />
       <template v-slot:modal-ok>{{$t('close')}}</template>
     </b-modal>
   </div>
@@ -269,7 +269,8 @@
 import videoPlayer from '~/components/interface/videoPlayer'
 import microlearning from '~/components/microlearning'
 import HRAutorities from '~/components/slides/design/designPart1HRAuthorities'
-import planQuiz from '~/components/slides/plan/planQuiz'
+import HRDelegation from '~/components/slides/design/designPart1HRDelegation'
+import designPart1Quiz from '~/components/slides/design/designPart1Quiz'
 import continuePopup from '~/components/continuePopup'
 export default {
   data() {
@@ -281,7 +282,8 @@ export default {
     microlearning,
     videoPlayer,
     HRAutorities,
-    planQuiz,
+    HRDelegation,
+    designPart1Quiz,
     continuePopup
   },
   methods: {
@@ -337,7 +339,7 @@ export default {
   "activityLinks":"Reference: External Links",
   "gotoLinks":"For more information, feel free to consult the following links. These links are also available in the Toolbox.",
   "hrAuthoritiesTitle": "Activity: Recognize delegated authorities",
-  "hrDelegationTitle": "",
+  "hrDelegationTitle": "Activity: Identify levels of authority required to approve specific HR requests",
   "InRealLife":"In Real Life",
   "TakeTheQuiz":"Take the Quiz",
   "transcriptText":"",
