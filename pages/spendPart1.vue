@@ -148,66 +148,171 @@
       </b-container>
     </section>
     <div>
-        <b-modal no-stacking id="checkYourBudget" @hide="resumePlay()" size="xl" okOnly>
-            <template v-slot:modal-header="{ close }">
-                <h3 class="h5">
-                    <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('checkBudget')}}
-                </h3>
-                <button type="button" aria-label="Close" class="close" @click="close()">×</button>
-            </template>
-            <checkBudget />
-            <template v-slot:modal-ok>{{$t('close')}}</template>
-        </b-modal>
-        <b-modal id="delegAuth" @hide="resumePlay()" size="xl" okOnly>
-            <template v-slot:modal-header="{ close }">
-                <h3 class="h5">
-                    <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('delegateAuthority')}}
-                </h3>
-                <button type="button" aria-label="Close" class="close" @click="close()">×</button>
-            </template>
-            <delegAuthority />
-            <template v-slot:modal-ok>{{$t('close')}}</template>
-        </b-modal>
-        <b-modal id="spendMechanisms" @hide="resumePlay()" size="xl" okOnly>
-            <template v-slot:modal-header="{ close }">
-                <h3 class="h5">
-                    <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('forecastBudgetTitle')}}
-                </h3>
-                <button type="button" aria-label="Close" class="close" @click="close()">×</button>
-            </template>
-            <spendMechanisms />
-            <template v-slot:modal-ok>{{$t('close')}}</template>
-        </b-modal>
-        <b-modal no-stacking id="spendS32tryIt" @hide="resumePlay()" size="xl" okOnly>
-            <template v-slot:modal-header="{ close }">
-                <h3 class="h5">
-                    <img src="~/assets/QuizIcon.svg" :alt="$t('quizIcon')" width="32" height="32"> {{$t('tryItTitle')}}
-                </h3>
-                <button type="button" aria-label="Close" class="close" @click="close()">×</button>
-            </template>
-            <spendS32tryIt />
-            <template v-slot:modal-ok>{{$t('close')}}</template>
-        </b-modal>
-        <b-modal no-stacking id="RecordingFinancialSystem" @hide="resumePlay()" size="xl" okOnly>
-            <template v-slot:modal-header="{ close }">
-                <h3 class="h5">
-                    <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('RecordingTitle')}}
-                </h3>
-                <button type="button" aria-label="Close" class="close" @click="close()">×</button>
-            </template>
-            <RecordingFinancialSystem />
-            <template v-slot:modal-ok>{{$t('close')}}</template>
-        </b-modal>
-        <b-modal no-stacking id="quiz" @hide="resumePlay()" size="xl" okOnly>
-            <template v-slot:modal-header="{ close }">
-                <h3 class="h5">
-                    <img src="~/assets/QuizIcon.svg" :alt="$t('quizIcon')" width="32" height="32"> {{$t('TakeTheQuiz')}}
-                </h3>
-                <button type="button" aria-label="Close" class="close" @click="close()">×</button>
-            </template>
-            <budgetQuiz />
-            <template v-slot:modal-ok>{{$t('close')}}</template>
-        </b-modal>
+      <b-modal no-stacking id="Introduction" @hide="resumePlay()" okOnly>
+      <template v-slot:modal-header="{ close }">
+        <h3 class="h5">
+          <img src="~/assets/InfoIcon.svg" :alt="$t('infoIcon')" width="32" height="32">
+          {{ $t('activityLinks') }}
+        </h3>
+        <button type="button" aria-label="Close" class="close" @click="close()">×</button>
+      </template>
+      <div v-if="$i18n.locale=='fr'">
+        <p>Here is a list of resources referred to in this section.</p>
+        <ul>
+          <li><a href="" target="_blank" alt=""></a></li>
+          <li><a href="" target="_blank" alt=""></a></li>
+          <li><a href="" target="_blank" alt=""></a></li>
+        </ul>
+      </div>
+      <div v-if="$i18n.locale=='en'">
+        <p>Here is a list of resources referred to in this section.</p>
+        <ul>
+          <li><a href="https://laws-lois.justice.gc.ca/eng/acts/F-11/" target="_blank" alt="Financial Administration Act (FAA)">Financial Administration Act (FAA)</a></li>
+          <li><a href="https://laws-lois.justice.gc.ca/eng/acts/h-6/" target="_blank" alt="Canadian Human Rights Act">Canadian Human Rights Act</a></li>
+          <li><a href="https://www.tbs-sct.gc.ca/pol/topic-sujet-eng.aspx?ta=40" target="_blank" alt="Policy on People Management">Policy on People Management</a></li>
+          <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=28698" target="_blank" alt="Directive on Classification">Directive on Classification</a></li>
+          <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=28699" target="_blank" alt="Directive on Classification Oversight">Directive on Classification Oversight</a></li>
+          <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=28698" target="_blank" alt="Directive on Classification Grievances">Directive on Classification Grievances</a></li>
+          <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/collective-agreements/occupational-groups/occupational-groups-bargaining-agent-representation.html" target="_blank" alt="Occupational groups by bargaining agent representation">Occupational groups by bargaining agent representation</a></li>
+        </ul>
+      </div>
+      <template v-slot:modal-ok>{{$t('close')}}</template>
+    </b-modal>
+    <b-modal no-stacking id="organizationClassification" @hide="resumePlay()" size="xl" okOnly>
+      <template v-slot:modal-header="{ close }">
+        <h3 class="h5">
+          <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('hrAuthoritiesTitle')}}
+        </h3>
+        <button type="button" aria-label="Close" class="close" @click="close()">×</button>
+      </template>
+      <div v-if="$i18n.locale=='en'">
+        <p>Most represented employees are governed by one of three main unions.</p>
+        <ul>
+          <li>Public Service Alliance of Canada (PSAC)</li>
+          <li>Professional Institute of the Public Service of Canada (PIPSC)</li>
+          <li>Canadian Association of Professional Employees (CAPE)</li>
+        </ul>
+        <p>Some specific trades are governed by other unions, as indicated on the occupational group structure chart, while a small number of classifications are unrepresented.</p>
+        <p><b>Take a look at the Occupational Group Structure for a visual representation of the occupational groups and bargaining agents.</b></p>
+        <p>IMAGE MISSING</p>
+        <p><b>For an accessible web version, see <a href="https://www.canada.ca/en/treasury-board-secretariat/services/collective-agreements/occupational-groups/occupational-groups-bargaining-agent-representation.html" target="_blank" alt="Link to accessible web version of the Occupational groups by bargaining agent representation page">Occupational groups by bargaining agent representation</a></b></p>
+      </div>
+      <template v-slot:modal-ok>{{$t('close')}}</template>
+    </b-modal>
+    <b-modal no-stacking id="organizationalDesign" @hide="resumePlay()" size="xl" okOnly>
+      <template v-slot:modal-header="{ close }">
+        <h3 class="h5">
+          <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('hrAuthoritiesTitle')}}
+        </h3>
+        <button type="button" aria-label="Close" class="close" @click="close()">×</button>
+      </template>
+      <organizationalDesign />
+      <template v-slot:modal-ok>{{$t('close')}}</template>
+    </b-modal>
+    <b-modal no-stacking id="rolesResponsibilities" @hide="resumePlay()" size="xl" okOnly>
+      <template v-slot:modal-header="{ close }">
+        <h3 class="h5">
+          <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('hrAuthoritiesTitle')}}
+        </h3>
+        <button type="button" aria-label="Close" class="close" @click="close()">×</button>
+      </template>
+      <div v-if="$i18n.locale=='en'">
+        <p>Managers have a number of key organization and classification responsibilities, including:</p>
+        <ul>
+          <li>successfully completing the required training before exercising organizational design and classification responsibilities</li>
+          <li>seeking advice from persons accredited in organizational design and classification when proposing organization and classification changes, including changes to job descriptions</li>
+          <li>maintaining accurate organizational structures and current job descriptions for their area of responsibility</li>
+          <li>ensuring that employees are notified each time a classification decision is rendered for the position they occupy</li>
+        </ul>
+        <p>Refer to the <a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=28700" target="_blank" alt="Link to the Directive on Classification web page">Directive on Classification</a> to fully understand your duties as a delegated manager.</p>
+      </div>
+      <template v-slot:modal-ok>{{$t('close')}}</template>
+    </b-modal>
+    <b-modal no-stacking id="Authorities" @hide="resumePlay()" size="xl" okOnly>
+      <template v-slot:modal-header="{ close }">
+        <h3 class="h5">
+          <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('hrAuthoritiesTitle')}}
+        </h3>
+        <button type="button" aria-label="Close" class="close" @click="close()">×</button>
+      </template>
+      <authorities />
+      <template v-slot:modal-ok>{{$t('close')}}</template>
+    </b-modal>
+    <b-modal no-stacking id="roleofOrganizationHR" @hide="resumePlay()" size="xl" okOnly>
+      <template v-slot:modal-header="{ close }">
+        <h3 class="h5">
+          <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('hrAuthoritiesTitle')}}
+        </h3>
+        <button type="button" aria-label="Close" class="close" @click="close()">×</button>
+      </template>
+      <div v-if="$i18n.locale=='en'">
+        <p>Organization and classification decisions have implications for every other HR discipline, as well as your budget.</p>
+        <p>IMAGE MISSING</p>
+        <div role="tablist" class="transcriptionBox">
+              <b-card no-body class="mb-1">
+                <b-card-header header-tag="header" class="p-1" role="tab">
+                  <b-button block href="#" v-b-toggle.cbTranscript-2 variant="light">{{$t('imageDescription')}}</b-button>
+                </b-card-header>
+                <b-collapse id="cbTranscript-2" role="tabpanel">
+                  <b-card-body>
+                    <b-card-text>
+                      <span v-if="$i18n.locale=='en'">
+                        <p>Resourcing begins with writing or revising a job description. The HR advisor will review and evaluate the job description to render a classification decision. Then, Resourcing (staffing) will work with you to create a statement of merit criteria.</p>
+                        <p>Pay and Benefits covers collective agreements, rates of pay, and associated benefits that are associated with each position.</p>
+                        <p>Labour Relations may be implicated if an employee disagrees with their job description, assigned work activities or the effective date of the classification decision.</p>
+                        <p>Performance Management covers an employee’s performance objectives, which are tied to the activities determined by their superior. These objectives are linked to the job description and evaluated regularly.</p>
+                        <p>The type of training associated with a position should be recommended in light of the duties of the position as set out in the job description.</p>
+                        <p>Official languages as described in the <a href="https://laws-lois.justice.gc.ca/eng/acts/o-3.01/" target="_blank" alt="Link to the Official Languages Act web page"><i>Official Languages Act</i></a> and the Treasury Board of Canada Secretariat’s <a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=26160" target="_blank" alt="Link to the Policy on Official Languages web page">Policy on Official Languages</a> govern a public servant’s obligation to provide communications and services to the public in both official languages and to respect language-of-work rights.</p>
+                        <p>The identification of bilingual positions is based on the organization’s official languages obligations, its official languages strategy, as well as an objective assessment of the work to be performed.</p>
+                        <p>Integrated HR planning is the foundation for assessing and understanding your current and future needs. As such, it is a key tool for making HR decisions efficiently and effectively.</p>
+                        <p>Organizational design organizes work in a way to carry out a mandate or achieve business objectives. It is the process of configuring organizational structures to align an organization’s processes, systems, technology, culture and people with its ultimate goals. It is part of integrated planning and provides an opportunity to review and revise various components of the work, to ensure the organization is able to meet its mandate and carry out its business objectives successfully.</p>
+                      </span>
+                      <span v-if="$i18n.locale=='fr'">
+                                                
+                      </span>
+                    </b-card-text>
+                  </b-card-body>
+                </b-collapse>
+              </b-card>
+            </div>
+      </div>
+      <template v-slot:modal-ok>{{$t('close')}}</template>
+    </b-modal>
+    <b-modal no-stacking id="InRealLife" @hide="resumePlay()" okOnly>
+      <template v-slot:modal-header="{ close }">
+        <h3 class="h5">
+          <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32">
+          {{$t('InRealLife')}}
+        </h3>
+        <button type="button" aria-label="Close" class="close" @click="close()">×</button>
+      </template>
+      <b-row align-h="center">
+            <b-col cols="12" md="9">
+              <img src="~/assets/inRealLifeBudget.svg" alt="" class="img-fluid" style="margin-bottom: 15px; margin-top: 10px;">
+            </b-col>
+          </b-row>
+      <b-row>
+        <b-col>
+          <div v-if="$i18n.locale=='en'">
+            <p>Take what you have learned into real life!</p>
+            <p>To supplement the knowledge required to perform your organization and classification functions, be sure to complete the course Introduction to Organization and Classification (P930).</p>
+            <p>This mandatory course is the first step in the training and accreditation of public servants working and specializing in classification.</p>
+          </div>
+        </b-col>
+      </b-row>
+      <template v-slot:modal-ok>{{$t('close')}}</template>
+    </b-modal>
+    <b-modal no-stacking id="Quiz" @hide="resumePlay()" size="xl" okOnly>
+      <template v-slot:modal-header="{ close }">
+        <h3 class="h5">
+          <img src="~/assets/QuizIcon.svg" :alt="$t('quizIcon')" width="32" height="32">
+          {{$t('TakeTheQuiz')}}
+        </h3>
+        <button type="button" aria-label="Close" class="close" @click="close()">×</button>
+      </template>
+      <functionPart1Quiz />
+      <template v-slot:modal-ok>{{$t('close')}}</template>
+    </b-modal>
     </div>
     <div class="bottomNav spendSection">
       <div class="spendSectionBar"><span>{{$t('spendSectionBar')}}</span></div>
@@ -222,25 +327,21 @@
 <script type="text/javascript">
 import videoPlayer from '~/components/interface/videoPlayer'
 import microlearning from '~/components/microlearning'
-import checkBudget from '~/components/slides/spend/checkBudget'
-import delegAuthority from '~/components/slides/spend/delegAuthority'
-import spendMechanisms from '~/components/slides/spend/spendMechanisms'
-import RecordingFinancialSystem from '~/components/slides/spend/RecordingFinancialSystem'
-import spendS32tryIt from '~/components/slides/spend/spendS32tryIt'
+import organizationalDesign from '~/components/slides/function/functionPart1OrgDesign'
+import authorities from '~/components/slides/function/functionPart1Authorities'
+import functionPart1Quiz from '~/components/slides/function/functionPart1Quiz'
 export default {
   data() {
     return {
-      modalArray: ["checkYourBudget", "delegAuth", "spendMechanisms", "RecordingFinancialSystem","spendS32tryIt"]
+      modalArray: ["Introduction", "organizationClassification", "organizationalDesign", "rolesResponsibilities", "Authorities", "roleofOrganizationHR", "InRealLife", "Quiz"]
     }
   },
   components: {
     videoPlayer,
     microlearning,
-    delegAuthority,
-    checkBudget,
-    spendMechanisms,
-    spendS32tryIt,
-    RecordingFinancialSystem
+    organizationalDesign,
+    authorities,
+    functionPart1Quiz
   },
   computed:{
     thatPoint(){
@@ -397,6 +498,7 @@ button.accessibilityButton {
 <i18n>{
   "en":{
   "TakeTheQuiz":"Take the Quiz",
+  "imageDescription": "Text description of the graphic",
   "tryItTitle":"Activity: Try it!",
   "adjustwptitle":"Activity: Adjust the Work plan",
   "delegateAuthority":"Activity: Delegation of Authority",
