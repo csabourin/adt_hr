@@ -171,10 +171,10 @@ export default {
           infos: [],
           quiz: [4]
         },
-        spendPart1: {
+        functionPart1: {
           references: [],
           infos: [],
-          quiz: [4]
+          quiz: [7]
         },
         spendPart2: {
           references: [],
@@ -279,8 +279,8 @@ export default {
           return this.popups.designPart1.references;
         case "createBudget":
           return this.popups.createBudget.references;
-        case "spendPart1":
-          return this.popups.spendPart1.references;
+        case "functionPart1":
+          return this.popups.functionPart1.references;
         case "spendPart2":
           return this.popups.spendPart2.references;
         case "spendPart3":
@@ -301,8 +301,8 @@ export default {
           return this.popups.designPart1.infos;
         case "createBudget":
           return this.popups.createBudget.infos;
-        case "spendPart1":
-          return this.popups.spendPart1.infos;
+        case "functionPart1":
+          return this.popups.functionPart1.infos;
         case "spendPart2":
           return this.popups.spendPart2.infos;
         case "spendPart3":
@@ -323,8 +323,8 @@ export default {
           return this.popups.designPart1.quiz;
         case "createBudget":
           return this.popups.createBudget.quiz;
-        case "spendPart1":
-          return this.popups.spendPart1.quiz;
+        case "functionPart1":
+          return this.popups.functionPart1.quiz;
         case "spendPart2":
           return this.popups.spendPart2.quiz;
         case "spendPart3":

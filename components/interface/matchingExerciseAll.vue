@@ -15,21 +15,23 @@
             <li class="questions" v-for="(item,index) in this.questionList" :key="'question'+index">
               <div style="flex: 1 1 0;">
                 <label :for="'select'+index">{{item[0]}}</label>
-                <select :id="'select'+index" v-model="Answered[item[1]]" @change="Submitted[item[1]]=false">
+                <select :id="'select'+index" v-model="Answered[item[1]]" @change="Submitted=false">
+                  <option value="false" selected disabled>{{$t("defaultOption")}}</option>
                   <option v-for="(option,index) in AnswerList" :aria-labelledby="index !== 0 ? 'AnswerKey'+(index) : ''" :value="index" :disabled="!index" :selected="index===0">{{option}}</option>
                 </select>
               </div>
-              <div style="flex: 0 0 auto;">
-                <b-button :disabled="!Answered[item[1]] || Submitted[item[1]]" @click="submitAnswer(item[1])">{{(exam)?$t('submitTo'):$t('submit')}}</b-button>
-              </div>
-              <div style="flex: 0 0 100%; margin-top: 15px;" aria-live="polite">
-                <p v-if="Submitted[item[1]]">
-                  <span class="v-right" v-if="Answered[item[1]]==parseInt(item[1])+1" > Correct!</span>
-                  <span class="v-wrong" v-if="Answered[item[1]]!=parseInt(item[1])+1" > Incorrect <span v-html="question.conclusion"></span></span>
-                </p>
-              </div>
+              
             </li>
           </ul>
+            <div style="flex: 0 0 auto;">
+                <b-button :disabled="Answered.length != questionList.length || Submitted" @click="Submitted = true">{{(exam)?$t('submitTo'):$t('submit')}}</b-button>
+            </div>
+            <div style="flex: 0 0 100%; margin-top: 15px;" aria-live="polite">
+              <p v-if="Submitted">
+                <span class="v-right" v-if="allCorrect" > Correct!</span>
+                <span class="v-wrong" v-else > Incorrect <span v-html="question.conclusion"></span></span>
+              </p>
+            </div>
         </b-col>
       </b-row>
     </b-container>
@@ -45,8 +47,8 @@ function genCharArray(charA, num) {  var a = [" "],    i = charA.charCodeAt(0), 
 export default {
   data() {
     return {
-      Answered: {},
-      Submitted: {}
+      Answered: [],
+      Submitted: false
     }
   },
   props: {
@@ -79,6 +81,15 @@ export default {
         list.push([this.question.dotsLeft[a], a])
       }
       return list.sort(() => Math.random() - 0.5)
+    },
+    allCorrect() {
+      var allCorrect = true
+      for(var i = 0; i<this.Answered.length; i++){
+        if (this.Answered[i]!=parseInt(i)+1){
+          allCorrect = false
+        }
+      }
+      return allCorrect
     }
   },
   methods:{
@@ -94,11 +105,13 @@ export default {
   {
   "en":{
   "instructions":"Match the term to the definition.",
-  "incomplete":"Please answer every questions"
+  "incomplete":"Please answer every questions",
+  "defaultOption" : "Please select an option"
   },
   "fr":{
   "instructions":"Faites correspondre le terme à la définition.",
-  "incomplete":"Veuillez répondre à chaque question."
+  "incomplete":"Veuillez répondre à chaque question.",
+  "defaultOption": "Veuillez choisir une réponse"
   }
   }
 </i18n>

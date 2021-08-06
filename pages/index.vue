@@ -84,7 +84,7 @@
         <hr class="planHr">
         <h2 class="sideTitle spendTitle">{{$t('spend')}}</h2>
         <div role="navigation" class="courseSection spendSection" :style="{ backgroundImage: `url(${spendbgBarUrl})` }" :aria-label="$t('spend') + ' - Navigation'">
-          <microlearning imagePath="InitiateAuthSpending.svg" path="spendPart1" time="20" :text="$t('OrganizationClassification')"  :completion="$store.state.currentPlaying.spendPart1_player" type="video" />
+          <microlearning imagePath="InitiateAuthSpending.svg" path="functionPart1" time="20" :text="$t('OrganizationClassification')"  :completion="$store.state.currentPlaying.spendPart1_player" type="video" />
           <microlearning imagePath="ExerciseFinancialAuthority.svg" path="spendPart2" time="20" :text="$t('ExerciseFinancialAuthority')"  :completion="$store.state.currentPlaying.spendPart2_player" type="video" />
           <microlearning time="20" path="spendPart3" imagePath="MonitContFinances.svg" :text="$t('MonitorControlFinances')"  :completion="$store.state.currentPlaying.spendPart3_player" type="video" />
           <microlearning path="spendKey" time="5" imagePath="KeyMessS.svg" :text="$t('KeyMessagesSpend')" :completion="$store.state.currentPlaying.kmSpend" :highlighted="chosenScenario == 'refresh'" type="keyMessages" />

@@ -40,7 +40,7 @@
 <script type="text/javascript">
 	import checkboxQuiz from "~/components/checkboxQuiz"
 	import radioQuiz from "~/components/radioQuiz"
-    import matchingExercise from "~/components/interface/matchingExercise"
+    import matchingExercise from "~/components/interface/matchingExerciseAll"
 	export default{
 		components:{
 			checkboxQuiz,
@@ -67,16 +67,16 @@
   "matchInstructions": "Making the links between organization and classification and other HR disciplines will help guide you in the following activities. Match the sentence segments.",
     "q1": {
       "dotsRight": [
-        "Creating or classifying a position in line with the organization’s mandate",
-        "Planning positions according to the organization’s future needs",
-        "Validating the job descriptions before staffing a position"
+        "Ensuring that job descriptions are accurate and up to date",
+        "Appropriately identifying the official languages requirements of a position",
+        "Ensuring that a classification decision is rendered for new and revised job descriptions"
       ],
       "dotsLeft": [
-        "will enable you to deliver your product or service",
-        "will help meet the organization’s objectives (and mandate)",
-        "will ensure that the current classification decision is still applicable to each position"
-      ]
-      
+        "will help avoid grievances",
+        "will ensure that the employee can deliver the product or service effectively",
+        "must be done before hiring"
+      ],
+      "conclusion": "test"
     },
     "q2": {
       "dotsRight": [
@@ -88,7 +88,8 @@
         "will help avoid grievances",
         "will ensure that the employee can deliver the product or service effectively",
         "must be done before hiring"
-      ]
+      ],
+      "conclusion": "test"
     },
     "q3": {
       "text": "Organization and classification decisions are made with the same accountability as other financial transactions.",
