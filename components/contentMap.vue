@@ -32,13 +32,13 @@
               <nuxt-link :to="localePath('functionPart1')" v-html="$t('OrganizationClassification')" />
             </li>
             <li role="menuitem">
-              <nuxt-link :to="localePath('spendPart2')" v-html="$t('ExerciseFinancialAuthority')" />
+              <nuxt-link :to="localePath('functionPart2')" v-html="$t('DiversityInclusion')" />
             </li>
             <li role="menuitem">
-              <nuxt-link :to="localePath('spendPart3')" v-html="$t('MonitorControlFinances')" />
+              <nuxt-link :to="localePath('functionPart3')" v-html="$t('Staffing')" />
             </li>
             <li role="menuitem">
-              <nuxt-link :to="localePath('spendKey')" v-html="$t('KeyMessagesSpend')" />
+              <nuxt-link :to="localePath('functionKey')" v-html="$t('KeyMessagesSpend')" />
             </li>
             <li role="menuitem">
               <nuxt-link :to="localePath('exam2')" v-html="$t('TestSpend')" />

@@ -23,7 +23,12 @@
               
             </li>
           </ul>
-            <div style="flex: 0 0 auto;">
+            
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col>
+          <div style="flex: 0 0 auto;">
                 <b-button :disabled="Answered.length != questionList.length || Submitted" @click="Submitted = true">{{(exam)?$t('submitTo'):$t('submit')}}</b-button>
             </div>
             <div style="flex: 0 0 100%; margin-top: 15px;" aria-live="polite">

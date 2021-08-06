@@ -316,10 +316,10 @@
     </div>
     <div class="bottomNav spendSection">
       <div class="spendSectionBar"><span>{{$t('spendSectionBar')}}</span></div>
-      <microlearning youAreHere path="spendPart1" imagePath="InitiateAuthSpending.svg" size="140" time="20" :completion="$store.state.currentPlaying.spendPart1_player" :text="$t('OrganizationClassification')" type="video" />
-      <microlearning path="spendPart2"  imagePath="ExerciseFinancialAuthority.svg" size="140" time="20" :completion="$store.state.currentPlaying.spendPart2_player" :text="$t('ExerciseFinancialAuthority')" type="video" />
-      <microlearning path="spendPart3" size="140" time="20" :completion="$store.state.currentPlaying.spendPart3_player" imagePath="MonitContFinances.svg" :text="$t('MonitorControlFinances')" type="video" />
-      <microlearning path="spendKey" time="5" size="140" :completion="$store.state.currentPlaying.kmSpend" imagePath="KeyMessS.svg" :text="$t('KeyMessages')" :highlighted="chosenScenario == 'refresh'" type="keyMessages" />
+      <microlearning youAreHere path="functionPart1" imagePath="InitiateAuthSpending.svg" size="140" time="20" :completion="$store.state.currentPlaying.spendPart1_player" :text="$t('OrganizationClassification')" type="video" />
+      <microlearning path="functionPart2"  imagePath="ExerciseFinancialAuthority.svg" size="140" time="20" :completion="$store.state.currentPlaying.spendPart2_player" :text="$t('DiversityInclusion')" type="video" />
+      <microlearning path="functionPart3" size="140" time="20" :completion="$store.state.currentPlaying.spendPart3_player" imagePath="MonitContFinances.svg" :text="$t('Staffing')" type="video" />
+      <microlearning path="functionKey" time="5" size="140" :completion="$store.state.currentPlaying.kmSpend" imagePath="KeyMessS.svg" :text="$t('KeyMessages')" :highlighted="chosenScenario == 'refresh'" type="keyMessages" />
       <microlearning path="exam2" size="140" time="15" imagePath="S-Test.svg" :text="$t('Test')" :completion="parseInt($store.getters['spend/getScore'],10)" :highlighted="chosenScenario == 'justExam'" type="exam" questionNum="20" />
     </div>
   </div>
@@ -507,7 +507,7 @@ button.accessibilityButton {
   "RecordingTitle":"Activity: Recording in the Financial System",
   "gotIt":"Continue to next segment",
   "transcriptText":"",
-  "spendSectionBar": "SPEND"
+  "spendSectionBar": "FUNCTION AND PROCESS"
   },
   "fr":{
   "TakeTheQuiz":"Répondez au questionnaire",

@@ -67,16 +67,16 @@
   "matchInstructions": "Making the links between organization and classification and other HR disciplines will help guide you in the following activities. Match the sentence segments.",
     "q1": {
       "dotsRight": [
-        "Ensuring that job descriptions are accurate and up to date",
-        "Appropriately identifying the official languages requirements of a position",
-        "Ensuring that a classification decision is rendered for new and revised job descriptions"
+        "Creating or classifying a position in line with the organization’s mandate",
+        "Planning positions according to the organization’s future needs",
+        "Validating the job descriptions before staffing a position"
       ],
       "dotsLeft": [
-        "will help avoid grievances",
-        "will ensure that the employee can deliver the product or service effectively",
-        "must be done before hiring"
+        "will enable you to deliver your product or service",
+        "will help meet the organization’s objectives (and mandate)",
+        "will ensure that the current classification decision is still applicable to each position"
       ],
-      "conclusion": "test"
+      "conclusion": "<ul><li>Creating or classifying a position in line with the organization’s mandate will enable you to deliver your product or service</li><li>Planning positions according to the organization’s future needs will help meet the organization’s objectives (and mandate)</li><li>Validating the job description before staffing a position will ensure that the current classification decision is still applicable to each position</li></ul>"
     },
     "q2": {
       "dotsRight": [
@@ -89,7 +89,7 @@
         "will ensure that the employee can deliver the product or service effectively",
         "must be done before hiring"
       ],
-      "conclusion": "test"
+      "conclusion": "<ul><li>Ensuring that job descriptions are accurate and up to date will help avoid grievances</li><li>Appropriately identifying the OL requirements of a position will ensure that the employee can deliver the product or service effectively.</li><li>Ensuring that a classification decision is rendered for new and revised job descriptions must be done before hiring</li></ul>"
     },
     "q3": {
       "text": "Organization and classification decisions are made with the same accountability as other financial transactions.",

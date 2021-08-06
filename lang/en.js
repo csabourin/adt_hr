@@ -42,6 +42,7 @@ export default {
   HRDelegation: "Human Resources Delegation",
   HRPlanning: "Human Resources Planning",
   OrganizationClassification: "Organization and Classification",
+  DiversityInclusion: "EE Diversity and Inclusion",
   BuildWorkPlan: "Build a Work Plan",
   CreateBudget: "Create a Budget",
   InitiateAuthorizeSpending: "Initiate and Authorize Commitments",
