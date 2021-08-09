@@ -149,34 +149,109 @@
       </b-container>
     </section>
     <div>
-        <b-modal no-stacking id="CertificationAuthority" @hide="resumePlay()" size="xl" okOnly>
+        <b-modal no-stacking id="EquityDiversityInclusion" @hide="resumePlay()" size="xl" okOnly>
             <template v-slot:modal-header="{ close }">
                 <h3 class="h5">
-                    <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('CertAuthorityTitle')}}
+                    <img src="~/assets/infoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('EmploymentEquityTitle')}}
                 </h3>
                 <button type="button" aria-label="Close" class="close" @click="close()">×</button>
             </template>
-            <CertificationAuthority />
+              <div v-if="$i18n.locale=='en'">
+                <p>References:</p>
+                <ul>
+                  <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32634&section=html" target="_blank" alt="Link to the Directive on Duty to Accommodate web page">Directive on Duty to Accommodate</a></li>
+                  <li><a href="https://laws-lois.justice.gc.ca/eng/acts/A-0.6/" target="_blank" alt="Link to the Accessible Canada Act web page"><i>Accessible Canada Act</i></a></li>
+                  <li><a href="https://www.canada.ca/en/government/publicservice/wellness-inclusion-diversity-public-service/diversity-inclusion-public-service/accessibility-public-service/accessibility-strategy-public-service-toc.html" target="_blank" alt="Link to the Accessibility Strategy for the Public Service of Canada web page">Accessibility Strategy for the Public Service of Canada</a></li>
+                </ul>
+              </div>
+              <div v-if="$i18n.locale=='fr'">
+              </div>
             <template v-slot:modal-ok>{{$t('close')}}</template>
         </b-modal>
-        <b-modal id="AccuracyOfInvoice" @hide="resumePlay()" size="xl" okOnly>
+        <b-modal id="WorkplaceAccommodation" @hide="resumePlay()" size="xl" okOnly>
             <template v-slot:modal-header="{ close }">
                 <h3 class="h5">
-                    <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('AccuracyInvoiceTitle')}}
+                    <img src="~/assets/infoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('WorkplaceAccommodationTitle')}}
                 </h3>
                 <button type="button" aria-label="Close" class="close" @click="close()">×</button>
             </template>
-            <AccuracyInvoice />
+            <div v-if="$i18n.locale=='en'">
+                <p>Watch this short video on how to make hiring more accessibly.<br />
+                <a href=" https://www.csps-efpc.gc.ca/video/disability-inclusion-psc-intro-eng.aspx" target="_blank" alt="Link to the Disability and Inclusion video">https://www.csps-efpc.gc.ca/video/disability-inclusion-psc-intro-eng.aspx</a></p>
+                <p>Be sure to apply legislation, government policies and your organization’s procedures in your role as manager.</p>
+                <ul>
+                  <li><a href="https://laws-lois.justice.gc.ca/eng/acts/e-5.401/page-1.html" target="_blank" alt="Link to the Employment Equity Act web page"><i>Employment Equity Act</i></a></li>
+                  <li><a href="https://www.justice.gc.ca/eng/csj-sjc/rfc-dlc/ccrf-ccdl/" target="_blank" alt="Link to the The Canadian Charter of Rights and Freedoms web page"><i>The Canadian Charter of Rights and Freedoms</i></a></li>
+                  <li><a href="https://laws-lois.justice.gc.ca/eng/Const/page-1.html" target="_blank" alt="Link to the Constitution Act web page"><i>Constitution Act</i></a></li>
+                  <li><a href="https://www.canada.ca/en/privy-council/corporate/clerk/call-to-action-anti-racism-equity-inclusion-federal-public-service.html" target="_blank" alt="Link to the Call to action on anti-racism, equity, and inclusion in the Federal Public Service web page">Call to action on anti-racism, equity, and inclusion in the Federal Public Service</a></li>
+                  <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32634&section=html" target="_blank" alt="Link to the Directive on Duty to Accommodate web page">Directive on Duty to Accommodate</a></li>
+                  <li><a href="https://laws-lois.justice.gc.ca/eng/acts/A-0.6/" target="_blank" alt="Link to the Accessible Canada Act web page"><i>Accessible Canada Act</i></a></li>
+                  <li><a href="https://www.canada.ca/en/government/publicservice/wellness-inclusion-diversity-public-service/diversity-inclusion-public-service/accessibility-public-service/accessibility-strategy-public-service-toc.html" target="_blank" alt="Link to the Accessibility Strategy for the Public Service of Canada web page">Accessibility Strategy for the Public Service of Canada</a></li>
+                </ul>
+              </div>
+              <div v-if="$i18n.locale=='fr'">
+              </div>
           <template v-slot:modal-ok>{{$t('close')}}</template>
         </b-modal>
-        <b-modal id="ProcessingInvoice" @hide="resumePlay()" size="xl" okOnly>
+        <b-modal id="WorkplaceDiscrimination" @hide="resumePlay()" size="xl" okOnly>
             <template v-slot:modal-header="{ close }">
                 <h3 class="h5">
-                    <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('ProcessInvoiceTitle')}}
+                    <img src="~/assets/infoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('WorkplaceDiscriminationTitle')}}
                 </h3>
                 <button type="button" aria-label="Close" class="close" @click="close()">×</button>
             </template>
-            <ProcessInvoice />
+            <div v-if="$i18n.locale=='en'">
+              <p>The Clerk of the Privy Council issued a <a href="https://www.canada.ca/en/privy-council/corporate/clerk/call-to-action-anti-racism-equity-inclusion-federal-public-service.html" target="_blank" alt="Link to the Call to action on anti-racism, equity, and inclusion in the Federal Public Service web page">Call to action on anti-racism, equity, and inclusion in the Federal Public Service</a> in 2020. Take time out of this course to review this call to action and reflect on the role that you can play as a manager in leading change in the public service.</p>
+            </div>
+          <template v-slot:modal-ok>{{$t('close')}}</template>
+        </b-modal>
+        <b-modal id="LevellingPlayingField" @hide="resumePlay()" size="xl" okOnly>
+            <template v-slot:modal-header="{ close }">
+                <h3 class="h5">
+                    <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('LevellingPlayingFieldTitle')}}
+                </h3>
+                <button type="button" aria-label="Close" class="close" @click="close()">×</button>
+            </template>
+            <LevellingPlayingField />
+          <template v-slot:modal-ok>{{$t('close')}}</template>
+        </b-modal>
+        <b-modal id="UnconsciousBiases" @hide="resumePlay()" size="xl" okOnly>
+            <template v-slot:modal-header="{ close }">
+                <h3 class="h5">
+                    <img src="~/assets/infoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('UnconsciousBiasesTitle')}}
+                </h3>
+                <button type="button" aria-label="Close" class="close" @click="close()">×</button>
+            </template>
+            <div v-if="$i18n.locale=='en'">
+              <p>Refer to the School’s <a href="https://www.csps-efpc.gc.ca/anti-racism-eng.aspx" target="_blank" alt="Link to the Anti-Racism Learning Series">Anti-Racism Learning Series</a> for courses, videos, podcasts and other tools to improve your understanding of racism and other systemic barriers.</p>
+            </div>
+          <template v-slot:modal-ok>{{$t('close')}}</template>
+        </b-modal>
+        <b-modal id="InRealLife" @hide="resumePlay()" size="xl" okOnly>
+            <template v-slot:modal-header="{ close }">
+                <h3 class="h5">
+                    <img src="~/assets/infoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('IRLTitle')}}
+                </h3>
+                <button type="button" aria-label="Close" class="close" @click="close()">×</button>
+            </template>
+            <div v-if="$i18n.locale=='en'">
+              <p><b>To supplement the knowledge required to perform your employment equity, diversity, inclusion and accessibility functions, be sure to complete the courses</b></p>
+              <ul>
+                <li>Employment Equity Under the Employment Equity Act (P745)</li>
+                <li>Workplace Accommodation for Federal Public Service Employees (C345)</li>
+              </ul>
+              <p>These courses provide a more in-depth look at employment equity, inclusivity and accommodation to help you perform your duties in this area.</p>
+            </div>
+          <template v-slot:modal-ok>{{$t('close')}}</template>
+        </b-modal>
+        <b-modal id="Quiz" @hide="resumePlay()" size="xl" okOnly>
+            <template v-slot:modal-header="{ close }">
+                <h3 class="h5">
+                    <img src="~/assets/quizIcon.svg" :alt="$t('quizIcon')" width="32" height="32"> {{$t('TakeTheQuiz')}}
+                </h3>
+                <button type="button" aria-label="Close" class="close" @click="close()">×</button>
+            </template>
+            <Quiz />
           <template v-slot:modal-ok>{{$t('close')}}</template>
         </b-modal>
     </div>
@@ -193,21 +268,19 @@
 <script type="text/javascript">
   import videoPlayer from '~/components/interface/videoPlayer'
 import microlearning from '~/components/microlearning'
-import CertificationAuthority from '~/components/slides/spend/Spend2CertificationAuthority'
-import AccuracyInvoice from '~/components/slides/spend/Spend2AccuracyInvoice'
-import ProcessInvoice from '~/components/slides/spend/spendPart2ProcessInvoice'
+import LevellingPlayingField from '~/components/slides/function/functionPart2PlayingField'
+import Quiz from '~/components/slides/function/functionPart2Quiz'
 export default {
   data() {
     return {
-      modalArray: ["CertificationAuthority", "AccuracyOfInvoice", "ProcessingInvoice"]
+      modalArray: ["EquityDiversityInclusion", "WorkplaceAccommodation", "WorkplaceDiscrimination", "LevellingPlayingField", "UnconsciousBiases", "InRealLife", "Quiz"]
     }
   },
   components: {
     videoPlayer,
     microlearning,
-    AccuracyInvoice,
-    CertificationAuthority,
-    ProcessInvoice
+    LevellingPlayingField,
+    Quiz
   },
   computed:{
     thatPoint(){
@@ -364,14 +437,17 @@ button.accessibilityButton {
 <i18n>{
   "en":{
   "TakeTheQuiz":"Take the Quiz",
-  "AccuracyInvoiceTitle":"Activity: Accuracy of Invoice",
-  "CertAuthorityTitle":"Activity: Certification Authority",
-  "ProcessInvoiceTitle":"Activity: Processing the Invoice",
+  "EmploymentEquityTitle":"Activity: Your employment equity, diversity and inclusion responsibilities",
+  "WorkplaceAccommodationTitle":"Activity: Workplace Accommodation",
+  "WorkplaceDiscriminationTitle":"Activity: Workplace Discrimination",
+  "LevellingPlayingFieldTitle":"Activity: Levelling the Playing Field",
+  "UnconsciousBiasesTitle":"Activity: Unconscious Biases",
+  "IRLTitle":"In Real Life",
   "gotIt":"Continue to next segment",
   "jumpModalParts":"Jump to activity",
   "playSegment":"Play video segment",
   "transcriptText":"",
-  "spendSectionBar": "SPEND"
+  "spendSectionBar": "FUNCTION"
   },
   "fr":{
   "TakeTheQuiz":"Répondez au questionnaire",
