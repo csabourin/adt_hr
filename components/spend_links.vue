@@ -27,26 +27,17 @@
     </div>
     <div v-if="$i18n.locale=='en'">
       <div>
-        <h4>Spend</h4>
+        <h4>Function</h4>
         <ul class="list-unstyled">
-          <li><externalLink link="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32495">Policy on Financial Management</externalLink></li>
-          <li><externalLink link="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32503">Directive on Delegation of Spending and Financial Authorities</externalLink>
-            <ul>
-              <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32584&amp;section=html">Guide to Delegating and Applying Spending and Financial Authorities</externalLink></li>
-              <li><externalLink link="https://papp.csps-efpc.gc.ca/ProdContent/cninv000000000015255/index_en.html">Delegation of Spending and Financial Signing Authorities Chart</externalLink> (Link to a sample chart)</li>
-            </ul>
-          </li>
-          <li><externalLink link="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=27228">Directive on Travel, Hospitality, Conference and Event Expenditures</externalLink>
-            <ul>
-              <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32553">Guide to Travel, Hospitality, Conference and Event Expenditures</externalLink></li>
-              <li><externalLink link="https://www.njc-cnm.gc.ca/directive/d10/en">National Joint Council (NJC) Travel Directive</externalLink></li>
-              <li><externalLink link="https://www.gcpedia.gc.ca/wiki/Financial_Management_Policy_Suite/Conference_versus_training">Determination of training vs. conferences</externalLink></li>
-            </ul>
-          </li>
-          <li><externalLink link="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32504">Directive on Payments</externalLink></li>
-          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=14662">Relocation Directive, NJC</externalLink></li>
-          <li><externalLink link="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32502">Directive on Charging and Special Financial Authorities</externalLink></li>
-          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32505">Directive on Public Money and Receivables</externalLink></li>
+          <li><externalLink link="https://www.canada.ca/en/public-service-commission/services/appointment-framework.html">Public Service Commission’s Appointment Framework</externalLink></li>
+          <li><externalLink link="https://www.canada.ca/en/public-service-commission/services/appointment-framework/appointment-policy.html">Public Service Commission’s Appointment Policy</externalLink></li>
+          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/(S(e021jvamqbhco5551teiyz55))/doc-eng.aspx?id=32621">Policy on People Management</externalLink></li>
+          <li><externalLink link="https://laws-lois.justice.gc.ca/eng/acts/e-5.401/"><i>Employment Equity Act</i></externalLink></li>
+          <li><externalLink link="https://laws-lois.justice.gc.ca/eng/acts/A-0.6/"><i>Accessible Canada Act</i></externalLink></li>
+          <li><externalLink link="https://lois-laws.justice.gc.ca/eng/acts/P-33.01/FullText.html"><i>Public Service Employment Act</i></externalLink></li>
+          <li><externalLink link="https://laws-lois.justice.gc.ca/eng/acts/f-11/"><i>Financial Administration Act</i></externalLink></li>
+          <li><externalLink link="https://www.canada.ca/en/public-service-commission/services/appointment-framework/delegation-overview/appointment-delegation-accountability-instrument.html">Appointment Delegation and Accountability Instrument</externalLink></li>
+          <li>Public Service Commission – <externalLink link="https://www.canada.ca/en/public-service-commission/services/appointment-framework/guides-tools-appointment-framework.html">Guides and Tools</externalLink></li>
         </ul>
       </div>
     </div>

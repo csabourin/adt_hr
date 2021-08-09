@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="pageTitle" v-html="$t('MonitorControlFinances')" />
+    <h1 class="pageTitle" v-html="$t('Staffing')" />
     <section>
       <b-row>
         <b-col>
@@ -108,44 +108,74 @@
       </b-container>
     </section>
     <div>
-      <b-modal no-stacking id="ContinuousMonitoring" @hide="resumePlay()" size="xl" okOnly>
+      <b-modal no-stacking id="Introduction" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('ContinuousMonitoringTitle')}}
+            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('IntroductionTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
-        <ContinuousMonitoring />
+        <functionLinks />
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
-      <b-modal id="DataComparison" @hide="resumePlay()" size="xl" okOnly>
+      <b-modal id="StaffingNeeds" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('DataComparisonTitle')}}
+            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('StaffingNeedsTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
-        <DataComparison />
+        
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
-      <b-modal id="YearEndProcedures" @hide="resumePlay()" size="xl" okOnly>
+      <b-modal id="StaffingObligations" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('YearEndProceduresTitle')}}
+            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('StaffingObligationsTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
-        <YearEndProcedures />
+        
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
-      <b-modal id="spendQuizModal" @hide="resumePlay()" size="xl" okOnly>
+      <b-modal id="InclusiveHiring" @hide="resumePlay()" size="xl" okOnly>
+        <template v-slot:modal-header="{ close }">
+          <h3 class="h5">
+            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('InclusiveHiringTitle')}}
+          </h3>
+          <button type="button" aria-label="Close" class="close" @click="close()">×</button>
+        </template>
+        
+        <template v-slot:modal-ok>{{$t('close')}}</template>
+      </b-modal>
+      <b-modal id="StaffingPosition" @hide="resumePlay()" size="xl" okOnly>
+        <template v-slot:modal-header="{ close }">
+          <h3 class="h5">
+            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('StaffingPositionTitle')}}
+          </h3>
+          <button type="button" aria-label="Close" class="close" @click="close()">×</button>
+        </template>
+        
+        <template v-slot:modal-ok>{{$t('close')}}</template>
+      </b-modal>
+      <b-modal id="InRealLife" @hide="resumePlay()" size="xl" okOnly>
+        <template v-slot:modal-header="{ close }">
+          <h3 class="h5">
+            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('IRLTitle')}}
+          </h3>
+          <button type="button" aria-label="Close" class="close" @click="close()">×</button>
+        </template>
+        
+        <template v-slot:modal-ok>{{$t('close')}}</template>
+      </b-modal>
+      <b-modal id="Quiz" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
             <img src="~/assets/QuizIcon.svg" :alt="$t('quizIcon')" width="32" height="32"> {{$t('TakeTheQuiz')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
-        <spendQuiz />
+        
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
     </div>
@@ -162,6 +192,7 @@
 <script type="text/javascript">
 import videoPlayer from '~/components/interface/videoPlayer'
 import microlearning from '~/components/microlearning'
+import functionLinks from '~/components/spend_links'
 import ContinuousMonitoring from '~/components/slides/spend/spendPart3ContinuousMonitoring'
 import DataComparison from '~/components/slides/spend/spendPart3DataComparison'
 import YearEndProcedures from '~/components/slides/spend/spendPart3YearEnd'
@@ -169,12 +200,13 @@ import spendQuiz from '~/components/slides/spend/spendPart3Quiz'
 export default {
   data() {
     return {
-      modalArray: ["ContinuousMonitoring", "DataComparison", "YearEndProcedures", "spendQuizModal"]
+      modalArray: ["Introduction","StaffingNeeds","StaffingObligations","InclusiveHiring","StaffingPosition","InRealLife","Quiz"]
     }
   },
   components: {
     videoPlayer,
     microlearning,
+    functionLinks,
     ContinuousMonitoring,
     DataComparison,
     YearEndProcedures,
