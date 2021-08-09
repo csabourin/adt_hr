@@ -16,17 +16,12 @@
             <p v-html="$t('matchInstructions')" />
             <matchingExercise :question="$t('q2')" qId="2" :feedback="$t('q2.feedback')" />
         </b-tab>
-      <b-tab title="Question 3">
-            <br />
-            <p v-html="$t('matchInstructions')" />
-            <matchingExercise :question="$t('q3')" qId="3" :feedback="$t('q3.feedback')" />
-      </b-tab>
     </b-tabs>
           <!-- Control buttons-->
       <div class="text-center">
         <b-button-group :aria-label="$t('questionNav')" class="mt-2">
           <b-button @click="[tabIndex--, focus()]" :disabled="tabIndex<=0">{{$t('previousPage')}}</b-button>
-          <b-button @click="[tabIndex++, focus()]" :disabled="tabIndex>=2">{{$t('nextPage')}}</b-button>
+          <b-button @click="[tabIndex++, focus()]" :disabled="tabIndex>=1">{{$t('nextPage')}}</b-button>
         </b-button-group>
       </div>
 </b-card>
@@ -39,7 +34,7 @@
 <script type="text/javascript">
 	import checkboxQuiz from "~/components/checkboxQuiz"
 	import radioQuiz from "~/components/radioQuiz"
-    import matchingExercise from "~/components/interface/matchingExercise"
+    import matchingExercise from "~/components/interface/matchingExerciseAll"
 	export default{
 		components:{
 			checkboxQuiz,
@@ -62,50 +57,31 @@
 </script>
 <i18n>{
   "en": {
-  "instructions":"Now that you know more about organization and classification, test your knowledge by answering the following questions.",
-  "matchInstructions": "Identify the type of staffing process.",
+  "instructions":"Consult the hyperlinked guidance documents to match each one to a statement.",
+  "matchInstructions": "<ul><li><a href='https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32635&section=html' target='_blank' alt='Link to the Directive on Employment Equity, Diversity and Inclusion web page'>Directive on Employment Equity, Diversity and Inclusion</a></li><li><a href='https://www.canada.ca/en/public-service-commission/services/appointment-framework/federal-public-service-inclusive-appointment-lens.html' target='_blank' alt='Link to the Federal Public Service Inclusive Appointment Lens web page'>Federal Public Service Inclusive Appointment Lens</a></li><li><a href='https://www.canada.ca/en/public-service-commission/services/appointment-framework/guides-tools-appointment-framework/qa-staffing-options-support-ee-di-under-psac.html' target='_blank' alt='Link to the Staffing options to support employment equity, and diversity and inclusion, under the Public Service Employment Act – Questions and answers web page'>Staffing options to support employment equity, and diversity and inclusion, under the <i>Public Service Employment Act</i> – Questions and answers</a></li></ul>",
     "q1": {
       "dotsRight": [
-        "Open to the public and public servants",
-        "Exempted from the application of merit, priority appointments and other provisions under the PSEA",
-        "Open only to public servants. These appointments are used for acting assignments, promotions and other types of recruitment within the public service.",
-        "An appointment for a specific period, governed by the TBS Term Employment Policy"
+        "Directive on Employment Equity, Diversity and Inclusion",
+        "Federal Public Service Inclusive Appointment Lens",
+        "Staffing options to support employment equity, and diversity and inclusion, under the Public Service Employment Act – Questions and answers"
       ],
       "dotsLeft": [
-        "External Appointment",
-        "Student Appointment",
-        "Internal Appointment",
-        "Term Employment"
+        "Expects such results as a workplace where no person is denied employment opportunities for reasons unrelated to ability or job requirements.",
+        "Provides guidance on ensuring an equitable, diverse and inclusive workforce.",
+        "Tells us there are no provisions in the Employment Equity Act or the Employment Equity Regulations which address “diversity” or “inclusion.”"
       ],
       "conclusion": ""
     },
     "q2": {
       "dotsRight": [
-        "A temporary appointment to a higher-level position available to term and indeterminate employees.",
-        "Transferring to another position at level or below, within or between organizations; this person no longer occupies their previous position.",
-        "Used for capacity building or career development, this is the temporary movement of an employee to another organization.",
-        "Moving to another position at level or below, within or between organizations, this person still occupies their previous position."
+        "Directive on Employment Equity, Diversity and Inclusion",
+        "Federal Public Service Inclusive Appointment Lens",
+        "Staffing options to support employment equity, and diversity and inclusion, under the Public Service Employment Act – Questions and answers"
       ],
       "dotsLeft": [
-        "Acting Appointment",
-        "Deployment",
-        "Assignment",
-        "Secondment"
-      ],
-      "conclusion": ""
-    },
-    "q3": {
-      "dotsRight": [
-        "Used for job enrichment, talent management or a skills exchange, these full- or part-time assignments take place in the private, public and not-for-profit sectors in Canada and internationally.",
-        "Used to meet short-term operational requirements; merit and eligibility for internal appointment processes do not apply to these workers.",
-        "Used to meet short-term operational requirements these workers are employees of a firm that is hired to provide services on a temporary basis.",
-        "Moving to another position at level or below, within or between organizations, this person still occupies their previous position."
-      ],
-      "dotsLeft": [
-        "Interchange Canada",
-        "Casual",
-        "Temporary Help",
-        "Appointment of a person with priority Appointment"
+        "Outlines mandatory procedures for employment equity, diversity and inclusion.",
+        "Offers self-reflection questions to uncover biases.",
+        "Offers answers to frequently asked question on the topic of diversity, equity and inclusion."
       ],
       "conclusion": ""
     }

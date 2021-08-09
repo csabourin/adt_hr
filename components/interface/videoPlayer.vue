@@ -181,10 +181,10 @@ export default {
           infos: [0, 1, 2, 4, 5],
           quiz: [6]
         },
-        spendPart3: {
+        functionPart3: {
           references: [],
-          infos: [],
-          quiz: [3]
+          infos: [0, 2, 4, 5],
+          quiz: [6]
         },
         reportPart1: {
           references: [],
@@ -283,8 +283,8 @@ export default {
           return this.popups.functionPart1.references;
         case "functionPart2":
           return this.popups.functionPart2.references;
-        case "spendPart3":
-          return this.popups.spendPart3.references;
+        case "functionPart3":
+          return this.popups.functionPart3.references;
         case "reportPart1":
           return this.popups.reportPart1.references;
         case "reportPart2":
@@ -305,8 +305,8 @@ export default {
           return this.popups.functionPart1.infos;
         case "functionPart2":
           return this.popups.functionPart2.infos;
-        case "spendPart3":
-          return this.popups.spendPart3.infos;
+        case "functionPart3":
+          return this.popups.functionPart3.infos;
         case "reportPart1":
           return this.popups.reportPart1.infos;
         case "reportPart2":
@@ -327,8 +327,8 @@ export default {
           return this.popups.functionPart1.quiz;
         case "functionPart2":
           return this.popups.functionPart2.quiz;
-        case "spendPart3":
-          return this.popups.spendPart3.quiz;
+        case "functionPart3":
+          return this.popups.functionPart3.quiz;
         case "reportPart1":
           return this.popups.reportPart1.quiz;
         case "reportPart2":

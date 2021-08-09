@@ -111,7 +111,7 @@
       <b-modal no-stacking id="Introduction" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('IntroductionTitle')}}
+            <img src="~/assets/infoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('IntroductionTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
@@ -125,17 +125,20 @@
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
-        
+        <staffingNeeds />
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
       <b-modal id="StaffingObligations" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('StaffingObligationsTitle')}}
+            <img src="~/assets/infoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('StaffingObligationsTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
-        
+        <div v-if="$i18n.locale=='en'">
+          <p>Watch this video, which provides an overview of hiring decisions in the public service</p>
+          <p><a href="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_a99j37rq/flavorId/0_43vicyi5/name/a.mp4" target="_blank">Who Makes Hiring Decisions in the Public Service?</a></p>
+        </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
       <b-modal id="InclusiveHiring" @hide="resumePlay()" size="xl" okOnly>
@@ -145,27 +148,47 @@
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
-        
+        <inclusiveHiring />
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
       <b-modal id="StaffingPosition" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('StaffingPositionTitle')}}
+            <img src="~/assets/infoIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('StaffingPositionTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
-        
+        <div v-if="$i18n.locale=='en'">
+          <p>To ensure that you understand certain terms in this section, have a look at the following definitions:</p>
+          <p><b>Bias</b></p>
+          <p>A preconceived and often erroneous opinion, idea or feeling formed without knowledge, thought or reason, either favourable or unfavourable, which prevents objective consideration of a situation, person or issue.</p>
+          <p><b>Unconscious bias</b></p>
+          <p>Subtle, unintentional thoughts, ideas and beliefs.</p>
+          <p><b>Discrimination</b></p>
+          <p>The behavioural manifestation of a conscious or unconscious bias or prejudice</p>
+          <p><b>Appointment based on merit</b></p>
+          <p>An appointment is made on the basis of merit when the hiring manager performs an assessment process and is satisfied that the candidate meets each of the essential qualifications and other merit criteria for the work to be performed.</p>
+          <p><b>Area of selection</b></p>
+          <p>An area of selection establishes who is eligible for an appointment process. The area can be geographic, organizational, occupational or can identify persons belonging to any of the designated employment equity groups identified in the <a href="https://laws-lois.justice.gc.ca/eng/acts/E-5.401" target="_blank" alt="Link to the web page"><i>"Employment Equity Act</i></a>.</p>
+          <p><b>Priority entitlement</b></p>
+          <p>Persons entitled to a priority for appointment are appointed to vacant positions ahead of all others if they meet the essential qualifications.</p>
+          <p><b>Duty to accommodate</b></p>
+          <p>The <i>Canadian Human Rights Act</i> requires employers and service providers to accommodate people’s needs when those needs relate to one of the 11 grounds of discrimination.</p>
+        </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
       <b-modal id="InRealLife" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('IRLTitle')}}
+            <img src="~/assets/infoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('IRLTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
-        
+        <div v-if="$i18n.locale=='en'">
+          <p><b>To supplement the knowledge required to perform your staffing functions, be sure to complete this additional course:</b></p>
+          <ul><li>Basics of Staffing in the Public Service (H200 Modules 1 and 2)</li></ul>
+          <p>This course will provide a more in-depth look at staffing to help you perform your duties in this area.</p>
+        </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
       <b-modal id="Quiz" @hide="resumePlay()" size="xl" okOnly>
@@ -193,10 +216,8 @@
 import videoPlayer from '~/components/interface/videoPlayer'
 import microlearning from '~/components/microlearning'
 import functionLinks from '~/components/spend_links'
-import ContinuousMonitoring from '~/components/slides/spend/spendPart3ContinuousMonitoring'
-import DataComparison from '~/components/slides/spend/spendPart3DataComparison'
-import YearEndProcedures from '~/components/slides/spend/spendPart3YearEnd'
-import spendQuiz from '~/components/slides/spend/spendPart3Quiz'
+import staffingNeeds from '~/components/slides/function/functionPart3StaffingNeeds'
+import inclusiveHiring from '~/components/slides/function/functionPart3InclusiveHiring'
 export default {
   data() {
     return {
@@ -207,10 +228,8 @@ export default {
     videoPlayer,
     microlearning,
     functionLinks,
-    ContinuousMonitoring,
-    DataComparison,
-    YearEndProcedures,
-    spendQuiz
+    staffingNeeds,
+    inclusiveHiring
   },
   computed: {
     thatPoint() {
@@ -265,14 +284,16 @@ export default {
 <i18n>{
   "en":{
   "TakeTheQuiz":"Take the Quiz",
-  "DataComparisonTitle":"Activity: Data Comparison",
-  "ContinuousMonitoringTitle":"Activity: Continuous Monitoring",
-  "YearEndProceduresTitle":"Activity: Year-End Procedures",
-  "gotIt":"Continue to next segment",
+  "IntroductionTitle": "Introduction",
+  "StaffingNeedsTitle":"Activity: Staffing Needs",
+  "StaffingObligationsTitle": "Activity: Staffing Obligations",
+  "InclusiveHiringTitle": "Activity: Inclusive Hiring",
+  "StaffingPositionTitle": "Activity: Staffing your position",
+  "IRLTitle": "In Real Life",
   "jumpModalParts":"Jump to activity",
   "playSegment":"Play video segment",
   "transcriptText":"",
-  "spendSectionBar": "SPEND"
+  "spendSectionBar": "FUNCTION"
   },
   "fr":{
   "TakeTheQuiz":"Répondez au questionnaire",
