@@ -152,7 +152,7 @@
         <b-modal no-stacking id="EquityDiversityInclusion" @hide="resumePlay()" size="xl" okOnly>
             <template v-slot:modal-header="{ close }">
                 <h3 class="h5">
-                    <img src="~/assets/infoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('EmploymentEquityTitle')}}
+                    <img src="~/assets/ReferenceIcon.svg" :alt="$t('ReferenceIcon')" width="32" height="32"> {{$t('EmploymentEquityTitle')}}
                 </h3>
                 <button type="button" aria-label="Close" class="close" @click="close()">×</button>
             </template>
@@ -171,7 +171,7 @@
         <b-modal id="WorkplaceAccommodation" @hide="resumePlay()" size="xl" okOnly>
             <template v-slot:modal-header="{ close }">
                 <h3 class="h5">
-                    <img src="~/assets/infoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('WorkplaceAccommodationTitle')}}
+                    <img src="~/assets/ReferenceIcon.svg" :alt="$t('ReferenceIcon')" width="32" height="32"> {{$t('WorkplaceAccommodationTitle')}}
                 </h3>
                 <button type="button" aria-label="Close" class="close" @click="close()">×</button>
             </template>
@@ -196,7 +196,7 @@
         <b-modal id="WorkplaceDiscrimination" @hide="resumePlay()" size="xl" okOnly>
             <template v-slot:modal-header="{ close }">
                 <h3 class="h5">
-                    <img src="~/assets/infoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('WorkplaceDiscriminationTitle')}}
+                    <img src="~/assets/ReferenceIcon.svg" :alt="$t('ReferenceIcon')" width="32" height="32"> {{$t('WorkplaceDiscriminationTitle')}}
                 </h3>
                 <button type="button" aria-label="Close" class="close" @click="close()">×</button>
             </template>
@@ -218,7 +218,7 @@
         <b-modal id="UnconsciousBiases" @hide="resumePlay()" size="xl" okOnly>
             <template v-slot:modal-header="{ close }">
                 <h3 class="h5">
-                    <img src="~/assets/infoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('UnconsciousBiasesTitle')}}
+                    <img src="~/assets/ReferenceIcon.svg" :alt="$t('ReferenceIcon')" width="32" height="32"> {{$t('UnconsciousBiasesTitle')}}
                 </h3>
                 <button type="button" aria-label="Close" class="close" @click="close()">×</button>
             </template>
@@ -230,7 +230,7 @@
         <b-modal id="InRealLife" @hide="resumePlay()" size="xl" okOnly>
             <template v-slot:modal-header="{ close }">
                 <h3 class="h5">
-                    <img src="~/assets/infoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('IRLTitle')}}
+                    <img src="~/assets/ReferenceIcon.svg" :alt="$t('ReferenceIcon')" width="32" height="32"> {{$t('IRLTitle')}}
                 </h3>
                 <button type="button" aria-label="Close" class="close" @click="close()">×</button>
             </template>
