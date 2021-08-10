@@ -198,7 +198,7 @@
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
-        
+        <Quiz />
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
     </div>
@@ -218,6 +218,7 @@ import microlearning from '~/components/microlearning'
 import functionLinks from '~/components/spend_links'
 import staffingNeeds from '~/components/slides/function/functionPart3StaffingNeeds'
 import inclusiveHiring from '~/components/slides/function/functionPart3InclusiveHiring'
+import Quiz from '~/components/slides/function/functionPart3Quiz'
 export default {
   data() {
     return {
@@ -229,7 +230,8 @@ export default {
     microlearning,
     functionLinks,
     staffingNeeds,
-    inclusiveHiring
+    inclusiveHiring,
+    Quiz
   },
   computed: {
     thatPoint() {
