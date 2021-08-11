@@ -53,10 +53,10 @@
               <nuxt-link :to="localePath('valuesPart2')" v-html="$t('ValuesEthics')" />
             </li>
             <li role="menuitem">
-              <nuxt-link :to="localePath('valuesPart3')" v-html="$t('ConductPeriodicVarianceReporting')" />
+              <nuxt-link :to="localePath('valuesPart3')" v-html="$t('OfficialLanguages')" />
             </li>
             <li role="menuitem">
-              <nuxt-link :to="localePath('valuesPart4')" v-html="$t('ContributeReporting')" />
+              <nuxt-link :to="localePath('valuesPart4')" v-html="$t('PoliticalActivities')" />
             </li>
             <li role="menuitem">
               <nuxt-link :to="localePath('valuesKey')" v-html="$t('KeyMessagesReport')" />

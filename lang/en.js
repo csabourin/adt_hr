@@ -46,6 +46,8 @@ export default {
   Staffing: "Staffing",
   LabourRelations: "Labour Relations",
   ValuesEthics: "Values and Ethics",
+  OfficialLanguages: "Official Languages",
+  PoliticalActivities: "Political Activities",
   BuildWorkPlan: "Build a Work Plan",
   CreateBudget: "Create a Budget",
   InitiateAuthorizeSpending: "Initiate and Authorize Commitments",

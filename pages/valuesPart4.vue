@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h2 class="pageTitle" v-html="$t('ValuesEthics')" />
+    <h2 class="pageTitle" v-html="$t('PoliticalActivities')" />
     <section>
       <b-row>
         <b-col>
-          <videoPlayer ref="vp" enVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_u5d1t3f4/flavorId/0_i0r0o0lc/name/a.mp4" frVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_rvohbyn6/flavorId/0_e3qt7rpb/name/a.mp4" chapters chapterFile="ReportPart2.vtt" ccFile="ReportPart2_captions.vtt" posterFile="reportPart2_poster.png" :restartAt="parseInt(thatPoint)" toResume="setReportPart1" :modalArray="modalArray" @timeupdate="updatePercent($event)" />
+          <videoPlayer ref="vp" enVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_u5d1t3f4/flavorId/0_i0r0o0lc/name/a.mp4" frVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_rvohbyn6/flavorId/0_e3qt7rpb/name/a.mp4" chapters chapterFile="valuesPart4.vtt" ccFile="ReportPart2_captions.vtt" posterFile="reportPart2_poster.png" :restartAt="parseInt(thatPoint)" toResume="setReportPart1" :modalArray="modalArray" @timeupdate="updatePercent($event)" />
         </b-col>
       </b-row>
       <b-container>
@@ -109,56 +109,14 @@
         </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
-      <b-modal id="respectPeople" @hide="resumePlay()" size="xl" okOnly>
+      <b-modal id="nonPartisanship" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
             <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('respectPeopleTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
-        <respectPeople />
-        <template v-slot:modal-ok>{{$t('close')}}</template>
-      </b-modal>
-      <b-modal id="harassmentViolence" @hide="resumePlay()" size="xl" okOnly>
-        <template v-slot:modal-header="{ close }">
-          <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('harassmentViolenceTitle')}}
-          </h3>
-          <button type="button" aria-label="Close" class="close" @click="close()">×</button>
-        </template>
-        <harassmentViolence />
-        <template v-slot:modal-ok>{{$t('close')}}</template>
-      </b-modal>
-      <b-modal id="directiveConflictInterest" @hide="resumePlay()" size="xl" okOnly>
-        <template v-slot:modal-header="{ close }">
-          <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('directiveConflictInterestTitle')}}
-          </h3>
-          <button type="button" aria-label="Close" class="close" @click="close()">×</button>
-        </template>
-        <div v-if="$i18n.locale=='en'">
-          <p><b>To supplement the knowledge required to perform delegated HR responsibilities, be sure to complete this additional course:</b></p>
-          <ul>
-            <li>Values and Ethics Foundations for Managers (C355)</li>
-          </ul>
-          <p>This course provides a more in-depth look at values and ethics to help you perform your duties in this area.</p>
-        </div>
-        <template v-slot:modal-ok>{{$t('close')}}</template>
-      </b-modal>
-      <b-modal id="definingWrongdoing" @hide="resumePlay()" size="xl" okOnly>
-        <template v-slot:modal-header="{ close }">
-          <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('definingWrongdoingTitle')}}
-          </h3>
-          <button type="button" aria-label="Close" class="close" @click="close()">×</button>
-        </template>
-        <div v-if="$i18n.locale=='en'">
-          <p>Consult the following resources for more information about the Public Servants Disclosure Protection Act and tips for managers:</p>
-          <ol>
-            <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/values-ethics/disclosure-protection/public-servants-disclosure-protection-act-information-supervisors-all-levels.html" target="_blank" alt="Link to the Information for supervisors at all levels web page">Information for supervisors at all levels</a></li>
-            <li>MISSING IMAGE</li>
-          </ol>
-        </div>
+        
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
       <b-modal id="InRealLife" @hide="resumePlay()" size="xl" okOnly>
@@ -199,9 +157,9 @@
     <div class="bottomNav reportSection">
       <div class="reportSectionBar"><span>{{$t('reportSectionBar')}}</span></div>
       <microlearning :completion="$store.state.currentPlaying.reportPart1_player" path="valuesPart1" imagePath="R-Conduct.svg" size="140" time="20" :text="$t('LabourRelations')" type="video" />
-      <microlearning youAreHere :completion="$store.state.currentPlaying.reportPart2_player" path="valuesPart2" imagePath="R-Contribute.svg" size="140" time="20" :text="$t('ValuesEthics')" type="video" />
+      <microlearning :completion="$store.state.currentPlaying.reportPart2_player" path="valuesPart2" imagePath="R-Contribute.svg" size="140" time="20" :text="$t('ValuesEthics')" type="video" />
       <microlearning :completion="$store.state.currentPlaying.reportPart2_player" path="valuesPart3" imagePath="R-Contribute.svg" size="140" time="20" :text="$t('OfficialLanguages')" type="video" />
-      <microlearning :completion="$store.state.currentPlaying.reportPart2_player" path="valuesPart4" imagePath="R-Contribute.svg" size="140" time="20" :text="$t('PoliticalActivities')" type="video" />
+      <microlearning youAreHere :completion="$store.state.currentPlaying.reportPart2_player" path="valuesPart4" imagePath="R-Contribute.svg" size="140" time="20" :text="$t('PoliticalActivities')" type="video" />
       <microlearning :completion="$store.state.currentPlaying.kmReport" path="valuesKey" size="140" imagePath="KeyMessR.svg" :text="$t('KeyMessages')" time="5" :highlighted="chosenScenario == 'refresh'" type="keyMessages" />
       <microlearning :completion="parseInt($store.getters['report/getScore'],10)" path="exam3" size="140" time="15" imagePath="R-Test.svg" :text="$t('Test')" :highlighted="chosenScenario == 'justExam'" type="exam" questionNum="20" />
     </div>
@@ -210,20 +168,16 @@
 <script type="text/javascript">
 import videoPlayer from '~/components/interface/videoPlayer'
 import microlearning from '~/components/microlearning'
-import respectPeople from '~/components/slides/values/valuesPart2RespectPeople'
-import harassmentViolence from '~/components/slides/values/valuesPart2HarassmentViolence'
 import Quiz from '~/components/slides/values/valuesPart2Quiz'
 export default {
   data() {
     return {
-      modalArray: ["Introduction", "respectPeople", "harassmentViolence", "directiveConflictInterest", "definingWrongdoing", "InRealLife", "Quiz"]
+      modalArray: ["Introduction", "nonPartisanship", "InRealLife", "Quiz"]
     }
   },
   components: {
     videoPlayer,
     microlearning,
-    respectPeople,
-    harassmentViolence,
     Quiz
   },
   computed: {

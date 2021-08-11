@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h2 class="pageTitle" v-html="$t('ValuesEthics')" />
+    <h2 class="pageTitle" v-html="$t('OfficialLanguages')" />
     <section>
       <b-row>
         <b-col>
-          <videoPlayer ref="vp" enVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_u5d1t3f4/flavorId/0_i0r0o0lc/name/a.mp4" frVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_rvohbyn6/flavorId/0_e3qt7rpb/name/a.mp4" chapters chapterFile="ReportPart2.vtt" ccFile="ReportPart2_captions.vtt" posterFile="reportPart2_poster.png" :restartAt="parseInt(thatPoint)" toResume="setReportPart1" :modalArray="modalArray" @timeupdate="updatePercent($event)" />
+          <videoPlayer ref="vp" enVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_u5d1t3f4/flavorId/0_i0r0o0lc/name/a.mp4" frVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_rvohbyn6/flavorId/0_e3qt7rpb/name/a.mp4" chapters chapterFile="valuesPart3.vtt" ccFile="ReportPart2_captions.vtt" posterFile="reportPart2_poster.png" :restartAt="parseInt(thatPoint)" toResume="setReportPart1" :modalArray="modalArray" @timeupdate="updatePercent($event)" />
         </b-col>
       </b-row>
       <b-container>
@@ -89,75 +89,74 @@
           <p>Resources:</p>
           <p><b>Legislation</b></p>
           <ul>
-            <li><a href="https://laws-lois.justice.gc.ca/eng/acts/p-31.9/" target="_blank" alt="Link to the Public Servants Disclosure Protection Act web page"><i>Public Servants Disclosure Protection Act</i></a></li>
-            <li><a href="http://gazette.gc.ca/rp-pr/p2/2020/2020-06-24/html/sor-dors130-eng.html" target="_blank" alt="Link to the Work Place Harassment and Violence Prevention Regulations web page"><i>Work Place Harassment and Violence Prevention Regulations</i></a></li>
+            <li><a href="https://laws-lois.justice.gc.ca/eng/const/page-1.html" target="_blank" alt="Link to the Constitution Act, 1867"><i>Constitution Act, 1867</i></a></li>
+            <li><a href="https://laws-lois.justice.gc.ca/eng/Const/page-12.html" target="_blank" alt="Link to the Constitution Act, 1982, Part 1: Canadian Charter of Rights and Freedoms"><i>Constitution Act, 1982</i>, Part 1: Canadian Charter of Rights and Freedoms</a></li>
+            <li><a href="https://laws-lois.justice.gc.ca/eng/acts/o-3.01/" target="_blank" alt="Link to the Official Languages Act web page"><i>Official Languages Act</i></a></li>
+            <li><a href="https://laws.justice.gc.ca/eng/regulations/sor-92-48/index.html" target="_blank" alt="Link to the Official Languages (Communications with and Services to the Public) Regulations web page">Official Languages (Communications with and Services to the Public) Regulations</a></li>
           </ul>
-          <p><b>Policy Instruments</b></p>
+          <p><b>Treasury Board policy instruments</b></p>
           <ul>
-            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32627" target="_blank" alt="Link to the Directive on Conflict of Interest web page">Directive on Conflict of Interest</a></li>
-            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32671" target="_blank" alt="Link to the	Directive on the Prevention and Resolution of Workplace Harassment and Violence web page">Directive on the Prevention and Resolution of Workplace Harassment and Violence</a></li>
-            <li><a href="https://www.tbs-sct.gc.ca/pol/(S(e021jvamqbhco5551teiyz55))/doc-eng.aspx?id=32621" target="_blank" alt="Link to the Policy on People Management web page">Policy on People Management</a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=26163" target="_blank" alt="Link to the Directive on the Implementation of the Official Languages (Communications with and Services to the Public) Regulations web page">Directive on the Implementation of the Official Languages (Communications with and Services to the Public) Regulations</a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=26164" target="_blank" alt="Link to the Directive on Official Languages for Communications and Services web page">Directive on Official Languages for Communications and Services</a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=26168" target="_blank" alt="Link to the Directive on Official Languages for People Management web page">Directive on Official Languages for People Management</a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=26160" target="_blank" alt="Link to the Policy on Official Languages web page">Policy on Official Languages</a></li>
           </ul>
           <p><b>Other Resources</b></p>
           <ul>
-            <li><a href="https://www.canada.ca/en/employment-social-development/programs/workplace-health-safety/harassment-violence-prevention.html#Examples_of_harassment" target="_blank" alt="Link to the Examples of harassment and violence web page">Examples of harassment and violence</a></li>
-            <li><a href="https://www.canada.ca/en/employment-social-development/programs/workplace-health-safety/harassment-violence-prevention.html" target="_blank" alt="Link to the Requirements for employers to prevent harassment and violence in federally regulated workplaces web page">Requirements for employers to prevent harassment and violence in federally regulated workplaces</a></li>
-            <li><a href="https://www.canada.ca/en/employment-social-development/programs/workplace-health-safety/harassment-violence-prevention/complaints/resolve.html" target="_blank" alt="Link to the Resolve a workplace harassment and violence complaint web page">Resolve a workplace harassment and violence complaint</a></li>
-            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=25049" target="_blank" alt="Link to the Values and Ethics Code for the Public Sector web page">Values and Ethics Code for the Public Sector</a></li>
-            <li><a href="https://www.canada.ca/en/employment-social-development/programs/workplace-health-safety/harassment-violence-prevention.html#What_is_not" target="_blank" alt="Link to the What is not harassment and violence web page">What is not harassment and violence</a></li>
+            <li><a href="https://www.canada.ca/en/public-service-commission/services/appointment-framework/guides-tools-appointment-framework/assessment-official-languages-appointment-process.html" target="_blank" alt="Link to the Assessment of official languages in the appointment process web page">Assessment of official languages in the appointment process</a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/burolis/search-recherche/search-recherche-eng.aspx" target="_blank" alt="Link to the Burolis database web page">Burolis database</a></li>
+            <li><a href="https://www.clo-ocol.gc.ca/html/stu_etu_032011_p7_e.php" target="_blank" alt="Link to the Leadership Competencies Profile for Official Languages web page">Leadership Competencies Profile for Official Languages</a></li>
+            <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/values-ethics/official-languages/list-bilingual-regions-canada-language-of-work-purposes.html" target="_blank" alt="Link to the •	List of Bilingual Regions of Canada for Language-of-Work Purposes web page">List of Bilingual Regions of Canada for Language-of-Work Purposes</a></li>
           </ul>
         </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
-      <b-modal id="respectPeople" @hide="resumePlay()" size="xl" okOnly>
+      <b-modal id="legalFramework" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('respectPeopleTitle')}}
-          </h3>
-          <button type="button" aria-label="Close" class="close" @click="close()">×</button>
-        </template>
-        <respectPeople />
-        <template v-slot:modal-ok>{{$t('close')}}</template>
-      </b-modal>
-      <b-modal id="harassmentViolence" @hide="resumePlay()" size="xl" okOnly>
-        <template v-slot:modal-header="{ close }">
-          <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('harassmentViolenceTitle')}}
-          </h3>
-          <button type="button" aria-label="Close" class="close" @click="close()">×</button>
-        </template>
-        <harassmentViolence />
-        <template v-slot:modal-ok>{{$t('close')}}</template>
-      </b-modal>
-      <b-modal id="directiveConflictInterest" @hide="resumePlay()" size="xl" okOnly>
-        <template v-slot:modal-header="{ close }">
-          <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('directiveConflictInterestTitle')}}
+            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('legalFrameworkTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
         <div v-if="$i18n.locale=='en'">
-          <p><b>To supplement the knowledge required to perform delegated HR responsibilities, be sure to complete this additional course:</b></p>
-          <ul>
-            <li>Values and Ethics Foundations for Managers (C355)</li>
-          </ul>
-          <p>This course provides a more in-depth look at values and ethics to help you perform your duties in this area.</p>
+            <p>The specific responsibilities of managers are defined in the related directives, listed in the policy’s supporting tools:</p>
+            <ul>
+                <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=26163" target="_blank" alt="Link to the Directive on the Implementation of the Official Languages (Communications with and Services to the Public) Regulations web page">Directive on the Implementation of the Official Languages (Communications with and Services to the Public) Regulations</a></li>
+                <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=26164" target="_blank" alt="Link to the Directive on Official Languages for Communications and Services web page">Directive on Official Languages for Communications and Services</a></li>
+                <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=26168" target="_blank" alt="Link to the Directive on Official Languages for People Management web page">Directive on Official Languages for People Management</a></li>
+            </ul>
         </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
-      <b-modal id="definingWrongdoing" @hide="resumePlay()" size="xl" okOnly>
+      <b-modal id="officialLanguages" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('definingWrongdoingTitle')}}
+            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('officialLanguagesTitle')}}
+          </h3>
+          <button type="button" aria-label="Close" class="close" @click="close()">×</button>
+        </template>
+        <officialLanguages />
+        <template v-slot:modal-ok>{{$t('close')}}</template>
+      </b-modal>
+      <b-modal id="languagesResponsibilities" @hide="resumePlay()" size="xl" okOnly>
+        <template v-slot:modal-header="{ close }">
+          <h3 class="h5">
+            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('languagesResponsibilitiesTitle')}}
+          </h3>
+          <button type="button" aria-label="Close" class="close" @click="close()">×</button>
+        </template>
+        <languagesResponsibilities />
+        <template v-slot:modal-ok>{{$t('close')}}</template>
+      </b-modal>
+      <b-modal id="languageRequirements" @hide="resumePlay()" size="xl" okOnly>
+        <template v-slot:modal-header="{ close }">
+          <h3 class="h5">
+            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('languageRequirementsTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
         <div v-if="$i18n.locale=='en'">
-          <p>Consult the following resources for more information about the Public Servants Disclosure Protection Act and tips for managers:</p>
-          <ol>
-            <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/values-ethics/disclosure-protection/public-servants-disclosure-protection-act-information-supervisors-all-levels.html" target="_blank" alt="Link to the Information for supervisors at all levels web page">Information for supervisors at all levels</a></li>
-            <li>MISSING IMAGE</li>
-          </ol>
+          <p>To gain a better understanding of how to perform your duties in this area, consult the web page <a href="https://www.canada.ca/en/public-service-commission/services/appointment-framework/guides-tools-appointment-framework/assessment-official-languages-appointment-process.html" target="_blank" alt="Link to the Assessment of official languages in the appointment process web page">Assessment of official languages in the appointment process</a> for guidance.</p>
         </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
@@ -170,7 +169,8 @@
         </template>
         <img src="~/assets/R-Contribute.svg" class="img-real_Life" alt="">
         <div v-if="$i18n.locale=='en'">
-          <p>When people work together, misunderstandings and conflict are inevitable, but the escalation of issues can be prevented. You have a key role to play in promoting respectful working relationships and in helping to deal with conflict constructively. </p>
+          <p>Take what you have learned into real life!</p>
+          <p>Your organization will have its own ways of doing things. Take a time out from the course to consult the course tool box for a list of the persons responsible for official languages and the official languages champions in institutions subject to the <i>Official Languages Act</i>.</p>
         </div>
         <div v-if="$i18n.locale=='fr'">
           <p>Faites une recherche afin de localiser les profils d’information sur le rendement de votre organisation et ses rapports externes, comme le Rapport ministériel sur les résultats.&nbsp;</p>
@@ -199,8 +199,8 @@
     <div class="bottomNav reportSection">
       <div class="reportSectionBar"><span>{{$t('reportSectionBar')}}</span></div>
       <microlearning :completion="$store.state.currentPlaying.reportPart1_player" path="valuesPart1" imagePath="R-Conduct.svg" size="140" time="20" :text="$t('LabourRelations')" type="video" />
-      <microlearning youAreHere :completion="$store.state.currentPlaying.reportPart2_player" path="valuesPart2" imagePath="R-Contribute.svg" size="140" time="20" :text="$t('ValuesEthics')" type="video" />
-      <microlearning :completion="$store.state.currentPlaying.reportPart2_player" path="valuesPart3" imagePath="R-Contribute.svg" size="140" time="20" :text="$t('OfficialLanguages')" type="video" />
+      <microlearning :completion="$store.state.currentPlaying.reportPart2_player" path="valuesPart2" imagePath="R-Contribute.svg" size="140" time="20" :text="$t('ValuesEthics')" type="video" />
+      <microlearning youAreHere :completion="$store.state.currentPlaying.reportPart2_player" path="valuesPart3" imagePath="R-Contribute.svg" size="140" time="20" :text="$t('OfficialLanguages')" type="video" />
       <microlearning :completion="$store.state.currentPlaying.reportPart2_player" path="valuesPart4" imagePath="R-Contribute.svg" size="140" time="20" :text="$t('PoliticalActivities')" type="video" />
       <microlearning :completion="$store.state.currentPlaying.kmReport" path="valuesKey" size="140" imagePath="KeyMessR.svg" :text="$t('KeyMessages')" time="5" :highlighted="chosenScenario == 'refresh'" type="keyMessages" />
       <microlearning :completion="parseInt($store.getters['report/getScore'],10)" path="exam3" size="140" time="15" imagePath="R-Test.svg" :text="$t('Test')" :highlighted="chosenScenario == 'justExam'" type="exam" questionNum="20" />
@@ -210,20 +210,20 @@
 <script type="text/javascript">
 import videoPlayer from '~/components/interface/videoPlayer'
 import microlearning from '~/components/microlearning'
-import respectPeople from '~/components/slides/values/valuesPart2RespectPeople'
-import harassmentViolence from '~/components/slides/values/valuesPart2HarassmentViolence'
-import Quiz from '~/components/slides/values/valuesPart2Quiz'
+import officialLanguages from '~/components/slides/values/valuesPart3OfficialLanguages'
+import languagesResponsibilities from '~/components/slides/values/valuesPart3LanguagesResponsibilities'
+import Quiz from '~/components/slides/values/valuesPart3Quiz'
 export default {
   data() {
     return {
-      modalArray: ["Introduction", "respectPeople", "harassmentViolence", "directiveConflictInterest", "definingWrongdoing", "InRealLife", "Quiz"]
+      modalArray: ["Introduction", "legalFramework", "officialLanguages", "languagesResponsibilities", "languageRequirements", "InRealLife", "Quiz"]
     }
   },
   components: {
     videoPlayer,
     microlearning,
-    respectPeople,
-    harassmentViolence,
+    officialLanguages,
+    languagesResponsibilities,
     Quiz
   },
   computed: {
@@ -281,10 +281,10 @@ export default {
 <i18n>{
   "en":{
   "introductionTitle": "Introduction",
-  "respectPeopleTitle": "Activity: Respect for People",
-  "harassmentViolenceTitle": "Activity: Harassment and Violence",
-  "directiveConflictInterestTitle": "Activity: Directive on Conflict of Interest",
-  "definingWrongdoingTitle": "Acticity: Defining Wrongdoing",
+  "legalFrameworkTitle": "Activity: Legal Framework",
+  "officialLanguagesTitle": "Activity: Regions designated bilingual for language-of-work purposes",
+  "languagesResponsibilitiesTitle": "Activity: Managers’ official languages responsibilities for people management",
+  "languageRequirementsTitle": "Activity: Identifying language requirements",
   "inRealLifeTitle":"Activity: In Real Life",
   "TakeTheQuiz":"Take the Quiz",
   "transcriptText":"",
