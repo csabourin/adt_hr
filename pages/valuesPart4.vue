@@ -85,38 +85,19 @@
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
-        <div v-if="$i18n.locale=='en'">
-          <p>Resources:</p>
-          <p><b>Legislation</b></p>
-          <ul>
-            <li><a href="https://laws-lois.justice.gc.ca/eng/acts/p-31.9/" target="_blank" alt="Link to the Public Servants Disclosure Protection Act web page"><i>Public Servants Disclosure Protection Act</i></a></li>
-            <li><a href="http://gazette.gc.ca/rp-pr/p2/2020/2020-06-24/html/sor-dors130-eng.html" target="_blank" alt="Link to the Work Place Harassment and Violence Prevention Regulations web page"><i>Work Place Harassment and Violence Prevention Regulations</i></a></li>
-          </ul>
-          <p><b>Policy Instruments</b></p>
-          <ul>
-            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32627" target="_blank" alt="Link to the Directive on Conflict of Interest web page">Directive on Conflict of Interest</a></li>
-            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32671" target="_blank" alt="Link to the	Directive on the Prevention and Resolution of Workplace Harassment and Violence web page">Directive on the Prevention and Resolution of Workplace Harassment and Violence</a></li>
-            <li><a href="https://www.tbs-sct.gc.ca/pol/(S(e021jvamqbhco5551teiyz55))/doc-eng.aspx?id=32621" target="_blank" alt="Link to the Policy on People Management web page">Policy on People Management</a></li>
-          </ul>
-          <p><b>Other Resources</b></p>
-          <ul>
-            <li><a href="https://www.canada.ca/en/employment-social-development/programs/workplace-health-safety/harassment-violence-prevention.html#Examples_of_harassment" target="_blank" alt="Link to the Examples of harassment and violence web page">Examples of harassment and violence</a></li>
-            <li><a href="https://www.canada.ca/en/employment-social-development/programs/workplace-health-safety/harassment-violence-prevention.html" target="_blank" alt="Link to the Requirements for employers to prevent harassment and violence in federally regulated workplaces web page">Requirements for employers to prevent harassment and violence in federally regulated workplaces</a></li>
-            <li><a href="https://www.canada.ca/en/employment-social-development/programs/workplace-health-safety/harassment-violence-prevention/complaints/resolve.html" target="_blank" alt="Link to the Resolve a workplace harassment and violence complaint web page">Resolve a workplace harassment and violence complaint</a></li>
-            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=25049" target="_blank" alt="Link to the Values and Ethics Code for the Public Sector web page">Values and Ethics Code for the Public Sector</a></li>
-            <li><a href="https://www.canada.ca/en/employment-social-development/programs/workplace-health-safety/harassment-violence-prevention.html#What_is_not" target="_blank" alt="Link to the What is not harassment and violence web page">What is not harassment and violence</a></li>
-          </ul>
-        </div>
+        
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
       <b-modal id="nonPartisanship" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('respectPeopleTitle')}}
+            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('nonPartisanshipTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
-        
+        <div v-if="$i18n.locale=='en'">
+            <p>Have a look at this short video called <a href="https://learn-apprendre.csps-efpc.gc.ca/application/en/content/collaborating-deliver-results-canadians" target="_blank" alt="Link to the Collaborating to Deliver Results to Canadians video">Collaborating to Deliver Results to Canadians</a>.</p>
+        </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
       <b-modal id="InRealLife" @hide="resumePlay()" size="xl" okOnly>
@@ -128,10 +109,16 @@
         </template>
         <img src="~/assets/R-Contribute.svg" class="img-real_Life" alt="">
         <div v-if="$i18n.locale=='en'">
-          <p>When people work together, misunderstandings and conflict are inevitable, but the escalation of issues can be prevented. You have a key role to play in promoting respectful working relationships and in helping to deal with conflict constructively. </p>
+          <p>Every organization has a designated political activities representative (DPAR). <a href="https://www.canada.ca/en/public-service-commission/services/political-activities/designated-political-activities-representatives-organizations-subject-political-activities-provisions-public-service-employment-act.html" target="_blank" alt="Link to the Public Service Commission web page">Find yours!</a> The list is available on the Public Service Commission’s website.</p>
+          <p>To learn more about political activities, you can also visit the following web pages:</p>
+          <ul>
+              <li><a href="https://www.canada.ca/en/public-service-commission/services/political-activities.html" target="_blank" alt="Link to the Political Activities web page">Political Activities</a></li>
+              <li><a href="https://www.canada.ca/en/public-service-commission/services/political-activities/i-want-to-become-a-candidate.html" target="_blank" alt="Link to the I want to become a candidate web page">I want to become a candidate</a></li>
+              <li><a href="https://www.canada.ca/en/public-service-commission/services/political-activities/other-political-activities/suite-of-tools-related-to-other-political-activities.html" target="_blank" alt="Link to the Suite of tools related to other political activities web page">Suite of tools related to other political activities</a></li>
+          </ul>
+          <p>If you have any questions, feel free to contact <a href="https://www.canada.ca/en/public-service-commission/services/political-activities/designated-political-activities-representatives-organizations-subject-political-activities-provisions-public-service-employment-act.html" target="_blank" alt="Link to the DPAR web page">your DPAR</a> or the Political Activities and Non-Partisanship Division at <a href="mailto:cfp.activitespolitiques-politicalactivities.psc@cfp-psc.gc.ca" target="_blank" alt="Political Activities and Non-Partisanship Division's Email Adress">cfp.activitespolitiques-politicalactivities.psc@cfp-psc.gc.ca</a> or 1-866-707-7152</p>
         </div>
         <div v-if="$i18n.locale=='fr'">
-          <p>Faites une recherche afin de localiser les profils d’information sur le rendement de votre organisation et ses rapports externes, comme le Rapport ministériel sur les résultats.&nbsp;</p>
           <p>Votre organisation aura sa propre fa&ccedil;on de produire des rapports sur la situation financi&egrave;re et de rendre compte de ses dépenses et de ses résultats. Parlez-en à votre section des finances ou de la planification et à votre directeur. Demandez-leur :</p>
           <ul>
             <li>Comment appelons-nous nos rapports sur la situation financi&egrave;re et à quoi ressemblent-ils ? &Agrave; quel endroit puis-je les trouver?</li>
@@ -168,7 +155,7 @@
 <script type="text/javascript">
 import videoPlayer from '~/components/interface/videoPlayer'
 import microlearning from '~/components/microlearning'
-import Quiz from '~/components/slides/values/valuesPart2Quiz'
+import Quiz from '~/components/slides/values/valuesPart4Quiz'
 export default {
   data() {
     return {
@@ -235,10 +222,7 @@ export default {
 <i18n>{
   "en":{
   "introductionTitle": "Introduction",
-  "respectPeopleTitle": "Activity: Respect for People",
-  "harassmentViolenceTitle": "Activity: Harassment and Violence",
-  "directiveConflictInterestTitle": "Activity: Directive on Conflict of Interest",
-  "definingWrongdoingTitle": "Acticity: Defining Wrongdoing",
+  "nonPartisanshipTitle": "Activity: Non-partisanship",
   "inRealLifeTitle":"Activity: In Real Life",
   "TakeTheQuiz":"Take the Quiz",
   "transcriptText":"",
