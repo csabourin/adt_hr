@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="pageTitle" v-html="$t('ContributeReporting')" />
+    <h2 class="pageTitle" v-html="$t('ValuesEthics')" />
     <section>
       <b-row>
         <b-col>
@@ -78,27 +78,90 @@
       </b-container>
     </section>
     <div>
-      <b-modal no-stacking id="externalGovtReports" @hide="resumePlay()" size="xl" okOnly>
+      <b-modal no-stacking id="Introduction" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('externalGovtReports')}}
+            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('introductionTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
-        <externalGovtReports />
+        <div v-if="$i18n.locale=='en'">
+          <p>Resources:</p>
+          <p><b>Legislation</b></p>
+          <ul>
+            <li><a href="https://laws-lois.justice.gc.ca/eng/acts/p-31.9/" target="_blank" alt="Link to the Public Servants Disclosure Protection Act web page"><i>Public Servants Disclosure Protection Act</i></a></li>
+            <li><a href="http://gazette.gc.ca/rp-pr/p2/2020/2020-06-24/html/sor-dors130-eng.html" target="_blank" alt="Link to the Work Place Harassment and Violence Prevention Regulations web page"><i>Work Place Harassment and Violence Prevention Regulations</i></a></li>
+          </ul>
+          <p><b>Policy Instruments</b></p>
+          <ul>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32627" target="_blank" alt="Link to the Directive on Conflict of Interest web page">Directive on Conflict of Interest</a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32671" target="_blank" alt="Link to the	Directive on the Prevention and Resolution of Workplace Harassment and Violence web page">Directive on the Prevention and Resolution of Workplace Harassment and Violence</a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/(S(e021jvamqbhco5551teiyz55))/doc-eng.aspx?id=32621" target="_blank" alt="Link to the Policy on People Management web page">Policy on People Management</a></li>
+          </ul>
+          <p><b>Other Resources</b></p>
+          <ul>
+            <li><a href="https://www.canada.ca/en/employment-social-development/programs/workplace-health-safety/harassment-violence-prevention.html#Examples_of_harassment" target="_blank" alt="Link to the Examples of harassment and violence web page">Examples of harassment and violence</a></li>
+            <li><a href="https://www.canada.ca/en/employment-social-development/programs/workplace-health-safety/harassment-violence-prevention.html" target="_blank" alt="Link to the Requirements for employers to prevent harassment and violence in federally regulated workplaces web page">Requirements for employers to prevent harassment and violence in federally regulated workplaces</a></li>
+            <li><a href="https://www.canada.ca/en/employment-social-development/programs/workplace-health-safety/harassment-violence-prevention/complaints/resolve.html" target="_blank" alt="Link to the Resolve a workplace harassment and violence complaint web page">Resolve a workplace harassment and violence complaint</a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=25049" target="_blank" alt="Link to the Values and Ethics Code for the Public Sector web page">Values and Ethics Code for the Public Sector</a></li>
+            <li><a href="https://www.canada.ca/en/employment-social-development/programs/workplace-health-safety/harassment-violence-prevention.html#What_is_not" target="_blank" alt="Link to the What is not harassment and violence web page">What is not harassment and violence</a></li>
+          </ul>
+        </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
-      <b-modal id="identifyResults" @hide="resumePlay()" size="xl" okOnly>
+      <b-modal id="respectPeople" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('IdentifyResultsTitle')}}
+            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('respectPeopleTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
-        <identifyResults />
+        <respectPeople />
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
-      <b-modal id="inRealLife" @hide="resumePlay()" size="xl" okOnly>
+      <b-modal id="harassmentViolence" @hide="resumePlay()" size="xl" okOnly>
+        <template v-slot:modal-header="{ close }">
+          <h3 class="h5">
+            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('harassmentViolenceTitle')}}
+          </h3>
+          <button type="button" aria-label="Close" class="close" @click="close()">×</button>
+        </template>
+        <harassmentViolence />
+        <template v-slot:modal-ok>{{$t('close')}}</template>
+      </b-modal>
+      <b-modal id="directiveConflictInterest" @hide="resumePlay()" size="xl" okOnly>
+        <template v-slot:modal-header="{ close }">
+          <h3 class="h5">
+            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('directiveConflictInterestTitle')}}
+          </h3>
+          <button type="button" aria-label="Close" class="close" @click="close()">×</button>
+        </template>
+        <div v-if="$i18n.locale=='en'">
+          <p><b>To supplement the knowledge required to perform delegated HR responsibilities, be sure to complete this additional course:</b></p>
+          <ul>
+            <li>Values and Ethics Foundations for Managers (C355)</li>
+          </ul>
+          <p>This course provides a more in-depth look at values and ethics to help you perform your duties in this area.</p>
+        </div>
+        <template v-slot:modal-ok>{{$t('close')}}</template>
+      </b-modal>
+      <b-modal id="definingWrongdoing" @hide="resumePlay()" size="xl" okOnly>
+        <template v-slot:modal-header="{ close }">
+          <h3 class="h5">
+            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('definingWrongdoingTitle')}}
+          </h3>
+          <button type="button" aria-label="Close" class="close" @click="close()">×</button>
+        </template>
+        <div v-if="$i18n.locale=='en'">
+          <p>Consult the following resources for more information about the Public Servants Disclosure Protection Act and tips for managers:</p>
+          <ol>
+            <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/values-ethics/disclosure-protection/public-servants-disclosure-protection-act-information-supervisors-all-levels.html" target="_blank" alt="Link to the Information for supervisors at all levels web page">Information for supervisors at all levels</a></li>
+            <li>MISSING IMAGE</li>
+          </ol>
+        </div>
+        <template v-slot:modal-ok>{{$t('close')}}</template>
+      </b-modal>
+      <b-modal id="InRealLife" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
             <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('inRealLifeTitle')}}
@@ -107,15 +170,7 @@
         </template>
         <img src="~/assets/R-Contribute.svg" class="img-real_Life" alt="">
         <div v-if="$i18n.locale=='en'">
-          <p>Look up your organization’s Performance Information Profiles and its external reports, such as the Departmental Results Report.&nbsp;</p>
-          <p>Your organization will have their own ways of doing financial situation reports, and reporting on spending and results. Talk to your finance or planning section and director. Ask them:</p>
-          <ul>
-            <li>What do we call our financial situation reports and what do they look like? Where can I find them?</li>
-            <li>How frequently do we prepare financial situation reports?&nbsp;</li>
-            <li>Do we complete these reports in the financial system or in a spreadsheet?</li>
-            <li>What is my role?</li>
-            <li>What information will I provide to feed into external reports?</li>
-          </ul>
+          <p>When people work together, misunderstandings and conflict are inevitable, but the escalation of issues can be prevented. You have a key role to play in promoting respectful working relationships and in helping to deal with conflict constructively. </p>
         </div>
         <div v-if="$i18n.locale=='fr'">
           <p>Faites une recherche afin de localiser les profils d’information sur le rendement de votre organisation et ses rapports externes, comme le Rapport ministériel sur les résultats.&nbsp;</p>
@@ -130,21 +185,23 @@
         </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
-      <b-modal no-stacking id="reportQuiz" @hide="resumePlay()" size="xl" okOnly>
+      <b-modal no-stacking id="Quiz" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
             <img src="~/assets/QuizIcon.svg" :alt="$t('quizIcon')" width="32" height="32"> {{$t('TakeTheQuiz')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
-        <reportQuiz />
+        <Quiz />
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
     </div>
     <div class="bottomNav reportSection">
       <div class="reportSectionBar"><span>{{$t('reportSectionBar')}}</span></div>
-      <microlearning :completion="$store.state.currentPlaying.reportPart1_player" path="reportPart1" imagePath="R-Conduct.svg" size="140" time="20" :text="$t('ConductPeriodicVarianceReporting')" type="video" />
-      <microlearning youAreHere :completion="$store.state.currentPlaying.reportPart2_player" path="reportPart2" imagePath="R-Contribute.svg" size="140" time="20" :text="$t('ContributeReporting')" type="video" />
+      <microlearning :completion="$store.state.currentPlaying.reportPart1_player" path="valuesPart1" imagePath="R-Conduct.svg" size="140" time="20" :text="$t('LabourRelations')" type="video" />
+      <microlearning youAreHere :completion="$store.state.currentPlaying.reportPart2_player" path="valuesPart2" imagePath="R-Contribute.svg" size="140" time="20" :text="$t('ValuesEthics')" type="video" />
+      <microlearning :completion="$store.state.currentPlaying.reportPart2_player" path="valuesPart3" imagePath="R-Contribute.svg" size="140" time="20" :text="$t('')" type="video" />
+      <microlearning :completion="$store.state.currentPlaying.reportPart2_player" path="valuesPart4" imagePath="R-Contribute.svg" size="140" time="20" :text="$t('')" type="video" />
       <microlearning :completion="$store.state.currentPlaying.kmReport" path="reportKey" size="140" imagePath="KeyMessR.svg" :text="$t('KeyMessages')" time="5" :highlighted="chosenScenario == 'refresh'" type="keyMessages" />
       <microlearning :completion="parseInt($store.getters['report/getScore'],10)" path="exam3" size="140" time="15" imagePath="R-Test.svg" :text="$t('Test')" :highlighted="chosenScenario == 'justExam'" type="exam" questionNum="20" />
     </div>
@@ -153,21 +210,21 @@
 <script type="text/javascript">
 import videoPlayer from '~/components/interface/videoPlayer'
 import microlearning from '~/components/microlearning'
-import externalGovtReports from '~/components/slides/report/externalGovtReports'
-import identifyResults from '~/components/slides/report/identifyResults'
-import reportQuiz from '~/components/slides/report/reportQuiz'
+import respectPeople from '~/components/slides/values/valuesPart2RespectPeople'
+import harassmentViolence from '~/components/slides/values/valuesPart2HarassmentViolence'
+import Quiz from '~/components/slides/values/valuesPart2Quiz'
 export default {
   data() {
     return {
-      modalArray: ["externalGovtReports", "identifyResults", "inRealLife", "reportQuiz"]
+      modalArray: ["Introduction", "respectPeople", "harassmentViolence", "directiveConflictInterest", "definingWrongdoing", "InRealLife", "Quiz"]
     }
   },
   components: {
     videoPlayer,
     microlearning,
-    externalGovtReports,
-    identifyResults,
-    reportQuiz
+    respectPeople,
+    harassmentViolence,
+    Quiz
   },
   computed: {
     thatPoint() {
@@ -223,12 +280,15 @@ export default {
 </style>
 <i18n>{
   "en":{
-  "externalGovtReports":"Activity: External Government Reports",
-  "IdentifyResultsTitle":"Activity: Identify Results",
+  "introductionTitle": "Introduction",
+  "respectPeopleTitle": "Activity: Respect for People",
+  "harassmentViolenceTitle": "Activity: Harassment and Violence",
+  "directiveConflictInterestTitle": "Activity: Directive on Conflict of Interest",
+  "definingWrongdoingTitle": "Acticity: Defining Wrongdoing",
   "inRealLifeTitle":"Activity: In Real Life",
   "TakeTheQuiz":"Take the Quiz",
   "transcriptText":"",
-  "reportSectionBar": "REPORT"
+  "reportSectionBar": "VALUES"
   },
   "fr":{
   "externalGovtReports":"Activité : Rapports externes du gouvernement",

@@ -47,25 +47,19 @@
           <h2 class="colorBar3"><span class="v-inv">{{$t('navigationMenu')}}</span> {{$t('report')}}</h2>
           <menu style="list-style: none">
             <li role="menuitem">
-              <nuxt-link :to="localePath('reportPart1')" v-html="$t('ConductPeriodicVarianceReporting')" />
+              <nuxt-link :to="localePath('valuesPart1')" v-html="$t('LabourRelations')" />
             </li>
             <li role="menuitem">
-              <nuxt-link :to="localePath('reportPart2')" v-html="$t('ContributeReporting')" />
+              <nuxt-link :to="localePath('valuesPart2')" v-html="$t('ValuesEthics')" />
             </li>
             <li role="menuitem">
-              <nuxt-link :to="localePath('reportPart1')" v-html="$t('ConductPeriodicVarianceReporting')" />
+              <nuxt-link :to="localePath('valuesPart3')" v-html="$t('ConductPeriodicVarianceReporting')" />
             </li>
             <li role="menuitem">
-              <nuxt-link :to="localePath('reportPart2')" v-html="$t('ContributeReporting')" />
+              <nuxt-link :to="localePath('valuesPart4')" v-html="$t('ContributeReporting')" />
             </li>
             <li role="menuitem">
-              <nuxt-link :to="localePath('reportPart1')" v-html="$t('ConductPeriodicVarianceReporting')" />
-            </li>
-            <li role="menuitem">
-              <nuxt-link :to="localePath('reportPart2')" v-html="$t('ContributeReporting')" />
-            </li>
-            <li role="menuitem">
-              <nuxt-link :to="localePath('reportKey')" v-html="$t('KeyMessagesReport')" />
+              <nuxt-link :to="localePath('valuesKey')" v-html="$t('KeyMessagesReport')" />
             </li>
             <li role="menuitem">
               <nuxt-link :to="localePath('exam3')" v-html="$t('TestReport')" />

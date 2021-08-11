@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="pageTitle" v-html="$t('ConductPeriodicVarianceReporting')" />
+    <h2 class="pageTitle" v-html="$t('LabourRelations')" />
     <section>
       <b-row>
         <b-col>
@@ -106,51 +106,101 @@
       </b-container>
     </section>
     <div>
-      <b-modal no-stacking id="Introduction" @hide="resumePlay()" size="xl" okOnly>
+      <b-modal no-stacking id="labourRelations" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('Introduction')}}
+            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('LabourRelationsTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
-        
+        <div v-if="$i18n.locale=='en'">
+          <p><b>References</b></p>
+          <ul>
+            <li><a href="https://laws-lois.justice.gc.ca/eng/acts/p-33.3/FullText.html" target="_blank" alt="Link to the Federal Public Sector Labour Relations Act web page"><i>Federal Public Sector Labour Relations Act</i></a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=27987" target="_blank" alt="Link to the Guidelines for Essential Services Designations web page">Guidelines for Essential Services Designations</a></li>
+            <li><a href="https://www.njc-cnm.gc.ca/en" target="_blank" alt="Link to the National Joint Council web page">National Joint Council</a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=27146" target="_blank" alt="Link to the Directive on Performance Management web page">Directive on Performance Management</a></li>
+            <li><a href="https://www.canada.ca/en/government/publicservice/wellness-inclusion-diversity-public-service/harassment-conflict-resolution/informal-conflict-management-system/guide-key-elements-icms-core-public-administration.html" target="_blank" alt="Link to the Guide to the key elements of an ICMS in the core public administration web page">A guide to the key elements of an ICMS in the core public administration</a></li>
+          </ul>
+        </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
-      <b-modal id="keyPeriods" @hide="resumePlay()" size="xl" okOnly>
+      <b-modal id="typesPositions" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('KeyPeriodsFSRTitle')}}
+            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('TypesPositionsTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
-        <keyPeriods />
+        <typesPositions />
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
-      <b-modal id="FSRActivities" @hide="resumePlay()" size="xl" okOnly>
+      <b-modal id="collectiveAgreements" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('FSRActivitiesTitle')}}
+            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('CollectiveAgreementsTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
-        <FSRActivities />
+        <collectiveAgreements />
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
-      <b-modal id="UpdatingAnnualForecast" @hide="resumePlay()" size="xl" okOnly>
+      <b-modal id="managingDisciplinaryMeasures" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('UpdatingAnnualForecastTitle')}}
+            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('ManagingDisciplinaryMeasuresTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
-        <UpdatingAnnualForecast />
+        <disciplinaryMeasures />
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
+      <b-modal id="managingWorkplaceConflict" @hide="resumePlay()" size="xl" okOnly>
+        <template v-slot:modal-header="{ close }">
+          <h3 class="h5">
+            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('ManagingWorkplaceConflictTitle')}}
+          </h3>
+          <button type="button" aria-label="Close" class="close" @click="close()">×</button>
+        </template>
+        <div v-if="$i18n.locale=='en'">
+          <p>Find out what resources are available in your organization to address workplace conflict and find out who your ICMS champion or first point of contact is.</p>
+        </div>
+        <template v-slot:modal-ok>{{$t('close')}}</template>
+      </b-modal>
+      <b-modal id="InRealLife" @hide="resumePlay()" size="xl" okOnly>
+        <template v-slot:modal-header="{ close }">
+          <h3 class="h5">
+            <img src="~/assets/ReferenceIcon.svg" :alt="$t('ReferenceIcon')" width="32" height="32"> {{$t('IRLTitle')}}
+          </h3>
+          <button type="button" aria-label="Close" class="close" @click="close()">×</button>
+        </template>
+        <div v-if="$i18n.locale=='en'">
+          <p><b>To supplement the knowledge required to perform your labour relations functions, be sure to complete this additional course:</b></p>
+          <ul>
+            <li>Labour Relations in the Federal Public Sector (G244)</li>
+          </ul>
+          <p>This course will provide a more in-depth look at labour relations to help you perform your duties.</p>
+        </div>
+        <template v-slot:modal-ok>{{$t('close')}}</template>
+      </b-modal>
+      <b-modal id="Quiz" @hide="resumePlay()" size="xl" okOnly>
+        <template v-slot:modal-header="{ close }">
+          <h3 class="h5">
+            <img src="~/assets/QuizIcon.svg" :alt="$t('QuizIcon')" width="32" height="32"> {{$t('TakeTheQuiz')}}
+          </h3>
+          <button type="button" aria-label="Close" class="close" @click="close()">×</button>
+        </template>
+        <Quiz />
+        <template v-slot:modal-ok>{{$t('close')}}</template>
+      </b-modal>
+
     </div>
     <div class="bottomNav reportSection">
       <div class="reportSectionBar"><span>{{$t('reportSectionBar')}}</span></div>
-      <microlearning youAreHere :completion="$store.state.currentPlaying.reportPart1_player" path="reportPart1" imagePath="R-Conduct.svg" size="140" time="20" :text="$t('ConductPeriodicVarianceReporting')" type="video" />
-      <microlearning :completion="$store.state.currentPlaying.reportPart2_player" path="reportPart2" imagePath="R-Contribute.svg" size="140" time="20" :text="$t('ContributeReporting')" type="video" />
+      <microlearning youAreHere :completion="$store.state.currentPlaying.reportPart1_player" path="valuesPart1" imagePath="R-Conduct.svg" size="140" time="20" :text="$t('LabourRelations')" type="video" />
+      <microlearning :completion="$store.state.currentPlaying.reportPart2_player" path="valuesPart2" imagePath="R-Contribute.svg" size="140" time="20" :text="$t('ValuesEthics')" type="video" />
+      <microlearning :completion="$store.state.currentPlaying.reportPart2_player" path="valuesPart3" imagePath="R-Contribute.svg" size="140" time="20" :text="$t('')" type="video" />
+      <microlearning :completion="$store.state.currentPlaying.reportPart2_player" path="valuesPart4" imagePath="R-Contribute.svg" size="140" time="20" :text="$t('')" type="video" />
       <microlearning :completion="$store.state.currentPlaying.kmReport" path="reportKey" time="5" size="140" imagePath="KeyMessR.svg" :text="$t('KeyMessages')" :highlighted="chosenScenario == 'refresh'" type="keyMessages" />
       <microlearning :completion="parseInt($store.getters['report/getScore'],10)" path="exam3" size="140" time="15" imagePath="R-Test.svg" :text="$t('Test')" :highlighted="chosenScenario == 'justExam'" type="exam" questionNum="20" />
     </div>
@@ -159,23 +209,23 @@
 <script type="text/javascript">
 import videoPlayer from '~/components/interface/videoPlayer'
 import microlearning from '~/components/microlearning'
-import whatIsFSR from '~/components/slides/report/whatIsFSR'
-import UpdatingAnnualForecast from '~/components/slides/report/UpdatingAnnualForecast'
-import FSRActivities from '~/components/slides/report/FSRActivities'
-import keyPeriods from '~/components/slides/report/keyPeriods'
+import typesPositions from '~/components/slides/values/valuesPart1TypesPositions'
+import collectiveAgreements from '~/components/slides/values/valuesPart1CollectiveAgreements'
+import disciplinaryMeasures from '~/components/slides/values/valuesPart1ManagingDiscMeasures'
+import Quiz from '~/components/slides/values/valuesPart1Quiz'
 export default {
   data() {
     return {
-      modalArray: ["whatIsFSR", "keyPeriods", "FSRActivities", "UpdatingAnnualForecast"]
+      modalArray: ["labourRelations", "typesPositions", "collectiveAgreements", "managingDisciplinaryMeasures", "managingWorkplaceConflict", "InRealLife", "Quiz"]
     }
   },
   components: {
     videoPlayer,
     microlearning,
-    whatIsFSR,
-    FSRActivities,
-    keyPeriods,
-    UpdatingAnnualForecast
+    typesPositions,
+    collectiveAgreements,
+    disciplinaryMeasures,
+    Quiz
   },
   computed: {
     thatPoint() {
@@ -225,12 +275,15 @@ export default {
 </style>
 <i18n>{
   "en":{
-  "KeyPeriodsFSRTitle":"Activity: Key Periods for Financial Situation Reports",
-  "whatIsFSR":"Activity: What Is a Financial Situation Report?",
-  "FSRActivitiesTitle":"Activity: Financial Situation Report Activities",
-  "UpdatingAnnualForecastTitle":"Activity: Updating the Annual Forecast",
+  "TakeTheQuiz":"Take the Quiz",
+  "LabourRelationsTitle":"Activity: Labour Relations",
+  "TypesPositionsTitle": "Activity: Types of Positions",
+  "CollectiveAgreementsTitle": "Activity: Collective Agreements",
+  "ManagingDisciplinaryMeasuresTitle": "Activity: Managing Disciplinary Measures",
+  "ManagingWorkplaceConflictTitle": "Activity: Managing Workplace Conflict",
+  "IRLTitle": "In Real Life",
   "transcriptText":"",
-  "reportSectionBar": "REPORT"
+  "reportSectionBar": "VALUES"
   },
   "fr":{
   "TakeTheQuiz":"Répondez au questionnaire",
