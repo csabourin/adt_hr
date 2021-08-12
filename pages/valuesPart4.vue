@@ -81,7 +81,7 @@
       <b-modal no-stacking id="Introduction" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('introductionTitle')}}
+            <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('introductionTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
@@ -91,7 +91,7 @@
       <b-modal id="nonPartisanship" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('nonPartisanshipTitle')}}
+            <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('nonPartisanshipTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
@@ -100,14 +100,18 @@
         </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
-      <b-modal id="InRealLife" @hide="resumePlay()" size="xl" okOnly>
+      <b-modal id="InRealLife" @hide="resumePlay()" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('inRealLifeTitle')}}
+            <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('inRealLifeTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
-        <img src="~/assets/R-Contribute.svg" class="img-real_Life" alt="">
+        <b-row align-h="center">
+            <b-col cols="12" md="9">
+              <img src="~/assets/R-Contribute.svg" alt="" class="img-fluid" style="margin-bottom: 15px; margin-top: 10px;">
+            </b-col>
+          </b-row>
         <div v-if="$i18n.locale=='en'">
           <p>Every organization has a designated political activities representative (DPAR). <a href="https://www.canada.ca/en/public-service-commission/services/political-activities/designated-political-activities-representatives-organizations-subject-political-activities-provisions-public-service-employment-act.html" target="_blank" alt="Link to the Public Service Commission web page">Find yours!</a> The list is available on the Public Service Commission’s website.</p>
           <p>To learn more about political activities, you can also visit the following web pages:</p>

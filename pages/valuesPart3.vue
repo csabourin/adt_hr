@@ -81,7 +81,7 @@
       <b-modal no-stacking id="Introduction" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('introductionTitle')}}
+            <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('introductionTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
@@ -114,7 +114,7 @@
       <b-modal id="legalFramework" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('legalFrameworkTitle')}}
+            <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('legalFrameworkTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
@@ -148,10 +148,10 @@
         <languagesResponsibilities />
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
-      <b-modal id="languageRequirements" @hide="resumePlay()" size="xl" okOnly>
+      <b-modal id="languageRequirements" @hide="resumePlay()" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('languageRequirementsTitle')}}
+            <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('languageRequirementsTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
@@ -160,14 +160,18 @@
         </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
-      <b-modal id="InRealLife" @hide="resumePlay()" size="xl" okOnly>
+      <b-modal id="InRealLife" @hide="resumePlay()" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('inRealLifeTitle')}}
+            <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('inRealLifeTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
-        <img src="~/assets/R-Contribute.svg" class="img-real_Life" alt="">
+        <b-row align-h="center">
+            <b-col cols="12" md="9">
+              <img src="~/assets/R-Contribute.svg" alt="" class="img-fluid" style="margin-bottom: 15px; margin-top: 10px;">
+            </b-col>
+          </b-row>
         <div v-if="$i18n.locale=='en'">
           <p>Take what you have learned into real life!</p>
           <p>Your organization will have its own ways of doing things. Take a time out from the course to consult the course tool box for a list of the persons responsible for official languages and the official languages champions in institutions subject to the <i>Official Languages Act</i>.</p>

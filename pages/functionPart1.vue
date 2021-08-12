@@ -181,7 +181,7 @@
     <b-modal no-stacking id="organizationClassification" @hide="resumePlay()" size="xl" okOnly>
       <template v-slot:modal-header="{ close }">
         <h3 class="h5">
-          <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('hrAuthoritiesTitle')}}
+          <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('organizationClassificationTitle')}}
         </h3>
         <button type="button" aria-label="Close" class="close" @click="close()">×</button>
       </template>
@@ -202,7 +202,7 @@
     <b-modal no-stacking id="organizationalDesign" @hide="resumePlay()" size="xl" okOnly>
       <template v-slot:modal-header="{ close }">
         <h3 class="h5">
-          <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('hrAuthoritiesTitle')}}
+          <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('organizationalDesignTitle')}}
         </h3>
         <button type="button" aria-label="Close" class="close" @click="close()">×</button>
       </template>
@@ -212,7 +212,7 @@
     <b-modal no-stacking id="rolesResponsibilities" @hide="resumePlay()" size="xl" okOnly>
       <template v-slot:modal-header="{ close }">
         <h3 class="h5">
-          <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('hrAuthoritiesTitle')}}
+          <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('rolesResponsibilitiesTitle')}}
         </h3>
         <button type="button" aria-label="Close" class="close" @click="close()">×</button>
       </template>
@@ -231,7 +231,7 @@
     <b-modal no-stacking id="Authorities" @hide="resumePlay()" size="xl" okOnly>
       <template v-slot:modal-header="{ close }">
         <h3 class="h5">
-          <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('hrAuthoritiesTitle')}}
+          <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('authoritiesTitle')}}
         </h3>
         <button type="button" aria-label="Close" class="close" @click="close()">×</button>
       </template>
@@ -241,7 +241,7 @@
     <b-modal no-stacking id="roleofOrganizationHR" @hide="resumePlay()" size="xl" okOnly>
       <template v-slot:modal-header="{ close }">
         <h3 class="h5">
-          <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('hrAuthoritiesTitle')}}
+          <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('hrManagementTitle')}}
         </h3>
         <button type="button" aria-label="Close" class="close" @click="close()">×</button>
       </template>
@@ -281,7 +281,7 @@
     <b-modal no-stacking id="InRealLife" @hide="resumePlay()" okOnly>
       <template v-slot:modal-header="{ close }">
         <h3 class="h5">
-          <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32">
+          <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32">
           {{$t('InRealLife')}}
         </h3>
         <button type="button" aria-label="Close" class="close" @click="close()">×</button>
@@ -500,14 +500,16 @@ button.accessibilityButton {
   "TakeTheQuiz":"Take the Quiz",
   "imageDescription": "Text description of the graphic",
   "tryItTitle":"Activity: Try it!",
-  "adjustwptitle":"Activity: Adjust the Work plan",
-  "delegateAuthority":"Activity: Delegation of Authority",
-  "checkBudget":"Activity: Check Your Budget",
-  "forecastBudgetTitle":"Activity: Forecast Budget Requirements",
-  "RecordingTitle":"Activity: Recording in the Financial System",
+  "activityLinks":"Reference: External Links",
+  "organizationClassificationTitle": "Activity: Organization and Classification",
+  "organizationalDesignTitle": "Activity: Organizational Design",
+  "rolesResponsibilitiesTitle": "Activity: Roles and Responsibilities",
+  "authoritiesTitle": "Activity: Authorities",
+  "hrManagementTitle": "Activity: The Role of Organization and Classification in HR Management",
+  "InRealLife":"In Real Life",
   "gotIt":"Continue to next segment",
   "transcriptText":"",
-  "spendSectionBar": "FUNCTION AND PROCESS"
+  "spendSectionBar": "FUNCTION"
   },
   "fr":{
   "TakeTheQuiz":"Répondez au questionnaire",

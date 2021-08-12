@@ -163,17 +163,17 @@ export default {
       popups: {
         designPart1: {
           references: [],
-          infos: [],
+          infos: [0, 3],
           quiz: [4]
         },
-        createBudget: {
+        designPart2: {
           references: [],
-          infos: [],
-          quiz: [4]
+          infos: [0, 2],
+          quiz: [3]
         },
         functionPart1: {
           references: [],
-          infos: [],
+          infos: [0, 1, 3, 5, 6],
           quiz: [7]
         },
         functionPart2: {
@@ -186,14 +186,24 @@ export default {
           infos: [0, 2, 4, 5],
           quiz: [6]
         },
-        reportPart1: {
+        valuesPart1: {
           references: [],
-          infos: [],
-          quiz: []
+          infos: [0, 4, 5],
+          quiz: [6]
         },
-        reportPart2: {
+        valuesPart2: {
           references: [],
-          infos: [],
+          infos: [0, 3, 4, 5],
+          quiz: [6]
+        },
+        valuesPart3: {
+          references: [],
+          infos: [0, 1, 4, 5],
+          quiz: [6]
+        },
+        valuesPart4: {
+          references: [],
+          infos: [0, 1, 2],
           quiz: [3]
         }
       },
@@ -277,18 +287,22 @@ export default {
       switch(currentPage){
         case "designPart1":
           return this.popups.designPart1.references;
-        case "createBudget":
-          return this.popups.createBudget.references;
+        case "designPart2":
+          return this.popups.designPart2.references;
         case "functionPart1":
           return this.popups.functionPart1.references;
         case "functionPart2":
           return this.popups.functionPart2.references;
         case "functionPart3":
           return this.popups.functionPart3.references;
-        case "reportPart1":
-          return this.popups.reportPart1.references;
-        case "reportPart2":
-          return this.popups.reportPart2.references;
+        case "valuesPart1":
+          return this.popups.valuesPart1.references;
+        case "valuesPart2":
+          return this.popups.valuesPart2.references;
+        case "valuesPart3":
+          return this.popups.valuesPart3.references;
+        case "valuesPart4":
+          return this.popups.valuesPart4.references;
       }
     },
     currentPageInfos(){
@@ -299,18 +313,22 @@ export default {
       switch(currentPage){
       case "designPart1":
           return this.popups.designPart1.infos;
-        case "createBudget":
-          return this.popups.createBudget.infos;
+        case "designPart2":
+          return this.popups.designPart2.infos;
         case "functionPart1":
           return this.popups.functionPart1.infos;
         case "functionPart2":
           return this.popups.functionPart2.infos;
         case "functionPart3":
           return this.popups.functionPart3.infos;
-        case "reportPart1":
-          return this.popups.reportPart1.infos;
-        case "reportPart2":
-          return this.popups.reportPart2.infos;
+        case "valuesPart1":
+          return this.popups.valuesPart1.infos;
+        case "valuesPart2":
+          return this.popups.valuesPart2.infos;
+        case "valuesPart3":
+          return this.popups.valuesPart3.infos;
+        case "valuesPart4":
+          return this.popups.valuesPart4.infos;
       }
     },
     currentPageQuiz(){
@@ -321,18 +339,22 @@ export default {
       switch(currentPage){
       case "designPart1":
           return this.popups.designPart1.quiz;
-        case "createBudget":
-          return this.popups.createBudget.quiz;
+        case "designPart2":
+          return this.popups.designPart2.quiz;
         case "functionPart1":
           return this.popups.functionPart1.quiz;
         case "functionPart2":
           return this.popups.functionPart2.quiz;
         case "functionPart3":
           return this.popups.functionPart3.quiz;
-        case "reportPart1":
-          return this.popups.reportPart1.quiz;
-        case "reportPart2":
-          return this.popups.reportPart2.quiz;
+        case "valuesPart1":
+          return this.popups.valuesPart1.quiz;
+        case "valuesPart2":
+          return this.popups.valuesPart2.quiz;
+        case "valuesPart3":
+          return this.popups.valuesPart3.quiz;
+        case "valuesPart4":
+          return this.popups.valuesPart4.quiz;
       }
     },
     MenuShowing:{

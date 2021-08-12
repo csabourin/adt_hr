@@ -227,13 +227,18 @@
             </div>
           <template v-slot:modal-ok>{{$t('close')}}</template>
         </b-modal>
-        <b-modal id="InRealLife" @hide="resumePlay()" size="xl" okOnly>
+        <b-modal id="InRealLife" @hide="resumePlay()" okOnly>
             <template v-slot:modal-header="{ close }">
                 <h3 class="h5">
                     <img src="~/assets/ReferenceIcon.svg" :alt="$t('ReferenceIcon')" width="32" height="32"> {{$t('IRLTitle')}}
                 </h3>
                 <button type="button" aria-label="Close" class="close" @click="close()">×</button>
             </template>
+            <b-row align-h="center">
+            <b-col cols="12" md="9">
+              <img src="~/assets/inRealLifeBudget.svg" alt="" class="img-fluid" style="margin-bottom: 15px; margin-top: 10px;">
+            </b-col>
+          </b-row>
             <div v-if="$i18n.locale=='en'">
               <p><b>To supplement the knowledge required to perform your employment equity, diversity, inclusion and accessibility functions, be sure to complete the courses</b></p>
               <ul>

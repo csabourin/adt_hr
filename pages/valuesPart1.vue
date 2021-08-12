@@ -128,7 +128,7 @@
       <b-modal id="typesPositions" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('TypesPositionsTitle')}}
+            <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('TypesPositionsTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
@@ -148,14 +148,14 @@
       <b-modal id="managingDisciplinaryMeasures" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('ManagingDisciplinaryMeasuresTitle')}}
+            <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('ManagingDisciplinaryMeasuresTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
         <disciplinaryMeasures />
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
-      <b-modal id="managingWorkplaceConflict" @hide="resumePlay()" size="xl" okOnly>
+      <b-modal id="managingWorkplaceConflict" @hide="resumePlay()" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
             <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('ManagingWorkplaceConflictTitle')}}
@@ -167,13 +167,18 @@
         </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
-      <b-modal id="InRealLife" @hide="resumePlay()" size="xl" okOnly>
+      <b-modal id="InRealLife" @hide="resumePlay()" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ReferenceIcon.svg" :alt="$t('ReferenceIcon')" width="32" height="32"> {{$t('IRLTitle')}}
+            <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('IRLTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
+        <b-row align-h="center">
+            <b-col cols="12" md="9">
+              <img src="~/assets/R-Contribute.svg" alt="" class="img-fluid" style="margin-bottom: 15px; margin-top: 10px;">
+            </b-col>
+          </b-row>
         <div v-if="$i18n.locale=='en'">
           <p><b>To supplement the knowledge required to perform your labour relations functions, be sure to complete this additional course:</b></p>
           <ul>
