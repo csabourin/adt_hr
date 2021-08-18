@@ -60,8 +60,8 @@ export default {
         "4": "communicates"
       },
       "feedback": {
-        "right": "Correct! HR planning is how an organization identifies current and future human resources needs.",
-        "wrong": "Incorrect. HR planning is how an organization identifies current and future human resources needs."
+        "right": "HR planning is how an organization identifies current and future human resources needs.",
+        "wrong": "HR planning is how an organization identifies current and future human resources needs."
       }
     },
     "q2": {
@@ -73,8 +73,8 @@ export default {
         "4": "identifies and prioritizes"
       },
       "feedback": {
-        "right": "Correct! It is also how an organization identifies and deploys its human resources to achieve its business objectives.",
-        "wrong": "Incorrect. It is also how an organization identifies and deploys its human resources to achieve its business objectives."
+        "right": "It is also how an organization identifies and deploys its human resources to achieve its business objectives.",
+        "wrong": "It is also how an organization identifies and deploys its human resources to achieve its business objectives."
       }
     },
     "q3": {
@@ -86,8 +86,8 @@ export default {
         "4": "respectful"
       },
       "feedback": {
-        "right": "Correct! HR planning ensures that we have a well-structured workplace, and can secure the right people, build a supportive work environment, and develop the capacity to ensure organizational success.",
-        "wrong": "Incorrect. HR planning ensures that we have a well-structured workplace, and can secure the right people, build a supportive work environment, and develop the capacity to ensure organizational success."
+        "right": "HR planning ensures that we have a well-structured workplace, and can secure the right people, build a supportive work environment, and develop the capacity to ensure organizational success.",
+        "wrong": "HR planning ensures that we have a well-structured workplace, and can secure the right people, build a supportive work environment, and develop the capacity to ensure organizational success."
       }
     },
     "q4": {
@@ -99,8 +99,8 @@ export default {
         "4": "talent management"
       },
       "feedback": {
-        "right": "Correct! HR planning can help identify optimal strategies and activities, for important management components such as recruitment, retention, learning, development, employee engagement, talent management, promotion, succession, employment equity, and official languages.",
-        "wrong": "Incorrect. HR planning can help identify optimal strategies and activities, for important management components such as recruitment, retention, learning, development, employee engagement, talent management, promotion, succession, employment equity, and official languages."
+        "right": "HR planning can help identify optimal strategies and activities, for important management components such as recruitment, retention, learning, development, employee engagement, talent management, promotion, succession, employment equity, and official languages.",
+        "wrong": "HR planning can help identify optimal strategies and activities, for important management components such as recruitment, retention, learning, development, employee engagement, talent management, promotion, succession, employment equity, and official languages."
       }
     }
   },

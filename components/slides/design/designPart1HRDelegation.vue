@@ -103,7 +103,7 @@
         "4": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "5": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       },
-      "conclusion": "You ordered rose-coloured glasses at $20 per pair. If you look closely, the invoice indicates $25 per unit. You will need to contact the supplier to correct the invoice."
+      "conclusion": "In the example provided, deputy heads can grant education leave without pay with allowance. An assistant deputy minister could approve such a request without allowance. Approval of leave without pay for educational needs is discretionary. The delegated manager may approve the leave after considering the degree to which the educational leave is needed or its relevance to the organizational requirements."
     },
     "q4": {
       "text": "<p><b>An employee asks to not come into work because it would be too dangerous due to icy roads in her neighbourhood. Since she is not responsible for this situation, she feels she should still be paid even though she won’t come to work.</b></p> <p>Which is the lowest level of authority that can approve the request?</p>",
