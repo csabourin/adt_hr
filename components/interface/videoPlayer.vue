@@ -74,7 +74,7 @@
             <p>{{ item }}</p><br>
 
             <!-- Play button -->
-            <a v-if="modalArray[index]" :href="'#'+vId" @click="seek" class="playButton" :key="index" :data-start="Math.ceil(startTime[index]+0.5)+.01" :data-end="endTime[index]" :title="$t('playSegment') + ' - ' +navBarTracks[index]" v-b-tooltip.hover.bottom="$t('playSegment')"><img src="~/assets/VideoIcon.svg" :data-start="Math.ceil(startTime[index]+0.5)+.01" :data-end="endTime[index]" :alt="$t('playIcon')" width="48" height="48"><span class="v-inv">{{$t('playSegment')}}: {{navBarTracks[index]}}</span></a>
+            <button v-if="modalArray[index]" @click="seek" class="playButton" :key="index" :data-start="Math.ceil(startTime[index]+0.5)+.01" :data-end="endTime[index]" :title="$t('playSegment') + ' - ' +navBarTracks[index]" v-b-tooltip.hover.bottom="$t('playSegment')"><img src="~/assets/VideoIcon.svg" :data-start="Math.ceil(startTime[index]+0.5)+.01" :data-end="endTime[index]" :alt="$t('playIcon')" width="48" height="48"><span class="v-inv">{{$t('playSegment')}}: {{navBarTracks[index]}}</span></button>
 
             <!-- If the popup is a quiz -->
             <button v-if="modalArray[index] && isInArray(index, currentPageQuiz)" class="activityButton" @click.prevent="accessibleModal(index)" :title="$t('jumpQuiz') + ' - ' + navBarTracks[index]" v-b-tooltip.hover.bottom="$t('jumpQuiz')"><img src="~/assets/QuizIcon.svg" :alt="$t('quizIcon')" width="48" height="48"></button>
@@ -161,49 +161,39 @@ export default {
       Captions: "",
       changeButton: false,
       popups: {
-        designPart1: {
-          references: [],
-          infos: [0, 3],
-          quiz: [4]
+        buildWP: {
+          references: [1],
+          infos: [0],
+          quiz: [8]
         },
-        designPart2: {
-          references: [],
-          infos: [0, 2],
-          quiz: [3]
-        },
-        functionPart1: {
-          references: [],
-          infos: [0, 1, 3, 5, 6],
+        createBudget: {
+          references: [1],
+          infos: [0],
           quiz: [7]
         },
-        functionPart2: {
+        spendPart1: {
           references: [],
-          infos: [0, 1, 2, 4, 5],
-          quiz: [6]
+          infos: [],
+          quiz: [4]
         },
-        functionPart3: {
+        spendPart2: {
           references: [],
-          infos: [0, 2, 4, 5],
-          quiz: [6]
+          infos: [],
+          quiz: []
         },
-        valuesPart1: {
+        spendPart3: {
           references: [],
-          infos: [0, 4, 5],
-          quiz: [6]
+          infos: [],
+          quiz: [3]
         },
-        valuesPart2: {
+        reportPart1: {
           references: [],
-          infos: [0, 3, 4, 5],
-          quiz: [6]
+          infos: [],
+          quiz: []
         },
-        valuesPart3: {
+        reportPart2: {
           references: [],
-          infos: [0, 1, 4, 5],
-          quiz: [6]
-        },
-        valuesPart4: {
-          references: [],
-          infos: [0, 1, 2],
+          infos: [],
           quiz: [3]
         }
       },
@@ -285,24 +275,20 @@ export default {
       var currentPage = path.substr(pos);
       
       switch(currentPage){
-        case "designPart1":
-          return this.popups.designPart1.references;
-        case "designPart2":
-          return this.popups.designPart2.references;
-        case "functionPart1":
-          return this.popups.functionPart1.references;
-        case "functionPart2":
-          return this.popups.functionPart2.references;
-        case "functionPart3":
-          return this.popups.functionPart3.references;
-        case "valuesPart1":
-          return this.popups.valuesPart1.references;
-        case "valuesPart2":
-          return this.popups.valuesPart2.references;
-        case "valuesPart3":
-          return this.popups.valuesPart3.references;
-        case "valuesPart4":
-          return this.popups.valuesPart4.references;
+        case "buildWP":
+          return this.popups.buildWP.references;
+        case "createBudget":
+          return this.popups.createBudget.references;
+        case "spendPart1":
+          return this.popups.spendPart1.references;
+        case "spendPart2":
+          return this.popups.spendPart2.references;
+        case "spendPart3":
+          return this.popups.spendPart3.references;
+        case "reportPart1":
+          return this.popups.reportPart1.references;
+        case "reportPart2":
+          return this.popups.reportPart2.references;
       }
     },
     currentPageInfos(){
@@ -311,24 +297,20 @@ export default {
       var currentPage = path.substr(pos);
       
       switch(currentPage){
-      case "designPart1":
-          return this.popups.designPart1.infos;
-        case "designPart2":
-          return this.popups.designPart2.infos;
-        case "functionPart1":
-          return this.popups.functionPart1.infos;
-        case "functionPart2":
-          return this.popups.functionPart2.infos;
-        case "functionPart3":
-          return this.popups.functionPart3.infos;
-        case "valuesPart1":
-          return this.popups.valuesPart1.infos;
-        case "valuesPart2":
-          return this.popups.valuesPart2.infos;
-        case "valuesPart3":
-          return this.popups.valuesPart3.infos;
-        case "valuesPart4":
-          return this.popups.valuesPart4.infos;
+      case "buildWP":
+          return this.popups.buildWP.infos;
+        case "createBudget":
+          return this.popups.createBudget.infos;
+        case "spendPart1":
+          return this.popups.spendPart1.infos;
+        case "spendPart2":
+          return this.popups.spendPart2.infos;
+        case "spendPart3":
+          return this.popups.spendPart3.infos;
+        case "reportPart1":
+          return this.popups.reportPart1.infos;
+        case "reportPart2":
+          return this.popups.reportPart2.infos;
       }
     },
     currentPageQuiz(){
@@ -337,24 +319,20 @@ export default {
       var currentPage = path.substr(pos);
       
       switch(currentPage){
-      case "designPart1":
-          return this.popups.designPart1.quiz;
-        case "designPart2":
-          return this.popups.designPart2.quiz;
-        case "functionPart1":
-          return this.popups.functionPart1.quiz;
-        case "functionPart2":
-          return this.popups.functionPart2.quiz;
-        case "functionPart3":
-          return this.popups.functionPart3.quiz;
-        case "valuesPart1":
-          return this.popups.valuesPart1.quiz;
-        case "valuesPart2":
-          return this.popups.valuesPart2.quiz;
-        case "valuesPart3":
-          return this.popups.valuesPart3.quiz;
-        case "valuesPart4":
-          return this.popups.valuesPart4.quiz;
+      case "buildWP":
+          return this.popups.buildWP.quiz;
+        case "createBudget":
+          return this.popups.createBudget.quiz;
+        case "spendPart1":
+          return this.popups.spendPart1.quiz;
+        case "spendPart2":
+          return this.popups.spendPart2.quiz;
+        case "spendPart3":
+          return this.popups.spendPart3.quiz;
+        case "reportPart1":
+          return this.popups.reportPart1.quiz;
+        case "reportPart2":
+          return this.popups.reportPart2.quiz;
       }
     },
     MenuShowing:{
@@ -500,6 +478,7 @@ export default {
         setTimeout(function() {
           videoPlayer.play()
           that.showPlayOverlay = false;
+          this.$refs.vId.focus({preventScroll: true})
         }, 250)
         this.justSeeked = false
 
