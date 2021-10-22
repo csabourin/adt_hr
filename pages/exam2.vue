@@ -7,25 +7,23 @@
           <b-alert :show="!AlertIsDismissed" @dismissed="AlertIsDismissed=true" dismissible fade :dismiss-label="$t('dismiss')">
             <div v-if="$i18n.locale=='en'">
               <h3>Instructions</h3>
-              <p>For some of the questions in this test, you play the role of a manager of a call center. You will be given scenarios based on this situation.&nbsp;</p>
-               <p>As per Treasury Board requirements, passing the test for this course is mandatory before you can exercise financial delegation.&nbsp;</p>
-              <p>There are three sections to the test - one for each phase: Plan, Spend and Report<!-- planning, spending and reporting -->.</p>
+               <p>As per Treasury Board requirements, you must pass this test before you can exercise human resources delegation.  </p>
+              <p>The test is made up of three sections, one for each phase: Foundation, Function and Process and Core Values and Standards.  </p>
               <p>The passing grade is 80% for each of these sections.</p>
-              <p>Each section should take you around 15 to 20 minutes to complete.&nbsp;</p>
-              <p>You can access course materials during the test and you can take it as many times as you need.</p>
+              <p>Each section should take you around 20 to 25 minutes to complete.&nbsp;</p>
+              <p>You are allowed to consult course materials during the test. You may take the test as many times as you need to get a passing grade.</p>
             </div>
             <div v-if="$i18n.locale=='fr'">
               <h3>Instructions</h3>
-              <p>Pour certaines des questions de ce test, vous &ecirc;tes dans le r&ocirc;le d’un responsable de centre d’appels. Des scénarios basés sur cette situation vous seront proposés.&nbsp;</p>
-              <p>Conformément aux exigences du Conseil du Trésor, il est obligatoire de réussir l’examen de ce cours avant de pouvoir exercer la délégation financi&egrave;re.</p>
-              <p>Le test comporte trois parties - une à la fin de chaque phase: planification, dépenses et rapports.&nbsp;</p>
-              <p>La note de passage est de 80%, par partie.&nbsp;</p>
-              <p>Chaque partie devrait vous prendre environ 15 à 20 minutes.&nbsp;</p>
-              <p>Vous pouvez accéder au matériel de cours pendant le test et vous pouvez le reprendre autant de fois que vous le désirez.</p>
+              <p>Conformément aux exigences du Conseil du Trésor, vous devez réussir ce test avant de pouvoir exercer les pouvoirs en matière de ressources humaines qui vous ont été délégués.</p>
+              <p>Le test comprend trois sections, soit une pour chaque phase : Éléments de base, Fonction et processus et Normes et valeurs fondamentales  </p>
+              <p>La note de passage de toutes les sections est de 80 %. </p>
+              <p>Chaque section devrait vous prendre entre 20 et 25 minutes.  </p>
+              <p>Vous pouvez consulter le matériel pédagogique du cours pendant le test, et vous pouvez faire le test autant de fois que vous le souhaitez, jusqu’à l’obtention de la note de passage. </p>
             </div>
           </b-alert>
           <!--<p v-if="AlertIsDismissed"><b-button @click="AlertIsDismissed=false">{{$t('ShowInstructions')}}</b-button></p>-->
-          <p v-if="AlertIsDismissed"><button @click="AlertIsDismissed=false" class="instructionsBtn" v-b-tooltip.right.hover.focus :title="$t('ShowInstructions')"><span class="v-inv">{{$t('ShowInstructions')}}</span></button></p>
+           <p v-if="AlertIsDismissed"><button @click="AlertIsDismissed=false" class="instructionsBtn" v-b-tooltip.right.hover.focus :title="$t('ShowInstructions')"><span class="v-inv">{{$t('ShowInstructions')}}</span></button></p>
           <p>Question {{tabIndex+1}} / {{numQuestions}}</p>
           <!--<div class="progressBar">
             <a href="#" @click.prevent="tabIndex=index" :title="'Question '+parseInt(square) +((answerScore[index])? ': '+$t('Answered'):'')" v-for="(square,index) in numQuestions" :class="['square',{'filled':answerScore[index],'Qactive':tabIndex==index}]" :aria-label="'Question '+parseInt(square) +((answerScore[index])? ': '+$t('Answered'):'')" v-html="index+1" />
@@ -41,49 +39,49 @@
                   <span class="v-inv">Question </span>01
                 </template>
                 <!-- calculateAnswer($event,correctAnswer,qId) -->
-                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q1')" qId="0" :refill="Refill('0')" @response="calculateAnswer($event,3,0)" />
+                <checkboxQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q1')" qId="0" :refill="Refill('0')" @response="arraysMatch($event,['1','3'],0)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[1]}]">
                 <template v-slot:title>
                   <span class="v-inv">Question </span>02
                 </template>
-                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q2')" qId="1" :refill="Refill('1')" @response="calculateAnswer($event,2,1)" />
+                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q2')" qId="1" :refill="Refill('1')" @response="calculateAnswer($event,1,1)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[2]}]">
                 <template v-slot:title>
                   <span class="v-inv">Question </span>03
                 </template>
-                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q3')" qId="2" :refill="Refill('2')" @response="calculateAnswer($event,1,2)" />
+                <checkboxQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q3')" qId="2" :refill="Refill('2')" @response="arraysMatch($event,['1','4','5'],2)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[3]}]">
                 <template v-slot:title>
                   <span class="v-inv">Question </span>04
                 </template>
-                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q4')" qId="3" :refill="Refill('3')" @response="calculateAnswer($event,4,3)" />
+                <checkboxQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q4')" qId="3" :refill="Refill('3')" @response="arraysMatch($event,['3','5'],3)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[4]}]">
                 <template v-slot:title>
                   <span class="v-inv">Question </span>05
                 </template>
-                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q5')" qId="4" :refill="Refill('4')" @response="calculateAnswer($event,4,4)" />
+                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q5')" qId="4" :refill="Refill('4')" @response="calculateAnswer($event,2,4)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[5]}]">
                 <template v-slot:title>
                   <span class="v-inv">Question </span>06
                 </template>
-                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q6')" qId="5" :refill="Refill('5')" @response="calculateAnswer($event,3,5)" />
+                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q6')" qId="5" :refill="Refill('5')" @response="calculateAnswer($event,1,5)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[6]}]">
                 <template v-slot:title>
                   <span class="v-inv">Question </span>07
                 </template>
-                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q7')" qId="6" :refill="Refill('6')" @response="calculateAnswer($event,2,6)" />
+                <checkboxQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q7')" qId="6" :refill="Refill('6')" @response="arraysMatch($event,['2','3','5'],6)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[7]}]">
                 <template v-slot:title>
                   <span class="v-inv">Question </span>08
                 </template>
-                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q8')" qId="7" :refill="Refill('7')" @response="calculateAnswer($event,3,7)" />
+                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q8')" qId="7" :refill="Refill('7')" @response="calculateAnswer($event,2,7)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[8]}]">
                 <template v-slot:title>
@@ -95,19 +93,19 @@
                 <template v-slot:title>
                   <span class="v-inv">Question </span>10
                 </template>
-                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q10')" qId="9" :refill="Refill('9')" @response="calculateAnswer($event,4,9)" />
+                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q10')" qId="9" :refill="Refill('9')" @response="calculateAnswer($event,1,9)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[10]}]">
                 <template v-slot:title>
                   <span class="v-inv">Question </span>11
                 </template>
-                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q11')" qId="10" :refill="Refill('10')" @response="calculateAnswer($event,2,10)" />
+                <checkboxQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q11')" qId="10" :refill="Refill('10')" @response="arraysMatch($event,['1','2','3'],10)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[11]}]">
                 <template v-slot:title>
                   <span class="v-inv">Question </span>12
                 </template>
-                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q12')" qId="11" :refill="Refill('11')" @response="calculateAnswer($event,1,11)" />
+                <checkboxQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q12')" qId="11" :refill="Refill('11')" @response="arraysMatch($event,['1','2','3'],11)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[12]}]">
                 <template v-slot:title>
@@ -119,19 +117,19 @@
                 <template v-slot:title>
                   <span class="v-inv">Question </span>14
                 </template>
-                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q14')" qId="13" :refill="Refill('13')" @response="calculateAnswer($event,3,13)" />
+                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q14')" qId="13" :refill="Refill('13')" @response="calculateAnswer($event,1,13)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[14]}]">
                 <template v-slot:title>
                   <span class="v-inv">Question </span>15
                 </template>
-                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q15')" qId="14" :refill="Refill('14')" @response="calculateAnswer($event,3,14)" />
+                <checkboxQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q15')" qId="14" :refill="Refill('14')" @response="arraysMatch($event,['1','2','3'],14)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[15]}]">
                 <template v-slot:title>
                   <span class="v-inv">Question </span>16
                 </template>
-                <checkboxQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q16')" qId="15" :refill="Refill('15')" @response="arraysMatch($event,['1','2','4'],15)" />
+                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q16')" qId="15" :refill="Refill('15')" @response="calculateAnswer($event,4,15)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[16]}]">
                 <template v-slot:title>
@@ -143,19 +141,19 @@
                 <template v-slot:title>
                   <span class="v-inv">Question </span>18
                 </template>
-                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q18')" qId="17" :refill="Refill('17')" @response="calculateAnswer($event,4,17)" />
+                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q18')" qId="17" :refill="Refill('17')" @response="calculateAnswer($event,2,17)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[18]}]">
                 <template v-slot:title>
                   <span class="v-inv">Question </span>19
                 </template>
-                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q19')" qId="18" :refill="Refill('18')" @response="calculateAnswer($event,2,18)" />
+                <checkboxQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q19')" qId="18" :refill="Refill('18')" @response="arraysMatch($event,['2','3'],18)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[19]}]">
                 <template v-slot:title>
                   <span class="v-inv">Question </span>20
                 </template>
-                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q20')" qId="19" :refill="Refill('19')" @response="calculateAnswer($event,3,19)" />
+                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q20')" qId="19" :refill="Refill('19')" @response="calculateAnswer($event,2,19)" />
               </b-tab>
             </b-tabs>
           </b-card>
@@ -182,34 +180,31 @@
     
     <div class="bottomNav generalSection" v-if="chosenScenario == 'justExam'">
       <div class="generalSectionBar"><span>{{$t('justExamShort')}}</span></div>
-      <microlearning path="exam1" time="15" size="140" :completion="parseInt($store.getters['plan/getScore'],10)" imagePath="P-Test.svg" :text="$t('plan')" class="plan" noGrey type="exam" questionNum="20" />
+      <microlearning path="exam1" time="15" size="140" :completion="parseInt($store.getters['plan/getScore'],10)" imagePath="P-Test.svg" :text="$t('plan')" class="plan" noGrey type="exam" questionNum="10" />
       <microlearning path="exam2" time="15" youAreHere size="140" :completion="parseInt($store.getters['spend/getScore'],10)" imagePath="S-Test.svg" :text="$t('spend')"  class="spend" noGrey type="exam" questionNum="20" />
       <microlearning path="exam3" time="15" size="140" :completion="parseInt($store.getters['report/getScore'],10)" imagePath="R-Test.svg" :text="$t('report')" class="report" noGrey  type="exam" questionNum="10"/>
     </div>
     <div class="bottomNav spendSection" v-else>
       <div class="spendSectionBar"><span>{{$t('spend')}}</span></div>
-      <microlearning  path="functionPart1" imagePath="InitiateAuthSpending.svg" size="140" time="20" :completion="$store.state.currentPlaying.spendPart1_player" :text="$t('OrganizationClassification')" type="video" />
+      <microlearning  path="functionPart1" imagePath="InitiateAuthSpending.svg" size="140" time="20" :completion="$store.state.currentPlaying.spendPart1_player" :text="$t('organizationClassification')" type="video" />
       <microlearning path="functionPart2"  imagePath="ExerciseFinancialAuthority.svg" size="140" time="20" :completion="$store.state.currentPlaying.spendPart2_player" :text="$t('DiversityInclusion')" type="video" />
       <microlearning path="functionPart3" size="140" time="20" :completion="$store.state.currentPlaying.spendPart3_player" imagePath="MonitContFinances.svg" :text="$t('Staffing')" type="video" />
       <microlearning path="functionKey" time="5" size="140" :completion="$store.state.currentPlaying.kmSpend" imagePath="KeyMessS.svg" :text="$t('KeyMessages')" :highlighted="chosenScenario == 'refresh'" type="keyMessages" />
-      <microlearning youAreHere path="exam2" size="140" time="15" imagePath="S-Test.svg" :text="$t('Test')" :completion="parseInt($store.getters['spend/getScore'],10)" :highlighted="chosenScenario == 'justExam'" type="exam" questionNum="20" />
+      <microlearning youAreHere path="exam2" size="140" time="20" imagePath="S-Test.svg" :text="$t('Test')" :completion="parseInt($store.getters['spend/getScore'],10)" :highlighted="chosenScenario == 'justExam'" type="exam" questionNum="20" />
     </div>
 
-    <!-- Debugging section -->
+      <!-- Debugging section -->
     <div v-if="debugging">
-      <p>{{allDone}}</p>
+      <p>Alldone: {{allDone}}</p>
       <p>{{answerScore}}</p>
-      <ul>
-        <li v-for="index in answerScore">Answer {{Refill(index.toString())}} </li>
-      </ul>
     </div>
     <!-- End of Debugging section -->
     <b-modal id="Completed" size="lg" okOnly>
       <p class='pageTitle'>{{$t('testComplete')}}</p>
       <p>{{$t('scoreIs')}} {{allDone}}%.</p>
       <p v-if="allDone < 80"> {{$t('notPassed')}}</p>
-      <p v-if="allDone >= 80 && allDone<100">{{$t('Passed')}} <nuxt-link :to="localePath('index')">{{$t('homePage')}}</nuxt-link></p>
-      <p v-if="allDone==100"> {{$t('Excelled')}} <nuxt-link :to="localePath('index')">{{$t('homePage')}}</nuxt-link></p>
+      <p v-if="allDone >= 80 && allDone<100">{{$t('Passed')}} <nuxt-link :to="localePath('index')">{{$t('homePageTest')}}</nuxt-link></p>
+      <p v-if="allDone==100"> {{$t('Excelled')}} <nuxt-link :to="localePath('index')">{{$t('homePageTest')}}</nuxt-link></p>
       <template v-slot:modal-ok>{{$t('close')}}</template>
     </b-modal>
 
@@ -454,12 +449,12 @@ export default {
     "unanswered":"Unanswered Question(s)",
     "Questions": {
       "q1": {
-        "text": "You found a chatbot system that meets your needs. An annual license, plus installation and setup, costs $5,650 including tax. What is the first step in exercising your spending authority?",
+        "text": "Creating or classifying a position in line with the organization’s mandate will ____________. ",
         "options": {
-          "1": "Contact the provider and order the system using your acquisition card",
-          "2": "Ask your team to conduct a thorough product research ",
-          "3": "Ensure that you have sufficient funds in your budget to purchase the system",
-          "4": "Order the system using a purchase order"
+          "1": "enable you to deliver your product or service",
+          "2": "build inclusivity ",
+          "3": "help meet the organization’s objectives ",
+          "4": " ensure that the employee can deliver the product or service effectively "
         },
         "feedback": {
           "1": "",
@@ -469,132 +464,128 @@ export default {
         }
       },
       "q2": {
-        "text": "You have spent $1,800 out of your $2,000 office supplies budget, and you don’t plan on any other purchases for the year. An employee wants to attend a training event on chatbot systems and the registration fee is $150. However, you have spent all of your training budget. What will you do?",
+        "text": "Rendering a classification decision for new and revised job descriptions _________________. ",
         "options": {
-          "1": "Tell the employee that the training budget has been spent",
-          "2": "Use the money initially allocated for office supplies",
-          "3": "Ask your director for additional funds",
-          "4": "Tell the employee you will revisit their request next fiscal year"
+          "1": "will help avoid grievances ",
+          "2": "must be done  before hiring",
+          "3": "will ensure that the employee can deliver the product or service effectively "
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": "",
-          "4": ""
+          "3": ""
         }
       },
       "q3": {
-        "text": "Which statement about delegation of financial authority is true?",
+        "text": "Organization and classification decisions ______________. ",
         "options": {
-          "1": "Authorities can only be delegated to positions",
-          "2": "Authorities can only be delegated to persons",
-          "3": "Authorities can only be delegated by persons exercising them",
-          "4": "Authorities can only be delegated to certain classifications"
+          "1": "are essentially financial transactions",
+          "2": "are made by the deputy head",
+          "3": "are made by a manager",
+          "4": "are made by an OC-accredited advisor ",
+          "5": "are based on job descriptions approved by a manager "
         },
         "feedback": {
           "1": "",
           "2": "",
           "3": "",
-          "4": ""
+          "4": "",
+          "5": ""
         }
       },
       "q4": {
-        "text": "Which of these expenses does <span class='bolder' style='text-transform: uppercase; text-decoration: underline;'>not</span> require a responsibility centre manager to exercise delegated expenditure initiation authority?",
+        "text": "Which of the following is <u>NOT</u> among your organization and classification responsibilities as a manager, when creating a new position.",
         "options": {
-          "1": "Hospitality request",
-          "2": "Conference registration fees",
-          "3": "Small expenses such as a $20 purchase of craft materials",
-          "4": "None of the above "
+          "1": "Ensure that the position fits into the organizational structure",
+          "2": "Write a job description that aligns with your organizational mandate and business objectives",
+          "3": "Decide on the group and level of the position based on the job description",
+          "4": "Verify that the job description is representative of the work assigned to the position ",
+          "5": "Ensure that the funds are available to staff the position  "
         },
         "feedback": {
           "1": "",
           "2": "",
           "3": "",
-          "4": ""
+          "4": "",
+          "5": ""
         }
       },
       "q5": {
-        "text": "Your organization’s spending dollar limit when using an acquisition card is $2,500 per transaction. You have found ergonomic chairs that meet both your and your administrative assistant’s needs. The two chairs together are valued at $4,649 including tax. As a manager, what will you do?",
+        "text": "It is a manager’s responsibility to _______________________.  ",
         "options": {
-          "1": "Go ahead and authorize the commitment for both chairs",
-          "2": "Authorize the purchase for both chairs using your admin’s acquisition card",
-          "3": "Ask another manager to purchase the chairs with their acquisition card",
-          "4": "Authorize your admin’s chair and have your supervisor authorize your chair"
+          "1": "evaluate and render classification decisions and determine the department’s organizational structure ",
+          "2": "ensure that the organizational structure is in line with the organization’s mandate and business objectives  ",
+          "3": "determine compensation for their employees based on their job descriptions  "
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": "",
-          "4": ""
+          "3": ""
         }
       },
       "q6": {
-        "text": "This spending mechanism is used to obtain goods or services from a list of pre-qualified vendors, with pre-established terms and conditions. What is it?",
+        "text": "<p>Mr. Drolet is the director general in the National Capital Region responsible for the management of the fleet services located in headquarters and the regions. A decision was made to move this function to Miramichi, NB causing the need to restructure  Mr. Drolet’s directorate.</p><p> What is the most appropriate next step? </p>",
         "options": {
-          "1": "Acquisition Card",
-          "2": "Competitive Contract",
-          "3": "Standing Offer",
-          "4": "Supply Arrangement"
+          "1": "Conduct an organizational analysis in consultation with an organization and classification (OC)-accredited HR advisor ",
+          "2": "Reclassify all positions affected",
+          "3": "Inform all employees that the measures of the Treasury Board Workforce Adjustment Directive are in effect "
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": "",
-          "4": ""
+          "3": ""
         }
       },
       "q7": {
-        "text": "Which of the following is a soft commitment? ",
+        "text": "Organization and Classification has a direct impact on human resources management.  Which of the following are areas of HR management in Organization and Classification.",
         "options": {
-          "1": "When you make an arrangement with a known supplier",
-          "2": "When you reserve funds before the supplier is identified",
-          "3": "When a transaction has been coded in the financial system",
-          "4": "When you have a Memorandum of Understanding with another department"
+          "1": "Labour relations",
+          "2": "Mandate and budget",
+          "3": "Organizational design",
+          "4": "Employment Equity ",
+          "5": "Resourcing"
         },
         "feedback": {
           "1": "",
           "2": "",
           "3": "",
-          "4": ""
+          "4": "",
+          "5": ""
         }
       },
       "q8": {
-        "text": "Which of the following is <span class='bolder' style='text-transform: uppercase; text-decoration: underline;'>not</span> part of a financial coding system?",
+        "text": "This policy provides deputy heads with the parameters to manage their classification authorities and to delegate classification authority to accredited persons.",
         "options": {
-          "1": "Budget component",
-          "2": "Responsibility centre manager",
-          "3": "Performance indicator",
-          "4": "Transaction details"
+          "1": "The Financial Administration Act (FAA)",
+          "2": "The Policy on People Management",
+          "3": "Authority Delegation Accountability Instrument"
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": "",
-          "4": ""
+          "3": ""
         }
       },
       "q9": {
-        "text": "As a manager authorizing a transaction against your budget under section 34 of the Financial Administration Act, it is essential that you do which of the following?",
+        "text": "A reference check is ___________________________. ",
         "options": {
-          "1": "Get approval from senior management",
-          "2": "Stay within your delegated limits",
-          "3": "Have section 32 authority pursuant to the FAA",
-          "4": "Ask section 33 if you can sign section 34"
+          "1": "a condition of hire performed as the last step in a hiring process ",
+          "2": "an assessment method used to validate a candidate’s qualifications",
+          "3": "necessary in all staffing actions to verify competencies"
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": "",
-          "4": ""
+          "3": ""
         }
       },
       "q10": {
-        "text": "Mr. Wong works as a manager for a small department and has delegation under both sections 32 and 34. Which instrument formalizes Mr. Wong’s delegated authorities?",
+        "text": "You are a sub-delegated manager, who has  been trying to staff a specialized position in a remote location. In recent years, it has been difficult to attract and retain employees in your unit. Experts are hard to find. Last week, you attended a conference in Vancouver. During a break, you met someone who is just finishing her term in the Interchange Canada program and will be returning to her substantive position in the public service. She  has the expertise required for the vacant position in your team. Which staffing process could be used to appoint this person to this position?",
         "options": {
-          "1": "Financial Administration Act",
-          "2": "Treasury Board policies",
-          "3": "The organization’s delegation chart",
-          "4": "His signed delegation card"
+          "1": "Deployment",
+          "2": "Internal advertised",
+          "3": "Secondment",
+          "4": "External Non-advertised"
         },
         "feedback": {
           "1": "",
@@ -604,70 +595,64 @@ export default {
         }
       },
       "q11": {
-        "text": "Your administrative professional has received an order of office supplies, along with an invoice. The invoice includes 5 whiteboards but she tells you that none were received. What would you do? ",
+        "text": "What should you consider  when determining your staffing needs?",
         "options": {
-          "1": "Pay the invoice now",
-          "2": "Pay the invoice after all 5 whiteboards are received",
-          "3": "Pay the invoice knowing the whiteboards are back-ordered",
-          "4": "Pay the invoice now after speaking with the supplier"
+          "1": "Business plans",
+          "2": "Qualifications required for the position ",
+          "3": "Organizational objectives, such as employment equity"
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": "",
-          "4": ""
+          "3": ""
         }
       },
       "q12": {
-        "text": "You receive an invoice for an employee's annual professional membership due in September. What do you do?",
+        "text": "Staffing priorities are guided by which of the following?",
         "options": {
-          "1": "Pay the invoice for the full year now",
-          "2": "Pay what is due between now and the end of the fiscal year ",
-          "3": "Pay what is due between now and the end of the calendar year",
-          "4": "Ask them to split the invoice between calendar years"
+          "1": "The Clerk of the Privy Council",
+          "2": "The Treasury Board Secretariat",
+          "3": "The Deputy Head"
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": "",
-          "4": ""
+          "3": ""
         }
       },
       "q13": {
-        "text": "Who is responsible for financial coding accuracy?",
+        "text": "Managers can achieve employment equity, diversity and inclusion objectives by ___________________.",
         "options": {
-          "1": "The administrative assistant who records the financial codes",
-          "2": "Managers who have delegated financial authorities",
-          "3": "The financial officer who performs quality assurance of the file",
-          "4": "The Chief Financial Officer’s office"
-        },
-        "feedback": {
-          "wrong": "",
-          "right": ""
-        }
-      },
-      "q14": {
-        "text": "How much time does the government have to pay for the goods?",
-        "options": {
-          "1": "Thirty days following acceptance of goods",
-          "2": "Thirty days after signing of Section 34 ",
-          "3": "Thirty days following receipt of the invoice",
-          "4": "Immediately"
+          "1": "ensuring the application of merit criteria",
+          "2": "eliminating barriers during the staffing process",
+          "3": "following orders of precedence "
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": "",
-          "4": ""
+          "3": ""
+        }
+      },
+      "q14": {
+        "text": "Which policy covers the requirements for deployments, assignments, secondments, reclassifications, and official languages in relation to staffing?",
+        "options": {
+          "1": "Policy on People Management ",
+          "2": "Apppointment Policy ",
+          "3": "Public Service Employment Act "
+        },
+        "feedback": {
+          "1": "",
+          "2": "",
+          "3": ""
         }
       },
       "q15": {
-        "text": "The start date for your new employee has been pushed back. He will only be working 10 months of the fiscal year instead of 12 months. His salary is $60,000. What do you do?",
+        "text": "Which of the following staffing options can a manager use to hire someone for an indeterminate period of employment?  ",
         "options": {
-          "1": "Increase budget by $10,000",
-          "2": "Reduce the actual expenditures by $10,000",
-          "3": "Reduce annual forecast expenditures by $10,000",
-          "4": "Increase commitments by $10,000"
+          "1": "External advertised appointment process",
+          "2": "Deployment  ",
+          "3": "Internal unadvertised appointment process ",
+          "4": "Secondment"
         },
         "feedback": {
           "1": "",
@@ -677,12 +662,12 @@ export default {
         }
       },
       "q16": {
-        "text": "An analysis of variance can help in what ways?",
+        "text": "A candidate in a staffing process you are conducting has requested an accommodation. What should you do?  ",
         "options": {
-          "1": "It aids in the early reallocation of resources",
-          "2": "It contributes to reducing the amounts lapsed at year-end",
-          "3": "It stops all deficits from happening",
-          "4": "It identifies mitigation strategies for risks"
+          "1": "Assess the candidate on slightly different criteria  ",
+          "2": "Offer no accommodation because they are not required during the assessment ",
+          "3": "Consider the validity of the accommodation request ",
+          "4": "Arrange to meet the accommodation needs of the candidate "
         },
         "feedback": {
           "right": "",
@@ -690,12 +675,12 @@ export default {
         }
       },
       "q17": {
-        "text": "Your budget contains the following line item:<br> <div class='tableScrollLTM'> <table class='qTable'> <tbody> <tr><th>&nbsp;</th><th> <p>Budget</p> </th> <th> <p>Commitments</p> </th> <th> <p>Year-to-Date Actuals</p> </th> <th> <p>Annual Forecasted Expenditures</p> </th> </tr> <tr> <td> <p>Travel</p> </td> <td> <p style='text-align: right;'>$8,400</p> </td> <td> <p style='text-align: right;'>$0</p> </td> <td> <p style='text-align: right;'>$2,400</p> </td> <td> <p style='text-align: right;'>$8,400</p> </td> </tr> </tbody> </table> </div> <br>You are in the process of approving $1,500 in travel for an employee for a new initiative that was not originally included in the budget. Looking at the provided line item, which amounts would need to be increased to account for the additional $1,500?",
+        "text": "Demand for your program’s services has increased substantially, and now everyone is required to work four night shifts per month. Brad is a single father of two young children, and he is unable to comply and requested accommodation. Are you required to accommodate Brad? ",
         "options": {
-          "1": "Year-to-Date Actuals and Annual Forecasted Expenditures",
-          "2": "Commitments and Annual Forecasted Expenditures",
-          "3": "Commitments only",
-          "4": "Budget and Year-to-Date Actuals"
+          "1": "Yes, because he is a single father ",
+          "2": "Yes, because he has requested accommodation based on family status  ",
+          "3": "Yes, because you must accommodate when someone makes a request ",
+          "4": "No, because his situation does not impede his ability to do his job "
         },
         "feedback": {
           "1": "",
@@ -705,27 +690,25 @@ export default {
         }
       },
       "q18": {
-        "text": "Your budget contains the provided line items:<br> <div class='tableScrollLTM'> <table class='qTable'> <tbody> <tr> <th>&nbsp;</th> <th> <p>Budget</p> </th> <th> <p>Commitments</p> </th> <th> <p>Year-to-Date Actuals</p> </th> <th> <p>Annual Forecasted Expenditures</p> </th> </tr> <tr> <td> <p>Salary</p> </td> <td> <p style='text-align: right;'>$60,000</p> </td> <td> <p style='text-align: right;'>$20,000</p> </td> <td> <p style='text-align: right;'>$40,000</p> </td> <td> <p style='text-align: right;'>$60,000</p> </td> </tr> </tbody> </table> </div> <br>You just remembered that an employee has gone on leave without pay for two months. His yearly salary is $60,000. Where would you change the amount to $50,000?",
+        "text": "What is the impact of employment equity, diversity and inclusion policies.",
         "options": {
-          "1": "Budget",
-          "2": "Commitments",
-          "3": "Year-to-Date Actuals",
-          "4": "Annual Forecasted Expenditures"
+          "1": "Increases the cost of doing business by needing to accommodate with special tools and equipment for those who request them",
+          "2": "Ensures that current and potential employees have equal opportunity to be hired or promoted for their qualifications. ",
+          "3": "Hinders full and equal participation in the workplace"
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": "",
-          "4": ""
+          "3": ""
         }
       },
       "q19": {
-        "text": "What must you have set up to be able to pay your consultant in the new fiscal year using the budget from the previous fiscal year?",
+        "text": "Which of the following statements about biases are true?",
         "options": {
-          "1": "Budget carry–forward",
-          "2": "Payable At Year-End",
-          "3": "Receivable At Year-End",
-          "4": "Post-dated cheque"
+          "1": "Conscious biases tend to be positive while unconscious biases tend to be negative",
+          "2": "Biases arise as a result of the brain’s tendency to generalize ",
+          "3": "Biases can be unlearned ",
+          "4": "Conscious biases affect our behaviours while unconscious biases affect our attitudes"
         },
         "feedback": {
           "1": "",
@@ -735,16 +718,16 @@ export default {
         }
       },
       "q20": {
-        "text": "It’s April. As a responsibility centre manager, you must have set up a Payable At Year-End (PAYE) to charge your previous year’s budget with the costs associated with which of the following transactions?",
+        "text": "To ensure equal access to opportunities and to facilitate full and equal participation, which of the following is your responsibility? ",
         "options": {
-          "1": "All outstanding commitments currently in the system for the previous fiscal year that just ended March 31, under your cost center.",
-          "2": "The annual forecast expenditures that were not spent in the fiscal year that just ended March 31.",
-          "3": "The estimated costs associated with goods and services that were delivered on or prior to March 31. ",
-          "4": "All costs incurred during the first two weeks of the new fiscal year."
+          "1": "Assess an employee’s need for accommodation to determine what the employee is able to do ",
+          "2": "Inform all employees of their right to request work-related accommodation to address needs that may impede their ability to work effectively ",
+          "3": "Suggest your employees read the organizational policies and procedures on diversity equity and inclusion, so they know their rights. "
         },
         "feedback": {
-          "right": "",
-          "wrong": ""
+          "1": "",
+          "2": "",
+          "3": ""
         }
       }
     }
@@ -759,13 +742,13 @@ export default {
     "scoreIs": "Votre note finale est de",
     "unanswered":"Question(s) non-répondue(s)",
     "Questions": {
-      "q1": {
-        "text": "Vous avez trouvé un système de robot conversationnel qui répond à vos besoins. Une licence annuelle, plus les frais d’installation et de configuration, coûte 5&nbsp;650&nbsp;$, taxes incluses. Quelle est la première étape de l’exercice de votre pouvoir de dépenser?",
+       "q1": {
+        "text": "La création ou la classification d’un poste conformément au mandat de l’organisation ____________.",
         "options": {
-          "1": "Communiquer avec le fournisseur et commandez le système à l’aide de votre carte d’achat",
-          "2": "Demander à votre équipe d’effectuer une recherche approfondie sur le produit ",
-          "3": "Vous assurer d’avoir suffisamment de fonds dans votre budget pour acheter le système",
-          "4": "Commander le système à l’aide d’une commande d’achat"
+          "1": "vous permettra de livrer votre produit ou de fournir votre service ",
+          "2": "favorisera l’inclusivité ",
+          "3": "contribuera à l’atteinte des objectifs de l’organisation ",
+          "4": "fera en sorte que l’employé pourra livrer le produit ou fournir le service efficacement  "
         },
         "feedback": {
           "1": "",
@@ -775,132 +758,128 @@ export default {
         }
       },
       "q2": {
-        "text": "Vous avez dépensé 1&nbsp;800&nbsp;$ de votre budget de 2&nbsp;000&nbsp;$ pour les fournitures de bureau et vous ne prévoyez pas d’autres achats pour l’année. Un employé veut assister à une formation sur les systèmes de clavardage et les frais d’inscription sont de 150 $. Cependant, vous avez dépensé la totalité de votre budget de formation. Qu’allez-vous faire?",
+        "text": "Une décision en matière de classification pour les descriptions de travail, nouvelles et révisées _________________. ",
         "options": {
-          "1": "Dire à l’employé que le budget de formation a été dépensé ",
-          "2": "Utiliser l’argent initialement alloué pour les fournitures de bureau",
-          "3": "Demander à votre directeur des fonds supplémentaires",
-          "4": "Dire à l’employé que vous réexaminerez sa demande au cours du prochain exercice financier"
+          "1": "permettra d’éviter certains griefs  ",
+          "2": "doit être prise avant l’embauche ",
+          "3": "fera en sorte que l’employé pourra livrer le produit ou fournir le service efficacement  "
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": "",
-          "4": ""
+          "3": ""
         }
       },
       "q3": {
-        "text": "Lequel des énoncés suivants concernant la délégation des pouvoirs financiers est vrai?",
+        "text": "Les décisions en matière d’organisation et de classification ______________. ",
         "options": {
-          "1": "Les pouvoirs ne peuvent être délégués qu’aux postes.",
-          "2": "Les pouvoirs ne peuvent être délégués qu’à des personnes.",
-          "3": "Les pouvoirs ne peuvent être délégués que par des personnes qui les exercent.",
-          "4": "Les pouvoirs ne peuvent être délégués qu’à certaines classifications."
+          "1": "consistent essentiellement en des opérations financières ",
+          "2": "sont prises par l’administrateur général ",
+          "3": "sont prises par un gestionnaire ",
+          "4": "sont prises par un conseiller accrédité en OC ",
+          "5": "reposent sur des descriptions de travail approuvées par un gestionnaire "
         },
         "feedback": {
           "1": "",
           "2": "",
           "3": "",
-          "4": ""
+          "4": "",
+          "5": ""
         }
       },
       "q4": {
-        "text": "Laquelle de ces dépenses n’exige <span class='bolder' style='text-transform:uppercase;text-decoration:underline;'>pas</span> qu’un gestionnaire de centre de responsabilité exerce le pouvoir délégué d’engager des dépenses?",
+        "text": "Lequel des éléments suivants NE représente PAS, lors de la création d’un nouveau poste, une de vos responsabilités en matière d’organisation et de classification en tant que gestionnaire?  ",
         "options": {
-          "1": "Demande d’activité d’accueil",
-          "2": "Frais d’inscription à la conférence",
-          "3": "Petites dépenses telles qu’un achat de 20 $ de matériel d’artisanat",
-          "4": "Aucune de ces réponses"
+          "1": "Faire en sorte que le poste s’intègre bien dans la structure organisationnelle.  ",
+          "2": "Rédiger une description de travail qui correspond au mandat et aux objectifs opérationnels de votre organisation.  ",
+          "3": "Déterminer le groupe et le niveau du poste à la lumière de la description de travail.  ",
+          "4": "Vérifier que la description du poste est représentative des fonctions du poste. ",
+          "5": "S’assurer que les fonds sont disponibles pour la dotation du poste. "
         },
         "feedback": {
           "1": "",
           "2": "",
           "3": "",
-          "4": ""
+          "4": "",
+          "5": ""
         }
       },
       "q5": {
-        "text": "La limite de dépenses de votre organisation lorsqu’elle utilise une carte d’achat est de 2&nbsp;500&nbsp;$ par transaction. Vous avez trouvé des chaises ergonomiques qui répondent à vos besoins et à ceux de votre adjointe administrative. Les deux chaises ensemble sont évaluées à 4&nbsp;649&nbsp;$, taxes incluses. En tant que gestionnaire, que devriez-vous faire?",
+        "text": "Il incombe au gestionnaire _______________________. ",
         "options": {
-          "1": "Autoriser l’engagement pour les deux chaises",
-          "2": "Autoriser l’achat des deux chaises à l’aide de la carte d’achat de votre administrateur",
-          "3": "Demander à un autre gestionnaire d’acheter les chaises avec sa carte d’achat",
-          "4": "Autoriser la chaise de votre adjointe et demandez à votre superviseur d’autoriser votre chaise"
+          "1": "d’évaluer la situation, de prendre des décisions en matière de classification et de déterminer la structure organisationnelle du ministère ",
+          "2": "de veiller à ce que la structure organisationnelle soit conforme au mandat et aux objectifs opérationnels de l’organisation ",
+          "3": "de déterminer la rémunération de ses employés en fonction de leur description de travail  "
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": "",
-          "4": ""
+          "3": ""
         }
       },
       "q6": {
-        "text": "Ce mécanisme de dépense sert à obtenir des biens ou des services à partir d’une liste de fournisseurs préqualifiés, assortis de conditions préétablies. De quoi s'agit-il?",
+        "text": "<p>M. Drolet est le directeur général de la région de la capitale nationale qui est responsable de la gestion des parcs automobiles situés à l’administration centrale et dans les régions. Il a été décidé que cette fonction serait transférée à Miramichi, au Nouveau-Brunswick, ce qui entraîne la nécessité de restructurer la direction où travaille M. Drolet. </p><p>Quelle est la prochaine étape la plus appropriée parmi les suivantes? </p>",
         "options": {
-          "1": "Une carte d’achat",
-          "2": "Un contrat concurrentiel",
-          "3": "Une offre à commandes",
-          "4": "Un arrangement en matière d’approvisionnement"
+          "1": "Effectuer une analyse organisationnelle en consultation avec un conseiller en RH accrédité en organisation et en classification (OC). ",
+          "2": "Reclassifier tous les postes concernés. ",
+          "3": "Informer tous les employés que les dispositions de la Directive sur le réaménagement des effectifs du Conseil du Trésor sont en vigueur. "
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": "",
-          "4": ""
+          "3": ""
         }
       },
       "q7": {
-        "text": "Lequel des engagements suivants est un engagement préalable?",
+        "text": "L’organisation et la classification ont une incidence directe sur la gestion des ressources humaines. Quels aspects de la gestion des RH sont liés à l’organisation et à la classification?  ",
         "options": {
-          "1": "Lorsque vous faites un arrangement avec un fournisseur connu",
-          "2": "Lorsque vous réservez des fonds avant que le fournisseur ne soit identifié",
-          "3": "Lorsqu’une transaction a été codée dans le système financier",
-          "4": "Lorsque vous avez un protocole d’entente avec un autre ministère"
+          "1": "Relations de travail ",
+          "2": "Mandat et budget ",
+          "3": "Conception organisationnelle ",
+          "4": "Équité en matière d’emploi ",
+          "5": "Ressourcement"
         },
         "feedback": {
           "1": "",
           "2": "",
           "3": "",
-          "4": ""
+          "4": "",
+          "5": ""
         }
       },
       "q8": {
-        "text": "Lequel des éléments suivants ne fait <span class='bolder' style='text-transform:uppercase;text-decoration:underline;'>pas</span> partie d’un système de codage financier? ",
+        "text": "Cette politique fournit aux administrateurs généraux les paramètres nécessaires pour gérer leurs pouvoirs en matière de classification et pour déléguer des pouvoirs de classification à des personnes accréditées. ",
         "options": {
-          "1": "La composante budgétaire",
-          "2": "Le gestionnaire de centre de responsabilité",
-          "3": "L'indicateur de rendement",
-          "4": "Les détails de la transaction"
+          "1": "La Loi sur la gestion des finances publiques (LGFP) ",
+          "2": "La Politique sur la gestion des personnes ",
+          "3": "L’Instrument de délégation et de responsabilisation en matière de nomination "
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": "",
-          "4": ""
+          "3": ""
         }
       },
       "q9": {
-        "text": "En tant que gestionnaire autorisant une opération sur votre budget en vertu de l’article 34 de la Loi sur la gestion des finances publiques, il est essentiel que vous&hellip;",
+        "text": "Une vérification des références est ___________________________.  ",
         "options": {
-          "1": "&hellip;obteniez l’approbation de la haute direction",
-          "2": "&hellip;restiez dans les limites des pouvoirs qui vous sont délégués",
-          "3": "&hellip;aviez le pouvoir de l’article 32 en vertu de la LGFP",
-          "4": "&hellip;demandiez à la section 33 si vous pouvez signer la section 34"
+          "1": "une condition d’embauche effectuée à la dernière étape du processus d’embauche  ",
+          "2": "une méthode d’évaluation des qualifications d’un candidat ou d’une candidate  ",
+          "3": "nécessaire à toutes les mesures de dotation afin de vérifier les compétences"
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": "",
-          "4": ""
+          "3": ""
         }
       },
       "q10": {
-        "text": "M. Wong travaille comme gestionnaire d’un petit ministère et a reçu une délégation de pouvoirs en vertu des articles 32 et 34. Quel instrument formalise les pouvoirs délégués à M. Wong?",
+        "text": "Vous occupez un poste de gestionnaire subdélégué et vous essayez de pourvoir un poste spécialisé dans une région éloignée. Ces dernières années, vous avez eu du mal à attirer et à maintenir en poste des employés au sein de votre unité. Les experts sont difficiles à trouver. La semaine dernière, vous avez assisté à une conférence à Vancouver. Lors d’une pause, vous avez rencontré une femme qui vient de terminer son mandat au programme Échanges Canada et qui retournera à son poste d’attache dans la fonction publique. Elle possède l’expertise requise pour le poste vacant dans votre équipe. Quel processus de dotation pourrait servir à nommer cette personne à ce poste?",
         "options": {
-          "1": "La Loi sur la gestion des finances publiques",
-          "2": "Les politiques du Conseil du Trésor",
-          "3": "L'organigramme de délégation de l'organisation",
-          "4": "Sa carte de délégation signée"
+          "1": "Mutation",
+          "2": "Processus interne annoncé",
+          "3": "Détachement  ",
+          "4": "Processus externe non annoncé "
         },
         "feedback": {
           "1": "",
@@ -910,72 +889,64 @@ export default {
         }
       },
       "q11": {
-        "text": "Votre professionnel administratif a reçu une commande de fournitures de bureau, accompagnée d’une facture. La facture comprend 5 tableaux blancs mais il vous dit qu’aucun n’a été reçu. Que devriez-vous faire?",
+        "text": "Que devriez-vous prendre en compte au moment de déterminer vos besoins en dotation?",
         "options": {
-          "1": "Payer la facture maintenant",
-          "2": "Payer la facture après réception des 5 tableaux blancs",
-          "3": "Payer la facture en sachant que les tableaux blancs sont en rupture de stock",
-          "4": "Payer la facture maintenant après avoir parlé avec le fournisseur"
+          "1": "Les plans d’activités",
+          "2": "Les qualifications requises pour le poste",
+          "3": "Les objectifs organisationnels, comme l’équité en matière d’emploi"
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": "",
-          "4": ""
+          "3": ""
         }
       },
       "q12": {
-        "text": "Vous recevez une facture pour l’adhésion professionnelle annuelle d’un employé qui doit être payée en septembre. Que devriez-vous faire?",
+        "text": "Parmi les intervenants suivants, qui établit les priorités en matière de dotation?",
         "options": {
-          "1": "Payer maintenant la facture pour l’année entière",
-          "2": "Payer ce qui est dû d’ici la fin de l’exercice financier ",
-          "3": "Payer ce qui est dû d’ici la fin de l’année civile ",
-          "4": "Leur demander de fractionner la facture entre les années civiles"
+          "1": "Le greffier du Conseil privé",
+          "2": "Le Secrétariat du Conseil du Trésor",
+          "3": "L’administrateur général  "
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": "",
-          "4": ""
+          "3": ""
         }
       },
       "q13": {
-        "text": "Qui est responsable de l’exactitude du codage financier?",
+        "text": "Les gestionnaires peuvent atteindre les objectifs d’équité en matière d’emploi, de diversité et d’inclusion en ___________________.",
         "options": {
-          "1": "L’adjoint administratif qui enregistre les codes financiers",
-          "2": "Les gestionnaires qui ont la délégation des pouvoirs financiers",
-          "3": "L'agent financier qui effectue l’assurance de la qualité du dossier",
-          "4": "Le bureau du directeur financier "
+          "1": "veillant à l’application des critères de mérite",
+          "2": "éliminant les obstacles pendant les processus de dotation",
+          "3": "suivant les ordres de priorité"
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": "",
-          "4": ""
+          "3": ""
         }
       },
       "q14": {
-        "text": "Combien de temps le gouvernement a-t-il pour payer des biens ou des services?",
+        "text": "Quelle politique aborde les exigences relatives aux mutations, aux affectations, aux détachements, à la reclassification et aux langues officielles dans le domaine de la dotation?",
         "options": {
-          "1": "Trente jours après l'acceptation des biens",
-          "2": "Trente jours après la signature de l’article 34",
-          "3": "Trente jours après réception de la facture",
-          "4": "Il doit les payer immédiatement"
+          "1": "La Politique sur la gestion des personnes ",
+          "2": "La Politique de nomination  ",
+          "3": "La Loi sur l’emploi dans la fonction publique "
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": "",
-          "4": ""
+          "3": ""
         }
       },
       "q15": {
-        "text": "La date de début de votre nouveau salarié a été repoussée. Il ne travaillera que dix mois de l’exercice financier au lieu de douze. Son salaire est de 60&nbsp;000&nbsp;$. Que devez-vous faire?",
+        "text": "Lesquelles des options de dotation suivantes un gestionnaire peut-il utiliser pour embaucher une personne pour une période indéterminée?  ",
         "options": {
-          "1": "Augmenter le budget de 10&nbsp;000&nbsp;$.",
-          "2": "Réduire les dépenses réelles de 10&nbsp;000&nbsp;$.",
-          "3": "Réduire de 10&nbsp;000&nbsp;$ les dépenses annuelles prévues.",
-          "4": "Augmenter les engagements de 10&nbsp;000&nbsp;$."
+          "1": "Processus de nomination externe annoncé  ",
+          "2": "Mutation",
+          "3": "Processus interne de nomination non annoncé ",
+          "4": "Détachement"
         },
         "feedback": {
           "1": "",
@@ -985,12 +956,12 @@ export default {
         }
       },
       "q16": {
-        "text": "De quelle façons une analyse de la variance peut-elle aider?",
+        "text": "Lors d’un processus de dotation, un candidat vous demande de prendre des mesures d’adaptation. Que devriez-vous faire?",
         "options": {
-          "1": "Elle aide à la réaffectation précoce des ressources",
-          "2": "Elle contribue à réduire les montants périmés à la fin de l’exercice",
-          "3": "Elle empêche tous les déficits de se produire ",
-          "4": "Elle identifie les stratégies d’atténuation des risques"
+          "1": "Évaluer le candidat selon des critères légèrement différents.",
+          "2": "Refuser d’offrir des mesures d’adaptation, car il n’est pas nécessaire de le faire à l’étape de l’évaluation. ",
+          "3": "Examiner la validité de la demande.",
+          "4": "Prendre des dispositions pour répondre aux besoins d’adaptation du candidat."
         },
         "feedback": {
           "right": "",
@@ -998,12 +969,12 @@ export default {
         }
       },
       "q17": {
-        "text": "Votre budget contient le poste fourni :<br><div class='tableScrollLTM'><table class='qTable'><tbody><tr><th>&nbsp;</th><th><p>Budget</p></th><th><p>Engagements</p></th><th><p>Dépenses réelles depuis le début de l’exercice</p></th><th><p>Dépenses annuelles prévues</p></th></tr><tr><td><p>Voyages</p></td><td><p style='text-align: right;'>8&nbsp;400&nbsp;$</p></td><td><p style='text-align: right;'>0 $</p></td><td><p style='text-align: right;'>2&nbsp;400&nbsp;$</p></td><td><p style='text-align: right;'>8&nbsp;400&nbsp;$</p></td></tr></tbody></table> </div><br>Vous êtes en train d’approuver un voyage de 1&nbsp;500&nbsp;$ pour un employé dans le cadre d’une nouvelle initiative qui n’était pas prévue initialement dans le budget. En examinant le poste budgétaire prévu, quels montants devraient être augmentés pour tenir compte des 1&nbsp;500&nbsp;$  supplémentaires?",
+        "text": "Vous avez observé une augmentation importante des demandes de services dans le cadre de votre programme, et tous les employés doivent désormais travailler quatre quarts de nuit par mois. Brad, qui élève seul ses deux jeunes enfants, est incapable de se conformer à cette nouvelle réalité et demande une mesure d'adaptation. Avez‑vous l’obligation de lui offrir des mesures d’adaptation?",
         "options": {
-          "1": "Dépenses réelles depuis le début de l’exercice et dépenses annuelles prévues",
-          "2": "Engagements et prévisions annuelles des dépenses ",
-          "3": "Engagements seulement",
-          "4": "Budget et dépenses réelles depuis le début de l’exercice"
+          "1": "Oui, parce qu’il est un père célibataire.",
+          "2": "Oui, parce qu’il a demandé des mesures d’adaptation en raison de sa situation familiale.",
+          "3": "Oui, car vous devez prendre des mesures d’adaptation lorsqu’une personne en fait la demande.",
+          "4": "Non, car sa situation n’entrave pas sa capacité à travailler. "
         },
         "feedback": {
           "1": "",
@@ -1013,27 +984,25 @@ export default {
         }
       },
       "q18": {
-        "text": "Votre budget contient les postes individuels fournis :<br> <div class='tableScrollLTM'> <table class='qTable'><tbody><tr><th>&nbsp;</th><th><p>Budget</p></th><th><p>Engagements</p></th><th><p>Dépenses réelles depuis le début de l’exercice</p></th><th><p>Dépenses annuelles prévues</p></th></tr><tr><td><p>Salaire</p></td><td><p style='text-align: right;'>60&nbsp;000&nbsp;$</p></td><td><p style='text-align: right;'>20&nbsp;000&nbsp;$</p></td><td><p style='text-align: right;'>40&nbsp;000&nbsp;$</p></td><td><p style='text-align: right;'>60&nbsp;000&nbsp;$</p></td></tr></tbody></table></div> <br>Vous venez de vous rappeler qu’un employé est en congé non payé depuis deux mois. Son salaire annuel est de 60&nbsp;000&nbsp;$. Où changeriez-vous le montant à 50&nbsp;000&nbsp;$?",
+        "text": "Quelle est l’incidence des politiques d’équité en matière d’emploi, de diversité et d’inclusion?",
         "options": {
-          "1": "Dans le budget",
-          "2": "Dans les engagements",
-          "3": "Dans les dépenses réelles depuis le début de l’exercice",
-          "4": "Dans les dépenses annuelles prévues"
+          "1": "Elles entraînent une augmentation des coûts d’exploitation, car il faut prévoir des outils et du matériel particuliers pour ceux qui en font la demande. ",
+          "2": "Elles font en sorte que les employés actuels et potentiels ont des chances égales d’être promus ou embauchés grâce à leurs qualifications.  ",
+          "3": "Elles empêchent une participation totale et égale dans le lieu de travail. "
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": "",
-          "4": ""
+          "3": ""
         }
       },
       "q19": {
-        "text": "Que devez-vous avoir mis en place pour pouvoir payer votre consultant au cours du nouvel exercice en utilisant le budget de l’exercice précédent?",
+        "text": "Parmi les énoncés suivants portant sur les préjugés, lesquels sont vrais?",
         "options": {
-          "1": "Report de budget",
-          "2": "Créditeur à la fin de l’exercice",
-          "3": "Débiteur à la fin de l’exercice",
-          "4": "Chèque postdaté"
+          "1": "Les préjugés conscients ont tendance à être positifs, et les préjugés inconscients tendent à être négatifs. ",
+          "2": "Les préjugés sont causés par la tendance du cerveau à généraliser. ",
+          "3": "Les préjugés peuvent être désappris. ",
+          "4": "Les préjugés conscients ont une incidence sur notre comportement, tandis que les préjugés inconscients ont une incidence sur notre attitude."
         },
         "feedback": {
           "1": "",
@@ -1043,16 +1012,16 @@ export default {
         }
       },
       "q20": {
-        "text": "Nous sommes au mois d’avril. À titre de gestionnaire de centre de responsabilité, vous devez avoir établi un CAFE (créditeur à la fin de l’exercice) pour imputer à votre budget de l’année précédente les coûts associés à laquelle des transactions suivantes?",
+        "text": "Pour garantir un accès égal aux possibilités offertes et permettre une participation totale et égale, laquelle des mesures suivantes avez‑vous la responsabilité de prendre?",
         "options": {
-          "1": "Tous les engagements en cours actuellement dans le système au cours de l’exercice précédent qui vient de se terminer le 31 mars, sous votre centre de coûts.",
-          "2": "Les dépenses annuelles prévues qui n’ont pas eu lieu au cours de l’exercice financier se terminant le 31 mars.",
-          "3": "Les coûts estimatifs associés aux biens et services qui ont été livrés le 31 mars ou avant.",
-          "4": "Tous les coûts engagés au cours des deux premières semaines du nouvel exercice financier."
+          "1": "Évaluer le besoin de mesures d’adaptation d’un employé afin de déterminer ce que celui-ci est capable de faire. ",
+          "2": "Informer tous les employés qu’ils ont le droit de demander des mesures d’adaptation liées au travail pour remédier à une lacune qui pourrait les empêcher de travailler efficacement.",
+          "3": "Suggérer à vos employés de lire les politiques et les procédures de l’organisation en matière de diversité, d’équité et d’inclusion afin de sa familiariser avec leurs droits. "
         },
         "feedback": {
-          "right": "",
-          "wrong": ""
+          "1": "",
+          "2": "",
+          "3": ""
         }
       }
     }

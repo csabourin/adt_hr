@@ -8,6 +8,7 @@ export default {
   spend: "Dépenses",
   report: "Rapports",
   homePage: "Accueil",
+  homePageTest: "page d'accueil.",
   links: "Liens",
   linksAlt:"Selectionner ici pour ouvrir la section contenant des liens",
   files: "Fichiers",
@@ -34,9 +35,19 @@ export default {
   selectRight: "Choisissez la bonne réponse.",
   pleaseAnswer: "Veuillez r&eacute;pondre &agrave; la question!",
   KeyMessages: "Messages clés",
-  KeyMessagesPlan: "<span class='v-inv'>Planification&nbsp;:</span> Messages clés",
-  KeyMessagesSpend: "<span class='v-inv'>Dépenses&nbsp;:</span> Messages clés",
-  KeyMessagesReport: "<span class='v-inv'>Rapports&nbsp;:</span> Messages clés",
+  KeyMessagesPlan: "<span class='v-inv'>Design Foundation:</span> Key Messages",
+  KeyMessagesSpend: "<span class='v-inv'>Function and Process:</span> Key Messages",
+  KeyMessagesReport: "<span class='v-inv'>Core Values and Standards:</span> Key Messages",
+  fileSet: "Files used in this section",
+  HRDelegation: "Human Resources Delegation",
+  HRPlanning: "Human Resources Planning",
+  organizationClassification: "Organization and Classification",
+  DiversityInclusion: "EE Diversity and Inclusion",
+  Staffing: "Staffing",
+  LabourRelations: "Labour Relations",
+  ValuesEthics: "Values and Ethics",
+  OfficialLanguages: "Official Languages",
+  PoliticalActivities: "Political Activities",
   fileSet: "Fichiers utilisés dans cette section",
   BuildWorkPlan: "Élaborer un plan de travail",
   CreateBudget: "Créer un budget",
@@ -68,8 +79,8 @@ export default {
   
   // Texte pour les tests
   notPassed: "Vous n’avez pas réussi ce test. Vous pouvez réviser vos réponses et réessayer.",
-  Passed: "Vous avez réussi ce test, vous pouvez réviser vos réponses et essayer d’améliorer votre score, ou aller à la page d’accueil.",
-  Excelled: "Vous avez réussi ce test, félicitations! Vous pouvez retourner à la page d’accueil.",
+  Passed: "Vous avez réussi ce test, vous pouvez réviser vos réponses et essayer d’améliorer votre score, ou aller à la ",
+  Excelled: "Vous avez réussi ce test, félicitations! Vous pouvez retourner à la ",
   
   // Texte pour icones
   threeSixty:{

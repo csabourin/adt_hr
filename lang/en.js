@@ -5,6 +5,7 @@ export default {
   skipToMain:"Skip to main content",
   searchBar: "Search",
   homePage: "Home",
+  homePageTest: "home page.",
   links: "Links",
   linksAlt:"Select here to open the section containing links",
   files: "Files",
@@ -41,7 +42,7 @@ export default {
   fileSet: "Files used in this section",
   HRDelegation: "Human Resources Delegation",
   HRPlanning: "Human Resources Planning",
-  OrganizationClassification: "Organization and Classification",
+  organizationClassification: "Organization and Classification",
   DiversityInclusion: "EE Diversity and Inclusion",
   Staffing: "Staffing",
   LabourRelations: "Labour Relations",
@@ -75,8 +76,8 @@ export default {
   
   // Text for Exams
   notPassed: "You have not passed the test. You may review your answers and then try again.",
-  Passed: "Congratulations! You have passed the test. You may review your answers and try to improve your score or go to the Home page.",
-  Excelled: "Congratulations! You have passed the test. You can go back to the Home page.",
+  Passed: "Congratulations! You have passed the test. You may review your answers and try to improve your score or go to the ",
+  Excelled: "Congratulations! You have passed the test. You can go back to the ",
   
   // -------- Text for icons --------
   threeSixty:{
