@@ -1,6 +1,6 @@
 // English translation
 export default {
-  finRoles: "Responsible Use of Public Funds",
+  finRoles: "Managing People Effectively ",
   symbolicIdentifier: "Symbolic Identifier",
   skipToMain:"Skip to main content",
   searchBar: "Search",
