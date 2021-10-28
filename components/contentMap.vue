@@ -29,7 +29,7 @@
           <h2 class="colorBar2"><span class="v-inv">{{$t('navigationMenu')}}</span> {{$t('spend')}}</h2>
           <menu style="list-style: none">
             <li role="menuitem">
-              <nuxt-link :to="localePath('functionPart1')" v-html="$t('OrganizationClassification')" />
+              <nuxt-link :to="localePath('functionPart1')" v-html="$t('organizationClassification')" />
             </li>
             <li role="menuitem">
               <nuxt-link :to="localePath('functionPart2')" v-html="$t('DiversityInclusion')" />

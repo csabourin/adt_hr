@@ -44,13 +44,13 @@ export default {
     "q1": {
       "sentence": "Commit to building and maintaining a diversified and {0} workplace",
       "choices": {
-        "1": "ACCREDITED",
-        "2": "DELEGATED",
-        "3": "INCLUSIVE",
-        "4": "JOB DESCRIPTION",
-        "5": "MANDATE",
-        "6": "OVERLAP",
-        "7": "RESPONSIBILITIES"
+        "1": "accredited",
+        "2": "delegated",
+        "3": "inclusive",
+        "4": "job description",
+        "5": "mandate",
+        "6": "overlap",
+        "7": "responsibilities"
       },
       "feedback": {
         "right": "",
@@ -60,13 +60,13 @@ export default {
     "q2": {
       "sentence": "Align your organizational structure with your organizational {0} and business objectives",
       "choices": {
-        "1": "ACCREDITED",
-        "2": "DELEGATED",
-        "3": "INCLUSIVE",
-        "4": "JOB DESCRIPTION",
-        "5": "MANDATE",
-        "6": "OVERLAP",
-        "7": "RESPONSIBILITIES"
+        "1": "accredited",
+        "2": "delegated",
+        "3": "inclusive",
+        "4": "job description",
+        "5": "mandate",
+        "6": "overlap",
+        "7": "responsibilities"
       },
       "feedback": {
         "right": "",
@@ -76,13 +76,13 @@ export default {
     "q3": {
       "sentence": "Staff existing vacant positions only when a review of the {0} confirms that the duties remain current",
       "choices": {
-        "1": "ACCREDITED",
-        "2": "DELEGATED",
-        "3": "INCLUSIVE",
-        "4": "JOB DESCRIPTION",
-        "5": "MANDATE",
-        "6": "OVERLAP",
-        "7": "RESPONSIBILITIES"
+        "1": "accredited",
+        "2": "delegated",
+        "3": "inclusive",
+        "4": "job description",
+        "5": "mandate",
+        "6": "overlap",
+        "7": "responsibilities"
       },
       "feedback": {
         "right": "",
@@ -92,13 +92,13 @@ export default {
     "q4": {
       "sentence": "Ensure that job descriptions remain current, that they reflect the work assigned to and performed by your employees, and that they are signed by the {0} authority",
       "choices": {
-        "1": "ACCREDITED",
-        "2": "DELEGATED",
-        "3": "INCLUSIVE",
-        "4": "JOB DESCRIPTION",
-        "5": "MANDATE",
-        "6": "OVERLAP",
-        "7": "RESPONSIBILITIES"
+        "1": "accredited",
+        "2": "delegated",
+        "3": "inclusive",
+        "4": "job description",
+        "5": "mandate",
+        "6": "overlap",
+        "7": "responsibilities"
       },
       "feedback": {
         "right": "",
@@ -108,13 +108,13 @@ export default {
     "q5": {
       "sentence": "Staff new positions only when the classification decisions have been rendered by an OC- {0} advisor",
       "choices": {
-        "1": "ACCREDITED",
-        "2": "DELEGATED",
-        "3": "INCLUSIVE",
-        "4": "JOB DESCRIPTION",
-        "5": "MANDATE",
-        "6": "OVERLAP",
-        "7": "RESPONSIBILITIES"
+        "1": "accredited",
+        "2": "delegated",
+        "3": "inclusive",
+        "4": "job description",
+        "5": "mandate",
+        "6": "overlap",
+        "7": "responsibilities"
       },
       "feedback": {
         "right": "",
@@ -124,13 +124,13 @@ export default {
     "q6": {
       "sentence": "Confirm that your organizational structure does not {0} with the mandates and objectives of other components of the organization",
       "choices": {
-        "1": "ACCREDITED",
-        "2": "DELEGATED",
-        "3": "INCLUSIVE",
-        "4": "JOB DESCRIPTION",
-        "5": "MANDATE",
-        "6": "OVERLAP",
-        "7": "RESPONSIBILITIES"
+        "1": "accredited",
+        "2": "delegated",
+        "3": "inclusive",
+        "4": "job description",
+        "5": "mandate",
+        "6": "overlap",
+        "7": "responsibilities"
       },
       "feedback": {
         "right": "",
@@ -140,13 +140,13 @@ export default {
     "q7": {
       "sentence": "Conduct review-and-update exercises to ensure that your structure reflects any changes to the mandate, accountabilities, {0} or work in the organizational structure, business objectives, job descriptions and evaluations",
       "choices": {
-        "1": "ACCREDITED",
-        "2": "DELEGATED",
-        "3": "INCLUSIVE",
-        "4": "JOB DESCRIPTION",
-        "5": "MANDATE",
-        "6": "OVERLAP",
-        "7": "RESPONSIBILITIES"
+        "1": "accredited",
+        "2": "delegated",
+        "3": "inclusive",
+        "4": "job description",
+        "5": "mandate",
+        "6": "overlap",
+        "7": "responsibilities"
       },
       "feedback": {
         "right": "",
@@ -155,154 +155,118 @@ export default {
     }
   },
   "fr": {
-    "instructions": "Voici l&rsquo;occasion pour vous de confirmer votre connaissance des budgets et des coûts. Sélectionnez le meilleur choix pour remplir les blancs. ",
+    "instructions": "Découvrez vos fonctions à titre de gestionnaire en sélectionnant le mot approprié pour compléter les phrases suivantes. Choisissez le meilleur choix pour remplir les blancs.",
+    "instructions2": "À titre de gestionnaire, vous devez vous acquitter des sept fonctions suivantes : ",
     "q1": {
-      "sentence": "{0} comprend les postes permanents, de durée déterminée et de durée occasionnelle, les heures supplémentaires, la rémunération au rendement et les demandes de remboursement des congés.",
+      "sentence": "vous engager à créer et à maintenir un lieu de travail diversifié et {0};",
       "choices": {
-        "1": "Fonctionnement et entretien (F et E)",
-        "2": "Salaires",
-        "3": "Subventions et contributions (S et C)",
-        "4": "Immobilisations"
+        "1": "accrédité ",
+        "2": "délégué",
+        "3": "inclusif",
+        "4": "descriptions de travail ",
+        "5": "mandat",
+        "6": "chevauchement",
+        "7": "responsabilités"
       },
       "feedback": {
-        "right": "Le budget salarial comprend ces postes.",
-        "wrong": "Le budget salarial comprend ces postes."
+        "right": "",
+        "wrong": ""
       }
     },
     "q2": {
-      "sentence": "{0} comprend des articles comme les voyages, la formation, la traduction, les fournitures de bureau, etc.",
+      "sentence": "harmoniser votre structure organisationnelle avec votre {0} organisationnel et vos objectifs opérationnels;",
       "choices": {
-        "1": "Fonctionnement et entretien (F et E)",
-        "2": "Salaires",
-        "3": "Subventions et contributions (S et C)",
-        "4": "Immobilisations"
+        "1": "accrédité ",
+        "2": "délégué",
+        "3": "inclusif",
+        "4": "descriptions de travail ",
+        "5": "mandat",
+        "6": "chevauchement",
+        "7": "responsabilités"
       },
       "feedback": {
-        "right": "Le budget de fonctionnement et d'entretien (F et E) comprend ces postes.",
-        "wrong": "Le budget de fonctionnement et d'entretien (F et E) comprend ces postes."
+        "right": "",
+        "wrong": ""
       }
     },
     "q3": {
-      "sentence": "L’aide temporaire est considérée comme un contrat et est payée à même {0}.",
+      "sentence": "ne doter les postes vacants existants que lorsqu’un examen des {0} confirme que les fonctions sont toujours pertinentes;",
       "choices": {
-        "1": "Fonctionnement et entretien (F et E)",
-        "2": "Salaires",
-        "3": "Subventions et contributions (S et C)",
-        "4": "Immobilisations"
+        "1": "accrédité ",
+        "2": "délégué",
+        "3": "inclusif",
+        "4": "descriptions de travail ",
+        "5": "mandat",
+        "6": "chevauchement",
+        "7": "responsabilités"
       },
       "feedback": {
-        "right": "Le budget de fonctionnement et d'entretien (F et E) comprendrait un poste pour un contrat d'aide temporaire.",
-        "wrong": "Le budget de fonctionnement et d'entretien (F et E) comprendrait un poste pour un contrat d'aide temporaire."
+        "right": "",
+        "wrong": ""
       }
     },
     "q4": {
-      "sentence": "L’argent donné aux organisations non gouvernementales pour l’établissement des réfugiés, comme les cours de langue, proviendrait du budget de {0}",
+      "sentence": "vous assurer que les descriptions de travail restent à jour, qu’elles reflètent le travail assigné aux employés et effectué par ceux-ci, et qu’elles sont signées par une personne ayant le pouvoir {0} requis;",
       "choices": {
-        "1": "Fonctionnement et entretien (F et E)",
-        "2": "Salaires",
-        "3": "Subventions et contributions (S et C)",
-        "4": "Immobilisations"
+        "1": "accrédité ",
+        "2": "délégué",
+        "3": "inclusif",
+        "4": "descriptions de travail ",
+        "5": "mandat",
+        "6": "chevauchement",
+        "7": "responsabilités"
       },
       "feedback": {
-        "right": "Ces fonds proviendraient du budget des subventions et contributions (S et C).",
-        "wrong": "Ces fonds proviendraient du budget des subventions et contributions (S et C)."
+        "right": "",
+        "wrong": ""
       }
     },
     "q5": {
-      "sentence": "Le budget de fonctionnement comprend {0} et {1}.",
+      "sentence": "ne pourvoir les nouveaux postes que lorsque les décisions en matière de classification ont été prises par un conseille {0} en OC",
       "choices": {
-        "1": "Fonctionnement et entretien (F et E)",
-        "2": "Salaires",
-        "3": "Subventions et contributions (S et C)",
-        "4": "Immobilisations"
+        "1": "accrédité ",
+        "2": "délégué",
+        "3": "inclusif",
+        "4": "descriptions de travail ",
+        "5": "mandat",
+        "6": "chevauchement",
+        "7": "responsabilités"
       },
       "feedback": {
-        "right": "Le budget de fonctionnement comprend les salaires et le fonctionnement et l'entretien (F et E)",
-        "wrong": "Le budget de fonctionnement comprend les salaires et le fonctionnement et l'entretien (F et E)"
+        "right": "",
+        "wrong": ""
       }
     },
     "q6": {
-      "sentence": "{0} est de l’argent qui est fourni à des entités extérieures au gouvernement fédéral, pour répondre au mandat du ministère.",
+      "sentence": "confirmer qu’il n’y a pas de {0} entre votre structure organisationnelle et le mandat et les objectifs d’autres secteurs de l’organisation;",
       "choices": {
-        "1": "Fonctionnement et entretien (F et E)",
-        "2": "Salaires",
-        "3": "Subventions et contributions (S et C)",
-        "4": "Immobilisations"
+        "1": "accrédité ",
+        "2": "délégué",
+        "3": "inclusif",
+        "4": "descriptions de travail ",
+        "5": "mandat",
+        "6": "chevauchement",
+        "7": "responsabilités"
       },
       "feedback": {
-        "right": "Ces fonds proviendraient du budget des subventions et contributions (S et C).",
-        "wrong": "Ces fonds proviendraient du budget des subventions et contributions (S et C)."
+        "right": "",
+        "wrong": ""
       }
     },
     "q7": {
-      "sentence": "{0} s’applique aux articles qui se déprécieront avec le temps, comme une annexe à un bâtiment, des véhicules, etc.",
+      "sentence": "réaliser des exercices de révision et de mise à jour pour vous assurer que toute modification apportée au mandat, aux obligations redditionnelles, aux {0} ou au travail est prise en compte dans la structure organisationnelle, les objectifs opérationnels, les descriptions de travail et les évaluations.",
       "choices": {
-        "1": "Fonctionnement et entretien (F et E)",
-        "2": "Salaires",
-        "3": "Subventions et contributions (S et C)",
-        "4": "Immobilisations"
+        "1": "accrédité ",
+        "2": "délégué",
+        "3": "inclusif",
+        "4": "descriptions de travail ",
+        "5": "mandat",
+        "6": "chevauchement",
+        "7": "responsabilités"
       },
       "feedback": {
-        "right": "Ces fonds proviendraient du budget des immobilisations.",
-        "wrong": "Ces fonds proviendraient du budget des immobilisations."
-      }
-    },
-    "q8": {
-      "sentence": "Les coûts {0} sont essentiels à l’exécution de vos activités et, si des compressions budgétaires peuvent vous empêcher de les exécuter, vous pourriez ne pas être en mesure de les faire.",
-      "choices": {
-        "1": "non discrétionnaires",
-        "2": "discrétionnaires",
-        "3": "Notes"
-      },
-      "feedback": {
-        "right": "Les coûts essentiels sont non discrétionnaires. ",
-        "wrong": "Les coûts essentiels sont non discrétionnaires. "
-      }
-    },
-    "q9": {
-      "sentence": "Les coûts {0} sont moins susceptibles d’avoir une incidence négative sur l’exécution de vos activités.",
-      "choices": {
-        "1": "non discrétionnaires",
-        "2": "discrétionnaires",
-        "3": "Notes"
-      },
-      "feedback": {
-        "right": " Ces coûts seraient discrétionnaires.",
-        "wrong": " Ces coûts seraient discrétionnaires."
-      }
-    },
-    "q10": {
-      "sentence": "Une pratique exemplaire consiste à inclure une colonne supplémentaire {0} dans vos besoins budgétaires pour vous rappeler comment vous êtes arrivé aux chiffres que vous avez obtenus.",
-      "choices": {
-        "1": "non discrétionnaires",
-        "2": "discrétionnaires",
-        "3": "Notes"
-      },
-      "feedback": {
-        "right": "Une colonne Notes vous aidera à faire le suivi de vos besoins budgétaires.Vous ne soumettez peut-être pas ces notes, mais c'est bien de les avoir.",
-        "wrong": "Une colonne Notes vous aidera à faire le suivi de vos besoins budgétaires.Vous ne soumettez peut-être pas ces notes, mais c'est bien de les avoir."
-      }
-    },
-    "q11": {
-      "sentence": "Si vous avez des niveaux de référence, vous commencez par {0}.",
-      "choices": {
-        "1": "un montant prédéterminé prévu au budget",
-        "2": "0 $"
-      },
-      "feedback": {
-        "right": "Vous avez un montant prédéterminé prévu à votre budget et vous devrez déterminer s'il est suffisant, ou bien trop peu ou trop élevé. Certains ministères fournissent des niveaux de référence et d'autres pas.",
-        "wrong": "Vous avez un montant prédéterminé prévu à votre budget et vous devrez déterminer s'il est suffisant, ou bien trop peu ou trop élevé. Certains ministères fournissent des niveaux de référence et d'autres pas."
-      }
-    },
-    "q12": {
-      "sentence": "Si vous n’avez pas de niveaux de référence, vous commencez par {0}.",
-      "choices": {
-        "1": "un montant prédéterminé prévu au budget",
-        "2": "0 $"
-      },
-      "feedback": {
-        "right": "Pour les activités continues, vous pouvez utiliser les chiffres de l'année dernière et de l'année en cours pour répondre à vos besoins budgétaires. Pour les nouvelles activités, vous devez en estimer les coûts.",
-        "wrong": "Pour les activités continues, vous pouvez utiliser les chiffres de l'année dernière et de l'année en cours pour répondre à vos besoins budgétaires. Pour les nouvelles activités, vous devez en estimer les coûts."
+        "right": "",
+        "wrong": ""
       }
     }
   }

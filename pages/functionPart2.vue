@@ -20,28 +20,6 @@
                     <b-card-text>
                       <!-- <button class="accessibilityButton" v-for="(tracks, index) in navBarTracks" :key="index" @click="accessibleModal(index)">{{$t('jumpModalParts') + ' - ' +navBarTracks[index]}}</button> -->
                       <span v-if="$i18n.locale=='en'">
-                        <!-- 
-                        <p>Slide 1: Certification Authority <br />***</p>
-                        <p>&ldquo;In general, no invoice should be paid until all goods are received or services performed.</p>
-                        <p>Exercising your certification authority under Section 34 essentially means that you pause to attest that the goods and services that you received match the invoice to be paid.</p>
-                        <p>While perhaps other people on your team may be able to make that assessment, it is you, as the delegated manager, who bears the weight of the accountability. As such, you need to make sure that the invoice is accurate, that the financial coding is also accurate.</p>
-                        <p>Of course, you can only do this if you have the proper authority to make that assessment so be sure to check that too!</p>
-                        <p>***</p>
-                        <p>Slide 2: Accuracy of Invoice</p>
-                        <p>***</p>
-                        <p>Before signing off on an invoice to attest of its accuracy, the manager, usually with the help of their administrative staff, verifies the accuracy of the invoice or claim by looking at the following elements:</p>
-                        <p>* The date issued: verify that the invoice was issued on or after the order date. Or, in the case of a contract, that it was issued during the contract period<br />* Quantities: confirm that the items claimed line up with items ordered <br />* Taxes: validate that the amount for taxes is accurate<br />* Supplier or payee: make sure that their information is accurate and that the supplier or payee is eligible for payment<br />* Status: Verify that the invoice has not already been paid</p>
-                        <p>You may need to go back to the supplier to correct the invoice before you can sign section 34.</p>
-                        <p>Invoices must be paid within 30 days from the time the department receives the invoice to avoid interest charges.</p>
-                        <p>***</p>
-                        <p><br />Slide 3: Processing the Invoice</p>
-                        <p>***</p>
-                        <p>Once the invoice is validated, the manager verifies the financial coding and approves section 34. This approval is done either via a signature on paper or electronically, depending on the practices in your department.</p>
-                        <p>The approved invoice is then sent to the finance unit, who will pay the invoice, pursuant to section 33.</p>
-                        <p>Keep in mind that you</p>
-                        <p>* may not authorize sections 33 and 34 for the same transaction or invoice; a financial officer will perform section 33; <br />* may not authorize section 41 for a contract and section 34 related to the same contract; a procurement officer will perform section 41; <br />* may not authorize any transaction for which they may be perceived as having a personal benefit.</p>
-                        <p>&nbsp;</p> -->
-
                         <h2>1. Certification Authority</h2>
                         <p>In general, no invoice should be paid until all goods are received or services performed.</p>
                         <p>Exercising your certification authority under section 34 of the Financial Administration Act essentially means that you pause to attest that the goods and services you received match the invoice.</p>
@@ -78,31 +56,6 @@
 
                       </span>
                       <span v-if="$i18n.locale=='fr'">
-                        <!-- <h3>Autorité de certification</h3>
-                        <p>De mani&egrave;re générale, aucune facture ne doit &ecirc;tre payée tant que les biens n’ait été re&ccedil;us ou que les services n’aient été rendus.</p>
-                        <p>Exercer votre autorité de certification en vertu de l’article 34 de la LGFP signifie, essentiellement, que vous devez prendre un moment pour attester que les biens et services que vous avez re&ccedil;us correspondent bien à la facture à payer.</p>
-                        <p>Bien qu’en principe d’autres personnes de votre équipe pourraient faire cette évaluation, c’est à vous, en tant que gestionnaire délégué que revient le poids de cette responsabilité.</p>
-                        <p>Bien entendu, vous ne pouvez faire cette attestation que si vous avez bel et bien la délégation de la faire. Assurez-vous de vérifier que c’est bien le cas!</p>
-                        <h3>Exactitude de la facture</h3>
-                        <p>Avant d’attester de l’exactitude d’une facture, le gestionnaire, habituellement avec l’aide de son personnel administratif, vérifie l’exactitude de la facture ou de la réclamation des éléments suivants:</p>
-                        <ul>
-                        <li>La date d’émission: on s’assure que la facture a été émise à la date de commande ou apr&egrave;s celle-ci. Ou encore, s’il s’agit d’un contrat, on doit vérifier que la facture a bel et bien été émise pendant la durée du contrat.</li>
-                        <li>Les quantités: on vérifie à ce que le nombre d’article réclamés corresponde bien aux articles commandés</li>
-                        <li>Les taxes: on valide que le montant pour les taxes est exact</li>
-                        <li>Le fournisseur ou le bénéficiaire : on s’assure que l’information est exacte et que le fournisseur ou le bénéficiaire est admissible au paiement</li>
-                        <li>Statut: on vérifie que la facture n’a pas déjà été payée</li>
-                        </ul>
-                        <p>Il se peut que vous deviez retourner au fournisseur pour faire corriger la facture avant de signer l’article 34.</p>
-                        <p>Les factures doivent &ecirc;tre payées dans les 30 jours suivant la réception de la facture par le minist&egrave;re afin d’éviter les frais d’intér&ecirc;t.</p>
-                        <h3>Traitement de la facture</h3>
-                        <p><br />Une fois la facture validée, le gestionnaire vérifie le codage financier et approuve l’article 34. L’approbation se fait soit sur papier ou encore par voie électronique, selon les pratiques habituelles dans votre minist&egrave;re.</p>
-                        <p>La facture approuvée est ensuite envoyée au service des finances qui paiera la facture, conformément à l’article 33.</p>
-                        <p>Gardez à l’esprit les éléments suivants:</p>
-                        <ul>
-                        <li>vous ne pouvez pas autoriser les articles 33 et 34 pour la m&ecirc;me transaction ou facture; un agent financier exécutera l’article 33 ;</li>
-                        <li>vous ne pouvez pas autoriser l’application de l’article 41 pour un marché et de l’article 34 lié au m&ecirc;me marché; un agent d’approvisionnement exécutera l’article 41;</li>
-                        <li>vous ne pouvez autoriser aucune transaction pour laquelle vous pouvez &ecirc;tre per&ccedil;u comme ayant un avantage personnel.</li>
-                        </ul> -->
 
                         <h2>1. Autorité de certification</h2>
                         <p>De manière générale, aucune facture ne doit être payée tant que les biens n’ont pas été reçus ou que les services n’ont été rendus.</p>
@@ -157,7 +110,7 @@
                 <button type="button" aria-label="Close" class="close" @click="close()">×</button>
             </template>
               <div v-if="$i18n.locale=='en'">
-                <p>References:</p>
+                <p>Here is a list of resources referred to in this section.</p>
                 <ul>
                   <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32634&section=html" target="_blank" alt="Link to the Directive on Duty to Accommodate web page">Directive on Duty to Accommodate</a></li>
                   <li><a href="https://laws-lois.justice.gc.ca/eng/acts/A-0.6/" target="_blank" alt="Link to the Accessible Canada Act web page"><i>Accessible Canada Act</i></a></li>
@@ -165,6 +118,10 @@
                 </ul>
               </div>
               <div v-if="$i18n.locale=='fr'">
+                <p>Voici une liste des ressources auxquelles on fait référence dans cette section. </p>
+                <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32634&section=html" target="_blank" alt="Lien de la page web de la directive sur l’obligation de prendre des mesures d’adaptation">Directive sur l’obligation de prendre des mesures d’adaptation</a></li>
+                <li><a href="https://laws-lois.justice.gc.ca/fra/lois/a-0.6/" target="_blank" alt="Lien vers la page Web de la Loi sur l'accessibilité du Canada"><i>Loi canadienne sur l’accessibilité </i></a></li>
+                <li><a href="https://www.canada.ca/fr/gouvernement/fonctionpublique/mieux-etre-inclusion-diversite-fonction-publique/diversite-equite-matiere-emploi/accessibilite-fonction-publique/strategie-accessibilite-fonction-publique-tdm.html" target="_blank" alt="Lien vers la page Web de la Stratégie d'accessibilité pour la fonction publique du Canada">Stratégie sur l’accessibilité au sein de la fonction publique du Canada </a></li>
               </div>
             <template v-slot:modal-ok>{{$t('close')}}</template>
         </b-modal>
@@ -190,6 +147,17 @@
                 </ul>
               </div>
               <div v-if="$i18n.locale=='fr'">
+                <p>Regardez la courte vidéo ci-dessous qui explique comment rendre l’embauche plus accessible : https://www.csps-efpc.gc.ca/video/disability-inclusion-psc-intro-fra.aspx. </p>
+                <p>Assurez-vous d’appliquer les lois et règlements, les politiques gouvernementales et les procédures de votre organisation à votre rôle de gestionnaire. </p>
+                <ul>
+                  <li><a href="https://laws-lois.justice.gc.ca/fra/lois/h-6/" target="_blank" alt="Lien vers la page web de la loi sur l'équité en matière d'emploi"><i>Loi canadienne sur les droits de la personne </i></a></li>
+                  <li><a href="https://laws-lois.justice.gc.ca/fra/lois/e-5.401/page-1.html" target="_blank" alt="Lien vers la page Web de la Charte canadienne des droits et libertés"><i>Loi sur l’équité en matière d’emploi </i></a></li>
+                  <li><a href="https://www.justice.gc.ca/fra/sjc-csj/dlc-rfc/ccdl-ccrf/index.html" target="_blank" alt="Lien vers la page web de la loi constitutionnelle"><i>Loi constitutionnelle </i></a></li>
+                  <li><a href="https://www.canada.ca/fr/conseil-prive/organisation/greffier/appel-action-faveur-lutte-contre-racisme-equite-inclusion-fonction-publique-federale.html" target="_blank" alt="Lien vers la page web de l'appel à l'action sur l'antiracisme, l'équité et l'inclusion dans la fonction publique fédérale">Appel à l’action en faveur de la lutte contre le racisme, de l’équité et de l’inclusion dans la fonction publique fédérale </a></li>
+                  <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32634&section=html" target="_blank" alt="Lien vers la page web de la directive sur l'obligation de prendre des mesures d’adaptation">Directive sur l’obligation de prendre des mesures d’adaptation </a></li>
+                  <li><a href="https://laws-lois.justice.gc.ca/fra/lois/a-0.6/" target="_blank" alt="Lien vers la page Web de la Loi sur l'accessibilité du Canada"><i>Loi canadienne sur l’accessibilité</i></a></li>
+                  <li><a href="https://www.canada.ca/fr/gouvernement/fonctionpublique/mieux-etre-inclusion-diversite-fonction-publique/diversite-equite-matiere-emploi/accessibilite-fonction-publique/strategie-accessibilite-fonction-publique-tdm.html" target="_blank" alt="Lien vers la page Web de la Stratégie d'accessibilité pour la fonction publique du Canada">Stratégie sur l’accessibilité au sein de la fonction publique du Canada</a></li>
+                </ul>
               </div>
           <template v-slot:modal-ok>{{$t('close')}}</template>
         </b-modal>
@@ -202,6 +170,9 @@
             </template>
             <div v-if="$i18n.locale=='en'">
               <p>The Clerk of the Privy Council issued a <a href="https://www.canada.ca/en/privy-council/corporate/clerk/call-to-action-anti-racism-equity-inclusion-federal-public-service.html" target="_blank" alt="Link to the Call to action on anti-racism, equity, and inclusion in the Federal Public Service web page">Call to action on anti-racism, equity, and inclusion in the Federal Public Service</a> in 2020. Take time out of this course to review this call to action and reflect on the role that you can play as a manager in leading change in the public service.</p>
+            </div>
+            <div v-if="$i18n.locale=='fr'">
+              <p>En 2020, le greffier du Conseil privé a lancé un <a href="https://www.canada.ca/fr/conseil-prive/organisation/greffier/appel-action-faveur-lutte-contre-racisme-equite-inclusion-fonction-publique-federale.html" target="_blank" alt="Lien vers la page web de l'appel à l'action sur l'antiracisme, l'équité et l'inclusion dans la fonction publique fédérale">Appel à l’action en faveur de la lutte contre le racisme, de l’équité et de l’inclusion dans la fonction publique fédérale </a>. Après ce cours, prenez le temps d’examiner cet appel à l’action et de réfléchir au rôle que vous pouvez jouer en tant que gestionnaire pour ouvrir la voie au changement dans la fonction publique.</p>
             </div>
           <template v-slot:modal-ok>{{$t('close')}}</template>
         </b-modal>
@@ -225,6 +196,9 @@
             <div v-if="$i18n.locale=='en'">
               <p>Refer to the School’s <a href="https://www.csps-efpc.gc.ca/anti-racism-eng.aspx" target="_blank" alt="Link to the Anti-Racism Learning Series">Anti-Racism Learning Series</a> for courses, videos, podcasts and other tools to improve your understanding of racism and other systemic barriers.</p>
             </div>
+            <div v-if="$i18n.locale=='fr'">
+              <p>Consultez la <a href="https://www.csps-efpc.gc.ca/anti-racism-fra.aspx" target="_blank" alt="Lien vers la Série d'apprentissage contre le racisme">Série d'apprentissage contre le racisme</a> de l’École pour accéder à des cours, à des vidéos, à des balados et à d’autres outils qui vous permettront d’améliorer votre compréhension du racisme et des autres obstacles systémiques. </p>
+            </div>
           <template v-slot:modal-ok>{{$t('close')}}</template>
         </b-modal>
         <b-modal id="InRealLife" @hide="resumePlay()" okOnly>
@@ -247,6 +221,14 @@
               </ul>
               <p>These courses provide a more in-depth look at employment equity, inclusivity and accommodation to help you perform your duties in this area.</p>
             </div>
+            <div v-if="$i18n.locale=='fr'">
+              <p><b>Pour approfondir les connaissances nécessaires à l’exercice de vos fonctions relatives à l’équité en matière d’emploi, à la diversité, à l’inclusion et à l’accessibilité, suivez les cours suivants : </b></p>
+              <ul>
+                <li>L’équité en matière d’emploi en vertu de la Loi sur l’équité en matière d’emploi (P745) </li>
+                <li>Mesures d’adaptation en milieu de travail à l’intention des employés de la fonction publique fédérale (C345) </li>
+              </ul>
+              <p>Ces cours, qui examinent de manière approfondie l’équité en matière d’emploi, l’inclusion et les mesures d’adaptation,  visent à vous aider à accomplir vos fonctions dans ce domaine. </p>
+            </div>
           <template v-slot:modal-ok>{{$t('close')}}</template>
         </b-modal>
         <b-modal id="Quiz" @hide="resumePlay()" size="xl" okOnly>
@@ -262,7 +244,7 @@
     </div>
     <div class="bottomNav spendSection">
       <div class="spendSectionBar"><span>{{$t('spendSectionBar')}}</span></div>
-      <microlearning path="functionPart1" imagePath="InitiateAuthSpending.svg" size="140" time="20" :completion="$store.state.currentPlaying.spendPart1_player" :text="$t('OrganizationClassification')" type="video" />
+      <microlearning path="functionPart1" imagePath="InitiateAuthSpending.svg" size="140" time="20" :completion="$store.state.currentPlaying.spendPart1_player" :text="$t('organizationClassification')" type="video" />
       <microlearning youAreHere path="functionPart2"  imagePath="ExerciseFinancialAuthority.svg" size="140" time="20" :completion="$store.state.currentPlaying.spendPart2_player" :text="$t('DiversityInclusion')" type="video" />
       <microlearning path="functionPart3" size="140" time="20" :completion="$store.state.currentPlaying.spendPart3_player" imagePath="MonitContFinances.svg" :text="$t('Staffing')" type="video" />
       <microlearning path="functionKey" time="5" size="140" :completion="$store.state.currentPlaying.kmSpend" imagePath="KeyMessS.svg" :text="$t('KeyMessages')" :highlighted="chosenScenario == 'refresh'" type="keyMessages" />
@@ -442,9 +424,9 @@ button.accessibilityButton {
 <i18n>{
   "en":{
   "TakeTheQuiz":"Take the Quiz",
-  "EmploymentEquityTitle":"Activity: Your employment equity, diversity and inclusion responsibilities",
-  "WorkplaceAccommodationTitle":"Activity: Workplace Accommodation",
-  "WorkplaceDiscriminationTitle":"Activity: Workplace Discrimination",
+  "EmploymentEquityTitle":"References: External Links  ",
+  "WorkplaceAccommodationTitle":"References: Workplace Accommodation ",
+  "WorkplaceDiscriminationTitle":"Reference: Workplace Discrimination",
   "LevellingPlayingFieldTitle":"Activity: Levelling the Playing Field",
   "UnconsciousBiasesTitle":"Activity: Unconscious Biases",
   "IRLTitle":"In Real Life",
@@ -457,8 +439,14 @@ button.accessibilityButton {
   "fr":{
   "TakeTheQuiz":"Répondez au questionnaire",
   "CertAuthorityTitle":"Activité : Autorité de certification",
+  "EmploymentEquityTitle":"Références : Liens externes ",
+  "WorkplaceAccommodationTitle":"Références : Mesures d’adaptation en milieu de travail ",
+  "WorkplaceDiscriminationTitle":"Références : Discrimination en milieu de travail ",
+  "UnconsciousBiasesTitle":"Références : Préjugés inconscients",
+  "LevellingPlayingFieldTitle":"Activité : Égalité des chances",
   "ProcessInvoiceTitle":"Activité : Traitement de la facture",
   "AccuracyInvoiceTitle":"Activité : Exactitude de la facture",
+  "IRLTitle":"Dans la vraie vie",
   "gotIt":"Continuer au segment suivant.",
   "jumpModalParts":"Sauter à l’activité",
   "playSegment":"Faire jouer le segment vidéo",

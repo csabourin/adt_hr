@@ -138,6 +138,12 @@
         <div v-if="$i18n.locale=='en'">
           <p>Watch this video, which provides an overview of hiring decisions in the public service</p>
           <p><a href="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_a99j37rq/flavorId/0_43vicyi5/name/a.mp4" target="_blank">Who Makes Hiring Decisions in the Public Service?</a></p>
+          <p>Job aids will come later In addition, the People Management Legislation and Policy Landscape document {doc needs review and adapting} contains resources to help guide you. You can find this document in the toolbox. </p>
+        </div>
+        <div v-if="$i18n.locale=='fr'">
+          <p>Regardez la vidéo suivante, qui donne un aperçu des décisions d’embauche dans la fonction publique. </p>
+          <p><a href="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_u97ukui1/flavorId/0_0we3ci6t/name/a.mp4" target="_blank">Qui prend des décisions d’embauche dans la fonction publique? </a></p>
+          <p>Vous aurez accès à des aide-mémoire plus tard. De plus, le document sur l’ensemble des lois et des politiques en matière de gestion des personnes {doc needs review and adapting} contient des ressources qui peuvent vous aider. Ce document se trouve dans la boîte à outils. </p>
         </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
@@ -175,6 +181,23 @@
           <p><b>Duty to accommodate</b></p>
           <p>The <i>Canadian Human Rights Act</i> requires employers and service providers to accommodate people’s needs when those needs relate to one of the 11 grounds of discrimination.</p>
         </div>
+        <div v-if="$i18n.locale=='fr'">
+          <p>Lisez les définitions suivantes pour vous assurer de bien comprendre les termes utilisés dans cette section : </p>
+          <p><b>Préjugé </b></p>
+          <p>Opinion, idée ou sentiment préconçu et souvent erroné, favorable ou défavorable, ne découlant d’aucune connaissance, réflexion ou raison, qui empêche l’examen objectif d’une situation, d’une personne ou d’une question. </p>
+          <p><b>Préjugé inconscient </b></p>
+          <p>Pensées, idées et croyances subtiles et involontaires. </p>
+          <p><b>Discrimination </b></p>
+          <p>Manifestation comportementale d’un préjugé conscient ou inconscient, ou d’un préjudice.</p>
+          <p><b>Nomination fondée sur le mérite </b></p>
+          <p>Une nomination est faite selon le mérite lorsqu’un gestionnaire d’embauche mène un processus d’évaluation et est convaincu que la personne choisie possède toutes les qualifications essentielles et satisfait aux autres critères de mérite établis pour le travail à accomplir.</p>
+          <p><b>Zone de sélection </b></p>
+          <p>La zone de sélection définit qui peut participer au processus de nomination. La zone peut être géographique, organisationnelle ou professionnelle, ou encore cibler les personnes appartenant à un des groupes visés par l’équité en matière d’emploi définis dans la <a href="https://laws-lois.justice.gc.ca/fra/lois/e-5.401/" target="_blank" alt="Link to the web page"><i>Loi sur l’équité en matière d’emploi</i></a>.</p>
+          <p><b>Droit de priorité </b></p>
+          <p>Les personnes bénéficiant d’un droit de priorité sont nommées aux postes vacants avant tous les autres candidats si elles possèdent les qualifications essentielles. </p>
+          <p><b>Obligation de prendre des mesures d’adaptation </b></p>
+          <p>La <i>Loi canadienne sur les droits de la personne</i> oblige les employeurs et les fournisseurs de services à prendre des mesures d’adaptation pour répondre aux besoins des personnes, quand ces besoins sont liés à un des 11 motifs de discrimination. </p>
+        </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
       <b-modal id="InRealLife" @hide="resumePlay()" okOnly>
@@ -209,7 +232,7 @@
     </div>
     <div class="bottomNav spendSection">
       <div class="spendSectionBar"><span>{{$t('spendSectionBar')}}</span></div>
-      <microlearning path="functionPart1" imagePath="InitiateAuthSpending.svg" size="140" time="20" :completion="$store.state.currentPlaying.spendPart1_player" :text="$t('OrganizationClassification')" type="video" />
+      <microlearning path="functionPart1" imagePath="InitiateAuthSpending.svg" size="140" time="20" :completion="$store.state.currentPlaying.spendPart1_player" :text="$t('organizationClassification')" type="video" />
       <microlearning path="functionPart2"  imagePath="ExerciseFinancialAuthority.svg" size="140" time="20" :completion="$store.state.currentPlaying.spendPart2_player" :text="$t('DiversityInclusion')" type="video" />
       <microlearning youAreHere path="functionPart3" size="140" time="20" :completion="$store.state.currentPlaying.spendPart3_player" imagePath="MonitContFinances.svg" :text="$t('Staffing')" type="video" />
       <microlearning path="functionKey" time="5" size="140" :completion="$store.state.currentPlaying.kmSpend" imagePath="KeyMessS.svg" :text="$t('KeyMessages')" :highlighted="chosenScenario == 'refresh'" type="keyMessages" />
@@ -291,9 +314,9 @@ export default {
 <i18n>{
   "en":{
   "TakeTheQuiz":"Take the Quiz",
-  "IntroductionTitle": "Introduction",
-  "StaffingNeedsTitle":"Activity: Staffing Needs",
-  "StaffingObligationsTitle": "Activity: Staffing Obligations",
+  "IntroductionTitle": "Références : Liens externes",
+  "StaffingNeedsTitle":"Activity:  Identifying Your Staffing Needs",
+  "StaffingObligationsTitle": "References: Staffing Obligations",
   "InclusiveHiringTitle": "Activity: Inclusive Hiring",
   "StaffingPositionTitle": "Activity: Staffing your position",
   "IRLTitle": "In Real Life",
@@ -304,6 +327,11 @@ export default {
   },
   "fr":{
   "TakeTheQuiz":"Répondez au questionnaire",
+  "IntroductionTitle": "Références : Liens externes",
+  "StaffingNeedsTitle":"Activité : Détermination de vos besoins en matière de dotation ",
+  "StaffingObligationsTitle": "Références : Obligations en matière de dotation ",
+  "InclusiveHiringTitle": "Activité – Embauche inclusive",
+  "StaffingPositionTitle": "Références : Dotation d’un poste",
   "DataComparisonTitle":"Activité : Comparaison des données",
   "ContinuousMonitoringTitle":"Activité : Suivi continu",
   "YearEndProceduresTitle":"Activité : Procédures de fin d’année",

@@ -47,26 +47,22 @@ export default {
         "2": "False"
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
-      },
-      "conclusion": "The answer is false. An individual must have completed the necessary training in addition to occupying the position."
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong> The answer is false. An individual must have completed the necessary training in addition to occupying the position. ",
+        "2": "<span class='v-right' /><strong>Correct!</strong> The answer is false. An individual must have completed the necessary training in addition to occupying the position. "
+      }
     }
   },
   "fr": {
     "q1": {
-      "text": "Le sous-ministre adjoint a approuvé une demande de voyage de 5&nbsp;000&nbsp;$. Elle a été enregistrée dans le système financier. Une semaine plus tard, au moment de réserver le vol, le prix est passé de 600&nbsp;$ à 650&nbsp;$. Que feriez-vous?",
+      "text": "Une personne peut exercer ses pouvoirs délégués une fois qu’elle occupe le poste auquel les pouvoirs en question sont associés. ",
       "options": {
-        "1": "Modifiez le montant réel de vos dépenses.",
-        "2": "Modifiez vos engagements sans demander une augmentation de l’autorisation de déplacement.",
-        "3": "Ne rien changer à la situation financière.  "
+        "1": "Vrai",
+        "2": "Faux"
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong> Vous ne modifierez pas le montant réel des dépenses puisque le salarié n’a pas encore présenté de demande d’indemnité de déplacement.",
-        "2": "<span class='v-wrong' /><strong>Incorrect.</strong> Vous ne demandez pas une augmentation de voyage parce que seul le billet d’avion a augmenté, et non le coût total du voyage. Toutefois, si vous croyez que le montant total du voyage dépassera le montant préapprouvé, vous devriez faire approuver de nouveau le montant rajusté du voyage.",
-        "3": "<span class='v-right' /><strong>Correct!</strong> Vous ne modifierez pas le montant réel des dépenses puisque le salarié n’a pas encore présenté de demande d’indemnité de déplacement. Vous ne demandez pas une augmentation de voyage parce que seul le billet d’avion a augmenté, et non le coût total du voyage."
-      },
-      "conclusion": ""
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong> La réponse est Faux. La personne doit avoir suivi la formation nécessaire en plus d’occuper le poste.",
+        "2": "<span class='v-right' /><strong>Correct!</strong> La réponse est Faux. La personne doit avoir suivi la formation nécessaire en plus d’occuper le poste."
+      }
     }
   }
 }</i18n>

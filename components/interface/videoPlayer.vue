@@ -161,30 +161,30 @@ export default {
       Captions: "",
       changeButton: false,
       popups: {
-        buildWP: {
-          references: [1],
+        designPart1: {
+          references: [3],
           infos: [0],
-          quiz: [8]
-        },
-        createBudget: {
-          references: [1],
-          infos: [0],
-          quiz: [7]
-        },
-        spendPart1: {
-          references: [],
-          infos: [],
           quiz: [4]
         },
-        spendPart2: {
-          references: [],
-          infos: [],
-          quiz: []
-        },
-        spendPart3: {
-          references: [],
-          infos: [],
+        designPart2: {
+          references: [2],
+          infos: [0],
           quiz: [3]
+        },
+        functionPart1: {
+          references: [6],
+          infos: [0,1,3,5],
+          quiz: [7]
+        },
+        functionPart2: {
+          references: [5],
+          infos: [0,1,2,4],
+          quiz: [6]
+        },
+        functionPart3: {
+          references: [5],
+          infos: [0,2],
+          quiz: [6]
         },
         reportPart1: {
           references: [],
@@ -275,16 +275,16 @@ export default {
       var currentPage = path.substr(pos);
       
       switch(currentPage){
-        case "buildWP":
-          return this.popups.buildWP.references;
-        case "createBudget":
-          return this.popups.createBudget.references;
-        case "spendPart1":
-          return this.popups.spendPart1.references;
-        case "spendPart2":
-          return this.popups.spendPart2.references;
-        case "spendPart3":
-          return this.popups.spendPart3.references;
+        case "designPart1":
+          return this.popups.designPart1.references;
+        case "designPart2":
+          return this.popups.designPart2.references;
+        case "functionPart1":
+          return this.popups.functionPart1.references;
+        case "functionPart2":
+          return this.popups.functionPart2.references;
+        case "functionPart3":
+          return this.popups.functionPart3.references;
         case "reportPart1":
           return this.popups.reportPart1.references;
         case "reportPart2":
@@ -297,16 +297,16 @@ export default {
       var currentPage = path.substr(pos);
       
       switch(currentPage){
-      case "buildWP":
-          return this.popups.buildWP.infos;
-        case "createBudget":
-          return this.popups.createBudget.infos;
-        case "spendPart1":
-          return this.popups.spendPart1.infos;
-        case "spendPart2":
-          return this.popups.spendPart2.infos;
-        case "spendPart3":
-          return this.popups.spendPart3.infos;
+      case "designPart1":
+          return this.popups.designPart1.infos;
+        case "designPart2":
+          return this.popups.designPart2.infos;
+        case "functionPart1":
+          return this.popups.functionPart1.infos;
+        case "functionPart2":
+          return this.popups.functionPart2.infos;
+        case "functionPart3":
+          return this.popups.functionPart3.infos;
         case "reportPart1":
           return this.popups.reportPart1.infos;
         case "reportPart2":
@@ -319,16 +319,16 @@ export default {
       var currentPage = path.substr(pos);
       
       switch(currentPage){
-      case "buildWP":
-          return this.popups.buildWP.quiz;
-        case "createBudget":
-          return this.popups.createBudget.quiz;
-        case "spendPart1":
-          return this.popups.spendPart1.quiz;
-        case "spendPart2":
-          return this.popups.spendPart2.quiz;
-        case "spendPart3":
-          return this.popups.spendPart3.quiz;
+      case "designPart1":
+          return this.popups.designPart1.quiz;
+        case "designPart2":
+          return this.popups.designPart2.quiz;
+        case "functionPart1":
+          return this.popups.functionPart1.quiz;
+        case "functionPart2":
+          return this.popups.functionPart2.quiz;
+        case "functionPart3":
+          return this.popups.functionPart3.quiz;
         case "reportPart1":
           return this.popups.reportPart1.quiz;
         case "reportPart2":

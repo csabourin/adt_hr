@@ -7,19 +7,22 @@
       <p v-html="$t('instructions')" />
     <b-tabs content v-model="tabIndex">
         <b-tab title="Question 1">
-          <br />
-          <p v-html="$t('matchInstructions')" />
-          <matchingExercise :question="$t('q1')" qId="1" :feedback="$t('q1.feedback')" />
+          <radioQuiz :question="$t('q1')" qId="1" /><hr>
+          <radioQuiz :question="$t('q2')" qId="2" /><hr>
+          <radioQuiz :question="$t('q3')" qId="3" /><hr>
+          <radioQuiz :question="$t('q4')" qId="4" /><hr>
         </b-tab>
-        <b-tab title="Question 2">
-            <br />
-            <p v-html="$t('matchInstructions')" />
-            <matchingExercise :question="$t('q2')" qId="2" :feedback="$t('q2.feedback')" />
+        <b-tab title="Question 2">           
+          <radioQuiz :question="$t('q5')" qId="5" /><hr>
+          <radioQuiz :question="$t('q6')" qId="6" /><hr>
+          <radioQuiz :question="$t('q7')" qId="7" /><hr>
+          <radioQuiz :question="$t('q8')" qId="8" /><hr>
         </b-tab>
       <b-tab title="Question 3">
-            <br />
-            <p v-html="$t('matchInstructions')" />
-            <matchingExercise :question="$t('q3')" qId="3" :feedback="$t('q3.feedback')" />
+          <radioQuiz :question="$t('q9')" qId="9" /><hr>
+          <radioQuiz :question="$t('q10')" qId="10" /><hr>
+          <radioQuiz :question="$t('q11')" qId="11" /><hr>
+          <radioQuiz :question="$t('q12')" qId="12" /><hr>
       </b-tab>
     </b-tabs>
           <!-- Control buttons-->
@@ -62,91 +65,375 @@
 </script>
 <i18n>{
   "en": {
-  "instructions":"Now that you know more about organization and classification, test your knowledge by answering the following questions.",
-  "matchInstructions": "Identify the type of staffing process.",
+  "instructions":"There are quite literally a dozen options available to you when you need to staff a position. Select the type of staffing process that corresponds to each description. ",
     "q1": {
-      "dotsRight": [
-        "Open to the public and public servants",
-        "Exempted from the application of merit, priority appointments and other provisions under the PSEA",
-        "Open only to public servants. These appointments are used for acting assignments, promotions and other types of recruitment within the public service.",
-        "An appointment for a specific period, governed by the TBS Term Employment Policy"
-      ],
-      "dotsLeft": [
-        "External Appointment",
-        "Student Appointment",
-        "Internal Appointment",
-        "Term Employment"
-      ],
-      "conclusion": ""
+      "text": "Open to the public and public servants ",
+      "options": {
+        "1": "Internal Appointment ",
+        "2": "External Appointment ",
+        "3": "Student Appointment  ",
+        "4": "Term Employment "
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-right' /><strong>Correct!</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "4": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+        
+      }
     },
     "q2": {
-      "dotsRight": [
-        "A temporary appointment to a higher-level position available to term and indeterminate employees.",
-        "Transferring to another position at level or below, within or between organizations; this person no longer occupies their previous position.",
-        "Used for capacity building or career development, this is the temporary movement of an employee to another organization.",
-        "Moving to another position at level or below, within or between organizations, this person still occupies their previous position."
-      ],
-      "dotsLeft": [
-        "Acting Appointment",
-        "Deployment",
-        "Assignment",
-        "Secondment"
-      ],
-      "conclusion": ""
+      "text": "Exempted from the application of merit, priority appointments and other provisions under the PSEA ",
+      "options": {
+        "1": "Internal Appointment ",
+        "2": "External Appointment ",
+        "3": "Student Appointment  ",
+        "4": "Term Employment "
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-right' /><strong>Correct!</strong>",
+        "4": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+        
+      }
     },
     "q3": {
-      "dotsRight": [
-        "Used for job enrichment, talent management or a skills exchange, these full- or part-time assignments take place in the private, public and not-for-profit sectors in Canada and internationally.",
-        "Used to meet short-term operational requirements; merit and eligibility for internal appointment processes do not apply to these workers.",
-        "Used to meet short-term operational requirements these workers are employees of a firm that is hired to provide services on a temporary basis.",
-        "Moving to another position at level or below, within or between organizations, this person still occupies their previous position."
-      ],
-      "dotsLeft": [
-        "Interchange Canada",
-        "Casual",
-        "Temporary Help",
-        "Appointment of a person with priority Appointment"
-      ],
-      "conclusion": ""
+      "text": "Open only to public servants. These appointments are used for acting assignments, promotions and other types of recruitment within the public service.",
+        "options": {
+        "1": "Internal Appointment ",
+        "2": "External Appointment ",
+        "3": "Student Appointment ",
+        "4": "Term Employment "
+      },
+      "feedback": {
+         "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "4": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+        
+      }
+    },
+    "q4": {
+      "text": "An appointment for a specific period, governed by the TBS Term Employment Policy ",
+      "options": {
+        "1": "Internal Appointment ",
+        "2": "External Appointment ",
+        "3": "Student Appointment",
+        "4": "Term Employment "
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "4": "<span class='v-right' /><strong>Correct!</strong>"
+      }
+    },
+    "q5": {
+      "text": "A temporary appointment to a higher-level position available to term and indeterminate employees. ",
+      "options": {
+        "1": "Acting Appointment ",
+        "2": "Assignment ",
+        "3": "Deployment ",
+        "4": "Secondment "
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-right' /><strong>Correct!</strong>",
+        "4": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      }
+    },
+    "q6": {
+      "text": "transferring to another position at level or below, within or between organizations; this person no longer occupies their previous position.",
+       "options": {
+        "1": "Acting Appointment ",
+        "2": "Assignment ",
+        "3": "Deployment ",
+        "4": "Secondment "
+      },
+      "feedback": {
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "4": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      }
+    },
+    "q7": {
+      "text": "Used for capacity building or career development, this is the temporary movement of an employee to another organization.",
+       "options": {
+        "1": "Acting Appointment ",
+        "2": "Assignment ",
+        "3": "Deployment ",
+        "4": "Secondment "
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-right' /><strong>Correct!</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "4": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      }
+    },
+    "q8": {
+      "text": "Moving to another position at level or below, within or between organizations, this person still occupies their previous position ",
+      "options": {
+        "1": "Acting Appointment ",
+        "2": "Assignment ",
+        "3": "Deployment ",
+        "4": "Secondment "
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "4": "<span class='v-right' /><strong>Correct!</strong>"
+      }
+    },
+    "q9": {
+      "text": "Used for job enrichment, talent management or a skills exchange, these full- or part-time assignments take place in the private, public and not-for-profit sectors in Canada and internationally.",
+      "options": {
+        "1": "Casual",
+        "2": "Interchange Canada ",
+        "3": "Temporary Help ",
+        "4": "Priority Appointment "
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-right' /><strong>Correct!</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "4": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      }
+    },
+    "q10": {
+      "text": "Used to meet short-term operational requirements; merit and eligibility for internal appointment processes do not apply to these workers.",
+       "options": {
+        "1": "Casual",
+        "2": "Interchange Canada ",
+        "3": "Temporary Help ",
+        "4": "Priority Appointment "
+      },
+      "feedback": {
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "4": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      }
+    },
+    "q11": {
+      "text": "Used to meet short-term operational requirements these workers are employees of a firm that is hired to provide services on a temporary basis. ",
+       "options": {
+        "1": "Casual",
+        "2": "Interchange Canada ",
+        "3": "Temporary Help ",
+        "4": "Priority Appointment "
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-right' /><strong>Correct!</strong>",
+        "4": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      }
+    },
+    "q12": {
+      "text": "Used ahead of most other internal and external appointment options. ",
+       "options": {
+        "1": "Casual",
+        "2": "Interchange Canada ",
+        "3": "Temporary Help ",
+        "4": "Priority Appointment "
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "4": "<span class='v-right' /><strong>Correct!</strong>"
+      }
     }
   },
   "fr": {
   "instructions":"Répondez aux questions suivantes en consultant la facture fournie.",
-    "q1": {
-      "text": "Vous avez reçu 15 paires de lunettes roses. Les 5 autres paires sont en rupture de stock. Payez-vous la facture pour la commande compl&egrave;te de 20 paires?",
+     "q1": {
+      "text": "Nomination ouverte au public et aux fonctionnaires. ",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Nomination interne",
+        "2": "Nomination externe ",
+        "3": "Nomination d’un étudiant ",
+        "4": "Nomination pour une période déterminée  "
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
-      },
-      "conclusion": "Vous devrez contacter le fournisseur pour faire corriger la facture, car vous n’avez pas reçu 5 paires."
+        "2": "<span class='v-right' /><strong>Correct!</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "4": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+        
+      }
     },
     "q2": {
-      "text": "Vous avez commandé des surligneurs d’une valeur de 10&nbsp;$ auprès de l’Entreprise XYZ. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "Nomination exemptée de l’application du principe de mérite, des droits de priorité et d’autres dispositions de la Loi sur l’emploi dans la fonction publique. ",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+       "1": "Nomination interne",
+        "2": "Nomination externe ",
+        "3": "Nomination d’un étudiant ",
+        "4": "Nomination pour une période déterminée  "
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
-      },
-      "conclusion": "Si vous regardez attentivement, vous avez commandé chez Entreprise XYZ, mais la facture indique Entreprise ABC."
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-right' /><strong>Correct!</strong>",
+        "4": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+        
+      }
     },
     "q3": {
-      "text": "Vous avez commandé des lunettes roses au prix de 20&nbsp;$ la paire. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "Nomination ouverte seulement aux fonctionnaires. Ces nominations sont utilisées pour les nominations intérimaires, les promotions et les autres types d’activités de recrutement dans la fonction publique. ",
+        "options": {
+        "1": "Nomination interne",
+        "2": "Nomination externe ",
+        "3": "Nomination d’un étudiant ",
+        "4": "Nomination pour une période déterminée  "
+      },
+      "feedback": {
+         "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "4": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+        
+      }
+    },
+    "q4": {
+      "text": "Nomination d’une durée précise régie par la Politique sur l’emploi pour une période déterminée du Secrétariat du Conseil du Trésor.",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+       "1": "Nomination interne",
+        "2": "Nomination externe ",
+        "3": "Nomination d’un étudiant ",
+        "4": "Nomination pour une période déterminée  "
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "4": "<span class='v-right' /><strong>Correct!</strong>"
+      }
+    },
+    "q5": {
+      "text": "Nomination temporaire à un poste de niveau supérieur offerte aux employés nommés pour une période déterminée ou pour une période indéterminée.",
+      "options": {
+        "1": "Nomination intérimaire ",
+        "2": "Affectation  ",
+        "3": "Mutation  ",
+        "4": "Détachement  "
       },
-      "conclusion": " Si vous regardez bien, vous avez commandé des lunettes roses à 20&nbsp;$ la paire. La facture indique 25&nbsp;$ l’unité. Vous devrez communiquer avec le fournisseur pour faire corriger la facture."
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-right' /><strong>Correct!</strong>",
+        "4": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      }
+    },
+    "q6": {
+      "text": "Déplacement d’une personne à un poste du même niveau ou d’un niveau inférieur, au sein de l’organisation ou dans une autre organisation. Cette personne n’occupe plus son poste précédent. ",
+       "options": {
+         "1": "Nomination intérimaire ",
+        "2": "Affectation  ",
+        "3": "Mutation  ",
+        "4": "Détachement  "
+      },
+      "feedback": {
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "4": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      }
+    },
+    "q7": {
+      "text": "Nomination permettant à une personne de renforcer ses capacités et de poursuivre son perfectionnement professionnel. L’employé est déplacé temporairement dans une autre organisation. ",
+       "options": {
+         "1": "Nomination intérimaire ",
+        "2": "Affectation  ",
+        "3": "Mutation  ",
+        "4": "Détachement  "
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-right' /><strong>Correct!</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "4": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      }
+    },
+    "q8": {
+      "text": "Déplacement d’une personne à un autre poste du même niveau ou d’un niveau inférieur, au sein de l’organisation ou dans une autre organisation. Cette personne occupe encore son poste précédent. ",
+      "options": {
+         "1": "Nomination intérimaire ",
+        "2": "Affectation  ",
+        "3": "Mutation  ",
+        "4": "Détachement  "
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "4": "<span class='v-right' /><strong>Correct!</strong>"
+      }
+    },
+    "q9": {
+      "text": "Ces affectations à temps plein ou à temps partiel servent à l’enrichissement des tâches, à la gestion des talents et à l’échange de compétences. Elles ont lieu dans les secteurs privé, public et à but non lucratif au Canada et à l’international. ",
+      "options": {
+        "1": "Nomination d’un employé occasionnel ",
+        "2": "Échanges Canada ",
+        "3": "Aide temporaire ",
+        "4": "Nomination d’un bénéficiaire de priorité "
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-right' /><strong>Correct!</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "4": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      }
+    },
+    "q10": {
+      "text": "Nomination servant à satisfaire aux exigences opérationnelles à court terme. Le mérite et l’admissibilité aux processus de nomination internes ne s’appliquent pas à ces travailleurs. ",
+       "options": {
+         "1": "Nomination d’un employé occasionnel ",
+        "2": "Échanges Canada ",
+        "3": "Aide temporaire ",
+        "4": "Nomination d’un bénéficiaire de priorité "
+      },
+      "feedback": {
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "4": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      }
+    },
+    "q11": {
+      "text": "Méthode servant à satisfaire aux exigences opérationnelles à court terme. Ces travailleurs sont employés par l’intermédiaire d’une agence pour fournir des services de façon temporaire. ",
+       "options": {
+         "1": "Nomination d’un employé occasionnel ",
+        "2": "Échanges Canada ",
+        "3": "Aide temporaire ",
+        "4": "Nomination d’un bénéficiaire de priorité "
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-right' /><strong>Correct!</strong>",
+        "4": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      }
+    },
+    "q12": {
+      "text": "Méthode servant à satisfaire aux exigences opérationnelles à court terme. Ces travailleurs sont employés par l’intermédiaire d’une agence pour fournir des services de façon temporaire. ",
+       "options": {
+         "1": "Nomination d’un employé occasionnel ",
+        "2": "Échanges Canada ",
+        "3": "Aide temporaire ",
+        "4": "Nomination d’un bénéficiaire de priorité "
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "4": "<span class='v-right' /><strong>Correct!</strong>"
+      }
     }
   }
 }</i18n>

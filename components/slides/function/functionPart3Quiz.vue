@@ -59,10 +59,9 @@
 </script>
 <i18n>{
   "en": {
-  "instructions":"Answer the quiz.",
-  "matchInstructions": "Making the links between organization and classification and other HR disciplines will help guide you in the following activities. Match the sentence segments.",
+  "instructions":"Answer the following questions. ",
     "q1": {
-      "text": "<p>True or false?</p><p>Entering into a contract with a subject matter expert to meet short-term needs for specific technical skills is an effective HR strategy.</p>",
+      "text": "Entering into a contract with a subject matter expert to meet short-term needs for specific technical skills is an effective HR strategy. ",
       "options": {
         "1": "True",
         "2": "False"
@@ -74,7 +73,7 @@
       "conclusion": "Employing contractors is an effective way to fill a need for specific skills."
     },
     "q2": {
-      "text": "<p>True or false?</p><p>A reference check is ___________________________.</p>",
+      "text": "A reference check is ___________________________.",
       "options": {
         "1": "a condition of hire performed as the last step in a hiring process.",
         "2": "an assessment method used to assess a candidate’s qualifications.",
@@ -227,42 +226,169 @@
     }
   },
   "fr": {
-  "instructions":"Répondez aux questions suivantes en consultant la facture fournie.",
+  "instructions":"Répondez aux questions suivantes.",
     "q1": {
-      "text": "Vous avez reçu 15 paires de lunettes roses. Les 5 autres paires sont en rupture de stock. Payez-vous la facture pour la commande compl&egrave;te de 20 paires?",
+      "text": "Attribuer un contrat à un expert en la matière afin de répondre aux besoins à court terme en matière de compétences techniques particulières constitue une stratégie de RH efficace.",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Vrai",
+        "2": "Faux"
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       },
-      "conclusion": "Vous devrez contacter le fournisseur pour faire corriger la facture, car vous n’avez pas reçu 5 paires."
+      "conclusion": "Embaucher un employé contractuel est une manière efficace de combler un besoin en matière de compétences particulières."
     },
     "q2": {
-      "text": "Vous avez commandé des surligneurs d’une valeur de 10&nbsp;$ auprès de l’Entreprise XYZ. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "Une vérification des références est ___________________________. ",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "une condition d’embauche que l’on trouve à la dernière étape du processus d’embauche ",
+        "2": "une méthode d’évaluation des qualifications d’une personne ayant participé à un processus ",
+        "3": "une étape nécessaire dans le cadre de toutes les mesures de dotation aux fins de la vérification des compétences "
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
-      },
-      "conclusion": "Si vous regardez attentivement, vous avez commandé chez Entreprise XYZ, mais la facture indique Entreprise ABC."
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong> Une vérification des références est <strong>une méthode d’évaluation des qualifications d’une personne ayant participé à un processus.</strong>",
+        "2": "<span class='v-right' /><strong>Correct!</strong> Il s’agit d’<strong>une méthode d’évaluation des qualifications d’une personne ayant participé à un processus.</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong> Une vérification des références est <strong>une méthode d’évaluation des qualifications d’une personne ayant participé à un processus.</strong>"
+      }
     },
     "q3": {
-      "text": "Vous avez commandé des lunettes roses au prix de 20&nbsp;$ la paire. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "Vous êtes gestionnaire subdélégué dans une région éloignée et vous essayez de pourvoir un poste spécialisé. Depuis quelques années, il est difficile d’attirer des employés dans votre unité et de les maintenir en poste, et les experts se font rares. La semaine dernière, vous avez assisté à une conférence à Vancouver. Pendant une pause, vous avez rencontré quelqu’un qui travaille dans le secteur privé et qui possède l’expertise requise pour le poste vacant au sein de votre équipe. Quel processus de dotation pourrait servir à nommer cette personne à ce poste? ",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Mutation ",
+        "2": "Processus interne annoncé ",
+        "3": "Détachement ",
+        "4": "Processus externe non annoncé"
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "4": "<span class='v-right' /><strong>Correct!</strong>"
+      },
+      "conclusion": "La réponse est Processus externe non annoncé."
+    },
+    "q4": {
+      "text": "Quel est ou quels sont les principaux éléments qui déterminent vos besoins en matière de dotation?",
+      "options": {
+        "1": "Objectifs opérationnels ",
+        "2": "Compétences requises pour le poste",
+        "3": "Objectifs organisationnels, comme l’équité en matière d’emploi "
+      },
+      "feedback": {
+        "right": "<span class='v-right' /><strong>Correct!</strong>",
+        "wrong": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      },
+      "conclusion": "Toutes les réponses s’appliquent."
+    },
+    "q5": {
+      "text": "Parmi les intervenants suivants, qui établit les priorités en matière de dotation?",
+      "options": {
+        "1": "Le greffier du Conseil privé ",
+        "2": "Le Secrétariat du Conseil du Trésor ",
+        "3": "L’administrateur général "
+      },
+      "feedback": {
+        "right": "<span class='v-right' /><strong>Correct!</strong>",
+        "wrong": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      },
+      "conclusion": "Tous les intervenants ci-dessus établissent les priorités en matière de dotation."
+    },
+    "q6": {
+      "text": "Les processus de nomination sont encadrés principalement par lequel des éléments suivants? ",
+      "options": {
+        "1": "Lois et règlements ",
+        "2": "Politiques et directives",
+        "3": "Discours du Trône "
+      },
+      "feedback": {
+        "right": "<span class='v-right' /><strong>Correct!</strong>",
+        "wrong": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      },
+      "conclusion": "Les processus de dotation sont encadrés principalement par les lois et les règlements ainsi que par les politiques et les directives."
+    },
+    "q7": {
+      "text": "<p>En tant que gestionnaire, vous avez plusieurs obligations en matière de dotation. Complétez les énoncés suivants. </p><p>Les gestionnaires peuvent atteindre les objectifs d’équité en matière d’emploi, de diversité et d’inclusion en éliminant ___________________. </p>",
+      "options": {
+        "1": "les obstacles ",
+        "2": "les ordres de priorité ",
+        "3": "l’application du mérite "
+      },
+      "feedback": {
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      },
+      "conclusion": "Une manière d’atteindre l’équité en matière d’emploi, la diversité et l’inclusion est d’éliminer les obstacles."
+    },
+    "q8": {
+      "text": "Une annonce d’emploi peut être publiée seulement en anglais sur le site de recrutement de la fonction publique fédérale (emplois.gc.ca) si le poste à combler se trouve dans une région unilingue. ",
+      "options": {
+        "1": "Vrai",
+        "2": "Faux"
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "2": "<span class='v-right' /><strong>Correct!</strong>"
       },
-      "conclusion": " Si vous regardez bien, vous avez commandé des lunettes roses à 20&nbsp;$ la paire. La facture indique 25&nbsp;$ l’unité. Vous devrez communiquer avec le fournisseur pour faire corriger la facture."
+      "conclusion": "Les annonces d’emploi doivent être publiées dans les deux langues officielles, peu importe la région du poste à pourvoir."
+    },
+    "q9": {
+      "text": "Les gestionnaires doivent respecter les__________ législatives et politiques.",
+      "options": {
+        "1": "obligations",
+        "2": "exigences",
+        "3": "directives"
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-right' /><strong>Correct!</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      },
+      "conclusion": "Les gestionnaires doivent respecter les exigences législatives et politiques."
+    },
+    "q10": {
+      "text": "Les gestionnaires doivent ____________ les valeurs et les principes d’éthique du secteur public. ",
+      "options": {
+        "1": "réglementer",
+        "2": "respecter",
+        "3": "mettre en place"
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-right' /><strong>Correct!</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      },
+      "conclusion": "Les gestionnaires doivent respecter les valeurs et les principes d’éthique du secteur public."
+    },
+    "q11": {
+      "text": "Lors d’un processus de nomination, les gestionnaires doivent respecter_______________. ",
+      "options": {
+        "1": "la Loi sur <i>l’emploi dans la fonction publique</i>",
+        "2": "la Politique de nomination de la Commission de la fonction publique ",
+        "3": "le cadre de dotation de l’organisation "
+      },
+      "feedback": {
+        "right": "<span class='v-right' /><strong>Correct!</strong>",
+        "wrong": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      },
+      "conclusion": " Lors d’un processus de nomination, les gestionnaires doivent respecter tous ces instruments."
+    },
+    "q12": {
+      "text": "Lors de la dotation d’un poste, les gestionnaires doivent _____________. ",
+      "options": {
+        "1": "tenir compte des objectifs d’équité en matière d’emploi ",
+        "2": "effectuer une vérification des références",
+        "3": "déterminer qui pourra postuler en établissant la zone de sélection",
+        "4": "permettre aussi souvent que possible au public de postuler ",
+        "5": "nommer des personnes parce qu’elles ont les compétences requises et parce qu’elles sont les meilleures pour le poste",
+        "6": "choisir un processus de dotation approprié"
+      },
+      "feedback": {
+        "right": "<span class='v-right' /><strong>Correct!</strong>",
+        "wrong": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      },
+      "conclusion": "Lors de la dotation d’un poste, les gestionnaires doivent tenir compte des objectifs d’équité en matière d’emploi, déterminer qui pourra postuler en établissant la zone de sélection et choisir un processus de dotation approprié."
     }
   }
 }</i18n>

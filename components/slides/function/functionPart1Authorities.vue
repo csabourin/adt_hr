@@ -74,42 +74,30 @@
     }
   },
   "fr": {
-  "instructions":"Répondez aux questions suivantes en consultant la facture fournie.",
+  "instructions":"Utilisez la <a href='https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=15772' target='_blank' alt='Lien vers la page web des conditions d'emploi'>Directive sur les conditions d’emploi</a> pour répondre aux questions suivantes, de type vrai ou faux.",
     "q1": {
-      "text": "Vous avez reçu 15 paires de lunettes roses. Les 5 autres paires sont en rupture de stock. Payez-vous la facture pour la commande compl&egrave;te de 20 paires?",
+      "text": "Ce ne sont pas toutes les sections de cette directive qui s’appliquent aux personnes assujetties aux conditions d’emploi propres à leur groupe. ",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Vrai",
+        "2": "Faux"
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       },
-      "conclusion": "Vous devrez contacter le fournisseur pour faire corriger la facture, car vous n’avez pas reçu 5 paires."
+      "conclusion": "Voir la section 2 de la <a href='https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=15772' target='_blank' alt='Lien vers la page web des conditions d'emploi'>Directive sur les conditions d’emploi</a> pour plus de précisions concernant l’application de cette directive."
     },
     "q2": {
-      "text": "Vous avez commandé des surligneurs d’une valeur de 10&nbsp;$ auprès de l’Entreprise XYZ. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "En cas de conflit ou d’incompatibilité entre une disposition de la convention collective et les instruments de politique du Conseil du Trésor concernant les conditions d’emploi, les instruments de politique du Conseil du Trésor concernant les conditions d’emploi s’appliquent. ",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Vrai",
+        "2": "Faux"
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "2": "<span class='v-right' /><strong>Correct!</strong>"
       },
-      "conclusion": "Si vous regardez attentivement, vous avez commandé chez Entreprise XYZ, mais la facture indique Entreprise ABC."
-    },
-    "q3": {
-      "text": "Vous avez commandé des lunettes roses au prix de 20&nbsp;$ la paire. En regardant la facture fournie, devriez-vous la payer?",
-      "options": {
-        "1": "Oui",
-        "2": "Non"
-      },
-      "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
-      },
-      "conclusion": " Si vous regardez bien, vous avez commandé des lunettes roses à 20&nbsp;$ la paire. La facture indique 25&nbsp;$ l’unité. Vous devrez communiquer avec le fournisseur pour faire corriger la facture."
+      "conclusion": "Dans cette situation, les dispositions de la convention collective s’appliquent. Voir la section 3.3 de la <a href='https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=15772' target='_blank' alt='Lien vers la page web des conditions d'emploi'>Directive sur les conditions d’emploi</a> pour plus de précisions concernant le contexte de cette directive.."
     }
   }
 }</i18n>

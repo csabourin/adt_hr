@@ -69,13 +69,13 @@
         "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       },
-      "conclusion": "The HR plan supports good HR decision making."
+      "conclusion": "The HR plan supports good HR decision making." 
     },
     "q2": {
       "text": "Deputy heads receive their HR authorities from which legislation?",
       "options": {
-        "1": "<i>Financial Administration Act</i> and the <i>Public Service Employment Act</i>",
-        "2": "<i>Public Service Administration Act</i> and the Policy on People Management",
+        "1": "<em>Financial Administration Act</em> and the <em>Public Service Employment Act</em>",
+        "2": "<em>Public Service Administration Act</em> and the Policy on People Management",
         "3": "Policy on People Management and the Public Service Commission"
       },
       "feedback": {
@@ -83,7 +83,7 @@
         "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       },
-      "conclusion": "Deputy heads receive their HR authorities from the <i>Financial Administration Act</i> and the <i>Public Service Employment Act</i>."
+      "conclusion": "Deputy heads receive their HR authorities from the <em>Financial Administration Act</em> and the <em>Public Service Employment Act</em>."
     },
     "q3": {
       "text": "An individual may exercise delegated authorities once they have completed the necessary training.",
@@ -112,8 +112,8 @@
     "q5": {
       "text": "Establishing merit criteria, making deployments and accepting resignations are examples of authorities directly conferred to deputy heads through which legislation?",
       "options": {
-        "1": "<i>Financial Administration Act</i>",
-        "2": "<i>Public Service Employment Act</i>",
+        "1": "<em>Financial Administration Act</em>",
+        "2": "<em>Public Service Employment Act</em>",
         "3": "Appointment Delegation and Accountability Instrument"
       },
       "feedback": {
@@ -122,10 +122,10 @@
         "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
         
       },
-      "conclusion": "Establishing merit criteria, making deployments and accepting resignations are examples of authorities directly conferred to deputy heads through the <i>Public Service Employment Act</i>."
+      "conclusion": "Establishing merit criteria, making deployments and accepting resignations are examples of authorities directly conferred to deputy heads through the <em>Public Service Employment Act</em>."
     },
     "q6": {
-      "text": "Which of the following authorities is conferred directly to deputy heads through the <i>Financial Administration Act</i>?",
+      "text": "Which of the following authorities is conferred directly to deputy heads through the <em>Financial Administration Act</em>?",
       "options": {
         "1": "Authority to lay off or retain employees",
         "2": "Authority to hire casual workers",
@@ -136,14 +136,14 @@
         "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "3": "<span class='v-right' /><strong>Correct!</strong>"
       },
-      "conclusion": "The authority to hire consultants is conferred directly to deputy heads through the <i>Financial Administration Act</i>."
+      "conclusion": "The authority to hire consultants is conferred directly to deputy heads through the <em>Financial Administration Act</em>."
     },
     "q7": {
       "text": "The ___________ specifies the authorities that are delegated to deputy heads by the Public Service Commission.",
       "options": {
         "1": "Policy on People Management",
         "2": "Appointment Delegation and Accountability Instrument",
-        "3": "<i>Financial Administration Act</i>"
+        "3": "<em>Financial Administration Act</em>"
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
@@ -180,42 +180,128 @@
     }
   },
   "fr": {
-  "instructions":"Répondez aux questions suivantes en consultant la facture fournie.",
+  "instructions":"Évaluez vos connaissances en répondant aux questions suivantes. Cliquez sur « Soumettre » lorsque vous avez terminé. ",
     "q1": {
-      "text": "Vous avez reçu 15 paires de lunettes roses. Les 5 autres paires sont en rupture de stock. Payez-vous la facture pour la commande compl&egrave;te de 20 paires?",
+      "text": "Lequel des documents suivants favorise une prise de décision efficace en matière de RH? ",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Plan des RH ",
+        "2": "Ententes de rendement ",
+        "3": "Plan ministériel "
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       },
-      "conclusion": "Vous devrez contacter le fournisseur pour faire corriger la facture, car vous n’avez pas reçu 5 paires."
+      "conclusion": "Le plan des RH favorise une prise de décision efficace en matière de RH. "
     },
     "q2": {
-      "text": "Vous avez commandé des surligneurs d’une valeur de 10&nbsp;$ auprès de l’Entreprise XYZ. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "Quelles lois confèrent aux administrateurs généraux leurs pouvoirs en matière de RH? ",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "<em>La Loi sur la gestion des finances publiques</em< et <em>la Loi sur l’emploi dans la fonction publique </em>",
+        "2": "<em>La Loi sur l’administration dans la fonction publique</em> et la Politique sur la gestion des personnes ",
+        "3": "La Politique sur la gestion des personnes et la Commission de la fonction publique "
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       },
-      "conclusion": "Si vous regardez attentivement, vous avez commandé chez Entreprise XYZ, mais la facture indique Entreprise ABC."
+      "conclusion": "<em>La Loi sur la gestion des finances publiques</em> et <em>la Loi sur l’emploi dans la fonction publique</em> confèrent aux administrateurs généraux leurs pouvoirs en matière de RH."
     },
     "q3": {
-      "text": "Vous avez commandé des lunettes roses au prix de 20&nbsp;$ la paire. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "Une personne peut exercer ses pouvoirs délégués une fois qu’elle a suivi la formation nécessaire. ",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Vrai",
+        "2": "Faux"
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "2": "<span class='v-right' /><strong>Correct!</strong>"
       },
-      "conclusion": " Si vous regardez bien, vous avez commandé des lunettes roses à 20&nbsp;$ la paire. La facture indique 25&nbsp;$ l’unité. Vous devrez communiquer avec le fournisseur pour faire corriger la facture."
+      "conclusion": " La réponse est Faux. Une personne doit occuper le poste auquel les pouvoirs sont associés. Elle doit aussi avoir suivi la formation nécessaire et avoir été investie du pouvoir de signature par l’administrateur général."
+    },
+    "q4": {
+      "text": "Une fois que des pouvoirs vous ont été délégués, vous conservez ces pouvoirs lorsque vous changez de poste ou de ministère. ",
+      "options": {
+        "1": "Vrai",
+        "2": "Faux"
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-right' /><strong>Correct!</strong>"
+      },
+      "conclusion": "Les pouvoirs délégués sont associés à un poste et non à une personne."
+    },
+    "q5": {
+      "text": " Établir des critères de mérite, effectuer des mutations et accepter des démissions sont des exemples de pouvoirs conférés directement aux administrateurs généraux. Quelle loi leur confère ces pouvoirs? ",
+      "options": {
+        "1": "<em>La Loi sur la gestion des finances publiques</em>",
+        "2": "<em>La Loi sur l’emploi dans la fonction publique </em>",
+        "3": "L’Instrument de délégation et de responsabilisation en matière de nomination "
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-right' /><strong>Correct!</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+        
+      },
+      "conclusion": "Établir des critères de mérite, effectuer des mutations et accepter des démissions sont des exemples de pouvoirs conférés directement aux administrateurs généraux en vertu de la <em>Loi sur l’emploi dans la fonction publique</em>."
+    },
+    "q6": {
+      "text": "Lequel des pouvoirs suivants est conféré directement aux administrateurs généraux par l’entremise de <em>la Loi sur la gestion des finances publiques? </em>?",
+      "options": {
+        "1": "Le pouvoir de mettre en disponibilité ou de maintenir en poste des employés ",
+        "2": "Le pouvoir d’embaucher des employés occasionnels ",
+        "3": "Le pouvoir d’embaucher des experts-conseils "
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-right' /><strong>Correct!</strong>"
+      },
+      "conclusion": "Le pouvoir d’embaucher des experts-conseils est conféré directement aux administrateurs généraux en vertu de <em>la Loi sur la gestion des finances publiques</em>."
+    },
+    "q7": {
+      "text": "Quel document présente les pouvoirs délégués aux administrateurs généraux par la Commission de la fonction publique?   ",
+      "options": {
+        "1": "La Politique sur la gestion des personnes ",
+        "2": "L’Instrument de délégation et de responsabilisation en matière de nomination ",
+        "3": "<em>La Loi sur la gestion des finances publiques </em>"
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-right' /><strong>Correct!</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      },
+      "conclusion": "L’Instrument de délégation et de responsabilisation en matière de nomination présente les pouvoirs qui sont délégués aux administrateurs généraux par la Commission de la fonction publique."
+    },
+    "q8": {
+      "text": "Un gestionnaire investi de pouvoirs subdélégués en matière de RH peut subdéléguer ses pouvoirs à un superviseur de son équipe. ",
+      "options": {
+        "1": "Vrai",
+        "2": "Faux"
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-right' /><strong>Correct!</strong>"
+      },
+      "conclusion": "Un gestionnaire investi de pouvoirs subdélégués en matière de RH ne peut pas subdéléguer ses pouvoirs à un superviseur de son équipe."
+    },
+    "q9": {
+      "text": "Quel document utilisent les organisations pour confirmer le niveau décisionnel requis pour approuver des activités de RH comme des demandes de congé, des descriptions de travail et des cotes d’ententes de rendement? ",
+      "options": {
+        "1": "La Politique sur la gestion des personnes ",
+        "2": "L’organigramme de l’organisation ",
+        "3": "L’instrument de délégation des pouvoirs en matière de RH de l’organisation "
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-right' /><strong>Correct!</strong>"
+      },
+      "conclusion": "Les organisations utilisent leur instrument de délégation des pouvoirs en matière de RH de l’organisation pour confirmer le niveau décisionnel requis pour approuver des activités de RH comme des demandes de congé, des descriptions de travail et des cotes d’ententes de rendement."
     }
   }
-}</i18n>
+}
+</i18n>

@@ -52,7 +52,7 @@
   "en": {
   "instructions":"Using the sample sub-delegation instrument for HR authorities, identify the lowest level of authority that can approve the request.",
     "q1": {
-      "text": "<p><b>An employee calls in sick but their sick leave credits are all used up. They would like an advance of sick leave with pay.</b></p> <p>Which is the lowest level of authority that can approve the request?</p>",
+      "text": "<p>An employee calls in sick but their sick leave credits are all used up. They would like an advance of sick leave with pay.</p> <p>Which is the lowest level of authority that can approve the request?</p>",
       "options": {
         "1": "Deputy Head",
         "2": "Assistant Deputy Minister",
@@ -61,16 +61,15 @@
         "5": "Manager"
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "4": "<span class='v-right' /><strong>Correct!</strong>",
-        "5": "<span class='v-wrong' /><strong>Incorrect.</strong>"
-      },
-      "conclusion": "In the example provided, directors at the EX level are the lowest level that can authorize advance of sick leave with pay. Where an employee has insufficient or no credits to cover the granting of sick leave with pay, sick leave with pay may, at the discretion of the employer, be granted to an employee for a period of up to 25 days subject to the deduction of such advanced leave from any sick leave credits subsequently earned."
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong> In the example provided, directors at the EX level are the lowest level that can authorize advance of sick leave with pay. Where an employee has insufficient or no credits to cover the granting of sick leave with pay, sick leave with pay may, at the discretion of the employer, be granted to an employee for a period of up to 25 days subject to the deduction of such advanced leave from any sick leave credits subsequently earned.",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong> In the example provided, directors at the EX level are the lowest level that can authorize advance of sick leave with pay. Where an employee has insufficient or no credits to cover the granting of sick leave with pay, sick leave with pay may, at the discretion of the employer, be granted to an employee for a period of up to 25 days subject to the deduction of such advanced leave from any sick leave credits subsequently earned.",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong> In the example provided, directors at the EX level are the lowest level that can authorize advance of sick leave with pay. Where an employee has insufficient or no credits to cover the granting of sick leave with pay, sick leave with pay may, at the discretion of the employer, be granted to an employee for a period of up to 25 days subject to the deduction of such advanced leave from any sick leave credits subsequently earned.",
+        "4": "<span class='v-right' /><strong>Correct!</strong> In the example provided, directors at the EX level are the lowest level that can authorize advance of sick leave with pay. Where an employee has insufficient or no credits to cover the granting of sick leave with pay, sick leave with pay may, at the discretion of the employer, be granted to an employee for a period of up to 25 days subject to the deduction of such advanced leave from any sick leave credits subsequently earned.",
+        "5": "<span class='v-wrong' /><strong>Incorrect.</strong> In the example provided, directors at the EX level are the lowest level that can authorize advance of sick leave with pay. Where an employee has insufficient or no credits to cover the granting of sick leave with pay, sick leave with pay may, at the discretion of the employer, be granted to an employee for a period of up to 25 days subject to the deduction of such advanced leave from any sick leave credits subsequently earned."
+      }
     },
     "q2": {
-      "text": "<p><b>An employee announces she is pregnant and wants to take maternity leave without pay in a few months.</b></p> <p>Which is the lowest level of authority that can approve the request?</p>",
+      "text": "<p>An employee announces she is pregnant and wants to take maternity leave without pay in a few months.</p> <p>Which is the lowest level of authority that can approve the request?</p>",
       "options": {
         "1": "Deputy Head",
         "2": "Assistant Deputy Minister",
@@ -79,16 +78,15 @@
         "5": "Manager"
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "4": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "5": "<span class='v-right' /><strong>Correct!</strong>"
-      },
-      "conclusion": "In the example provided, managers can authorize maternity or parental leave or parental leave without pay. Parental leave without pay is leave available to any employee for the purpose of caring for their newborn or newly adopted child."
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong> In the example provided, managers can authorize maternity or parental leave or parental leave without pay. Parental leave without pay is leave available to any employee for the purpose of caring for their newborn or newly adopted child",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong> In the example provided, managers can authorize maternity or parental leave or parental leave without pay. Parental leave without pay is leave available to any employee for the purpose of caring for their newborn or newly adopted child",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong> In the example provided, managers can authorize maternity or parental leave or parental leave without pay. Parental leave without pay is leave available to any employee for the purpose of caring for their newborn or newly adopted child",
+        "4": "<span class='v-wrong' /><strong>Incorrect.</strong> In the example provided, managers can authorize maternity or parental leave or parental leave without pay. Parental leave without pay is leave available to any employee for the purpose of caring for their newborn or newly adopted child",
+        "5": "<span class='v-right' /><strong>Correct!</strong> In the example provided, managers can authorize maternity or parental leave or parental leave without pay. Parental leave without pay is leave available to any employee for the purpose of caring for their newborn or newly adopted child"
+      }
     },
     "q3": {
-      "text": "<p><b>An employee wants to return to college and has requested education leave without pay, with allowance.</b></p> <p>Which is the lowest level of authority that can approve the request?</p>",
+      "text": "<p>An employee wants to return to college and has requested education leave without pay, with allowance.</p> <p>Which is the lowest level of authority that can approve the request?</p>",
       "options": {
         "1": "Deputy Head",
         "2": "Assistant Deputy Minister",
@@ -97,16 +95,15 @@
         "5": "Manager"
       },
       "feedback": {
-        "1": "<span class='v-right' /><strong>Correct!</strong>",
-        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "4": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "5": "<span class='v-wrong' /><strong>Incorrect.</strong>"
-      },
-      "conclusion": "In the example provided, deputy heads can grant education leave without pay with allowance. An assistant deputy minister could approve such a request without allowance. Approval of leave without pay for educational needs is discretionary. The delegated manager may approve the leave after considering the degree to which the educational leave is needed or its relevance to the organizational requirements."
+        "1": "<span class='v-right' /><strong>Correct!</strong> In the example provided, deputy heads can grant education leave without pay with allowance. An assistant deputy minister could approve such a request without allowance. Approval of leave without pay for educational needs is discretionary. The delegated manager may approve the leave after considering the degree to which the educational leave is needed or its relevance to the organizational requirements.",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong> In the example provided, deputy heads can grant education leave without pay with allowance. An assistant deputy minister could approve such a request without allowance. Approval of leave without pay for educational needs is discretionary. The delegated manager may approve the leave after considering the degree to which the educational leave is needed or its relevance to the organizational requirements.",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong> In the example provided, deputy heads can grant education leave without pay with allowance. An assistant deputy minister could approve such a request without allowance. Approval of leave without pay for educational needs is discretionary. The delegated manager may approve the leave after considering the degree to which the educational leave is needed or its relevance to the organizational requirements.",
+        "4": "<span class='v-wrong' /><strong>Incorrect.</strong> In the example provided, deputy heads can grant education leave without pay with allowance. An assistant deputy minister could approve such a request without allowance. Approval of leave without pay for educational needs is discretionary. The delegated manager may approve the leave after considering the degree to which the educational leave is needed or its relevance to the organizational requirements.",
+        "5": "<span class='v-wrong' /><strong>Incorrect.</strong> In the example provided, deputy heads can grant education leave without pay with allowance. An assistant deputy minister could approve such a request without allowance. Approval of leave without pay for educational needs is discretionary. The delegated manager may approve the leave after considering the degree to which the educational leave is needed or its relevance to the organizational requirements."
+      }
     },
     "q4": {
-      "text": "<p><b>An employee asks to not come into work because it would be too dangerous due to icy roads in her neighbourhood. Since she is not responsible for this situation, she feels she should still be paid even though she won’t come to work.</b></p> <p>Which is the lowest level of authority that can approve the request?</p>",
+      "text": "<p>An employee asks to not come into work because it would be too dangerous due to icy roads in her neighbourhood. Since she is not responsible for this situation, she feels she should still be paid even though she won’t come to work.</p> <p>Which is the lowest level of authority that can approve the request?</p>",
       "options": {
         "1": "Deputy Head",
         "2": "Assistant Deputy Minister",
@@ -115,16 +112,15 @@
         "5": "Manager"
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>",
-        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "4": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "5": "<span class='v-wrong' /><strong>Incorrect.</strong>"
-      },
-      "conclusion": "Only the deputy head or an assistant deputy minister can authorize paid time off due to adverse climatic or environmental conditions. Adverse environmental conditions at the workplace, such as a lack of heat, and emergency conditions affecting the community, such as a serious flood or snowstorm, are situations that may occur which could require management to exercise discretion with respect to granting leave with pay. In addition, the option to work remotely may be a possible solution before requesting this type of leave."
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong> Only the deputy head or an assistant deputy minister can authorize paid time off due to adverse climatic or environmental conditions. Adverse environmental conditions at the workplace, such as a lack of heat, and emergency conditions affecting the community, such as a serious flood or snowstorm, are situations that may occur which could require management to exercise discretion with respect to granting leave with pay. In addition, the option to work remotely may be a possible solution before requesting this type of leave.",
+        "2": "<span class='v-right' /><strong>Correct!</strong> Only the deputy head or an assistant deputy minister can authorize paid time off due to adverse climatic or environmental conditions. Adverse environmental conditions at the workplace, such as a lack of heat, and emergency conditions affecting the community, such as a serious flood or snowstorm, are situations that may occur which could require management to exercise discretion with respect to granting leave with pay. In addition, the option to work remotely may be a possible solution before requesting this type of leave.",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong> Only the deputy head or an assistant deputy minister can authorize paid time off due to adverse climatic or environmental conditions. Adverse environmental conditions at the workplace, such as a lack of heat, and emergency conditions affecting the community, such as a serious flood or snowstorm, are situations that may occur which could require management to exercise discretion with respect to granting leave with pay. In addition, the option to work remotely may be a possible solution before requesting this type of leave.",
+        "4": "<span class='v-wrong' /><strong>Incorrect.</strong> Only the deputy head or an assistant deputy minister can authorize paid time off due to adverse climatic or environmental conditions. Adverse environmental conditions at the workplace, such as a lack of heat, and emergency conditions affecting the community, such as a serious flood or snowstorm, are situations that may occur which could require management to exercise discretion with respect to granting leave with pay. In addition, the option to work remotely may be a possible solution before requesting this type of leave.",
+        "5": "<span class='v-wrong' /><strong>Incorrect.</strong> Only the deputy head or an assistant deputy minister can authorize paid time off due to adverse climatic or environmental conditions. Adverse environmental conditions at the workplace, such as a lack of heat, and emergency conditions affecting the community, such as a serious flood or snowstorm, are situations that may occur which could require management to exercise discretion with respect to granting leave with pay. In addition, the option to work remotely may be a possible solution before requesting this type of leave."
+      }
     },
     "q5": {
-      "text": "<p><b>An employee has a dental appointment Tuesday afternoon and would like paid time off to go to their appointment.</b></p> <p>Which is the lowest level of authority that can approve the request?</p>",
+      "text": "<p>An employee has a dental appointment Tuesday afternoon and would like paid time off to go to their appointment.</p> <p>Which is the lowest level of authority that can approve the request?</p>",
       "options": {
         "1": "Deputy Head",
         "2": "Assistant Deputy Minister",
@@ -134,53 +130,103 @@
         "6": "Supervisor"
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "4": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "5": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "6": "<span class='v-right' /><strong>Correct!</strong>"
-      },
-      "conclusion": "The manager can authorize paid time off work for personal medical and dental appointments. In this example, a level 6 supervisor also has the authority to approve the request. The employer may grant up to half a day of paid time off for such absences. Time off work with pay should not be for any follow-up appointments, or a series of appointments to treat a condition. Such absences are to be charged to the employee’s sick leave credits."
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong> The manager can authorize paid time off work for personal medical and dental appointments. In this example, a level 6 supervisor also has the authority to approve the request. The employer may grant up to half a day of paid time off for such absences. Time off work with pay should not be for any follow-up appointments, or a series of appointments to treat a condition. Such absences are to be charged to the employee’s sick leave credits.",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong> The manager can authorize paid time off work for personal medical and dental appointments. In this example, a level 6 supervisor also has the authority to approve the request. The employer may grant up to half a day of paid time off for such absences. Time off work with pay should not be for any follow-up appointments, or a series of appointments to treat a condition. Such absences are to be charged to the employee’s sick leave credits.",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong> The manager can authorize paid time off work for personal medical and dental appointments. In this example, a level 6 supervisor also has the authority to approve the request. The employer may grant up to half a day of paid time off for such absences. Time off work with pay should not be for any follow-up appointments, or a series of appointments to treat a condition. Such absences are to be charged to the employee’s sick leave credits.",
+        "4": "<span class='v-wrong' /><strong>Incorrect.</strong> The manager can authorize paid time off work for personal medical and dental appointments. In this example, a level 6 supervisor also has the authority to approve the request. The employer may grant up to half a day of paid time off for such absences. Time off work with pay should not be for any follow-up appointments, or a series of appointments to treat a condition. Such absences are to be charged to the employee’s sick leave credits.",
+        "5": "<span class='v-wrong' /><strong>Incorrect.</strong> The manager can authorize paid time off work for personal medical and dental appointments. In this example, a level 6 supervisor also has the authority to approve the request. The employer may grant up to half a day of paid time off for such absences. Time off work with pay should not be for any follow-up appointments, or a series of appointments to treat a condition. Such absences are to be charged to the employee’s sick leave credits.",
+        "6": "<span class='v-right' /><strong>Correct!</strong> The manager can authorize paid time off work for personal medical and dental appointments. In this example, a level 6 supervisor also has the authority to approve the request. The employer may grant up to half a day of paid time off for such absences. Time off work with pay should not be for any follow-up appointments, or a series of appointments to treat a condition. Such absences are to be charged to the employee’s sick leave credits."
+      }
     }
   },
   "fr": {
-  "instructions":"Répondez aux questions suivantes en consultant la facture fournie.",
+  "instructions":"À l’aide de l’exemple d’instrument de subdélégation pour les pouvoirs en matière de RH, déterminez le niveau décisionnel minimal requis pour approuver la demande. ",
     "q1": {
-      "text": "Vous avez reçu 15 paires de lunettes roses. Les 5 autres paires sont en rupture de stock. Payez-vous la facture pour la commande compl&egrave;te de 20 paires?",
+      "text": "<p>Un employé téléphone pour dire qu’il est malade, mais ses crédits de congé de maladie sont épuisés. Il demande une avance de crédits de congé de maladie payé.</p><p>Quel est le niveau décisionnel minimal requis pour approuver cette demande? </p>",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Administrateur général",
+        "2": "Sous-ministre adjoint ",
+        "3": "Directeur général ",
+        "4": "Directeur (EX) ",
+        "5": "Gestionnaire "
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
-      },
-      "conclusion": "Vous devrez contacter le fournisseur pour faire corriger la facture, car vous n’avez pas reçu 5 paires."
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong> Dans l’exemple donné, le niveau minimal requis pour autoriser une avance de crédits de congé de maladie payé est celui de directeur de niveau EX. Si un employé n’a pas de crédits ou que leur nombre est insuffisant pour couvrir la durée du congé de maladie payé, l’employeur peut, à sa discrétion, lui avancer jusqu’à 25 jours de congé de maladie payé, à condition que toute avance soit déduite des crédits de congé de maladie acquis par la suite. ",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong> Dans l’exemple donné, le niveau minimal requis pour autoriser une avance de crédits de congé de maladie payé est celui de directeur de niveau EX. Si un employé n’a pas de crédits ou que leur nombre est insuffisant pour couvrir la durée du congé de maladie payé, l’employeur peut, à sa discrétion, lui avancer jusqu’à 25 jours de congé de maladie payé, à condition que toute avance soit déduite des crédits de congé de maladie acquis par la suite. ",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong> Dans l’exemple donné, le niveau minimal requis pour autoriser une avance de crédits de congé de maladie payé est celui de directeur de niveau EX. Si un employé n’a pas de crédits ou que leur nombre est insuffisant pour couvrir la durée du congé de maladie payé, l’employeur peut, à sa discrétion, lui avancer jusqu’à 25 jours de congé de maladie payé, à condition que toute avance soit déduite des crédits de congé de maladie acquis par la suite. ",
+        "4": "<span class='v-right' /><strong>Correct!</strong> Dans l’exemple donné, le niveau minimal requis pour autoriser une avance de crédits de congé de maladie payé est celui de directeur de niveau EX. Si un employé n’a pas de crédits ou que leur nombre est insuffisant pour couvrir la durée du congé de maladie payé, l’employeur peut, à sa discrétion, lui avancer jusqu’à 25 jours de congé de maladie payé, à condition que toute avance soit déduite des crédits de congé de maladie acquis par la suite. ",
+        "5": "<span class='v-wrong' /><strong>Incorrect.</strong> Dans l’exemple donné, le niveau minimal requis pour autoriser une avance de crédits de congé de maladie payé est celui de directeur de niveau EX. Si un employé n’a pas de crédits ou que leur nombre est insuffisant pour couvrir la durée du congé de maladie payé, l’employeur peut, à sa discrétion, lui avancer jusqu’à 25 jours de congé de maladie payé, à condition que toute avance soit déduite des crédits de congé de maladie acquis par la suite. "
+      }
     },
     "q2": {
-      "text": "Vous avez commandé des surligneurs d’une valeur de 10&nbsp;$ auprès de l’Entreprise XYZ. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "<p>Une employée annonce qu’elle est enceinte et désire prendre un congé de maternité non payé dans quelques mois.</p> <p>Quel est le niveau décisionnel minimal requis pour approuver cette demande?</p>",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Administrateur général",
+        "2": "Sous-ministre adjoint ",
+        "3": "Directeur général ",
+        "4": "Directeur (EX) ",
+        "5": "Gestionnaire "
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
-      },
-      "conclusion": "Si vous regardez attentivement, vous avez commandé chez Entreprise XYZ, mais la facture indique Entreprise ABC."
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong> Dans l’exemple donné, le gestionnaire peut accorder un congé de maternité ou parental ou un congé parental non payé. N’importe quel employé peut prendre un congé parental non payé pour prendre soin de son nouveau-né ou de son enfant récemment adopté. ",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong> Dans l’exemple donné, le gestionnaire peut accorder un congé de maternité ou parental ou un congé parental non payé. N’importe quel employé peut prendre un congé parental non payé pour prendre soin de son nouveau-né ou de son enfant récemment adopté. ",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong> Dans l’exemple donné, le gestionnaire peut accorder un congé de maternité ou parental ou un congé parental non payé. N’importe quel employé peut prendre un congé parental non payé pour prendre soin de son nouveau-né ou de son enfant récemment adopté. ",
+        "4": "<span class='v-wrong' /><strong>Incorrect.</strong> Dans l’exemple donné, le gestionnaire peut accorder un congé de maternité ou parental ou un congé parental non payé. N’importe quel employé peut prendre un congé parental non payé pour prendre soin de son nouveau-né ou de son enfant récemment adopté. ",
+        "5": "<span class='v-right' /><strong>Correct!</strong> Dans l’exemple donné, le gestionnaire peut accorder un congé de maternité ou parental ou un congé parental non payé. N’importe quel employé peut prendre un congé parental non payé pour prendre soin de son nouveau-né ou de son enfant récemment adopté. "
+      }
     },
     "q3": {
-      "text": "Vous avez commandé des lunettes roses au prix de 20&nbsp;$ la paire. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "<p>Un employé désire retourner à l’université et demande un congé d’études non payé, mais avec indemnités.</p> <p>Quel est le niveau décisionnel minimal requis pour approuver cette demande? </p>",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+         "1": "Administrateur général",
+        "2": "Sous-ministre adjoint ",
+        "3": "Directeur général ",
+        "4": "Directeur (EX) ",
+        "5": "Gestionnaire "
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
+        "1": "<span class='v-right' /><strong>Correct!</strong> Dans l’exemple donné, l’administrateur général peut accorder un congé d’études non payé avec indemnités. Un sous-ministre adjoint pourrait approuver une telle demande, mais sans indemnités. L’approbation d’un congé d’études non payé est discrétionnaire. Le gestionnaire délégué pourrait approuver le congé après avoir évalué la nécessité de ce congé d’études ou son utilité à l’égard des besoins de l’organisation. ",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong> Dans l’exemple donné, l’administrateur général peut accorder un congé d’études non payé avec indemnités. Un sous-ministre adjoint pourrait approuver une telle demande, mais sans indemnités. L’approbation d’un congé d’études non payé est discrétionnaire. Le gestionnaire délégué pourrait approuver le congé après avoir évalué la nécessité de ce congé d’études ou son utilité à l’égard des besoins de l’organisation. ",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong> Dans l’exemple donné, l’administrateur général peut accorder un congé d’études non payé avec indemnités. Un sous-ministre adjoint pourrait approuver une telle demande, mais sans indemnités. L’approbation d’un congé d’études non payé est discrétionnaire. Le gestionnaire délégué pourrait approuver le congé après avoir évalué la nécessité de ce congé d’études ou son utilité à l’égard des besoins de l’organisation. ",
+        "4": "<span class='v-wrong' /><strong>Incorrect.</strong> Dans l’exemple donné, l’administrateur général peut accorder un congé d’études non payé avec indemnités. Un sous-ministre adjoint pourrait approuver une telle demande, mais sans indemnités. L’approbation d’un congé d’études non payé est discrétionnaire. Le gestionnaire délégué pourrait approuver le congé après avoir évalué la nécessité de ce congé d’études ou son utilité à l’égard des besoins de l’organisation. ",
+        "5": "<span class='v-wrong' /><strong>Incorrect.</strong> Dans l’exemple donné, l’administrateur général peut accorder un congé d’études non payé avec indemnités. Un sous-ministre adjoint pourrait approuver une telle demande, mais sans indemnités. L’approbation d’un congé d’études non payé est discrétionnaire. Le gestionnaire délégué pourrait approuver le congé après avoir évalué la nécessité de ce congé d’études ou son utilité à l’égard des besoins de l’organisation. "
+      }
+    },
+    "q4": {
+      "text": "<p>Une employée demande de ne pas se présenter au travail parce que les routes de son quartier sont glacées et trop dangereuses. Puisqu’elle n’est pas responsable de cette situation, elle estime qu’elle devrait être rémunérée même si elle est absente. </p> <p>Quel est le niveau décisionnel minimal requis pour approuver cette demande? </p>",
+      "options": {
+          "1": "Administrateur général",
+        "2": "Sous-ministre adjoint ",
+        "3": "Directeur général ",
+        "4": "Directeur (EX) ",
+        "5": "Gestionnaire "
       },
-      "conclusion": " Si vous regardez bien, vous avez commandé des lunettes roses à 20&nbsp;$ la paire. La facture indique 25&nbsp;$ l’unité. Vous devrez communiquer avec le fournisseur pour faire corriger la facture."
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong> Une absence payée à cause de conditions environnementales ou météorologiques défavorables peut uniquement être autorisée par l’administrateur général ou un sous‑ministre adjoint. La direction peut accorder, à sa discrétion, un congé payé en cas de conditions environnementales défavorables observées sur le lieu de travail, comme une panne de chauffage, et de situation d’urgence touchant la collectivité, par exemple une grave inondation ou une tempête de neige. Par ailleurs, le travail à distance peut être une solution à considérer avant de demander ce type de congé. ",
+        "2": "<span class='v-right' /><strong>Correct!</strong> Une absence payée à cause de conditions environnementales ou météorologiques défavorables peut uniquement être autorisée par l’administrateur général ou un sous‑ministre adjoint. La direction peut accorder, à sa discrétion, un congé payé en cas de conditions environnementales défavorables observées sur le lieu de travail, comme une panne de chauffage, et de situation d’urgence touchant la collectivité, par exemple une grave inondation ou une tempête de neige. Par ailleurs, le travail à distance peut être une solution à considérer avant de demander ce type de congé. ",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong> Une absence payée à cause de conditions environnementales ou météorologiques défavorables peut uniquement être autorisée par l’administrateur général ou un sous‑ministre adjoint. La direction peut accorder, à sa discrétion, un congé payé en cas de conditions environnementales défavorables observées sur le lieu de travail, comme une panne de chauffage, et de situation d’urgence touchant la collectivité, par exemple une grave inondation ou une tempête de neige. Par ailleurs, le travail à distance peut être une solution à considérer avant de demander ce type de congé. ",
+        "4": "<span class='v-wrong' /><strong>Incorrect.</strong> Une absence payée à cause de conditions environnementales ou météorologiques défavorables peut uniquement être autorisée par l’administrateur général ou un sous‑ministre adjoint. La direction peut accorder, à sa discrétion, un congé payé en cas de conditions environnementales défavorables observées sur le lieu de travail, comme une panne de chauffage, et de situation d’urgence touchant la collectivité, par exemple une grave inondation ou une tempête de neige. Par ailleurs, le travail à distance peut être une solution à considérer avant de demander ce type de congé. ",
+        "5": "<span class='v-wrong' /><strong>Incorrect.</strong> Une absence payée à cause de conditions environnementales ou météorologiques défavorables peut uniquement être autorisée par l’administrateur général ou un sous‑ministre adjoint. La direction peut accorder, à sa discrétion, un congé payé en cas de conditions environnementales défavorables observées sur le lieu de travail, comme une panne de chauffage, et de situation d’urgence touchant la collectivité, par exemple une grave inondation ou une tempête de neige. Par ailleurs, le travail à distance peut être une solution à considérer avant de demander ce type de congé. "
+      }
+    },
+    "q5": {
+      "text": "<p>An employee has a dental appointment Tuesday afternoon and would like paid time off to go to their appointment.</p> <p>Which is the lowest level of authority that can approve the request?</p>",
+      "options": {
+        "1": "Administrateur général",
+        "2": "Sous-ministre adjoint ",
+        "3": "Directeur général ",
+        "4": "Directeur (EX) ",
+        "5": "Gestionnaire ",
+        "6": "Superviseur "
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong> Le gestionnaire peut autoriser une absence payée pour des rendez-vous personnels chez le dentiste et le médecin. Dans l’exemple donné, un superviseur a le pouvoir d’approuver une telle demande. L’employeur peut accorder jusqu’à une demi-journée de congé payé pour ce type d’absences, qui ne doit pas servir à aller à des rendez-vous de suivi ou à une série de rendez-vous visant à traiter un problème de santé. Ces absences doivent être imputées aux crédits de congé de maladie de l’employé. ",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong> Le gestionnaire peut autoriser une absence payée pour des rendez-vous personnels chez le dentiste et le médecin. Dans l’exemple donné, un superviseur a le pouvoir d’approuver une telle demande. L’employeur peut accorder jusqu’à une demi-journée de congé payé pour ce type d’absences, qui ne doit pas servir à aller à des rendez-vous de suivi ou à une série de rendez-vous visant à traiter un problème de santé. Ces absences doivent être imputées aux crédits de congé de maladie de l’employé. ",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong> Le gestionnaire peut autoriser une absence payée pour des rendez-vous personnels chez le dentiste et le médecin. Dans l’exemple donné, un superviseur a le pouvoir d’approuver une telle demande. L’employeur peut accorder jusqu’à une demi-journée de congé payé pour ce type d’absences, qui ne doit pas servir à aller à des rendez-vous de suivi ou à une série de rendez-vous visant à traiter un problème de santé. Ces absences doivent être imputées aux crédits de congé de maladie de l’employé. ",
+        "4": "<span class='v-wrong' /><strong>Incorrect.</strong> Le gestionnaire peut autoriser une absence payée pour des rendez-vous personnels chez le dentiste et le médecin. Dans l’exemple donné, un superviseur a le pouvoir d’approuver une telle demande. L’employeur peut accorder jusqu’à une demi-journée de congé payé pour ce type d’absences, qui ne doit pas servir à aller à des rendez-vous de suivi ou à une série de rendez-vous visant à traiter un problème de santé. Ces absences doivent être imputées aux crédits de congé de maladie de l’employé. ",
+        "5": "<span class='v-wrong' /><strong>Incorrect.</strong> Le gestionnaire peut autoriser une absence payée pour des rendez-vous personnels chez le dentiste et le médecin. Dans l’exemple donné, un superviseur a le pouvoir d’approuver une telle demande. L’employeur peut accorder jusqu’à une demi-journée de congé payé pour ce type d’absences, qui ne doit pas servir à aller à des rendez-vous de suivi ou à une série de rendez-vous visant à traiter un problème de santé. Ces absences doivent être imputées aux crédits de congé de maladie de l’employé. ",
+        "6": "<span class='v-right' /><strong>Correct!</strong> Le gestionnaire peut autoriser une absence payée pour des rendez-vous personnels chez le dentiste et le médecin. Dans l’exemple donné, un superviseur a le pouvoir d’approuver une telle demande. L’employeur peut accorder jusqu’à une demi-journée de congé payé pour ce type d’absences, qui ne doit pas servir à aller à des rendez-vous de suivi ou à une série de rendez-vous visant à traiter un problème de santé. Ces absences doivent être imputées aux crédits de congé de maladie de l’employé. "
+      }
     }
   }
 }</i18n>

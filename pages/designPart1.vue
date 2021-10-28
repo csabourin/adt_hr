@@ -351,7 +351,7 @@ export default {
   "gotoLinks":"Pour plus d'information, veuillez consulter les liens suivants. Ces liens sont également disponibles dans la boîte à outils.",
   "hrAuthoritiesTitle": "",
   "hrDelegationTitle": "",
-  "IRLText":"<p>Appliquez maintenant ce que vous avez appris - dans la vraie vie!</p>  <p>Votre organisation aura sa propre fa&ccedil;on de faire les choses. Prenez le temps de consulter l’intranet pour voir quels mod&egrave;les sont utilisés.</p>  <p>Communiquez avec vos coll&egrave;gues, votre directeur ou votre agent financier pour discuter des plans de travail. </p>",
+  "IRLText":"<p>Appliquez maintenant ce que vous avez appris – dans la vraie vie! </p>  <p>Votre organisation aura sa propre façon de faire les choses. Par conséquent, la subdélégation varie d’une organisation à l’autre. Il est bon de vous demander si vous avez le pouvoir d’agir avant de prendre une décision en matière de RH. </p>  <p>Prenez le temps pour demander à votre superviseur ou à un conseiller en RH où se trouve l’instrument de délégation de votre organisation et comment l’utiliser dans le cadre des décisions que vous prenez. Certaines activités liées aux RH comme la classification, la paye et la dotation peuvent exiger d’exercer des pouvoirs dans plusieurs domaines. </p>",
   "gotIt":"Passer au segment suivant.",
   "gotItContent": "Les fenêtres contextuelles apparaissent tout au long du cours pour indiquer ce qui vient ensuite comme une vidéo, un exercice, une liste de liens ou une aide à l’emploi.",
   "transcriptText":"",

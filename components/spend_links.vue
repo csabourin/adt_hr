@@ -2,32 +2,23 @@
   <span>
     <div v-if="$i18n.locale=='fr'">
       <div>
-        <h4>Dépenses</h4>
-        <ul>
-          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32495">Politique sur la gestion financière</externalLink></li>
-          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32503">Directive sur la délégation des pouvoirs de dépenser et des pouvoirs financiers</externalLink>
-            <ul>
-              <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32584&amp;section=html">Guide de délégation et de mise en &oelig;uvre des pouvoirs de dépenser et des pouvoirs financiers</externalLink></li>
-              <li><externalLink link="https://papp.csps-efpc.gc.ca/ProdContent/cninv000000000015255/index_fr.html">Tableau de délégation des pouvoirs de dépenser et de signer des documents financiers</externalLink> (Lien vers un graphique fictif)&nbsp;</li>
-            </ul>
-          </li>
-          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=27228">Directive sur les dépenses de voyages, d’accueil, de conférences et d’événements</externalLink>
-            <ul>
-              <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32553">Guide sur les dépenses de voyages, d’accueil, de conférences et d’événements</externalLink></li>
-              <li><externalLink link="https://www.njc-cnm.gc.ca/directive/d10/fr">Directive sur les voyages du Conseil national mixte (CNM)</externalLink></li>
-              <li><externalLink link="https://www.gcpedia.gc.ca/wiki/Ensemble_de_politiques_sur_la_gestion_financi%C3%A8re/Conf%C3%A9rence_par_opposition_%C3%A0_formation">Conférence par opposition à formation</externalLink></li>
-            </ul>
-          </li>
-          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32504">Directive sur les paiements</externalLink></li>
-          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=14662">Directive sur la réinstallation du CNM</externalLink></li>
-          <li><externalLink link="http://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32502">Directive sur l’imputation et les autorisations financières spéciales</externalLink></li>
-          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32505">Directive sur la gestion des fonds publics et des comptes débiteurs</externalLink></li>
+        <h4>Références : Liens externes </h4>
+        <ul class="list-unstyled">
+          <li><externalLink link="https://www.canada.ca/fr/commission-fonction-publique/services/cadre-nomination.html">Cadre de nomination de la Commission de la fonction publique </externalLink></li>
+          <li><externalLink link="https://www.canada.ca/fr/commission-fonction-publique/services/cadre-nomination/lignes-directrices-matiere-nomination.html">Politique de nomination de la Commission de la fonction publique </externalLink></li>
+          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/(S(e021jvamqbhco5551teiyz55))/doc-fra.aspx?id=32621">Politique sur la gestion des personnes </externalLink></li>
+          <li><externalLink link="https://laws-lois.justice.gc.ca/fra/lois/e-5.401/"><i>Loi sur l’équité en matière d’emploi</i></externalLink></li>
+          <li><externalLink link="https://laws-lois.justice.gc.ca/fra/lois/a-0.6/"><i>Loi canadienne sur l’accessibilité </i></externalLink></li>
+          <li><externalLink link="https://lois-laws.justice.gc.ca/fra/lois/p-33.01/TexteComplet.html"><i>Loi sur l’emploi dans la fonction publique </i></externalLink></li>
+          <li><externalLink link="https://laws-lois.justice.gc.ca/fra/lois/f-11/"><i>Loi sur la gestion des finances publiques </i></externalLink></li>
+          <li><externalLink link="https://www.canada.ca/fr/commission-fonction-publique/services/cadre-nomination/delegation/instrument-delegation-responsabilisation.html">Instrument de délégation et de responsabilisation en matière de nomination</externalLink></li>
+          <li>Commission de la fonction publique – <externalLink link="https://www.canada.ca/fr/commission-fonction-publique/services/cadre-nomination/guides-outils.html">Guides et outils</externalLink></li>
         </ul>
       </div>
     </div>
     <div v-if="$i18n.locale=='en'">
       <div>
-        <h4>Function</h4>
+        <h4>References: External Links </h4>
         <ul class="list-unstyled">
           <li><externalLink link="https://www.canada.ca/en/public-service-commission/services/appointment-framework.html">Public Service Commission’s Appointment Framework</externalLink></li>
           <li><externalLink link="https://www.canada.ca/en/public-service-commission/services/appointment-framework/appointment-policy.html">Public Service Commission’s Appointment Policy</externalLink></li>

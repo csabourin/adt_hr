@@ -153,40 +153,98 @@
   "fr": {
   "instructions":"Répondez aux questions suivantes en consultant la facture fournie.",
     "q1": {
-      "text": "Vous avez reçu 15 paires de lunettes roses. Les 5 autres paires sont en rupture de stock. Payez-vous la facture pour la commande compl&egrave;te de 20 paires?",
+      "text": "La concentration des efforts de recrutement et de perfectionnement dans les postes clés qui génèrent des avantages concurrentiels importants est une stratégie de RH efficace. ",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Vrai",
+        "2": "Faux"
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       },
-      "conclusion": "Vous devrez contacter le fournisseur pour faire corriger la facture, car vous n’avez pas reçu 5 paires."
+      "conclusion": "Concentrer l’énergie là où elle aura le plus d’incidence est une stratégie de RH efficace. "
     },
     "q2": {
-      "text": "Vous avez commandé des surligneurs d’une valeur de 10&nbsp;$ auprès de l’Entreprise XYZ. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "La création d’une structure organisationnelle axée sur les connaissances et les capacités du personnel est une stratégie de RH efficace. ",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Vrai",
+        "2": "Faux"
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "2": "<span class='v-right' /><strong>Correct!</strong>"
       },
-      "conclusion": "Si vous regardez attentivement, vous avez commandé chez Entreprise XYZ, mais la facture indique Entreprise ABC."
+      "conclusion": "Une structure organisationnelle doit être axée sur le travail à accomplir, et non sur les capacités des personnes."
     },
     "q3": {
-      "text": "Vous avez commandé des lunettes roses au prix de 20&nbsp;$ la paire. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "Parmi les choix suivants, lesquels sont des rôles et des responsabilités des gestionnaires à l’égard de la planification des RH?",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Communiquer les plans des RH aux employés et en discuter avec eux. ",
+        "2": "Déterminer les capacités requises pour les postes clés.  ",
+        "3": "Superviser les employés dans la langue officielle de leur choix. "
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
+        "right": "<span class='v-right' /><strong>Correct!</strong>",
+        "wrong": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       },
-      "conclusion": " Si vous regardez bien, vous avez commandé des lunettes roses à 20&nbsp;$ la paire. La facture indique 25&nbsp;$ l’unité. Vous devrez communiquer avec le fournisseur pour faire corriger la facture."
+      "conclusion": " La réponse est 1 et 2. Les rôles et les responsabilités des gestionnaires à l’égard de la planification des RH consistent à communiquer les plans des RH aux employés et à en discuter avec eux de même qu’à déterminer les capacités requises pour les postes clés. Superviser un employé dans la langue officielle de son choix est plutôt une responsabilité générale de la direction, et non une responsabilité liée à la planification des RH. "
+    },
+    "q4": {
+      "text": "Lorsque vous élaborez votre plan des RH, vous souhaitez mieux comprendre l’environnement interne et externe. Quels documents devriez-vous consulter? ",
+      "options": {
+        "1": "Discours du Trône ",
+        "2": "Plans ministériels ",
+        "3": "Rapport annuel du greffier du Conseil privé "
+      },
+      "feedback": {
+        "right": "<span class='v-right' /><strong>Correct!</strong>",
+        "wrong": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      },
+      "conclusion": "<p> La réponse est 1, 2 et 3. Vous devriez consulter toutes ces sources d’information pour mieux comprendre vos environnements interne et externe.</p><p>Voici d’autres ressources que vous pouvez consulter. </p><ul><li>Rapports de l’industrie </li><li>Analyse démographique de votre organisation </li><li>Réponses au Sondage auprès des fonctionnaires fédéraux </li></ul>"
+    },
+    "q5": {
+      "text": "La <a href='https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32621&section=html' target='_blank' alt='Politique sur la gestion des personnes'>Politique sur la gestion des personnes</a> est une politique fondamentale des RH, car :",
+      "options": {
+        "1": "Elle remplace plus d’une dizaine d’anciennes politiques.  ",
+        "2": "Elle explique comment perfectionner et maintenir en poste des personnes talentueuses.  ",
+        "3": "Elle présente les responsabilités des administrateurs généraux. ",
+        "4": "Elle s’applique à toutes les personnes employées dans l’administration publique centrale.  "
+      },
+      "feedback": {
+        "right": "<span class='v-right' /><strong>Correct!</strong>",
+        "wrong": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      },
+      "conclusion": "La réponse est 1, 3 et 4. La Politique de gestion des personnes remplace plus d’une dizaine d’anciennes politiques, elle présente les responsabilités des administrateurs généraux et elle s’applique à toutes les personnes employées dans l’administration publique centrale."
+    },
+    "q6": {
+      "text": "Choisissez les fonctions d’une planification des RH efficace.",
+      "options": {
+        "1": "Intégrer les besoins en RH de votre organisation aux besoins de l’ensemble de la fonction publique.  ",
+        "2": "Tenir compte des besoins opérationnels ainsi que des pratiques solides de gestion du personnel. ",
+        "3": "Cerner les obstacles de même que les risques principaux liés à la concrétisation des priorités et trouver un moyen de les atténuer. ",
+        "4": "Fournir un moyen de gérer les conflits relatifs au respect et à l’inclusivité. ",
+        "5": "Établir des processus de mesure du rendement et des progrès en lien avec les objectifs. "
+      },
+      "feedback": {
+        "right": "<span class='v-right' /><strong>Correct!</strong>",
+        "wrong": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      },
+      "conclusion": "La réponse est 2, 3 et 5. La planification efficace des RH tient compte des besoins opérationnels ainsi que des pratiques solides de gestion du personnel, elle cerne les obstacles de même que les risques principaux liés à la concrétisation des priorités et trouve un moyen de les atténuer, et elle établit des processus de mesure du rendement et des progrès en lien avec les objectifs."
+    },
+    "q7": {
+      "text": "Parmi les réponses suivantes, lesquelles représentent les responsabilités des gestionnaires liées à la planification des RH? ",
+      "options": {
+        "1": "Cerner et éliminer les obstacles à l’emploi et ainsi garantir l’équité et la diversité de l’effectif.  ",
+        "2": "Communiquer le plan des RH (qui peut comporter des écarts importants ou nouveaux), y compris les stratégies de planification de la relève. ",
+        "3": "Lier les stratégies de planification de la relève à la planification de programmes et à la planification financière. ",
+        "4": "Évaluer l’efficacité du plan et l’adapter au besoin. ",
+        "5": "Muter les employés excédentaires d’un secteur à un autre.  "
+      },
+      "feedback": {
+        "right": "<span class='v-right' /><strong>Correct!</strong>",
+        "wrong": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      },
+      "conclusion": "La réponse est 2, 3 et 4. Les responsabilités du gestionnaire en matière de planification des RH sont notamment de communiquer le plan des RH (qui peut comporter des écarts importants ou nouveaux), y compris les stratégies de planification de la relève, de lier les stratégies de planification de la relève à la planification de programmes et à la planification financière de même que d’évaluer l’efficacité du plan et de l’adapter au besoin. "
     }
   }
 }</i18n>

@@ -193,9 +193,19 @@
           <li>Canadian Association of Professional Employees (CAPE)</li>
         </ul>
         <p>Some specific trades are governed by other unions, as indicated on the occupational group structure chart, while a small number of classifications are unrepresented.</p>
-        <p><b>Take a look at the Occupational Group Structure for a visual representation of the occupational groups and bargaining agents.</b></p>
-        <p>IMAGE MISSING</p>
-        <p><b>For an accessible web version, see <a href="https://www.canada.ca/en/treasury-board-secretariat/services/collective-agreements/occupational-groups/occupational-groups-bargaining-agent-representation.html" target="_blank" alt="Link to accessible web version of the Occupational groups by bargaining agent representation page">Occupational groups by bargaining agent representation</a></b></p>
+        <p><strong>Take a look at the Occupational Group Structure for a visual representation of the occupational groups and bargaining agents.</strong></p>
+        <p><strong>For an accessible web version, see <a href="https://www.canada.ca/en/treasury-board-secretariat/services/collective-agreements/occupational-groups/occupational-groups-bargaining-agent-representation.html" target="_blank" alt="Link to accessible web version of the Occupational groups by bargaining agent representation page">Occupational groups by bargaining agent representation</a></strong></p>
+      </div>
+      <div v-if="$i18n.locale=='fr'">
+        <p>La plupart des employés sont représentés par l’un des trois grands syndicats suivants :</p>
+        <ul>
+          <li>l’Alliance de la Fonction publique du Canada (AFPC); </li>
+          <li>l’Institut professionnel de la fonction publique du Canada (IPFPC); </li>
+          <li>l’Association canadienne des employés professionnels (ACEP). </li>
+        </ul>
+        <p>Les employés de certains métiers sont représentés par d’autres syndicats, comme l’indique le tableau de la structure des groupes professionnels, tandis que d’autres, qui appartiennent à un petit nombre de groupes (classifications) ne sont pas représentés. </p>
+        <p><strong>Consultez la structure des groupes professionnels pour obtenir un aperçu visuel des groupes professionnels et des agents négociateurs.  </strong></p>
+        <p><strong>Pour une version Web accessible, voir la page <a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/conventions-collectives/groupes-professionnels/groupes-professionnels-representation-agents-negociateurs.html" target="_blank" alt="Lien ver Groupes professionnels par représentation d’agents négociateurs">Groupes professionnels par représentation d’agents négociateurs</a></strong></p>
       </div>
       <template v-slot:modal-ok>{{$t('close')}}</template>
     </b-modal>
@@ -226,6 +236,16 @@
         </ul>
         <p>Refer to the <a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=28700" target="_blank" alt="Link to the Directive on Classification web page">Directive on Classification</a> to fully understand your duties as a delegated manager.</p>
       </div>
+      <div v-if="$i18n.locale=='fr'">
+        <p>Plusieurs responsabilités clés en matière d’organisation et de classification sont assumées par le gestionnaire, dont les suivantes :</p>
+        <ul>
+          <li>suivre avec succès la formation requise avant d’exercer les responsabilités de conception organisationnelle et de classification;</li>
+          <li>obtenir des conseils des personnes accréditées en conception organisationnelle et en classification lorsqu’il propose des changements liés à l’organisation et à la classification, y compris des modifications aux descriptions de travail; </li>
+          <li>tenir à jour les structures organisationnelles et les descriptions de travail dans son secteur de responsabilité; </li>
+          <li>veiller à ce que les employés soient avisés chaque fois qu’une décision de classification est prise pour le poste qu’ils occupent. </li>
+        </ul>
+        <p>Consultez la <a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=28700" target="_blank" alt="Lien vers la page web de la Directive sur la classification">Directive sur la classification</a> pour bien comprendre vos tâches en tant que gestionnaire délégué.</p>
+      </div>
       <template v-slot:modal-ok>{{$t('close')}}</template>
     </b-modal>
     <b-modal no-stacking id="Authorities" @hide="resumePlay()" size="xl" okOnly>
@@ -245,36 +265,38 @@
         </h3>
         <button type="button" aria-label="Close" class="close" @click="close()">×</button>
       </template>
-      <div v-if="$i18n.locale=='en'">
+       <div v-if="$i18n.locale=='en'">
         <p>Organization and classification decisions have implications for every other HR discipline, as well as your budget.</p>
-        <p>IMAGE MISSING</p>
-        <div role="tablist" class="transcriptionBox">
-              <b-card no-body class="mb-1">
-                <b-card-header header-tag="header" class="p-1" role="tab">
-                  <b-button block href="#" v-b-toggle.cbTranscript-2 variant="light">{{$t('imageDescription')}}</b-button>
-                </b-card-header>
-                <b-collapse id="cbTranscript-2" role="tabpanel">
-                  <b-card-body>
-                    <b-card-text>
-                      <span v-if="$i18n.locale=='en'">
-                        <p>Resourcing begins with writing or revising a job description. The HR advisor will review and evaluate the job description to render a classification decision. Then, Resourcing (staffing) will work with you to create a statement of merit criteria.</p>
-                        <p>Pay and Benefits covers collective agreements, rates of pay, and associated benefits that are associated with each position.</p>
-                        <p>Labour Relations may be implicated if an employee disagrees with their job description, assigned work activities or the effective date of the classification decision.</p>
-                        <p>Performance Management covers an employee’s performance objectives, which are tied to the activities determined by their superior. These objectives are linked to the job description and evaluated regularly.</p>
-                        <p>The type of training associated with a position should be recommended in light of the duties of the position as set out in the job description.</p>
-                        <p>Official languages as described in the <a href="https://laws-lois.justice.gc.ca/eng/acts/o-3.01/" target="_blank" alt="Link to the Official Languages Act web page"><i>Official Languages Act</i></a> and the Treasury Board of Canada Secretariat’s <a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=26160" target="_blank" alt="Link to the Policy on Official Languages web page">Policy on Official Languages</a> govern a public servant’s obligation to provide communications and services to the public in both official languages and to respect language-of-work rights.</p>
-                        <p>The identification of bilingual positions is based on the organization’s official languages obligations, its official languages strategy, as well as an objective assessment of the work to be performed.</p>
-                        <p>Integrated HR planning is the foundation for assessing and understanding your current and future needs. As such, it is a key tool for making HR decisions efficiently and effectively.</p>
-                        <p>Organizational design organizes work in a way to carry out a mandate or achieve business objectives. It is the process of configuring organizational structures to align an organization’s processes, systems, technology, culture and people with its ultimate goals. It is part of integrated planning and provides an opportunity to review and revise various components of the work, to ensure the organization is able to meet its mandate and carry out its business objectives successfully.</p>
-                      </span>
-                      <span v-if="$i18n.locale=='fr'">
-                                                
-                      </span>
-                    </b-card-text>
-                  </b-card-body>
-                </b-collapse>
-              </b-card>
-            </div>
+        <p>Resourcing begins with writing or revising a job description. The HR advisor will review and evaluate the job description to render a classification decision. Then, Resourcing (staffing) will work with you to create a statement of merit criteria.</p>
+        <p>Pay and Benefits covers collective agreements, rates of pay, and associated benefits that are associated with each position.</p>
+        <p>Labour Relations may be implicated if an employee disagrees with their job description, assigned work activities or the effective date of the classification decision.</p>
+        <p>Performance Management covers an employee’s performance objectives, which are tied to the activities determined by their superior. These objectives are linked to the job description and evaluated regularly. </p>
+        <p>The type of training associated with a position should be recommended in light of the duties of the position as set out in the job description. </p>
+        <p>Official languages as described in the <a href="https://laws-lois.justice.gc.ca/eng/acts/o-3.01/" target="_blank" alt="Link to the official language act web page">Official Languages Act</a> and the Treasury Board of Canada Secretariat’s <a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=26160" target="_blank" alt="Link to the Policy on Official Languages web page">Policy on Official Languages</a> govern a public servant’s obligation to provide communications and services to the public in both official languages and to respect language-of-work rights. </p>
+        <p>The identification of bilingual positions is based on the organization’s official languages obligations, its official languages strategy, as well as an objective assessment of the work to be performed.</p>
+        <p>Integrated HR planning is the foundation for assessing and understanding your current and future needs. As such, it is a key tool for making HR decisions efficiently and effectively.  </p>
+        <p>Organizational design organizes work in a way to carry out a mandate or achieve business objectives. It is the process of configuring organizational structures to align an organization’s processes, systems, technology, culture and people with its ultimate goals. It is part of integrated planning and provides an opportunity to review and revise various components of the work, to ensure the organization is able to meet its mandate and carry out its business objectives successfully.  </p>
+      </div>
+      <div v-if="$i18n.locale=='fr'">
+        <p>Les décisions en matière d’organisation et de classification ont des répercussions sur toutes les autres disciplines des RH ainsi que sur votre budget.</p>
+        
+        <p>Le processus de ressourcement commence par la rédaction ou la révision d’une description de travail. Le conseiller en RH examine et évalue la description de travail pour prendre une décision en matière de classification. Le service de ressourcement (dotation) établit ensuite avec vous un énoncé des critères de mérite. </p>
+        
+        <p>Les responsables de la rémunération et des avantages sociauxs’occupent des conventions collectives, des taux de rémunération et des avantages sociaux associés à chaque poste.</p>
+       
+        <p>Il est possible de faire appel aux responsables des relations de travail si un employé conteste sa description de travail, les tâches qui lui sont assignées ou la date d’entrée en vigueur de la décision de classification.</p>
+        
+        <p>La gestion du rendement englobe les objectifs de rendement d’un employé, qui sont en lien avec les activités déterminées par son superviseur. Ces objectifs sont liés à la description de travail et sont régulièrement passés en revue. </p>
+        
+        <p>Le type de formation associé à un poste devrait être proposé à la lumière des fonctions du poste telles qu’elles sont définies dans la description de travail. </p>
+
+        <p>Les langues officielles,conformément à la <a href="https://laws-lois.justice.gc.ca/fra/lois/o-3.01/" target="_blank" alt="Lien vers la page web de la loi sur les langues officielles">Loi sur les langues officielles</a> et à la <a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=26160" target="_blank" alt="Lien vers la page web de la Politique sur les langues officielles">Politique sur les langues officielles</a>  du Secrétariat du Conseil du Trésor du Canada, régissent l’obligation d’un fonctionnaire de transmettre des communications et de fournir des services au public dans les deux langues officielles et de respecter les droits relatifs à la langue de travail.</p>
+        
+        <p>La désignation des postes bilingues repose sur les obligations de l’organisation en matière de langues officielles et sur sa stratégie à cet égard ainsi que sur une évaluation objective du travail à exécuter.  </p>
+        
+        <p>La planification intégrée des RH est le fondement de l’évaluation et de la compréhension de vos besoins actuels et futurs. C’est donc un outil essentiel pour la prise de décisions efficientes et efficaces en matière de RH.  </p>
+        
+        <p>La conception organisationnelle structure le travail de manière à ce qu’il soit possible de réaliser un mandat ou d’atteindre des objectifs opérationnels. Il s’agit du processus de configuration des structures organisationnelles visant à harmoniser les processus, les systèmes, la technologie, la culture et les employés de l’organisation avec les objectifs finaux de celle-ci. La conception organisationnelle fait partie de la planification intégrée et permet d’examiner et de réviser divers aspects du travail pour veiller à ce que l’organisation soit en mesure de réaliser son mandat et d’atteindre ses objectifs opérationnels.  </p>
       </div>
       <template v-slot:modal-ok>{{$t('close')}}</template>
     </b-modal>
@@ -294,9 +316,26 @@
       <b-row>
         <b-col>
           <div v-if="$i18n.locale=='en'">
-            <p>Take what you have learned into real life!</p>
-            <p>To supplement the knowledge required to perform your organization and classification functions, be sure to complete the course Introduction to Organization and Classification (P930).</p>
-            <p>This mandatory course is the first step in the training and accreditation of public servants working and specializing in classification.</p>
+            <p>Making the link between organization and classification and other HR disciplines will guide you in:</p>
+            <ul>
+              <li>creating or classifying a position in line with the organization’s mandate so that you can deliver your product or service </li>
+              <li>planning positions according to the organization’s future needs so you can help meet the organization’s objectives (and mandate)  </li>
+              <li>validating the job description before staffing a position to ensure the current classification decision is still applicable for each position  </li>
+              <li>ensuring that job descriptions are accurate and up to date, thus helping avoid grievances  </li>
+              <li>appropriately identifying the official languages requirements of a position to ensure that the employee can deliver the product or service effectively  </li>
+              <li>ensuring that a classification decision is rendered for new and revised job descriptions before hiring is done </li>
+            </ul>
+          </div>
+          <div v-if="$i18n.locale=='fr'">
+            <p>Établir des liens entre l’organisation et la classification et d’autres disciplines des RH vous aidera à :  </p>
+            <ul>
+              <li>créer ou classifier un poste en conformité avec le mandat de l’organisation, afin de pouvoir fournir votre produit ou votre service; </li>
+              <li>assurer la planification des postes en fonction des besoins futurs de l’organisation, pour atteindre les objectifs (et remplir le mandat) de l’organisation;  </li>
+              <li>confirmer la description de travail avant de pourvoir un poste, pour vous assurer que la décision en matière de classification actuelle s’applique toujours au poste; </li>
+              <li>veiller à ce que les descriptions de travail soient exactes et à jour, ce qui contribue à éviter les griefs; </li>
+              <li>déterminer de manière appropriée les exigences en matière de langues officielles d’un poste, pour faire en sorte que l’employé puisse fournir le produit ou le service de manière efficace;  </li>
+              <li>veiller à ce qu’une décision en matière de classification soit prise pour les descriptions de travail nouvelles ou révisées avant de procéder à l’embauche. </li>
+            </ul>
           </div>
         </b-col>
       </b-row>
@@ -516,6 +555,7 @@ button.accessibilityButton {
   "completewptitle":"Activité : Compléter le plan de travail",
   "adjustwptitle":"Activité : Ajuster le plan de travail",
   "delegateAuthority":"Activité : Délégation des pouvoirs",
+  "organizationClassificationTitle": "Activité : Conception organisationnelle",
   "checkBudget":"Activité : Vérifiez votre budget",
   "tryItTitle":"Activité : Essayons-le!",
   "forecastBudgetTitle":"Activité : Prévoyez vos besoins budgétaires",

@@ -63,8 +63,7 @@
         "2": "<span class='v-right' /><strong>Correct!</strong>",
         "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
         
-      },
-      "conclusion": "The <i>Canadian Human Rights Act</i> prohibits all forms of discrimination in workplaces under federal jurisdiction and specifies the prohibited grounds of discrimination."
+      }
     },
     "q2": {
       "text": "This act requires employers to identify and eliminate employment barriers against persons in four designated groups, including visible minorities. This involves instituting positive policies and practices and making such reasonable accommodations as will ensure that the number of designated group members in each occupational group in the workforce reflects their representation in the Canadian workforce.",
@@ -77,8 +76,7 @@
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "3": "<span class='v-right' /><strong>Correct!</strong>"
-      },
-      "conclusion": "The <i>Employment Equity Act</i> requires employers to identify and eliminate employment barriers against persons in four designated groups, including visible minorities. This involves instituting positive policies and practices and making such reasonable accommodations as will ensure that the number of designated group members in each occupational group in the workforce reflects their representation in the Canadian workforce."
+      }
     },
     "q3": {
       "text": "This act will benefit everyone in Canada, especially persons with disabilities, by helping to create a barrier-free Canada through the proactive identification, removal and prevention of barriers to accessibility. It also gives the Government of Canada the authority to work with stakeholders and persons with disabilities to create new accessibility regulations, which will set out requirements for organizations to follow, enforcement measures, and a complaints mechanism.",
@@ -91,47 +89,50 @@
         "1": "<span class='v-right' /><strong>Correct!</strong>",
         "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
-      },
-      "conclusion": "The <i>Accessible Canada Act</i> act will benefit everyone in Canada, especially persons with disabilities, by helping to create a barrier-free Canada through the proactive identification, removal and prevention of barriers to accessibility. It also gives the Government of Canada the authority to work with stakeholders and persons with disabilities to create new accessibility regulations, which will set out requirements for organizations to follow, enforcement measures, and a complaints mechanism."
+      }
     }
   },
   "fr": {
-  "instructions":"Répondez aux questions suivantes en consultant la facture fournie.",
+  "instructions":"Pour mieux comprendre les trois principales lois relatives à la diversité, à l’équité, à l’inclusion et à l’accessibilité, lisez chaque définition ci-dessous et choisissez la loi qui lui correspond. ",
     "q1": {
-      "text": "Vous avez reçu 15 paires de lunettes roses. Les 5 autres paires sont en rupture de stock. Payez-vous la facture pour la commande compl&egrave;te de 20 paires?",
+      "text": "Pour parvenir à l’égalité en milieu de travail, nous devons combler les écarts observables entre les groupes racisés et non racisés, ce qui renforcera l’équité et l’inclusion. Cette loi interdit toute forme de discrimination dans les lieux de travail de compétence fédérale, et précise les motifs de distinction illicite. ",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "<i>Loi canadienne sur l’accessibilité </i>",
+        "2": "<i>Loi canadienne sur les droits de la personne </i>",
+        "3": "<i>Loi sur l’équité en matière d’emploi </i>"
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
-      },
-      "conclusion": "Vous devrez contacter le fournisseur pour faire corriger la facture, car vous n’avez pas reçu 5 paires."
+        "2": "<span class='v-right' /><strong>Correct!</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+        
+      }
     },
     "q2": {
-      "text": "Vous avez commandé des surligneurs d’une valeur de 10&nbsp;$ auprès de l’Entreprise XYZ. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "Cette loi exige que les employeurs repèrent et éliminent les obstacles à l’emploi pour les personnes faisant partie des quatre groupes désignés, y compris les minorités visibles. Il faut notamment adopter des politiques et des pratiques positives et prendre des mesures d’adaptation raisonnables. Ces dernières font en sorte que le nombre de personnes faisant partie d’un groupe désigné dans chaque catégorie professionnelle de l’effectif est représentatif de la population active du Canada. ",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "<i>Loi canadienne sur l’accessibilité </i>",
+        "2": "<i>Loi canadienne sur les droits de la personne </i>",
+        "3": "<i>Loi sur l’équité en matière d’emploi </i>"
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
-      },
-      "conclusion": "Si vous regardez attentivement, vous avez commandé chez Entreprise XYZ, mais la facture indique Entreprise ABC."
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-right' /><strong>Correct!</strong>"
+      }
     },
     "q3": {
-      "text": "Vous avez commandé des lunettes roses au prix de 20&nbsp;$ la paire. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "Cette loi profite à l’ensemble des Canadiens et des Canadiennes, en particulier aux personnes handicapées, puisqu’elle aide à faire du Canada un pays exempt d’obstacles grâce à des mesures proactives de repérage, d’élimination et de prévention des obstacles à l’accessibilité. Elle permet aussi au gouvernement du Canada de collaborer avec les intervenants et les personnes handicapées à la création de nouveaux règlements sur l’accessibilité. Ces derniers établiront les mesures d’application, un mécanisme de traitement des plaintes et les exigences que devront respecter les organisations.",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "<i>Loi canadienne sur l’accessibilité </i>",
+        "2": "<i>Loi canadienne sur les droits de la personne </i>",
+        "3": "<i>Loi sur l’équité en matière d’emploi </i>"
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
-      },
-      "conclusion": " Si vous regardez bien, vous avez commandé des lunettes roses à 20&nbsp;$ la paire. La facture indique 25&nbsp;$ l’unité. Vous devrez communiquer avec le fournisseur pour faire corriger la facture."
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      }
     }
   }
 }</i18n>

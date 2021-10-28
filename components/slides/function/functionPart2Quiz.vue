@@ -52,10 +52,9 @@
 </script>
 <i18n>{
   "en": {
-  "instructions":"Answer the quiz.",
-  "matchInstructions": "Making the links between organization and classification and other HR disciplines will help guide you in the following activities. Match the sentence segments.",
+  "instructions":"Answer the following questions. ",
     "q1": {
-      "text": "<p>Demand for your program’s services has increased substantially, and now everyone is required to work four night shifts per month. Brad is a single father of two young children, and he is unable to comply. Brad has requested accommodation based on family status. You are required to accommodate Brad.</p><p>True or false?</p>",
+      "text": "Demand for your program’s services has increased substantially, and now everyone is required to work four night shifts per month. Brad is a single father of two young children, and he is unable to comply. Brad has requested accommodation based on family status. You are required to accommodate Brad.",
       "options": {
         "1": "True",
         "2": "False"
@@ -67,7 +66,7 @@
       "conclusion": "Changes to a policy or requirement may cause an adverse impact on an employee. If the employee requests accommodation based on one or more of the prohibited grounds, the employer has a legal obligation to accommodate."
     },
     "q2": {
-      "text": "<p>The term “employment equity” refers to the concept of “equal pay for work of equal value” and allows different jobs within an establishment to be compared based on their similar value to the employer.</p><p>True or false?</p>",
+      "text": "The term “employment equity” refers to the concept of “equal pay for work of equal value” and allows different jobs within an establishment to be compared based on their similar value to the employer. ",
       "options": {
         "1": "True",
         "2": "False"
@@ -76,7 +75,7 @@
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "2": "<span class='v-right' /><strong>Correct!</strong>"
       },
-      "conclusion": "<p>This is the definition of the term “pay equity.”</p><p>“Employment equity” in the federal public service means eliminating barriers to employment for four designated groups: women, Aboriginal peoples, persons with disabilities, and members of a visible minority group. It involves accommodating differences and it can require special measures to eliminate any identified barriers.</p>"
+      "conclusion": "This is the definition of the term “pay equity.” “Employment equity” in the federal public service means eliminating barriers to employment for four designated groups: women, Aboriginal peoples, persons with disabilities, and members of a visible minority group. It involves accommodating differences and it can require special measures to eliminate any identified barriers. "
     },
     "q3": {
       "text": "<p>For which of the following tasks are you responsible?</p>",
@@ -120,40 +119,66 @@
   "fr": {
   "instructions":"Répondez aux questions suivantes en consultant la facture fournie.",
     "q1": {
-      "text": "Vous avez reçu 15 paires de lunettes roses. Les 5 autres paires sont en rupture de stock. Payez-vous la facture pour la commande compl&egrave;te de 20 paires?",
+      "text": "Vous avez observé une augmentation importante de la demande des services que votre programme fournit, et désormais, tous les employés doivent travailler de nuit quatre jours par mois. Brad est un père monoparental de deux jeunes enfants et ne peut pas travailler de nuit. Il a demandé des mesures d’adaptation en fonction de sa situation de famille. Vous devez prendre des mesures d’adaptation pour Brad. ",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Vrai",
+        "2": "Faux"
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       },
-      "conclusion": "Vous devrez contacter le fournisseur pour faire corriger la facture, car vous n’avez pas reçu 5 paires."
+      "conclusion": "Des changements apportés à une politique ou à une exigence peuvent avoir une incidence négative sur un employé. Si l’employé demande des mesures d’adaptation en fonction d’au moins un des motifs de distinction illicite, l’employeur a l’obligation, sur le plan légal, de prendre des mesures d’adaptation."
     },
     "q2": {
-      "text": "Vous avez commandé des surligneurs d’une valeur de 10&nbsp;$ auprès de l’Entreprise XYZ. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "L’expression « équité en matière d’emploi » renvoie au concept de « rémunération égale pour un travail égal » et signifie que divers postes dans une organisation sont comparés en fonction de leur valeur aux yeux de l’employeur. ",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Vrai",
+        "2": "Faux"
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "2": "<span class='v-right' /><strong>Correct!</strong>"
       },
-      "conclusion": "Si vous regardez attentivement, vous avez commandé chez Entreprise XYZ, mais la facture indique Entreprise ABC."
+      "conclusion": "Il s’agit de la définition de l’« équité salariale ». Au sein de la fonction publique fédérale, l’équité en matière d’emploi se traduit par l’élimination des obstacles à l’emploi pour les quatre groupes désignés : les femmes, les Autochtones, les personnes handicapées et les membres des minorités visibles. Elle suppose notamment qu’il faut s’adapter aux différences et peut exiger des mesures spéciales visant à éliminer les obstacles relevés. "
     },
     "q3": {
-      "text": "Vous avez commandé des lunettes roses au prix de 20&nbsp;$ la paire. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "Parmi les tâches suivantes, de laquelle êtes-vous responsable? ",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Préparer un plan d’équité en matière d’emploi qui précise les mesures à prendre en vue d’éliminer les obstacles à l’emploi. ",
+        "2": "Intégrer l’équité en matière d’emploi à la planification des RH et appliquer les politiques d’équité en matière d’emploi de votre organisation. ",
+        "3": "1 et 2."
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-right' /><strong>Correct!</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      },
+      "conclusion": "Vous êtes responsable de l’intégration de l’équité en matière d’emploi à la planification des RH et de l’application des politiques d’équité en matière d’emploi de votre organisation."
+    },
+    "q4": {
+      "text": "Il n’est pas rare d’être attiré vers les personnes qui partagent nos passetemps et champs d’intérêt et avec qui nous avons d’autres points communs. Il s’agit d’une manifestation des préjugés. ",
+      "options": {
+        "1": "Vrai",
+        "2": "Faux"
+      },
+      "feedback": {
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      },
+      "conclusion": "C’est un exemple de type de préjugé appelé « préjugé d’affinité ». Il peut avoir une incidence sur l’accès aux possibilités et sur l’avancement professionnel."
+    },
+    "q5": {
+      "text": "Un employé qui arrive constamment en retard au travail fait preuve d’un manque d’engagement.",
+      "options": {
+        "1": "Vrai",
+        "2": "Faux"
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "2": "<span class='v-right' /><strong>Correct!</strong>"
       },
-      "conclusion": " Si vous regardez bien, vous avez commandé des lunettes roses à 20&nbsp;$ la paire. La facture indique 25&nbsp;$ l’unité. Vous devrez communiquer avec le fournisseur pour faire corriger la facture."
+      "conclusion": "Un grand nombre de raisons pourraient expliquer pourquoi cet employé est en retard au travail. Le fait de porter un jugement sur son comportement est un type de préjugé appelé « préjugé de conformité."
     }
   }
 }</i18n>
