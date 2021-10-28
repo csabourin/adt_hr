@@ -52,8 +52,7 @@
 </script>
 <i18n>{
   "en": {
-  "instructions":"Answer the quiz.",
-  "matchInstructions": "Making the links between organization and classification and other HR disciplines will help guide you in the following activities. Match the sentence segments.",
+  "instructions":"Answer the following questions.",
     "q1": {
       "text": "<p>The social committee has booked a team lunch at a favourite local spot to wish your manager a happy retirement before her last day. You mention to your colleague that you are looking forward to the event tomorrow. He tells you that he won’t be attending because the restaurant is only accessible by stairs. He also says that he provided his reason for declining and requested a wheelchair accessible venue, but has not received a response from the social committee.</p><p>Is your colleague experiencing harassment and violence?</p>",
       "options": {
@@ -123,42 +122,73 @@
     }
   },
   "fr": {
-  "instructions":"Répondez aux questions suivantes en consultant la facture fournie.",
+  "instructions":"Répondez aux questions suivantes.",
     "q1": {
-      "text": "Vous avez reçu 15 paires de lunettes roses. Les 5 autres paires sont en rupture de stock. Payez-vous la facture pour la commande compl&egrave;te de 20 paires?",
+      "text": "<p>Le comité social a planifié un dînerd’équipe dans un lieu local prisé pour souhaiter une bonne retraite à votre gestionnaire avant son dernier jour de travail. Vous mentionnez à votre collègue que vous attendez avec impatience l’événement, qui aura lieu le lendemain. Il vous dit qu’il ne pourra pas y participer, car le restaurant n’est accessible que par des escaliers. Il ajoute qu’il a expliqué son refus et demandé qu’on choisisse plutôt un lieu accessible aux fauteuils roulants, mais que le comité social ne lui a pas répondu.</p><p>Votre collègue est-il victime de harcèlement et de violence? </p>",
       "options": {
         "1": "Oui",
-        "2": "Non"
+        "2": "Nom"
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       },
-      "conclusion": "Vous devrez contacter le fournisseur pour faire corriger la facture, car vous n’avez pas reçu 5 paires."
+      "conclusion": "Le fait d’exclure ou d’isoler quelqu’un sur le plan social est considéré comme du harcèlement et de la violence"
     },
     "q2": {
-      "text": "Vous avez commandé des surligneurs d’une valeur de 10&nbsp;$ auprès de l’Entreprise XYZ. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "En tant que gestionnaire, vous devez gérer les situations de harcèlement et de violence dès qu’elles surviennent, sans quoi vous pourriez faire l’objet de mesures disciplinaires. ",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Vrai",
+        "2": "Faux"
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       },
-      "conclusion": "Si vous regardez attentivement, vous avez commandé chez Entreprise XYZ, mais la facture indique Entreprise ABC."
+      "conclusion": "Malgré les mesures préventives, le harcèlement ou la perception de harcèlement peut toujours subsister. N’attendez pas que l’employé dépose une plainte. Il est important de traiter toute situation de harcèlement dès son apparition, car il incombe à la direction de fournir un milieu de travail exempt de harcèlement et d’assurer le bien-être des employés."
     },
     "q3": {
-      "text": "Vous avez commandé des lunettes roses au prix de 20&nbsp;$ la paire. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "Lequel des éléments suivants est considéré comme un acte répréhensible au sens de la <i>Loi sur la protection des fonctionnaires divulgateurs d’actes répréhensibles</i>?",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Contrevenir aux lois ou aux règlements, délibérément ou par négligence. ",
+        "2": "Utiliser les biens publics de façon abusive.",
+        "3": "Conseiller à quelqu’un d’utiliser les fonds publics à son propre avantage.",
+        "4": "Limiter les possibilités d’avancement des employés issus des groupes en quête d’équité.",
+        "5": "Mettre en danger la vie ou la sécurité des Canadiens par un geste ou une omission."
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
+        "right": "<span class='v-right' /><strong>Correct!</strong>",
+        "wrong": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       },
-      "conclusion": " Si vous regardez bien, vous avez commandé des lunettes roses à 20&nbsp;$ la paire. La facture indique 25&nbsp;$ l’unité. Vous devrez communiquer avec le fournisseur pour faire corriger la facture."
+      "conclusion": "Limiter les possibilités d’avancement des employés issus des groupes en quête d’équité ne constitue pas un acte répréhensible au sens de la <i>Loi sur la protection des fonctionnaires divulgateurs d’actes répréhensibles</i>."
+    },
+    "q4": {
+      "text": "<p>Dominic est Algonquin et il est très fier de sa culture. Un collègue l’appelle toujours « Chef ». Dominic lui répète constamment qu’il ne se sent pas à l’aise d’être appelé ainsi. Le collègue de Dominic rit et explique que c’est seulement une blague.</p><p>Le commentaire du collègue constitue-t-il du harcèlement et de la violence?  </p>",
+      "options": {
+        "1": "Oui",
+        "2": "Non",
+        "3": "Ça dépend"
+      },
+      "feedback": {
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      },
+      "conclusion": "Il s’agit d’un cas de harcèlement et de violence. Dominic a demandé à son collègue de cesser de l’appeler « Chef », mais le collègue continue de le faire. Il faut aussi savoir que le fait d’utiliser des termes faisant référence à la culture pour faire des blagues constitue une forme de discrimination."
+    },
+    "q5": {
+      "text": "<p>Une personne sous votre responsabilité,Jean (iel/ellui), est gestionnaire n’a aucun subalterne et occupe un poste susceptible de poser un risque de conflit d’intérêts d’après-mandat. Jean a reçu récemment d’une agence une offre d’emploi qui risque de causer une situation de conflit d’intérêts réel, apparent ou potentiel. Si Jean accepte l’offre, iel quittera la fonction publique fédérale et commencera à travailler six mois plus tard.</p><p>Quel est le premier conseil que vous donnerez à Jean?</p>",
+      "options": {
+        "1": "Divulguer la situation à l’administrateur général.",
+        "2": "Accepter l’offre sur-le-champ. Jean n’a pas de tâches de supervision. ",
+        "3": "Refuser l’offre. Jean doit se soumettre à la période de restriction obligatoire d’un an. "
+      },
+      "feedback": {
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      },
+      "conclusion": "Jean devrait faire part de la situation à l’administrateur général avant d’accepter l’offre. La Directive sur les conflits d’intérêts s’applique aux personnes qui occupent des postes susceptibles de poser un risque de conflit d’intérêts d’après-mandat, indépendamment des responsabilités de supervision ou de gestion. Jean doit se soumettre à une période de restriction d’un an complet, mais iel peut demander à l’administrateur général d’annuler cette période."
     }
   }
 }</i18n>

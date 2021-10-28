@@ -52,8 +52,7 @@
 </script>
 <i18n>{
   "en": {
-  "instructions":"Answer the quiz.",
-  "matchInstructions": "Making the links between organization and classification and other HR disciplines will help guide you in the following activities. Match the sentence segments.",
+  "instructions":"Answer the following questions.",
     "q1": {
       "text": "As a French-speaking manager working in a bilingual region for language-of-work purposes, my employee, who occupies a bilingual position, has the right to choose English as the language of communication between us.",
       "options": {
@@ -116,42 +115,66 @@
     }
   },
   "fr": {
-  "instructions":"Répondez aux questions suivantes en consultant la facture fournie.",
+  "instructions":"Évaluez vos connaissances en répondant aux questions suivantes. ",
     "q1": {
-      "text": "Vous avez reçu 15 paires de lunettes roses. Les 5 autres paires sont en rupture de stock. Payez-vous la facture pour la commande compl&egrave;te de 20 paires?",
+      "text": "Si je suis une gestionnaire francophone et que je travaille dans une région bilingue aux fins de la langue de travail, mon employé qui occupe un poste bilingue a tout de même le droit de s’exprimer en anglais avec moi.  ",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Vrai",
+        "2": "Faux"
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       },
-      "conclusion": "Vous devrez contacter le fournisseur pour faire corriger la facture, car vous n’avez pas reçu 5 paires."
+      "conclusion": "Dans les régions bilingues aux fins de la langue de travail, les employés qui occupent un poste bilingue ou un poste réversible ont le droit d’être supervisés dans la langue officielle de leur choix."
     },
     "q2": {
-      "text": "Vous avez commandé des surligneurs d’une valeur de 10&nbsp;$ auprès de l’Entreprise XYZ. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "Dans les régions bilingues aux fins de la langue de travail, tous les employés peuvent enregistrer un message d’absence dans la langue de leur choix.  .",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Vrai",
+        "2": "Faux"
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "2": "<span class='v-right' /><strong>Correct!</strong>"
       },
-      "conclusion": "Si vous regardez attentivement, vous avez commandé chez Entreprise XYZ, mais la facture indique Entreprise ABC."
+      "conclusion": "Dans les régions bilingues aux fins de la langue de travail, les employés qui occupent un poste bilingue doivent avoir un bloc‑signature de courriel, un message de boîte vocale et un message d’absence automatique entièrement bilingues (dans les deux langues officielles)."
     },
     "q3": {
-      "text": "Vous avez commandé des lunettes roses au prix de 20&nbsp;$ la paire. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "Un bureau peut être désigné bilingue aux fins de prestation de services au public même s’il est situé dans une région unilingue.",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Vrai",
+        "2": "Faux"
+      },
+      "feedback": {
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      },
+      "conclusion": "Si vous ne savez pas si votre bureau doit fournir des services dans les deux langues officielles, consultez la base de données Burolis."
+    },
+    "q4": {
+      "text": "Un gestionnaire peut changer le profil linguistique d’un poste pour augmenter le nombre de candidats pouvant se qualifier.",
+      "options": {
+        "1": "Vrai",
+        "2": "Faux"
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "2": "<span class='v-right' /><strong>Correct!</strong>"
       },
-      "conclusion": " Si vous regardez bien, vous avez commandé des lunettes roses à 20&nbsp;$ la paire. La facture indique 25&nbsp;$ l’unité. Vous devrez communiquer avec le fournisseur pour faire corriger la facture."
+      "conclusion": "Les gestionnaires doivent faire en sorte que le profil des postes correspond aux compétences linguistiques nécessaires à l’exercice des fonctions et des tâches de ces postes."
+    },
+    "q5": {
+      "text": "Vous travaillez dans une région bilingue aux fins de la langue de travail et vous embauchez un étudiant qui reçoit un ordinateur sur lequel est installée la suite Microsoft Office en anglais. L’étudiant vous demande la version française, mais vous n’êtes pas obligé de fournir à l’étudiant les logiciels dans la langue de son choix.  ",
+      "options": {
+        "1": "Vrai",
+        "2": "Faux"
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-right' /><strong>Correct!</strong>"
+      },
+      "conclusion": "Dans les régions bilingues aux fins de la langue de travail, les gestionnaires et les superviseurs sont responsables de mettre à la disposition des employés des instruments de travail et des systèmes informatiques d’usage courant et généralisé dans les deux langues officielles."
     }
   }
 }</i18n>

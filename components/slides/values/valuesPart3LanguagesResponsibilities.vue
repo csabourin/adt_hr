@@ -108,42 +108,60 @@
     }
   },
   "fr": {
-  "instructions":"Répondez aux questions suivantes en consultant la facture fournie.",
+  "instructions":"<p>L’appendice 4 de la <a href='https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=26168' target='_blank' alt='Lien vers la page web de la Directive sur les langues officielles pour la gestion des personnes'>Directive sur les langues officielles pour la gestion des personnes </a> clarifie les termes utilisés dans la Directive. Utilisez ce document pour répondre aux questions suivantes.</p> ",
     "q1": {
-      "text": "Vous avez reçu 15 paires de lunettes roses. Les 5 autres paires sont en rupture de stock. Payez-vous la facture pour la commande compl&egrave;te de 20 paires?",
+      "text": "Une culture organisationnelle dans laquelle les employés sont systématiquement encouragés à utiliser la langue officielle de leur choix dans le milieu de travail.",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Milieu de travail propice ",
+        "2": "Régions bilingues ",
+        "3": "Bureaux désignés "
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       },
-      "conclusion": "Vous devrez contacter le fournisseur pour faire corriger la facture, car vous n’avez pas reçu 5 paires."
+      "conclusion": "Milieu de travail propice : Une culture organisationnelle dans laquelle les employés sont systématiquement encouragés à utiliser la langue officielle de leur choix dans le milieu de travail."
     },
     "q2": {
-      "text": "Vous avez commandé des surligneurs d’une valeur de 10&nbsp;$ auprès de l’Entreprise XYZ. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "Mesure de dotation qui permet que l’on prenne en considération, lors d’un processus de sélection pour la nomination à un poste bilingue, la candidature de personnes qui satisfont à toutes les qualifications essentielles à l’exception des compétences linguistiques requises. ",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Dotation impérative ",
+        "2": "Dotation non impérative ",
+        "3": "Situation exceptionnelle de dotation "
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
+        "2": "<span class='v-right' /><strong>Correct!</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       },
-      "conclusion": "Si vous regardez attentivement, vous avez commandé chez Entreprise XYZ, mais la facture indique Entreprise ABC."
+      "conclusion": "Dotation non impérative : Mesure de dotation qui permet que l’on prenne en considération, lors d’un processus de sélection pour la nomination à un poste bilingue, la candidature de personnes qui satisfont à toutes les qualifications essentielles à l’exception des compétences linguistiques requises."
     },
     "q3": {
-      "text": "Vous avez commandé des lunettes roses au prix de 20&nbsp;$ la paire. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "Quelle organisation offre sur son site Web la liste des régions bilingues du Canada aux fins de la langue de travail?  ",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Secrétariat du Conseil du Trésor du Canada ",
+        "2": "Commission de la fonction publique ",
+        "3": "Travaux publics et Services gouvernementaux Canada "
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       },
-      "conclusion": " Si vous regardez bien, vous avez commandé des lunettes roses à 20&nbsp;$ la paire. La facture indique 25&nbsp;$ l’unité. Vous devrez communiquer avec le fournisseur pour faire corriger la facture."
+      "conclusion": "La liste des régions bilingues du Canada aux fins de la langue de travail se trouve sur le site Web du Secrétariat du Conseil du Trésor du Canada."
+    },
+    "q4": {
+      "text": "Les régions unilingues correspondent à toutes les régions qui ne se trouvent pas sur la liste des régions bilingues. ",
+      "options": {
+        "1": "Vrai",
+        "2": "Faux"
+      },
+      "feedback": {
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      },
+      "conclusion": "Les régions unilingues correspondent à toutes les régions qui ne se trouvent pas sur la liste des régions bilingues."
     }
   }
 }</i18n>

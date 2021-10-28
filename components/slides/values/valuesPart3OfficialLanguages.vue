@@ -180,42 +180,126 @@
     }
   },
   "fr": {
-  "instructions":"Répondez aux questions suivantes en consultant la facture fournie.",
+  "instructions":"Dans quelle région (aux fins de la langue de travail) les administrateurs généraux ou leurs délégués ont-ils les responsabilités suivantes? Pour chaque énoncé, déterminez si la région est unilingue ou bilingue. ",
     "q1": {
-      "text": "Vous avez reçu 15 paires de lunettes roses. Les 5 autres paires sont en rupture de stock. Payez-vous la facture pour la commande compl&egrave;te de 20 paires?",
+      "text": "Les communications avec les employés et la prestation des services se font dans les deux langues officielles.",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Région unilingue",
+        "2": "Région bilingue "
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "2": "<span class='v-right' /><strong>Correct!</strong>"
       },
-      "conclusion": "Vous devrez contacter le fournisseur pour faire corriger la facture, car vous n’avez pas reçu 5 paires."
+      "conclusion": ""
     },
     "q2": {
-      "text": "Vous avez commandé des surligneurs d’une valeur de 10&nbsp;$ auprès de l’Entreprise XYZ. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "Les employés occupant un poste bilingue ont un bloc‑signature de courriel, un message de boîte vocale et un message de réponse automatique entièrement bilingues (dans les deux langues officielles).",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Région unilingue",
+        "2": "Région bilingue "
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "2": "<span class='v-right' /><strong>Correct!</strong>"
       },
-      "conclusion": "Si vous regardez attentivement, vous avez commandé chez Entreprise XYZ, mais la facture indique Entreprise ABC."
+      "conclusion": ""
     },
     "q3": {
-      "text": "Vous avez commandé des lunettes roses au prix de 20&nbsp;$ la paire. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "Les communications et les services destinés exclusivement aux employés des régions unilingues sont offerts dans la langue officielle de la province ou du territoire en question.",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Région unilingue",
+        "2": "Région bilingue "
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "2": "<span class='v-right' /><strong>Correct!</strong>"
       },
-      "conclusion": " Si vous regardez bien, vous avez commandé des lunettes roses à 20&nbsp;$ la paire. La facture indique 25&nbsp;$ l’unité. Vous devrez communiquer avec le fournisseur pour faire corriger la facture."
+      "conclusion": ""
+    },
+    "q4": {
+      "text": "Les organisations respectent les droits en matière de langue de travail des employés qui travaillent dans les institutions auxquelles elles offrent des services ou sur lesquelles elles exercent une autorité.",
+      "options": {
+        "1": "Région unilingue",
+        "2": "Région bilingue "
+      },
+      "feedback": {
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      },
+      "conclusion": ""
+    },
+    "q5": {
+      "text": "Les employés occupant un poste bilingue ont un bloc‑signature de courriel, un message de boîte vocale et un message de réponse automatique entièrement bilingues (dans les deux langues officielles).",
+      "options": {
+        "1": "Région unilingue",
+        "2": "Région bilingue "
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-right' /><strong>Correct!</strong>"
+      },
+      "conclusion": ""
+    },
+    "q6": {
+      "text": "Les employés sont en mesure de communiquer avec les employés d’autres institutions qui s’expriment dans l’autre langue officielle.",
+      "options": {
+        "1": "Région unilingue",
+        "2": "Région bilingue "
+      },
+      "feedback": {
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      },
+      "conclusion": ""
+    },
+    "q7": {
+      "text": "Les employés sont en mesure de communiquer avec les employés d’autres institutions dans l’une ou l’autre des langues officielles.",
+      "options": {
+        "1": "Région unilingue",
+        "2": "Région bilingue "
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-right' /><strong>Correct!</strong>"
+      },
+      "conclusion": ""
+    },
+    "q8": {
+      "text": "Les employés occupant un poste bilingue ont un bloc‑signature de courriel, un message de boîte vocale et un message de réponse automatique entièrement bilingues (dans les deux langues officielles).",
+      "options": {
+        "1": "Région unilingue",
+        "2": "Région bilingue "
+      },
+      "feedback": {
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      },
+      "conclusion": ""
+    },
+    "q9": {
+      "text": "Les communications avec les employés de régions qui utilisent une langue de travail différente sont assurées conformément à l’une des options citées à l’appendice 1 de la <a href='https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=26164' target='_blank' alt='Lien vers la page web de la directive sur les langues officielles pour les communications et les services'>Directive sur les langues officielles pour les communications et services</a>.",
+      "options": {
+        "1": "Région unilingue",
+        "2": "Région bilingue "
+      },
+      "feedback": {
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      },
+      "conclusion": ""
+    },
+    "q10": {
+      "text": "Les communications directes avec un employé se font  dans la langue de préférence de ce dernier.",
+      "options": {
+        "1": "Région unilingue",
+        "2": "Région bilingue "
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-right' /><strong>Correct!</strong>"
+      },
+      "conclusion": ""
     }
   }
 }</i18n>

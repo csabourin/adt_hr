@@ -46,6 +46,7 @@
 </script>
 <i18n>{
   "en": {
+    "instructions":"Answer the following questions.",
     "q1": {
       "text": "<a href='https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=12602' target='_blank' alt='Link to the Guidelines on Managerial and Confidential Exclusions'>The Guidelines on Managerial and Confidential Exclusions</a> apply to all departments and agencies in the public service.",
       "options": {
@@ -74,42 +75,32 @@
     }
   },
   "fr": {
-  "instructions":"Répondez aux questions suivantes en consultant la facture fournie.",
+  "instructions":"Répondez aux questions suivantes.",
     "q1": {
-      "text": "Vous avez reçu 15 paires de lunettes roses. Les 5 autres paires sont en rupture de stock. Payez-vous la facture pour la commande compl&egrave;te de 20 paires?",
+      "text": "<a href='https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=12602' target='_blank' alt='Lien vers les lignes directrices sur les exclusions de postes de direction et de confidentialité'>Les Lignes directrices sur les postes de direction ou de confiance exclus </a> s’appliquent à tous les ministères et les organismes de la fonction publique.",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Vrai",
+        "2": "Faux"
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "2": "<span class='v-right' /><strong>Correct!</strong>"
       },
-      "conclusion": "Vous devrez contacter le fournisseur pour faire corriger la facture, car vous n’avez pas reçu 5 paires."
+      "conclusion": "Ces lignes directrices s’appliquent aux ministères et aux organismes figurant aux annexes I et IV de <i>la Loi sur la gestion des finances publiques</i> et dont l’employeur est le Conseil du Trésor."
     },
     "q2": {
-      "text": "Vous avez commandé des surligneurs d’une valeur de 10&nbsp;$ auprès de l’Entreprise XYZ. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "Michel assure l’intérim de sa directrice, Fatiha, dont le poste est exclu. Fatiha est en congé pendant six semaines. Compte tenu de l’exclusion du poste de direction, qui est exclu? ",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Fatiha",
+        "2": "Michel",
+        "3": "Les deux"
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
+        "2": "<span class='v-right' /><strong>Correct!</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       },
-      "conclusion": "Si vous regardez attentivement, vous avez commandé chez Entreprise XYZ, mais la facture indique Entreprise ABC."
-    },
-    "q3": {
-      "text": "Vous avez commandé des lunettes roses au prix de 20&nbsp;$ la paire. En regardant la facture fournie, devriez-vous la payer?",
-      "options": {
-        "1": "Oui",
-        "2": "Non"
-      },
-      "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
-      },
-      "conclusion": " Si vous regardez bien, vous avez commandé des lunettes roses à 20&nbsp;$ la paire. La facture indique 25&nbsp;$ l’unité. Vous devrez communiquer avec le fournisseur pour faire corriger la facture."
+      "conclusion": "Ce sont les postes qui sont exclus, et non les personnes. Michel, en tant que titulaire assumant les responsabilités de direction, est donc exclu."
     }
   }
 }</i18n>

@@ -95,42 +95,50 @@
     }
   },
   "fr": {
-  "instructions":"Répondez aux questions suivantes en consultant la facture fournie.",
+  "instructions":"Répondez aux questions suivantes",
+    "dyk":"<p><b>Le saviez-vous?</b></p><p>La Directive sur la Prévention et la résolution du harcèlement et de la violence dans le lieu de travail ne s’applique pas seulement au milieu de travail proprement dit, mais également aux activités parrainées par l’employeur, notamment les conférences, les formations, les séances d’information, les événements sociaux et les déplacements.  </p>",
+    "linkdesc": "Reportez-vous aux <a href='https://www.canada.ca/fr/emploi-developpement-social/programmes/sante-securite-travail/prevenir-harcelement-violence.html#definition' target='_blank' alt='Lien vers la page web Exigences imposées aux employeurs pour prévenir le harcèlement et la violence dans les lieux de travail sous réglementation fédérale'>Obligations des employeurs pour prévenir le harcèlement et la violence en milieu de travail sous réglementation fédérale</a> pour répondre aux questions suivantes. ",
     "q1": {
-      "text": "Vous avez reçu 15 paires de lunettes roses. Les 5 autres paires sont en rupture de stock. Payez-vous la facture pour la commande compl&egrave;te de 20 paires?",
+      "text": "<p>Amira dirige un projet prioritaire dont l’échéance approche. Selon le plan de travail, elle accuse un peu de retard, mais elle affirme que la prochaine phase du projet peut se faire plus rapidement que prévu. Beaucoup de détails doivent encore être mis au point avant que vous puissiez présenter le projet à votre directeur général. Vous proposez alors votre aide à Amira, qui décline votre offre, tout en vous demandant de lui faire confiance. Comme le calendrier vous préoccupe, vous demandez à Amira de faire le point sur la situation tous les mercredis et vendredis pendant les trois prochaines semaines. Visiblement, ça l’ennuie, mais elle ne dit rien.</p><p>Votre comportement constitue-t-il du harcèlement et de la violence?  </p>",
       "options": {
         "1": "Oui",
-        "2": "Non"
+        "2": "Non",
+        "3": "Ça dépend"
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
+        "2": "<span class='v-right' /><strong>Correct!</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       },
-      "conclusion": "Vous devrez contacter le fournisseur pour faire corriger la facture, car vous n’avez pas reçu 5 paires."
+      "conclusion": "Une demande visant à obtenir des mises à jour ou des rapports d’étape ne représente pas du harcèlement et de la violence."
     },
     "q2": {
-      "text": "Vous avez commandé des surligneurs d’une valeur de 10&nbsp;$ auprès de l’Entreprise XYZ. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "<p>Votre expertise est unique au sein de votre équipe, et un récent changement dans les priorités organisationnelles a fait en sorte que votre directeur vous a chargé de plusieurs nouveaux dossiers. Il s’agit d’une lourde charge de travail, et le budget ne permet pas d’embaucher quelqu’un pour vous aider. Votre directeur est conscient de la situation. Il vous aide à établir l’ordre de priorité des projets et insiste auprès de la haute direction pour que les délais soient raisonnables, mais vous ne constatez aucun changement majeur et estimez que la charge de travail est trop importante. </p><p>Le comportement de votre directeur constitue-t-il du harcèlement et de la violence? </p>",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+       "1": "Oui",
+        "2": "Non",
+        "3": "Ça dépend"
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
+        "2": "<span class='v-right' /><strong>Correct!</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       },
-      "conclusion": "Si vous regardez attentivement, vous avez commandé chez Entreprise XYZ, mais la facture indique Entreprise ABC."
+      "conclusion": "Lorsqu’une personne assigne des tâches et indique comment et quand le travail doit être exécuté, il ne s’agit pas de harcèlement ni de violence."
     },
     "q3": {
-      "text": "Vous avez commandé des lunettes roses au prix de 20&nbsp;$ la paire. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "<p>Liang est une Canadienne de première génération. Elle a un accent, mais elle prend le temps de parler lentement et de façon posée et s’assure de bien articuler. Son superviseur corrige fréquemment sa prononciation.   </p><p>Est-ce que la correction répétée de la prononciation de Liang par son superviseur constitue du harcèlement et de la violence?  </p>",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+       "1": "Oui",
+        "2": "Non",
+        "3": "Ça dépend"
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-right' /><strong>Correct!</strong>"
       },
-      "conclusion": " Si vous regardez bien, vous avez commandé des lunettes roses à 20&nbsp;$ la paire. La facture indique 25&nbsp;$ l’unité. Vous devrez communiquer avec le fournisseur pour faire corriger la facture."
+      "conclusion": "Si Liang n’a pas demandé à être corrigée, ce comportement pourrait alors être considéré comme du harcèlement et de la violence. Toutefois, si Liang a demandé à son superviseur de l’aider à améliorer sa prononciation en soulignant et en corrigeant ses erreurs, le comportement du superviseur ne représente pas du harcèlement et de la violence. "
     }
   }
 }</i18n>

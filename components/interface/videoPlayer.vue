@@ -186,14 +186,24 @@ export default {
           infos: [0,2],
           quiz: [6]
         },
-        reportPart1: {
-          references: [],
-          infos: [],
-          quiz: []
+        valuesPart1: {
+          references: [5],
+          infos: [0,4],
+          quiz: [6]
         },
-        reportPart2: {
-          references: [],
-          infos: [],
+        valuesPart2: {
+          references: [5],
+          infos: [0,1,3],
+          quiz: [6]
+        },
+        valuesPart3: {
+          references: [5],
+          infos: [0,1,4],
+          quiz: [6]
+        },
+         valuesPart4: {
+          references: [2],
+          infos: [0,1],
           quiz: [3]
         }
       },
@@ -285,10 +295,14 @@ export default {
           return this.popups.functionPart2.references;
         case "functionPart3":
           return this.popups.functionPart3.references;
-        case "reportPart1":
-          return this.popups.reportPart1.references;
-        case "reportPart2":
-          return this.popups.reportPart2.references;
+        case "valuesPart1":
+          return this.popups.valuesPart1.references;
+        case "valuesPart2":
+          return this.popups.valuesPart2.references;
+        case "valuesPart3":
+          return this.popups.valuesPart3.references;
+        case "valuesPart4":
+          return this.popups.valuesPart4.references;
       }
     },
     currentPageInfos(){
@@ -307,10 +321,15 @@ export default {
           return this.popups.functionPart2.infos;
         case "functionPart3":
           return this.popups.functionPart3.infos;
-        case "reportPart1":
-          return this.popups.reportPart1.infos;
-        case "reportPart2":
-          return this.popups.reportPart2.infos;
+        case "valuesPart1":
+          return this.popups.valuesPart1.infos;
+        case "valuesPart2":
+          return this.popups.valuesPart2.infos;
+        case "valuesPart3":
+          return this.popups.valuesPart3.infos;
+        case "valuesPart4":
+          return this.popups.valuesPart4.infos;
+
       }
     },
     currentPageQuiz(){
@@ -329,10 +348,15 @@ export default {
           return this.popups.functionPart2.quiz;
         case "functionPart3":
           return this.popups.functionPart3.quiz;
-        case "reportPart1":
-          return this.popups.reportPart1.quiz;
-        case "reportPart2":
-          return this.popups.reportPart2.quiz;
+        case "valuesPart1":
+          return this.popups.valuesPart1.quiz;
+        case "valuesPart2":
+          return this.popups.valuesPart2.quiz;
+        case "valuesPart3":
+          return this.popups.valuesPart3.quiz;
+        case "valuesPart4":
+          return this.popups.valuesPart4.quiz;
+      
       }
     },
     MenuShowing:{

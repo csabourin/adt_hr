@@ -86,11 +86,11 @@
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
         <div v-if="$i18n.locale=='en'">
-          <p>Resources:</p>
+          <p>Here is a list of resources referred to in this section.</p>
           <p><b>Legislation</b></p>
           <ul>
-            <li><a href="https://laws-lois.justice.gc.ca/eng/acts/p-31.9/" target="_blank" alt="Link to the Public Servants Disclosure Protection Act web page"><i>Public Servants Disclosure Protection Act</i></a></li>
-            <li><a href="http://gazette.gc.ca/rp-pr/p2/2020/2020-06-24/html/sor-dors130-eng.html" target="_blank" alt="Link to the Work Place Harassment and Violence Prevention Regulations web page"><i>Work Place Harassment and Violence Prevention Regulations</i></a></li>
+            <li><a href="https://laws-lois.justice.gc.ca/eng/acts/p-31.9/" target="_blank" alt="Link to the Public Servants Disclosure Protection Act web page">Public Servants Disclosure Protection Act</a></li>
+            <li><a href="http://gazette.gc.ca/rp-pr/p2/2020/2020-06-24/html/sor-dors130-eng.html" target="_blank" alt="Link to the Work Place Harassment and Violence Prevention Regulations web page">Work Place Harassment and Violence Prevention Regulations</a></li>
           </ul>
           <p><b>Policy Instruments</b></p>
           <ul>
@@ -105,6 +105,28 @@
             <li><a href="https://www.canada.ca/en/employment-social-development/programs/workplace-health-safety/harassment-violence-prevention/complaints/resolve.html" target="_blank" alt="Link to the Resolve a workplace harassment and violence complaint web page">Resolve a workplace harassment and violence complaint</a></li>
             <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=25049" target="_blank" alt="Link to the Values and Ethics Code for the Public Sector web page">Values and Ethics Code for the Public Sector</a></li>
             <li><a href="https://www.canada.ca/en/employment-social-development/programs/workplace-health-safety/harassment-violence-prevention.html#What_is_not" target="_blank" alt="Link to the What is not harassment and violence web page">What is not harassment and violence</a></li>
+          </ul>
+        </div>
+        <div v-if="$i18n.locale=='en'">
+          <p>Voici une liste des ressources auxquelles on fait référence dans cette section. </p>
+          <p><b>Législation</b></p>
+          <ul>
+            <li><a href="https://laws-lois.justice.gc.ca/fra/lois/p-31.9/" target="_blank" alt="Lien vers la page web de la Loi sur la protection des fonctionnaires divulgateurs d'actes répréhensibles">Loi sur la protection des fonctionnaires divulgateurs d’actes répréhensibles </a></li>
+            <li><a href="https://canadagazette.gc.ca/rp-pr/p2/2020/2020-06-24/html/sor-dors130-fra.html" target="_blank" alt="Lien vers la page web du Règlement sur le harcèlement et la prévention de la violence dans le lieu de travail">Règlement sur la prévention du harcèlement et de la violence dans le lieu de travail </a></li>
+          </ul>
+          <p><b>Instruments de politique </b></p>
+          <ul>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32627" target="_blank" alt="Lien vers la page web de la directive sur les conflits d'intérêts">Directive sur les conflits d’intérêts </a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32671" target="_blank" alt="Lien vers la page web de la directive sur la prévention et la résolution du harcèlement et de la violence au travail">Directive sur la prévention et la résolution du harcèlement et de la violence sur le lieu de travail</a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/(S(e021jvamqbhco5551teiyz55))/doc-fra.aspx?id=32621" target="_blank" alt="Lien vers la page web de la politique de gestion du personnel">Politique sur la gestion des personnes </a></li>
+          </ul>
+          <p><b>Autres ressources </b></p>
+          <ul>
+            <li><a href="https://www.canada.ca/fr/emploi-developpement-social/programmes/sante-securite-travail/prevenir-harcelement-violence.html#Exemples-harcelement" target="_blank" alt="Lien vers la page web Exemples de harcèlement et de violence">Exemples de harcèlement et de violence</a></li>
+            <li><a href="https://www.canada.ca/fr/emploi-developpement-social/programmes/sante-securite-travail/prevenir-harcelement-violence.html" target="_blank" alt="Lien vers la page web Exigences imposées aux employeurs pour prévenir le harcèlement et la violence dans les lieux de travail sous réglementation fédérale">Obligations des employeurs pour prévenir le harcèlement et la violence en milieu de travail sous réglementation fédérale </a></li>
+            <li><a href="https://www.canada.ca/fr/emploi-developpement-social/programmes/sante-securite-travail/prevenir-harcelement-violence/plaintes/regler.html" target="_blank" alt="Lien vers la page web Résoudre une plainte pour harcèlement et violence au travail">Régler une plainte de harcèlement ou de violence en milieu de travail</a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=25049" target="_blank" alt="Lien vers la page web du Code de valeurs et d'éthique pour le secteur public">Code de valeurs et d’éthique du secteur public </a></li>
+            <li><a href="https://www.canada.ca/fr/emploi-developpement-social/programmes/sante-securite-travail/prevenir-harcelement-violence.html#Exemples-constitue-pas-harcelement" target="_blank" alt="Lien vers la page web Ce qui n'est pas du harcèlement et de la violence.">Ce que ne sont pas le harcèlement et la violence </a></li>
           </ul>
         </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
@@ -143,6 +165,13 @@
           </ul>
           <p>This course provides a more in-depth look at values and ethics to help you perform your duties in this area.</p>
         </div>
+        <div v-if="$i18n.locale=='fr'">
+          <p><b>Pour approfondir les connaissances nécessaires à l’exercice des responsabilités déléguées en matière de RH, suivez le cours suivant :</b></p>
+          <ul>
+            <li>Fondements des valeurs et de l’éthique pour les gestionnaires (C355).</li>
+          </ul>
+          <p>Ce cours, qui examine en profondeur les valeurs et l’éthique, vous aidera à exercer vos fonctions dans ce domaine. </p>
+        </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
       <b-modal id="definingWrongdoing" @hide="resumePlay()" size="xl" okOnly>
@@ -154,10 +183,17 @@
         </template>
         <div v-if="$i18n.locale=='en'">
           <p>Consult the following resources for more information about the Public Servants Disclosure Protection Act and tips for managers:</p>
-          <ol>
+          <ul>
             <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/values-ethics/disclosure-protection/public-servants-disclosure-protection-act-information-supervisors-all-levels.html" target="_blank" alt="Link to the Information for supervisors at all levels web page">Information for supervisors at all levels</a></li>
-            <li>MISSING IMAGE</li>
-          </ol>
+          </ul>
+          <img src="~/assets/V+E Graphics-en.png" alt="Image detailing the Roles of the different employees">
+        </div>
+        <div v-if="$i18n.locale=='fr'">
+          <p>Consultez les ressources suivantes pour en savoir plus sur la Loi sur la protection des fonctionnaires divulgateurs d’actes répréhensibles et pour obtenir des conseils destinés aux gestionnaires : </p>
+          <ul>
+            <li><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/valeurs-ethique/protection-divulgateurs/loi-protection-fonctionnaires-divulgateurs-actes-reprehensibles-information-intention-superviseurs-tous-niveaux.html" target="_blank" alt="Lien vers la page web Informations pour les superviseurs à tous les niveaux">Information à l’intention des superviseurs de tous niveaux</a></li>
+          </ul>
+          <img src="~/assets/V+E Graphics-fr.png" alt="Image d'émontrant les rôles des employers">
         </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
@@ -174,18 +210,16 @@
             </b-col>
           </b-row>
         <div v-if="$i18n.locale=='en'">
+          <p>First, read the <a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32671" target="_blank" alt="Link to the Directive on the Prevention and Resolution of Workplace Harassment and Violence web page">Directive on the Prevention and Resolution of Workplace Harassment and Violence</a>. It emphasizes the need for prevention and for creating a culture of respect founded on good relationships and good communication. This workplace culture in turn fosters an environment of trust, caring and respect. </p>
+          <p>Second, find out who can guide you through conflict of interest considerations. Many organizations will have an office of values and ethics or an Ombud who can help. You can also refer to the <a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32627" target="_blank" alt="Link to the Directive on Conflict of Interest web page">Directive on Conflict of Interest</a> </p>
+          <p>Third, read your organization’s Workplace Harassment and Violence Prevention Policy. </p>
           <p>When people work together, misunderstandings and conflict are inevitable, but the escalation of issues can be prevented. You have a key role to play in promoting respectful working relationships and in helping to deal with conflict constructively. </p>
         </div>
         <div v-if="$i18n.locale=='fr'">
-          <p>Faites une recherche afin de localiser les profils d’information sur le rendement de votre organisation et ses rapports externes, comme le Rapport ministériel sur les résultats.&nbsp;</p>
-          <p>Votre organisation aura sa propre fa&ccedil;on de produire des rapports sur la situation financi&egrave;re et de rendre compte de ses dépenses et de ses résultats. Parlez-en à votre section des finances ou de la planification et à votre directeur. Demandez-leur :</p>
-          <ul>
-            <li>Comment appelons-nous nos rapports sur la situation financi&egrave;re et à quoi ressemblent-ils ? &Agrave; quel endroit puis-je les trouver?</li>
-            <li>&Agrave; quelle fréquence préparons-nous des rapports sur la situation financi&egrave;re?&nbsp;</li>
-            <li>Doit-on remplir ces rapports dans le syst&egrave;me financier ou dans un tableur?</li>
-            <li>Quel est mon r&ocirc;le?</li>
-            <li>Quelles informations vais-je fournir pour alimenter les rapports externes?</li>
-          </ul>
+          <p>Premièrement, lisez la<a href="https://canadagazette.gc.ca/rp-pr/p2/2020/2020-06-24/html/sor-dors130-fra.html" target="_blank" alt="Lien vers la page web du Règlement sur le harcèlement et la prévention de la violence dans le lieu de travail">Règlement sur la prévention du harcèlement et de la violence dans le lieu de travail </a> , qui met l’accent sur la nécessité d’assurer la prévention des employés et de créer une culture du respect fondée sur de bonnes relations et une bonne communication. Cette culture en milieu de travail favorise à son tour un environnement caractérisé par la confiance, la bienveillance et le respect. </p>
+          <p>Deuxièmement, trouvez qui peut vous guider en ce qui a trait aux conflits d’intérêts. De nombreuses organisations comptent un bureau des valeurs et de l’éthique ou un ombudsman qui peut vous aider. Vous pouvez également consulter la <a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32627" target="_blank" alt="Lien vers la page web de la directive sur les conflits d'intérêts">Directive sur les conflits d’intérêts </a>.</p>
+          <p>Troisièmement, lisez la politique de votre organisation sur la prévention du harcèlement et de la violence dans le lieu de travail. </p>
+          <p>Lorsque des collègues travaillent ensemble, les malentendus et les conflits sont inévitables; toutefois, l’accumulation des problèmes, elle, peut être évitée. Vous jouez un rôle important dans la promotion de relations de travail respectueuses et pouvez contribuer à la résolution des conflits d’une manière constructive. </p>
         </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
@@ -284,21 +318,24 @@ export default {
 </style>
 <i18n>{
   "en":{
-  "introductionTitle": "Introduction",
+  "introductionTitle": "References: External Links  ",
   "respectPeopleTitle": "Activity: Respect for People",
   "harassmentViolenceTitle": "Activity: Harassment and Violence",
-  "directiveConflictInterestTitle": "Activity: Directive on Conflict of Interest",
-  "definingWrongdoingTitle": "Acticity: Defining Wrongdoing",
+  "directiveConflictInterestTitle": "References: Additional Course",
+  "definingWrongdoingTitle": "References: Defining Wrongdoing",
   "inRealLifeTitle":"Activity: In Real Life",
   "TakeTheQuiz":"Take the Quiz",
   "transcriptText":"",
   "reportSectionBar": "VALUES"
   },
   "fr":{
-  "externalGovtReports":"Activité : Rapports externes du gouvernement",
-  "IdentifyResultsTitle":"Activité : Démontrer les résultats",
+  "introductionTitle": "Références : Liens externes ",
+  "respectPeopleTitle": "Activité : Respecter les gens",
+  "harassmentViolenceTitle": "Activité : Harcèlement et violence ",
+  "directiveConflictInterestTitle": "Références : Cours supplémentaire ",
+  "definingWrongdoingTitle": "Références : Définir un acte répréhensible ",
   "inRealLifeTitle":"Activité : Dans la vraie vie",
-  "TakeTheQuiz":"Répondez au questionnaire",
+  "TakeTheQuiz":"Répondez au Quiz",
   "transcriptText":"",
   "reportSectionBar": "RAPPORTS"
   }

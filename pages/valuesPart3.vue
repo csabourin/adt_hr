@@ -86,15 +86,16 @@
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
         <div v-if="$i18n.locale=='en'">
-          <p>Resources:</p>
+          <p>References: External Links</p>
+          <p>Here is a list of resources referred to in this section. </p>
           <p><b>Legislation</b></p>
           <ul>
-            <li><a href="https://laws-lois.justice.gc.ca/eng/const/page-1.html" target="_blank" alt="Link to the Constitution Act, 1867"><i>Constitution Act, 1867</i></a></li>
-            <li><a href="https://laws-lois.justice.gc.ca/eng/Const/page-12.html" target="_blank" alt="Link to the Constitution Act, 1982, Part 1: Canadian Charter of Rights and Freedoms"><i>Constitution Act, 1982</i>, Part 1: Canadian Charter of Rights and Freedoms</a></li>
-            <li><a href="https://laws-lois.justice.gc.ca/eng/acts/o-3.01/" target="_blank" alt="Link to the Official Languages Act web page"><i>Official Languages Act</i></a></li>
+            <li><a href="https://laws-lois.justice.gc.ca/eng/const/page-1.html" target="_blank" alt="Link to the Constitution Act, 1867">Constitution Act, 1867</a></li>
+            <li><a href="https://laws-lois.justice.gc.ca/eng/Const/page-12.html" target="_blank" alt="Link to the Constitution Act, 1982, Part 1: Canadian Charter of Rights and Freedoms">Constitution Act, 1982, Part 1: Canadian Charter of Rights and Freedoms</a></li>
+            <li><a href="https://laws-lois.justice.gc.ca/eng/acts/o-3.01/" target="_blank" alt="Link to the Official Languages Act web page">Official Languages Act</a></li>
             <li><a href="https://laws.justice.gc.ca/eng/regulations/sor-92-48/index.html" target="_blank" alt="Link to the Official Languages (Communications with and Services to the Public) Regulations web page">Official Languages (Communications with and Services to the Public) Regulations</a></li>
           </ul>
-          <p><b>Treasury Board policy instruments</b></p>
+          <p><b>Treasury Board Policy Instruments</b></p>
           <ul>
             <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=26163" target="_blank" alt="Link to the Directive on the Implementation of the Official Languages (Communications with and Services to the Public) Regulations web page">Directive on the Implementation of the Official Languages (Communications with and Services to the Public) Regulations</a></li>
             <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=26164" target="_blank" alt="Link to the Directive on Official Languages for Communications and Services web page">Directive on Official Languages for Communications and Services</a></li>
@@ -107,6 +108,31 @@
             <li><a href="https://www.tbs-sct.gc.ca/burolis/search-recherche/search-recherche-eng.aspx" target="_blank" alt="Link to the Burolis database web page">Burolis database</a></li>
             <li><a href="https://www.clo-ocol.gc.ca/html/stu_etu_032011_p7_e.php" target="_blank" alt="Link to the Leadership Competencies Profile for Official Languages web page">Leadership Competencies Profile for Official Languages</a></li>
             <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/values-ethics/official-languages/list-bilingual-regions-canada-language-of-work-purposes.html" target="_blank" alt="Link to the •	List of Bilingual Regions of Canada for Language-of-Work Purposes web page">List of Bilingual Regions of Canada for Language-of-Work Purposes</a></li>
+          </ul>
+        </div>
+        <div v-if="$i18n.locale=='fr'">
+          <p>Références : Liens externes</p>
+          <p>Voici une liste des ressources auxquelles on fait référence dans cette section. </p>
+          <p><b>Législation</b></p>
+          <ul>
+            <li><a href="https://laws-lois.justice.gc.ca/fra/const/page-1.html" target="_blank" alt="Lien vers la Loi constitutionnelle de 1867">Loi constitutionnelle de 1867</a></li>
+            <li><a href="https://laws-lois.justice.gc.ca/fra/Const/page-12.html" target="_blank" alt="Lien vers la Loi constitutionnelle de 1982, partie 1 : Charte canadienne des droits et libertés">Loi constitutionnelle de 1982, partie 1 : Charte canadienne des droits et libertés </a></li>
+            <li><a href="https://laws-lois.justice.gc.ca/fra/acts/o-3.01/" target="_blank" alt="Lien vers la page web de la Loi sur les langues officielles">Loi sur les langues officielles</a></li>
+            <li><a href="https://laws.justice.gc.ca/fra/reglements/DORS-92-48/index.html" target="_blank" alt="Lien vers la page web du Règlement sur les langues officielles - communications avec le public et prestation des services">Règlement sur les langues officielles – communications avec le public et prestation des services </a></li>
+          </ul>
+          <p><b>Instruments de politique du Conseil du Trésor</b></p>
+          <ul>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=26163" target="_blank" alt="Lien vers la page Web de la directive sur la mise en œuvre du Règlement sur les langues officielles (communications avec le public et prestation des services)">Directive sur l’application du Règlement sur les langues officielles – communications avec le public et prestation des services </a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=26164" target="_blank" alt="Lien vers la page web de la directive sur les langues officielles pour les communications et les services">Directive sur les langues officielles pour les communications et services</a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=26168" target="_blank" alt="Lien vers la page web de la Directive sur les langues officielles pour la gestion des personnes">Directive sur les langues officielles pour la gestion des personnes </a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=26160" target="_blank" alt="Lien vers la page web de la Politique sur les langues officielles">Politique sur les langues officielles </a></li>
+          </ul>
+          <p><b>Autres ressources</b></p>
+          <ul>
+            <li><a href="https://www.canada.ca/fr/commission-fonction-publique/services/cadre-nomination/guides-outils/evaluation-langues-officielles-cadre-dun-processus-nomination.html" target="_blank" alt="Lien vers la page web Évaluation des langues officielles dans le processus de nomination">Évaluation des langues officielles dans le cadre d’un processus de nomination</a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/burolis/search-recherche/search-recherche-eng.aspx?GoCTemplateCulture=fr-CA" target="_blank" alt="Lien vers la page web de la base de données Burolis">Base de données Burolis</a></li>
+            <li><a href="https://www.clo-ocol.gc.ca/html/stu_etu_032011_p7_f.php" target="_blank" alt="Lien vers la page web du profil de compétences en leadership pour les langues officielles">Profil de compétences en leadership axé sur les langues officielles </a></li>
+            <li><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/valeurs-ethique/langues-officielles/liste-regions-bilingues-canada-fins-langue-travail.html" target="_blank" alt="Lien vers la page Web Liste des régions bilingues du Canada aux fins de la langue de travail">Liste des régions bilingues du Canada aux fins de la langue de travail </a></li>
           </ul>
         </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
@@ -124,6 +150,14 @@
                 <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=26163" target="_blank" alt="Link to the Directive on the Implementation of the Official Languages (Communications with and Services to the Public) Regulations web page">Directive on the Implementation of the Official Languages (Communications with and Services to the Public) Regulations</a></li>
                 <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=26164" target="_blank" alt="Link to the Directive on Official Languages for Communications and Services web page">Directive on Official Languages for Communications and Services</a></li>
                 <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=26168" target="_blank" alt="Link to the Directive on Official Languages for People Management web page">Directive on Official Languages for People Management</a></li>
+            </ul>
+        </div>
+        <div v-if="$i18n.locale=='fr'">
+            <p>Les responsabilités précises des gestionnaires sont définies dans les directives pertinentes, qui font partie des instruments de politique : </p>
+            <ul>
+                <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=26163" target="_blank" alt="Lien vers la page Web de la directive sur la mise en œuvre du Règlement sur les langues officielles (communications avec le public et prestation des services)">Directive sur l’application du Règlement sur les langues officielles – communications avec le public et prestation des services </a></li>
+                <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=26164" target="_blank" alt="Lien vers la page web de la directive sur les langues officielles pour les communications et les services">Directive sur les langues officielles pour les communications et services</a></li>
+                <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=26168" target="_blank" alt="Lien vers la page web de la Directive sur les langues officielles pour la gestion des personnes">Directive sur les langues officielles pour la gestion des personnes </a></li>
             </ul>
         </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
@@ -158,6 +192,9 @@
         <div v-if="$i18n.locale=='en'">
           <p>To gain a better understanding of how to perform your duties in this area, consult the web page <a href="https://www.canada.ca/en/public-service-commission/services/appointment-framework/guides-tools-appointment-framework/assessment-official-languages-appointment-process.html" target="_blank" alt="Link to the Assessment of official languages in the appointment process web page">Assessment of official languages in the appointment process</a> for guidance.</p>
         </div>
+        <div v-if="$i18n.locale=='fr'">
+          <p>Pour mieux comprendre comment accomplir vos fonctions dans ce domaine, consultez la page Web <a href="https://www.canada.ca/fr/commission-fonction-publique/services/cadre-nomination/guides-outils/evaluation-langues-officielles-cadre-dun-processus-nomination.html" target="_blank" alt="Lien vers la page web Évaluation des langues officielles dans le processus de nomination">Évaluation des langues officielles dans le cadre d’un processus de nomination</a>.</p>
+        </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
       <b-modal id="InRealLife" @hide="resumePlay()" okOnly>
@@ -174,18 +211,11 @@
           </b-row>
         <div v-if="$i18n.locale=='en'">
           <p>Take what you have learned into real life!</p>
-          <p>Your organization will have its own ways of doing things. Take a time out from the course to consult the course tool box for a list of the persons responsible for official languages and the official languages champions in institutions subject to the <i>Official Languages Act</i>.</p>
+          <p>Your organization will have its own ways of doing things. Take a time out from the course to consult the course tool box for a list of the persons responsible for official languages and the official languages champions in institutions subject to the Official Languages Act.  </p>
         </div>
         <div v-if="$i18n.locale=='fr'">
-          <p>Faites une recherche afin de localiser les profils d’information sur le rendement de votre organisation et ses rapports externes, comme le Rapport ministériel sur les résultats.&nbsp;</p>
-          <p>Votre organisation aura sa propre fa&ccedil;on de produire des rapports sur la situation financi&egrave;re et de rendre compte de ses dépenses et de ses résultats. Parlez-en à votre section des finances ou de la planification et à votre directeur. Demandez-leur :</p>
-          <ul>
-            <li>Comment appelons-nous nos rapports sur la situation financi&egrave;re et à quoi ressemblent-ils ? &Agrave; quel endroit puis-je les trouver?</li>
-            <li>&Agrave; quelle fréquence préparons-nous des rapports sur la situation financi&egrave;re?&nbsp;</li>
-            <li>Doit-on remplir ces rapports dans le syst&egrave;me financier ou dans un tableur?</li>
-            <li>Quel est mon r&ocirc;le?</li>
-            <li>Quelles informations vais-je fournir pour alimenter les rapports externes?</li>
-          </ul>
+          <p>Appliquer ce que vous avez appris - dans la vraie vie! </p>
+          <p>Votre organisation aura sa propre façon de faire les choses. Prenez le temps pour consulter la boîte à outils du cours, où vous trouverez la liste des personnes responsables des langues officielles et des champions des langues officielles dans les institutions assujetties à la Loi sur les langues officielles. </p>
         </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
@@ -295,8 +325,10 @@ export default {
   "reportSectionBar": "VALUES"
   },
   "fr":{
-  "externalGovtReports":"Activité : Rapports externes du gouvernement",
-  "IdentifyResultsTitle":"Activité : Démontrer les résultats",
+  "legalFrameworkTitle": "Activité : Cadre juridique",
+  "officialLanguagesTitle": "Activité : Régions désignées bilingues aux fins de la langue de travail",
+  "languagesResponsibilitiesTitle": "Activité : Responsabilités des gestionnaires en matière de langues officielles pour la gestion des personnes ",
+  "languageRequirementsTitle": "Références : Établir les exigences linguistiques",
   "inRealLifeTitle":"Activité : Dans la vraie vie",
   "TakeTheQuiz":"Répondez au questionnaire",
   "transcriptText":"",

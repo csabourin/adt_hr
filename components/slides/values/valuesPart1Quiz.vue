@@ -54,7 +54,6 @@
 <i18n>{
   "en": {
   "instructions":"Answer the quiz.",
-  "matchInstructions": "Making the links between organization and classification and other HR disciplines will help guide you in the following activities. Match the sentence segments.",
     "q1": {
       "text": "<p>Tina would like to work from 6:00 am to 2:00 pm to avoid heavy traffic in her commute. Use the <a href='https://www.tbs-sct.gc.ca/agreements-conventions/view-visualiser-eng.aspx?id=15' target='_blank' alt='Link to the Program and Administrative Services collective agreement web page'>Program and Administrative Services collective agreement</a> to help you decide if you should approve Tina’s request.</p>",
       "options": {
@@ -143,42 +142,92 @@
     }
   },
   "fr": {
-  "instructions":"Répondez aux questions suivantes en consultant la facture fournie.",
+  "instructions":"Répondez aux questions suivantes.",
     "q1": {
-      "text": "Vous avez reçu 15 paires de lunettes roses. Les 5 autres paires sont en rupture de stock. Payez-vous la facture pour la commande compl&egrave;te de 20 paires?",
+      "text": "<p>Tina aimerait travailler de 6 h à 14 h pour éviter les embouteillages. Utilisez la <a href='https://www.tbs-sct.gc.ca/agreements-conventions/view-visualiser-fra.aspx?id=15' target='_blank' alt='Lien vers la page Web de la convention collective des Services des programmes et de l'administration'>convention collective des Services des programmes et de l’administration</a> pour décider si vous devriez approuver la demande de Tina.</p>",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Approuver la demande.",
+        "2": "Approuver la demande après avoir vérifié que d’autres employés seront présents pour répondre aux besoins opérationnels après 14 h.",
+        "3": "Refuser demande parce que Tina pourrait prendre l’autobus pour se rendre au travail.",
+        "4": "Refuser la demande, car les heures de travail doivent se situer entre 7 h et 18 h. "
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "4": "<span class='v-right' /><strong>Correct!</strong>"
       },
-      "conclusion": "Vous devrez contacter le fournisseur pour faire corriger la facture, car vous n’avez pas reçu 5 paires."
+      "conclusion": "Vous devriez refuser la demande, car les heures de travail doivent se siter entre de 7 h et 18 h. Voir l’article 25.08 de la convention collective."
     },
     "q2": {
-      "text": "Vous avez commandé des surligneurs d’une valeur de 10&nbsp;$ auprès de l’Entreprise XYZ. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "John a demandé un congé payé pour prendre soin de son père, qui est malade et vit dans un foyer de soins de longue durée. Utilisez la <a href='https://www.tbs-sct.gc.ca/agreements-conventions/view-visualiser-fra.aspx?id=15' target='_blank' alt='Lien vers la page Web de la convention collective des Services des programmes et de l'administration'>convention collective des Services des programmes et de l’administration</a> pour décider si vous devriez approuver la demande de John.",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "Approuver la demande. Le congé pour raisons familiales s’applique aux parents, qu’ils résident ou non avec l’employé. ",
+        "2": "Rejeter la demande. Le congé pour raisons familiales ne s’applique aux parents que s’ils résident avec l’employé."
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       },
-      "conclusion": "Si vous regardez attentivement, vous avez commandé chez Entreprise XYZ, mais la facture indique Entreprise ABC."
+      "conclusion": "Lorsque des soins doivent être donnés à un parent, un employé a droit à un congé payé pour obligations familiales, que le parent en question réside ou non avec l’employé. Voir l’article 44.01 de la convention collective."
     },
     "q3": {
-      "text": "Vous avez commandé des lunettes roses au prix de 20&nbsp;$ la paire. En regardant la facture fournie, devriez-vous la payer?",
+      "text": "<p>Répondez à la question suivante à l’aide de la <a href='https://www.njc-cnm.gc.ca/directive/d7/v23/s252/fr#s252-tc-tm_3' target='_blank' alt='Lien vers la page web de la directive sur la santé et la sécurité au travail'>Directive sur la santé et la sécurité au travail</a>.</p><p>Quel est l’intervalle de température idéal pour le bureau pendant les heures de travail?</p>",
       "options": {
-        "1": "Oui",
-        "2": "Non"
+        "1": "De 18 °C à 22 °C",
+        "2": "De 17 °C à 24 °C",
+        "3": "De 19 °C à 24 °C ",
+        "4": "De 20 °C à 26 °C "
+      },
+      "feedback": {
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "4": "<span class='v-right' /><strong>Correct!</strong>"
+      },
+      "conclusion": "La température idéale est de 20 °C à 26 °C. Voir l’article 2.2.2 de la Directive."
+    },
+    "q4": {
+      "text": "<p>En tant que gestionnaire, si vous recevez un grief d’un employé, que devez-vous faire? </p>",
+      "options": {
+        "1": "Accuser réception du grief et le transmettre à la personne responsable du traitement des griefs dans votre organisation. ",
+        "2": "Parler à l’employé afin de mieux comprendre son grief. ",
+        "3": "Parler aux employés concernés afin de trouver une solution."
+      },
+      "feedback": {
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      },
+      "conclusion": "Accuser réception du grief et le transmettre à la personne responsable du traitement des griefs dans votre organisation."
+    },
+    "q5": {
+      "text": "Selon le <a href='https://www.canada.ca/fr/gouvernement/fonctionpublique/mieux-etre-inclusion-diversite-fonction-publique/prevention-resolution-harcelement/systeme-gestion-informelle-conflits/guide-principaux-elements-sgic-administration-publique-centrale.html' target='_blank' alt='Lien vers le guide des éléments clés d'un SGIC dans la page web de l'administration publique centrale'>Guide des principaux éléments d’un SGIC dans l’administration publique centrale</a>, lesquels des éléments suivants constituent des pratiques exemplaires en matière de système de gestion informelle des conflits (SGIC)?",
+      "options": {
+        "1": "Créer une culture propice à la résolution des conflits, au plus bas niveau possible, en favorisant le dialogue entre les parties.  ",
+        "2": "Offrir aux gestionnaires et aux employés une formation sur la gestion des conflits. ",
+        "3": "Proposer aux employés plusieurs personnes pour qu’ils aient accès à une personne digne de confiance qui connaît bien le SGIC. ",
+        "4": "Mettre à la disposition des employés des processus informels, comme l’encadrement et la médiation, en vue de traiter les conflits. ",
+        "5": "Mettre à la disposition des employés des ressources de gestion du stress et des formations afin de désamorcer les conflits. ",
+        "6": "Prévoir des procédures pour que les employés puissent passer d’un processus formel à un processus informel, s’ils le souhaitent.  "
+      },
+      "feedback": {
+        "right": "<span class='v-right' /><strong>Correct!</strong>",
+        "wrong": "<span class='v-wrong' /><strong>Incorrect.</strong>"
+      },
+      "conclusion": "Une formation devrait être offerte avant les conflits au lieu de servir à les régler. Les ressources et la formation concernant la gestion du stress ne figurent pas dans la liste des pratiques exemplaires. Toutes les autres réponses sont correctes. "
+    },
+    "q6": {
+      "text": "Le Conseil du Trésor détermine seul les modalités des conventions collectives. ",
+      "options": {
+        "1": "Vrai",
+        "2": "Faux"
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "2": "<span class='v-right' /><strong>Correct!</strong>"
       },
-      "conclusion": " Si vous regardez bien, vous avez commandé des lunettes roses à 20&nbsp;$ la paire. La facture indique 25&nbsp;$ l’unité. Vous devrez communiquer avec le fournisseur pour faire corriger la facture."
+      "conclusion": "La réponse est Faux. Le Conseil du Trésor négocie les conditions d’emploi et la rémunération des employés syndiqués avec les agents négociateurs concernés et détermine la rémunération des employés non syndiqués. "
     }
   }
 }</i18n>
