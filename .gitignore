@@ -89,3 +89,6 @@ sw.*
 
 # Scorm packages
 *G380_*.zip
+
+# Folder Visual Code
+.vs
