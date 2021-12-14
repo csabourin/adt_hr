@@ -3,8 +3,6 @@
     <h2 class="pageTitle">{{$t('KeyMessages')}}</h2>
     <p><img src="~/assets/KeyMessP.svg" alt="" role="presentation" height="275"></p>
     <p>&nbsp;</p>
-    <p class="quote plan"><q class="bigQuote" :class="{'french-quote':$i18n.locale=='fr'}">{{$t('keyPlanQuote')}}</q></p>
-    <p>&nbsp;</p>
     <b-container style="text-align: left">
       <b-row>
         <b-col cols="12" lg>
@@ -27,7 +25,12 @@
             <ul>
               <li>La <i>Loi sur la gestion des finances publiques</i> et la <i>Loi sur l’emploi dans la fonction publique</i> confèrent aux administrateurs généraux certains pouvoirs en matière de RH.</li>
               <li>Une personne peut exercer ses pouvoirs délégués une fois : </li>
-              <li>Plus précisément, avec l’aide de votre équipe, vous définissez et priorisez le travail et les activités de votre unité, attribuez des ressources et des échéanciers à chaque activité, veillez à ce que les activités s’alignent aux priorités organisationnelles et effectuez une évaluation des risques.&nbsp;</li>
+              <ul>
+                <li>qu’elle occupe le poste associé aux pouvoirs, </li>
+                <li>qu’elle a suivi la formation nécessaire et  </li>
+                <li>qu’elle a reçu la délégation de la part de l’administrateur général.  </li>
+              </ul>
+              <li>Chaque organisation a ses propres outils lui permettant de déléguer les pouvoirs au niveau de gestion approprié.</li>
             </ul>
           </span>
         </b-col>
@@ -49,21 +52,28 @@
             </ul>
           </span>
           <span v-if="$i18n.locale=='fr'">
-            <h3>Créer un budget</h3>
+            <h3>Planification des ressources humaines</h3>
             <ul>
-              <li>Essentiellement, les budgets représentent la conversion des plans de travail en termes financiers. En d’autres mots, le budget représente le montant que vous prévoyez dépenser pour réaliser les activités de votre plan de travail.</li>
+              <li>La planification des ressources humaines est essentielle à l’évaluation et à la compréhension des besoins actuels et futurs de l’ensemble de la fonction publique. Elle traite de la manière dont une organisation désigne et déploie ses effectifs pour atteindre ses objectifs opérationnels, son mandat et les priorités gouvernementales de haut niveau.</li>
               <!--
                 NOUVELLE VERION? (CSPS-TD)
                 <li>Les budgets correspondent essentiellement aux plans de travail exprimés en termes financiers. Autrement dit, le budget représente le montant que vous prévoyez dépenser pour réaliser votre plan.</li>
               -->
 
-              <li>Habituellement, les budgets comprennent les coûts de fonctionnement et d'entretien (F et E) et les coûts salariaux. Selon le mandat de votre ministère, certains budgets peuvent également inclure des montants d'immobilisations et de subventions et contributions.</li>
+              <li>La planification des RH permet aussi de trouver des stratégies et des activités optimales pour une grande variété d’importants volets de la gestion comme le recrutement, le maintien en poste, l’apprentissage, le perfectionnement, la mobilisation des employés, la gestion du talent, l’avancement, la relève, l’équité en matière d’emploi et les langues officielles.</li>
               <!--
                 NOUVELLE VERSION? (CSPS-TD)
                 <li>Pour créer un budget, vous passez en revue le budget de l’année précédente afin de déterminer quels salaires, quelles dépenses de fonctionnement et d’entretien et, dans certains cas, de capital et des subventions et contributions vous devrez conserver, éliminer ou ajouter.</li>
               -->
 
-              <li>Pour créer votre budget, vous devez analyser les informations de diverses sources, prévoir vos nouveaux besoins budgétaires et soumettre votre nouveau budget pour approbation à la direction.</li>
+              <li>Vos responsabilités en tant que gestionnaire consistent à : </li>
+              <ol>
+                <li>Déterminer les qualités requises chez les personnes occupant des postes clés pour contribuer au succès des priorités organisationnelles.</li>
+                <li>Communiquer le plan des RH présentant des écarts importants ou nouveaux, y compris les stratégies de planification de la relève.</li>
+                <li>Encourager des occasions de perfectionnement qui visent à corriger les écarts.</li>
+                <li>Lier les stratégies de planification de la relève à la planification de programmes et à la planification financière.</li>
+                <li>Évaluer l’efficacité du plan et l’adapter au besoin.</li>
+              </ol>
               <!--
                 NOUVELLE VERSION? (CSPS-TD)
                 <li>Vous comparez le budget de l’année précédente au nouveau plan de travail en vous assurant que toutes les dépenses liées aux activités sont prises en compte. Vous prévoyez les dépenses et soumettez le nouveau budget proposé pour approbation, en y apportant des modifications tout au long de l’année à mesure que les activités évoluent.</li>
@@ -86,21 +96,6 @@
                 </b-col>
                 <b-col role="tab" cols="12" sm="6" md="4" lg="2" class="text-center">
                   <download :texts="$t('WPLastYear')" size=128 iconColor="planBackground" :fileSize="$i18n.locale == 'en' ? '120' : '120'" name="WorkPlan_lastYear" />
-                </b-col>
-                <b-col role="tab" cols="12" sm="6" md="4" lg="2" class="text-center">
-                  <download :texts="$t('budgetLastYear')" size=128  iconColor="spendBackground" :fileSize="$i18n.locale == 'en' ? '9.96' : '9,62'" name="Budget_lastYear" />
-                </b-col>
-                <b-col role="tab" cols="12" sm="6" md="4" lg="2" class="text-center">
-                  <download :texts="$t('reportsLastYear')" iconColor="reportBackground" size=128 :title="$t('rExample')" :line1="$t('rLine1')" :line2="$t('rLine2')" :lineTag="$t('rExample')" :fileSize="$i18n.locale == 'en' ? '16.6' : '19,4'" name="ReportLast" />
-                </b-col>
-                <b-col role="tab" cols="12" sm="6" md="4" lg="2" class="text-center">
-                  <download :texts="$t('buildWPProcessMap')" size=128 iconColor="planBackground" :fileSize="$i18n.locale == 'en' ? '121' : '114'" name="buildWPProcessMap" />
-                </b-col>
-                <b-col role="tab" cols="12" sm="6" md="4" lg="2" class="text-center">
-                  <download :texts="$t('newBudget')" size=128 iconColor="planBackground" :fileSize="$i18n.locale == 'en' ? '129' : '131'" name="newBudget" />
-                </b-col>
-                <b-col role="tab" cols="12" sm="6" md="4" lg="2" class="text-center">
-                  <download :texts="$t('cycle')" size=128 iconColor="Scan360Background" :fileSize="$i18n.locale == 'en' ? '61.6' : '62,6'" name="cycle" />
                 </b-col>
               </b-row>
             </template>
