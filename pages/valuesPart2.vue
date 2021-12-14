@@ -19,54 +19,181 @@
                   <b-card-body>
                     <b-card-text>
                       <span v-if="$i18n.locale=='en'">
-                        <h2>1. External Government Reports</h2>
-                        <p>The Government of Canada regularly publishes reports to keep Canadians informed on its spending and on the results it achieves using public funds.</p>
-                        <p>As a manager, it’s unlikely that you will be required to write these reports yourself. However, the work you do may be included in these reports. For example, you may be asked to report on how well your programs achieved their intended results. As such, you must continuously track your performance and results and compare them with what was planned.</p>
-                        <p>Let’s do a quick activity to get more familiar with the terminology!</p>
-                        <hr>
-                        <h2>2. Identify Results</h2>
-                        <p>Fiscal year-end is when reporting closes the loop on work plans within the organization, and when we present, globally, the results we achieved in the Departmental Results Report. As the fiscal year is a cycle, last year’s results will inform planning for the next fiscal year.</p>
-                        <p>You need to demonstrate how your performance compares with what you set out in your work plan, and explain any variances. In most departments, your Planning or Finance section will reach out to you to request this information.</p>
-                        <p>Demonstrating your performance means showing whether you met the indicators as set out in the PIPs, the performance information profiles. These identify more concretely each program’s core responsibility and results to be achieved. Some departments review performance information profiles throughout the year to see if the targets are on track or at risk of not being achieved.</p>
-                        <p>In the next activity, you will have the opportunity to practise reporting on whether your targets were met.</p>
-                        <hr>
-                        <h2>3. In Real Life</h2>
-                        <p>Let’s take what you have learned into real life. Look up your organization’s performance information profiles and its external reports, such as the Departmental Results Report.</p>
-                        <p>Your organization will have their own ways of doing financial situation reports, and reporting on spending and results. Talk to your Finance or Planning section and your director. Ask them:</p>
+                        <h2>Values and Ethics</h2>
+                        <p>Values and ethics guide managers in responsible decision making and in exercising due diligence in their responsibilities and accountabilities.</p>
+                        <p>The Values and Ethics Code for the Public Sector and the  Directive on Conflict of Interest, issued under the Policy on People Management, guide all public servants in their professional duties. The code and the directive are a condition of employment, which means that all employees must read and agree to them in order to be employed in the public service.</p>
+                        <p>Values and ethics at the core</p>
+                        <p>The values and expected behaviours outlined in the Values and Ethics Code for the Public Sector are at the foundation of good management and leadership, and they are a key element in upholding integrity and respect.</p>
+                        <p>When considering a values and ethics decision, ask yourself these questions:</p>
                         <ul>
-                          <li>What do we call our financial situation reports, and what do they look like? Where can I find them?</li>
-                          <li>How frequently do we prepare them?</li>
-                          <li>Do we complete these reports in the financial system or in a spreadsheet?</li>
-                          <li>What is my role? </li>
-                          <li>And what information will I provide to feed into external reports?</li>
+                          <li>Do I have the authority to make this decision?</li>
+                          <li>Have I considered my options?</li>
+                          <li>Have I consulted my resources?</li>
+                        </ul>
+                        <p>A public servant who acts in a manner that violates the Values and Ethics Code for the Public Sector or the Directive on Conflict of Interest may be subject to disciplinary measures, up to and including termination of employment.</p>
+                        <p>In certain circumstances, public servants could even be charged under Canada’s Criminal Code for breaches of conduct.</p>
+                        <p>In this section you will learn to:</p>
+                        <ul>
+                          <li>Identify key elements involved in values and ethics</li>
+                          <li>Recognize harassment and violence</li>
+                          <li>Recognize the steps in the harassment and violence complaint process</li>
+                          <li>Identify acts of wrongdoing as defined by the <i>Public Servants Disclosure Protection Act</i></li>
+                        </ul>
+                        <p>This section should take you approximately 30 minutes to complete.</p>
+                        <hr>
+
+                        <h2>Respect for People</h2>
+                        <p>Respect for people is one value that must be emphasized among all others.</p>
+                        <p>Fostering a safe, healthy work environment, including protecting employees from harassment and violence, is a key requirement of employers (or deputy heads), as outlined in the Directive on the Prevention and Resolution of Workplace Harassment and Violence and the Work Place Harassment and Violence Prevention Regulations.</p>
+                        <p>As a manager you are in a position of influence and authority. You have a responsibility to:</p>
+                        <ul>
+                          <li>explain and guide your staff in acting ethically</li>
+                          <li>be a role model to your team, and</li>
+                          <li>apply a values-and-ethics filter in executing your responsibilities</li>
+                        </ul>
+                        <p>To help you assess whether the behaviour (an act, comment or display) constitutes harassment and violence, ask yourself the following questions:</p>
+                        <ul>
+                          <li>Did I experience or witness unwelcome or offensive behaviour?</li>
+                          <li>Did it demean, belittle or cause personal humiliation or embarrassment?</li>
+                        </ul>
+                        <p>For a definition of workplace harassment and violence and a full list of examples, please consult the web page Requirements for employers to prevent harassment and violence in federally regulated workplaces.</p>
+                        <p>Harassment and violence can be one severe incident that has a lasting impact on the individual, or it can be a series of objectionable actions, conduct or comments against a person because of, for example, that person’s race, national or ethnic origin, religion, age, sexual orientation, gender identity or expression, genetic characteristics, disability or any of the other prohibited grounds listed in the <i>Canadian Human Rights Act</i>. In addition, the United Nations Declaration on the Rights of Indigenous Peoples expands the scope of discrimination to include culture, identity, religion, language, health, education and community.</p>
+                        <p>When assessing a situation, consider the severity and impropriety of the act, the circumstances and context of the situation, and whether the behaviour is prohibited under the <i>Canadian Human Rights Act</i>.</p>
+                        <hr>
+
+                        <h2>Harassment and Violence</h2>
+                        <p>A formal process is initiated when an employee files a written complaint with the individual or unit responsible for managing harassment and violence complaints.</p>
+                        <p>For more information on the formal process, please refer to the Work Place Harassment and Violence Prevention Regulations.</p>
+                        <p>Harassment and violence is serious and needs to be addressed promptly, with sensitivity, competence and discretion.</p>
+                        <p>The primary goal is to resolve allegations of harassment and violence with the least disruption to the work environment. To accomplish this, follow the eight steps detailed on this website: Resolve a workplace harassment and violence complaint.  The steps include:</p>
+                        <ul>
+                          <li>Acknowledging receipt of the complaint and notifying the employee who is the object of the complaint</li>
+                          <li>Informing the principle party of the resources available to them</li>
+                          <li>Making every reasonable effort to resolve the occurrence, and</li>
+                          <li>Recording  all occurrences of harassment and violence that have been reported to you</li>
                         </ul>
                         <hr>
-                        <h2>4. Section Completed</h2>
+
+                        <h2>Directive on Conflict of Interest</h2>
+                        <p>During your career in the public service, you may be required to address conflicts of interest between your private and professional activities outside of work and your official duties and responsibilities.</p>
+                        <p>Compliance with the Policy on People Management and the Directive on Conflict of Interest is a condition of employment. The directive details requirements for public servants to prevent and deal with any real, apparent or potential conflict of interest during their employment and post-employment.</p>
+                        <p>In essence, the directive states that all public servants must serve the public interest by taking all possible steps to prevent and resolve, in favour of the public interest, any real, apparent or potential conflicts of interest between their official responsibilities and their private affairs.</p>
+                        <p>For example, employment outside of the public service could be seen as a conflict of interest. So, if an employee informs you that they are self-employed or are considering a position outside the federal public service, it is your responsibility to:</p>
+                        <ul>
+                          <li>ask the employee to review the requirements outlined in the directive, and</li>
+                          <li>write a report to inform the deputy head to determine whether the situation could place the employee in a real, apparent or potential conflict of interest</li>
+                        </ul>
+                        <hr>
+
+                        <h2>Defining Wrongdoing</h2>
+                        <p>The Public Servants Disclosure Protection Act (PSDPA) establishes a process for public sector employees to come forward if they believe that wrongdoing has occurred or is about to occur in the workplace.</p>
+                        <p>Wrongdoing is defined under the PSDPA as any of the following:</p>
+                        <ul>
+                          <li>breaking laws or regulations</li>
+                          <li>misusing public funds or assets</li>
+                          <li>gross mismanagement</li>
+                          <li>an act or omission that endangers the life, health and safety of Canadians or the environment</li>
+                          <li>a serious breach of the public sector or organizational code of conduct, or</li>
+                          <li>directing or counselling a person to do any of these things</li>
+                        </ul>
+                        <p>The legislation protects public servants’ confidentiality when disclosing suspected wrongdoing and protects them from possible reprisals. As a manager, you have an important role to play in modelling values-based leadership and informing your employees of their rights and options under the PSDPA.</p>
+                        <p>You may encounter situations where employees disclose wrongdoing to you. It is your role to receive the disclosure, inform your organization’s senior officer for internal disclosure, and protect the identity of those involved in the disclosure process. Employees may also choose to approach the senior officer for internal disclosure or the Public Sector Integrity Commissioner directly.</p>
+                        <hr>
+
+                        <h2>In Real Life</h2>
+                        <p>Take what you have learned into real life!</p>
+                        <p>Your organization will have its own ways of doing things. Take a time out from the course to do several things.</p>
+                        <hr>
+
+                        <h2>Quiz</h2>
+                        <p>Test your knowledge by answering the following questions. Select “Submit” when you are done.</p>
                       </span>
                       <span v-if="$i18n.locale=='fr'">
-                        <h2>1. Rapports externes du gouvernement</h2>
-                        <p>Le gouvernement du Canada publie régulièrement des rapports pour tenir les Canadiens au courant de ses dépenses et des résultats qu’il a obtenus grâce aux fonds publics. </p>
-                        <p>En tant que gestionnaire, il est peu probable que vous ayez à rédiger ces rapports vous-même. Cependant, le travail que vous faites peut être inclus dans ces rapports. Par exemple, on vous demandera peut-être d'indiquer dans quelle mesure vos programmes ont atteint les résultats visés à l’origine. Pour ce faire, vous devez effectuer un suivi continu de votre rendement et de vos résultats par rapport à ce qui avait été planifié.</p>
-                        <p>Voici une petite activité pour vous familiariser avec la terminologie nécessaire!</p>
-                        <hr>
-                        <h2>2. Démontrer les résultats</h2>
-                        <p>La fin de l'exercice financier est le moment où la production de rapports ferme la boucle des plans de travail de l’organisation et permet de présenter, de manière globale, les résultats de l’année dans le Rapport sur les résultats ministériels. Comme l’exercice financier est un cycle, les résultats de l’an dernier permettront la planification de l’année qui vient.</p>
-                        <p>Vous devrez faire état de votre rendement par rapport à ce qui avait été prévu dans votre plan de travail et justifier tout écart. Dans la plupart des ministères, la section de la Planification ou des Finances communiquera avec vous pour vous demander ces renseignements.</p>
-                        <p>Démontrer votre rendement signifie démontrer si vous avez atteint les indicateurs établis dans le PIR -  les profils de l’information sur le rendement. Celles-ci déterminent de façon plus concrète la responsabilité fondamentale de chaque programme et les résultats à atteindre. Certains ministères examinent les profils de l'information sur le rendement tout au long de l'année pour voir si les chiffres cibles sont en bonne voie d’être atteints ou s’ils risquent de ne pas l’être</p>
-                        <p>L’activité suivante vous permettra de vous exercer à rapporter si les objectifs ont été atteints.</p>
-                        <hr>
-                        <h2>3. Dans la vraie vie</h2>
-                        <p>Appliquons ce que vous avez appris dans la vraie vie. Cherchez les profils de l'information sur le rendement de votre organisation et ses rapports externes, comme le Rapport sur les résultats ministériels.</p>
-                        <p>Votre organisation aura sa propre façon de produire des rapports sur la situation financière et de rendre compte de ses dépenses et de ses résultats. Parlez-en à votre section des Finances ou de la Planification et à votre directeur. Demandez-leur :</p>
+                        <h2>Introduction</h2>
+                        <p>Les valeurs et l’éthique guident les gestionnaires vers une prise de décisions responsable et vers l’exercice d’une diligence raisonnable dans le cadre de leurs responsabilités et de leurs obligations.</p>
+                        <p>Le Code de valeurs et d’éthique du secteur public et la Directive sur les conflits d’intérêts, qui a été élaborée conformément à la Politique sur la gestion des personnes, orientent les fonctionnaires dans l’exercice de leurs fonctions. Le respect du Code et de la Directive constitue une condition d’emploi, ce qui signifie que tous les employés doivent les lire et les accepter pour travailler dans la fonction publique.</p>
+                        <p>Les valeurs et les comportements attendus qui sont présentés dans le <i>Code de valeurs et d’éthique du secteur public</i> sont au cœur d’une bonne gestion et d’un bon leadership. Ils constituent un élément incontournable du maintien de l’intégrité et du respect.</p>
+                        <p>Lorsque vous devez prendre une décision qui concerne les valeurs et l’éthique, posez-vous les questions suivantes : </p>
                         <ul>
-                          <li>Comment s’appellent nos rapports sur la situation financière et à quoi ressemblent-ils? À quel endroit puis-je les trouver?</li>
-                          <li>À quelle fréquence préparons-nous des rapports sur la situation financière?</li>
-                          <li>Doit-on remplir ces rapports dans le système financier ou dans un tableur?</li>
-                          <li>Quel est mon rôle?</li>
-                          <li>Et quelles informations vais-je fournir pour alimenter les rapports externes?</li>
+                          <li>Ai-je le pouvoir de prendre cette décision?</li>
+                          <li>Ai-je envisagé mes options?</li>
+                          <li>Ai-je consulté mes ressources?</li>
+                        </ul>
+                        <p>Les fonctionnaires qui enfreignent le <i>Code de valeurs et d’éthique du secteur public</i> ou la Directive sur les conflits d’intérêts peuvent faire l’objet de mesures disciplinaires pouvant aller jusqu’au congédiement.</p>
+                        <p>Dans certaines circonstances, les fonctionnaires pourraient même être accusés en vertu du <i>Code criminel</i> du Canada pour écarts de conduite.</p>
+                        <p>Dans cette section, vous apprendrez à : </p>
+                        <ul>
+                          <li>cerner les éléments clés entourant les valeurs et l’éthique;</li>
+                          <li>reconnaître le harcèlement et la violence.</li>
+                        </ul>
+                        <p>Il vous faudra environ 30 minutes pour compléter cette section.</p>
+                        <hr>
+
+                        <h2>Respecter les gens</h2>
+                        <p>Le respect envers les gens est l’une des valeurs sur laquelle il faut insister.</p>
+                        <p>Les employeurs (ou les administrateurs généraux) doivent mettre un point d’honneur à favoriser un environnement de travail sain et sécuritaire, notamment en protégeant les employés contre le harcèlement et la violence, comme le soulignent la Directive sur la Prévention et la résolution du harcèlement et de la violence dans le lieu de travail et le Règlement sur la prévention du harcèlement et de la violence dans le lieu de travail.</p>
+                        <p>En tant que gestionnaire, vous êtes en position d’influence et d’autorité. Il vous incombe : </p>
+                        <ul>
+                          <li>d’expliquer aux membres de votre personnel comment agir de manière éthique et de les guider en ce sens;</li>
+                          <li>d’agir comme modèle pour votre équipe;</li>
+                          <li>d’appliquer un filtre de valeurs et d’éthique lorsque vous vous acquittez de vos responsabilités.</li>
+                        </ul>
+                        <p>Pour déterminer si le comportement (acte, commentaire ou geste) constitue du harcèlement et de la violence, posez-vous les questions suivantes : </p>
+                        <ul>
+                          <li>Ai-je été victime ou témoin d’un comportement déplacé ou offensant?</li>
+                          <li>Est-ce que le comportement a rabaissé, diminué, humilié ou embarrassé la personne visée?</li>
+                        </ul>
+                        <p>Pour connaître la définition du harcèlement et de la violence au travail et consulter une liste exhaustive d’exemples, rendez-vous sur la page Web Obligations des employeurs pour prévenir le harcèlement et la violence en milieu de travail sous réglementation fédérale.</p>
+                        <p>Le harcèlement et la violence peuvent consister en un seul incident grave ayant des conséquences durables sur la personne visée ou en une série de gestes, de comportements ou de commentaires répréhensibles à l’égard d’une personne en raison, par exemple, de sa race, de son origine nationale ou ethnique, de sa religion, de son âge, de son orientation sexuelle, de son identité ou de son expression de genre, de ses caractéristiques génétiques, d’une déficience ou d’un autre motif de distinction illicite mentionnée dans la <i>Loi canadienne sur les droits de la personne</i>. Par ailleurs, la Déclaration des Nations Unies sur les Droits des Peuples Autochtones redéfinit la discrimination pour que soient prises en compte la culture, l’identité, la religion, la langue, la santé, l’éducation et la communauté.</p>
+                        <p>Au moment d’évaluer une situation, il faut examiner la gravité et le caractère inopportun du geste, les circonstances et le contexte, et il faut déterminer si le comportement est interdit aux termes de la <i>Loi canadienne sur les droits de la personne</i>.</p>
+                        <hr>
+
+                        <h2>Harcèlement et violence</h2>
+                        <p>Un processus formel est amorcé lorsqu’un employé dépose une plainte écrite auprès de la personne ou de l’unité responsable de la gestion des plaintes pour harcèlement et violence.</p>
+                        <p>Pour en savoir plus sur le processus officiel, consultez le Règlement sur la prévention du harcèlement et de la violence dans le lieu de travail.</p>
+                        <p>Les situations de harcèlement et de violence sont sérieuses et doivent être réglées sans délai, avec doigté, compétence et discrétion.</p>
+                        <p>L’objectif principal est de résoudre les allégations de harcèlement et de violence en perturbant le moins possible le milieu de travail. Pour y parvenir, suivez les huit étapes détaillées sur ce site Web : Régler une plainte de harcèlement ou de violence en milieu de travail. En voici une liste non exhaustive : </p>
+                        <ul>
+                          <li>accuser réception de la plainte et informer l’employé visé par la plainte;</li>
+                          <li>informer la partie principale des ressources dont elle dispose;</li>
+                          <li>faire tous les efforts raisonnables pour régler l’incident;</li>
+                          <li>consigner toutes les situations de harcèlement et de violence qui vous ont été signalées.</li>
                         </ul>
                         <hr>
-                        <h2>4. Section complétée</h2>                        
+
+                        <h2>Directive sur les conflits d’intérêts</h2>
+                        <p>Au cours de votre carrière dans la fonction publique, vous pourriez vous retrouver dans une situation de conflits d’intérêts entre vos activités personnelles et professionnelles en dehors du travail et vos fonctions et responsabilités officielles.</p>
+                        <p>La conformité à la Politique sur la gestion des personnes et à la Directive sur les conflits d’intérêts est une condition d’emploi. La Directive énonce en détail les exigences auxquelles doivent se soumettre les fonctionnaires pour prévenir et traiter tout conflit d’intérêts réel, apparent ou potentiel pendant et après leur emploi.</p>
+                        <p>La Directive indique essentiellement que tous les fonctionnaires doivent servir l’intérêt public en prenant toutes les mesures possibles pour prévenir et résoudre tout conflit d’intérêts réel, apparent ou potentiel entre leurs responsabilités officielles et leurs intérêts personnels.</p>
+                        <p>Par exemple, le fait d’occuper un emploi à l’extérieur de la fonction publique peut être perçu comme un conflit d’intérêts. Ainsi, si un employé vous informe qu’il est travailleur autonome ou envisage d’accepter un emploi à l’extérieur de la fonction publique, vous devez :</p>
+                        <ul>
+                          <li>demander à l’employé de revoir les exigences présentées dans la Directive;</li>
+                          <li>rédiger un rapport pour informer l’administrateur général afin qu’il détermine si l’employé pourrait se retrouver en situation de conflit d’intérêts réel, apparent ou potentiel.</li>
+                        </ul>
+                        <hr>
+
+                        <h2>Définition d’un acte répréhensible</h2>
+                        <p>La <i>Loi sur la protection des fonctionnaires divulgateurs d’actes répréhensibles</i> (LPFDAR) énonce le processus que les employés du secteur public doivent suivre pour dénoncer tout acte répréhensible qui est commis ou sur le point d’être commis en milieu de travail.</p>
+                        <p>Selon la LPFDAR, un acte répréhensible s’entend de ce qui suit : </p>
+                        <ul>
+                          <li>la contravention d’une loi ou d’un règlement;</li>
+                          <li>un usage abusif des fonds ou des biens publics;</li>
+                          <li>un cas grave de mauvaise gestion;</li>
+                          <li>un geste ou une omission qui met en péril la vie, la santé ou la sécurité humaine ou l’environnement;</li>
+                          <li>la contravention grave du code de conduite du secteur public ou d’une organisation;</li>
+                          <li>le fait d’ordonner ou de conseiller à une personne de poser l’un de ces gestes.</li>
+                        </ul>
+                        <p>La loi préserve la confidentialité des fonctionnaires qui révèlent des actes répréhensibles présumés et les protège contre d’éventuelles représailles. En tant que gestionnaire, vous jouez un rôle important en montrant l’exemple d’un leadership fondé sur des valeurs et en informant vos employés sur leurs droits [et] des options qui s’offrent à eux aux termes de la LPFDAR.</p>
+                        <p>Il pourrait arriver que des employés vous révèlent des actes répréhensibles. Vous avez la responsabilité de recevoir la divulgation, d’informer l’agent principal chargé de la divulgation à l’interne et de protéger l’identité des personnes visées par le processus de divulgation. Les employés peuvent également s’adresser directement à l’agent principal chargé de la divulgation à l’interne ou au commissaire à l’intégrité du secteur public.</p>
+                        <hr>
+
+                        <h2>Dans la vraie vie</h2>
+                        <p>Appliquez ce que vous avez appris - dans la vraie vie!</p>
+                        <p>Votre organisation aura sa propre façon de faire les choses. Prenez le temps pour faire ce que l’on vous propose ci-dessous.</p>
+                        <hr>
+
+                        <h2>Quiz</h2>
+                        <p>Évaluez vos connaissances en répondant aux questions suivantes. Cliquez sur « Soumettre » lorsque vous avez terminé.</p>                        
                       </span>
                     </b-card-text>
                   </b-card-body>
