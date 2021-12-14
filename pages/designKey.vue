@@ -9,18 +9,24 @@
       <b-row>
         <b-col cols="12" lg>
           <span v-if="$i18n.locale=='en'">
-            <h3>Build a Work Plan</h3>
+            <h3>Human Resources Delegation</h3>
             <ul>
-              <li>A work plan is a detailed schedule of the activities to be carried out, resources to be consumed, and results to be achieved over a one-year period, usually a fiscal year for a responsibility centre.</li>
-              <li>To build a work plan, you review the activities from the previous year's work plan, budget and reports to identify lessons learned and what needs to be carried over in order to identify possible trends.&nbsp;</li>
-              <li>Specifically, with input from your team, you define and prioritize the work and activities of your unit, assigning resources and timelines to each activity, making sure the activities align with the organizational priorities and conducting a risk assessment.</li>
+              <li>Deputy Heads receive certain HR-related authorities primarily from the <i>Financial Administration Act</i> and the <i>Public Service Employment Act</i>.</li>
+              <li>An individual may exercise delegated authorities once they:  
+                <ul>
+                  <li>occupy the position to which authorities have been associated,</li>
+                  <li>have completed the necessary training, and</li>
+                  <li>received their delegation from the deputy head.</li>
+                </ul>
+              </li>
+              <li>Each organization has its own tools to delegate authorities appropriately through managerial levels.</li>
             </ul>
           </span>
           <span v-if="$i18n.locale=='fr'">
-            <h3>Élaborer un plan de travail</h3>
+            <h3>Délégation en matière de ressources humaines</h3>
             <ul>
-              <li>Un plan de travail est une liste détaillée des activités à exercer, des ressources à utiliser et des résultats à atteindre au cours d’une période d’un an, laquelle correspond habituellement à un exercice financier pour un centre de responsabilité.</li>
-              <li>Pour élaborer un plan de travail, vous passez en revue les activités inscrites dans le plan de travail, le budget et les rapports de l’année précédente afin de prendre note des leçons apprises et les mesures à reporter afin de cerner les tendances possibles.&nbsp;</li>
+              <li>La <i>Loi sur la gestion des finances publiques</i> et la <i>Loi sur l’emploi dans la fonction publique</i> confèrent aux administrateurs généraux certains pouvoirs en matière de RH.</li>
+              <li>Une personne peut exercer ses pouvoirs délégués une fois : </li>
               <li>Plus précisément, avec l’aide de votre équipe, vous définissez et priorisez le travail et les activités de votre unité, attribuez des ressources et des échéanciers à chaque activité, veillez à ce que les activités s’alignent aux priorités organisationnelles et effectuez une évaluation des risques.&nbsp;</li>
             </ul>
           </span>
@@ -28,14 +34,18 @@
         <b-col cols="1" class="d-none d-lg-block"></b-col>
         <b-col cols="12" lg>
           <span v-if="$i18n.locale=='en'">
-            <h3>Create a Budget</h3>
+            <h3>Human Resources Planning</h3>
             <ul>
-              <li>Budgets are essentially the conversion of the work plans into financial terms. In other words, the budget represents how much you forecast to spend to achieve your work plan activities.</li>
-
-              <li>Typically, budgets will include operating and maintenance (O&M) and salary costs. Depending on the mandate of your department, some budgets may also include capital and grants and contributions amounts.</li>
-
-              <li>To create your budget, you must analyze information from various sources, forecast your new budget requirements and submit your new budget for approval to upper management.</li>
-
+              <li>Human Resources planning is the foundation for assessing and understanding the current and future needs of the public service as a whole. It addresses how an organization identifies and deploys its workforce to achieve its business objectives, its mandate, and high-level government priorities.</li>
+              <li>HR planning can help identify optimal strategies and activities for a wide variety of important management components such as recruitment, retention, learning, development, employee engagement, talent management, promotion, succession, employment equity, and official languages.</li>
+              <li>Your responsibilities as a manager are to:</li>
+              <ol>
+                <li>Identify the qualifications required for individuals in key positions to contribute to the success of organizational priorities</li>
+                <li>Communicate the HR plan with critical and emerging gaps including succession planning strategies</li>
+                <li>Encourage developmental opportunities that address gaps</li>
+                <li>Link succession planning strategies to program and financial planning and</li>
+                <li>Evaluate the effectiveness of the plan and adapt it as required</li>
+              </ol>
             </ul>
           </span>
           <span v-if="$i18n.locale=='fr'">
