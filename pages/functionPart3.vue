@@ -19,84 +19,263 @@
                   <b-card-body>
                     <b-card-text>
                       <span v-if="$i18n.locale=='en'">
-                        <h2>1. Continuous Monitoring</h2>
-                        <p>As a manager, you are responsible for ensuring that all commitments and expenditures are monitored throughout the year and that they are accurately recorded in the financial system.</p>
-                        <p>This monitoring is both at a transactional level and at a strategic level. Depending on the situation, it may involve one or more of the following actions:</p>
+                        <h2>Staffing</h2>
+                        <p>Finding and recruiting employees is a key step in helping an organization achieve its goals.</p>
+                        <p>As a sub-delegated manager, you will be asked to staff positions within your section or work unit by finding the skills and other attributes needed for the work.</p>
+                        <p>Federal public service managers and human resources professionals must comply with a variety of policies and legislation governing how staffing processes are conducted. These laws, regulations and policies support and promote impartial appointments, based on merit, which help advance diversity and inclusion in the workplace.</p>
+                        <p>In this module section you will learn to:</p>
                         <ul>
-                          <li>Closing commitments that are no longer required.</li>
-                          <li>Amending contracts for scope, time, and amount.</li>
-                          <li>Updating the salary forecast to reflect your current and planned staffing needs. </li>
-                          <li>Planning for potential budget shortfalls or pressures.</li>
-                          <li>Flagging budget surpluses to senior management.</li>
-                          <li>And making expenditure adjustments.</li>
+                          <li>Identify your staffing needs</li>
+                          <li>Recall your staffing obligations, and</li>
+                          <li>Recognize considerations for staffing a position</li>
                         </ul>
-                        <p>Let’s play with a few examples.</p>
+                        <p>This section should take you approximately 20 minutes to complete.</p>
                         <hr>
-                        <h2>2. Data Comparison</h2>
-                        <p>Taking care of your budget is really important because the decisions you make within your budget may influence your sector, your branch, or even your department.</p>
-                        <p>At the end of the fiscal year, you will need to justify any deficits or surpluses. Depending on your department, you may need to be within a certain percentage of your forecasts.</p>
-                        <p>On one hand, overspending can cause a deficit, which puts a lot of pressure on senior management to find additional sources of funds to compensate.</p>
-                        <p>On the other hand, a surplus should be flagged as early as possible so that your unit doesn’t miss an opportunity to reallocate unused funds to another activity, or another unit.</p>
-                        <p>Monthly reports help you track your financials. They are sometimes called “financial situation reports” or FSRs and are usually produced by the Finance team within your organization.</p>
-                        <p>What is in the FSR needs to match what is actually going on in your unit. If it doesn’t, then you need to take appropriate action to resolve the discrepancy. </p>
-                        <p>In the next activity, you will have a chance to review and adjust your financial situation according to new information.</p>
+
+                        <h2>Identifying Your Staffing Needs</h2>
+                        <p>In determining your staffing needs, consider various sources of information. A few good sources to begin with are your business objectives, your organizational goals and the public service workforce goals.</p>
+                        <p>Considering your business objectives when staffing will help ensure that your programs and services are properly managed and delivered. For clarity on business objectives, consult documents such as business plans, performance agreements, Treasury Board submissions, and Cabinet documents.</p>
+                        <p>When considering your business objectives, ask yourself the following questions:</p>
+                        <ul>
+                          <li>Do my objectives align with the higher-level priorities? and</li>
+                          <li>What qualifications will contribute to meeting the business requirements?</li>
+                        </ul>
+                        <p>Business objectives are guided by organizational and public service workforce goals. These goals are set by the Clerk of the Privy Council, the Treasury Board, deputy heads and management. Here are some examples of priorities at this level:</p>
+                        <ul>
+                          <li>Building a diverse, equitable and inclusive public service</li>
+                          <li>Correcting conditions of disadvantage in employment</li>
+                          <li>Placing employees who are affected by workforce adjustment</li>
+                          <li>Building organizational capacity and developing competencies</li>
+                        </ul>
+                        <p>Organizational and public service workforce goals are framed by:</p>
+                        <ul>
+                          <li>Legislation including <i>Public Service Employment Act</i>, <i>Accessible Canada Act</i>, <i>Employment Equity Act</i>, <i>Canadian Human Rights Act</i>, <i>Official Languages Act</i>, and the Constitution of Canada</li>
+                          <li>Agreements like the Nunavut Land Claims Agreement and even the Canadian Free Trade Agreement, as well as</li>
+                          <li>Your Minister's mandate, statements by the Clerk of the Privy Council, and the Speech from the Throne</li>
+                        </ul>
                         <hr>
-                        <h2>3. Year-End Procedures</h2>
-                        <p>Since most budgets are allocated by Parliament on an annual basis and must be used within the fiscal year, goods and services must be received on or before March 31.</p>
-                        <p>However, you will most likely have a number of outstanding expenditures that you will not be able to pay before the end of the fiscal year for goods that are in your possession. To help with that, the Finance unit will establish Payables at Year-End or Receivables at Year-End in the financial system after receiving your list of outstanding payables.</p>
-                        <p>A P-A-Y-E is an amount owed for goods and/or services delivered in the old fiscal year using old year funds but paid in the new fiscal year when the supplier invoice is received.</p>
-                        <p>An R-A-Y-E is an amount due from another department for goods and/or services delivered in the old fiscal year, for which receipt of payment will be in the new fiscal year.</p>
-                        <p>Usually, again depending on the practices within your department—Finance will send out year-end instructions about how to establish a P-A-Y-E or an  R-A-Y-E. These instructions will also include specific requirements with respect to the minimum dollar amount and the timeline. </p>
-                        <p>Contracts can be a bit tricky when we are close to the end of the fiscal year. Here are a couple of things to keep in mind:</p>
+
+                        <h2>Get Familiar With Your Staffing Obligations</h2>
+                        <p>Before you initiate an appointment process, it’s important to be acquainted with the legislation, policies and guidelines that govern appointments. These include the Public Service Commission’s Appointment Framework and the Treasury Board’s policy framework, as well as your organizational staffing framework.</p>
+                        <p>The purpose of the <i>Employment Equity Act</i> is to achieve equality in the workplace and to correct conditions of disadvantage in employment for such designated groups as: women, Aboriginal peoples, persons with disabilities and members of visible minorities.</p>
+                        <p>The Act requires that every employer identify and eliminate employment barriers against persons in the identified groups. Employers must also institute positive policies and practices and make reasonable accommodations to ensure their workforce reflects the diversity of Canadians.</p>
+                        <p>The <i>Accessible Canada Act</i> is intended to promote the full and equal participation of all persons, especially persons with disabilities, in society. This act strives to proactively eliminate and prevent barriers in seven areas under federal jurisdiction, including employment, in order to ensure greater opportunities for persons with disabilities.</p>
+                        <p>The Public Service Commission’s Appointment Framework guides deputy heads in building their own staffing systems adapted to their needs and in ensuring that they comply with legislative and policy requirements. It is made up of</p>
                         <ol>
-                          <li>Pay attention to the deadlines set by Procurement. You may not be able to create a purchase order as you approach year-end. </li>
-                          <li>Follow up with suppliers to make sure that the goods or services will be delivered before year-end. If it’s not possible before March 31, the expenditures will have to be paid using new year funding. Talk to Procurement about possible steps. </li>
+                          <li>The <i>Public Service Employment Act</i> and any applicable exclusion approval orders and regulations. The full list of List of Acts, Regulations and Orders can be found online</li>
+                          <li>The Public Service Commission’s Appointment Policy</li>
+                          <li>Appointment Delegation and Accountability Instrument</li>
+                        </ol>
+                        <p>Components of the Treasury Board’s policy framework also have a role to play in the staffing process. It refers to the following documents: (links available in the toolkit)</p>
+                        <ol>
+                          <li>The Values and Ethics Code for the Public Sector, which guides managers in their staffing thinking and decision making.</li>
+                          <li>The <i>Financial Administration Act</i>, in particular the Human Resources Management section.</li>
+                          <li>The Policy on People Management and directives which cover deployments, assignments, secondments, reclassifications, official languages in relation to staffing, and the duty to accommodate which outlines how to make staffing processes as inclusive and accessible as possible.</li>
+                          <li>Programs such as: employment equity, diversity and inclusion, student programs, and the Interchange Canada program.</li>
+                          <li>Qualification standards in relation to education, occupational certification, official languages and other requirements to qualify for employment in the core public service.</li>
                         </ol>
                         <hr>
-                        <h2>4. Quiz</h2>
-                        <p>So now that you know how to initiate expenditures, authorize commitments, exercise financial authority and monitor and control finances, let’s see what you remember by taking this short quiz.</p>
+
+                        <h2>Inclusive Hiring</h2>
+                        <p>Watch this video on inclusive hiring, which offers five tips on diversifying your workforce.</p>
                         <hr>
-                        <h2>5. Section Completed</h2>
+
+                        <h2>Staffing Your Position</h2>
+                        <p>As a sub-delegated manager, you are responsible for making decisions that are subdelegated to you and for working in partnership with HR. There are three lenses to apply when staffing a position: diversity, equity and inclusion; business objectives and the judicious management of resources; and integrity and ethics.</p>
+                        <p>In order to conduct a fair and inclusive process and to hire qualified individuals to form a diverse workforce that reflects the Canadian population and meets your organizational needs, the following must be done:</p>
+                        <ul>
+                          <li>Take into account employment equity objectives and adopt inclusive practices.</li>
+                          <li>Ensure that hiring processes are conducted in good faith, are free from bias and are impartial in a manner that is supportive of an individual’s right to accommodation.</li>
+                          <li>Establish effective merit criteria that reflect the requirements of the position or work unit and consider the organization's business needs. For example, equity-seeking groups.</li>
+                          <li>Select a process type (appointment or administrative, advertised or non-advertised, internal or external).</li>
+                          <li>Determine who will be eligible to apply by establishing the area of selection or recourse.</li>
+                          <li>Identify and seek to reduce unconscious biases (recruitment, assessment, selection).</li>
+                          <li>Conduct an objective assessment of each candidate’s qualifications and:   
+                            <ul>
+                              <li>assess the candidate in their official language of choice without regard to the location of the official languages requirements of the position;</li>
+                              <li>provide accommodations by being proactive and responsive to requests;</li>
+                              <li>gather enough information from each candidate to make a fair decision;</li>
+                              <li>use a variety of complementary sources and assessment tools to increase the validity and reliability of the assessment;</li>
+                              <li>apply to each candidate the same standard for a qualification, that is the same definition or indicators) established for the process</li>
+                              <li>ensure the quality of the assessment by consulting with experts and stakeholders on the selection process and the development of tools and their use in the assessment of candidates.</li>
+                            </ul>
+                          </li>
+                          <li>Ensure appointments are based on merit and respect the order of precedence   
+                            <ul>
+                              <li>Consider priority entitlement provisions, preference for veterans, Canadian citizens, permanent residents, and obligations set out in claim agreements such as the Nunavut Land Claims Agreement, Canadian Free Trade Agreement</li>
+                            </ul>
+                          </li>
+                        </ul>
+                        <p>For more details, please consult the Appointment Delegation and Accountability Instrument and the Appointment Policy.</p>
+                        <p>To conduct an effective process that achieves business objectives through the judicious management of resources, consider:</p>
+                        <ul>
+                          <li>Keeping your staffing objectives in mind throughout the process</li>
+                          <li>Planning and preparing the staffing process prior to launching it</li>
+                          <li>Using flexibilities provided in the Public Service Employment Act and make reasonable adaptations as the circumstances evolve</li>
+                          <li>Promoting engagement and retention by being transparent with applicants and employees</li>
+                        </ul>
+                        <p>To conduct a process based on integrity and ethics these 5 steps are necessary:</p>
+                        <ul>
+                          <li>Comply with the requirements of the staffing framework (public service and departmental) and exercise flexibility by suggesting solutions and adaptations for the assessment tools and approach in order to ensure a fair assessment of each candidate’s qualifications.</li>
+                          <li>Use one of the flexibilities provided for in the Public Service Employment Act. For example: 
+                            <ul>
+                              <li>Focus exclusively on members of designated employment equity groups or expand the area of selection that applies to these groups.</li>
+                              <li>Establish an organizational need to select individuals who have declared that they belong to a designated group that is currently or is expected to be under-represented. In a non-advertised process, appoint a person belonging to one of the designated groups.</li>
+                            </ul>
+                          </li>
+                          <li>Make reasonable decisions based on valid and reliable information related to each candidate and for each process.</li>
+                          <li>Focus on merit rather than on likeability or other sources of bias.</li>
+                          <li>Be able to clearly explain decisions and document appointment information including your decisions and considerations.</li>
+                        </ul>
+                        <hr>
+
+                        <h2>In Real Life</h2>
+                        <p>Take what you have learned into real life!</p>
+                        <p>Your organization will have its own ways of doing things.</p>
+                        <p>As a last step, locate some essential resources to assist you in staffing effectively.</p>
+                        <ul>
+                          <li>Your organizational staffing framework</li>
+                          <li>The mandate of your organization (enabling legislation)</li>
+                          <li>Your departmental instrument of sub-delegation</li>
+                          <li>Staffing policies, direction from the Deputy Head and practices of your organization</li>
+                          <li>Identify and meet your HR advisors and consult them before making decisions.</li>
+                        </ul>
+                        <p>As a sub-delegated manager, you have many different options.  Remember to consult your HR advisor.</p>
+                        <p>Take time out from the course to consult the Public Service Commission’s Guides and Tools web page. These tools are designed to assist managers involved in the appointment process.</p>
+                        <hr>
+
+                        <h2>Quiz</h2>
+                        <p>Test your knowledge by answering the following questions. Select “Submit” when you are done.</p>
                       </span>
                       <span v-if="$i18n.locale=='fr'">
-                        <h2>1. Suivi continu </h2>
-                        <p>En tant que gestionnaire, vous avez la responsabilité de veiller à ce que les engagements et les dépenses soient suivis tout au long de l'année et qu’ils soient enregistrés avec exactitude dans le système financier.</p>
-                        <p>Ce suivi se fait à la fois au niveau transactionnel et au niveau stratégique. Selon la situation, cela se traduit par l’une ou l’autre des actions suivantes :</p>
+                        <h2>Introduction</h2>
+                        <p>La recherche et le recrutement d’employés constituent des étapes clés qui permettent à une organisation d’atteindre ses objectifs.</p>
+                        <p>Si vous êtes gestionnaire subdélégué, on vous demandera de pourvoir des postes dans votre section ou unité de travail en établissant les compétences et les autres capacités nécessaires au travail.</p>
+                        <p>Les gestionnaires et les professionnels de ressources humaines de la fonction publique fédérale doivent se conformer à une multitude de politiques et de textes législatifs régissant le processus de dotation. Ces lois, règlements et politiques soutiennent et favorisent les nominations impartiales et fondées sur le mérite, et encouragent ainsi la diversité et l’inclusion dans le milieu de travail.</p>
+                        <p>Dans cette section, vous apprendrez à : </p>
                         <ul>
-                          <li>annuler les engagements qui ne sont plus nécessaires; </li>
-                          <li>modifier les contrats en fonction de leur portée, de leur durée et des montants qui leur sont alloués;</li>
-                          <li>mettre à jour les prévisions salariales pour tenir compte de vos besoins actuels et futurs en matière de dotation; </li>
-                          <li>Planifier pour les insuffisances ou les pressions budgétaires;</li>
-                          <li>signaler les excédents budgétaires à la haute direction;</li>
-                          <li>et apporter des ajustements aux dépenses.</li>
+                          <li>déterminer vos besoins en matière de dotation;</li>
+                          <li>retenir vos obligations en matière de dotation;</li>
+                          <li>reconnaître les éléments à prendre en considération pour la dotation d’un poste.</li>
                         </ul>
-                        <p>Amusons-nous maintenant avec quelques exemples.</p>
+                        <p>Il vous faudra environ 20 minutes pour parcourir cette section.</p>
                         <hr>
-                        <h2>2. Comparaison des données</h2>
-                        <p>Il est essentiel de porter une attention particulière et soutenue à votre budget parce que les décisions que vous prenez peuvent avoir une incidence sur votre secteur, votre direction générale, ou même votre ministère. </p>
-                        <p>À la fin de l’exercice financier, vous devez justifier tout déficit ou surplus. Selon le ministère pour lequel vous travaillez, vous pourriez devoir demeurer à l’intérieur d’une marge d’un certain pourcentage de vos prévisions.</p>
-                        <p>D’une part, le fait de dépasser votre budget pourrait causer un déficit, ce qui met beaucoup de pression sur la haute direction pour trouver d'autres sources de financement en compensation.</p>
-                        <p>D’autre part, un surplus devrait être signalé le plus tôt possible sans quoi on pourrait manquer l’occasion de réaffecter les fonds inutilisés à une autre activité ou à une autre unité.</p>
-                        <p>Les rapports mensuels vous aident à suivre vos dépenses. On les appelle parfois « Rapports sur la situation financière » - ou RSF - et sont habituellement produits par l’unité des Finances de votre organisation. </p>
-                        <p>Ce qui se trouve dans votre RSF doit refléter ce qui se passe dans votre unité. Si ce n’est pas le cas, vous devez faire un suivi afin de résoudre cet écart.</p>
-                        <p>Dans l’activité suivante, vous aurez l’occasion de réviser et d’ajuster vos données financières selon les nouvelles informations. </p>
+
+                        <h2>Détermination de vos besoins en matière de dotation</h2>
+                        <p>Lorsque vous déterminez vos besoins en matière de dotation, prenez en considération diverses sources d’information. Les objectifs opérationnels, les buts de votre organisation et les buts de l’effectif de la fonction publique constituent de bonnes sources de départ.</p>
+                        <p>Le fait de prendre en considération les objectifs opérationnels au moment de pourvoir des postes vous aidera à faire en sorte que les programmes et les services sont gérés [et] exécutés correctement. Pour obtenir des précisions sur les objectifs opérationnels, consultez des documents comme les plans d’activités, les ententes de rendement, les présentations au Conseil du Trésor et les documents du Cabinet.</p>
+                        <p>Lorsque vous prenez en considération les objectifs opérationnels, posez-vous les questions suivantes : </p>
+                        <ul>
+                          <li>Est-ce que mes objectifs s’harmonisent avec les priorités des échelons supérieurs?</li>
+                          <li>Quelles qualifications contribueront à satisfaire aux exigences opérationnelles?</li>
+                        </ul>
+                        <p>Les objectifs opérationnels suivent le buts de l’organisation et de l’effectif de la fonction publique. Ces buts sont établis par le greffier du Conseil privé, le Conseil du Trésor, les administrateurs généraux et la direction. Voici quelques exemples de priorités de ces échelons : </p>
+                        <ul>
+                          <li>bâtir une fonction publique diversifiée, équitable et inclusive;</li>
+                          <li>corriger les conditions qui désavantagent certaines personnes dans le domaine de l’emploi;</li>
+                          <li>trouver un poste aux employés touchés par le réaménagement des effectifs;</li>
+                          <li>renforcer la capacité organisationnelle et perfectionner les compétences.</li>
+                        </ul>
+                        <p>Les buts de l’organisation et de l’effectif de la fonction publique sont encadrés par : </p>
+                        <ul>
+                          <li>des lois comme la <i>Loi sur l’emploi dans la fonction publique</i>, la <i>Loi canadienne sur l’accessibilité</i>, la <i>Loi sur l’équité en matière d’emploi</i>, la <i>Loi canadienne sur les droits de la personne</i>, la <i>Loi sur les langues officielles</i> et la Constitution du Canada;</li>
+                          <li>des accords comme l’Accord sur les revendications territoriales du Nunavut et même l’Accord de libre-échange canadien;</li>
+                          <li>le mandat de votre ministre, les déclarations du greffier du Conseil privé et le discours du Trône.</li>
+                        </ul>
                         <hr>
-                        <h2>3. Procédures de fin d’année</h2>
-                        <p>Étant donné que la plupart des budgets sont établis par le Parlement chaque année et qu’ils doivent être utilisés au cours de l'exercice financier, les biens et services doivent être reçus au plus tard le 31 mars.</p>
-                        <p>Il est toutefois fort probable que vous ne soyez pas en mesure de payer le reste de vos dépenses avant la fin de l'exercice financier pour les biens qui sont en votre possession. C'est pourquoi l’unité des Finances établira des créditeurs à la fin de l'exercice (CAFE) ou des débiteurs à la fin de l'exercice (DAFE) après avoir reçu votre liste de payables non réglés.</p>
-                        <p>Un CAFE est un montant dû pour des biens ou des services fournis dans l’exercice financier précédent, en se servant des fonds de l’exercice financier précédent, mais payés dans le nouvel exercice financier alors qu’on aura reçu la facture du fournisseur.</p>
-                        <p>Un DAFE est un montant dû d’un autre ministère pour des biens ou des services fournis dans l’exercice financier précédent pour lesquels le paiement sera fait dans le nouvel exercice financier. </p>
-                        <p>D’habitude, encore une fois selon les pratiques courantes dans votre ministère, vous recevrez des instructions de fin d'année pour l’établissement des CAFE et des DAFE. Ces instructions incluront aussi les critères quant au montant minimal exigé et à l'échéancier.</p>
-                        <p>Lorsqu’on s’approche de la fin de l’exercice financier, les choses peuvent se compliquer un peu en ce qui a trait aux contrats. Voici deux choses à tenir à l’esprit.</p>
+
+                        <h2>Familiarisez-vous avec vos obligations en matière de dotation</h2>
+                        <p>Avant de commencer un processus de nomination, il est important de connaître les lois, les politiques et les lignes directrices qui régissent les nominations. Le Cadre de nomination de la Commission de la fonction publique, le Cadre principal des politiques du Conseil du Trésor et le cadre de dotation de votre organisation en sont des exemples.</p>
+                        <p>La <i>Loi sur l’équité en matière d’emploi</i> vise à atteindre l’égalité en milieu de travail et à corriger les conditions qui désavantagent les groupes désignés suivants dans le domaine de l’emploi : les femmes, les Autochtones, les personnes handicapées et les membres de minorités visibles.</p>
+                        <p>La <i>Loi</i> nécessite que chaque employeur cerne et élimine les obstacles à l’emploi rencontrés par les groupes désignés. Les employeurs doivent aussi mettre en œuvre des pratiques et des politiques positives et prendre des mesures d’adaptation raisonnables de façon à ce que leur milieu de travail reflète la diversité de la population canadienne.</p>
+                        <p>La <i>Loi canadienne sur l’accessibilité</i> a pour objectif de favoriser la participation entière et égale de toutes les personnes, en particulier des personnes handicapées, à la société canadienne. Elle vise à éliminer et à prévenir de manière proactive les obstacles dans sept domaines relevant de la compétence fédérale, dont l’emploi, afin d’assurer de meilleures chances aux personnes handicapées.</p>
+                        <p>Cadre de nomination de la Commission de la fonction publique</p>
+                        <p>Le Cadre de nomination de la Commission de la fonction publique aide les administrateurs généraux à élaborer leurs propres systèmes de dotation, lesquels sont adaptés à leurs besoins, et à s’assurer que ceux-ci respectent les exigences législatives et politiques. Il est composé des éléments suivants : </p>
                         <ol>
-                          <li>Portez attention aux délais fixés par le service d’approvisionnement. Il se peut que vous ne puissiez pas créer de commande d'achat en fin d'année.</li>
-                          <li>Faites un suivi auprès des fournisseurs pour vous assurer que les biens ou services seront livrés avant la fin de l'année. Si ce n'est pas possible avant le 31 mars, les dépenses devront être payées en utilisant les fonds de la nouvelle année. Discutez des étapes possibles avec Approvisionnement.</li>
+                          <li>la <i>Loi sur l’emploi dans la fonction publique</i> et tout décret d’exemption et règlement applicables; la liste complète des lois, des règlements et des décrets est disponible en ligne;</li>
+                          <li>la Politique de nomination de la Commission de la fonction publique;</li>
+                          <li>l’Instrument de délégation et de responsabilisation en matière de nomination.</li>
+                        </ol>
+                        <p>Les composantes du Cadre principal des politiques du Conseil du Trésor ont également un rôle à jouer dans le processus de dotation. Il s’agit en fait des documents suivants (les liens figurent dans la boîte à outils) : </p>
+                        <ol>
+                          <li>le Code de valeurs et d’éthique du secteur public, qui oriente les gestionnaires dans le processus de réflexion et la prise de décisions en matière de dotation;</li>
+                          <li>la Loi sur la gestion des finances publiques, et en particulier la section sur la gestion des ressources humaines;</li>
+                          <li>la Politique sur la gestion des personnes et les directives relatives aux mutations, aux affectations, aux détachements, aux reclassifications, aux langues officielles en matière de dotation et à l’obligation de prendre des mesures d’adaptation, qui énoncent comment rendre les processus de dotation aussi inclusifs et accessibles que possible;</li>
+                          <li>des programmes comme ceux qui sont destinés aux étudiants ou qui concernent l’équité en matière d’emploi, la diversité et l’inclusion, ou encore Échanges Canada;</li>
+                          <li>les normes de qualification en matière d’études, d’attestation professionnelle et de langues officielles et d’autres exigences permettant à une personne d’obtenir un emploi dans la fonction publique centrale.</li>
                         </ol>
                         <hr>
-                        <h2>4. Quiz</h2>
-                        <p>Maintenant que vous savez comment engager et autoriser des dépenses, exercer des pouvoirs financiers, et surveiller et contrôler les finances, voyons ce dont vous vous souvenez en répondant à ce petit quiz!</p>
+
+                        <h2>Embauche inclusive</h2>
+                        <p>Regardez la vidéo suivante sur l’embauche inclusive. Vous vous verrez présenter cinq conseils qui vous permettront de diversifier votre effectif.</p>
                         <hr>
-                        <h2>5. Section complétée</h2>
+
+                        <h2>Dotation d’un poste</h2>
+                        <p>Si vous êtes gestionnaire subdélégué, vous êtes responsable de prendre les décisions qui relèvent des pouvoirs qui vous ont été subdélégués et de travailler en partenariat avec les RH. La dotation d’un poste doit être considérée selon trois optiques : la diversité, l’équité et l’inclusion; les objectifs opérationnels et la gestion judicieuse des ressources; et l’intégrité et l’éthique.</p>
+                        <p>Les éléments suivants vous permettront de mener un processus juste et inclusif et d’embaucher des personnes qualifiées pour former un effectif diversifié qui est représentatif de la population canadienne et répond à vos besoins organisationnels : </p>
+                        <ul>
+                          <li>tenir compte des objectifs d’équité en matière d’emploi et adopter des pratiques inclusives;</li>
+                          <li>veiller à ce que les processus d’embauche soient menés de bonne foi, à ce qu’ils soient exempts de tout parti pris et à ce qu’ils soient impartiaux et permettant ainsi de respecter le droit d’une personne d’obtenir des mesures d’adaptation;</li>
+                          <li>établir des critères de mérite efficaces qui reflètent les exigences liées au poste ou l’unité de travail et tiennent compte des besoins de l’organisation, p. ex. la représentation des groupes en quête d’équité;</li>
+                          <li>choisir un type de processus (nomination ou administratif, annoncé ou non annoncé, interne ou externe);</li>
+                          <li>déterminer qui pourra présenter une demande en établissant la zone de sélection ou de recours;</li>
+                          <li>repérer les préjugés inconscients et chercher à les atténuer (recrutement, évaluation et sélection);</li>
+                          <li>évaluer de manière objective les qualifications de tous les candidats et faire ce qui suit :  
+                            <ul>
+                              <li>évaluer les candidats dans la langue officielle de leur choix, quel que soit l’emplacement associé aux exigences linguistiques du poste;</li>
+                              <li>fournir des mesures d’adaptation en adoptant une approche proactive et adaptée aux besoins;</li>
+                              <li>recueillir suffisamment de renseignements à propos de chaque personne pour prendre une décision juste;</li>
+                              <li>utiliser une variété de sources et d’outils d’évaluation complémentaires pour augmenter la validité et la fiabilité de l’évaluation;</li>
+                              <li>appliquer à chaque personne les mêmes normes de qualification – celles qui ont été établies pour le processus (c’est-à-dire [la] même définition ou les mêmes indicateurs) établies pour le processus;</li>
+                              <li>veiller à la qualité de l’évaluation en consultant des experts et des intervenants à propos du processus de sélection ainsi que de l’élaboration d’outils et de l’utilisation de ceux-ci dans l’évaluation des candidats;</li>
+                            </ul>
+                          </li>
+                          <li>veiller à ce que les nominations soient fondées sur le mérite et à ce qu’elles respectent l’ordre de priorité. Il faudra notamment faire ce qui suit :  
+                            <ul>
+                              <li>prendre en considération les dispositions relatives aux droits de priorité, la préférence à accorder aux anciens combattants, aux citoyens canadiens et aux résidents permanents ainsi que les obligations énoncées dans les accords de revendication (comme l’Accord sur les revendications territoriales du Nunavut et l’Accord de libre-échange canadien).</li>
+                            </ul>
+                          </li>
+                        </ul>
+                        <p>Pour plus de renseignements, consultez l’Instrument de délégation et de responsabilisation en matière de nomination et la Politique de nomination.</p>
+                        <p>Afin de mener un processus efficace permettant d’atteindre les objectifs opérationnels au moyen d’une gestion judicieuse des ressources, pensez à : </p>
+                        <ul>
+                          <li>garder en tête les objectifs de dotation tout au long du processus;</li>
+                          <li>planifier et préparer le processus de dotation avant de le lancer;</li>
+                          <li>tirer parti de la souplesse qu’offre la Loi sur l’emploi dans la fonction publique et prendre des mesures d’adaptation raisonnables à mesure que les circonstances évoluent;</li>
+                          <li>promouvoir la mobilisation et le maintien en poste en faisant preuve de transparence auprès des postulants et des employés.</li>
+                        </ul>
+                        <p>Les cinq étapes suivantes permettent de mener un processus fondé sur l’intégrité et l’éthique : </p>
+                        <ul>
+                          <li>satisfaire aux exigences du cadre de dotation (de la fonction publique et du ministère) et faire preuve de souplesse en proposant des solutions et des mesures d’adaptation pour les outils et approches d’évaluation afin d’assurer une évaluation juste des qualifications de tous les candidats;</li>
+                          <li>utiliser l’un des assouplissements prévus dans la Loi sur l’emploi dans la fonction publique, par exemple :  
+                            <ul>
+                              <li>cibler exclusivement les membres des groupes visés par l’équité en matière d’emploi ou élargir la zone de sélection pour inclure ces groupes;</li>
+                              <li>définir un besoin organisationnel afin de sélectionner des personnes ayant déclaré leur appartenance à un groupe désigné pour lequel il existe ou pourrait bientôt exister une sous-représentation; dans un processus non annoncé, nommer une personne appartenant à l’un des groupes désignés;</li>
+                            </ul>
+                          </li>
+                          <li>prendre des décisions raisonnables fondées sur des renseignements valides et fiables par rapport à chaque personne et dans le cadre de chaque processus;</li>
+                          <li>mettre l’accent sur le mérite plutôt que sur les affinités ou d’autres sources de préjugés;</li>
+                          <li>être capable d’expliquer clairement les décisions et consigner les renseignements sur la nomination, y compris vos décisions et les facteurs que vous avez pris en considération.</li>
+                        </ul>
+                        <hr>
+
+                        <h2>Dans la vraie vie</h2>
+                        <p>Appliquez ce que vous avez appris - dans la vraie vie!</p>
+                        <p>Votre organisation aura sa propre façon de faire les choses.</p>
+                        <p>En dernier lieu, trouvez certaines ressources essentielles qui vous aideront à doter des postes de manière efficace, par exemple : </p>
+                        <ul>
+                          <li>le cadre de dotation de votre organisation;</li>
+                          <li>le mandat de votre organisation (loi habilitante);</li>
+                          <li>l’instrument de subdélégation de votre ministère;</li>
+                          <li>les politiques de dotation, les directives de l’administrateur général et les pratiques de votre organisation;</li>
+                          <li>vos conseillers en RH, que vous pouvez identifier, rencontrer et consulter avant de prendre des décisions.</li>
+                        </ul>
+                        <p>En tant que gestionnaire subdélégué, vous avez de nombreuses options. N’oubliez pas de consulter vos conseillers en RH.</p>
+                        <p>Prenez le temps pour consulter les guides et les outils de la Commission de la fonction publique sur le Web de l’organisation. Ces outils visent à aider les gestionnaires qui mènent les processus de nomination.</p>
+                        <hr>
+
+                        <h2>Quiz</h2>
+                        <p>Évaluez vos connaissances en répondant aux questions suivantes. Cliquez sur « Soumettre » lorsque vous avez terminé.</p>
                       </span>
                     </b-card-text>
                   </b-card-body>
