@@ -19,82 +19,143 @@
                   <b-card-body>
                     <b-card-text>
                       <span v-if="$i18n.locale=='en'">
-                        <h2>1. What Is a Financial Situation Report?</h2>
-                        <p>A financial situation report, or FSR, is a document that provides senior management with the most up-to-date financial picture and the best estimates of forecast spending. This document supports them in making informed decisions to properly address budget shortfalls or pressures and reallocate surpluses. Your department may have a different name for this report. Find out what it is.</p>
-                        <p>As a manager, you are expected to provide regular updates and forecasts for your responsibility centre throughout the year. You are also required to provide explanations on variances in order to provide accurate information and make sure the financial system is updated.</p>
-                        <p>But don’t worry, you won’t be doing this alone! This is usually led by your organization’s Finance section at specific times in the year. They will provide support and send out instructions to provide templates, guidelines, links, due dates, etc. Work with your administrative staff to complete these tasks. </p>
-                        <p>Let’s see what you already know about FSRs by doing a quick match-up game!</p>
-                        <hr>
-                        <h2>2. Key Periods for Financial Situation Reports</h2>
-                        <p>The fiscal year starts on April 1 and is divided, by month, into periods. P1 is April, P2 is May, P3 is June, and so forth.</p>
-                        <p>Typically, key reporting periods are P6 (September), P9 (December), and a year-end report in P12 (March).</p>
-                        <p>Because P6 (September) is midway through the year, it offers senior management a good picture of the organization's finances and allows them to make decisions that will influence year-end results. For example, they could decide to reallocate funds to different priorities.</p>
-                        <p>P9 (December) is often the last opportunity to influence year-end results. Departments may ask managers to provide a forecast in P9 that is within a certain percentage of the year-end amount. The Treasury Board of Canada Secretariat uses data from the P9 report to inform the Department of Finance Canada of government-wide planned spending so that they have a holistic view.</p>
-                        <p>Year-end data at P12 is used by your department to report their overall financial results. It also forms part of the Departmental Results Report, or DRR.</p>
-                        <hr>
-                        <h2>3. Financial Situation Report Activities</h2>
-                        <p>The most important information you will need to provide in the FSR is your forecast. In other words, you’ll need to estimate the amount of money that you are going to spend to complete your activities before the end of the fiscal year.</p>
-                        <p>You can request that your administrative professional pull a detailed financial report from the financial system with information on the budget, commitments and actual expenditures. You will compare this to the FSR.</p>
-                        <p>Here are some of the things that you can do to get a good sense of where you’re at, which will allow you to make solid estimates for the rest of the year:</p>
+                        <h2>Labour Relations</h2>
+                        <p>Good labour relations are essential to good human resources management. It is your responsibility to contribute to effective labour relations in your organization and to ensure that the <i>Federal Public Sector Labour Relations Act</i>, labour relations policies and collective agreements, and National Joint Council directives are respected and applied in a consistent manner.</p>
+                        <p>The <i>Federal Public Sector Labour Relations Act</i> provides for dialogue, joint problem solving, mutually agreed-upon solutions, and effective collective bargaining. The preamble of the Act outlines key values and principles, such as:</p>
                         <ul>
-                          <li>Ensure that salary forecasts are accurate and up to date.</li>
-                          <li>Account for any incoming or outgoing funding.</li>
-                          <li>Follow up on travel claims and outstanding invoices.</li>
-                          <li>Ensure journal vouchers are posted: this will correct the data in the financial system.</li>
-                          <li>Close commitments that are no longer required and</li>
-                          <li>Reconcile your acquisition card statement against commitments.</li>
+                          <li>the importance of mutual respect and harmonious labour-management relations to support a healthy and productive workplace</li>
+                          <li>serving and protecting the public interest, and</li>
+                          <li>fair, credible and efficient resolution of workplace issues</li>
                         </ul>
-                        <p>Now, answer the following questions to the best of your abilities and let’s practise preparing a financial situation report! </p>
-                        <hr>
-                        <h2>4. Updating the Annual Forecast</h2>
-                        <p>Another important task when completing your FSR is to review your salary and O&M forecasts. This will allow you to identify</p>
+                        <p>Under the <i>Federal Public Sector Labour Relations Act</i>, deputy heads must establish labour-management consultation committees and informal conflict management systems (or ICMS).</p>
+                        <p>In this section you will: </p>
                         <ul>
-                          <li>shortfalls and pressures that may require approval for additional resources</li>
-                          <li>or surpluses to signal potential carry forward amounts.</li>
+                          <li>Become familiar with the basic process for determining a managerial or confidential position</li>
+                          <li>Learn how to use collective agreements to make decisions, and</li>
+                          <li>Discover the resources available to help you manage workplace conflict</li>
                         </ul>
-                        <p>You will have to explain the reasons for any variances and provide mitigation strategies for risks.</p>
-                        <p>Let’s practise updating the Annual Forecast!</p>
+                        <p>This section should take you approximately 20 minutes to complete.</p>
                         <hr>
-                        <h2>5. Section Completed</h2>
+
+                        <h2>Types of Positions</h2>
+                        <p>Essential positions are defined as jobs that maintain the services, facilities and activities of the federal public service and that are or will be necessary for the safety or security of the public.</p>
+                        <p>Under the Federal Public Sector Labour Relations Act (Division 8), the employer holds the authority and responsibility for determining essential positions.</p>
+                        <p>As a delegated manager, you are responsible for: </p>
+                        <ul>
+                          <li>identifying the positions that include duties which are necessary to providing essential services</li>
+                          <li>providing rationales and supporting documentation (such as organizational charts and work descriptions) in support of designations to your labour relations organizational advisor, and</li>
+                          <li>after a position has been designated, notifying the incumbent about the related implications - a notice that may be sent by email</li>
+                        </ul>
+                        <p>For more information, see the Guidelines for Essential Services Designations.</p>
+                        <p>Having managerial or confidential duties means that these positions are excluded from a bargaining unit. Section 59 of the Federal Public Sector Labour Relations Act lists the grounds for declaring a position managerial or confidential, but departments play a key role in identifying and justifying these positions to the Treasury Board of Canada Secretariat.</p>
+                        <p>For more information, see the Guidelines on Managerial or Confidential Exclusions.</p>
+                        <hr>
+
+                        <h2>Collective Agreements</h2>
+                        <p>Collective agreements specify the terms and conditions governing employee and employer rights and entitlements. They also address key elements such as leave entitlements, hours of work, remuneration, and so forth.</p>
+                        <p>Different collective agreements may appear to be quite similar, but they contain important differences in entitlements that you must recognize.</p>
+                        <p>In your new role as manager, it is quite possible that you will manage employees under more than one collective agreement. Make sure you read them and are able to answer questions that may arise among your employees.</p>
+                        <p>You should also be aware that directives developed by the National Joint Council affect collective agreements. National Joint Council provisions form part of the collective agreements of the participating parties under the bylaws of the National Joint Council. The provisions also apply to individuals not covered by collective agreements, as specified in the directive or by employer policy.</p>
+                        <hr>
+
+                        <h2>Managing Disciplinary Measures</h2>
+                        <p>The <i>Financial Administration Act</i> authorizes every deputy head in the core public administration to establish standards of conduct and to set penalties as disciplinary measures.</p>
+                        <p>Penalties that may be applied for misconduct include:</p>
+                        <ul>
+                          <li>suspension or termination of employment</li>
+                          <li>oral or written reprimands</li>
+                          <li>demotion to a position at a lower maximum rate of pay, or</li>
+                          <li>other financial penalties</li>
+                        </ul>
+                        <p>Disciplinary measures, as opposed to performance management measures, may be the appropriate response to an employee’s willful breach of rules or standards in the workplace.</p>
+                        <hr>
+
+                        <h2>Managing Workplace Conflict</h2>
+                        <p>A grievance is a formal administrative process that employees can use to seek the resolution of disputes regarding the terms and conditions of their employment. The <i>Federal Public Sector Labour Relations Act</i> gives all employees the right to present grievances, unless there is an administrative alternative.</p>
+                        <p>Employees are entitled to present a grievance if they feel aggrieved:</p>
+                        <p>When you receive a grievance from an employee, it is your responsibility as a supervisor or manager to acknowledge receipt to the employee and send the grievance form to the person in your organization who is authorized to deal with the grievance.</p>
+                        <p>According to the <i>Federal Public Sector Labour Relations Act</i>,  all organizations in the core public administration must have an informal conflict management system in place. The purpose of an ICMS is to resolve workplace conflict by offering alternative dispute resolution methods.</p>
+                        <hr>
+
+                        <h2>In Real Life</h2>
+                        <p>Your organization will have its own ways of doing things. Take a time out from the course to find out who in your department is the labour relations advisor.  They can offer excellent support.  As well, find out which positions are designated managerial or confidential in your team or organization.</p>
+                        <hr>
+
+                        <h2>Quiz</h2>
+                        <p>Test your knowledge by answering the following questions. Select “Submit” when you are done.</p>
                       </span>
                       <span v-if="$i18n.locale=='fr'">
-                        <h2>1. Qu'est-ce qu'un rapport sur la situation financière?</h2>
-                        <p>Un rapport sur la situation financière - ou RSF - est un document qui fournit à la haute direction le portrait financier le plus récent et les meilleures estimations des dépenses prévues. Ce document l’aide à prendre des décisions éclairées pour faire face aux insuffisances ou aux pressions budgétaires et à réaffecter les excédents. Votre ministère peut avoir un nom différent pour ce rapport — renseignez-vous à ce sujet.</p>
-                        <p>En tant que gestionnaire, vous êtes tenu de fournir régulièrement des mises à jour et des prévisions de votre centre de responsabilité tout au long de l’année. Vous devez également fournir des explications sur les écarts afin de fournir des informations précises et vous assurer que le système financier est à jour.</p>
-                        <p>Ne vous inquiétez pas, vous ne ferez pas cela tout seul! Généralement, la section des finances de votre organisation dirigera l’exercice à des moments précis de l’année. Elle vous offrira du soutien et vous enverra des instructions pour fournir des gabarits, des lignes directrices, des liens, des dates d’échéance, etc. Travaillez avec votre personnel administratif pour accomplir ces tâches.</p>
-                        <p>Voyons ce que vous savez déjà sur les RSF en faisant un petit jeu d’association! </p>
-                        <hr>
-                        <h2>2. Périodes clés pour les rapports sur la situation financière</h2>
-                        <p>L'exercice financier commence le 1er avril et est divisé, par mois, en périodes. P1 est avril, P2 est mai, P3 est juin, et ainsi de suite.</p>
-                        <p>En règle générale, les périodes-clé de rapport sont P6 (septembre), P9 (décembre), et un rapport de fin d'année en P12 (mars).</p>
-                        <p>Parce que P6 (septembre) est au milieu de l'année, il offre à la haute direction une bonne vue d’ensemble de la situation financière de l'organisation et lui permet de prendre des décisions qui influenceront les résultats de fin d'année. Par exemple, ils pourraient décider de réaffecter des fonds à différentes priorités.</p>
-                        <p>P9 (décembre) est souvent la dernière occasion d'influencer les résultats de fin d'année. Les ministères peuvent demander aux gestionnaires de fournir une prévision en P9 qui se situe dans un certain pourcentage du montant de fin d'année. Le Secrétariat du Conseil du Trésor du Canada utilise les données du rapport P9 pour informer le ministère des Finances du Canada des dépenses prévues à l'échelle du gouvernement afin qu'il puisse avoir une vision globale.</p>
-                        <p>Les données de fin d'exercice, à P12, sont utilisées par votre ministère pour présenter ses résultats financiers globaux. Il fait également partie du Rapport sur les résultats ministériels, ou RRM.</p>
-                        <hr>
-                        <h2>3. Activités pour le rapport sur la situation financière</h2>
-                        <p>L'information la plus importante que vous devrez fournir dans le RSF est votre prévision budgétaire. En d'autres termes, vous devrez estimer le montant d'argent que vous allez dépenser pour terminer vos activités avant la fin de l'exercice financier.</p>
-                        <p>Vous pouvez demander à votre professionnel de l'administration d'extraire du système financier un rapport financier détaillé contenant des informations sur le budget, les engagements et les dépenses réelles. Vous le comparerez au RSF.</p>
-                        <p>Voici plusieurs choses que vous pouvez faire pour avoir une bonne idée de votre situation actuelle. Cela vous permettra de faire des estimations solides pour le reste de l'année.</p>
+                        <h2>Introduction</h2>
+                        <p>De bonnes relations de travail sont essentielles à une saine gestion des ressources humaines. Il vous incombe de contribuer à maintenir des relations de travail efficaces dans votre organisation, et de veiller au respect et à l’application uniforme de la Loi sur les relations de travail dans le secteur public fédéral, des politiques sur les relations de travail, des conventions collectives et des directives du Conseil national mixte (CNM).</p>
+                        <p>La Loi sur les relations de travail dans le secteur public fédéral favorise le dialogue, la résolution conjointe des problèmes, les solutions convenues d’un commun accord et les négociations collectives efficaces. Le préambule de la Loi décrit les valeurs et les principes clés, tels que : </p>
                         <ul>
-                          <li>Vérifier à ce que les prévisions salariales soient exactes et à jour.</li>
-                          <li>Rendre compte de tout financement entrant ou sortant.</li>
-                          <li>Faire le suivi des demandes de remboursement de frais de voyage et des factures en souffrance.</li>
-                          <li>Vérifier que les pièces de journal soient bien comptabilisées : cela corrigera les données dans le système financier.</li>
-                          <li>Annuler les engagements qui ne sont plus nécessaires.</li>
-                          <li>Et réconcilier votre relevé de carte d'achat avec vos engagements.</li>
+                          <li>l’importance du respect mutuel et de relations patronales-syndicales harmonieuses pour le maintien d’un milieu de travail sain et productif;</li>
+                          <li>le mandat de servir et de protéger l’intérêt public;</li>
+                          <li>la résolution juste, crédible et efficace des conflits en milieu de travail.</li>
                         </ul>
-                        <p>Maintenant, répondez aux questions suivantes au mieux de votre capacité afin de vous exercer à préparer un rapport sur la situation financière!</p>
-                        <hr>
-                        <h2>4. Mise à jour des prévisions annuelles</h2>
-                        <p>Une autre tâche importante à faire lorsque vous remplissez votre FSRRSF est d'examiner votre salaire et vos prévisions de F et E. Cela vous permettra d’identifier :</p>
+                        <p>En vertu de la <i>Loi sur les relations de travail dans le secteur public fédéral</i>, les administrateurs généraux doivent créer des comités de consultation patronale-syndicale et des systèmes de gestion informelle des conflits (ou SGIC).</p>
+                        <p>Dans la présente section : </p>
                         <ul>
-                          <li>les insuffisances et les pressions qui peuvent nécessiter l'approbation de ressources supplémentaires;</li>
-                          <li>ou encore des excédents pour indiquer les reports potentiels de fonds.</li>
+                          <li>vous vous familiariserez avec le processus de base visant à déterminer la nature d’un poste (poste de direction ou de confiance);</li>
+                          <li>vous apprendrez à utiliser les conventions collectives en vue de prendre des décisions;</li>
+                          <li>vous découvrirez les ressources disponibles pour vous aider à gérer les conflits au travail.</li>
                         </ul>
-                        <p>Vous devrez expliquer les raisons de tout écart et fournir des stratégies d'atténuation des risques.</p>
-                        <p>Pratiquons maintenant la mise à jour des prévisions annuelles!</p>
+                        <p>Il vous faudra environ 20 minutes pour parcourir cette section.</p>
                         <hr>
-                        <h2>5. Section complétée</h2>
+
+                        <h2>Types de postes</h2>
+                        <p>Les postes essentiels s’entendent d’emplois qui permettent de maintenir les services, les installations et les activités de la fonction publique fédérale et qui sont ou seront nécessaires à la sécurité du public.</p>
+                        <p>En vertu de la <i>Loi sur les relations de travail dans le secteur public fédéral</i> (section 8), l’employeur détient le pouvoir et la responsabilité de déterminer quels sont les postes essentiels.</p>
+                        <p>À titre de gestionnaire délégué, il vous incombe : </p>
+                        <ul>
+                          <li>d'identifier les postes comportant des responsabilités qui sont nécessaires à la prestation de services essentiels;</li>
+                          <li>de fournir à votre conseiller en relations de travail les justifications et les documents (p. ex. les organigrammes et les descriptions de travail) étayant les désignations;</li>
+                          <li>après la désignation d’un poste, d’informer le titulaire des répercussions – avis qui peut être envoyé par courriel.</li>
+                        </ul>
+                        <p>Pour en savoir plus, consultez les Lignes directrices pour la désignation des services essentiels.</p>
+                        <p>Les fonctions de direction ou de confiance signifient que les postes concernés sont exclus d’une unité de négociation. L’article 59 de la Loi sur les relations de travail dans le secteur public fédéral dresse la liste des motifs pour lesquels un poste peut être désigné « poste de direction » ou « poste de confiance », mais les ministères jouent un rôle clé dans la désignation de ces postes et la justification de la décision auprès du Secrétariat du Conseil du Trésor du Canada.</p>
+                        <p>Pour obtenir de plus amples renseignements, consultez les Lignes directrices sur les postes de direction ou de confiance exclus.</p>
+                        <hr>
+
+                        <h2>Conventions collectives</h2>
+                        <p>Les conventions collectives précisent les modalités qui régissent les droits et les obligations des employés et de l’employeur. Elles traitent des éléments essentiels comme les droits aux congés, les heures de travail et la rémunération.</p>
+                        <p>Certaines conventions collectives peuvent sembler très similaires, mais elles comportent d’importantes différences dans les droits évoqués que vous devez reconnaître.</p>
+                        <p>Dans votre nouveau rôle de gestionnaire, il est tout à fait possible que vous gériez des employés assujettis à plus d’une convention collective. Assurez-vous de lire les conventions collectives et de pouvoir répondre aux questions que pourraient se poser vos employés.</p>
+                        <p>Vous devriez également savoir que les directives élaborées par le Conseil national mixte ont une incidence sur les conventions collectives. Les dispositions du Conseil national mixte font partie des conventions collectives des parties concernées en vertu du <i>Règlement du Conseil national mixte</i>. Ces dispositions s’appliquent aussi aux personnes qui ne sont pas visées par les conventions collectives, comme l’indique la directive ou la politique de l’employeur.</p>
+                        <hr>
+
+                        <h2>Gestion des mesures disciplinaires</h2>
+                        <p>La <i>Loi sur la gestion des finances publiques</i> autorise chaque administrateur général de l’administration publique centrale à déterminer des normes de conduite et à fixer des sanctions comme mesures disciplinaires.</p>
+                        <p>Voici les sanctions qui peuvent s’appliquer en cas de mauvaise conduite : </p>
+                        <ul>
+                          <li>la suspension de l’employé ou la cessation d’emploi;</li>
+                          <li>des réprimandes orales ou écrites;</li>
+                          <li>la rétrogradation à un poste ayant un taux de rémunération maximale inférieur;</li>
+                          <li>des sanctions pécuniaires.</li>
+                        </ul>
+                        <p>Les mesures disciplinaires, contrairement aux mesures de gestion du rendement, peuvent être une intervention appropriée en cas de violation délibérée par un employé des règles ou des normes en milieu de travail.</p>
+                        <hr>
+
+                        <h2>Gérer les conflits en milieu de travail</h2>
+                        <p>Un grief est une procédure administrative formelle à laquelle les employés peuvent avoir recours pour résoudre des conflits concernant leurs conditions d’emploi.</p>
+                        <p>La <i>Loi sur les relations de travail dans le secteur public fédéral</i> confère aux employés le droit de présenter des griefs, à moins qu’il existe une autre solution administrative.</p>
+                        <p>Les employés ont le droit de déposer un grief s’ils se sentent lésés : </p>
+                        <ul>
+                          <li>par l’interprétation ou l’application des lois, des règlements, des directives ou d’autres instruments qui traitent des conditions d’emploi;</li>
+                          <li>par une disposition d’une convention collective ou d’une décision arbitrale;</li>
+                          <li>à la suite d’une situation ou d’une affaire qui porte atteinte à leurs conditions d’emploi.</li>
+                        </ul>
+                        <p>Lorsque vous recevez un grief d’un employé, il vous incombe, en tant que superviseur ou encore de gestionnaire, d’en accuser réception, puis d’envoyer le formulaire correspondant à la personne de votre organisation autorisée à traiter le grief.</p>
+                        <p>Selon la <i>Loi sur les relations de travail dans le secteur public fédéral</i>, toutes les organisations de l’administration publique centrale doivent avoir mis en place un système de gestion informelle des conflits (SGIC). Le but d’un tel système est de résoudre les conflits au travail en offrant d’autres modes de résolution des conflits.</p>
+                        <hr>
+
+                        <h2>Dans la vraie vie</h2>
+                        <p>Appliquez ce que vous avez appris – dans la vraie vie!</p>
+                        <p>Votre organisation aura sa propre façon de faire les choses. Prenez le temps pour découvrir qui dans votre ministère est le conseiller en relations de travail. Cette personne peut vous offrir un excellent soutien. Déterminez également quels sont les postes de direction ou de confiance dans votre équipe ou dans votre organisation.</p>
+                        <hr>
+
+                        <h2>Quiz</h2>
+                        <p>Évaluez vos connaissances en répondant aux questions suivantes. Cliquez sur « Soumettre » lorsque vous avez terminé.</p>
                       </span>
                     </b-card-text>
                   </b-card-body>
