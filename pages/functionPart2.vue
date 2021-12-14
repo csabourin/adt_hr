@@ -20,77 +20,130 @@
                     <b-card-text>
                       <!-- <button class="accessibilityButton" v-for="(tracks, index) in navBarTracks" :key="index" @click="accessibleModal(index)">{{$t('jumpModalParts') + ' - ' +navBarTracks[index]}}</button> -->
                       <span v-if="$i18n.locale=='en'">
-                        <h2>1. Certification Authority</h2>
-                        <p>In general, no invoice should be paid until all goods are received or services performed.</p>
-                        <p>Exercising your certification authority under section 34 of the Financial Administration Act essentially means that you pause to attest that the goods and services you received match the invoice.</p>
-                        <p>While other people on your team may be able to make that assessment, it is you, as the delegated manager, who bears the weight of the accountability. As such, you need to make sure that the invoice is accurate—and that the financial coding is also accurate.</p>
-                        <p>Of course, you can only do this if you have the proper authority to make that assessment. So be sure to check that too!</p>
-
-                        <hr>
-
-                        <h2>2. Accuracy of Invoice</h2>
-                        <p>Before signing off on an invoice, the manager, usually with the help of their administrative staff, verifies the accuracy of an invoice or claim by looking at the following elements:</p>
+                        <h2>Your Employment Equity, Diversity and Inclusion Responsibilities</h2>
+                        <p>Everyone benefits from employment equity, diversity and inclusion because they ensure that current and potential employees have equal opportunity to be hired or promoted for their skills and abilities.</p>
+                        <p>They also enhance your organization and your team as a whole, because a diverse workforce can provide a broader range of ideas and insights and greater resilience.</p>
+                        <p>In this section you will learn to:</p>
                         <ul>
-                          <li>The date issued – verify that the invoice was issued on or after the order date; or, in the case of a contract, that it was issued during the contract period.</li>
-                          <li>Quantities – confirm that the items claimed line up with the items ordered. </li>
-                          <li>Taxes – validate that the amount for taxes is accurate and has appropriate GST or PST numbers.</li>
-                          <li>Supplier or payee – make sure that their information is  accurate and that the supplier or payee is eligible for payment.</li>
-                          <li>And status – verify that the invoice has not already been paid</li>
+                          <li>recognize the scope of responsibilities regarding employment equity, diversity, inclusion and accommodation.</li>
                         </ul>
-                        <p>You may need to go back to the supplier to correct the invoice before you can sign section 34.</p>
-                        <p>Invoices must be paid within 30 days from the time the department receives the invoice to avoid interest charges.</p>
-
+                        <p>Ultimately, employment equity is about removing barriers, and diversity, equity and inclusion are about embracing differences so that employees can perform effectively and fully contribute to the organization.</p>
+                        <p>This section should take you approximately 20 minutes to complete.</p>
                         <hr>
 
-                        <h2>3. Processing the Invoice</h2>
-                        <p>Once the invoice is validated, the manager verifies the financial coding and approves section 34. This approval is done with a signature either on paper or electronically, depending on the practices of your department. </p>
-                        <p>The approved invoice is then sent to the Finance unit, who will pay the invoice pursuant to section 33. </p>
-                        <p>Keep in mind:</p>
+                        <h2>Workplace Accommodation</h2>
+                        <p>It is your responsibility as a manager to ensure an equal access to opportunities that is free of discrimination. It is also your responsibility to remove barriers that prevent or hinder full and equal participation in employment in the core public administration.</p>
+                        <p>Be sure to inform your employees of their right to request work-related accommodation to address needs and limitations that impede their ability to do their best work.</p>
+                        <p>In offering accommodation, there is no set formula. While respecting the privacy and dignity of employees, handle each request on a case-by-case basis.</p>
+                        <p>Accommodation can take many forms. Some examples include:</p>
                         <ul>
-                          <li>you are not allowed to authorize sections 33 and 34 for the same transaction or invoice; a financial officer will perform section 33. </li>
-                          <li>You are not allowed to authorize section 41 for a contract and section 34 related to the same contract; a procurement officer will perform section 41. </li>
-                          <li>You are not allowed to authorize any transaction for which you may be perceived as having a personal benefit.</li>
+                          <li>Offering attendant services</li>
+                          <li>Ensuring technology is accessible</li>
+                          <li>Providing work-related information in accessible format</li>
+                          <li>Offering flexible work arrangements</li>
+                          <li>Providing a prayer room</li>
+                          <li>Adapting the workspace</li>
+                          <li>Adapting training programs to the needs of employees</li>
                         </ul>
+                        <p>Your organization has policies and procedures that offer guidance in creating a workplace that is more equitable, diverse and inclusive and assistance in removing barriers, to ensure that all employees can participate equally in the work environment.</p>
                         <hr>
-                        <h2>4. Section Completed</h2>
+
+                        <h2>Workplace Discrimination</h2>
+                        <p>Did you know?</p>
+                        <ol>
+                          <li>Systemic racism in Canada is not new. It dates back to 1536, if not earlier, and still exists today.</li>
+                          <li>Racism creates workplace barriers for Black, Indigenous, and other equity-seeking groups.</li>
+                          <li>There is a spectrum of understanding of racism, from deniers and skeptics, minimizers and polarizers to those who see it but don’t know what to do about it, and those that see it (perhaps because they are living it) and are taking action.</li>
+                          <li>Every employee has the right to a workplace free of racism and discrimination. There are recourse measures for those who feel that their rights, or the rights of others, are being infringed upon.</li>
+                          <li>There are those who deny that racism exists and who actively work against efforts to dismantle racism.</li>
+                        </ol>
+                        <p>Given that the <i>Employment Equity Act</i> is law and The Canadian Charter of Rights and Freedoms is part of the <i>Constitution Act</i>, it is illegal to discriminate based on race. In addition, the <i>Canadian Human Rights Act</i> specifies all of the prohibited grounds of discrimination.</p>
+                        <hr>
+
+                        <h2>Levelling the Playing Field</h2>
+                        <p>Identifying, removing and preventing conditions of disadvantage faced by racialized groups and persons with disabilities is key to ensuring an equitable environment where individuals have equal access to opportunities and services.</p>
+                        <hr>
+
+                        <h2>Unconscious Biases</h2>
+                        <p>Everyone holds unconscious beliefs about various social and identity groups, which stem from our tendency to organize social worlds into categories.</p>
+                        <p>A bias is an attitude or belief, conscious or unconscious, positive or negative, about something in particular, including groups of people, while an unconscious bias is an attitude or belief we hold but are unaware of.</p>
+                        <p>The brain has learned to take shortcuts based on our own personal experiences. Although we may be unaware of it, the brain makes generalizations, leading to stereotypes of people based on characteristics such as age, gender, ethnicity, religion and sexual orientation.</p>
+                        <p>Biases, both conscious and unconscious, affect our attitudes, behaviours and decisions. Become familiar with your own unconscious biases and how these may affect your behaviour toward current and potential employees, whether regarding staffing processes, accommodation requests, performance evaluations or other situations.</p>
+                        <p>Remember, biases are learned and can be unlearned.</p>
+                        <hr>
+
+                        <h2>In Real Life</h2>
+                        <p>Take what you have learned into real life!</p>
+                        <p>Your organization will have its own ways of doing things.</p>
+                        <p>Take a time out from the course to familiarize yourself with your organization’s policies and procedures, as well as the scope of possible accommodations, to help you address where barriers exist, and to help build a more inclusive workplace. You should also consider employment equity, diversity and inclusion as part of your HR planning, to support the organization’s employment equity commitments.</p>
+                        <hr>
+
+                        <h2>Quiz</h2>
+                        <p>Test your knowledge by answering the following questions. Select “Submit” when you are done.</p>
 
                       </span>
                       <span v-if="$i18n.locale=='fr'">
 
-                        <h2>1. Autorité de certification</h2>
-                        <p>De manière générale, aucune facture ne doit être payée tant que les biens n’ont pas été reçus ou que les services n’ont été rendus.</p>
-                        <p>Exercer votre autorité de certification en vertu de l'article 34 sur la Loi sur la gestion des finances publiques (LGFP) signifie, essentiellement, que vous devez prendre un moment pour attester que les biens et services que vous avez reçus correspondent bien à la facture. </p>
-                        <p>Bien que d’autres personnes de votre équipe pourraient faire cette évaluation, c’est à vous, en tant que gestionnaire délégué que revient le poids de cette responsabilité. Vous devez donc vous assurer que la facture et le codage financier sont exacts. </p>
-                        <p>Bien entendu, vous ne pouvez faire cette attestation que si vous avez bel et bien reçu la délégation pour le faire. Vérifiez que c’est bien le cas! </p>
-
-                        <hr>
-
-                        <h2>2. Exactitude de la facture</h2>
-                        <p>Avant de signer une facture, le gestionnaire, habituellement avec l'aide de son personnel administratif, vérifie l'exactitude de la facture ou de la réclamation en examinant les éléments suivants :  </p>
+                        <h2>Introduction</h2>
+                        <p>Tout le monde tire avantage de l’équité en matière d’emploi, de la diversité et de l’inclusion, car elles permettent aux employés actuels et futurs d’avoir des chances égales d’être embauchés et promus grâce à leurs compétences et à leurs habiletés.</p>
+                        <p>Votre organisation et votre équipe en profitent également, car un effectif diversifié peut apporter un éventail plus large d’idées et de points de vue ainsi qu’une meilleure résilience.</p>
+                        <p>Dans cette section, vous apprendrez à : </p>
                         <ul>
-                          <li>La date d'émission : on s’assure que la facture a été émise à la date de commande ou après celle-ci. Ou encore, s’il s’agit d’un contrat, on doit vérifier que la facture a bel et bien été émise pendant la durée du contrat. </li>
-                          <li>Les quantités : on vérifie que le nombre d’articles réclamés corresponde bien aux articles commandés.</li>
-                          <li>Les taxes : on valide que le montant indiqué pour les taxes est exact et que le bon numéro de TPS ou de TVH est inscrit.</li>
-                          <li>Le fournisseur ou le bénéficiaire : on s’assure que l’information est exacte et que le fournisseur ou le bénéficiaire sont admissibles au paiement.</li>
-                          <li>Et le statut : on vérifie que la facture n'a pas déjà été payée.</li>
+                          <li>reconnaître l’étendue des responsabilités relatives à l’équité en matière d’emploi, à la diversité, à l’inclusion et aux mesures d’adaptation.</li>
                         </ul>
-                        <p>Il se peut que vous deviez retourner voir le fournisseur pour faire corriger la facture avant de signer l'article 34.</p>
-                        <p>Les factures doivent être payées dans les 30 jours suivant la réception de la facture par le ministère afin d'éviter de payer des intérêts.</p>
-
+                        <p>Au bout du compte, l’équité en matière d’emploi consiste à éliminer les obstacles, tandis que la diversité, l’équité et l’inclusion consistent à accepter les différences pour que les employés aient un bon rendement et qu’ils contribuent pleinement à l’organisation.</p>
+                        <p>Il vous faudra environ 20 minutes pour parcourir cette section.</p>
                         <hr>
 
-                        <h2>3. Traitement de la facture</h2>
-                        <p>Une fois la facture validée, le gestionnaire vérifie le codage financier et approuve l'article 34. L’approbation se fait soit sur papier ou encore par voie électronique, selon les pratiques habituelles dans votre ministère.</p>
-                        <p>La facture approuvée est ensuite envoyée au service des finances qui paiera la facture, conformément à l'article 33. </p>
-                        <p>Gardez à l'esprit les éléments suivants : </p>
+                        <h2>Mesures d’adaptation en milieu de travail</h2>
+                        <p>En tant que gestionnaire, il est de votre responsabilité de garantir un accès aux possibilités qui soit égal et exempt de discrimination. Vous devez aussi éliminer les obstacles qui empêchent ou entravent la participation entière et égale à l’emploi dans l’administration publique centrale.</p>
+                        <p>Assurez-vous d’informer vos employés de leur droit de demander des mesures d’adaptation liées à leur travail. Ces dernières visent à répondre à leurs besoins et à remédier aux contraintes qui nuisent à leur capacité de donner le meilleur d’eux-mêmes.</p>
+                        <p>Il n’existe pas de formule établie quand vient le temps d’offrir des mesures d’adaptation. Chaque demande doit être gérée au cas par cas, et la vie privée et la dignité des employés doivent être respectées.</p>
+                        <p>Les mesures d’adaptation peuvent prendre diverses formes. En voici quelques-unes : </p>
                         <ul>
-                          <li>vous ne pouvez pas autoriser les articles 33 et 34 pour la même transaction ou facture; un agent financier exécutera l'article 33; </li>
-                          <li>vous ne pouvez pas autoriser l'application de l'article 41 pour un contrat et l'article 34 lié au même contrat; un agent d'approvisionnement exécutera l'article 41;</li>
-                          <li>et vous ne pouvez autoriser aucune transaction pour laquelle vous pouvez être considéré comme profiter d’un avantage personnel.</li>
+                          <li>offrir des services auxiliaires;</li>
+                          <li>veiller à ce que la technologie soit accessible;</li>
+                          <li>offrir des renseignements liés au travail sous une forme accessible;</li>
+                          <li>offrir des horaires de travail flexibles;</li>
+                          <li>donner accès à une salle de prière;</li>
+                          <li>adapter le milieu de travail;</li>
+                          <li>adapter les programmes de formation aux besoins des employés.</li>
                         </ul>
+                        <p>Les politiques et les procédures de votre organisation vous aident à créer un milieu de travail plus équitable, diversifié et inclusif, et à éliminer les obstacles, ce qui permet à tous les employés de participer de manière égale à l’environnement de travail.</p>
                         <hr>
-                        <h2>4. Section complétée</h2>
 
+                        <h2>Discrimination en milieu de travail</h2>
+                        <p>Saviez-vous que…</p>
+                        <ol>
+                          <li>Le racisme systémique au Canada n’a rien de nouveau; il remonte au moins à 1536, et il existe encore aujourd’hui.</li>
+                          <li>Le racisme crée des obstacles en milieu de travail pour les Noirs, les Autochtones et d’autres groupes en quête d’équité.</li>
+                          <li>Il existe un spectre de conceptions du racisme : certains nient le concept même de racisme, sont sceptiques, minimisent le phénomène ou se radicalisent, alors que d’autres le remarquent, mais y réagissent différemment : en effet, certains ne savent pas quoi faire pour y réagir, alors que d’autres, peut-être parce qu’ils en font l’expérience, agissent.</li>
+                          <li>Tous les employés ont le droit de travailler dans un milieu exempt de racisme et de discrimination. Les personnes qui estiment qu’on porte atteinte à leurs droits ou à ceux des autres ont des recours.</li>
+                          <li>Il y a des gens qui nient l’existence du racisme et qui s’opposent activement aux efforts de lutte contre le racisme.</li>
+                        </ol>
+                        <p>Étant donné que la <i>Loi sur l’équité en matière d’emploi</i> est en vigueur et que la Charte canadienne des droits et libertés fait partie de la <i>Loi constitutionnelle</i>, la discrimination fondée sur la race est illégale. De plus, la <i>Loi canadienne sur les droits de la personne</i> énonce tous les motifs de distinction illicites.</p>
+                        <hr>
+
+                        <h2>Égalité des chances</h2>
+                        <p>Repérer, éliminer et prévenir les conditions qui désavantagent les groupes racisés et les personnes handicapées est essentiel à la mise en place d’un environnement équitable où tout le monde peut accéder de manière égale aux possibilités et aux services.</p>
+                        <hr>
+
+                        <h2>Préjugés inconscients</h2>
+                        <p>Nous avons tous des préjugés inconscients à propos de divers groupes sociaux et identitaires, et ces préjugés émanent de notre tendance à catégoriser les mondes sociaux.</p>
+                        <p>Un préjugé est une attitude ou une croyance, consciente ou inconsciente, positive ou négative, à propos de quelque chose de précis, y compris des groupes de personnes. Un préjugé inconscient est une attitude ou une croyance que nous avons sans nous en rendre compte.</p>
+                        <p>Notre cerveau a appris à prendre des raccourcis fondés sur nos expériences personnelles. Même si nous n’en sommes pas conscients, notre cerveau fait des généralisations, ce qui crée des stéréotypes à l’égard des gens selon des caractéristiques comme l’âge, le genre, l’origine ethnique, la religion et l’orientation sexuelle.</p>
+                        <p>Les préjugés, qu’ils soient conscients ou inconscients, agissent sur nos attitudes, nos comportements et nos décisions. Familiarisiez-vous avec vos propres préjugés inconscients et la manière dont ils peuvent influencer votre comportement envers les employés actuels et futurs, qu’il soit question de processus de dotation, de demandes de mesures d’adaptation, d’évaluations de rendement ou d’autres situations.</p>
+                        <p>Rappelez-vous que les préjugés sont des croyances que vous avez apprises, et que vous pouvez donc vous en défaire.</p>
+                        <hr>
+
+                        <h2>Dans la vraie vie</h2>
+                        <p>Appliquez ce que vous avez appris - dans la vraie vie!</p>
+                        <p>Votre organisation aura sa propre façon de faire les choses.</p>
+                        <p>Prenez le temps pour vous familiariser avec les politiques et les procédures de votre organisation de même qu’avec la portée des mesures d’adaptation possibles pour mieux déterminer où sont les obstacles et pour bâtir un milieu de travail plus inclusif. Vous devez aussi intégrer l’équité en matière d’emploi, la diversité et l’inclusion à votre planification des RH afin de soutenir les engagements de votre organisation concernant l’équité en matière d’emploi.</p>
+                        <hr>
+
+                        <h2>Quiz</h2>
+                        <p>Évaluez vos connaissances en répondant aux questions suivantes. Cliquez sur « Soumettre » lorsque vous avez terminé.</p>
                       </span>
                     </b-card-text>
                   </b-card-body>
