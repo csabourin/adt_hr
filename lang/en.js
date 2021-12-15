@@ -15,7 +15,7 @@ export default {
   help: "Help",
   helpAlt:"Select here to open the help section",
   transcript: "Transcript",
-  plan: "Design Foundation",
+  plan: "Foundation",
   spend: "Function and Process",
   report: "Core Values and Standards",
   previousPage: "Previous",

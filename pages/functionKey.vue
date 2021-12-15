@@ -3,70 +3,64 @@
     <h2 class="pageTitle">{{$t('KeyMessages')}}</h2>
     <p><img src="~/assets/KeyMessS.svg" alt="" role="presentation" width="250px"></p>
     <p>&nbsp;</p>
-    <p class="quote spend"><q class="bigQuote" :class="{'french-quote':$i18n.locale=='fr'}">{{$t('keyPlanQuote')}}</q><footer>&mdash; Stephen R. Covey</footer></p>
-    <p>&nbsp;</p>
     <b-container style="text-align: left">
       <b-row>
         <b-col cols="12" lg><span v-if="$i18n.locale=='en'">
-            <h3>Initiate Expenditures and Authorize Commitments</h3>
+            <h3>Organization and Classification</h3>
             <ul>
-              <li>When you decide to obtain goods or services that will result in the eventual spending of funds, such as the decision to hire staff, order supplies, or authorize travel, you are initiating an expenditure.</li>
-              <li>When you commit an expenditure, you are certifying that the money is available. This is known as section 32 of the <em>Financial Administration Act </em> (<abbr>FAA</abbr>).</li>
-              <li>A delegation of financial authority chart shows your organization’s official spending and financial authorities.</li>
-              <li>To learn what you can initiate and commit, consult your own signed delegation form. For those expenditures for which you do not have authority, consult your organization’s delegation of financial authority chart.</li>
+              <li>Organization and classification decisions go hand in hand.  Based on the duties of a position, the group and level is determined within the organization's structure. Rates of pay are then matched to each occupational group and level, and employees are paid based on the group and level of the position they occupy.</li>
+              <li>Managers are responsible for ensuring their organizational structure is in line with the organization’s mandate and business objectives and determining the work assigned to a position and described in the job description.</li>
+              <li>Most organizations have an HR delegation instrument that indicates to whom organization and classification authorities and responsibilities are sub-delegated.</li>
             </ul>
           </span>
           <span v-if="$i18n.locale=='fr'">
             <p>
-              <h3>Engager et autoriser des dépenses</h3>
+              <h3>Organisation et classification</h3>
               <ul>
-                <li>Lorsque vous décidez d’obtenir des biens ou des services qui entra&icirc;neront une dépense éventuelle, comme l’embauche de personnel, la commande de fournitures ou l’autorisation de voyager, vous engagez une dépense.</li>
-                <li>Lorsque vous engagez une dépense, vous certifiez que l’argent est disponible. C’est ce à quoi on fait référence lorsqu’on parle de l’article 32 de la<em> Loi sur la gestion des finances publiques </em>(<abbr>LGFP</abbr>).</li>
-                <li>Un tableau de délégation des pouvoirs financiers indique les pouvoirs de dépenser et les pouvoirs financiers officiels de votre organisation.</li>
-                <li>Pour savoir ce que vous pouvez engager comme dépense, consultez votre propre carte de délégation signée. Pour les dépenses pour lesquelles vous n’avez pas d’autorisation, consultez le tableau de délégation des pouvoirs financiers de votre organisation.</li>
+                <li>Les décisions en matière d’organisation et de classification vont de pair. Selon les tâches d’un poste, le groupe et le niveau sont déterminés dans la structure de l’organisation. Les taux de rémunération correspondent ensuite à chaque groupe et niveau professionnel, et les employés sont rémunérés en fonction du groupe et du niveau du poste qu’ils occupent.</li>
+                <li>Les gestionnaires doivent s’assurer que leur structure organisationnelle est conforme au mandat et aux objectifs opérationnels de l’organisation et déterminer le travail attribué à un poste décrit dans la description de travail.</li>
+                <li>La plupart des organisations disposent d’un instrument de délégation des pouvoirs en matière de RH identifiant les employés auxquels sont subdélégués les pouvoirs et les responsabilités en matière d’organisation et de classification.</li>
               </ul>
           </span>
         </b-col>
         <b-col cols="1" class="d-none d-lg-block"></b-col>
-        <b-col cols="12" lg><span v-if="$i18n.locale=='en'">
-            <h3>Exercise Financial Authority</h3>
+        <b-col cols="12" lg>
+          <span v-if="$i18n.locale=='en'">
+            <h3>Staffing</h3>
             <ul>
-              <li>When you certify that the work has been performed as required, and services and supplies have been satisfactorily rendered, this is known as section 34.</li>
-              <li>When your financial department ensures that the payment complies with policy requirements, this is section 33.</li>
+              <li>In determining your staffing needs, consider your business objectives, your organizational goals and the public service workforce goals.</li>
+              <li>Before you initiate an appointment process, it’s important to be acquainted with the legislation, policies and guidelines that govern appointments.</li>
+              <li>There are three lenses to apply when staffing a position:
+                <ul>
+                  <li>diversity, equity and inclusion</li>
+                  <li>business objectives and the judicious management of resources; and</li>
+                  <li>integrity and ethics</li>
+                </ul>
+              </li>
             </ul>
-            <h3>Monitor and Control Finances</h3>
+            <h3>EE Diversity, Inclusion and Human Rights</h3>
             <ul>
-              <li>To help you track your work plan and budget, you will continually monitor your spending and manage your risks.</li>
+              <li>It is your responsibility as a manager to ensure an equal access to opportunities that is free of discrimination. It is also your responsibility to remove barriers that prevent or hinder full and equal participation in employment in the core public administration.</li>
             </ul>
           </span><span v-if="$i18n.locale=='fr'">
             <p>
-              <h3>Exercer son pouvoir financier</h3>
+              <h3>Dotation</h3>
               <ul>
-                <li>Lorsque vous attestez que les travaux ont été exécutés conformément aux exigences et que les services ont été rendus et les fournitures livrées de façon satisfaisante, il s’agit de l’article 34.</li>
-                <li>Lorsque votre service financier s’assure que le paiement est conforme aux exigences de la politique, il s’agit de l’article 33.</li>
+                <li>Lorsque vous déterminez vos besoins en matière de dotation, prenez en considération vos objectifs opérationnels, les buts de votre organisation et les buts de l’effectif de la fonction publique.</li>
+                <li>Avant de commencer un processus de nomination, il est important de connaître les lois, politiques et lignes directrices qui régissent les nominations.</li>
+                <li>La dotation d’un poste doit être considérée selon trois optiques : 
+                <ul>
+                  <li>la diversité, l’équité et l’inclusion</li>
+                  <li>les objectifs opérationnels et la gestion judicieuse des ressources; ainsi que</li>
+                  <li>l’intégrité et l’éthique</li>
+                </ul>
+              </li>
               </ul>
-              <h3>Surveiller et contr&ocirc;ler les finances</h3>
+              <h3>Diversité conforme à l’équité en matière d’emploi, inclusion et droits de la personne</h3>
               <ul>
-                <li>Pour vous aider à suivre votre plan de travail et votre budget, vous surveillerez continuellement vos dépenses et gérerez vos risques.</li>
+                <li>En tant que gestionnaire, il est de votre responsabilité de garantir un accès aux possibilités égal et exempt de discrimination. Vous devez aussi éliminer les obstacles qui empêchent ou entravent la participation entière et égale à l’emploi dans l’administration publique centrale.</li>
               </ul>
           </span></b-col>
-      </b-row>
-      <b-row>
-        <b-col>
-          <keyMessagesFiles>
-            <template v-slot:title>{{$t('fileSet')}}</template>
-            <template v-slot:content>
-              <b-row>
-                <b-col cols="12" sm="6" md="4" lg="2" class="text-center">
-                  <download :texts="$t('procurementInstruments')" size=128 iconColor="spendBackground" :fileSize="$i18n.locale == 'en' ? '134' : '139'" name="procurementInstruments" />
-                </b-col>
-                <b-col cols="12" sm="6" md="4" lg="2" class="text-center">
-                  <download :texts="$t('s32s34')" size=128 iconColor="spendBackground" :fileSize="$i18n.locale == 'en' ? '149' : '149'" name="s32s34" />
-                </b-col>
-              </b-row>
-            </template>
-          </keyMessagesFiles>
-        </b-col>
       </b-row>
       <b-row>
         <b-col>
