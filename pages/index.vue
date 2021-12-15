@@ -297,7 +297,7 @@ export default {
       "takeCourse":"I want to take the full course",
       "takeCourseText":"To take the full course start with the first module of the Design Foundation section by selecting “Human Resources Delegation” and continue to move through section by section to complete the entire course.",
       "refreshKnowledge":"I want to refresh my knowledge",
-      "refreshKnowledgeText":"For this option, focus on reviewing the Key Messages in each of the Design Foundation, Function and Process and Core Values and Standards sections.",
+      "refreshKnowledgeText":"For this option, focus on reviewing the Key Messages in each of the Foundation, Function and Process and Core Values and Standards sections.",
       "takeExam":"I just want to take the test",
       "takeExamText":"For this option, you will do three tests, one in the Design Foundation section, one in the Function and Process section and one in the Core Values and Standards section."
     },

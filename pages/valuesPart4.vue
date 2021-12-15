@@ -19,54 +19,86 @@
                   <b-card-body>
                     <b-card-text>
                       <span v-if="$i18n.locale=='en'">
-                        <h2>1. External Government Reports</h2>
-                        <p>The Government of Canada regularly publishes reports to keep Canadians informed on its spending and on the results it achieves using public funds.</p>
-                        <p>As a manager, it’s unlikely that you will be required to write these reports yourself. However, the work you do may be included in these reports. For example, you may be asked to report on how well your programs achieved their intended results. As such, you must continuously track your performance and results and compare them with what was planned.</p>
-                        <p>Let’s do a quick activity to get more familiar with the terminology!</p>
-                        <hr>
-                        <h2>2. Identify Results</h2>
-                        <p>Fiscal year-end is when reporting closes the loop on work plans within the organization, and when we present, globally, the results we achieved in the Departmental Results Report. As the fiscal year is a cycle, last year’s results will inform planning for the next fiscal year.</p>
-                        <p>You need to demonstrate how your performance compares with what you set out in your work plan, and explain any variances. In most departments, your Planning or Finance section will reach out to you to request this information.</p>
-                        <p>Demonstrating your performance means showing whether you met the indicators as set out in the PIPs, the performance information profiles. These identify more concretely each program’s core responsibility and results to be achieved. Some departments review performance information profiles throughout the year to see if the targets are on track or at risk of not being achieved.</p>
-                        <p>In the next activity, you will have the opportunity to practise reporting on whether your targets were met.</p>
-                        <hr>
-                        <h2>3. In Real Life</h2>
-                        <p>Let’s take what you have learned into real life. Look up your organization’s performance information profiles and its external reports, such as the Departmental Results Report.</p>
-                        <p>Your organization will have their own ways of doing financial situation reports, and reporting on spending and results. Talk to your Finance or Planning section and your director. Ask them:</p>
+                        <h2>Political Activities</h2>
+                        <p>The <i>Public Service Employment Act</i> (PSEA) defines “political activity” as:</p>
                         <ul>
-                          <li>What do we call our financial situation reports, and what do they look like? Where can I find them?</li>
-                          <li>How frequently do we prepare them?</li>
-                          <li>Do we complete these reports in the financial system or in a spreadsheet?</li>
-                          <li>What is my role? </li>
-                          <li>And what information will I provide to feed into external reports?</li>
+                          <li>any activity in support of, within, or in opposition to a political party or a candidate before or during an election period, or</li>
+                          <li>seeking nomination as, or being, a candidate in a municipal, provincial, territorial or federal election, before or during the election period</li>
                         </ul>
+                        <p>In your new role as a manager, you are responsible for providing advice and guidance to your employees regarding non-partisanship and political activities, with the support of your designated political activities representative (or DPAR).</p>
+                        <p>In this section you will learn to:</p>
+                        <ul>
+                          <li>Identify what constitutes political activities , and</li>
+                          <li>Recognize when permission from the Public Service Commission is required to participate in political activities</li>
+                        </ul>
+                        <p>This section should take you approximately 10 minutes to complete.</p>
                         <hr>
-                        <h2>4. Section Completed</h2>
+
+                        <h2>Non-Partisanship and Political Activities</h2>
+                        <h3>Non-partisanship</h3>
+                        <p>Non-partisanship is an essential element of a professional public service and a responsible democratic government. Upholding the non-partisan character of the public service is the responsibility of all public service employees.</p>
+                        <h3>Political activities</h3>
+                        <p>According to the <i>Public Service Employment Act</i> (PSEA), public service employees can engage in political activities if those activities do not impair, or are not seen to impair, their ability to perform their public service duties in a politically impartial manner.</p>
+                        <p>Political activities can be divided into two categories: candidacy (seeking nomination as, or to be, a candidate) and non-candidacy.</p>
+                        <p>Any public servant wishing to seek nomination as or to be a candidate in an election at the municipal, provincial, territorial, or federal level must first request permission from the Public Service Commission.</p>
+                        <p>That permission, if granted, may be subject to conditions to address potential risks to political impartiality, which may include a requirement to take leave without pay. If elected at the provincial, territorial or federal level, a public service employee would cease to be a public servant on the day they are declared elected.</p>
+                        <p>In the case of non-candidacy, which includes political activities in support of or in opposition to a political party or candidate, permission from the Public Service Commission not required.</p>
+                        <p>In these instances, public service employees are responsible for making informed decisions about whether the activities could impair (or be perceived as impairing) their ability to perform their duties in an impartial manner.</p>
+                        <p>Public servants wishing to engage in political activities are encouraged to consult their organization’s designated political activities representative, their values and ethics advisor, or the Political Activities and Non-Partisanship Division at the Public Service Commission.</p>
+                        <p>Allegations of improper political activity against an employee may be investigated by the Public Service Commission to determine if corrective action is appropriate.</p>
+                        <hr>
+
+                        <h2>In Real Life</h2>
+                        <p>Take what you have learned into real life!</p>
+                        <p>Your organization will have its own ways of doing things. Take a time out from the course to watch these short videos and share them with your employees:</p>
+                        <p>Political Activities: Candidacy</p>
+                        <p>Political Activities: Making an Informed Decision</p>
+                        <p>They are an excellent source of information if  you or any of your employees are considering becoming a candidate in a federal, provincial, territorial or municipal election, or participating in political activities.</p>
+                        <hr>
+
+                        <h2>Quiz</h2>
+                        <p>Test your knowledge by answering the following questions. Select “Submit” when you are done.</p>
                       </span>
                       <span v-if="$i18n.locale=='fr'">
-                        <h2>1. Rapports externes du gouvernement</h2>
-                        <p>Le gouvernement du Canada publie régulièrement des rapports pour tenir les Canadiens au courant de ses dépenses et des résultats qu’il a obtenus grâce aux fonds publics. </p>
-                        <p>En tant que gestionnaire, il est peu probable que vous ayez à rédiger ces rapports vous-même. Cependant, le travail que vous faites peut être inclus dans ces rapports. Par exemple, on vous demandera peut-être d'indiquer dans quelle mesure vos programmes ont atteint les résultats visés à l’origine. Pour ce faire, vous devez effectuer un suivi continu de votre rendement et de vos résultats par rapport à ce qui avait été planifié.</p>
-                        <p>Voici une petite activité pour vous familiariser avec la terminologie nécessaire!</p>
-                        <hr>
-                        <h2>2. Démontrer les résultats</h2>
-                        <p>La fin de l'exercice financier est le moment où la production de rapports ferme la boucle des plans de travail de l’organisation et permet de présenter, de manière globale, les résultats de l’année dans le Rapport sur les résultats ministériels. Comme l’exercice financier est un cycle, les résultats de l’an dernier permettront la planification de l’année qui vient.</p>
-                        <p>Vous devrez faire état de votre rendement par rapport à ce qui avait été prévu dans votre plan de travail et justifier tout écart. Dans la plupart des ministères, la section de la Planification ou des Finances communiquera avec vous pour vous demander ces renseignements.</p>
-                        <p>Démontrer votre rendement signifie démontrer si vous avez atteint les indicateurs établis dans le PIR -  les profils de l’information sur le rendement. Celles-ci déterminent de façon plus concrète la responsabilité fondamentale de chaque programme et les résultats à atteindre. Certains ministères examinent les profils de l'information sur le rendement tout au long de l'année pour voir si les chiffres cibles sont en bonne voie d’être atteints ou s’ils risquent de ne pas l’être</p>
-                        <p>L’activité suivante vous permettra de vous exercer à rapporter si les objectifs ont été atteints.</p>
-                        <hr>
-                        <h2>3. Dans la vraie vie</h2>
-                        <p>Appliquons ce que vous avez appris dans la vraie vie. Cherchez les profils de l'information sur le rendement de votre organisation et ses rapports externes, comme le Rapport sur les résultats ministériels.</p>
-                        <p>Votre organisation aura sa propre façon de produire des rapports sur la situation financière et de rendre compte de ses dépenses et de ses résultats. Parlez-en à votre section des Finances ou de la Planification et à votre directeur. Demandez-leur :</p>
+                        <h2>Introduction</h2>
+                        <p> La <i>Loi sur l’emploi dans la fonction publique</i> (LEFP) définit une « activité politique » comme : </p>
                         <ul>
-                          <li>Comment s’appellent nos rapports sur la situation financière et à quoi ressemblent-ils? À quel endroit puis-je les trouver?</li>
-                          <li>À quelle fréquence préparons-nous des rapports sur la situation financière?</li>
-                          <li>Doit-on remplir ces rapports dans le système financier ou dans un tableur?</li>
-                          <li>Quel est mon rôle?</li>
-                          <li>Et quelles informations vais-je fournir pour alimenter les rapports externes?</li>
+                          <li>toute activité exercée au sein d’un parti politique, ou exercée pour soutenir un tel parti ou un candidat ou pour s’y opposer, avant ou pendant la période électorale;</li>
+                          <li>le fait d’être candidat à une élection municipale, provinciale, territoriale ou fédérale, ou de tenter de le devenir, avant ou pendant la période électorale.</li>
                         </ul>
+                        <p>En tant que gestionnaire qui vient d’entrer en fonction, vous êtes responsable de conseiller et de guider vos employés concernant les questions qui ont trait à l’impartialité et aux activités politiques; pour ce faire, vous pouvez compter sur le soutien de votre représentant désigné en matière d’activités politiques (RDAP).</p>
+                        <p>Dans cette section, vous apprendrez à : </p>
+                        <ul>
+                          <li>définir ce qu’est une activité politique;</li>
+                          <li>reconnaître les situations dans lesquelles la permission de la Commission de la fonction publique est nécessaire pour qu’une personne puisse participer à des activités politiques.</li>
+                        </ul>
+                        <p>Il vous faudra environ 10 minutes pour compléter cette section.</p>
                         <hr>
-                        <h2>4. Section complétée</h2>                        
+
+                        <h2>Impartialité et activités politiques</h2>
+                        <h3>Impartialité</h3>
+                        <p>L’impartialité est un élément essentiel au sein d’une fonction publique professionnelle et d’un gouvernement démocratique responsable. Tous les fonctionnaires doivent préserver le caractère impartial de la fonction publique.</p>
+                        <h3>Activités politiques</h3>
+                        <p>Conformément à la LEFP, les fonctionnaires peuvent se livrer à des activités politiques, sauf si celles-ci portent ou semblent porter atteinte à leur capacité d’exercer leurs fonctions de façon politiquement impartiale.</p>
+                        <p>Les activités politiques sont divisées en deux catégories : activités liées à une candidature (fonctionnaire désireux d’être choisi comme candidat) et activités non liées à une candidature.</p>
+                        <p>Tout fonctionnaire désireux d’être choisi comme candidat à une élection municipale, provinciale, territoriale ou fédérale doit d’abord demander la permission de la Commission de la fonction publique.</p>
+                        <p>Si la permission est accordée, elle pourrait tout de même être soumise à des conditions visant à limiter les risques pour l’impartialité politique, comme un congé sans solde. Si un fonctionnaire est élu à l’échelon provincial, territorial ou fédéral, il cesse d’être fonctionnaire à partir du moment où il est déclaré élu.</p>
+                        <p>Il n’est pas nécessaire d’obtenir la permission de la Commission de la fonction publique si l’activité n’est pas liée à une candidature, notamment si le fonctionnaire se livre à une activité politique visant à soutenir un candidat ou un parti électoral, ou à s’y opposer.</p>
+                        <p>Dans ce cas, le fonctionnaire est responsable de juger si cette activité pourrait porter atteinte (ou sembler porter atteinte) à sa capacité d’exercer ses fonctions de façon politiquement impartiale.</p>
+                        <p>Les fonctionnaires qui souhaitent se livrer à des activités politiques sont invités à consulter leur RDAP, leur conseiller en valeurs et éthique ou la Direction des activités politiques et de l’impartialité politique de la Commission de la fonction publique.</p>
+                        <p>Toute allégation d’activités politiques irrégulières formulée contre un fonctionnaire pourrait faire l’objet d’une enquête par la Commission de la fonction publique, qui visera à déterminer si la prise de mesures correctives est nécessaire.</p>
+                        <hr>
+
+                        <h2>Dans la vraie vie</h2>
+                        <p>Appliquer ce que vous avez appris dans la vraie vie!</p>
+                        <p>Votre organisation aura sa propre façon de faire les choses. Prenez le temps pour jeter un coup d’œil à ces courtes vidéos et pour les faire suivre à vos employés : </p>
+                        <p>Activités politiques – Candidature;</p>
+                        <p>Activités politiques – Prenez une décision éclairée.</p>
+                        <p>Ces vidéos sont une excellente source d’information si vous ou l’un de vos employés envisagez de devenir candidat à une élection fédérale, provinciale, territoriale ou municipale, ou si vous voulez vous livrer à des activités politiques.</p>
+                        <hr>
+
+                        <h2>Quiz</h2>
+                        <p>Évaluez vos connaissances en répondant aux questions suivantes. Cliquez sur « Soumettre » lorsque vous avez terminé.</p>                        
                       </span>
                     </b-card-text>
                   </b-card-body>
