@@ -115,7 +115,7 @@
                         <hr>
 
                         <h2>Cadre juridique</h2>
-                        <p>Saviez-vous que la Loi sur les langues officielles se fonde sur la <i>Loi constitutionnelle de 1867</i> et la Charte canadienne des droits et libertés? Son statut quasi constitutionnel est reconnu par les tribunaux canadiens.</p>
+                        <p>Saviez-vous que la <i>Loi sur les langues officielles</i> se fonde sur la <i>Loi constitutionnelle de 1867</i> et la Charte canadienne des droits et libertés? Son statut quasi constitutionnel est reconnu par les tribunaux canadiens.</p>
                         <p>La Politique sur les langues officielles facilite la mise en œuvre efficace de la <i>Loi sur les langues officielles</i> et du Règlement sur les langues officielles – communications avec le public et prestation des services par les institutions gouvernementales.</p>
                         <p>La politique énonce les résultats attendus suivants : </p>
                         <ul>
