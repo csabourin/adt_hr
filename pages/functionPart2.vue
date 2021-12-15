@@ -504,7 +504,7 @@ button.accessibilityButton {
   "jumpModalParts":"Sauter à l’activité",
   "playSegment":"Faire jouer le segment vidéo",
   "transcriptText":"",
-  "spendSectionBar": "DÉPENSES"
+  "spendSectionBar": "FONCTION"
   }
   }
 </i18n>

@@ -279,7 +279,7 @@ export default {
   "jumpModalPartsWP":"Jump to activity",
   "playSegment":"Play video segment",
   "transcriptText":"",
-  "planSectionBar": "DESIGN FOUNDATION"
+  "planSectionBar": "FOUNDATION"
   },
   "fr":{
   "TakeTheQuiz":"Répondez au questionnaire",
@@ -297,7 +297,7 @@ export default {
   "jumpModalPartsWP":"Sauter à l’activité",
   "playSegment":"Faire jouer le segment vidéo",
   "transcriptText":"",
-  "planSectionBar": "DESIGN"
+  "planSectionBar": "FONDEMENT"
   }
   }
 </i18n>

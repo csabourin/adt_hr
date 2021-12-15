@@ -376,6 +376,7 @@ export default {
     "tryAgain": "Try again",
     "scoreIs":"Your final score is",
     "unanswered":"Unanswered question(s)",
+    "plan": "FOUNDATION",
     "Questions": {
       "q1": {
         "text": "Deputy heads are delegated certain authorities from the Public Service Commission such as the choice of appointment process and hiring casual workers.  Which document grants these authorities? ",
@@ -526,6 +527,7 @@ export default {
     "tryAgain": "Essayer de nouveau",
     "scoreIs":"Votre note finale est de",
     "unanswered":"Question(s) sans réponse",
+    "plan": "FONDEMENT",
     "Questions": {
       "q1": {
         "text": "Les administrateurs généraux se voient confier certains pouvoirs par la Commission de la fonction publique, comme le choix du processus de nomination et l’embauche de travailleurs occasionnels. Quel document octroie ces pouvoirs? ",

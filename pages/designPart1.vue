@@ -271,7 +271,7 @@ export default {
   "InRealLife":"In Real Life",
   "TakeTheQuiz":"Take the Quiz",
   "transcriptText":"",
-  "planSectionBar": "DESIGN FOUNDATION"
+  "planSectionBar": "FOUNDATION"
   },
   "fr":{
   "TakeTheQuiz":"Répondez au questionnaire",
@@ -283,7 +283,7 @@ export default {
   "gotIt":"Passer au segment suivant.",
   "gotItContent": "Les fenêtres contextuelles apparaissent tout au long du cours pour indiquer ce qui vient ensuite comme une vidéo, un exercice, une liste de liens ou une aide à l’emploi.",
   "transcriptText":"",
-  "planSectionBar": "DESIGN"
+  "planSectionBar": "FONDEMENT"
   }
   }
 </i18n>

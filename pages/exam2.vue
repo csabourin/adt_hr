@@ -447,6 +447,7 @@ export default {
     "tryAgain": "Try Again",
     "scoreIs": "Your final score is",
     "unanswered":"Unanswered Question(s)",
+    "spend": "FUNCTION",
     "Questions": {
       "q1": {
         "text": "Creating or classifying a position in line with the organization’s mandate will ____________. ",
@@ -741,6 +742,7 @@ export default {
     "tryAgain": "Essayer de nouveau",
     "scoreIs": "Votre note finale est de",
     "unanswered":"Question(s) non-répondue(s)",
+    "spend": "FONCTION",
     "Questions": {
        "q1": {
         "text": "La création ou la classification d’un poste conformément au mandat de l’organisation ____________.",

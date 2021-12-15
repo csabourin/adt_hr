@@ -464,7 +464,7 @@ export default {
   "inRealLifeTitle":"Activité : Dans la vraie vie",
   "TakeTheQuiz":"Répondez au Quiz",
   "transcriptText":"",
-  "reportSectionBar": "RAPPORTS"
+  "reportSectionBar": "VALEURS"
   }
   }
 </i18n>

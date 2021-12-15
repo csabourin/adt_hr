@@ -174,12 +174,12 @@ export default {
   "en":
   {
   "keyPlanQuote": " Reports should tell the public the story of our performance. ",
-  "reportSectionBar": "SPEND"
+  "reportSectionBar": "VALUES"
   },
   "fr":
   {
   "keyPlanQuote": " Les rapports devraient faire part de notre performance au public.",
-  "reportSectionBar": "DÉPENSES"
+  "reportSectionBar": "VALEURS"
   }
   }</i18n>
 <style type="text/css" scoped>

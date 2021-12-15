@@ -622,7 +622,7 @@ button.accessibilityButton {
   "RecordingTitle":"Activité : Enregistrement dans le système financier",
   "gotIt":"Continuer au segment suivant.",
   "transcriptText":"",
-  "spendSectionBar": "DÉPENSES"
+  "spendSectionBar": "FONCTION"
   }
   }
 </i18n>

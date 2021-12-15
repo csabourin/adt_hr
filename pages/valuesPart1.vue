@@ -385,7 +385,7 @@ export default {
   "UpdatingAnnualForecastTitle":"Activité : Mise à jour des prévisions annuelles",
   "IRLTitle": "Dans la vraie vie",
   "transcriptText":"",
-  "reportSectionBar": "RAPPORTS"
+  "reportSectionBar": "VALEURS"
   }
   }
 </i18n>

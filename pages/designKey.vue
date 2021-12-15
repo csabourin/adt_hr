@@ -173,11 +173,11 @@ export default {
   {
     "en":{
       "keyPlanQuote": " Great planning leads to great performance. ",
-      "planSectionBar": "PLAN"
+      "planSectionBar": "FOUNDATION"
     },
     "fr":{
       "keyPlanQuote": " Une bonne planification mène à une bonne performance. ",
-      "planSectionBar": "PLANIFICATION" 
+      "planSectionBar": "FONDATION" 
     }
   }
 </i18n>

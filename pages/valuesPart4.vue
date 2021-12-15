@@ -291,7 +291,7 @@ export default {
   "inRealLifeTitle":"Dans la vraie vie",
   "TakeTheQuiz":"Répondez au questionnaire",
   "transcriptText":"",
-  "reportSectionBar": "RAPPORTS"
+  "reportSectionBar": "VALEURS"
   }
   }
 </i18n>

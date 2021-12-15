@@ -424,6 +424,7 @@ export default {
   "tryAgain": "Try Again",
   "scoreIs": "Your final score is",
   "unanswered":"Unanswered Question(s)",
+  "report": "VALUES",
   "Questions": {
   "q1": {
   "text": "Tina, who offers administrative support to your team, has requested to work from 6:00 am to 2:00 pm to reduce commuting time and to spend more time with her kids. Which document should you consult to help you decide if you should approve Tina’s request?  ",
@@ -638,6 +639,7 @@ export default {
       "tryAgain": "Essayer de nouveau",
       "scoreIs": "Votre note finale est de",
       "unanswered":"Question(s) sans réponse",
+      "report": "VALEURS",
       "Questions": {
       "q1": {
       "text": "Tina, qui offre du soutien administratif à votre équipe, a demandé à travailler de 6 h à 14 h pour réduire son temps de déplacement et pouvoir passer plus de temps avec ses enfants. Quel document devriez-vous consulter pour déterminer si vous devriez approuver la demande de Tina?",
