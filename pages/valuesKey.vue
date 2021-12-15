@@ -8,65 +8,94 @@
     <p>&nbsp;</p>
     <b-container style="text-align: left">
       <b-row>
-        <b-col cols="12" lg xl="5"><span v-if="$i18n.locale=='en'">
-            <h3>Prepare the financial situation report</h3>
+        <b-col cols="12" lg xl="5">
+          <span v-if="$i18n.locale=='en'">
+            <h3>Labour Relations</h3>
             <ul>
-              <li>Financial situation reports:
+              <li>As a delegated manager, you are responsible for implementing the <a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=12602" target="_blank" alt="Link to the webpage of the Guidelines on Managerial or Confidential Exclusions">Guidelines on Managerial or Confidential Exclusions</a>.
               <ul>
-                <li>provide the most current financial picture of the organization’s finances on a given date</li>
-                <li>are tools for managers to regularly identify current financials, risks, potential surpluses and/or shortfalls in their budgets</li>
-                <li>are initiated and led by the Chief Financial Officer</li>
-                <li>allow the Chief Financial Officer to make recommendations to senior leaders on the financial resources needed to achieve results</li>
+                <li>Managers must become familiar with their employees’ collective agreements.</li>
+                <li>Managers must acknowledge and send grievances received from employees to the proper authority within their organization to follow up.</li>
               </ul>
               </li>
             </ul>
+            <h3>Values and Ethics</h3>
+            <ul>
+              <li>As a manager you are in a position of influence and authority. You must:   
+                <ul>
+                  <li>explain and guide your staff in acting ethically,</li>
+                  <li>be a role model to your team, and</li>
+                  <li>apply a values-and-ethics filter in executing your responsibilities.</li>
+                </ul>
+              </li>
+              <li>Fostering a safe, healthy work environment, including protecting employees from harassment and violence, is a key requirement of employers.</li>
+              <li>To resolve allegations of harassment and violence with the least disruption to the work environment, managers must follow the steps <a href="https://www.canada.ca/en/employment-social-development/programs/workplace-health-safety/harassment-violence-prevention/complaints/resolve.html" target="_blank" alt="Link to the webpage">solve a workplace harassment and violence complaint</a>.</li>
+              <li>Acts of wrongdoing are defined by such actions as breaking laws or regulations, misusing public funds or assets or gross mismanagement.</li>
+            </ul>
           </span>
           <span v-if="$i18n.locale=='fr'">
-            <h3><strong>Préparer le rapport sur la situation financi&egrave;re</strong></h3>
+            <h3>Relations de travail</h3>
             <ul>
-              <li>Les rapports sur la situation financi&egrave;re :
+              <li>À titre de gestionnaire, il vous incombe de mettre en œuvre les <a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=12602" target="_blank" alt="Lien vers le site web">Lignes directrices sur les postes de direction ou de confiance exclus</a>.
               <ul>
-                  <li>fournissent le portrait financier le plus récent des finances de l'organisme à une date donnée;</li>
-                  <li>sont des outils permettant aux gestionnaires de vérifier régulièrement les finances courantes, les risques, les excédents ou les déficits potentiels dans leurs budgets;</li>
-                  <li>sont lancés et dirigés par le dirigeant principal des finances;</li>
-                  <li>permettent au dirigeant principal des finances de faire des recommandations aux cadres supérieurs sur les ressources financi&egrave;res nécessaires pour obtenir des résultats.</li>
+                <li>Les gestionnaires doivent se familiariser avec les conventions collectives de leurs employés.</li>
+                <li>Les gestionnaires doivent accuser réception des griefs reçus des employés et les transmettre à l'autorité compétente de leur organisation pour qu'elle y donne suite.</li>
               </ul>
               </li>
+            </ul>
+            <h3>Valeurs et éthique</h3>
+            <ul>
+              <li>En tant que gestionnaire, vous êtes en position d’influence et d’autorité. Vous devez :  
+                <ul>
+                  <li>expliquer à votre personnel comment agir de manière éthique et le guider en ce sens,</li>
+                  <li>agir comme modèle pour votre équipe, et</li>
+                  <li>appliquer un filtre de valeurs et d’éthique lorsque vous vous acquittez de vos responsabilités.</li>
+                </ul>
+              </li>
+              <li>Les employeurs doivent favoriser un milieu de travail sain et sécuritaire et protéger les employés contre le harcèlement et la violence.</li>
+              <li>Pour résoudre des allégations de harcèlement et de violence avec le moins de perturbations possible pour le milieu de travail, les gestionnaires doivent suivre les étapes visant à <a href="https://www.canada.ca/fr/emploi-developpement-social/programmes/sante-securite-travail/prevenir-harcelement-violence/plaintes/regler.html" target="_blank" alt="Lien vers le site web">régler une plainte de harcèlement ou de violence en milieu de travail</a>.</li>
+              <li>Les actes répréhensibles sont définis par des actions telles que la violation de lois ou de règlements, l'utilisation abusive de fonds ou de biens publics ou des cas graves de mauvaise gestion.</li>
             </ul>
           </span>
         </b-col>
         <b-col cols="1" class="d-none d-xl-block"></b-col>
         <b-col cols="12" lg xl="5"><span v-if="$i18n.locale=='en'">
-            <h3>Contribute to external reporting</h3>
+            <h3>Official Languages</h3>
             <ul>
-              <li>The finances and results of government services and programs are reported regularly to Parliament and Canadians through a variety of reports:&nbsp;
-              <ul>
-                <li>Public Accounts of Canada</li>
-                <li>Departmental Plan</li>
-                <li>Departmental Results Report (DRR)</li>
-                <li>Quarterly Financial Reporting (QFR)</li>
-                <li>Proactive disclosure&nbsp;</li>
-                <li>Management Accountability Framework (MAF)</li>
-                <li>Internal audit and evaluation reports</li>
-              </ul>
-              </li>
-              <li>Managers contribute to these government reports by providing information on the performance outcomes and results of their activities.</li>
-            </ul>
-          </span><span v-if="$i18n.locale=='fr'">
-            <h3><strong>Contribuer à l’établissement de rapports externes</strong></h3>
-            <ul>
-              <li>Les finances et les résultats des services et des programmes gouvernementaux font l'objet de rapports réguliers au Parlement et à la population canadienne dans divers rapports :&nbsp;
+              <li>Managers must ensure that communications and services in their offices are actively offered in English and French, and that communications with and services to the public from a designated office are in both official languages or in the preferred language of the recipient, if known.</li>
+              <li>Managers must ensure that the positions they manage reflect the level of language proficiency required to perform the duties and tasks of the positions.</li>
+              <li>In bilingual regions, managers and supervisors must 
                 <ul>
-                    <li>Comptes publics du Canada</li>
-                    <li>Plan ministériel</li>
-                    <li>Rapport sur les résultats ministériels (RRM)</li>
-                    <li>Rapports financiers trimestriels (RFT)</li>
-                    <li>Divulgation proactive&nbsp;</li>
-                    <li>Cadre de responsabilisation de gestion (CRG)</li>
-                    <li>Rapports de vérification interne et d’évaluation</li>
+                  <li>provide employees with regularly and widely used work instruments and electronic systems in both official languages</li>
+                  <li>supervise employees in the official language of the employee's choice when they occupy bilingual or either/or positions, and</li>
+                  <li>supervise employees in the language of the position when they occupy unilingual positions.</li>
                 </ul>
               </li>
-              <li>Les gestionnaires contribuent à ces rapports gouvernementaux en fournissant de l'information sur les résultats de rendement et les résultats de leurs activités.</li>
+            </ul>
+            <h3>Political Activities</h3>
+            <ul>
+              <li>Public service employees can engage in political activities if those activities do not impair or seem to impair, their ability to perform their public service duties in a politically impartial manner.</li>
+              <li>Political activities can be divided into two categories: candidacy and non-candidacy.</li>
+              <li>Any public servant wishing to be a candidate in an election at the municipal, provincial, territorial, or federal level must first request permission from the Public Service Commission.</li>
+            </ul>
+          </span><span v-if="$i18n.locale=='fr'">
+            <h3>Langues officielles</h3>
+            <ul>
+              <li>Les gestionnaires doivent s’assurer que les communications et les services sont offerts en anglais et en français dans leurs bureaux, et que les communications avec le public et la prestation des services au public à partir d'un bureau désigné le sont dans les deux langues officielles ou dans la langue préférée du bénéficiaire, si celle-ci est connue.</li>
+              <li>Les gestionnaires doivent s'assurer que les postes qui relèvent de leur gestion correspondent au niveau de compétence linguistique requis pour accomplir les fonctions et les tâches de ces postes.</li>
+              <li>Dans les régions bilingues, les gestionnaires et les superviseurs doivent
+                <ul>
+                  <li>mettre à la disposition des employés des instruments de travail et des systèmes électroniques d'usage courant et généralisé dans les deux langues officielles;</li>
+                  <li>superviser les employés dans la langue officielle de leur choix quand ceux-ci occupent des postes bilingues ou réversibles; et</li>
+                  <li>superviser les employés dans la langue officielle du poste quand ceux-ci occupent des postes unilingues.</li>
+                </ul>
+              </li>
+            </ul>
+            <h3>Activités politiques</h3>
+            <ul>
+              <li>Les fonctionnaires peuvent se livrer à des activités politiques, sauf si celles-ci portent ou semblent porter atteinte à leur capacité d’exercer leurs fonctions de façon politiquement impartiale.</li>
+              <li>Les activités politiques sont divisées en deux catégories : activités liées à une candidature et activités non liées à une candidature.</li>
+              <li>Tout fonctionnaire désireux d’être choisi comme candidat à une élection municipale, provinciale, territoriale ou fédérale doit d’abord demander la permission de la Commission de la fonction publique.</li>
             </ul>
           </span></b-col>
       </b-row>
@@ -78,12 +107,6 @@
               <b-row>
                 <b-col cols="12" sm="6" md="4" lg="2" class="text-center">
                   <download :texts="$t('FSRRoadmap')" size=128 iconColor="reportBackground" :fileSize="$i18n.locale == 'en' ? '107' : '111'" name="FSRRoadmap" />
-                </b-col>
-                <b-col cols="12" sm="6" md="4" lg="2" class="text-center">
-                  <download :texts="$t('prepareFSR')" size=128 iconColor="reportBackground" :fileSize="$i18n.locale == 'en' ? '108' : '96,5'" name="prepareFSR" />
-                </b-col>
-                <b-col cols="12" sm="6" md="4" lg="2" class="text-center">
-                  <download :texts="$t('extReports')" size=128 iconColor="reportBackground" :fileSize="$i18n.locale == 'en' ? '138' : '124'" name="extReports" />
                 </b-col>
              </b-row>
             </template>
