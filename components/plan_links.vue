@@ -2,54 +2,27 @@
   <span>
     <div v-if="$i18n.locale=='fr'">
       <div>
-        <h4>Planification</h4>
-        <ul>
-          <li><externalLink link="https://www.canada.ca/fr/secretariat-conseil-tresor/services/depenses-prevues/system-gestion-depenses/cycle-rapports.html">Le cycle des rapports sur les dépenses gouvernementales</externalLink></li>
-          <li><externalLink link="https://laws-lois.justice.gc.ca/fra/lois/f-11/">Loi sur la gestion des finances publiques</externalLink></li>
-          <li><externalLink link="https://www.canada.ca/fr/gouvernement/systeme/priorites.html">Priorités du gouvernement</externalLink>
-            <ul>
-              <li><externalLink link="https://pm.gc.ca/fr/lettres-de-mandat">Lettres de mandat des Ministres</externalLink></li>
-              <li><externalLink link="https://www.canada.ca/fr/conseil-prive/campagnes/discours-trone.html">Discours du Tr&ocirc;ne</externalLink></li>
-              <li><externalLink link="https://www.canada.ca/fr/secretariat-conseil-tresor/services/depenses-prevues/rapports-plans-priorites.html">Plan ministériels (PM)</externalLink>&nbsp;</li>
-            </ul>
-          </li>
-          <li><externalLink link="https://www.canada.ca/fr/ministere-finances/services/publications/budget-federal.html">Budget fédéral</externalLink></li>
-          <li><externalLink link="https://www.canada.ca/fr/secretariat-conseil-tresor/services/cadre-responsabilisation-gestion.html">Cadre de responsabilisation de gestion (CRG)</externalLink></li>
-          <li><externalLink link="https://www.canada.ca/fr/secretariat-conseil-tresor/sujets/depenses-prevues.html">Dépenses prévues du gouvernement</externalLink></li>
-          <li><externalLink link="https://www.canada.ca/fr/secretariat-conseil-tresor/services/rapports-ministeriels-rendement.html">Rapport sur les résultats ministériels (RRM)</externalLink></li>
-          <li><externalLink link="https://ouvert.canada.ca/fr/divulgation-proactive">Divulgation proactive</externalLink>
-            <ul>
-              <li><externalLink link="https://www.canada.ca/fr/secretariat-conseil-tresor/services/etablissement-rapports-depenses/divulgation-proactive-ministeres-organismes.html">Divulgation proactive par ordre de ministères ou d’organismes</externalLink>&nbsp;</li>
-            </ul>
-          </li>
-          <li><externalLink link="https://www.canada.ca/fr/secretariat-conseil-tresor/services/presentations-conseil-tresor/guide.html">Guide à l’intention des rédacteurs de présentations au Conseil du Trésor</externalLink></li>
-          <li><externalLink link="https://www.canada.ca/fr/conseil-prive/services/publications/memoires-cabinet.html">Guide et gabarits pour Mémoires au Cabinet</externalLink></li>
-        </ul>
+        <h4>Éléments de base</h4>
+        <li><externalLink link="https://www.canada.ca/fr/conseil-prive/campagnes/discours-trone/2020/discours-du-trone.html">Discours du Trône</externalLink></li>
+        <li><externalLink link="https://www.canada.ca/fr/commission-fonction-publique/services/cadre-nomination/delegation/instrument-delegation-responsabilisation.html#toc1.2">Instrument de délégation et de responsabilisation en matière de nomination</externalLink></li>
+        <li><externalLink link="http://skynet/dev/prochon/G110/Module7/5_packages/G110-7_2018-12-11_en/content/tools/documents_en.html">Instrument de subdélégation pour les pouvoirs en matière de RH</externalLink></li>
+        <li><externalLink link="https://laws-lois.justice.gc.ca/fra/lois/f-11/">Loi sur la gestion des finances publiques</externalLink></li>
+        <li><externalLink link="https://laws-lois.justice.gc.ca/fra/lois/p-33.01/">Loi sur l’emploi dans la fonction publique</externalLink></li>
+        <li><externalLink link="https://www.canada.ca/fr/secretariat-conseil-tresor/services/depenses-prevues/rapports-plans-priorites.html">Plans ministériels</externalLink></li>
+        <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32621&section=html">Politique sur la gestion des personnes</externalLink></li>
+        <li><externalLink link="https://www.canada.ca/fr/conseil-prive/organisation/rapports-publications.html">Rapport annuel du greffier du Conseil privé</externalLink></li>
       </div>
     </div>
     <div v-if="$i18n.locale=='en'">
-      <h4>Plan</h4>
+      <h4>Foundation</h4>
       <ul class="list-unstyled">
-        <li><externalLink link="https://www.canada.ca/en/treasury-board-secretariat/services/planned-government-spending/expenditure-management-system/reporting-cycle.html">The Reporting Cycle for Government Expenditures</externalLink></li>
-        <li><externalLink link="http://laws-lois.justice.gc.ca/eng/acts/f-11/">Financial Administration Act</externalLink></li>
-        <li><externalLink link="https://www.canada.ca/en/government/system/priorities.html">Government Priorities</externalLink>
-          <ul>
-            <li><externalLink link="https://pm.gc.ca/en/mandate-letters">Ministerial Mandate Letters</externalLink></li>
-            <li><externalLink link="https://www.canada.ca/en/privy-council/campaigns/speech-throne.html">Speech from the Throne</externalLink></li>
-            <li><externalLink link="https://www.canada.ca/en/treasury-board-secretariat/services/planned-government-spending/reports-plans-priorities.html">Departmental Plan (DP)</externalLink></li>
-          </ul>
-        </li>
-        <li><externalLink link="https://www.canada.ca/en/department-finance/services/publications/federal-budget.html">Federal Budget</externalLink></li>
-        <li><externalLink link="https://www.canada.ca/en/treasury-board-secretariat/services/management-accountability-framework.html">Management Accountability Framework (MAF)</externalLink></li>
-        <li><externalLink link="https://www.canada.ca/en/treasury-board-secretariat/topics/planned-government-spending.html">Planned Government Spending</externalLink></li>
-        <li><externalLink link="https://www.canada.ca/en/treasury-board-secretariat/services/departmental-performance-reports.html">Departmental Results Reports (DRR)</externalLink></li>
-        <li><externalLink link="https://open.canada.ca/en/proactive-disclosure">Proactive Disclosure</externalLink>
-          <ul>
-            <li><externalLink link="https://www.canada.ca/en/treasury-board-secretariat/services/reporting-government-spending/proactive-disclosure-department-agency.html">Proactive Disclosure by Department or Agency</externalLink></li>
-          </ul>
-        </li>
-        <li><externalLink link="https://www.canada.ca/en/treasury-board-secretariat/services/treasury-board-submissions/guidance.html">Detailed Guidance for Treasury Board Submission Writers</externalLink></li>
-        <li><externalLink link="https://www.canada.ca/en/privy-council/services/publications/memoranda-cabinet.html">Guide and templates for Memoranda to Cabinet</externalLink></li>
+        <li><externalLink link="https://www.canada.ca/en/public-service-commission/services/appointment-framework/delegation-overview/appointment-delegation-accountability-instrument.html#toc1.2">Appointment Delegation and Accountability Instrument</externalLink></li>
+        <li><externalLink link="https://www.canada.ca/en/privy-council/corporate/reports-publications.html">Annual report from the Clerk of the Privy Council</externalLink></li>
+        <li><externalLink link="https://www.canada.ca/en/treasury-board-secretariat/services/planned-government-spending/reports-plans-priorities.html">Departmental Plans</externalLink></li>
+        <li><externalLink link="https://laws-lois.justice.gc.ca/eng/acts/F-11/">Financial Administration Act</externalLink></li>
+        <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32621&section=html">Policy on People Management</externalLink></li>
+        <li><externalLink link="https://laws-lois.justice.gc.ca/eng/acts/p-33.01/">Public Service Employment Act</externalLink></li>
+        <li><externalLink link="https://www.canada.ca/en/privy-council/campaigns/speech-throne/2020/speech-from-the-throne.html">Speech from the Throne Sub-delegation instrument for HR authorities</externalLink></li>
       </ul>
     </div>
   </span>

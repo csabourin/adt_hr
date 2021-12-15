@@ -177,7 +177,7 @@ export default {
     },
     "fr":{
       "keyPlanQuote": " Une bonne planification mène à une bonne performance. ",
-      "planSectionBar": "FONDEMENT" 
+      "planSectionBar": "BASE" 
     }
   }
 </i18n>

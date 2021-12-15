@@ -297,7 +297,7 @@ export default {
   "jumpModalPartsWP":"Sauter à l’activité",
   "playSegment":"Faire jouer le segment vidéo",
   "transcriptText":"",
-  "planSectionBar": "FONDEMENT"
+  "planSectionBar": "BASE"
   }
   }
 </i18n>

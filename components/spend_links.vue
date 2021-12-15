@@ -2,7 +2,7 @@
   <span>
     <div v-if="$i18n.locale=='fr'">
       <div>
-        <h4>Références : Liens externes </h4>
+        <h4>Fonction et processus</h4>
         <ul class="list-unstyled">
           <li><externalLink link="https://www.canada.ca/fr/commission-fonction-publique/services/cadre-nomination.html">Cadre de nomination de la Commission de la fonction publique </externalLink></li>
           <li><externalLink link="https://www.canada.ca/fr/commission-fonction-publique/services/cadre-nomination/lignes-directrices-matiere-nomination.html">Politique de nomination de la Commission de la fonction publique </externalLink></li>
@@ -18,7 +18,7 @@
     </div>
     <div v-if="$i18n.locale=='en'">
       <div>
-        <h4>References: External Links </h4>
+        <h4>Function and Process</h4>
         <ul class="list-unstyled">
           <li><externalLink link="https://www.canada.ca/en/public-service-commission/services/appointment-framework.html">Public Service Commission’s Appointment Framework</externalLink></li>
           <li><externalLink link="https://www.canada.ca/en/public-service-commission/services/appointment-framework/appointment-policy.html">Public Service Commission’s Appointment Policy</externalLink></li>

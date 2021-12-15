@@ -4,7 +4,7 @@ export default {
   symbolicIdentifier: "Identificateur symbolique",
   finRoles: "Gérer les personnes de manière efficace ",
   skipToMain:"Passer au contenu principal",
-  plan: "Fondement",
+  plan: "Éléments de base",
   spend: "Fonction et processus",
   report: "Valeurs et normes fondamentales",
   homePage: "Accueil",

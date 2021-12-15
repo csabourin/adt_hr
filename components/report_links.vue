@@ -2,7 +2,7 @@
   <span>
     <div v-if="$i18n.locale=='fr'">
       <div>
-        <h4>Rapports</h4>
+        <h4>Valeurs et normes fondamentales</h4>
         <ul>
           <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=31300">Politique sur les résultats</externalLink></li>
           <li><externalLink link="https://www.tbs-sct.gc.ca/ems-sgd/edb-bdd/index-fra.html#start">InfoBase du GC</externalLink> (Trouver l’information la plus récente sur les finances, l’effectif et les résultats du gouvernement)</li>
@@ -13,7 +13,7 @@
     </div>
     <div v-if="$i18n.locale=='en'">
       <div>
-        <h4>Report</h4>
+        <h4>Core Values and Standards</h4>
         <ul class="list-unstyled">
           <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=31300">Policy on Results</externalLink></li>
           <li><externalLink link="https://www.tbs-sct.gc.ca/ems-sgd/edb-bdd/index-eng.html#start">GC InfoBase</externalLink> (Find the latest information on all government finances, people and results)</li>
