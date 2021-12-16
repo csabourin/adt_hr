@@ -31,7 +31,7 @@ export default {
   continueIcon: "Icône « continuer »",
   referenceIcon: "Icône « référence »",
   infoIcon: "Icône « information »",
-  checkAll: "Choisissez toutes les réponses qui s’appliquent.",
+  checkAll: "Cochez toutes les bonnes réponses.",
   selectRight: "Choisissez la bonne réponse.",
   pleaseAnswer: "Veuillez r&eacute;pondre &agrave; la question!",
   KeyMessages: "Messages clés",

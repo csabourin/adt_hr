@@ -123,20 +123,21 @@
         <b-modal no-stacking id="Introduction" @hide="resumePlay()" okOnly>
             <template v-slot:modal-header="{ close }">
                 <h3 class="h5">
-                    <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('activityLinks')}}
+                    <img src="~/assets/InfoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('activityLinks')}}
                 </h3>
                 <button type="button" aria-label="Close" class="close" @click="close()">×</button>
             </template>
             <div v-if="$i18n.locale=='fr'">
-              <p>Here is a list of resources referred to in this section.</p>
+              <p>Jetez un coup d’œil à ces ressources, qui guident les activités des RH dans de nombreux domaines.</p>
               <ul>
-                <li><a href="" target="_blank" alt=""></a></li>
-                <li><a href="" target="_blank" alt=""></a></li>
-                <li><a href="" target="_blank" alt=""></a></li>
+                <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32621&section=html" target="_blank" alt="Politique sur la gestion des personnes">Politique sur la gestion des personnes</a></li>
+                <li><a href="https://www.canada.ca/fr/conseil-prive/campagnes/discours-trone/2020/discours-du-trone.html" target="_blank" alt="Discours du Trône">Discours du Trône</a></li>
+                <li><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/depenses-prevues/rapports-plans-priorites.html" target="_blank" alt="Plans ministériels">Plans ministériels</a></li>
+                <li><a href="https://www.canada.ca/fr/conseil-prive/organisation/rapports-publications.html" target="_blank" alt="Rapport annuel du greffier du Conseil privé">Rapport annuel du greffier du Conseil privé</a></li>
               </ul>
             </div>
             <div v-if="$i18n.locale=='en'">
-              <p>Take a look at this resource, which guide HR activities in a variety of areas.</p>
+              <p>Take a look at these resources, which guide HR activities in a variety of areas.</p>
               <ul>
                 <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32621&section=html" target="_blank" alt="Policy on People Management">Policy on People Management</a></li>
                 <li><a href="https://www.canada.ca/en/privy-council/campaigns/speech-throne/2020/speech-from-the-throne.html" target="_blank" alt="Speech from the Throne">Speech from the Throne</a></li>
@@ -159,7 +160,7 @@
         <b-modal no-stacking id="reallife" @hide="resumePlay()" okOnly>
           <template v-slot:modal-header="{ close }">
             <h3 class="h5">
-              <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('InRealLife')}}
+              <img src="~/assets/InfoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('InRealLife')}}
             </h3>
             <button type="button" aria-label="Close" class="close" @click="close()">×</button>
           </template>
@@ -270,11 +271,11 @@ export default {
   "submitBudgetTitle":"Activity: Submit and Adjust your Budget",
   "adjustwptitle":"Activity: Adjust the Work plan",
   "AnalyzeBudgetKT":"Activity: Analyze a Budget - Key Terms",
-  "financialCycle":"Reference: Financial Cycle of the Government of Canada",
+  "financialCycle":"References: Financial Cycle of the Government of Canada",
   "budgetAnalyzeActivity":"Activity: Analyze Available Information",
   "forecastBudgetTitle":"Activity: Forecast Your Budget Requirements",
   "InRealLife":"In Real Life",
-  "IRLText":"<p><b>To supplement the knowledge required to perform HR planning, be sure to complete this additional course:</b></p><ul><li>The Introduction to Integrated Business and Human Resources planning (H300).</li></ul><p>This course will provide a more in-depth look at HR planning to help you perform your duties in this area.</p>",
+  "IRLText":"<p>Take what you have learned into real life!</p><p><b>To supplement the knowledge required to perform HR planning, be sure to complete this additional course:</b></p><ul><li>The Introduction to Integrated Business and Human Resources Planning (H300).</li></ul><p>This course will provide a more in-depth look at HR planning to help you perform your duties in this area.</p>",
   "gotIt":"Continue to next segment",
   "jumpModalPartsWP":"Jump to activity",
   "playSegment":"Play video segment",
@@ -283,7 +284,8 @@ export default {
   },
   "fr":{
   "TakeTheQuiz":"Répondez au questionnaire",
-  "activityLinks":"Référence : Liens externes",
+  "activityLinks":"Références : Liens externes",
+  "overviewTitle": "Activité : Aperçu de la planification des RH ",
   "completewptitle":"Activité : Compléter le plan de travail",
   "adjustwptitle":"Activité : Ajuster le plan de travail",
   "AnalyzeBudgetKT":"Activité : Analyser un budget - Termes clés",
@@ -292,7 +294,7 @@ export default {
   "submitBudgetTitle":"Activité : Soumettre et ajuster votre budget ",
   "forecastBudgetTitle":"Activité : Prévoyez vos besoins budgétaires",
   "InRealLife":"Dans la vraie vie",
-  "IRLText":"<p>Votre organisation aura sa propre fa&ccedil;on de faire les exigences budgétaires. Prenez congé du cours et parlez à votre conseiller en gestion financi&egrave;re et à votre directeur. Demandez-leur :&nbsp;</p><ul><li>Avons-nous un mod&egrave;le de budget?</li><li>Quels sont nos budgets?</li><ul><li>Fonctionnement, inclus salaire et F&amp;E</li><li>Fonctionnement et subventions et contributions</li><li>Fonctionnement et immobilisations</li></ul><li>Le budget d’investissement est-il géré de fa&ccedil;on centralisée ou par chaque gestionnaire?</li></ul>",
+  "IRLText":"<p>Appliquez maintenant ce que vous avez appris – dans la vraie vie!</p><p><b>Pour approfondir les connaissances nécessaires à la planification des RH, suivez ce cours supplémentaire : </b></p><ul><li>Introduction à la planification intégrée des activités et des ressources humaines (H300).</li></ul><p>Ce cours, qui présente la planification des RH plus en détail, vous aidera à accomplir vos fonctions dans ce domaine.</p>",
   "gotIt":"Continuer au segment suivant.",
   "jumpModalPartsWP":"Sauter à l’activité",
   "playSegment":"Faire jouer le segment vidéo",

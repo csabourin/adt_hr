@@ -4,11 +4,12 @@
       <b-row>
         <b-col>
 		 <b-card>
+      <p v-html="$t('takeTheQuiz')" />
       <p v-html="$t('instructions')" />
     <b-tabs content v-model="tabIndex">
       <b-tab title="Question 1"><radioQuiz :question="$t('q1')" qId="1"/></b-tab>
       <b-tab title="Question 2"><radioQuiz :question="$t('q2')" qId="2" /></b-tab>
-      <b-tab title="Question 3"><checkboxQuiz :question="$t('q3')" qId="3" :Answer="['1', '2']" /></b-tab>
+      <b-tab title="Question 3"><br/><p v-html="$t('consultPolicy')" /><checkboxQuiz :question="$t('q3')" qId="3" :Answer="['1', '2']" /></b-tab>
       <b-tab title="Question 4"><checkboxQuiz :question="$t('q4')" qId="4" :Answer="['1', '2', '3']" /></b-tab>
       <b-tab title="Question 5"><checkboxQuiz :question="$t('q5')" qId="5" :Answer="['1', '3', '4']" /></b-tab>
       <b-tab title="Question 6"><checkboxQuiz :question="$t('q6')" qId="6" :Answer="['2', '3', '5']" /></b-tab>
@@ -55,6 +56,8 @@
 <i18n>{
   "en": {
   "instructions":"<p>Test your knowledge by answering the following questions.</p> <p>Select “Submit” when you are done.</p><p>When developing an HR plan, you must incorporate HR strategies that will help meet the organization’s priorities. Decide whether the following are effective HR strategies.</p>",
+  "takeTheQuiz": "<b>Take the Quiz</b>",
+  "consultPolicy": "Consult the Policy on People Management, if needed.",
     "q1": {
       "text": "Focusing recruitment and development on key positions that generate significant competitive advantage is an effective HR strategy.",
       "options": {
@@ -151,7 +154,9 @@
     }
   },
   "fr": {
-  "instructions":"Répondez aux questions suivantes en consultant la facture fournie.",
+  "instructions":"<p>Évaluez vos connaissances en répondant aux questions suivantes.</p><p><b>Cliquez sur « Soumettre » lorsque vous avez terminé.</b></p><p>Lorsque vous élaborez un plan des RH, vous devez y incorporer des stratégies qui favoriseront la concrétisation des priorités de l’organisation. Décidez si les stratégies des RH suivantes sont efficaces.</p>",
+  "takeTheQuiz": "<b>Répondez au quiz</b>",
+  "consultPolicy": "Consultez la Politique sur la gestion des personnes au besoin.",
     "q1": {
       "text": "La concentration des efforts de recrutement et de perfectionnement dans les postes clés qui génèrent des avantages concurrentiels importants est une stratégie de RH efficace. ",
       "options": {

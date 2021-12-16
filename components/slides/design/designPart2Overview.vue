@@ -60,8 +60,8 @@ export default {
         "5": "identifies and prioritizes"
       },
       "feedback": {
-        "right": "HR planning is how an organization identifies current and future human resources needs.",
-        "wrong": "HR planning is how an organization identifies current and future human resources needs."
+        "right": "HR planning is how an organization identifies current and future human resources needs. It is also how an organization identifies and deploys its human resources to achieve its business objectives.",
+        "wrong": "HR planning is how an organization identifies current and future human resources needs. It is also how an organization identifies and deploys its human resources to achieve its business objectives. "
       }
     },
     "q2": {
