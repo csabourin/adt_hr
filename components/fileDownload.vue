@@ -42,44 +42,17 @@ export default {
       },
       get() { 
         switch(this.name){
-          case "threeSixty":
-            return this.$store.state.files.threeSixty;
+          case "authoritiesHeadDeputy":
+            return this.$store.state.files.authoritiesHeadDeputy;
             break;
-          case "WorkPlanTemplate":
-            return this.$store.state.files.WorkPlanTemplate;
+          case "authoritiesPSC":
+            return this.$store.state.files.authoritiesPSC;
             break;
-          case "buildWPProcessMap":
-            return this.$store.state.files.buildWPProcessMap;
+          case "psOrganizations":
+            return this.$store.state.files.psOrganizations;
             break;
-          case "newBudget":
-            return this.$store.state.files.newBudget;
-            break;
-          case "cycle":
-            return this.$store.state.files.cycle;
-            break;
-          case "procurementInstruments":
-            return this.$store.state.files.procurementInstruments;
-            break;
-          case "s32s34":
-            return this.$store.state.files.s32s34;
-            break;
-          case "FSRRoadmap":
-            return this.$store.state.files.FSRRoadmap;
-            break;
-          case "prepareFSR":
-            return this.$store.state.files.prepareFSR;
-            break;
-          case "extReports":
-            return this.$store.state.files.extReports;
-            break;
-          case "WorkPlan_lastYear":
-            return this.$store.state.files.WorkPlan_lastYear;
-            break;
-          case "Budget_lastYear":
-            return this.$store.state.files.Budget_lastYear;
-            break;
-          case "ReportLast":
-            return this.$store.state.files.ReportLast;
+          case "ourRoles":
+            return this.$store.state.files.ourRoles;
             break;
           default:
             console.log("nooooo");

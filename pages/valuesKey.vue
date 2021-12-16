@@ -106,7 +106,7 @@
             <template v-slot:content>
               <b-row>
                 <b-col cols="12" sm="6" md="4" lg="2" class="text-center">
-                  <download :texts="$t('FSRRoadmap')" size=128 iconColor="reportBackground" :fileSize="$i18n.locale == 'en' ? '107' : '111'" name="FSRRoadmap" />
+                  <download :texts="$t('ourRoles')" size=128 iconColor="reportBackground" :fileSize="$i18n.locale == 'en' ? '107' : '111'" name="ourRoles" />
                 </b-col>
              </b-row>
             </template>

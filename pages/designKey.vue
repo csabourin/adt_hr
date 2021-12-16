@@ -89,13 +89,13 @@
             <template v-slot:content>
               <b-row>
                 <b-col role="tab" cols="12" sm="6" md="4" lg="2" class="text-center">
-                  <download :texts="$t('threeSixty')" size=128 iconColor="Scan360Background" :fileSize="$i18n.locale == 'en' ? '118' : '124'" name="threeSixty" />
+                  <download :texts="$t('authoritiesHeadDeputy')" size=128 iconColor="planBackground" :fileSize="$i18n.locale == 'en' ? '118' : '124'" name="authoritiesHeadDeputy" />
                 </b-col>
                 <b-col role="tab" cols="12" sm="6" md="4" lg="2" class="text-center">
-                  <download :texts="$t('WPTemplate')" size=128 iconColor="planBackground" :fileSize="$i18n.locale == 'en' ? '15.9' : '17,5'" name="WorkPlanTemplate" />
+                  <download :texts="$t('authoritiesPSC')" size=128 iconColor="planBackground" :fileSize="$i18n.locale == 'en' ? '15.9' : '17,5'" name="authoritiesPSC" />
                 </b-col>
                 <b-col role="tab" cols="12" sm="6" md="4" lg="2" class="text-center">
-                  <download :texts="$t('WPLastYear')" size=128 iconColor="planBackground" :fileSize="$i18n.locale == 'en' ? '120' : '120'" name="WorkPlan_lastYear" />
+                  <download :texts="$t('psOrganizations')" size=128 iconColor="planBackground" :fileSize="$i18n.locale == 'en' ? '120' : '120'" name="psOrganizations" />
                 </b-col>
               </b-row>
             </template>

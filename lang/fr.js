@@ -83,118 +83,36 @@ export default {
   Excelled: "Vous avez réussi ce test, félicitations! Vous pouvez retourner à la ",
   
   // Texte pour icones
-  threeSixty:{
-    line1: "Aperçu",
-    line2: "360",
-    name: "Aperçu à 360 degrés",
-    download: "Télécharger l'aperçu à 360 degrés",
-    filename: "Apercu_360.pdf",
-    HTMLFilename: "Apercu_360.html"
+  authoritiesHeadDeputy:{
+    line1: "Pouvoirs",
+    line2: "Admin",
+    name: "Pouvoirs conférés aux administrateurs généraux",
+    download: "Télécharger le document des pouvoirs conférés aux administrateurs généraux",
+    filename: "Job Aid - Authorities conferred to deputy heads FR.pdf"
   },
   
-  WPTemplate:{
-    line1: "Plan de",
-    line2: "travail",
-    name: "Modèle de plan de travail",
-    download: "Télécharger un modèle Word du plan de travail",
-    filename: "Exemple_Plan_de_travail.docx",
+  authoritiesPSC:{
+    line1: "Pouvoirs",
+    line2: "Comm",
+    name: "Pouvoirs conférés à la Commission de la fonction publique en vertu de la Loi sur l'emploi dans la fonction publique et d’autres lois et règlements applicables",
+    download: "Télécharger le document des pouvoirs conférés à la Commission",
+    filename: "Job Aid - Authorities granted to PSC through PSEA FR.pdf"
   },
   
-  WPLastYear:{
-    line1: "Plan de",
-    line2: "travail",
-    name: "Plan de travail de l’année dernière",
-    download: "Télécharger le plan de travail de l’année dernière",
-    filename: "Plan_de_travail_annee_derniere.pdf",
-    HTMLFilename: "../lastYearsWP/fr.html"
+  psOrganizations:{
+    line1: "Organisation",
+    line2: "Gestion",
+    name: "Organisations de la fonction publique - gestion des personnes",
+    download: "Télécharger le plan d'Organisations de la fonction publique - gestion des personnes",
+    filename: "Job Aid - PS Organizations - People Management FR.pdf"
   },
   
-  budgetLastYear:{
-    line1: " ",
-    line2: "Budget",
-    name: "Budget de l’année dernière",
-    download: "Télécharger le budget de l’année dernière",
-    filename: "Budget_annee_derniere.xlsx",
-  },
-  
-  reportsLastYear:{
-    line1: " ",
-    line2: "Rapports",
-    name: "Rapports de l’année dernière",
-    download: "Télécharger les rapports de l’année dernière",
-    filename: "Rapport_annee_derniere.docx",
-  },
-  
-  buildWPProcessMap:{
-    line1: "Schéma du",
-    line2: "processus",
-    name: "Élaboration d’un plan de travail&nbsp;: Schéma du processus",
-    download: "Télécharger le shéma de processus pour l'élaboration d'un plan de travail",
-    filename: "Elaboration_plan_de_travail-Schema_du_processus.pdf",
-    HTMLFilename: "../BuildingWPProcessMap/fr.html"
-  },
-  
-  newBudget:{
-    line1: "Créer un",
-    line2: "Budget",
-    name: "Comment créer un nouveau budget",
-    download: "Télécharger le guide sur comment créer un nouveau budget",
-    filename: "Comment_creer_un_nouveau_budget.pdf",
-    HTMLFilename: "HowCreateNewBudget_FR.html"
-  },
-  
-  cycle:{
-    line1: "Cycle",
-    line2: "financier",
-    name: "Le cycle financier du Government du Canada",
-    download: "Télécharger le cycle financier du gouvernement du Canada",
-    filename: "Cycle_financier.pdf",
-    HTMLFilename: "../financialCycle/fr.html"
-  },
-  
-  procurementInstruments:{
-    line1: "Passation de",
-    line2: "marchés",
-    name: "Instruments de passation de marchés communément utilisés",
-    download: "Télécharger le document sur les instruments de passation de marchés communément utilisés",
-    filename: "Instruments_de_passation_de_marches_communement_utilises.pdf",
-    HTMLFilename: "SpendCommonlyUsedProcurementInstruments_FR.html"
-  },
-  
-  s32s34:{
-    line1: "Article",
-    line2: "32/34",
-    name: "Guide de référence rapide : articles 32 et 34",
-    download: "Télécharger le guide de référence rapide sur les articles 32 et 34",
-    filename: "Article32_Article34.pdf",
-    HTMLFilename: "../s32s34/fr.html"
-  },
-  
-  FSRRoadmap:{
-    line1: "Feuille",
-    line2: "de route",
-    name: "Rapport sur la situation financière&nbsp;: Feuille de route",
-    download: "Télécharger la feuille de route sur le rapport sur la situation financière",
-    filename: "Rapport_sur_la_situation_financiere_Schema.pdf",
-    HTMLFilename: "../ReportFSReportingRoadmap/fr.html"
-  },
-  
-  prepareFSR:{
-    line1: "Préparer",
-    line2: "RSF",
-    name: "Préparer le rapport sur la situation financière",
-    download: "Télécharger le document sur comment préparer le rapport sur la situation financière",
-    filename: "Preparer_le_rapport_sur_la_situation_financiere.pdf",
-    HTMLFilename: "Report_PrepareFinancialSituation_FR.html"
-  },
-  
-  extReports:{
-    line1: "Rapports",
-    line2: "externes",
-    name: "Rapports externes",
-    download: "Télécharger le document sur les rapports externes",
-    filename: "Rapports_externes.pdf",
-    HTMLFilename: "Report_External_Reports_FR.html"
+  ourRoles:{
+    line1: "Nos",
+    line2: "rôles",
+    name: "Nos rôles",
+    download: "Télécharger le document 'Nos rôles'",
+    filename: "V+E Graphics-fr - final.pdf"
   },
     
   congratulations:"<h3>Félicitations!</h3><p>Vous avez réussi ce cours.</p><p>Quittez le cours en fermant cette fenêtre.</p>",
