@@ -14,7 +14,7 @@
               <p>You are allowed to consult course materials during the test. You may take the test as many times as you need to get a passing grade.</p>
             </div>
             <div v-if="$i18n.locale=='fr'">
-              <h3>Instructions</h3>
+              <h3>Directives</h3>
               <p>Conformément aux exigences du Conseil du Trésor, vous devez réussir ce test avant de pouvoir exercer les pouvoirs en matière de ressources humaines qui vous ont été délégués.  </p> 
               <p>Le test comprend trois sections, soit une pour chaque phase : Éléments de base, Fonction et processus et Normes et valeurs fondamentales.  </p>
               <p>La note de passage est de 80&nbsp;%, par partie.</p>
@@ -130,11 +130,6 @@
     <microlearning size="140" path="designPart2" time="20" :completion="$store.state.currentPlaying.createBudget_player" imagePath="CreateBud.svg" :text="$t('HRPlanning')" type="video" />
     <microlearning path="designKey" time="5" size="140" :completion="$store.state.currentPlaying.kmPlan" imagePath="KeyMessP.svg" :text="$t('KeyMessages')" :highlighted="chosenScenario == 'refresh'" type="keyMessages" />
     <microlearning  youAreHere size="140" path="exam1" time="15" :completion="parseInt($store.getters['plan/getScore'],10)" imagePath="P-Test.svg" :text="$t('Test')" :highlighted="chosenScenario == 'justExam'" type="exam" questionNum="10" />
-    </div>
-    <!-- Debugging section -->
-    <div v-if="debugging">
-      <p>Alldone: {{allDone}}</p>
-      <p>{{answerScore}}</p>
     </div>
     <!-- End of Debugging section -->
     <b-modal id="Completed" size="lg" okOnly>
@@ -381,7 +376,7 @@ export default {
       "q1": {
         "text": "Deputy heads are delegated certain authorities from the Public Service Commission such as the choice of appointment process and hiring casual workers.  Which document grants these authorities? ",
         "options": {
-          "1": "Public Service Employment Act (PSEA) ",
+          "1": "<i>Public Service Employment Act</i> (PSEA) ",
           "2": "Policy on People Management ",
           "3": "Authority Delegation and accountability Instrument (ADAI) "
         },
@@ -421,7 +416,7 @@ export default {
           "1": "Parliament ",
           "2": "The Public Service Commission ",
           "3": "Appointment Delegation and Accountability Instrument  ",
-          "4": "The Financial Administration Act ",
+          "4": "The <i>Financial Administration Act</i>",
           "5": "The Clerk of the Privy Council "
         },
         "feedback": {
@@ -466,7 +461,7 @@ export default {
           "1": "Annual report from the Clerk of the Privy Council   ",
           "2": "Departmental Plans ",
           "3": "Speech from the Throne",
-          "4": "Financial Administration Act (FAA)"
+          "4": "<i>Financial Administration Act</i> (FAA)"
         },
         "feedback": {
           "1": "",
@@ -532,7 +527,7 @@ export default {
       "q1": {
         "text": "Les administrateurs généraux se voient confier certains pouvoirs par la Commission de la fonction publique, comme le choix du processus de nomination et l’embauche de travailleurs occasionnels. Quel document octroie ces pouvoirs? ",
         "options": {
-          "1": "La Loi sur l’emploi dans la fonction publique (LEFP) ",
+          "1": "La <i>Loi sur l’emploi dans la fonction publique</i> (LEFP) ",
           "2": "La Politique sur la gestion des personnes ",
           "3": "L’Instrument de délégation et de responsabilisation en matière de nomination (IDRN)   "
         },
@@ -572,7 +567,7 @@ export default {
           "1": "Le Parlement  ",
           "2": "La Commission de la fonction publique ",
           "3": "L’Instrument de délégation et de responsabilisation en matière de nomination ",
-          "4": "La Loi sur la gestion des finances publiques ",
+          "4": "La <i>Loi sur la gestion des finances publiques</i>",
           "5": "Le greffier du Conseil privé  "
         },
         "feedback": {
@@ -617,7 +612,7 @@ export default {
           "1": "Rapport annuel du greffier du Conseil privé ",
           "2": "Plans ministériels ",
           "3": "Discours du Trône ",
-          "4": "Loi sur la gestion des finances publiques (LGFP) "
+          "4": "<i>Loi sur la gestion des finances publiques</i> (LGFP) "
         },
         "feedback": {
           "1": "",

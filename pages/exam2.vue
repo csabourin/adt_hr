@@ -14,9 +14,9 @@
               <p>You are allowed to consult course materials during the test. You may take the test as many times as you need to get a passing grade.</p>
             </div>
             <div v-if="$i18n.locale=='fr'">
-              <h3>Instructions</h3>
+              <h3>Directives</h3>
               <p>Conformément aux exigences du Conseil du Trésor, vous devez réussir ce test avant de pouvoir exercer les pouvoirs en matière de ressources humaines qui vous ont été délégués.</p>
-              <p>Le test comprend trois sections, soit une pour chaque phase : Éléments de base, Fonction et processus et Normes et valeurs fondamentales  </p>
+              <p>Le test comprend trois sections, soit une pour chaque phase : Éléments de base, Fonction et processus et Normes et valeurs fondamentales.</p>
               <p>La note de passage de toutes les sections est de 80 %. </p>
               <p>Chaque section devrait vous prendre entre 20 et 25 minutes.  </p>
               <p>Vous pouvez consulter le matériel pédagogique du cours pendant le test, et vous pouvez faire le test autant de fois que vous le souhaitez, jusqu’à l’obtention de la note de passage. </p>
@@ -191,12 +191,6 @@
       <microlearning path="functionPart3" size="140" time="20" :completion="$store.state.currentPlaying.spendPart3_player" imagePath="MonitContFinances.svg" :text="$t('Staffing')" type="video" />
       <microlearning path="functionKey" time="5" size="140" :completion="$store.state.currentPlaying.kmSpend" imagePath="KeyMessS.svg" :text="$t('KeyMessages')" :highlighted="chosenScenario == 'refresh'" type="keyMessages" />
       <microlearning youAreHere path="exam2" size="140" time="20" imagePath="S-Test.svg" :text="$t('Test')" :completion="parseInt($store.getters['spend/getScore'],10)" :highlighted="chosenScenario == 'justExam'" type="exam" questionNum="20" />
-    </div>
-
-      <!-- Debugging section -->
-    <div v-if="debugging">
-      <p>Alldone: {{allDone}}</p>
-      <p>{{answerScore}}</p>
     </div>
     <!-- End of Debugging section -->
     <b-modal id="Completed" size="lg" okOnly>
@@ -455,7 +449,7 @@ export default {
           "1": "enable you to deliver your product or service",
           "2": "build inclusivity ",
           "3": "help meet the organization’s objectives ",
-          "4": " ensure that the employee can deliver the product or service effectively "
+          "4": "ensure that the employee can deliver the product or service effectively "
         },
         "feedback": {
           "1": "",
@@ -557,7 +551,7 @@ export default {
       "q8": {
         "text": "This policy provides deputy heads with the parameters to manage their classification authorities and to delegate classification authority to accredited persons.",
         "options": {
-          "1": "The Financial Administration Act (FAA)",
+          "1": "<i>The Financial Administration Act</i> (FAA)",
           "2": "The Policy on People Management",
           "3": "Authority Delegation Accountability Instrument"
         },
@@ -639,7 +633,7 @@ export default {
         "options": {
           "1": "Policy on People Management ",
           "2": "Apppointment Policy ",
-          "3": "Public Service Employment Act "
+          "3": "<i>Public Service Employment Act</i>"
         },
         "feedback": {
           "1": "",
@@ -694,7 +688,7 @@ export default {
         "text": "What is the impact of employment equity, diversity and inclusion policies.",
         "options": {
           "1": "Increases the cost of doing business by needing to accommodate with special tools and equipment for those who request them",
-          "2": "Ensures that current and potential employees have equal opportunity to be hired or promoted for their qualifications. ",
+          "2": "Ensures that current and potential employees have equal opportunity to be hired or promoted for their qualifications",
           "3": "Hinders full and equal participation in the workplace"
         },
         "feedback": {
@@ -790,7 +784,7 @@ export default {
         }
       },
       "q4": {
-        "text": "Lequel des éléments suivants NE représente PAS, lors de la création d’un nouveau poste, une de vos responsabilités en matière d’organisation et de classification en tant que gestionnaire?  ",
+        "text": "Lequel des éléments suivants <u>NE</u> représente <u>PAS</u>, lors de la création d’un nouveau poste, une de vos responsabilités en matière d’organisation et de classification en tant que gestionnaire?  ",
         "options": {
           "1": "Faire en sorte que le poste s’intègre bien dans la structure organisationnelle.  ",
           "2": "Rédiger une description de travail qui correspond au mandat et aux objectifs opérationnels de votre organisation.  ",
@@ -852,7 +846,7 @@ export default {
       "q8": {
         "text": "Cette politique fournit aux administrateurs généraux les paramètres nécessaires pour gérer leurs pouvoirs en matière de classification et pour déléguer des pouvoirs de classification à des personnes accréditées. ",
         "options": {
-          "1": "La Loi sur la gestion des finances publiques (LGFP) ",
+          "1": "La <i>Loi sur la gestion des finances publiques</i> (LGFP) ",
           "2": "La Politique sur la gestion des personnes ",
           "3": "L’Instrument de délégation et de responsabilisation en matière de nomination "
         },
@@ -876,7 +870,7 @@ export default {
         }
       },
       "q10": {
-        "text": "Vous occupez un poste de gestionnaire subdélégué et vous essayez de pourvoir un poste spécialisé dans une région éloignée. Ces dernières années, vous avez eu du mal à attirer et à maintenir en poste des employés au sein de votre unité. Les experts sont difficiles à trouver. La semaine dernière, vous avez assisté à une conférence à Vancouver. Lors d’une pause, vous avez rencontré une femme qui vient de terminer son mandat au programme Échanges Canada et qui retournera à son poste d’attache dans la fonction publique. Elle possède l’expertise requise pour le poste vacant dans votre équipe. Quel processus de dotation pourrait servir à nommer cette personne à ce poste?",
+        "text": "Vous occupez un poste de gestionnaire subdélégué et vous essayez de pourvoir un poste spécialisé dans une région éloignée. Ces dernières années, vous avez eu du mal à attirer et à maintenir en poste des employés au sein de votre unité. Les experts sont difficiles à trouver. La semaine dernière, vous avez assisté à une conférence à Vancouver. Lors d’une pause, vous avez rencontré quelqu’un qui vient de terminer son mandat au programme Échanges Canada et qui retournera à son poste d’attache dans la fonction publique. Elle possède l’expertise requise pour le poste vacant dans votre équipe. Quel processus de dotation pourrait servir à nommer cette personne à ce poste?",
         "options": {
           "1": "Mutation",
           "2": "Processus interne annoncé",
@@ -934,7 +928,7 @@ export default {
         "options": {
           "1": "La Politique sur la gestion des personnes ",
           "2": "La Politique de nomination  ",
-          "3": "La Loi sur l’emploi dans la fonction publique "
+          "3": "La <i>Loi sur l’emploi dans la fonction publique</i> "
         },
         "feedback": {
           "1": "",

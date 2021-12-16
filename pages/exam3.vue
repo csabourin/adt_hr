@@ -164,20 +164,14 @@
       <microlearning :completion="$store.state.currentPlaying.kmReport" path="valuesKey" time="5" size="140" imagePath="KeyMessR.svg" :text="$t('KeyMessages')" :highlighted="chosenScenario == 'refresh'" type="keyMessages" />
       <microlearning youAreHere :completion="parseInt($store.getters['report/getScore'],10)" path="exam3" size="140" time="20" imagePath="R-Test.svg" :text="$t('Test')" :highlighted="chosenScenario == 'justExam'" type="exam" questionNum="15" />
     </div>
-
-    <!-- Debugging section -->
-    <div v-if="debugging">
-      <p>{{allDone}}</p>
-      <p>{{answerScore}}</p>
-    </div>
     <!-- End of Debugging section -->
     <b-modal id="Completed" size="lg" okOnly>
       <p class='pageTitle'>{{$t('testComplete')}}</p>
-      <p>{{$t('scoreIs')}} {{allDone}}%.</p>
+      <p>{{$t('scoreIs')}} {{allDone}} %.</p>
       <p v-if="allDone < 80"> {{$t('notPassed')}}</p>
-      <p v-if="allDone >= 80 && allDone<100">{{$t('Passed')}} <nuxt-link :to="localePath('index')">{{$t('homePage')}}</nuxt-link>
+      <p v-if="allDone >= 80 && allDone<100">{{$t('Passed')}} <nuxt-link :to="localePath('index')">{{$t('homePageTest')}}</nuxt-link>
       </p>
-      <p v-if="allDone==100"> {{$t('Excelled')}} <nuxt-link :to="localePath('index')">{{$t('homePage')}}</nuxt-link>
+      <p v-if="allDone==100"> {{$t('Excelled')}} <nuxt-link :to="localePath('index')">{{$t('homePageTest')}}</nuxt-link>
       </p>
       <template v-slot:modal-ok>{{$t('close')}}</template>
     </b-modal>
@@ -431,7 +425,7 @@ export default {
       "options": {
       "1": "The Policy on People Management ",
       "2": "Tina’s collective agreement  ",
-      "3": "The Federal Public Sector Labour Relations Act ",
+      "3": "<i>The Federal Public Sector Labour Relations Act</i>",
       "4": "Guidelines for Essential Services Designations "
       },
       "feedback": {
@@ -472,7 +466,7 @@ export default {
       "options": {
       "1": "The employee’s collective agreement",
       "2": "Policy on People Management",
-      "3": "Public Service Employment Act "
+      "3": "<i>Public Service Employment Act</i>"
       },
       "feedback": {
       "1": "",
@@ -481,7 +475,7 @@ export default {
       }
       },
       "q5": {
-      "text": "Which one of the following actions cannot result in a grievance under the Public Sector Labour Relations Act?  ",
+      "text": "Which one of the following actions <u>cannot</u> result in a grievance under the Public Sector Labour Relations Act?  ",
       "options": {
       "1": "Elimination from a staffing process",
       "2": "Disciplinary action resulting in suspension or financial penalty ",
@@ -523,9 +517,9 @@ export default {
       "text": "Endangering the lives or safety of Canadians through an action or omission is an example of wrongdoing as defined by which document. ",
       "options": {
       "1": "Values and Ethics Code for the Public Service",
-      "2": "Public Servants Disclosure Protection Act",
+      "2": "<i>Public Servants Disclosure Protection Act</i>",
       "3": "Directive on Conflict of Interest ",
-      "4": "Federal Public Sector Labour Relations Act ."
+      "4": "<i>Federal Public Sector Labour Relations Act</i>"
       },
       "feedback": {
       "1": "",
@@ -579,7 +573,7 @@ export default {
       "options": {
       "1": "Respond to the employee letting her know that you will look into the issue ",
       "2": "Respond to the employee in English letting her know that because she has checked both English and French boxes, the system will default to the official language ",
-      "3": "Respond to the employee in English letting her know that because she has checked both English and French boxes, the system will default to the official language "
+      "3": "Respond to the employee in the language of her email letting her know that you will ensure that she received documentation in English, as she has requested"
       },
       "feedback": {
       "1": "",
@@ -588,7 +582,7 @@ export default {
       }
       },
       "q13": {
-      "text": "In bilingual regions, managers and supervisors are responsible for ensuring that the Official Languages Act is upheld.  Which of the following statements is wrong? ",
+      "text": "In bilingual regions, managers and supervisors are responsible for ensuring that the <i>Official Languages Act</i> is upheld.  Which of the following statements is <u>wrong</u>? ",
       "options": {
       "1": "Managers supervise employees in the language of the position when they occupy unilingual positions ",
       "2": "Managers take all necessary measures to enable employees practice both official languages by holding meetings alternately in French and English ",
@@ -616,7 +610,7 @@ export default {
       "q15": {
       "text": "For which political activities must you seek permission from the Public Service Commission? ",
       "options": {
-      "1": "Seeking candidacy in an federal, provincial or municipal election ",
+      "1": "Seeking candidacy in a federal, provincial or municipal election ",
       "2": "Taking a post as an elected official at the federal, provincial or municipal ",
       "3": "Opposing a political candidate or party in a way that could be perceived as partisan ",
       "4": "The Public Service Commission does not grant permission in this area "
@@ -646,7 +640,7 @@ export default {
       "options": {
       "1": "La Politique sur la gestion des personnes ",
       "2": "La convention collective de Tina  ",
-      "3": "La Loi sur les relations de travail dans le secteur public fédéral ",
+      "3": "La <i>Loi sur les relations de travail dans le secteur public fédéral</i> ",
       "4": "Les Lignes directrices pour la désignation des services essentiels  "
       },
       "feedback": {
@@ -687,7 +681,7 @@ export default {
       "options": {
       "1": "La convention collective de l’employé  ",
       "2": "La Politique sur la gestion des personnes ",
-      "3": "La Loi sur l’emploi dans la fonction publique  "
+      "3": "La <i>Loi sur l’emploi dans la fonction publique</i>  "
       },
       "feedback": {
       "1": "",
@@ -696,7 +690,7 @@ export default {
       }
       },
       "q5": {
-      "text": "Laquelle des mesures suivantes ne peut pas donner lieu au dépôt d’un grief en vertu de la Loi sur les relations de travail dans la fonction publique?  ",
+      "text": "Laquelle des mesures suivantes <u>ne</u> peut <u>pas</u> donner lieu au dépôt d’un grief en vertu de la <i>Loi sur les relations de travail dans la fonction publique</i>?  ",
       "options": {
       "1": "L’élimination dans le cadre d’un processus de dotation  ",
       "2": "Une mesure disciplinaire entraînant la suspension ou une sanction pécuniaire ",
@@ -738,9 +732,9 @@ export default {
       "text": "Selon quel document le fait de mettre en danger la vie ou la sécurité des Canadiens par une action ou une omission constitue‑t‑il un exemple d’acte répréhensible?",
       "options": {
       "1": "Le Code de valeurs et d’éthique de la fonction publique ",
-      "2": "La Loi sur la protection des fonctionnaires divulgateurs d’actes répréhensibles ",
+      "2": "La <i>Loi sur la protection des fonctionnaires divulgateurs d’actes répréhensibles</i> ",
       "3": "La Directive sur les conflits d’intérêts ",
-      "4": "La Loi sur les relations de travail dans le secteur public fédéral"
+      "4": "<i>La Loi sur les relations de travail dans le secteur public fédéral</i>"
       },
       "feedback": {
       "1": "",
@@ -803,7 +797,7 @@ export default {
       }
       },
       "q13": {
-      "text": "Dans les régions bilingues, les gestionnaires et les superviseurs doivent veiller au respect de la Loi sur les langues officielles. Laquelle des affirmations suivantes est fausse?",
+      "text": "Dans les régions bilingues, les gestionnaires et les superviseurs doivent veiller au respect de la <i>Loi sur les langues officielles</i>. Laquelle des affirmations suivantes est <u>fausse</u>?",
       "options": {
       "1": "Les gestionnaires supervisent les employés dans la langue associée à leur poste s’il s’agit de postes unilingues. ",
       "2": "Les gestionnaires prennent toutes les mesures nécessaires pour que les employés puissent s’exercer à comprendre et à parler leur deuxième langue en tenant des réunions en anglais ou en français, en alternance. ",
