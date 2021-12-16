@@ -20,15 +20,35 @@
       <div>
         <h4>Function and Process</h4>
         <ul class="list-unstyled">
-          <li><externalLink link="https://www.canada.ca/en/public-service-commission/services/appointment-framework.html">Public Service Commission’s Appointment Framework</externalLink></li>
-          <li><externalLink link="https://www.canada.ca/en/public-service-commission/services/appointment-framework/appointment-policy.html">Public Service Commission’s Appointment Policy</externalLink></li>
-          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/(S(e021jvamqbhco5551teiyz55))/doc-eng.aspx?id=32621">Policy on People Management</externalLink></li>
-          <li><externalLink link="https://laws-lois.justice.gc.ca/eng/acts/e-5.401/"><i>Employment Equity Act</i></externalLink></li>
-          <li><externalLink link="https://laws-lois.justice.gc.ca/eng/acts/A-0.6/"><i>Accessible Canada Act</i></externalLink></li>
-          <li><externalLink link="https://lois-laws.justice.gc.ca/eng/acts/P-33.01/FullText.html"><i>Public Service Employment Act</i></externalLink></li>
-          <li><externalLink link="https://laws-lois.justice.gc.ca/eng/acts/f-11/"><i>Financial Administration Act</i></externalLink></li>
+          <li><externalLink link="https://laws-lois.justice.gc.ca/eng/acts/A-0.6/">Accessible Canada Act</externalLink></li>
+          <li><externalLink link="https://www.canada.ca/en/government/publicservice/wellness-inclusion-diversity-public-service/diversity-inclusion-public-service/accessibility-public-service/accessibility-strategy-public-service-toc.html">Accessibility Strategy for the Public Service of Canada</externalLink></li>
+          <li><externalLink link="https://www.csps-efpc.gc.ca/anti-racism-eng.aspx">Anti-Racism Learning Series</externalLink></li>
           <li><externalLink link="https://www.canada.ca/en/public-service-commission/services/appointment-framework/delegation-overview/appointment-delegation-accountability-instrument.html">Appointment Delegation and Accountability Instrument</externalLink></li>
-          <li>Public Service Commission – <externalLink link="https://www.canada.ca/en/public-service-commission/services/appointment-framework/guides-tools-appointment-framework.html">Guides and Tools</externalLink></li>
+          <li><externalLink link="https://www.canada.ca/en/public-service-commission/services/appointment-framework/appointment-policy.html#toc5">Appointment Policy</externalLink></li>
+          <li><externalLink link="https://www.canada.ca/en/privy-council/corporate/clerk/call-to-action-anti-racism-equity-inclusion-federal-public-service.html">Call to action on anti-racism, equity, and inclusion in the Federal Public Service</externalLink></li>
+          <li><externalLink link="https://www.justice.gc.ca/eng/csj-sjc/rfc-dlc/ccrf-ccdl/">Canadian Charter of Rights and Freedoms</externalLink></li>
+          <li><externalLink link="https://laws-lois.justice.gc.ca/eng/acts/h-6/">Canadian Human Rights Act</externalLink></li>
+          <li><externalLink link="https://laws-lois.justice.gc.ca/eng/Const/page-1.html">Constitution Act</externalLink></li>
+          <li><externalLink link="https://laws-lois.justice.gc.ca/eng/acts/F-11/">Financial Administration Act</externalLink></li>
+          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=28700">Directive on Classification</externalLink></li>
+          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=28698">Directive on Classification Grievances</externalLink></li>
+          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=28699">Directive on Classification Oversight </externalLink></li>
+          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32634&section=html">Directive on Duty to Accommodate</externalLink></li>
+          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32635&section=html">Directive on Employment Equity, Diversity and Inclusion</externalLink></li>
+          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=15772">Directive on Terms and Conditions of Employment </externalLink></li>
+          <li><externalLink link="https://laws-lois.justice.gc.ca/eng/acts/e-5.401/">Employment Equity Act</externalLink></li>
+          <li><externalLink link="https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.canada.ca%2Fen%2Fpublic-service-commission%2Fservices%2Fappointment-framework%2Ffederal-public-service-inclusive-appointment-lens.html&data=04%7C01%7CEECCC-CCPEE%40tbs-sct.gc.ca%7C40b8cdede4a649ec9bf208d8fb6874ad%7C6397df10459540479c4f03311282152b%7C0%7C0%7C637535773344495625%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=bv1DmMxZ82FcXqUldLAlWls7Zjg5YiKrVpC04RJrfwQ%3D&reserved=0">Federal Public Service Inclusive Appointment Lens</externalLink></li>
+          <li><externalLink link="https://laws-lois.justice.gc.ca/eng/acts/f-11/">Financial Administration Act</externalLink></li>
+          <li><externalLink link="https://www.csps-efpc.gc.ca/video/inclusive-hiring-five-tips-eng.aspx">Five Tips on Diversifying your Workforce</externalLink></li>
+          <li><externalLink link="https://www.canada.ca/en/treasury-board-secretariat/services/collective-agreements/occupational-groups/occupational-groups-bargaining-agent-representation.html">Occupational groups by bargaining agent representation</externalLink></li>
+          <li><externalLink link="https://laws-lois.justice.gc.ca/eng/acts/o-3.01/">Official Languages Act</externalLink></li>
+          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=26160">Policy on Official Languages</externalLink></li>
+          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/topic-sujet-eng.aspx?ta=40">Policy on People Management</externalLink></li>
+          <li><externalLink link="https://www.canada.ca/en/public-service-commission/services/appointment-framework.html">Public Service Commission’s Appointment Framework</externalLink></li>
+          <li><externalLink link="https://www.canada.ca/en/public-service-commission/services/appointment-framework/appointment-policy.html#:~:text=The%20Public%20Service%20Commission%E2%80%99s%20%28PSC%29%20Appointment%20Policy%20applies,based%20on%20merit%20and%20free%20from%20political%20influence">Public Service Commission’s Appointment Policy </externalLink></li>
+          <li><externalLink link="https://lois-laws.justice.gc.ca/eng/acts/P-33.01/FullText.html">Public Service Employment Act</externalLink></li>
+          <li><externalLink link="https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.canada.ca%2Fen%2Fpublic-service-commission%2Fservices%2Fappointment-framework%2Fguides-tools-appointment-framework%2Fqa-staffing-options-support-ee-di-under-psac.html&data=04%7C01%7CEECCC-CCPEE%40tbs-sct.gc.ca%7C40b8cdede4a649ec9bf208d8fb6874ad%7C6397df10459540479c4f03311282152b%7C0%7C0%7C637535773344495625%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=fYuLVkLpS%2BAuZUPoHNdXpkhvXYL8pJVW8gDFVnx7Apw%3D&reserved=0">Staffing options to support employment equity, and diversity and inclusion, under the Public Service Employment Act – Questions and answers</externalLink></li>
+          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=13616">Treasury Board’s policy framework / Values and Ethics Code for the Public Sector</externalLink></li>
         </ul>
       </div>
     </div>
