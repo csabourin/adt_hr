@@ -4,6 +4,7 @@
       <b-row>
         <b-col>
 		 <b-card>
+      <p v-html="$t('takeTheQuiz')" />
       <p v-html="$t('instructions')" />
     <b-tabs content v-model="tabIndex">
       <b-tab title="Question 1"><radioQuiz :question="$t('q1')" qId="1"/></b-tab>
@@ -57,6 +58,7 @@
 <i18n>{
   "en": {
   "instructions":"Test your knowledge by answering the following questions. Select “Submit” when you are done.",
+  "takeTheQuiz": "<b>Take the Quiz</b>",
     "q1": {
       "text": "Which of the following documents supports good HR decision making?",
       "options": {
@@ -181,6 +183,7 @@
   },
   "fr": {
   "instructions":"Évaluez vos connaissances en répondant aux questions suivantes. Cliquez sur « Soumettre » lorsque vous avez terminé. ",
+  "takeTheQuiz": "<b>Répondez au quiz</b>",
     "q1": {
       "text": "Lequel des documents suivants favorise une prise de décision efficace en matière de RH? ",
       "options": {
@@ -198,8 +201,8 @@
     "q2": {
       "text": "Quelles lois confèrent aux administrateurs généraux leurs pouvoirs en matière de RH? ",
       "options": {
-        "1": "<em>La Loi sur la gestion des finances publiques</em< et <em>la Loi sur l’emploi dans la fonction publique </em>",
-        "2": "<em>La Loi sur l’administration dans la fonction publique</em> et la Politique sur la gestion des personnes ",
+        "1": "La <em>Loi sur la gestion des finances publiques</em> et la <em>Loi sur l’emploi dans la fonction publique</em>",
+        "2": "La <em>Loi sur l’administration dans la fonction publique</em> et la Politique sur la gestion des personnes ",
         "3": "La Politique sur la gestion des personnes et la Commission de la fonction publique "
       },
       "feedback": {
@@ -207,7 +210,7 @@
         "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       },
-      "conclusion": "<em>La Loi sur la gestion des finances publiques</em> et <em>la Loi sur l’emploi dans la fonction publique</em> confèrent aux administrateurs généraux leurs pouvoirs en matière de RH."
+      "conclusion": "La <em>Loi sur la gestion des finances publiques</em> et la<em>Loi sur l’emploi dans la fonction publique</em> confèrent aux administrateurs généraux leurs pouvoirs en matière de RH."
     },
     "q3": {
       "text": "Une personne peut exercer ses pouvoirs délégués une fois qu’elle a suivi la formation nécessaire. ",
@@ -236,8 +239,8 @@
     "q5": {
       "text": " Établir des critères de mérite, effectuer des mutations et accepter des démissions sont des exemples de pouvoirs conférés directement aux administrateurs généraux. Quelle loi leur confère ces pouvoirs? ",
       "options": {
-        "1": "<em>La Loi sur la gestion des finances publiques</em>",
-        "2": "<em>La Loi sur l’emploi dans la fonction publique </em>",
+        "1": "La <em>Loi sur la gestion des finances publiques</em>",
+        "2": "La <em>Loi sur l’emploi dans la fonction publique </em>",
         "3": "L’Instrument de délégation et de responsabilisation en matière de nomination "
       },
       "feedback": {
@@ -249,7 +252,7 @@
       "conclusion": "Établir des critères de mérite, effectuer des mutations et accepter des démissions sont des exemples de pouvoirs conférés directement aux administrateurs généraux en vertu de la <em>Loi sur l’emploi dans la fonction publique</em>."
     },
     "q6": {
-      "text": "Lequel des pouvoirs suivants est conféré directement aux administrateurs généraux par l’entremise de <em>la Loi sur la gestion des finances publiques? </em>?",
+      "text": "Lequel des pouvoirs suivants est conféré directement aux administrateurs généraux par l’entremise de la <em>Loi sur la gestion des finances publiques</em>?",
       "options": {
         "1": "Le pouvoir de mettre en disponibilité ou de maintenir en poste des employés ",
         "2": "Le pouvoir d’embaucher des employés occasionnels ",
@@ -260,14 +263,14 @@
         "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "3": "<span class='v-right' /><strong>Correct!</strong>"
       },
-      "conclusion": "Le pouvoir d’embaucher des experts-conseils est conféré directement aux administrateurs généraux en vertu de <em>la Loi sur la gestion des finances publiques</em>."
+      "conclusion": "Le pouvoir d’embaucher des experts-conseils est conféré directement aux administrateurs généraux en vertu de la <em>Loi sur la gestion des finances publiques</em>."
     },
     "q7": {
       "text": "Quel document présente les pouvoirs délégués aux administrateurs généraux par la Commission de la fonction publique?   ",
       "options": {
         "1": "La Politique sur la gestion des personnes ",
         "2": "L’Instrument de délégation et de responsabilisation en matière de nomination ",
-        "3": "<em>La Loi sur la gestion des finances publiques </em>"
+        "3": "La <em>Loi sur la gestion des finances publiques </em>"
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",

@@ -5,6 +5,7 @@
         <b-col>
 		 <b-card>
       <p v-html="$t('instructions')" />
+      <p v-html="$t('instructions2')" />
     <b-tabs content v-model="tabIndex">
       <b-tab title="Question 1"><radioQuiz :question="$t('q1')" qId="1"/></b-tab>
       <b-tab title="Question 2"><radioQuiz :question="$t('q2')" qId="2" /></b-tab>
@@ -50,7 +51,8 @@
 </script>
 <i18n>{
   "en": {
-  "instructions":"Using the sample sub-delegation instrument for HR authorities, identify the lowest level of authority that can approve the request.",
+  "instructions":"Using the sample <a href='http://skynet/dev/prochon/G110/Module7/5_packages/G110-7_2018-12-11_en/content/tools/documents_en.html' target='_blank'>sub-delegation instrument for HR authorities</a>, identify the lowest level of authority that can approve the request.",
+  "instructions2":"Answer the following questions.",
     "q1": {
       "text": "<p>An employee calls in sick but their sick leave credits are all used up. They would like an advance of sick leave with pay.</p> <p>Which is the lowest level of authority that can approve the request?</p>",
       "options": {
@@ -130,17 +132,18 @@
         "6": "Supervisor"
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong> The manager can authorize paid time off work for personal medical and dental appointments. In this example, a level 6 supervisor also has the authority to approve the request. The employer may grant up to half a day of paid time off for such absences. Time off work with pay should not be for any follow-up appointments, or a series of appointments to treat a condition. Such absences are to be charged to the employee’s sick leave credits.",
-        "2": "<span class='v-wrong' /><strong>Incorrect.</strong> The manager can authorize paid time off work for personal medical and dental appointments. In this example, a level 6 supervisor also has the authority to approve the request. The employer may grant up to half a day of paid time off for such absences. Time off work with pay should not be for any follow-up appointments, or a series of appointments to treat a condition. Such absences are to be charged to the employee’s sick leave credits.",
-        "3": "<span class='v-wrong' /><strong>Incorrect.</strong> The manager can authorize paid time off work for personal medical and dental appointments. In this example, a level 6 supervisor also has the authority to approve the request. The employer may grant up to half a day of paid time off for such absences. Time off work with pay should not be for any follow-up appointments, or a series of appointments to treat a condition. Such absences are to be charged to the employee’s sick leave credits.",
-        "4": "<span class='v-wrong' /><strong>Incorrect.</strong> The manager can authorize paid time off work for personal medical and dental appointments. In this example, a level 6 supervisor also has the authority to approve the request. The employer may grant up to half a day of paid time off for such absences. Time off work with pay should not be for any follow-up appointments, or a series of appointments to treat a condition. Such absences are to be charged to the employee’s sick leave credits.",
-        "5": "<span class='v-wrong' /><strong>Incorrect.</strong> The manager can authorize paid time off work for personal medical and dental appointments. In this example, a level 6 supervisor also has the authority to approve the request. The employer may grant up to half a day of paid time off for such absences. Time off work with pay should not be for any follow-up appointments, or a series of appointments to treat a condition. Such absences are to be charged to the employee’s sick leave credits.",
-        "6": "<span class='v-right' /><strong>Correct!</strong> The manager can authorize paid time off work for personal medical and dental appointments. In this example, a level 6 supervisor also has the authority to approve the request. The employer may grant up to half a day of paid time off for such absences. Time off work with pay should not be for any follow-up appointments, or a series of appointments to treat a condition. Such absences are to be charged to the employee’s sick leave credits."
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong> The manager can authorize paid time off work for personal medical and dental appointments. In this example, a supervisor also has the authority to approve the request. The employer may grant up to half a day of paid time off for such absences. Time off work with pay should not be for any follow-up appointments, or a series of appointments to treat a condition. Such absences are to be charged to the employee’s sick leave credits.",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong> The manager can authorize paid time off work for personal medical and dental appointments. In this example, a supervisor also has the authority to approve the request. The employer may grant up to half a day of paid time off for such absences. Time off work with pay should not be for any follow-up appointments, or a series of appointments to treat a condition. Such absences are to be charged to the employee’s sick leave credits.",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong> The manager can authorize paid time off work for personal medical and dental appointments. In this example, a supervisor also has the authority to approve the request. The employer may grant up to half a day of paid time off for such absences. Time off work with pay should not be for any follow-up appointments, or a series of appointments to treat a condition. Such absences are to be charged to the employee’s sick leave credits.",
+        "4": "<span class='v-wrong' /><strong>Incorrect.</strong> The manager can authorize paid time off work for personal medical and dental appointments. In this example, a supervisor also has the authority to approve the request. The employer may grant up to half a day of paid time off for such absences. Time off work with pay should not be for any follow-up appointments, or a series of appointments to treat a condition. Such absences are to be charged to the employee’s sick leave credits.",
+        "5": "<span class='v-wrong' /><strong>Incorrect.</strong> The manager can authorize paid time off work for personal medical and dental appointments. In this example, a supervisor also has the authority to approve the request. The employer may grant up to half a day of paid time off for such absences. Time off work with pay should not be for any follow-up appointments, or a series of appointments to treat a condition. Such absences are to be charged to the employee’s sick leave credits.",
+        "6": "<span class='v-right' /><strong>Correct!</strong> The manager can authorize paid time off work for personal medical and dental appointments. In this example, a supervisor also has the authority to approve the request. The employer may grant up to half a day of paid time off for such absences. Time off work with pay should not be for any follow-up appointments, or a series of appointments to treat a condition. Such absences are to be charged to the employee’s sick leave credits."
       }
     }
   },
   "fr": {
-  "instructions":"À l’aide de l’exemple d’instrument de subdélégation pour les pouvoirs en matière de RH, déterminez le niveau décisionnel minimal requis pour approuver la demande. ",
+  "instructions":"À l’aide de l’exemple d’<a href='http://skynet/dev/prochon/G110/Module7/5_packages/G110-7_2018-12-11_en/content/tools/documents_fr.html' target='_blank'>instrument de subdélégation pour les pouvoirs en matière de RH</a>, déterminez le niveau décisionnel minimal requis pour approuver la demande.",
+  "instructions2":"Répondez aux questions suivantes.",
     "q1": {
       "text": "<p>Un employé téléphone pour dire qu’il est malade, mais ses crédits de congé de maladie sont épuisés. Il demande une avance de crédits de congé de maladie payé.</p><p>Quel est le niveau décisionnel minimal requis pour approuver cette demande? </p>",
       "options": {
@@ -210,7 +213,7 @@
       }
     },
     "q5": {
-      "text": "<p>An employee has a dental appointment Tuesday afternoon and would like paid time off to go to their appointment.</p> <p>Which is the lowest level of authority that can approve the request?</p>",
+      "text": "<p>Un employé a un rendez-vous chez le dentiste mardi après-midi et aimerait prendre un congé payé pour aller à son rendez-vous.</p> <p>Quel est le niveau décisionnel minimal requis pour approuver cette demande?</p>",
       "options": {
         "1": "Administrateur général",
         "2": "Sous-ministre adjoint ",

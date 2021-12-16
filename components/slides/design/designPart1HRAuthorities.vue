@@ -2,6 +2,7 @@
   <span>
     <div>
       <b-card>
+        <p v-html="$t('instructions')" />
         <radioQuiz :question="$t('q1')" qId="1" />
       </b-card>
     </div>
@@ -10,10 +11,12 @@
 <i18n>
   {
   "en":{
+  "instructions":"Answer the following question.",
   "qDisabled":"Please select one"
   }
    ,
   "fr":{
+  "instructions":"Répondez à la question suivante.",
   "qDisabled":"Veuillez faire un choix"
   }
   }

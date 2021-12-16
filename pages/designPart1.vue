@@ -109,11 +109,11 @@
         <button type="button" aria-label="Close" class="close" @click="close()">×</button>
       </template>
       <div v-if="$i18n.locale=='fr'">
-        <p>Here is a list of resources referred to in this section.</p>
+        <p>Voici la liste des ressources mentionnées dans cette section : </p>
         <ul>
-          <li><a href="" target="_blank" alt=""></a></li>
-          <li><a href="" target="_blank" alt=""></a></li>
-          <li><a href="" target="_blank" alt=""></a></li>
+          <li><a href="https://www.canada.ca/fr/commission-fonction-publique/services/cadre-nomination/delegation/instrument-delegation-responsabilisation.html#toc1.2" target="_blank" alt="Instrument de délégation et de responsabilisation en matière de nomination">Instrument de délégation et de responsabilisation en matière de nomination</a></li>
+          <li><a href="https://laws-lois.justice.gc.ca/fra/lois/f-11/" target="_blank" alt="Loi sur la gestion des finances publiques">Loi sur la gestion des finances publiques</a></li>
+          <li><a href="https://laws-lois.justice.gc.ca/fra/lois/p-33.01/" target="_blank" alt="Loi sur l’emploi dans la fonction publique">Loi sur l’emploi dans la fonction publique</a></li>
         </ul>
       </div>
       <div v-if="$i18n.locale=='en'">
@@ -150,7 +150,7 @@
     <b-modal no-stacking id="InRealLife" @hide="resumePlay()" okOnly>
       <template v-slot:modal-header="{ close }">
         <h3 class="h5">
-          <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32">
+          <img src="~/assets/InfoIcon.svg" :alt="$t('infoIcon')" width="32" height="32">
           {{$t('InRealLife')}}
         </h3>
         <button type="button" aria-label="Close" class="close" @click="close()">×</button>
@@ -165,7 +165,12 @@
           <div v-if="$i18n.locale=='en'">
             <p>Take what you have learned into real life!</p>
             <p>Each deputy head determines how authorities are sub-delegated. As a result, sub-delegation varies from one organization to another. It is a good practice to question if you have the authority to act before making an HR decision.</p>
-            <p>Ask your supervisor or an HR advisor where you can find your organization’s delegation instrument and how it should be used for the decisions you are making. Some human resources actions such as classification, pay, staffing may involve exercising authorities from multiple areas.</p>
+            <p>Take a time out from the course and ask your supervisor or an HR advisor where you can find your organization’s delegation instrument and how it should be used for the decisions you are making. Some human resources actions such as classification, pay, staffing may involve exercising authorities from multiple areas.</p>
+          </div>
+          <div v-if="$i18n.locale=='fr'">
+            <p>Appliquez maintenant ce que vous avez appris – dans la vraie vie!</p>
+            <p>Votre organisation aura sa propre façon de faire les choses. Par conséquent, la subdélégation varie d’une organisation à l’autre. Il est bon de vous demander si vous avez le pouvoir d’agir avant de prendre une décision en matière de RH.</p>
+            <p>Prenez le temps pour demander à votre superviseur ou à un conseiller en RH où se trouve l’instrument de délégation de votre organisation et comment l’utiliser dans le cadre des décisions que vous prenez. Certaines activités liées aux RH comme la classification, la paye et la dotation peuvent exiger d’exercer des pouvoirs dans plusieurs domaines.</p>
           </div>
         </b-col>
       </b-row>
@@ -264,7 +269,7 @@ export default {
 <i18n>{
   "en":{
   "gotItContent": "Pop-ups will appear throughout the course to indicate what comes next, such as a video, an exercise, a list of links or a job aid.",
-  "activityLinks":"Reference: External Links",
+  "activityLinks":"References: External Links",
   "gotoLinks":"For more information, feel free to consult the following links. These links are also available in the Toolbox.",
   "hrAuthoritiesTitle": "Activity: Recognize delegated authorities",
   "hrDelegationTitle": "Activity: Identify levels of authority required to approve specific HR requests",
@@ -275,10 +280,10 @@ export default {
   },
   "fr":{
   "TakeTheQuiz":"Répondez au questionnaire",
-  "activityLinks":"Référence : Liens externes",
+  "activityLinks":"Références : Liens externes",
   "gotoLinks":"Pour plus d'information, veuillez consulter les liens suivants. Ces liens sont également disponibles dans la boîte à outils.",
-  "hrAuthoritiesTitle": "",
-  "hrDelegationTitle": "",
+  "hrAuthoritiesTitle": "Activité : Reconnaître les pouvoirs délégués",
+  "hrDelegationTitle": "Activité : Déterminer les niveaux décisionnels requis pour approuver différentes demandes de RH",
   "IRLText":"<p>Appliquez maintenant ce que vous avez appris – dans la vraie vie! </p>  <p>Votre organisation aura sa propre façon de faire les choses. Par conséquent, la subdélégation varie d’une organisation à l’autre. Il est bon de vous demander si vous avez le pouvoir d’agir avant de prendre une décision en matière de RH. </p>  <p>Prenez le temps pour demander à votre superviseur ou à un conseiller en RH où se trouve l’instrument de délégation de votre organisation et comment l’utiliser dans le cadre des décisions que vous prenez. Certaines activités liées aux RH comme la classification, la paye et la dotation peuvent exiger d’exercer des pouvoirs dans plusieurs domaines. </p>",
   "gotIt":"Passer au segment suivant.",
   "gotItContent": "Les fenêtres contextuelles apparaissent tout au long du cours pour indiquer ce qui vient ensuite comme une vidéo, un exercice, une liste de liens ou une aide à l’emploi.",
