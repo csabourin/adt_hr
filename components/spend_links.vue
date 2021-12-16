@@ -4,15 +4,35 @@
       <div>
         <h4>Fonction et processus</h4>
         <ul class="list-unstyled">
-          <li><externalLink link="https://www.canada.ca/fr/commission-fonction-publique/services/cadre-nomination.html">Cadre de nomination de la Commission de la fonction publique </externalLink></li>
-          <li><externalLink link="https://www.canada.ca/fr/commission-fonction-publique/services/cadre-nomination/lignes-directrices-matiere-nomination.html">Politique de nomination de la Commission de la fonction publique </externalLink></li>
-          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/(S(e021jvamqbhco5551teiyz55))/doc-fra.aspx?id=32621">Politique sur la gestion des personnes </externalLink></li>
-          <li><externalLink link="https://laws-lois.justice.gc.ca/fra/lois/e-5.401/"><i>Loi sur l’équité en matière d’emploi</i></externalLink></li>
-          <li><externalLink link="https://laws-lois.justice.gc.ca/fra/lois/a-0.6/"><i>Loi canadienne sur l’accessibilité </i></externalLink></li>
-          <li><externalLink link="https://lois-laws.justice.gc.ca/fra/lois/p-33.01/TexteComplet.html"><i>Loi sur l’emploi dans la fonction publique </i></externalLink></li>
-          <li><externalLink link="https://laws-lois.justice.gc.ca/fra/lois/f-11/"><i>Loi sur la gestion des finances publiques </i></externalLink></li>
+          <li><externalLink link="https://www.canada.ca/fr/conseil-prive/organisation/greffier/appel-action-faveur-lutte-contre-racisme-equite-inclusion-fonction-publique-federale.html">Appel à l’action en faveur de la lutte contre le racisme, de l’équité et de l’inclusion dans la fonction publique fédérale</externalLink></li>
+          <li><externalLink link="https://www.canada.ca/fr/commission-fonction-publique/services/cadre-nomination.html">Cadre de nomination de la Commission de la fonction publique</externalLink></li>
+          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=13616">Cadre principal des politiques du Conseil du Trésor</externalLink></li>
+          <li><externalLink link="https://www.justice.gc.ca/fra/sjc-csj/dlc-rfc/ccdl-ccrf/index.html">Charte canadienne des droits et libertés</externalLink></li>
+          <li><externalLink link="https://www.csps-efpc.gc.ca/video/inclusive-hiring-five-tips-fra.aspx">Cinq conseils pour diversifier votre effectif</externalLink></li>
+          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=25049">Code de valeurs et d’éthique du secteur public</externalLink></li>
+          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=28698">Directive sur la classification</externalLink></li>
+          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=28699">Directive sur la surveillance de la classification</externalLink></li>
+          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=15772">Directive sur les conditions d’emploi</externalLink></li>
+          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=28698">Directive sur les griefs de classification</externalLink></li>
+          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32635&section=html">Directive sur l’équité en matière d’emploi, la diversité et l’inclusion</externalLink></li>
+          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32634&section=html">Directive sur l’obligation de prendre des mesures d’adaptation</externalLink></li>
+          <li><externalLink link="https://www.canada.ca/fr/secretariat-conseil-tresor/services/conventions-collectives/groupes-professionnels/groupes-professionnels-representation-agents-negociateurs.html">Groupes professionnels par représentation d’agents négociateurs</externalLink></li>
           <li><externalLink link="https://www.canada.ca/fr/commission-fonction-publique/services/cadre-nomination/delegation/instrument-delegation-responsabilisation.html">Instrument de délégation et de responsabilisation en matière de nomination</externalLink></li>
-          <li>Commission de la fonction publique – <externalLink link="https://www.canada.ca/fr/commission-fonction-publique/services/cadre-nomination/guides-outils.html">Guides et outils</externalLink></li>
+          <li><externalLink link="https://laws-lois.justice.gc.ca/fra/lois/a-0.6/">Loi canadienne sur l’accessibilité</externalLink></li>
+          <li><externalLink link="https://laws-lois.justice.gc.ca/fra/lois/h-6/">Loi canadienne sur les droits de la personne</externalLink></li>
+          <li><externalLink link="https://laws-lois.justice.gc.ca/fra/const/page-1.html">Loi constitutionnelle</externalLink></li>
+          <li><externalLink link="https://laws-lois.justice.gc.ca/fra/lois/f-11/">Loi sur la gestion des finances publiques</externalLink></li>
+          <li><externalLink link="https://lois-laws.justice.gc.ca/fra/lois/p-33.01/TexteComplet.html">Loi sur l’emploi dans la fonction publique</externalLink></li>
+          <li><externalLink link="https://laws-lois.justice.gc.ca/fra/lois/e-5.401/">Loi sur l’équité en matière d’emploi</externalLink></li>
+          <li><externalLink link="https://laws-lois.justice.gc.ca/fra/acts/o-3.01/">Loi sur les langues officielles</externalLink></li>
+          <li><externalLink link="https://www.canada.ca/fr/commission-fonction-publique/services/cadre-nomination/optique-nomination-inclusive-fonction-publique-federale.html">Optique de nomination inclusive dans la fonction publique fédérale</externalLink></li>
+          <li><externalLink link="https://www.canada.ca/fr/commission-fonction-publique/services/cadre-nomination/guides-outils/faq-options-dotation-appuyer-eme-di-vertu-lefp.html">Options de dotation pour appuyer l’équité en matière d’emploi, la diversité et l’inclusion en vertu de la Loi sur l’emploi dans la fonction publique – Foire aux questions</externalLink></li>
+          <li><externalLink link="https://www.canada.ca/fr/commission-fonction-publique/services/cadre-nomination/lignes-directrices-matiere-nomination.html#toc5">Politique de nomination</externalLink></li>
+          <li><externalLink link="https://www.canada.ca/fr/commission-fonction-publique/services/cadre-nomination/lignes-directrices-matiere-nomination.html#:~:text=mati%C3%A8re%20de%20renseignements-,Application,fond%C3%A9es%20sur%20le%20m%C3%A9rite%20et%20ind%C3%A9pendantes%20de%20toute%20influence%20politique.,-R%C3%A9sultats%20attendus">Politique de nomination de la Commission de la fonction publique</externalLink></li>
+          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/topic-sujet-fra.aspx?ta=40">Politique sur la gestion des personnes</externalLink></li>
+          <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=26160">Politique sur les langues officielles</externalLink></li>
+          <li><externalLink link="https://www.csps-efpc.gc.ca/anti-racism-fra.aspx">Série d’apprentissage contre le racisme</externalLink></li>
+          <li><externalLink link="https://www.canada.ca/fr/gouvernement/fonctionpublique/mieux-etre-inclusion-diversite-fonction-publique/diversite-equite-matiere-emploi/accessibilite-fonction-publique/strategie-accessibilite-fonction-publique-tdm.html">Stratégie sur l’accessibilité au sein de la fonction publique du Canada</externalLink></li>
         </ul>
       </div>
     </div>
