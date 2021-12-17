@@ -68,8 +68,8 @@
         "4": "IS NOT REQUIRED"
       },
       "feedback": {
-        "right": "",
-        "wrong": ""
+        "right": "In advance of candidacy, a public servant must be granted permission by the Public Service Commission.",
+        "wrong": "In advance of candidacy, a public servant must be granted permission by the Public Service Commission."
       }
     },
     "q2": {
@@ -83,8 +83,8 @@
         "6": "PUBLIC SERVICE COMMISSION"
       },
       "feedback": {
-        "right": "In the case of candidacy, permission from the Public Service Commission is required.",
-        "wrong": "In the case of candidacy, permission from the Public Service Commission is required."
+        "right": "In advance of candidacy, a public servant must be granted permission by the Public Service Commission.",
+        "wrong": "In advance of candidacy, a public servant must be granted permission by the Public Service Commission."
       }
     },
     "q3": {
@@ -113,7 +113,7 @@
     }
   },
   "fr": {
-  "instructions":"Évaluez vos connaissances en répondant aux questions suivantes.",
+  "instructions":"Répondez aux questions suivantes.",
   "instructions2": "Les activités politiques peuvent être séparées en deux catégories : les activités liées à une candidature et les activités non liées à une candidature. ",
     "q1": {
       "sentence": "Il {0} d’obtenir la permission de la Commission de la fonction publique pour se livrer à une {1}.",
@@ -124,8 +124,8 @@
         "4": "activité non liée à une candidature"
       },
       "feedback": {
-        "right": "",
-        "wrong": ""
+        "right": "Si un fonctionnaire souhaite se livrer à une activité liée à une candidature, il doit obtenir la permission de la Commission de la fonction publique.",
+        "wrong": "Si un fonctionnaire souhaite se livrer à une activité liée à une candidature, il doit obtenir la permission de la Commission de la fonction publique."
       }
     },
     "q2": {
@@ -139,8 +139,8 @@
         "6": "activité non liée à une candidature"
       },
       "feedback": {
-        "right": "In the case of candidacy, permission from the Public Service Commission is required.",
-        "wrong": "In the case of candidacy, permission from the Public Service Commission is required."
+        "right": "Si un fonctionnaire souhaite se livrer à une activité liée à une candidature, il doit obtenir la permission de la Commission de la fonction publique. ",
+        "wrong": "Si un fonctionnaire souhaite se livrer à une activité liée à une candidature, il doit obtenir la permission de la Commission de la fonction publique. "
       }
     },
     "q3": {
