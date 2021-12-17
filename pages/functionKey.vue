@@ -22,9 +22,6 @@
                 <li>La plupart des organisations disposent d’un instrument de délégation des pouvoirs en matière de RH identifiant les employés auxquels sont subdélégués les pouvoirs et les responsabilités en matière d’organisation et de classification.</li>
               </ul>
           </span>
-        </b-col>
-        <b-col cols="1" class="d-none d-lg-block"></b-col>
-        <b-col cols="12" lg>
           <span v-if="$i18n.locale=='en'">
             <h3>Staffing</h3>
             <ul>

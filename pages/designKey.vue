@@ -33,9 +33,6 @@
               <li>Chaque organisation a ses propres outils lui permettant de déléguer les pouvoirs au niveau de gestion approprié.</li>
             </ul>
           </span>
-        </b-col>
-        <b-col cols="1" class="d-none d-lg-block"></b-col>
-        <b-col cols="12" lg>
           <span v-if="$i18n.locale=='en'">
             <h3>Human Resources Planning</h3>
             <ul>

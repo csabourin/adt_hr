@@ -8,7 +8,7 @@
     <p>&nbsp;</p>
     <b-container style="text-align: left">
       <b-row>
-        <b-col cols="12" lg xl="5">
+        <b-col cols="12" lg xl="12">
           <span v-if="$i18n.locale=='en'">
             <h3>Labour Relations</h3>
             <ul>
@@ -57,9 +57,7 @@
               <li>Les actes répréhensibles sont définis par des actions telles que la violation de lois ou de règlements, l'utilisation abusive de fonds ou de biens publics ou des cas graves de mauvaise gestion.</li>
             </ul>
           </span>
-        </b-col>
-        <b-col cols="1" class="d-none d-xl-block"></b-col>
-        <b-col cols="12" lg xl="5"><span v-if="$i18n.locale=='en'">
+        <span v-if="$i18n.locale=='en'">
             <h3>Official Languages</h3>
             <ul>
               <li>Managers must ensure that communications and services in their offices are actively offered in English and French, and that communications with and services to the public from a designated office are in both official languages or in the preferred language of the recipient, if known.</li>
