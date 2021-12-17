@@ -117,7 +117,7 @@
     }
   },
   "fr": {
-  "instructions":"Répondez aux questions suivantes en consultant la facture fournie.",
+  "instructions":"Répondez aux questions suivantes.",
     "q1": {
       "text": "Vous avez observé une augmentation importante de la demande des services que votre programme fournit, et désormais, tous les employés doivent travailler de nuit quatre jours par mois. Brad est un père monoparental de deux jeunes enfants et ne peut pas travailler de nuit. Il a demandé des mesures d’adaptation en fonction de sa situation de famille. Vous devez prendre des mesures d’adaptation pour Brad. ",
       "options": {

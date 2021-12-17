@@ -20,7 +20,7 @@
                     <b-card-text>
                       <!-- <button class="accessibilityButton" v-for="(tracks, index) in navBarTracks" :key="index" @click="accessibleModal(index)">{{$t('jumpModalParts') + ' - ' +navBarTracks[index]}}</button> -->
                       <span v-if="$i18n.locale=='en'">
-                        <h2>Your Employment Equity, Diversity and Inclusion Responsibilities</h2>
+                        <h2>Your Employment Equity, Diversity and Inclusion Responsibilities</h2>
                         <p>Everyone benefits from employment equity, diversity and inclusion because they ensure that current and potential employees have equal opportunity to be hired or promoted for their skills and abilities.</p>
                         <p>They also enhance your organization and your team as a whole, because a diverse workforce can provide a broader range of ideas and insights and greater resilience.</p>
                         <p>In this section you will learn to:</p>
@@ -166,22 +166,36 @@
                 <p>Here is a list of resources referred to in this section.</p>
                 <ul>
                   <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32634&section=html" target="_blank" alt="Link to the Directive on Duty to Accommodate web page">Directive on Duty to Accommodate</a></li>
-                  <li><a href="https://laws-lois.justice.gc.ca/eng/acts/A-0.6/" target="_blank" alt="Link to the Accessible Canada Act web page"><i>Accessible Canada Act</i></a></li>
+                  <li><a href="https://laws-lois.justice.gc.ca/eng/acts/A-0.6/" target="_blank" alt="Link to the Accessible Canada Act web page">Accessible Canada Act</a></li>
                   <li><a href="https://www.canada.ca/en/government/publicservice/wellness-inclusion-diversity-public-service/diversity-inclusion-public-service/accessibility-public-service/accessibility-strategy-public-service-toc.html" target="_blank" alt="Link to the Accessibility Strategy for the Public Service of Canada web page">Accessibility Strategy for the Public Service of Canada</a></li>
+                  <li><a href="https://laws-lois.justice.gc.ca/eng/acts/e-5.401/page-1.html" target="_blank" alt="Link to the Employment Equity Act web page">Employment Equity Act</a></li>
+                  <li><a href="https://www.justice.gc.ca/eng/sjc-csj/dlc-rfc/ccdl-ccrf/index.html" target="_blank" alt="Link to the The Canadian Charter of Rights and Freedoms web page">The Canadian Charter of Rights and Freedoms</a></li>
+                  <li><a href="https://laws-lois.justice.gc.ca/eng/const/page-1.html" target="_blank" alt="Link to the Constitution Act web page">Constitution Act</a></li>
+                  <li><a href="https://laws-lois.justice.gc.ca/eng/lois/h-6/" target="_blank" alt="Link to the Canadian Human Rights Act web page">Canadian Human Rights Act</a></li>
+                  <li><a href="https://www.canada.ca/en/privy-council/corporate/clerk/call-to-action-anti-racism-equity-inclusion-federal-public-service.html" target="_blank" alt="Link to the Call to action on anti-racism, equity, and inclusion in the Federal Public Service web page">Call to action on anti-racism, equity, and inclusion in the Federal Public Service</a></li>
+                  <li><a href="https://www.csps-efpc.gc.ca/anti-racism-eng.aspx" target="_blank" alt="Link to the Anti-Racism Learning Series web page">Anti-Racism Learning Series</a></li>
                 </ul>
               </div>
               <div v-if="$i18n.locale=='fr'">
                 <p>Voici une liste des ressources auxquelles on fait référence dans cette section. </p>
-                <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32634&section=html" target="_blank" alt="Lien de la page web de la directive sur l’obligation de prendre des mesures d’adaptation">Directive sur l’obligation de prendre des mesures d’adaptation</a></li>
-                <li><a href="https://laws-lois.justice.gc.ca/fra/lois/a-0.6/" target="_blank" alt="Lien vers la page Web de la Loi sur l'accessibilité du Canada"><i>Loi canadienne sur l’accessibilité </i></a></li>
-                <li><a href="https://www.canada.ca/fr/gouvernement/fonctionpublique/mieux-etre-inclusion-diversite-fonction-publique/diversite-equite-matiere-emploi/accessibilite-fonction-publique/strategie-accessibilite-fonction-publique-tdm.html" target="_blank" alt="Lien vers la page Web de la Stratégie d'accessibilité pour la fonction publique du Canada">Stratégie sur l’accessibilité au sein de la fonction publique du Canada </a></li>
+                <ul>
+                  <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32634&section=html" target="_blank" alt="Lien vers la page web de la directive sur l'obligation de prendre des mesures d’adaptation">Directive sur l’obligation de prendre des mesures d’adaptation </a></li>
+                  <li><a href="https://laws-lois.justice.gc.ca/fra/lois/a-0.6/" target="_blank" alt="Lien vers la page Web de la Loi sur l'accessibilité du Canada">Loi canadienne sur l’accessibilité</a></li>
+                  <li><a href="https://www.canada.ca/fr/gouvernement/fonctionpublique/mieux-etre-inclusion-diversite-fonction-publique/diversite-equite-matiere-emploi/accessibilite-fonction-publique/strategie-accessibilite-fonction-publique-tdm.html" target="_blank" alt="Lien vers la page Web de la Stratégie d'accessibilité pour la fonction publique du Canada">Stratégie sur l’accessibilité au sein de la fonction publique du Canada</a></li>
+                  <li><a href="https://laws-lois.justice.gc.ca/fra/lois/h-6/" target="_blank" alt="Lien vers la page web de la loi sur l'équité en matière d'emploi">Loi canadienne sur les droits de la personne</a></li>
+                  <li><a href="https://laws-lois.justice.gc.ca/fra/lois/e-5.401/page-1.html" target="_blank" alt="Lien vers la page Web de la Loi sur l’équité en matière d’emplois">Loi sur l’équité en matière d’emploi</a></li>
+                  <li><a href="https://www.justice.gc.ca/fra/sjc-csj/dlc-rfc/ccdl-ccrf/index.html" target="_blank" alt="Lien vers la page web de la Charte canadienne des droits et libertés">Charte canadienne des droits et libertés</a></li>
+                  <li><a href="https://laws-lois.justice.gc.ca/fra/const/page-1.html" target="_blank" alt="Lien vers la page web de la loi constitutionnelle">Loi constitutionnelle</a></li>
+                  <li><a href="https://www.canada.ca/fr/conseil-prive/organisation/greffier/appel-action-faveur-lutte-contre-racisme-equite-inclusion-fonction-publique-federale.html" target="_blank" alt="Lien vers la page web de l'appel à l'action sur l'antiracisme, l'équité et l'inclusion dans la fonction publique fédérale">Appel à l’action en faveur de la lutte contre le racisme, de l’équité et de l’inclusion dans la fonction publique fédérale </a></li>
+                  <li><a href="https://www.csps-efpc.gc.ca/anti-racism-fra.aspx" target="_blank" alt="Lien vers la page web de la Série d’apprentissage contre le racisme">Série d’apprentissage contre le racisme</a></li>
+                </ul>
               </div>
             <template v-slot:modal-ok>{{$t('close')}}</template>
         </b-modal>
         <b-modal id="WorkplaceAccommodation" @hide="resumePlay()" size="xl" okOnly>
             <template v-slot:modal-header="{ close }">
                 <h3 class="h5">
-                    <img src="~/assets/ReferenceIcon.svg" :alt="$t('ReferenceIcon')" width="32" height="32"> {{$t('WorkplaceAccommodationTitle')}}
+                    <img src="~/assets/InfoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('WorkplaceAccommodationTitle')}}
                 </h3>
                 <button type="button" aria-label="Close" class="close" @click="close()">×</button>
             </template>
@@ -190,25 +204,27 @@
                 <a href=" https://www.csps-efpc.gc.ca/video/disability-inclusion-psc-intro-eng.aspx" target="_blank" alt="Link to the Disability and Inclusion video">https://www.csps-efpc.gc.ca/video/disability-inclusion-psc-intro-eng.aspx</a></p>
                 <p>Be sure to apply legislation, government policies and your organization’s procedures in your role as manager.</p>
                 <ul>
-                  <li><a href="https://laws-lois.justice.gc.ca/eng/acts/e-5.401/page-1.html" target="_blank" alt="Link to the Employment Equity Act web page"><i>Employment Equity Act</i></a></li>
-                  <li><a href="https://www.justice.gc.ca/eng/csj-sjc/rfc-dlc/ccrf-ccdl/" target="_blank" alt="Link to the The Canadian Charter of Rights and Freedoms web page"><i>The Canadian Charter of Rights and Freedoms</i></a></li>
-                  <li><a href="https://laws-lois.justice.gc.ca/eng/Const/page-1.html" target="_blank" alt="Link to the Constitution Act web page"><i>Constitution Act</i></a></li>
+                  <li><a href="https://laws-lois.justice.gc.ca/eng/acts/e-5.401/page-1.html" target="_blank" alt="Link to the Employment Equity Act web page">Employment Equity Act</a></li>
+                  <li><a href="https://www.justice.gc.ca/eng/csj-sjc/rfc-dlc/ccrf-ccdl/" target="_blank" alt="Link to the The Canadian Charter of Rights and Freedoms web page">The Canadian Charter of Rights and Freedoms</a></li>
+                  <li><a href="https://laws-lois.justice.gc.ca/eng/Const/page-1.html" target="_blank" alt="Link to the Constitution Act web page">Constitution Act</a></li>
+                  <li><a href="https://laws-lois.justice.gc.ca/eng/acts/h-6/" target="_blank" alt="Link to the Canadian Human Rights Act web page">Canadian Human Rights Act</a></li>
                   <li><a href="https://www.canada.ca/en/privy-council/corporate/clerk/call-to-action-anti-racism-equity-inclusion-federal-public-service.html" target="_blank" alt="Link to the Call to action on anti-racism, equity, and inclusion in the Federal Public Service web page">Call to action on anti-racism, equity, and inclusion in the Federal Public Service</a></li>
                   <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32634&section=html" target="_blank" alt="Link to the Directive on Duty to Accommodate web page">Directive on Duty to Accommodate</a></li>
-                  <li><a href="https://laws-lois.justice.gc.ca/eng/acts/A-0.6/" target="_blank" alt="Link to the Accessible Canada Act web page"><i>Accessible Canada Act</i></a></li>
+                  <li><a href="https://laws-lois.justice.gc.ca/eng/acts/A-0.6/" target="_blank" alt="Link to the Accessible Canada Act web page">Accessible Canada Act</a></li>
                   <li><a href="https://www.canada.ca/en/government/publicservice/wellness-inclusion-diversity-public-service/diversity-inclusion-public-service/accessibility-public-service/accessibility-strategy-public-service-toc.html" target="_blank" alt="Link to the Accessibility Strategy for the Public Service of Canada web page">Accessibility Strategy for the Public Service of Canada</a></li>
                 </ul>
               </div>
               <div v-if="$i18n.locale=='fr'">
-                <p>Regardez la courte vidéo ci-dessous qui explique comment rendre l’embauche plus accessible : https://www.csps-efpc.gc.ca/video/disability-inclusion-psc-intro-fra.aspx. </p>
+                <p>Regardez la courte vidéo ci-dessous qui explique comment rendre l’embauche plus accessible : <a href="https://www.csps-efpc.gc.ca/video/disability-inclusion-psc-intro-fra.aspx" target="_blank">https://www.csps-efpc.gc.ca/video/disability-inclusion-psc-intro-fra.aspx</a>. </p>
                 <p>Assurez-vous d’appliquer les lois et règlements, les politiques gouvernementales et les procédures de votre organisation à votre rôle de gestionnaire. </p>
                 <ul>
-                  <li><a href="https://laws-lois.justice.gc.ca/fra/lois/h-6/" target="_blank" alt="Lien vers la page web de la loi sur l'équité en matière d'emploi"><i>Loi canadienne sur les droits de la personne </i></a></li>
-                  <li><a href="https://laws-lois.justice.gc.ca/fra/lois/e-5.401/page-1.html" target="_blank" alt="Lien vers la page Web de la Charte canadienne des droits et libertés"><i>Loi sur l’équité en matière d’emploi </i></a></li>
-                  <li><a href="https://www.justice.gc.ca/fra/sjc-csj/dlc-rfc/ccdl-ccrf/index.html" target="_blank" alt="Lien vers la page web de la loi constitutionnelle"><i>Loi constitutionnelle </i></a></li>
+                  <li><a href="https://laws-lois.justice.gc.ca/fra/lois/h-6/" target="_blank" alt="Lien vers la page web de la loi sur l'équité en matière d'emploi">Loi canadienne sur les droits de la personne</a></li>
+                  <li><a href="https://laws-lois.justice.gc.ca/fra/lois/e-5.401/page-1.html" target="_blank" alt="Lien vers la page Web de la Charte canadienne des droits et libertés">Loi sur l’équité en matière d’emploi</a></li>
+                  <li><a href="https://www.justice.gc.ca/fra/sjc-csj/dlc-rfc/ccdl-ccrf/index.html" target="_blank" alt="Lien vers la page web de la Charte canadienne des droits et libertés">Charte canadienne des droits et libertés</a></li>
+                  <li><a href="https://laws-lois.justice.gc.ca/fra/const/page-1.html" target="_blank" alt="Lien vers la page web de la loi constitutionnelle">Loi constitutionnelle</a></li>
                   <li><a href="https://www.canada.ca/fr/conseil-prive/organisation/greffier/appel-action-faveur-lutte-contre-racisme-equite-inclusion-fonction-publique-federale.html" target="_blank" alt="Lien vers la page web de l'appel à l'action sur l'antiracisme, l'équité et l'inclusion dans la fonction publique fédérale">Appel à l’action en faveur de la lutte contre le racisme, de l’équité et de l’inclusion dans la fonction publique fédérale </a></li>
                   <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32634&section=html" target="_blank" alt="Lien vers la page web de la directive sur l'obligation de prendre des mesures d’adaptation">Directive sur l’obligation de prendre des mesures d’adaptation </a></li>
-                  <li><a href="https://laws-lois.justice.gc.ca/fra/lois/a-0.6/" target="_blank" alt="Lien vers la page Web de la Loi sur l'accessibilité du Canada"><i>Loi canadienne sur l’accessibilité</i></a></li>
+                  <li><a href="https://laws-lois.justice.gc.ca/fra/lois/a-0.6/" target="_blank" alt="Lien vers la page Web de la Loi sur l'accessibilité du Canada">Loi canadienne sur l’accessibilité</a></li>
                   <li><a href="https://www.canada.ca/fr/gouvernement/fonctionpublique/mieux-etre-inclusion-diversite-fonction-publique/diversite-equite-matiere-emploi/accessibilite-fonction-publique/strategie-accessibilite-fonction-publique-tdm.html" target="_blank" alt="Lien vers la page Web de la Stratégie d'accessibilité pour la fonction publique du Canada">Stratégie sur l’accessibilité au sein de la fonction publique du Canada</a></li>
                 </ul>
               </div>
@@ -257,7 +273,7 @@
         <b-modal id="InRealLife" @hide="resumePlay()" okOnly>
             <template v-slot:modal-header="{ close }">
                 <h3 class="h5">
-                    <img src="~/assets/ReferenceIcon.svg" :alt="$t('ReferenceIcon')" width="32" height="32"> {{$t('IRLTitle')}}
+                    <img src="~/assets/InfoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('IRLTitle')}}
                 </h3>
                 <button type="button" aria-label="Close" class="close" @click="close()">×</button>
             </template>
@@ -269,7 +285,7 @@
             <div v-if="$i18n.locale=='en'">
               <p><b>To supplement the knowledge required to perform your employment equity, diversity, inclusion and accessibility functions, be sure to complete the courses</b></p>
               <ul>
-                <li>Employment Equity Under the Employment Equity Act (P745)</li>
+                <li>Employment Equity Under the <i>Employment Equity Act</i> (P745)</li>
                 <li>Workplace Accommodation for Federal Public Service Employees (C345)</li>
               </ul>
               <p>These courses provide a more in-depth look at employment equity, inclusivity and accommodation to help you perform your duties in this area.</p>
@@ -277,7 +293,7 @@
             <div v-if="$i18n.locale=='fr'">
               <p><b>Pour approfondir les connaissances nécessaires à l’exercice de vos fonctions relatives à l’équité en matière d’emploi, à la diversité, à l’inclusion et à l’accessibilité, suivez les cours suivants : </b></p>
               <ul>
-                <li>L’équité en matière d’emploi en vertu de la Loi sur l’équité en matière d’emploi (P745) </li>
+                <li>L’équité en matière d’emploi en vertu de la <i>Loi sur l’équité en matière d’emploi</i> (P745) </li>
                 <li>Mesures d’adaptation en milieu de travail à l’intention des employés de la fonction publique fédérale (C345) </li>
               </ul>
               <p>Ces cours, qui examinent de manière approfondie l’équité en matière d’emploi, l’inclusion et les mesures d’adaptation,  visent à vous aider à accomplir vos fonctions dans ce domaine. </p>
@@ -478,10 +494,10 @@ button.accessibilityButton {
   "en":{
   "TakeTheQuiz":"Take the Quiz",
   "EmploymentEquityTitle":"References: External Links  ",
-  "WorkplaceAccommodationTitle":"References: Workplace Accommodation ",
-  "WorkplaceDiscriminationTitle":"Reference: Workplace Discrimination",
+  "WorkplaceAccommodationTitle":"References: Workplace Accommodation",
+  "WorkplaceDiscriminationTitle":"References: Workplace Discrimination",
   "LevellingPlayingFieldTitle":"Activity: Levelling the Playing Field",
-  "UnconsciousBiasesTitle":"Activity: Unconscious Biases",
+  "UnconsciousBiasesTitle":"References: Unconscious Bias",
   "IRLTitle":"In Real Life",
   "gotIt":"Continue to next segment",
   "jumpModalParts":"Jump to activity",
@@ -490,11 +506,11 @@ button.accessibilityButton {
   "spendSectionBar": "FUNCTION"
   },
   "fr":{
-  "TakeTheQuiz":"Répondez au questionnaire",
+  "TakeTheQuiz":"Répondez au quiz",
   "CertAuthorityTitle":"Activité : Autorité de certification",
   "EmploymentEquityTitle":"Références : Liens externes ",
-  "WorkplaceAccommodationTitle":"Références : Mesures d’adaptation en milieu de travail ",
-  "WorkplaceDiscriminationTitle":"Références : Discrimination en milieu de travail ",
+  "WorkplaceAccommodationTitle":"Références : Mesures d’adaptation en milieu de travail",
+  "WorkplaceDiscriminationTitle":"Références : Discrimination en milieu de travail",
   "UnconsciousBiasesTitle":"Références : Préjugés inconscients",
   "LevellingPlayingFieldTitle":"Activité : Égalité des chances",
   "ProcessInvoiceTitle":"Activité : Traitement de la facture",
