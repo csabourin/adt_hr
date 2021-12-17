@@ -127,13 +127,13 @@
       "text": "<p>Le comité social a planifié un dînerd’équipe dans un lieu local prisé pour souhaiter une bonne retraite à votre gestionnaire avant son dernier jour de travail. Vous mentionnez à votre collègue que vous attendez avec impatience l’événement, qui aura lieu le lendemain. Il vous dit qu’il ne pourra pas y participer, car le restaurant n’est accessible que par des escaliers. Il ajoute qu’il a expliqué son refus et demandé qu’on choisisse plutôt un lieu accessible aux fauteuils roulants, mais que le comité social ne lui a pas répondu.</p><p>Votre collègue est-il victime de harcèlement et de violence? </p>",
       "options": {
         "1": "Oui",
-        "2": "Nom"
+        "2": "Non"
       },
       "feedback": {
         "1": "<span class='v-right' /><strong>Correct!</strong>",
         "2": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       },
-      "conclusion": "Le fait d’exclure ou d’isoler quelqu’un sur le plan social est considéré comme du harcèlement et de la violence"
+      "conclusion": "Le fait d’exclure ou d’isoler quelqu’un sur le plan social est considéré comme du harcèlement et de la violence."
     },
     "q2": {
       "text": "En tant que gestionnaire, vous devez gérer les situations de harcèlement et de violence dès qu’elles surviennent, sans quoi vous pourriez faire l’objet de mesures disciplinaires. ",
@@ -177,7 +177,7 @@
       "conclusion": "Il s’agit d’un cas de harcèlement et de violence. Dominic a demandé à son collègue de cesser de l’appeler « Chef », mais le collègue continue de le faire. Il faut aussi savoir que le fait d’utiliser des termes faisant référence à la culture pour faire des blagues constitue une forme de discrimination."
     },
     "q5": {
-      "text": "<p>Une personne sous votre responsabilité,Jean (iel/ellui), est gestionnaire n’a aucun subalterne et occupe un poste susceptible de poser un risque de conflit d’intérêts d’après-mandat. Jean a reçu récemment d’une agence une offre d’emploi qui risque de causer une situation de conflit d’intérêts réel, apparent ou potentiel. Si Jean accepte l’offre, iel quittera la fonction publique fédérale et commencera à travailler six mois plus tard.</p><p>Quel est le premier conseil que vous donnerez à Jean?</p>",
+      "text": "<p>Une personne sous votre responsabilité, Jean (iel/ellui), est gestionnaire n’a aucun subalterne et occupe un poste susceptible de poser un risque de conflit d’intérêts d’après-mandat. Jean a reçu récemment d’une agence une offre d’emploi qui risque de causer une situation de conflit d’intérêts réel, apparent ou potentiel. Si Jean accepte l’offre, iel quittera la fonction publique fédérale et commencera à travailler six mois plus tard.</p><p>Quel est le premier conseil que vous donnerez à Jean?</p>",
       "options": {
         "1": "Divulguer la situation à l’administrateur général.",
         "2": "Accepter l’offre sur-le-champ. Jean n’a pas de tâches de supervision. ",

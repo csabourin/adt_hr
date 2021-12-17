@@ -218,12 +218,15 @@
           <ul>
             <li><a href="https://laws-lois.justice.gc.ca/eng/acts/p-31.9/" target="_blank" alt="Link to the Public Servants Disclosure Protection Act web page">Public Servants Disclosure Protection Act</a></li>
             <li><a href="http://gazette.gc.ca/rp-pr/p2/2020/2020-06-24/html/sor-dors130-eng.html" target="_blank" alt="Link to the Work Place Harassment and Violence Prevention Regulations web page">Work Place Harassment and Violence Prevention Regulations</a></li>
+            <li><a href="https://laws-lois.justice.gc.ca/eng/acts/H-6/index.html/" target="_blank" alt="Link to the Canadian Human Rights Act web page">Canadian Human Rights Act</a></li>
+            <li><a href="https://www.un.org/development/desa/indigenouspeoples/declaration-on-the-rights-of-indigenous-peoples.html" target="_blank" alt="Link to the United Nations Declaration on the Rights of Indigenous Peoples web page">United Nations Declaration on the Rights of Indigenous Peoples</a></li>
           </ul>
           <p><b>Policy Instruments</b></p>
           <ul>
             <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32627" target="_blank" alt="Link to the Directive on Conflict of Interest web page">Directive on Conflict of Interest</a></li>
             <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32671" target="_blank" alt="Link to the	Directive on the Prevention and Resolution of Workplace Harassment and Violence web page">Directive on the Prevention and Resolution of Workplace Harassment and Violence</a></li>
             <li><a href="https://www.tbs-sct.gc.ca/pol/(S(e021jvamqbhco5551teiyz55))/doc-eng.aspx?id=32621" target="_blank" alt="Link to the Policy on People Management web page">Policy on People Management</a></li>
+            <li><a href="https://sencanada.ca/content/sen/committee/432/CIBA/reports/CIBA_RTP5_POL_HVP_E.pdf" target="_blank" alt="Link to the Senate Harassment and Violence Prevention Policy web page">Senate Harassment and Violence Prevention Policy</a></li>
           </ul>
           <p><b>Other Resources</b></p>
           <ul>
@@ -234,18 +237,21 @@
             <li><a href="https://www.canada.ca/en/employment-social-development/programs/workplace-health-safety/harassment-violence-prevention.html#What_is_not" target="_blank" alt="Link to the What is not harassment and violence web page">What is not harassment and violence</a></li>
           </ul>
         </div>
-        <div v-if="$i18n.locale=='en'">
+        <div v-if="$i18n.locale=='fr'">
           <p>Voici une liste des ressources auxquelles on fait référence dans cette section. </p>
           <p><b>Législation</b></p>
           <ul>
-            <li><a href="https://laws-lois.justice.gc.ca/fra/lois/p-31.9/" target="_blank" alt="Lien vers la page web de la Loi sur la protection des fonctionnaires divulgateurs d'actes répréhensibles">Loi sur la protection des fonctionnaires divulgateurs d’actes répréhensibles </a></li>
-            <li><a href="https://canadagazette.gc.ca/rp-pr/p2/2020/2020-06-24/html/sor-dors130-fra.html" target="_blank" alt="Lien vers la page web du Règlement sur le harcèlement et la prévention de la violence dans le lieu de travail">Règlement sur la prévention du harcèlement et de la violence dans le lieu de travail </a></li>
+            <li><a href="https://laws-lois.justice.gc.ca/fra/lois/p-31.9/" target="_blank" alt="Lien vers la page web de la Loi sur la protection des fonctionnaires divulgateurs d'actes répréhensibles">Loi sur la protection des fonctionnaires divulgateurs d’actes répréhensibles</a></li>
+            <li><a href="https://canadagazette.gc.ca/rp-pr/p2/2020/2020-06-24/html/sor-dors130-fra.html" target="_blank" alt="Lien vers la page web du Règlement sur le harcèlement et la prévention de la violence dans le lieu de travail">Règlement sur la prévention du harcèlement et de la violence dans le lieu de travail</a></li>
+            <li><a href="https://laws-lois.justice.gc.ca/fra/lois/h-6/index.html/" target="_blank" alt="Lien vers la page web de la Loi canadienne sur les droits de la personne">Loi canadienne sur les droits de la personne</a></li>
+            <li><a href="https://www.un.org/development/desa/indigenous-peoples-fr/" target="_blank" alt="Lien vers la page web de la Déclaration des Nations Unies sur les Droits des Peuples Autochtones">Déclaration des Nations Unies sur les Droits des Peuples Autochtones</a></li>
           </ul>
           <p><b>Instruments de politique </b></p>
           <ul>
             <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32627" target="_blank" alt="Lien vers la page web de la directive sur les conflits d'intérêts">Directive sur les conflits d’intérêts </a></li>
             <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32671" target="_blank" alt="Lien vers la page web de la directive sur la prévention et la résolution du harcèlement et de la violence au travail">Directive sur la prévention et la résolution du harcèlement et de la violence sur le lieu de travail</a></li>
             <li><a href="https://www.tbs-sct.gc.ca/pol/(S(e021jvamqbhco5551teiyz55))/doc-fra.aspx?id=32621" target="_blank" alt="Lien vers la page web de la politique de gestion du personnel">Politique sur la gestion des personnes </a></li>
+            <li><a href="https://sencanada.ca/content/sen/committee/431/CIBA/Reports/CIBA_RPT4_f.pdf" target="_blank" alt="Lien vers la page web de la Politique sur la prévention et la résolution du harcèlement en milieu de travail au Sénat">Politique sur la prévention et la résolution du harcèlement en milieu de travail au Sénat</a></li>
           </ul>
           <p><b>Autres ressources </b></p>
           <ul>
@@ -304,30 +310,30 @@
       <b-modal id="definingWrongdoing" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('definingWrongdoingTitle')}}
+            <img src="~/assets/InfoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('definingWrongdoingTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
         <div v-if="$i18n.locale=='en'">
-          <p>Consult the following resources for more information about the Public Servants Disclosure Protection Act and tips for managers:</p>
+          <p>Consult the following resources for more information about the <i>Public Servants Disclosure Protection Act</i> and tips for managers:</p>
           <ul>
             <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/values-ethics/disclosure-protection/public-servants-disclosure-protection-act-information-supervisors-all-levels.html" target="_blank" alt="Link to the Information for supervisors at all levels web page">Information for supervisors at all levels</a></li>
           </ul>
-          <img src="~/assets/V+E Graphics-en.png" alt="Image detailing the Roles of the different employees">
+          <img src="~/assets/en/V+E_Graphics-en.png" alt="Image detailing the Roles of the different employees">
         </div>
         <div v-if="$i18n.locale=='fr'">
-          <p>Consultez les ressources suivantes pour en savoir plus sur la Loi sur la protection des fonctionnaires divulgateurs d’actes répréhensibles et pour obtenir des conseils destinés aux gestionnaires : </p>
+          <p>Consultez les ressources suivantes pour en savoir plus sur la <i>Loi sur la protection des fonctionnaires divulgateurs d’actes répréhensibles</i> et pour obtenir des conseils destinés aux gestionnaires : </p>
           <ul>
             <li><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/valeurs-ethique/protection-divulgateurs/loi-protection-fonctionnaires-divulgateurs-actes-reprehensibles-information-intention-superviseurs-tous-niveaux.html" target="_blank" alt="Lien vers la page web Informations pour les superviseurs à tous les niveaux">Information à l’intention des superviseurs de tous niveaux</a></li>
           </ul>
-          <img src="~/assets/V+E Graphics-fr.png" alt="Image d'émontrant les rôles des employers">
+          <img src="~/assets/fr/V+E_Graphics-fr.png" alt="Image d'émontrant les rôles des employers">
         </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
       <b-modal id="InRealLife" @hide="resumePlay()" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('inRealLifeTitle')}}
+            <img src="~/assets/InfoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('inRealLifeTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
@@ -343,7 +349,7 @@
           <p>When people work together, misunderstandings and conflict are inevitable, but the escalation of issues can be prevented. You have a key role to play in promoting respectful working relationships and in helping to deal with conflict constructively. </p>
         </div>
         <div v-if="$i18n.locale=='fr'">
-          <p>Premièrement, lisez la<a href="https://canadagazette.gc.ca/rp-pr/p2/2020/2020-06-24/html/sor-dors130-fra.html" target="_blank" alt="Lien vers la page web du Règlement sur le harcèlement et la prévention de la violence dans le lieu de travail">Règlement sur la prévention du harcèlement et de la violence dans le lieu de travail </a> , qui met l’accent sur la nécessité d’assurer la prévention des employés et de créer une culture du respect fondée sur de bonnes relations et une bonne communication. Cette culture en milieu de travail favorise à son tour un environnement caractérisé par la confiance, la bienveillance et le respect. </p>
+          <p>Premièrement, lisez la<a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32671" target="_blank" alt="Lien vers la page web du Règlement sur le harcèlement et la prévention de la violence dans le lieu de travail">Directive sur la Prévention et la résolution du harcèlement et de la violence dans le lieu de travail</a>, qui met l’accent sur la nécessité d’assurer la prévention des employés et de créer une culture du respect fondée sur de bonnes relations et une bonne communication. Cette culture en milieu de travail favorise à son tour un environnement caractérisé par la confiance, la bienveillance et le respect. </p>
           <p>Deuxièmement, trouvez qui peut vous guider en ce qui a trait aux conflits d’intérêts. De nombreuses organisations comptent un bureau des valeurs et de l’éthique ou un ombudsman qui peut vous aider. Vous pouvez également consulter la <a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32627" target="_blank" alt="Lien vers la page web de la directive sur les conflits d'intérêts">Directive sur les conflits d’intérêts </a>.</p>
           <p>Troisièmement, lisez la politique de votre organisation sur la prévention du harcèlement et de la violence dans le lieu de travail. </p>
           <p>Lorsque des collègues travaillent ensemble, les malentendus et les conflits sont inévitables; toutefois, l’accumulation des problèmes, elle, peut être évitée. Vous jouez un rôle important dans la promotion de relations de travail respectueuses et pouvez contribuer à la résolution des conflits d’une manière constructive. </p>
@@ -450,7 +456,7 @@ export default {
   "harassmentViolenceTitle": "Activity: Harassment and Violence",
   "directiveConflictInterestTitle": "References: Additional Course",
   "definingWrongdoingTitle": "References: Defining Wrongdoing",
-  "inRealLifeTitle":"Activity: In Real Life",
+  "inRealLifeTitle":"In Real Life",
   "TakeTheQuiz":"Take the Quiz",
   "transcriptText":"",
   "reportSectionBar": "VALUES"
@@ -460,9 +466,9 @@ export default {
   "respectPeopleTitle": "Activité : Respecter les gens",
   "harassmentViolenceTitle": "Activité : Harcèlement et violence ",
   "directiveConflictInterestTitle": "Références : Cours supplémentaire ",
-  "definingWrongdoingTitle": "Références : Définir un acte répréhensible ",
-  "inRealLifeTitle":"Activité : Dans la vraie vie",
-  "TakeTheQuiz":"Répondez au Quiz",
+  "definingWrongdoingTitle": "Références : Définir un acte répréhensible",
+  "inRealLifeTitle":"Dans la vraie vie",
+  "TakeTheQuiz":"Répondez au quiz",
   "transcriptText":"",
   "reportSectionBar": "VALEURS"
   }
