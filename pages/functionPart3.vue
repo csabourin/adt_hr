@@ -290,10 +290,11 @@
       <b-modal no-stacking id="Introduction" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ReferenceIcon.svg" :alt="$t('ReferenceIcon')" width="32" height="32"> {{$t('IntroductionTitle')}}
+            <img src="~/assets/InfoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('IntroductionTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
+        <p>{{$t('IntroductionText')}}</p>
         <functionLinks />
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
@@ -310,19 +311,17 @@
       <b-modal id="StaffingObligations" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ReferenceIcon.svg" :alt="$t('ReferenceIcon')" width="32" height="32"> {{$t('StaffingObligationsTitle')}}
+            <img src="~/assets/InfoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('StaffingObligationsTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
         <div v-if="$i18n.locale=='en'">
           <p>Watch this video, which provides an overview of hiring decisions in the public service</p>
           <p><a href="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_a99j37rq/flavorId/0_43vicyi5/name/a.mp4" target="_blank">Who Makes Hiring Decisions in the Public Service?</a></p>
-          <p>Job aids will come later In addition, the People Management Legislation and Policy Landscape document {doc needs review and adapting} contains resources to help guide you. You can find this document in the toolbox. </p>
         </div>
         <div v-if="$i18n.locale=='fr'">
           <p>Regardez la vidéo suivante, qui donne un aperçu des décisions d’embauche dans la fonction publique. </p>
           <p><a href="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_u97ukui1/flavorId/0_0we3ci6t/name/a.mp4" target="_blank">Qui prend des décisions d’embauche dans la fonction publique? </a></p>
-          <p>Vous aurez accès à des aide-mémoire plus tard. De plus, le document sur l’ensemble des lois et des politiques en matière de gestion des personnes {doc needs review and adapting} contient des ressources qui peuvent vous aider. Ce document se trouve dans la boîte à outils. </p>
         </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
@@ -339,7 +338,7 @@
       <b-modal id="StaffingPosition" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ReferenceIcon.svg" :alt="$t('ReferenceIcon')" width="32" height="32"> {{$t('StaffingPositionTitle')}}
+            <img src="~/assets/InfoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('StaffingPositionTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
@@ -354,11 +353,11 @@
           <p><b>Appointment based on merit</b></p>
           <p>An appointment is made on the basis of merit when the hiring manager performs an assessment process and is satisfied that the candidate meets each of the essential qualifications and other merit criteria for the work to be performed.</p>
           <p><b>Area of selection</b></p>
-          <p>An area of selection establishes who is eligible for an appointment process. The area can be geographic, organizational, occupational or can identify persons belonging to any of the designated employment equity groups identified in the <a href="https://laws-lois.justice.gc.ca/eng/acts/E-5.401" target="_blank" alt="Link to the web page"><i>"Employment Equity Act</i></a>.</p>
+          <p>An area of selection establishes who is eligible for an appointment process. The area can be geographic, organizational, occupational or can identify persons belonging to any of the designated employment equity groups identified in the <a href="https://laws-lois.justice.gc.ca/eng/acts/E-5.401" target="_blank" alt="Link to the web page">Employment Equity Act</a>.</p>
           <p><b>Priority entitlement</b></p>
           <p>Persons entitled to a priority for appointment are appointed to vacant positions ahead of all others if they meet the essential qualifications.</p>
           <p><b>Duty to accommodate</b></p>
-          <p>The <i>Canadian Human Rights Act</i> requires employers and service providers to accommodate people’s needs when those needs relate to one of the 11 grounds of discrimination.</p>
+          <p>The <a href="https://laws-lois.justice.gc.ca/eng/acts/h-6/" target="_blank">Canadian Human Rights Act</a> requires employers and service providers to accommodate people’s needs when those needs relate to one of the 11 grounds of discrimination.</p>
         </div>
         <div v-if="$i18n.locale=='fr'">
           <p>Lisez les définitions suivantes pour vous assurer de bien comprendre les termes utilisés dans cette section : </p>
@@ -371,18 +370,18 @@
           <p><b>Nomination fondée sur le mérite </b></p>
           <p>Une nomination est faite selon le mérite lorsqu’un gestionnaire d’embauche mène un processus d’évaluation et est convaincu que la personne choisie possède toutes les qualifications essentielles et satisfait aux autres critères de mérite établis pour le travail à accomplir.</p>
           <p><b>Zone de sélection </b></p>
-          <p>La zone de sélection définit qui peut participer au processus de nomination. La zone peut être géographique, organisationnelle ou professionnelle, ou encore cibler les personnes appartenant à un des groupes visés par l’équité en matière d’emploi définis dans la <a href="https://laws-lois.justice.gc.ca/fra/lois/e-5.401/" target="_blank" alt="Link to the web page"><i>Loi sur l’équité en matière d’emploi</i></a>.</p>
+          <p>La zone de sélection définit qui peut participer au processus de nomination. La zone peut être géographique, organisationnelle ou professionnelle, ou encore cibler les personnes appartenant à un des groupes visés par l’équité en matière d’emploi définis dans la <a href="https://laws-lois.justice.gc.ca/fra/lois/e-5.401/" target="_blank" alt="Lien vers la page web">Loi sur l’équité en matière d’emploi</a>.</p>
           <p><b>Droit de priorité </b></p>
           <p>Les personnes bénéficiant d’un droit de priorité sont nommées aux postes vacants avant tous les autres candidats si elles possèdent les qualifications essentielles. </p>
           <p><b>Obligation de prendre des mesures d’adaptation </b></p>
-          <p>La <i>Loi canadienne sur les droits de la personne</i> oblige les employeurs et les fournisseurs de services à prendre des mesures d’adaptation pour répondre aux besoins des personnes, quand ces besoins sont liés à un des 11 motifs de discrimination. </p>
+          <p>La <a href="https://laws-lois.justice.gc.ca/fra/lois/h-6/" target="_blank">Loi canadienne sur les droits de la personne</a> oblige les employeurs et les fournisseurs de services à prendre des mesures d’adaptation pour répondre aux besoins des personnes, quand ces besoins sont liés à un des 11 motifs de discrimination. </p>
         </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
       <b-modal id="InRealLife" @hide="resumePlay()" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ReferenceIcon.svg" :alt="$t('ReferenceIcon')" width="32" height="32"> {{$t('IRLTitle')}}
+            <img src="~/assets/InfoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('IRLTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
@@ -391,6 +390,11 @@
               <img src="~/assets/inRealLifeBudget.svg" alt="" class="img-fluid" style="margin-bottom: 15px; margin-top: 10px;">
             </b-col>
           </b-row>
+        <div v-if="$i18n.locale=='fr'">
+          <p><b>Pour approfondir les connaissances nécessaires à l’exercice de vos fonctions de dotation, suivez le cours supplémentaire suivant : </b></p>
+          <ul><li>Les fondements de la dotation dans la fonction publique (H200, modules 1 et 2).</li></ul>
+          <p>Ce cours, qui examine de manière approfondie la dotation, vise à vous aider à accomplir vos fonctions dans ce domaine.</p>
+        </div>
         <div v-if="$i18n.locale=='en'">
           <p><b>To supplement the knowledge required to perform your staffing functions, be sure to complete this additional course:</b></p>
           <ul><li>Basics of Staffing in the Public Service (H200 Modules 1 and 2)</li></ul>
@@ -493,11 +497,12 @@ export default {
 <i18n>{
   "en":{
   "TakeTheQuiz":"Take the Quiz",
-  "IntroductionTitle": "Références : Liens externes",
+  "IntroductionTitle": "References: External Links",
+  "IntroductionText": "Here is a list of resources referred to in this section.",
   "StaffingNeedsTitle":"Activity:  Identifying Your Staffing Needs",
   "StaffingObligationsTitle": "References: Staffing Obligations",
   "InclusiveHiringTitle": "Activity: Inclusive Hiring",
-  "StaffingPositionTitle": "Activity: Staffing your position",
+  "StaffingPositionTitle": "References: Staffing Your Position",
   "IRLTitle": "In Real Life",
   "jumpModalParts":"Jump to activity",
   "playSegment":"Play video segment",
@@ -505,8 +510,9 @@ export default {
   "spendSectionBar": "FUNCTION"
   },
   "fr":{
-  "TakeTheQuiz":"Répondez au questionnaire",
+  "TakeTheQuiz":"Répondez au quiz",
   "IntroductionTitle": "Références : Liens externes",
+  "IntroductionText": "Voici une liste des ressources auxquelles on fait référence dans cette section.",
   "StaffingNeedsTitle":"Activité : Détermination de vos besoins en matière de dotation ",
   "StaffingObligationsTitle": "Références : Obligations en matière de dotation ",
   "InclusiveHiringTitle": "Activité – Embauche inclusive",

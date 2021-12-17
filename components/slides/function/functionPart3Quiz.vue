@@ -59,7 +59,7 @@
 </script>
 <i18n>{
   "en": {
-  "instructions":"Answer the following questions. ",
+  "instructions":"Answer the following questions.",
     "q1": {
       "text": "Entering into a contract with a subject matter expert to meet short-term needs for specific technical skills is an effective HR strategy. ",
       "options": {
@@ -92,7 +92,7 @@
         "1": "Deployment",
         "2": "Internal advertised",
         "3": "Secondment",
-        "4": "External Non-advertised"
+        "4": "External non-advertised"
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
@@ -142,7 +142,7 @@
       "conclusion": "Staffing processes are framed primarily by legislation and policy and directives."
     },
     "q7": {
-      "text": "As a manager, you have several staffing obligations. Complete the following statements. Managers can achieve employment equity, diversity and inclusion objectives by eliminating ___________________.",
+      "text": "<p>As a manager, you have several staffing obligations. Complete the following statements.</p><p>Managers can achieve employment equity, diversity and inclusion objectives by eliminating ___________________.</p>",
       "options": {
         "1": "barriers",
         "2": "orders of precedence",
@@ -215,7 +215,7 @@
         "2": "Conduct a reference check",
         "3": "Determine who will be eligible to apply by establishing the area of selection",
         "4": "Open the job posting to the public as often as possible",
-        "5": "Appointment based on competencies and best fit",
+        "5": "Appoint someone based on competencies and best fit",
         "6": "Choose an appropriate staffing process"
       },
       "feedback": {
@@ -247,9 +247,9 @@
         "3": "une étape nécessaire dans le cadre de toutes les mesures de dotation aux fins de la vérification des compétences "
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong> Une vérification des références est <strong>une méthode d’évaluation des qualifications d’une personne ayant participé à un processus.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong> Il s’agit d’<strong>une méthode d’évaluation des qualifications d’une personne ayant participé à un processus.</strong>",
-        "3": "<span class='v-wrong' /><strong>Incorrect.</strong> Une vérification des références est <strong>une méthode d’évaluation des qualifications d’une personne ayant participé à un processus.</strong>"
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong> Une vérification des références est une méthode d’évaluation des qualifications d’une personne ayant participé à un processus.",
+        "2": "<span class='v-right' /><strong>Correct!</strong> Il s’agit d’une méthode d’évaluation des qualifications d’une personne ayant participé à un processus.",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong> Une vérification des références est une méthode d’évaluation des qualifications d’une personne ayant participé à un processus."
       }
     },
     "q3": {

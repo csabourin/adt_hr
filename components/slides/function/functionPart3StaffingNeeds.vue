@@ -138,14 +138,14 @@
         "4": "Secondment "
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
         "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "3": "<span class='v-right' /><strong>Correct!</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "4": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       }
     },
     "q6": {
-      "text": "transferring to another position at level or below, within or between organizations; this person no longer occupies their previous position.",
+      "text": "Transferring to another position at level or below, within or between organizations; this person no longer occupies their previous position.",
        "options": {
         "1": "Acting Appointment ",
         "2": "Assignment ",
@@ -153,9 +153,9 @@
         "4": "Secondment "
       },
       "feedback": {
-        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-right' /><strong>Correct!</strong>",
         "4": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       }
     },
@@ -190,7 +190,7 @@
       }
     },
     "q9": {
-      "text": "Used for job enrichment, talent management or a skills exchange, these full- or part-time assignments take place in the private, public and not-for-profit sectors in Canada and internationally.",
+      "text": "Used ahead of most other internal and external appointment options.",
       "options": {
         "1": "Casual",
         "2": "Interchange Canada ",
@@ -251,7 +251,7 @@
     }
   },
   "fr": {
-  "instructions":"Répondez aux questions suivantes en consultant la facture fournie.",
+  "instructions":"Il y a littéralement une dizaine d’options qui s’offrent à vous quand vous devez pourvoir un poste. Choisissez le type de processus de dotation qui correspond à chaque description.",
      "q1": {
       "text": "Nomination ouverte au public et aux fonctionnaires. ",
       "options": {
@@ -269,7 +269,7 @@
       }
     },
     "q2": {
-      "text": "Nomination exemptée de l’application du principe de mérite, des droits de priorité et d’autres dispositions de la Loi sur l’emploi dans la fonction publique. ",
+      "text": "Nomination exemptée de l’application du principe de mérite, des droits de priorité et d’autres dispositions de la <i>Loi sur l’emploi dans la fonction publique</i>. ",
       "options": {
        "1": "Nomination interne",
         "2": "Nomination externe ",
@@ -324,9 +324,9 @@
         "4": "Détachement  "
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "1": "<span class='v-right' /><strong>Correct!</strong>",
         "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "3": "<span class='v-right' /><strong>Correct!</strong>",
+        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "4": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       }
     },
@@ -339,9 +339,9 @@
         "4": "Détachement  "
       },
       "feedback": {
-        "1": "<span class='v-right' /><strong>Correct!</strong>",
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-right' /><strong>Correct!</strong>",
         "4": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       }
     },
@@ -376,7 +376,7 @@
       }
     },
     "q9": {
-      "text": "Ces affectations à temps plein ou à temps partiel servent à l’enrichissement des tâches, à la gestion des talents et à l’échange de compétences. Elles ont lieu dans les secteurs privé, public et à but non lucratif au Canada et à l’international. ",
+      "text": "Nomination qui a lieu avant la plupart des autres options de nomination à l’interne et à l’externe.",
       "options": {
         "1": "Nomination d’un employé occasionnel ",
         "2": "Échanges Canada ",
