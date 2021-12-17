@@ -211,29 +211,39 @@
       <b-modal no-stacking id="Introduction" @hide="resumePlay()" okOnly>
       <template v-slot:modal-header="{ close }">
         <h3 class="h5">
-          <img src="~/assets/ReferenceIcon.svg" :alt="$t('ReferenceIcon')" width="32" height="32">
+          <img src="~/assets/InfoIcon.svg" :alt="$t('infoIcon')" width="32" height="32">
           {{ $t('activityLinks') }}
         </h3>
         <button type="button" aria-label="Close" class="close" @click="close()">×</button>
       </template>
       <div v-if="$i18n.locale=='fr'">
-        <p>Here is a list of resources referred to in this section.</p>
+        <p>Voici une liste des ressources auxquelles on fait référence dans cette section.</p>
         <ul>
-          <li><a href="" target="_blank" alt=""></a></li>
-          <li><a href="" target="_blank" alt=""></a></li>
-          <li><a href="" target="_blank" alt=""></a></li>
+          <li><a href="https://laws-lois.justice.gc.ca/fra/lois/f-11/" target="_blank" alt="Loi sur la gestion des finances publiques (LGFP)">Loi sur la gestion des finances publiques (LGFP)</a></li>
+          <li><a href="https://laws-lois.justice.gc.ca/fra/lois/h-6/" target="_blank" alt="Loi canadienne sur les droits de la personne">Loi canadienne sur les droits de la personne</a></li>
+          <li><a href="https://www.tbs-sct.gc.ca/pol/topic-sujet-fra.aspx?ta=40" target="_blank" alt="Politique sur la gestion des personnes">Politique sur la gestion des personnes</a></li>
+          <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=28700" target="_blank" alt="Directive sur la classification">Directive sur la classification</a></li>
+          <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=28699" target="_blank" alt="Directive sur la surveillance de la classification">Directive sur la surveillance de la classification</a></li>
+          <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=28698" target="_blank" alt="Directive sur les griefs de classification">Directive sur les griefs de classification</a></li>
+          <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=15772" target="_blank" alt="Directive sur les conditions d’emploi">Directive sur les conditions d’emploi</a></li>
+          <li><a href="https://laws-lois.justice.gc.ca/fra/acts/o-3.01/" target="_blank" alt="Loi sur les langues officielles">Loi sur les langues officielles</a></li>
+          <li><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/conventions-collectives/groupes-professionnels/groupes-professionnels-representation-agents-negociateurs.html" target="_blank" alt="Groupes professionnels par représentation d’agents négociateurs">Groupes professionnels par représentation d’agents négociateurs</a></li>
+          <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=26160" target="_blank" alt="Politique sur les langues officielles">Politique sur les langues officielles</a></li>
         </ul>
       </div>
       <div v-if="$i18n.locale=='en'">
         <p>Here is a list of resources referred to in this section.</p>
         <ul>
-          <li><a href="https://laws-lois.justice.gc.ca/eng/acts/F-11/" target="_blank" alt="Financial Administration Act (FAA)">Financial Administration Act (FAA)</a></li>
-          <li><a href="https://laws-lois.justice.gc.ca/eng/acts/h-6/" target="_blank" alt="Canadian Human Rights Act">Canadian Human Rights Act</a></li>
+          <li><a href="https://laws-lois.justice.gc.ca/eng/acts/F-11/" target="_blank" alt="Financial Administration Act (FAA)"><i>Financial Administration Act</i> (FAA)</a></li>
+          <li><a href="https://laws-lois.justice.gc.ca/eng/acts/h-6/" target="_blank" alt="Canadian Human Rights Act"><i>Canadian Human Rights Act</i></a></li>
           <li><a href="https://www.tbs-sct.gc.ca/pol/topic-sujet-eng.aspx?ta=40" target="_blank" alt="Policy on People Management">Policy on People Management</a></li>
-          <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=28698" target="_blank" alt="Directive on Classification">Directive on Classification</a></li>
+          <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=28700" target="_blank" alt="Directive on Classification">Directive on Classification</a></li>
           <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=28699" target="_blank" alt="Directive on Classification Oversight">Directive on Classification Oversight</a></li>
           <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=28698" target="_blank" alt="Directive on Classification Grievances">Directive on Classification Grievances</a></li>
+          <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=15772" target="_blank" alt="Directive on Terms and Conditions of Employment">Directive on Terms and Conditions of Employment</a></li>
+          <li><a href="https://laws-lois.justice.gc.ca/eng/acts/o-3.01/" target="_blank" alt="Official Languages Act"><i>Official Languages Act</i></a></li>
           <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/collective-agreements/occupational-groups/occupational-groups-bargaining-agent-representation.html" target="_blank" alt="Occupational groups by bargaining agent representation">Occupational groups by bargaining agent representation</a></li>
+          <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=26160" target="_blank" alt="Policy on Official Languages">Policy on Official Languages</a></li>
         </ul>
       </div>
       <template v-slot:modal-ok>{{$t('close')}}</template>
@@ -241,11 +251,12 @@
     <b-modal no-stacking id="organizationClassification" @hide="resumePlay()" size="xl" okOnly>
       <template v-slot:modal-header="{ close }">
         <h3 class="h5">
-          <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('organizationClassificationTitle')}}
+          <img src="~/assets/InfoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('organizationClassificationTitle')}}
         </h3>
         <button type="button" aria-label="Close" class="close" @click="close()">×</button>
       </template>
       <div v-if="$i18n.locale=='en'">
+        <p><b>Occupational Group Structure</b></p>
         <p>Most represented employees are governed by one of three main unions.</p>
         <ul>
           <li>Public Service Alliance of Canada (PSAC)</li>
@@ -254,9 +265,11 @@
         </ul>
         <p>Some specific trades are governed by other unions, as indicated on the occupational group structure chart, while a small number of classifications are unrepresented.</p>
         <p><strong>Take a look at the Occupational Group Structure for a visual representation of the occupational groups and bargaining agents.</strong></p>
+        <img src="~/assets/en/jobEvaluation_en.png" title="Visual of the Occupational Group Structure" alt="Visual of the Occupational Group Structure">
         <p><strong>For an accessible web version, see <a href="https://www.canada.ca/en/treasury-board-secretariat/services/collective-agreements/occupational-groups/occupational-groups-bargaining-agent-representation.html" target="_blank" alt="Link to accessible web version of the Occupational groups by bargaining agent representation page">Occupational groups by bargaining agent representation</a></strong></p>
       </div>
       <div v-if="$i18n.locale=='fr'">
+        <p><b>Structure des groupes professionnels</b></p>
         <p>La plupart des employés sont représentés par l’un des trois grands syndicats suivants :</p>
         <ul>
           <li>l’Alliance de la Fonction publique du Canada (AFPC); </li>
@@ -265,6 +278,7 @@
         </ul>
         <p>Les employés de certains métiers sont représentés par d’autres syndicats, comme l’indique le tableau de la structure des groupes professionnels, tandis que d’autres, qui appartiennent à un petit nombre de groupes (classifications) ne sont pas représentés. </p>
         <p><strong>Consultez la structure des groupes professionnels pour obtenir un aperçu visuel des groupes professionnels et des agents négociateurs.  </strong></p>
+        <img src="~/assets/fr/jobEvaluation_fr.png" title="Aperçu visuel de la structure des groupes professionnels" alt="Aperçu visuel de la structure des groupes professionnels">
         <p><strong>Pour une version Web accessible, voir la page <a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/conventions-collectives/groupes-professionnels/groupes-professionnels-representation-agents-negociateurs.html" target="_blank" alt="Lien ver Groupes professionnels par représentation d’agents négociateurs">Groupes professionnels par représentation d’agents négociateurs</a></strong></p>
       </div>
       <template v-slot:modal-ok>{{$t('close')}}</template>
@@ -272,7 +286,7 @@
     <b-modal no-stacking id="organizationalDesign" @hide="resumePlay()" size="xl" okOnly>
       <template v-slot:modal-header="{ close }">
         <h3 class="h5">
-          <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('organizationalDesignTitle')}}
+          <img src="~/assets/ActivityIcon.svg" :alt="$t('activityIcon')" width="32" height="32"> {{$t('organizationalDesignTitle')}}
         </h3>
         <button type="button" aria-label="Close" class="close" @click="close()">×</button>
       </template>
@@ -282,7 +296,7 @@
     <b-modal no-stacking id="rolesResponsibilities" @hide="resumePlay()" size="xl" okOnly>
       <template v-slot:modal-header="{ close }">
         <h3 class="h5">
-          <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('rolesResponsibilitiesTitle')}}
+          <img src="~/assets/InfoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('rolesResponsibilitiesTitle')}}
         </h3>
         <button type="button" aria-label="Close" class="close" @click="close()">×</button>
       </template>
@@ -311,7 +325,7 @@
     <b-modal no-stacking id="Authorities" @hide="resumePlay()" size="xl" okOnly>
       <template v-slot:modal-header="{ close }">
         <h3 class="h5">
-          <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('authoritiesTitle')}}
+          <img src="~/assets/QuizIcon.svg" :alt="$t('quizIcon')" width="32" height="32"> {{$t('authoritiesTitle')}}
         </h3>
         <button type="button" aria-label="Close" class="close" @click="close()">×</button>
       </template>
@@ -321,12 +335,13 @@
     <b-modal no-stacking id="roleofOrganizationHR" @hide="resumePlay()" size="xl" okOnly>
       <template v-slot:modal-header="{ close }">
         <h3 class="h5">
-          <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('hrManagementTitle')}}
+          <img src="~/assets/InfoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('roleOrganizationTitle')}}
         </h3>
         <button type="button" aria-label="Close" class="close" @click="close()">×</button>
       </template>
        <div v-if="$i18n.locale=='en'">
         <p>Organization and classification decisions have implications for every other HR discipline, as well as your budget.</p>
+        <img src="~/assets/en/organizationHR_en.png" title="Visual chart of every other HR discipline" alt="Visual chart of every other HR discipline">
         <p>Resourcing begins with writing or revising a job description. The HR advisor will review and evaluate the job description to render a classification decision. Then, Resourcing (staffing) will work with you to create a statement of merit criteria.</p>
         <p>Pay and Benefits covers collective agreements, rates of pay, and associated benefits that are associated with each position.</p>
         <p>Labour Relations may be implicated if an employee disagrees with their job description, assigned work activities or the effective date of the classification decision.</p>
@@ -335,14 +350,16 @@
         <p>Official languages as described in the <a href="https://laws-lois.justice.gc.ca/eng/acts/o-3.01/" target="_blank" alt="Link to the official language act web page">Official Languages Act</a> and the Treasury Board of Canada Secretariat’s <a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=26160" target="_blank" alt="Link to the Policy on Official Languages web page">Policy on Official Languages</a> govern a public servant’s obligation to provide communications and services to the public in both official languages and to respect language-of-work rights. </p>
         <p>The identification of bilingual positions is based on the organization’s official languages obligations, its official languages strategy, as well as an objective assessment of the work to be performed.</p>
         <p>Integrated HR planning is the foundation for assessing and understanding your current and future needs. As such, it is a key tool for making HR decisions efficiently and effectively.  </p>
-        <p>Organizational design organizes work in a way to carry out a mandate or achieve business objectives. It is the process of configuring organizational structures to align an organization’s processes, systems, technology, culture and people with its ultimate goals. It is part of integrated planning and provides an opportunity to review and revise various components of the work, to ensure the organization is able to meet its mandate and carry out its business objectives successfully.  </p>
+        <p>Organizational design organizes work in a way to carry out a mandate or achieve business objectives. It is the process of configuring organizational structures to align an organization’s processes, systems, technology, culture and people with its ultimate goals. It is part of integrated planning and provides an opportunity to review and revise various components of the work, to ensure the organization is able to meet its mandate and carry out its business objectives successfully.</p>
       </div>
       <div v-if="$i18n.locale=='fr'">
         <p>Les décisions en matière d’organisation et de classification ont des répercussions sur toutes les autres disciplines des RH ainsi que sur votre budget.</p>
+
+        <img src="~/assets/fr/organizationHR_fr.png" title="Aperçu visuel des autres disciplines des RH" alt="Aperçu visuel des autres disciplines des RH">
         
         <p>Le processus de ressourcement commence par la rédaction ou la révision d’une description de travail. Le conseiller en RH examine et évalue la description de travail pour prendre une décision en matière de classification. Le service de ressourcement (dotation) établit ensuite avec vous un énoncé des critères de mérite. </p>
         
-        <p>Les responsables de la rémunération et des avantages sociauxs’occupent des conventions collectives, des taux de rémunération et des avantages sociaux associés à chaque poste.</p>
+        <p>Les responsables de la rémunération et des avantages sociauxs s’occupent des conventions collectives, des taux de rémunération et des avantages sociaux associés à chaque poste.</p>
        
         <p>Il est possible de faire appel aux responsables des relations de travail si un employé conteste sa description de travail, les tâches qui lui sont assignées ou la date d’entrée en vigueur de la décision de classification.</p>
         
@@ -363,7 +380,7 @@
     <b-modal no-stacking id="InRealLife" @hide="resumePlay()" okOnly>
       <template v-slot:modal-header="{ close }">
         <h3 class="h5">
-          <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32">
+          <img src="~/assets/InfoIcon.svg" :alt="$t('infoIcon')" width="32" height="32">
           {{$t('InRealLife')}}
         </h3>
         <button type="button" aria-label="Close" class="close" @click="close()">×</button>
@@ -376,26 +393,16 @@
       <b-row>
         <b-col>
           <div v-if="$i18n.locale=='en'">
-            <p>Making the link between organization and classification and other HR disciplines will guide you in:</p>
-            <ul>
-              <li>creating or classifying a position in line with the organization’s mandate so that you can deliver your product or service </li>
-              <li>planning positions according to the organization’s future needs so you can help meet the organization’s objectives (and mandate)  </li>
-              <li>validating the job description before staffing a position to ensure the current classification decision is still applicable for each position  </li>
-              <li>ensuring that job descriptions are accurate and up to date, thus helping avoid grievances  </li>
-              <li>appropriately identifying the official languages requirements of a position to ensure that the employee can deliver the product or service effectively  </li>
-              <li>ensuring that a classification decision is rendered for new and revised job descriptions before hiring is done </li>
-            </ul>
+            <p>Take what you have learned into real life!</p>
+            <p>Your organization will have its own ways of doing things.</p>
+            <p>To supplement the knowledge required to perform your organization and classification functions, be sure to complete the course Introduction to Organization and Classification (P930).</p>
+            <p>This mandatory course is the first step in the training and accreditation of public servants working and specializing in classification.</p>
           </div>
           <div v-if="$i18n.locale=='fr'">
-            <p>Établir des liens entre l’organisation et la classification et d’autres disciplines des RH vous aidera à :  </p>
-            <ul>
-              <li>créer ou classifier un poste en conformité avec le mandat de l’organisation, afin de pouvoir fournir votre produit ou votre service; </li>
-              <li>assurer la planification des postes en fonction des besoins futurs de l’organisation, pour atteindre les objectifs (et remplir le mandat) de l’organisation;  </li>
-              <li>confirmer la description de travail avant de pourvoir un poste, pour vous assurer que la décision en matière de classification actuelle s’applique toujours au poste; </li>
-              <li>veiller à ce que les descriptions de travail soient exactes et à jour, ce qui contribue à éviter les griefs; </li>
-              <li>déterminer de manière appropriée les exigences en matière de langues officielles d’un poste, pour faire en sorte que l’employé puisse fournir le produit ou le service de manière efficace;  </li>
-              <li>veiller à ce qu’une décision en matière de classification soit prise pour les descriptions de travail nouvelles ou révisées avant de procéder à l’embauche. </li>
-            </ul>
+            <p>Appliquez maintenant ce que vous avez appris - dans la vraie vie!</p>
+            <p>Votre organisation aura sa propre façon de faire les choses.</p>
+            <p>Pour approfondir les connaissances nécessaires à l’exercice de vos fonctions en matière d’organisation et de classification, suivez le cours « Introduction à l’organisation et à la classification » (P930).</p>
+            <p>Ce cours obligatoire représente la première étape de la formation et de l’accréditation des fonctionnaires travaillant et se spécialisant dans le domaine de la classification.</p>
           </div>
         </b-col>
       </b-row>
@@ -599,10 +606,11 @@ button.accessibilityButton {
   "TakeTheQuiz":"Take the Quiz",
   "imageDescription": "Text description of the graphic",
   "tryItTitle":"Activity: Try it!",
-  "activityLinks":"Reference: External Links",
-  "organizationClassificationTitle": "Activity: Organization and Classification",
+  "activityLinks":"References: External Links",
+  "organizationClassificationTitle": "Activity: Organizational Design",
   "organizationalDesignTitle": "Activity: Organizational Design",
-  "rolesResponsibilitiesTitle": "Activity: Roles and Responsibilities",
+  "rolesResponsibilitiesTitle": "References: Roles and Responsibilities",
+  "roleOrganizationTitle": "Reference: The Role of Organization and Classification in HR Management",
   "authoritiesTitle": "Activity: Authorities",
   "hrManagementTitle": "Activity: The Role of Organization and Classification in HR Management",
   "InRealLife":"In Real Life",
@@ -611,11 +619,16 @@ button.accessibilityButton {
   "spendSectionBar": "FUNCTION"
   },
   "fr":{
-  "TakeTheQuiz":"Répondez au questionnaire",
+  "TakeTheQuiz":"Répondez au quiz",
   "completewptitle":"Activité : Compléter le plan de travail",
   "adjustwptitle":"Activité : Ajuster le plan de travail",
+  "activityLinks":"Références : Liens externes",
   "delegateAuthority":"Activité : Délégation des pouvoirs",
-  "organizationClassificationTitle": "Activité : Conception organisationnelle",
+  "organizationDesignTitle": "Activité : Conception organisationnelle",
+  "rolesResponsibilitiesTitle": "Références : Rôles et responsabilités",
+  "roleOrganizationTitle": "Références : Le rôle de l’organisation et de la classification dans le contexte de la gestion des RH",
+  "authoritiesTitle": "Activité : Pouvoirs",
+  "InRealLife": "Dans la vraie vie",
   "checkBudget":"Activité : Vérifiez votre budget",
   "tryItTitle":"Activité : Essayons-le!",
   "forecastBudgetTitle":"Activité : Prévoyez vos besoins budgétaires",

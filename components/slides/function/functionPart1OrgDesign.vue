@@ -40,7 +40,7 @@ export default {
   {
   "en": {
     "instructions": "Discover your functions as a manager by completing the sentences with the appropriate word. Select the best choice to fill in the blanks.",
-    "instructions2": "As a manager, it is your responsibility to perform the following seven functions:",
+    "instructions2": "<b>As a manager, it is your responsibility to perform the following seven functions:</b>",
     "q1": {
       "sentence": "Commit to building and maintaining a diversified and {0} workplace",
       "choices": {

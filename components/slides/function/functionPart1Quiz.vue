@@ -14,6 +14,7 @@
           <radioQuiz :question="$t('q3')" qId="3" /><hr>
         </b-tab>
         <b-tab title="Question 2">
+          <br />
            <p v-html="$t('instructions2')" />
             <hr style="display=none;">
           <radioQuiz :question="$t('q4')" qId="4" /><hr>
@@ -92,7 +93,7 @@
         "3": "will ensure that the current classification decision is still applicable to each position "
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect</strong>",
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "2": "<span class='v-right' /><strong>Correct!</strong>",
         "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
         
@@ -104,12 +105,12 @@
         "options": {
         "1": "will enable you to deliver your product or service ",
         "2": "will help meet the organization’s objectives (and mandate)  ",
-        "3": "permettra de vous assurer que la décision en matière de classification actuelle s’applique toujours au poste.  "
+        "3": "will ensure that the current classification decision is still applicable to each position"
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect</strong>",
-        "2": "<span class='v-wrong' /><strong>Correct!</strong>",
-        "3": "<span class='v-right' /><strong>Incorrect.</strong>"
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-right' /><strong>Correct!</strong>"
         
       },
       "conclusion": "Validating the job description before staffing a position will ensure that the current classification decision is still applicable to each position."
@@ -248,7 +249,7 @@
       "options": {
         "1": "vous permettra de fournir votre produit ou  votre service. ",
         "2": "permettra d’atteindre les objectifs (et de remplir le mandat) de l’organisation.  ",
-        "3": "permettra de vous assurer que la décision en matière de classification actuelle s’applique toujours au poste.  "
+        "3": "permettra de vous assurer que la décision en matière de classification actuelle s’applique toujours au poste."
       },
       "feedback": {
         "1": "<span class='v-right' /><strong>Correct!</strong>",
@@ -266,7 +267,7 @@
         "3": "permettra de vous assurer que la décision en matière de classification actuelle s’applique toujours au poste.  "
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect</strong>",
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "2": "<span class='v-right' /><strong>Correct!</strong>",
         "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
         
@@ -281,9 +282,9 @@
         "3": "will ensure that the current classification decision is still applicable to each position "
       },
       "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect</strong>",
-        "2": "<span class='v-wrong' /><strong>Correct!</strong>",
-        "3": "<span class='v-right' /><strong>Incorrect.</strong>"
+        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
+        "3": "<span class='v-right' /><strong>Correct!</strong>"
         
       },
       "conclusion": "Confirmer les descriptions de travail avant de pourvoir un poste permettra de vous assurer que la décision en matière de classification actuelle s’applique toujours au poste."
@@ -300,7 +301,7 @@
         "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "3": "<span class='v-right' /><strong>Correct!</strong>"
       },
-      "conclusion": "Veiller à ce que les descriptions de travail soient exactes et à jour permettra d’éviter les griefs."
+      "conclusion": "Déterminer de façon appropriée les exigences en matière de langues officielles d’un poste permettra d’assurer que l’employé peut fournir le produit ou le service de manière efficace."
     },
     "q5": {
       "text": "Déterminer de façon appropriée les exigences en matière de langues officielles d’un poste  ",
@@ -388,7 +389,7 @@
       }
     },
     "q11": {
-      "text": "Pour créer un nouveau poste au sein de votre organisation, vous devez veiller à ce que le poste s’intègre dans la structure organisationnelle, rédiger une description de travail qui correspond au mandat de votre organisation et à ses objectifs opérationnels, veiller à ce que la structure organisationnelle, le mandat et les objectifs opérationnels soient exacts et à jour et vérifier que la description de travail est représentative du travail associé au poste.",
+      "text": "La classification est un élément clé de la cohérence des relations de travail.",
       "options": {
         "1": "Vrai ",
         "2": "Faux"
