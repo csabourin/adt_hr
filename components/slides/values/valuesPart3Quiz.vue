@@ -115,7 +115,7 @@
     }
   },
   "fr": {
-  "instructions":"Évaluez vos connaissances en répondant aux questions suivantes. ",
+  "instructions":"Répondez aux questions suivantes.",
     "q1": {
       "text": "Si je suis une gestionnaire francophone et que je travaille dans une région bilingue aux fins de la langue de travail, mon employé qui occupe un poste bilingue a tout de même le droit de s’exprimer en anglais avec moi.  ",
       "options": {

@@ -198,12 +198,11 @@
       <b-modal no-stacking id="Introduction" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('introductionTitle')}}
+            <img src="~/assets/InfoIcon.svg" :alt="$t('InfoIcon')" width="32" height="32"> {{$t('introductionTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
         <div v-if="$i18n.locale=='en'">
-          <p>References: External Links</p>
           <p>Here is a list of resources referred to in this section. </p>
           <p><b>Legislation</b></p>
           <ul>
@@ -228,13 +227,12 @@
           </ul>
         </div>
         <div v-if="$i18n.locale=='fr'">
-          <p>Références : Liens externes</p>
           <p>Voici une liste des ressources auxquelles on fait référence dans cette section. </p>
           <p><b>Législation</b></p>
           <ul>
             <li><a href="https://laws-lois.justice.gc.ca/fra/const/page-1.html" target="_blank" alt="Lien vers la Loi constitutionnelle de 1867">Loi constitutionnelle de 1867</a></li>
             <li><a href="https://laws-lois.justice.gc.ca/fra/Const/page-12.html" target="_blank" alt="Lien vers la Loi constitutionnelle de 1982, partie 1 : Charte canadienne des droits et libertés">Loi constitutionnelle de 1982, partie 1 : Charte canadienne des droits et libertés </a></li>
-            <li><a href="https://laws-lois.justice.gc.ca/fra/acts/o-3.01/" target="_blank" alt="Lien vers la page web de la Loi sur les langues officielles">Loi sur les langues officielles</a></li>
+            <li><a href="https://laws-lois.justice.gc.ca/fra/lois/o-3.01/" target="_blank" alt="Lien vers la page web de la Loi sur les langues officielles">Loi sur les langues officielles</a></li>
             <li><a href="https://laws.justice.gc.ca/fra/reglements/DORS-92-48/index.html" target="_blank" alt="Lien vers la page web du Règlement sur les langues officielles - communications avec le public et prestation des services">Règlement sur les langues officielles – communications avec le public et prestation des services </a></li>
           </ul>
           <p><b>Instruments de politique du Conseil du Trésor</b></p>
@@ -257,7 +255,7 @@
       <b-modal id="legalFramework" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('legalFrameworkTitle')}}
+            <img src="~/assets/InfoIcon.svg" :alt="$t('InfoIcon')" width="32" height="32"> {{$t('legalFrameworkTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
@@ -302,7 +300,7 @@
       <b-modal id="languageRequirements" @hide="resumePlay()" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('languageRequirementsTitle')}}
+            <img src="~/assets/InfoIcon.svg" :alt="$t('InfoIcon')" width="32" height="32"> {{$t('languageRequirementsTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
@@ -317,7 +315,7 @@
       <b-modal id="InRealLife" @hide="resumePlay()" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('inRealLifeTitle')}}
+            <img src="~/assets/InfoIcon.svg" :alt="$t('InfoIcon')" width="32" height="32"> {{$t('inRealLifeTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
@@ -328,11 +326,11 @@
           </b-row>
         <div v-if="$i18n.locale=='en'">
           <p>Take what you have learned into real life!</p>
-          <p>Your organization will have its own ways of doing things. Take a time out from the course to consult the course tool box for a list of the persons responsible for official languages and the official languages champions in institutions subject to the Official Languages Act.  </p>
+          <p>Your organization will have its own ways of doing things. Take a time out from the course to consult the course tool box for a list of the persons responsible for official languages and the official languages champions in institutions subject to the <i>Official Languages Act</i>.  </p>
         </div>
         <div v-if="$i18n.locale=='fr'">
           <p>Appliquer ce que vous avez appris - dans la vraie vie! </p>
-          <p>Votre organisation aura sa propre façon de faire les choses. Prenez le temps pour consulter la boîte à outils du cours, où vous trouverez la liste des personnes responsables des langues officielles et des champions des langues officielles dans les institutions assujetties à la Loi sur les langues officielles. </p>
+          <p>Votre organisation aura sa propre façon de faire les choses. Prenez le temps pour consulter la boîte à outils du cours, où vous trouverez la liste des personnes responsables des langues officielles et des champions des langues officielles dans les institutions assujetties à la <i>Loi sur les langues officielles</i>. </p>
         </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
@@ -431,23 +429,24 @@ export default {
 </style>
 <i18n>{
   "en":{
-  "introductionTitle": "Introduction",
+  "introductionTitle": "References: External Links",
   "legalFrameworkTitle": "Activity: Legal Framework",
   "officialLanguagesTitle": "Activity: Regions designated bilingual for language-of-work purposes",
   "languagesResponsibilitiesTitle": "Activity: Managers’ official languages responsibilities for people management",
-  "languageRequirementsTitle": "Activity: Identifying language requirements",
-  "inRealLifeTitle":"Activity: In Real Life",
+  "languageRequirementsTitle": "References: Identifying language requirements",
+  "inRealLifeTitle":"In Real Life",
   "TakeTheQuiz":"Take the Quiz",
   "transcriptText":"",
   "reportSectionBar": "VALUES"
   },
   "fr":{
+  "introductionTitle": "References: External Links",
   "legalFrameworkTitle": "Activité : Cadre juridique",
   "officialLanguagesTitle": "Activité : Régions désignées bilingues aux fins de la langue de travail",
   "languagesResponsibilitiesTitle": "Activité : Responsabilités des gestionnaires en matière de langues officielles pour la gestion des personnes ",
   "languageRequirementsTitle": "Références : Établir les exigences linguistiques",
-  "inRealLifeTitle":"Activité : Dans la vraie vie",
-  "TakeTheQuiz":"Répondez au questionnaire",
+  "inRealLifeTitle":"Dans la vraie vie",
+  "TakeTheQuiz":"Répondez au quiz",
   "transcriptText":"",
   "reportSectionBar": "VALEURS"
   }
