@@ -4,6 +4,7 @@
       <b-row>
         <b-col>
 		 <b-card>
+     <p v-html="$t('instructions')" />
     <b-tabs content v-model="tabIndex">
       <b-tab title="Question 1"><radioQuiz :question="$t('q1')" qId="1"/></b-tab>
       <b-tab title="Question 2"><radioQuiz :question="$t('q2')" qId="2" /></b-tab>

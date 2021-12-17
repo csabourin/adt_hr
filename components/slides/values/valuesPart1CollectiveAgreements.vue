@@ -4,6 +4,7 @@
       <b-row>
         <b-col>
 		 <b-card>
+       <p v-html="$t('instructions')" />
     <b-tabs content v-model="tabIndex">
       <b-tab title="Question 1"><radioQuiz :question="$t('q1')" qId="1"/></b-tab>
     </b-tabs>
@@ -59,7 +60,7 @@
   "fr": {
   "instructions":"Répondez à la question suivante. ",
     "q1": {
-      "text": "<p>Suzanne, une employée des groupe et niveau EC-04, a décidé de terminer sa maîtrise en relations internationales. Dans une conversation avec son ami Damon, un employé des groupe et niveau AS-02, elle dit qu’elle est heureuse que son congé d’études ait été approuvé et l’informe qu’elle sera absente pendant un an. Après la conversation, Damon est contrarié, car sa demande de congé d’études pour l’obtention d’un diplôme en administration publique lui a été refusée.</p> <p><u>Que doit savoir Damon?</u>?</p>",
+      "text": "<p>Suzanne, une employée des groupe et niveau EC-04, a décidé de terminer sa maîtrise en relations internationales. Dans une conversation avec son ami Damon, un employé des groupe et niveau AS-02, elle dit qu’elle est heureuse que son congé d’études ait été approuvé et l’informe qu’elle sera absente pendant un an. Après la conversation, Damon est contrarié, car sa demande de congé d’études pour l’obtention d’un diplôme en administration publique lui a été refusée.</p> <p>Que doit savoir Damon?</p>",
       "options": {
         "1": "Comme Suzanne a presque terminé son programme d’études, elle est admissible à un congé d’études. ",
         "2": "Damon est admissible au perfectionnement professionnel dans le cadre du cours et de séminaires, mais pas aux programmes d’études.  ",

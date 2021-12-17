@@ -170,29 +170,34 @@
       <b-modal no-stacking id="labourRelations" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('LabourRelationsTitle')}}
+            <img src="~/assets/InfoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('IntroductionTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
         <div v-if="$i18n.locale=='en'">
-          <p><b>References: External Links</b></p>
+          <p><b>Here is a list of resources referred to in this section.</b></p>
           <ul>
-            <li><a href="https://laws-lois.justice.gc.ca/eng/acts/p-33.3/FullText.html" target="_blank" alt="Link to the Federal Public Sector Labour Relations Act web page"><i>Federal Public Sector Labour Relations Act</i></a></li>
+            <li><a href="https://laws-lois.justice.gc.ca/eng/acts/p-33.3/FullText.html" target="_blank" alt="Link to the Federal Public Sector Labour Relations Act web page">Federal Public Sector Labour Relations Act</a></li>
             <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=27987" target="_blank" alt="Link to the Guidelines for Essential Services Designations web page">Guidelines for Essential Services Designations</a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=12602" target="_blank" alt="Link to the Guidelines for Essential Services Designations web page">Guidelines on Managerial or Confidential Exclusions</a></li>
             <li><a href="https://www.njc-cnm.gc.ca/en" target="_blank" alt="Link to the National Joint Council web page">National Joint Council</a></li>
             <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=27146" target="_blank" alt="Link to the Directive on Performance Management web page">Directive on Performance Management</a></li>
             <li><a href="https://www.canada.ca/en/government/publicservice/wellness-inclusion-diversity-public-service/harassment-conflict-resolution/informal-conflict-management-system/guide-key-elements-icms-core-public-administration.html" target="_blank" alt="Link to the Guide to the key elements of an ICMS in the core public administration web page">A guide to the key elements of an ICMS in the core public administration</a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=22370" target="_blank" alt="Link to the Guidelines for Discipline web page">Guidelines for Discipline</a></li>
+            <li><a href="https://www.njc-cnm.gc.ca/directive/d7/v23/s252/en%22%20/l%20%22s252-tc-tm_3" target="_blank" alt="Link to the Occupational Health and Safety Directive web page">Occupational Health and Safety Directive</a></li>
           </ul>
         </div>
          <div v-if="$i18n.locale=='fr'">
-          <p><b>Références : Liens externes</b></p>
+          <p><b>Voici une liste des ressources auxquelles on fait référence dans cette section.</b></p>
           <ul>
-            <li><a href="https://laws-lois.justice.gc.ca/fra/lois/p-33.3/TexteComplet.html" target="_blank" alt="Lien vers la page Web de la Loi sur les relations de travail dans le secteur public fédéral"><i>Loi sur les relations de travail dans le secteur public fédéral </i></a></li>
+            <li><a href="https://laws-lois.justice.gc.ca/fra/lois/p-33.3/TexteComplet.html" target="_blank" alt="Lien vers la page Web de la Loi sur les relations de travail dans le secteur public fédéral">Loi sur les relations de travail dans le secteur public fédéral</a></li>
             <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=27987" target="_blank" alt="Lien vers la page web des lignes directrices pour la désignation des services essentiels">Lignes directrices pour la désignation des services essentiels </a></li>
             <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=12602" target="_blank" alt="Lien vers la page web des Lignes directrices sur les postes de direction ou de confiance exclus. ">Lignes directrices sur les postes de direction ou de confiance exclus.</a></li>
             <li><a href="https://www.njc-cnm.gc.ca/fr" target="_blank" alt="Lien vers la page web du conseil national mixte">Conseil national mixte </a></li>
             <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=27146" target="_blank" alt="Lien vers la page web sur les directives sur la gestion du rendement">Directive sur la gestion du rendement </a></li>
             <li><a href="https://www.canada.ca/fr/gouvernement/fonctionpublique/mieux-etre-inclusion-diversite-fonction-publique/prevention-resolution-harcelement/systeme-gestion-informelle-conflits/guide-principaux-elements-sgic-administration-publique-centrale.html" target="_blank" alt="Lien vers la page web du Guide des principaux éléments d’un SGIC dans l’administration publique centrale ">Guide des principaux éléments d’un SGIC dans l’administration publique centrale </a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=22370" target="_blank" alt="Lien vers la page web des Lignes directrices concernant la discipline">Lignes directrices concernant la discipline</a></li>
+            <li><a href="https://www.njc-cnm.gc.ca/directive/d7/v23/s252/fr" target="_blank" alt="Lien vers la page web de l'Utilisation et occupation des bâtiments">Utilisation et occupation des bâtiments</a></li>
           </ul>
         </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
@@ -200,7 +205,7 @@
       <b-modal id="typesPositions" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('TypesPositionsTitle')}}
+            <img src="~/assets/InfoIcon.svg" :alt="$t('InfoIcon')" width="32" height="32"> {{$t('TypesPositionsTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
@@ -220,7 +225,7 @@
       <b-modal id="managingDisciplinaryMeasures" @hide="resumePlay()" size="xl" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('ManagingDisciplinaryMeasuresTitle')}}
+            <img src="~/assets/InfoIcon.svg" :alt="$t('InfoIcon')" width="32" height="32"> {{$t('ManagingDisciplinaryMeasuresTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
@@ -230,7 +235,7 @@
       <b-modal id="managingWorkplaceConflict" @hide="resumePlay()" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('ManagingWorkplaceConflictTitle')}}
+            <img src="~/assets/InfoIcon.svg" :alt="$t('infoIcon')" width="32" height="32"> {{$t('ManagingWorkplaceConflictTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
@@ -245,7 +250,7 @@
       <b-modal id="InRealLife" @hide="resumePlay()" okOnly>
         <template v-slot:modal-header="{ close }">
           <h3 class="h5">
-            <img src="~/assets/ReferenceIcon.svg" :alt="$t('referenceIcon')" width="32" height="32"> {{$t('IRLTitle')}}
+            <img src="~/assets/InfoIcon.svg" :alt="$t('InfoIcon')" width="32" height="32"> {{$t('IRLTitle')}}
           </h3>
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
@@ -363,6 +368,7 @@ export default {
 <i18n>{
   "en":{
   "TakeTheQuiz":"Take the Quiz",
+  "IntroductionTitle": "References: External Links",
   "LabourRelationsTitle":"Activity: Labour Relations",
   "TypesPositionsTitle": "Activity: Types of Positions",
   "CollectiveAgreementsTitle": "Activity: Collective Agreements",
@@ -373,8 +379,8 @@ export default {
   "reportSectionBar": "VALUES"
   },
   "fr":{
-  "TakeTheQuiz":"Répondez au questionnaire",
-  "LabourRelationsTitle":"Activity: Labour Relations",
+  "TakeTheQuiz":"Répondez au quiz",
+  "IntroductionTitle": "Références : Liens externes",
   "TypesPositionsTitle": "Activité : Types de postes",
   "KeyPeriodsFSRTitle":"Activité : Périodes clés pour les rapports sur la situation financière",
   "CollectiveAgreementsTitle": "Activité : Conventions collectives",

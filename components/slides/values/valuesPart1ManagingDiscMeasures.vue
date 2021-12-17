@@ -4,10 +4,7 @@
       <b-row>
         <b-col>
 		    <b-card>
-            <div v-if="$i18n.locale=='en'">
-                <p>Angela has been a member of the public service for 9 years and has demonstrated a good work ethic. In the last couple of months, you notice that she has missed several important deadlines and reacted very defensively when you approached her to talk about it.</p>
-                <p>An employee overheard Angela’s comments to you and told you that for a number of weeks Angela has been unusually defensive and frequently rude. In addition, yesterday she found an email on the printer between Angela and someone at ExPRESScor, a company that submitted a bid for a community infrastructure project. The email had a familiar tone and contained some details of the selection process.</p>
-            </div>
+          <p v-html="$t('instructions')" />
     <b-tabs content v-model="tabIndex">
       <b-tab title="Question 1"><radioQuiz :question="$t('q1')" qId="1"/></b-tab>
     </b-tabs>
@@ -42,7 +39,7 @@
 </script>
 <i18n>{
   "en": {
-    "instructions":"Answer the following question. ",
+    "instructions":"Answer the following question.",
     "q1": {
       "text": "<p>Angela has been a member of the public service for 9 years and has demonstrated a good work ethic. In the last couple of months, you notice that she has missed several important deadlines and reacted very defensively when you approached her to talk about it.</p><p>An employee overheard Angela’s comments to you and told you that for a number of weeks Angela has been unusually defensive and frequently rude. In addition, yesterday she found an email on the printer between Angela and someone at ExPRESScor, a company that submitted a bid for a community infrastructure project. The email had a familiar tone and contained some details of the selection process.</p><p>What is your best course of action in this situation? </p>",
       "options": {
@@ -61,14 +58,14 @@
     }
   },
   "fr": {
-  "instructions":"Répondez à la question suivante. ",
+  "instructions":"Répondez à la question suivante.",
         "q1": {
       "text": "<p>Angela travaille à la fonction publique depuis neuf ans et fait preuve d’une bonne éthique de travail. Vous avez constaté, au cours des deux derniers mois, qu’elle avait dépassé plusieurs échéances importantes, et elle s’est tenue sur la défensive lorsque vous l’avez approchée pour lui en parler.</p><p>Une employée a entendu les commentaires d’Angela et elle vous a dit que, depuis quelques semaines, Angela était inhabituellement sur la défensive et fréquemment impolie. Cette employée a même trouvé hier sur l’imprimante un courriel entre Angela et un employé d’ExPRESScor, une société qui a soumissionné pour un projet d’infrastructure communautaire. Le courriel révélait un ton familier et contenait des détails du processus de sélection. </p><p>Quelle est la meilleure marche à suivre dans une telle situation? </p>",
       "options": {
         "1": "Parler à un conseiller en relations de travail pour connaître la meilleure marche à suivre. ",
         "2": "Consulter la <a href='https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=27146' target='_blank' alt='Lien vers la page web de la directive sur la gestion des performances'>Directive sur la gestion du rendement</a>, puis consigner la situation.",
         "3": "Consulter les <a href='https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=22370' target='_blank' alt='Lien vers la page web des lignes directrices en matière de discipline'>Lignes directrices concernant la discipline</a> and document the situation.",
-        "4": "Consulter la <a href='https://laws-lois.justice.gc.ca/fra/lois/p-33.3/' target='_blank' alt='Lien vers la page Web de la Loi sur les relations de travail dans le secteur public fédéral'>F Loi sur les relations de travail dans le secteur public fédéral</a>."
+        "4": "Consulter la <a href='https://laws-lois.justice.gc.ca/fra/lois/p-33.3/' target='_blank' alt='Lien vers la page Web de la Loi sur les relations de travail dans le secteur public fédéral'>Loi sur les relations de travail dans le secteur public fédéral</a>."
       },
       "feedback": {
         "1": "<span class='v-right' /><strong>Correct!</strong>",

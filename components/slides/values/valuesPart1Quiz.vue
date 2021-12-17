@@ -53,7 +53,7 @@
 </script>
 <i18n>{
   "en": {
-  "instructions":"Answer the quiz.",
+  "instructions":"Answer the following questions.",
     "q1": {
       "text": "<p>Tina would like to work from 6:00 am to 2:00 pm to avoid heavy traffic in her commute. Use the <a href='https://www.tbs-sct.gc.ca/agreements-conventions/view-visualiser-eng.aspx?id=15' target='_blank' alt='Link to the Program and Administrative Services collective agreement web page'>Program and Administrative Services collective agreement</a> to help you decide if you should approve Tina’s request.</p>",
       "options": {
@@ -96,7 +96,7 @@
         "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "4": "<span class='v-right' /><strong>Correct!</strong>"
       },
-      "conclusion": "You are responsible for considering employment equity as part of HR planning and applying your organization’s employment equity policies."
+      "conclusion": "The ideal temperature is 20 to 26°C. See article 2.2.2 in the directive."
     },
     "q4": {
       "text": "<p>As a manager, if you receive a grievance from an employee, what should you do?</p>",
@@ -113,7 +113,7 @@
       "conclusion": "Acknowledge receipt of the grievance to the employee and forward it to the person in your organization who is responsible for handling grievances."
     },
     "q5": {
-      "text": "According to the <a href='' target='_blank' alt='Link to the guide to the key elements of an ICMS in the core public administration web page'>guide to the key elements of an ICMS in the core public administration</a>, which of the following are informal conflict management system (ICMS) best practices?",
+      "text": "According to the <a href='https://www.canada.ca/en/government/publicservice/wellness-inclusion-diversity-public-service/harassment-violence/informal-conflict-management-system/guide-key-elements-icms-core-public-administration.html' target='_blank' alt='Link to the guide to the key elements of an ICMS in the core public administration web page'>guide to the key elements of an ICMS in the core public administration</a>, which of the following are informal conflict management system (ICMS) best practices?",
       "options": {
         "1": "Create a culture that encourages resolution of conflict at the lowest level through face-to-face dialogue between the parties in conflict.",
         "2": "Make available conflict management training for managers and employees to address conflicts.",
@@ -157,7 +157,7 @@
         "3": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "4": "<span class='v-right' /><strong>Correct!</strong>"
       },
-      "conclusion": "Vous devriez refuser la demande, car les heures de travail doivent se siter entre de 7 h et 18 h. Voir l’article 25.08 de la convention collective."
+      "conclusion": "Vous devriez refuser la demande, car les heures de travail doivent se situer entre de 7 h et 18 h. Voir l’article 25.08 de la convention collective."
     },
     "q2": {
       "text": "John a demandé un congé payé pour prendre soin de son père, qui est malade et vit dans un foyer de soins de longue durée. Utilisez la <a href='https://www.tbs-sct.gc.ca/agreements-conventions/view-visualiser-fra.aspx?id=15' target='_blank' alt='Lien vers la page Web de la convention collective des Services des programmes et de l'administration'>convention collective des Services des programmes et de l’administration</a> pour décider si vous devriez approuver la demande de John.",
