@@ -1,11 +1,8 @@
 <template>
   <div class="mainWindow">
     <b-row align-h="center">
-      <b-col cols="12" lg="8" xl="7">
         <p>&nbsp;</p>
-        <div style="margin-left: -30px; margin-right: -30px;">
-          <videoplayer enVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_rjlkssh3/flavorId/0_25udb2jx/name/a.mp4" frVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_0c7w3dxo/flavorId/0_0zkkoegj/name/a.mp4" posterFile="video_poster.PNG" ccFile="" toResume="setHomepage" :restartAt="thatPoint" />
-        </div>
+          <videoplayer enVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_rjlkssh3/flavorId/0_25udb2jx/name/a.mp4" frVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_0c7w3dxo/flavorId/0_0zkkoegj/name/a.mp4" posterFile="video_poster.PNG" ccFile="ADT_INTRO_CAPTION.vtt" toResume="setHomepage" :restartAt="thatPoint" />
         <div role="tablist" class="transcriptionBox" style="width: 100%;">
           <b-card no-body class="mb-1 text-left">
             <b-card-header header-tag="p" class="p-1" role="tab">
@@ -18,7 +15,6 @@
             </b-collapse>
           </b-card>
         </div>
-      </b-col>
     </b-row>
     <b-row>
       <b-col>
