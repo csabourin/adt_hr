@@ -475,7 +475,7 @@ export default {
       }
       },
       "q5": {
-      "text": "Which one of the following actions <u>cannot</u> result in a grievance under the Public Sector Labour Relations Act?  ",
+      "text": "Which one of the following actions <u>cannot</u> result in a grievance under the <i>Public Sector Labour Relations Act</i>?  ",
       "options": {
       "1": "Elimination from a staffing process",
       "2": "Disciplinary action resulting in suspension or financial penalty ",
