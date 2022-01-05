@@ -6,7 +6,7 @@
     <section>
       <b-row>
         <b-col>
-          <videoPlayer ref="vp" enVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_7rzdl6ue/flavorId/0_3tvwnyvo/name/a.mp4" frVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_yrc8eron/flavorId/0_kocxrxfy/name/a.mp4" chapters chapterFile="BudgetChapters.vtt" ccFile="" :restartAt="thatPoint" toResume="setCreateBudget" :modalArray="modalArray" @timeupdate="updatePercent($event)" />
+          <videoPlayer ref="vp" enVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_7rzdl6ue/flavorId/0_3tvwnyvo/name/a.mp4" frVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_yrc8eron/flavorId/0_kocxrxfy/name/a.mp4" chapters chapterFile="BudgetChapters.vtt" ccFile="FoundationPart2_captions.vtt" :restartAt="thatPoint" toResume="setCreateBudget" :modalArray="modalArray" @timeupdate="updatePercent($event)" />
         </b-col>
       </b-row>
       <b-container>
@@ -189,8 +189,8 @@
     </div>
     <div class="bottomNav planSection">
       <div class="planSectionBar"><span>{{$t('planSectionBar')}}</span></div>
-      <microlearning path="designPart2" imagePath="BuildWP.svg" size="140" time="20" :completion="$store.state.currentPlaying.buildWP_player" :text="$t('HRDelegation')" type="video" />
-      <microlearning youAreHere size="140" path="designPart2" time="20" :completion="$store.state.currentPlaying.createBudget_player" imagePath="CreateBud.svg" :text="$t('HRPlanning')" type="video" />
+      <microlearning path="designPart1" imagePath="R-Contribute.svg" size="140" time="20" :completion="$store.state.currentPlaying.buildWP_player" :text="$t('HRDelegation')" type="video" />
+      <microlearning youAreHere size="140" path="designPart2" time="20" :completion="$store.state.currentPlaying.createBudget_player" imagePath="InitiateAuthSpending.svg" :text="$t('HRPlanning')" type="video" />
       <microlearning path="designKey" time="5" size="140" :completion="$store.state.currentPlaying.kmPlan" imagePath="KeyMessP.svg" :text="$t('KeyMessages')" :highlighted="chosenScenario == 'refresh'" type="keyMessages" />
       <microlearning size="140" path="exam1" time="20" :completion="parseInt($store.getters['plan/getScore'],10)" imagePath="P-Test.svg" :text="$t('Test')" :highlighted="chosenScenario == 'justExam'" type="exam" questionNum="10" />
     </div>
