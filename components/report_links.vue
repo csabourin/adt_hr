@@ -79,13 +79,14 @@
           <li><externalLink link="https://learn-apprendre.csps-efpc.gc.ca/application/en/search/site/political activities">Political Activities: Candidacy </externalLink></li>
           <li><externalLink link="https://learn-apprendre.csps-efpc.gc.ca/application/en/search/site/political activities">Political Activities: Making an Informed Decision</externalLink></li>
           <li><externalLink link="https://laws-lois.justice.gc.ca/eng/acts/p-31.9/">Public Servants Disclosure Protection Act</externalLink></li>
-          <li><externalLink link="http://gazette.gc.ca/rp-pr/p2/2020/2020-06-24/html/sor-dors130-eng.html">Work Place Harassment and Violence Prevention Regulations</externalLink></li>
           <li><externalLink link="https://www.canada.ca/en/employment-social-development/programs/workplace-health-safety/harassment-violence-prevention.html">Requirements for employers to prevent harassment and violence in federally regulated workplaces</externalLink></li>
           <li><externalLink link="https://www.canada.ca/en/employment-social-development/programs/workplace-health-safety/harassment-violence-prevention/complaints/resolve.html">Resolve a workplace harassment and violence complaint</externalLink></li>
           <li><externalLink link="https://sencanada.ca/content/sen/committee/432/CIBA/reports/CIBA_RTP5_POL_HVP_E.pdf">Senate Harassment and Violence Prevention Policy</externalLink></li>
+          <li><externalLink link="https://www.canada.ca/en/public-service-commission/services/political-activities/other-political-activities/suite-of-tools-related-to-other-political-activities.html">Suite of tools related to other political activities</externalLink></li>
           <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=25049">Values and Ethics Code for the Public Sector</externalLink></li>
           <li><externalLink link="https://www.un.org/development/desa/indigenouspeoples/declaration-on-the-rights-of-indigenous-peoples.html">United Nations Declaration on the Rights of Indigenous Peoples</externalLink></li>
           <li><externalLink link="https://www.canada.ca/en/employment-social-development/programs/workplace-health-safety/harassment-violence-prevention.html#What_is_not">What is not harassment and violence</externalLink></li>
+          <li><externalLink link="http://gazette.gc.ca/rp-pr/p2/2020/2020-06-24/html/sor-dors130-eng.html">Work Place Harassment and Violence Prevention Regulations</externalLink></li>
         </ul>
       </div>
     </div>
