@@ -202,9 +202,9 @@
     <div class="bottomNav reportSection">
       <div class="reportSectionBar"><span>{{$t('reportSectionBar')}}</span></div>
       <microlearning :completion="$store.state.currentPlaying.reportPart1_player" path="valuesPart1" imagePath="R-Conduct.svg" size="140" time="20" :text="$t('LabourRelations')" type="video" />
-      <microlearning :completion="$store.state.currentPlaying.reportPart2_player" path="valuesPart2" imagePath="R-Contribute.svg" size="140" time="20" :text="$t('ValuesEthics')" type="video" />
-      <microlearning :completion="$store.state.currentPlaying.reportPart2_player" path="valuesPart3" imagePath="R-Contribute.svg" size="140" time="20" :text="$t('OfficialLanguages')" type="video" />
-      <microlearning youAreHere :completion="$store.state.currentPlaying.reportPart2_player" path="valuesPart4" imagePath="R-Contribute.svg" size="140" time="20" :text="$t('PoliticalActivities')" type="video" />
+      <microlearning :completion="$store.state.currentPlaying.reportPart2_player" path="valuesPart2" imagePath="ValuesPart2.svg" size="140" time="20" :text="$t('ValuesEthics')" type="video" />
+      <microlearning :completion="$store.state.currentPlaying.reportPart2_player" path="valuesPart3" imagePath="ValuesPart3.svg" size="140" time="20" :text="$t('OfficialLanguages')" type="video" />
+      <microlearning youAreHere :completion="$store.state.currentPlaying.reportPart2_player" path="valuesPart4" imagePath="ValuesPart4.svg" size="140" time="20" :text="$t('PoliticalActivities')" type="video" />
       <microlearning :completion="$store.state.currentPlaying.kmReport" path="valuesKey" size="140" imagePath="KeyMessR.svg" :text="$t('KeyMessages')" time="5" :highlighted="chosenScenario == 'refresh'" type="keyMessages" />
       <microlearning :completion="parseInt($store.getters['report/getScore'],10)" path="exam3" size="140" time="15" imagePath="R-Test.svg" :text="$t('Test')" :highlighted="chosenScenario == 'justExam'" type="exam" questionNum="20" />
     </div>
