@@ -99,15 +99,6 @@
           </keyMessagesFiles>
         </b-col>
       </b-row>
-      <b-row>
-        <b-col>
-          <p>&nbsp;</p><span v-if="$i18n.locale=='en'">
-            Find your organization's Departmental Plan here: <externalLink link="https://www.canada.ca/en/treasury-board-secretariat/services/planned-government-spending/reports-plans-priorities.html">Departmental Plans</externalLink></span>
-          <span v-if="$i18n.locale=='fr'">
-            Trouvez le plan ministériel de votre organisation ici : <externalLink link="https://www.canada.ca/fr/secretariat-conseil-tresor/services/depenses-prevues/rapports-plans-priorites.html">Plans ministériels</externalLink>
-          </span>
-        </b-col>
-      </b-row>
     </b-container>
     <div class="bottomNav generalSection" v-if="chosenScenario == 'refresh'">
       <div class="generalSectionBar"><span>{{$t('refreshShort')}}</span></div>

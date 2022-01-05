@@ -3,9 +3,6 @@
     <h2 class="pageTitle">{{$t('KeyMessages')}}</h2>
     <br>
     <p><img src="~/assets/KeyMessR.svg" alt="" role="presentation" width="250px"></p>
-    <p>&nbsp;</p>
-    <p class="quote report"><q class="bigQuote" :class="{'french-quote':$i18n.locale=='fr'}">{{$t('keyPlanQuote')}}</q></p>
-    <p>&nbsp;</p>
     <b-container style="text-align: left">
       <b-row>
         <b-col cols="12" lg xl="12">
