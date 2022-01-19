@@ -5,7 +5,7 @@
   <section>
     <b-row>
       <b-col>
-        <videoPlayer ref="vp" enVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_tma13ut7/flavorId/0_dvkvpht8/name/a.mp4" frVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_0icpxyhk/flavorId/0_txc5y1r8/name/a.mp4" chapters chapterFile="chapters.vtt" ccFile="FoundationPart1_captions.vtt" :restartAt="thatPoint" toResume="setBuildWP" :modalArray="modalArray" @timeupdate="updatePercent($event)" />
+        <videoPlayer ref="vp" enVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_tma13ut7/flavorId/0_3hnaubqs/name/a.mp4" frVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_0icpxyhk/flavorId/0_94b9vu25/name/a.mp4" chapters chapterFile="chapters.vtt" ccFile="FoundationPart1_captions.vtt" :restartAt="thatPoint" toResume="setBuildWP" :modalArray="modalArray" @timeupdate="updatePercent($event)" />
       </b-col>
     </b-row>
     <b-container>
@@ -164,7 +164,7 @@
         <b-col>
           <div v-if="$i18n.locale=='en'">
             <p>Take what you have learned into real life!</p>
-            <p>Each deputy head determines how authorities are sub-delegated. As a result, sub-delegation varies from one organization to another. It is a good practice to question if you have the authority to act before making an HR decision.</p>
+            <p>Your organization will have its own ways of doing things. As a result, sub-delegation varies from one organization to another. It is a good practice to question if you have the authority to act before making an HR decision.</p>
             <p>Take a time out from the course and ask your supervisor or an HR advisor where you can find your organization’s delegation instrument and how it should be used for the decisions you are making. Some human resources actions such as classification, pay, staffing may involve exercising authorities from multiple areas.</p>
           </div>
           <div v-if="$i18n.locale=='fr'">

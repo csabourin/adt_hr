@@ -6,7 +6,7 @@
     <section>
       <b-row>
         <b-col>
-          <videoPlayer ref="vp" enVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_7rzdl6ue/flavorId/0_3tvwnyvo/name/a.mp4" frVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_yrc8eron/flavorId/0_kocxrxfy/name/a.mp4" chapters chapterFile="BudgetChapters.vtt" ccFile="FoundationPart2_captions.vtt" :restartAt="thatPoint" toResume="setCreateBudget" :modalArray="modalArray" @timeupdate="updatePercent($event)" />
+          <videoPlayer ref="vp" enVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_7rzdl6ue/flavorId/0_7qmf3hz9/name/a.mp4" frVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_yrc8eron/flavorId/0_7ibryoys/name/a.mp4" chapters chapterFile="BudgetChapters.vtt" ccFile="FoundationPart2_captions.vtt" :restartAt="thatPoint" toResume="setCreateBudget" :modalArray="modalArray" @timeupdate="updatePercent($event)" />
         </b-col>
       </b-row>
       <b-container>
@@ -266,7 +266,7 @@ export default {
 <i18n>{
   "en":{
   "TakeTheQuiz":"Take the Quiz",
-  "activityLinks":"Reference: External Links",
+  "activityLinks":"References: External Links",
   "overviewTitle": "Activity: Overview of HR Planning",
   "submitBudgetTitle":"Activity: Submit and Adjust your Budget",
   "adjustwptitle":"Activity: Adjust the Work plan",
@@ -275,7 +275,7 @@ export default {
   "budgetAnalyzeActivity":"Activity: Analyze Available Information",
   "forecastBudgetTitle":"Activity: Forecast Your Budget Requirements",
   "InRealLife":"In Real Life",
-  "IRLText":"<p>Take what you have learned into real life!</p><p><b>To supplement the knowledge required to perform HR planning, be sure to complete this additional course:</b></p><ul><li>The Introduction to Integrated Business and Human Resources Planning (H300).</li></ul><p>This course will provide a more in-depth look at HR planning to help you perform your duties in this area.</p>",
+  "IRLText":"<p>Take what you have learned into real life!</p><p><b>To supplement the knowledge required to perform HR planning, be sure to complete this additional course:</b></p><ul><li>The Introduction to Integrated Business and Human Resources Planning.</li></ul><p>This course will provide a more in-depth look at HR planning to help you perform your duties in this area.</p>",
   "gotIt":"Continue to next segment",
   "jumpModalPartsWP":"Jump to activity",
   "playSegment":"Play video segment",
@@ -294,7 +294,7 @@ export default {
   "submitBudgetTitle":"Activité : Soumettre et ajuster votre budget ",
   "forecastBudgetTitle":"Activité : Prévoyez vos besoins budgétaires",
   "InRealLife":"Dans la vraie vie",
-  "IRLText":"<p>Appliquez maintenant ce que vous avez appris – dans la vraie vie!</p><p><b>Pour approfondir les connaissances nécessaires à la planification des RH, suivez ce cours supplémentaire : </b></p><ul><li>Introduction à la planification intégrée des activités et des ressources humaines (H300).</li></ul><p>Ce cours, qui présente la planification des RH plus en détail, vous aidera à accomplir vos fonctions dans ce domaine.</p>",
+  "IRLText":"<p>Appliquez maintenant ce que vous avez appris – dans la vraie vie!</p><p><b>Pour approfondir les connaissances nécessaires à la planification des RH, suivez ce cours supplémentaire : </b></p><ul><li>Introduction à la planification intégrée des activités et des ressources humaines.</li></ul><p>Ce cours, qui présente la planification des RH plus en détail, vous aidera à accomplir vos fonctions dans ce domaine.</p>",
   "gotIt":"Continuer au segment suivant.",
   "jumpModalPartsWP":"Sauter à l’activité",
   "playSegment":"Faire jouer le segment vidéo",

@@ -99,8 +99,7 @@ export default {
         "1": "déterminent les",
         "2": "communiquent les",
         "3": "sélectionnent et utilisent",
-        "4": "créent et utilisent",
-        "5": "créent et comblent"
+        "4": "créent et utilisent"
       },
       "feedback": {
         "right": " La planification des RH correspond à la manière dont les organisations déterminent les besoins actuels et futurs en RH de même qu’à la manière dont elles sélectionnent et utilisent leurs RH afin d’atteindre leurs objectifs opérationnels.",
