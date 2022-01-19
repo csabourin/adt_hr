@@ -319,15 +319,15 @@
           <ul>
             <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/values-ethics/disclosure-protection/public-servants-disclosure-protection-act-information-supervisors-all-levels.html" target="_blank" alt="Link to the Information for supervisors at all levels web page">Information for supervisors at all levels</a></li>
           </ul>
-          <h4>Our roles</h4>
-          <h5>Senior Officer for Internal Disclosure</h5>
+          <h3>Our roles</h3>
+          <h4>Senior Officer for Internal Disclosure</h4>
           <ul>
             <li>Determines whether there are sufficient grounds to investigate</li>
             <li>Informs the discloser and the alleged wrongdoer of the next step</li>
             <li>Prepares recommendations based on results of an investigation and informs the Chief Executive or Deputy Minister</li>
             <li>Refers cases concerning criminal activity to the police</li>
           </ul>
-          <h5>Senior Officers for Internal Disclosure and Supervisors</h5>
+          <h4>Senior Officers for Internal Disclosure and Supervisors</h4>
           <p>Provide guidance and other information to employees about:</p>
           <ul>
             <li>The act</li>
@@ -335,13 +335,13 @@
             <li>Employees’ protection from reprisal </li>
             <li>Where to go if employees need additional information </li>
           </ul>
-          <h5>Supervisors</h5>
+          <h4>Supervisors</h4>
           <ul>
             <li>Foster an ethical culture by modelling values-based leadership</li>
             <li>Receive disclosures of wrongdoing from employees and inform the Senior Officer for Internal Disclosure</li>
             <li>Protect the identity of those involved in the disclosure process</li>
           </ul>
-          <h5>Employees</h5>
+          <h4>Employees</h4>
           <ul>
             <li>Familiarize themselves with the main provisions of the act:</li>
               <ul>
@@ -359,15 +359,15 @@
           <ul>
             <li><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/valeurs-ethique/protection-divulgateurs/loi-protection-fonctionnaires-divulgateurs-actes-reprehensibles-information-intention-superviseurs-tous-niveaux.html" target="_blank" alt="Lien vers la page web Informations pour les superviseurs à tous les niveaux">Information à l’intention des superviseurs de tous niveaux</a></li>
           </ul>
-          <h4>Nos rôles</h4>
-          <h5>Agents principaux chargés de la divulgation à l’interne</h5>
+          <h3>Nos rôles</h3>
+          <h4>Agents principaux chargés de la divulgation à l’interne</h4>
           <ul>
             <li>Déterminer s’il existe des motifs suffisants pour enquêter.</li>
             <li>Informer le divulgateur et l’auteur présumé de l’acte répréhensible de la prochaine étape.</li>
             <li>Formuler des recommandations fondées sur les résultats d’une enquête et en informer le dirigeant principal ou le sous‑ministre.</li>
             <li>Signaler les cas d’activités criminelles à la police.</li>
           </ul>
-          <h5>Agents principaux chargés de la divulgation à l’interne et superviseurs</h5>
+          <h4>Agents principaux chargés de la divulgation à l’interne et superviseurs</h4>
           <p>Conseiller et renseigner les employés sur :  </p>
           <ul>
             <li>les dispositions législatives;</li>
@@ -375,13 +375,13 @@
             <li>la protection des employés contre les représailles;</li>
             <li>la façon d’obtenir des renseignements supplémentaires.</li>
           </ul>
-          <h5>Superviseurs</h5>
+          <h4>Superviseurs</h4>
           <ul>
             <li>Favoriser une culture éthique en montrant l’exemple grâce à un leadership fondé sur les valeurs.</li>
             <li>Recevoir les divulgations d’actes répréhensibles des employés et informer l’agent principal chargé de la divulgation à l’interne.</li>
             <li>Protéger l’identité des personnes concernées par le processus de divulgation.</li>
           </ul>
-          <h5>Employés</h5>
+          <h4>Employés</h4>
           <ul>
             <li>Se familiariser avec les principales dispositions législatives concernant : </li>
               <ul>
