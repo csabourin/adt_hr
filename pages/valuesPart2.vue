@@ -319,7 +319,7 @@
           <ul>
             <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/values-ethics/disclosure-protection/public-servants-disclosure-protection-act-information-supervisors-all-levels.html" target="_blank" alt="Link to the Information for supervisors at all levels web page">Information for supervisors at all levels</a></li>
           </ul>
-          <h3>Our roles</h3>
+          <h3 style="font-size: 30px;">Our Roles</h3>
           <h4>Senior Officer for Internal Disclosure</h4>
           <ul>
             <li>Determines whether there are sufficient grounds to investigate</li>
@@ -359,7 +359,7 @@
           <ul>
             <li><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/valeurs-ethique/protection-divulgateurs/loi-protection-fonctionnaires-divulgateurs-actes-reprehensibles-information-intention-superviseurs-tous-niveaux.html" target="_blank" alt="Lien vers la page web Informations pour les superviseurs à tous les niveaux">Information à l’intention des superviseurs de tous niveaux</a></li>
           </ul>
-          <h3>Nos rôles</h3>
+          <h3 style="font-size: 30px;">Nos rôles</h3>
           <h4>Agents principaux chargés de la divulgation à l’interne</h4>
           <ul>
             <li>Déterminer s’il existe des motifs suffisants pour enquêter.</li>
