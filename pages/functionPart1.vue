@@ -234,14 +234,14 @@
       <div v-if="$i18n.locale=='en'">
         <p>Here is a list of resources referred to in this section.</p>
         <ul>
-          <li><a href="https://laws-lois.justice.gc.ca/eng/acts/F-11/" target="_blank" alt="Financial Administration Act (FAA)"><i>Financial Administration Act</i> (FAA)</a></li>
-          <li><a href="https://laws-lois.justice.gc.ca/eng/acts/h-6/" target="_blank" alt="Canadian Human Rights Act"><i>Canadian Human Rights Act</i></a></li>
+          <li><a href="https://laws-lois.justice.gc.ca/eng/acts/F-11/" target="_blank" alt="Financial Administration Act (FAA)">Financial Administration Act (FAA)</a></li>
+          <li><a href="https://laws-lois.justice.gc.ca/eng/acts/h-6/" target="_blank" alt="Canadian Human Rights Act">Canadian Human Rights Act</a></li>
           <li><a href="https://www.tbs-sct.gc.ca/pol/topic-sujet-eng.aspx?ta=40" target="_blank" alt="Policy on People Management">Policy on People Management</a></li>
           <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=28700" target="_blank" alt="Directive on Classification">Directive on Classification</a></li>
           <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=28699" target="_blank" alt="Directive on Classification Oversight">Directive on Classification Oversight</a></li>
           <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=28698" target="_blank" alt="Directive on Classification Grievances">Directive on Classification Grievances</a></li>
           <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=15772" target="_blank" alt="Directive on Terms and Conditions of Employment">Directive on Terms and Conditions of Employment</a></li>
-          <li><a href="https://laws-lois.justice.gc.ca/eng/acts/o-3.01/" target="_blank" alt="Official Languages Act"><i>Official Languages Act</i></a></li>
+          <li><a href="https://laws-lois.justice.gc.ca/eng/acts/o-3.01/" target="_blank" alt="Official Languages Act">Official Languages Act</a></li>
           <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/collective-agreements/occupational-groups/occupational-groups-bargaining-agent-representation.html" target="_blank" alt="Occupational groups by bargaining agent representation">Occupational groups by bargaining agent representation</a></li>
           <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=26160" target="_blank" alt="Policy on Official Languages">Policy on Official Languages</a></li>
         </ul>
@@ -341,7 +341,7 @@
       </template>
        <div v-if="$i18n.locale=='en'">
         <p>Organization and classification decisions have implications for every other HR discipline, as well as your budget.</p>
-        <img src="~/assets/en/organizationHR_en.png" title="Visual chart of every other HR discipline" alt="Visual chart of every other HR discipline">
+        <img src="~/assets/en/organizationHR_en.png" title="Visual chart of every other HR discipline" alt="Circles labeled with HR disciplines: Resourcing, Training, Integrated Planning, Official Languages, Performance Management, Labour Relations, Pay and Benefits, surrounding and connected to center circle labeled: Organization and Classification">
         <p>Resourcing begins with writing or revising a job description. The HR advisor will review and evaluate the job description to render a classification decision. Then, Resourcing (staffing) will work with you to create a statement of merit criteria.</p>
         <p>Pay and Benefits covers collective agreements, rates of pay, and associated benefits that are associated with each position.</p>
         <p>Labour Relations may be implicated if an employee disagrees with their job description, assigned work activities or the effective date of the classification decision.</p>
@@ -355,11 +355,11 @@
       <div v-if="$i18n.locale=='fr'">
         <p>Les décisions en matière d’organisation et de classification ont des répercussions sur toutes les autres disciplines des RH ainsi que sur votre budget.</p>
 
-        <img src="~/assets/fr/organizationHR_fr.png" title="Aperçu visuel des autres disciplines des RH" alt="Aperçu visuel des autres disciplines des RH">
+        <img src="~/assets/fr/organizationHR_fr.png" title="Aperçu visuel des autres disciplines des RH" alt="Les cercles illustrent les disciplines des RH et se rapportent au cercle du milieu (organisation et classification) : ressourcement, formation, planification intégrée, langues officielles, gestion du rendement, relations de travail et rémunération et avantages sociaux.">
         
         <p>Le processus de ressourcement commence par la rédaction ou la révision d’une description de travail. Le conseiller en RH examine et évalue la description de travail pour prendre une décision en matière de classification. Le service de ressourcement (dotation) établit ensuite avec vous un énoncé des critères de mérite. </p>
         
-        <p>Les responsables de la rémunération et des avantages sociauxs s’occupent des conventions collectives, des taux de rémunération et des avantages sociaux associés à chaque poste.</p>
+        <p>Les responsables de la rémunération et des avantages sociaux s’occupent des conventions collectives, des taux de rémunération et des avantages sociaux associés à chaque poste.</p>
        
         <p>Il est possible de faire appel aux responsables des relations de travail si un employé conteste sa description de travail, les tâches qui lui sont assignées ou la date d’entrée en vigueur de la décision de classification.</p>
         
@@ -395,13 +395,13 @@
           <div v-if="$i18n.locale=='en'">
             <p>Take what you have learned into real life!</p>
             <p>Your organization will have its own ways of doing things.</p>
-            <p>To supplement the knowledge required to perform your organization and classification functions, be sure to complete the course Introduction to Organization and Classification (P930).</p>
+            <p>To supplement the knowledge required to perform your organization and classification functions, be sure to complete the course Introduction to Organization and Classification.</p>
             <p>This mandatory course is the first step in the training and accreditation of public servants working and specializing in classification.</p>
           </div>
           <div v-if="$i18n.locale=='fr'">
             <p>Appliquez maintenant ce que vous avez appris - dans la vraie vie!</p>
             <p>Votre organisation aura sa propre façon de faire les choses.</p>
-            <p>Pour approfondir les connaissances nécessaires à l’exercice de vos fonctions en matière d’organisation et de classification, suivez le cours « Introduction à l’organisation et à la classification » (P930).</p>
+            <p>Pour approfondir les connaissances nécessaires à l’exercice de vos fonctions en matière d’organisation et de classification, suivez le cours « Introduction à l’organisation et à la classification ».</p>
             <p>Ce cours obligatoire représente la première étape de la formation et de l’accréditation des fonctionnaires travaillant et se spécialisant dans le domaine de la classification.</p>
           </div>
         </b-col>
@@ -607,7 +607,7 @@ button.accessibilityButton {
   "imageDescription": "Text description of the graphic",
   "tryItTitle":"Activity: Try it!",
   "activityLinks":"References: External Links",
-  "organizationClassificationTitle": "Activity: Organizational Design",
+  "organizationClassificationTitle": "Activity: Organizational and Classification",
   "organizationalDesignTitle": "Activity: Organizational Design",
   "rolesResponsibilitiesTitle": "References: Roles and Responsibilities",
   "roleOrganizationTitle": "Reference: The Role of Organization and Classification in HR Management",
@@ -624,7 +624,8 @@ button.accessibilityButton {
   "adjustwptitle":"Activité : Ajuster le plan de travail",
   "activityLinks":"Références : Liens externes",
   "delegateAuthority":"Activité : Délégation des pouvoirs",
-  "organizationDesignTitle": "Activité : Conception organisationnelle",
+  "organizationClassificationTitle": "Activité : Organisation et classification",
+  "organizationalDesignTitle": "Activité : Conception organisationnelle",
   "rolesResponsibilitiesTitle": "Références : Rôles et responsabilités",
   "roleOrganizationTitle": "Références : Le rôle de l’organisation et de la classification dans le contexte de la gestion des RH",
   "authoritiesTitle": "Activité : Pouvoirs",

@@ -279,7 +279,7 @@
         "options": {
         "1": "vous permettra de fournir votre produit ou  votre service. ",
         "2": "permettra d’atteindre les objectifs (et de remplir le mandat) de l’organisation.  ",
-        "3": "will ensure that the current classification decision is still applicable to each position "
+        "3": "permettra de vous assurer que la décision en matière de classification actuelle s’applique toujours au poste."
       },
       "feedback": {
         "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
@@ -301,7 +301,7 @@
         "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "3": "<span class='v-right' /><strong>Correct!</strong>"
       },
-      "conclusion": "Déterminer de façon appropriée les exigences en matière de langues officielles d’un poste permettra d’assurer que l’employé peut fournir le produit ou le service de manière efficace."
+      "conclusion": "Veiller à ce que les descriptions de travail soient exactes et à jour permettra d’éviter les griefs."
     },
     "q5": {
       "text": "Déterminer de façon appropriée les exigences en matière de langues officielles d’un poste  ",
@@ -315,7 +315,7 @@
         "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       },
-      "conclusion": "Veiller à ce que les descriptions de travail soient exactes et à jour permettra d’éviter les griefs."
+      "conclusion": "Déterminer de façon appropriée les exigences en matière de langues officielles d’un poste permettra d’assurer que l’employé peut fournir le produit ou le service de manière efficace."
     },
     "q6": {
       "text": "Veiller à ce qu’une décision en matière de classification soit prise pour les descriptions de travail nouvelles et révisées",

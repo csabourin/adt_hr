@@ -156,7 +156,7 @@ export default {
   },
   "fr": {
     "instructions": "Découvrez vos fonctions à titre de gestionnaire en sélectionnant le mot approprié pour compléter les phrases suivantes. Choisissez le meilleur choix pour remplir les blancs.",
-    "instructions2": "À titre de gestionnaire, vous devez vous acquitter des sept fonctions suivantes : ",
+    "instructions2": "<b>À titre de gestionnaire, vous devez vous acquitter des sept fonctions suivantes :</b> ",
     "q1": {
       "sentence": "vous engager à créer et à maintenir un lieu de travail diversifié et {0};",
       "choices": {
