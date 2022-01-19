@@ -123,18 +123,14 @@
             <li><a href="https://www.canada.ca/en/public-service-commission/services/political-activities.html" target="_blank" alt="Link to the Political Activities web page">Political Activities</a></li>
             <li><a href="https://www.canada.ca/en/public-service-commission/services/political-activities/i-want-to-become-a-candidate.html" target="_blank" alt="Link to the I want to become a candidate web page">I want to become a candidate</a></li>
             <li><a href="https://www.canada.ca/en/public-service-commission/services/political-activities/other-political-activities/suite-of-tools-related-to-other-political-activities.html" target="_blank" alt="Link to the Suite of tools related to other political activities web page">Suite of tools related to other political activities</a></li>
-            <li><a href="https://learn-apprendre.csps-efpc.gc.ca/application/en/search/site/political%20activities" target="_blank" alt="Link to the Political Activities: Candidacy web page">Political Activities: Candidacy</a></li>
-            <li><a href="https://learn-apprendre.csps-efpc.gc.ca/application/en/search/site/political%20activities" target="_blank" alt="Link to the Political Activities: Making an Informed Decision web page">Political Activities: Making an Informed Decision</a></li>
           </ul>
         </div>
          <div v-if="$i18n.locale=='fr'">
           <p>Voici une liste des ressources auxquelles on fait référence dans cette section.</p>
          <ul>
-            <li><a href="https://www.canada.ca/fr/commission-fonction-publique/services/activites-politiques.html" target="_blank" alt="Activités politiques"><i>Activités politiques</i></a></li>
+            <li><a href="https://www.canada.ca/fr/commission-fonction-publique/services/activites-politiques.html" target="_blank" alt="Activités politiques">Activités politiques</a></li>
             <li><a href="https://www.canada.ca/fr/commission-fonction-publique/services/activites-politiques/je-souhaite-etre-candidat.html" target="_blank" alt="Je souhaite être candidat">Je souhaite être candidat</a></li>
             <li><a href="https://www.canada.ca/fr/commission-fonction-publique/services/activites-politiques/autres-activites-politiques/gamme-d-outils-sur-les-autres-activites-politique.html" target="_blank" alt="Gamme d’outils sur les autres activités politiques">Gamme d’outils sur les autres activités politiques</a></li>
-            <li><a href="https://learn-apprendre.csps-efpc.gc.ca/application/fr/content/activites-politiques-candidature" target="_blank" alt="Activités politiques – Candidature"><i>Activités politiques – Candidature</i></a></li>
-            <li><a href="https://learn-apprendre.csps-efpc.gc.ca/application/fr/content/activites-politiques-prenez-une-decision-eclairee" target="_blank" alt="Activités politiques – Prenez une décision éclairée"><i>Activités politiques – Prenez une décision éclairée</i></a></li>
           </ul>
         </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
@@ -147,10 +143,10 @@
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
         <div v-if="$i18n.locale=='en'">
-            <p>Have a look at this short video called <a href="https://learn-apprendre.csps-efpc.gc.ca/application/en/content/collaborating-deliver-results-canadians" target="_blank" alt="Link to the Collaborating to Deliver Results to Canadians video">Collaborating to Deliver Results to Canadians</a>.</p>
+            <p>Have a look at this resource <a href="https://www.canada.ca/en/public-service-commission/services/political-activities/role-public-service-commission.html" target="_blank" alt="Link to the Role of the Public Service Commission of Canada site">Role of the Public Service Commission of Canada</a>.</p>
         </div>
         <div v-if="$i18n.locale=='fr'">
-            <p>Jetez un rapide coup d’œil à cette vidéo : <a href="https://learn-apprendre.csps-efpc.gc.ca/application/fr/content/collaborer-pour-atteindre-des-resultats-pour-les-canadiennes-et-les-canadiens" target="_blank" alt="Lien vers la vidéo  Collaborer pour offrir des résultats aux Canadiens."> Collaborer pour atteindre des résultats pour les Canadiennes et les Canadiens</a>.</p>
+            <p>Jetez un rapide coup d’œil à cette ressource : <a href="https://www.canada.ca/fr/commission-fonction-publique/services/activites-politiques/role-commission-fonction-publique.html" target="_blank" alt="Lien vers le site du Rôle de la Commission de la fonction publique du Canada.">Rôle de la Commission de la fonction publique du Canada</a>.</p>
         </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>

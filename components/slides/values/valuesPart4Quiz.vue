@@ -68,8 +68,8 @@
         "4": "IS NOT REQUIRED"
       },
       "feedback": {
-        "right": "In advance of candidacy, a public servant must be granted permission by the Public Service Commission.",
-        "wrong": "In advance of candidacy, a public servant must be granted permission by the Public Service Commission."
+        "right": "In the case of candidacy, permission from the Public Service Commission is required.",
+        "wrong": "In the case of candidacy, permission from the Public Service Commission is required."
       }
     },
     "q2": {
@@ -133,10 +133,10 @@
       "choices": {
         "1": "doit",
         "2": "devrait",
-        "3": "l’administrateur général",
-        "4": "la Commission de la fonction publique",
-        "5": "activité liée à une candidature",
-        "6": "activité non liée à une candidature"
+        "3": "la Commission de la fonction publique",
+        "4": "l’administrateur général",
+        "5": "activité non liée à une candidature",
+        "6": "activité liée à une candidature"
       },
       "feedback": {
         "right": "Si un fonctionnaire souhaite se livrer à une activité liée à une candidature, il doit obtenir la permission de la Commission de la fonction publique. ",

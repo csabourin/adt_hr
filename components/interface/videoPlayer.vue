@@ -193,7 +193,7 @@ export default {
         },
         valuesPart2: {
           references: [0],
-          infos: [0,1,3,5],
+          infos: [0,1,3,4,5],
           quiz: [6]
         },
         valuesPart3: {

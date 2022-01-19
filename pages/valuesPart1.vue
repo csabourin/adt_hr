@@ -262,14 +262,14 @@
         <div v-if="$i18n.locale=='en'">
           <p><b>To supplement the knowledge required to perform your labour relations functions, be sure to complete this additional course:</b></p>
           <ul>
-            <li>Labour Relations in the Federal Public Sector (G244)</li>
+            <li>Labour Relations in the Federal Public Sector</li>
           </ul>
           <p>This course will provide a more in-depth look at labour relations to help you perform your duties.</p>
         </div>
         <div v-if="$i18n.locale=='fr'">
           <p><b>Pour approfondir les connaissances nécessaires à l’exercice de vos fonctions liées aux relations de travail, suivez le cours supplémentaire suivant : </b></p>
           <ul>
-            <li>Relations de travail dans le secteur public fédéral (G244). </li>
+            <li>Relations de travail dans le secteur public fédéral. </li>
           </ul>
           <p>Ce cours, qui examine de plus près les relations de travail, vise à vous aider à accomplir vos fonctions dans ce domaine. </p>
         </div>

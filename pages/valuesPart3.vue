@@ -440,7 +440,7 @@ export default {
   "reportSectionBar": "VALUES"
   },
   "fr":{
-  "introductionTitle": "References: External Links",
+  "introductionTitle": "Références : Liens externes",
   "legalFrameworkTitle": "Activité : Cadre juridique",
   "officialLanguagesTitle": "Activité : Régions désignées bilingues aux fins de la langue de travail",
   "languagesResponsibilitiesTitle": "Activité : Responsabilités des gestionnaires en matière de langues officielles pour la gestion des personnes ",
