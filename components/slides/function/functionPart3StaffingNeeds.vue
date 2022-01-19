@@ -190,7 +190,7 @@
       }
     },
     "q9": {
-      "text": "Used ahead of most other internal and external appointment options.",
+      "text": "Used for job enrichment, talent management or a skills exchange, these full- or part-time assignments take place in the private, public and not-for-profit sectors in Canada and internationally.",
       "options": {
         "1": "Casual",
         "2": "Interchange Canada ",
@@ -346,7 +346,7 @@
       }
     },
     "q7": {
-      "text": "Ces affectations à temps plein ou à temps partiel servent à l’enrichissement des tâches, à la gestion des talents et à l’échange de compétences. Elles ont lieu dans les secteurs privé, public et à but non lucratif au Canada et à l’international.",
+      "text": "Nomination permettant à une personne de renforcer ses capacités et de poursuivre son perfectionnement professionnel. L’employé est déplacé temporairement dans une autre organisation.",
        "options": {
          "1": "Nomination intérimaire ",
         "2": "Affectation  ",
@@ -376,7 +376,7 @@
       }
     },
     "q9": {
-      "text": "Méthode servant à satisfaire aux exigences opérationnelles à court terme. Ces travailleurs sont employés par l’intermédiaire d’une agence pour fournir des services de façon temporaire.",
+      "text": "Ces affectations à temps plein ou à temps partiel servent à l’enrichissement des tâches, à la gestion des talents et à l’échange de compétences. Elles ont lieu dans les secteurs privé, public et à but non lucratif au Canada et à l’international.",
       "options": {
         "1": "Nomination d’un employé occasionnel ",
         "2": "Échanges Canada ",
@@ -406,7 +406,7 @@
       }
     },
     "q11": {
-      "text": "Nomination qui a lieu avant la plupart des autres options de nomination à l’interne et à l’externe.",
+      "text": "Méthode servant à satisfaire aux exigences opérationnelles à court terme. Ces travailleurs sont employés par l’intermédiaire d’une agence pour fournir des services de façon temporaire.",
        "options": {
          "1": "Nomination d’un employé occasionnel ",
         "2": "Échanges Canada ",
@@ -421,7 +421,7 @@
       }
     },
     "q12": {
-      "text": "Méthode servant à satisfaire aux exigences opérationnelles à court terme. Ces travailleurs sont employés par l’intermédiaire d’une agence pour fournir des services de façon temporaire. ",
+      "text": "Nomination qui a lieu avant la plupart des autres options de nomination à l’interne et à l’externe.",
        "options": {
          "1": "Nomination d’un employé occasionnel ",
         "2": "Échanges Canada ",
