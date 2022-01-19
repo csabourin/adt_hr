@@ -295,7 +295,46 @@
           <button type="button" aria-label="Close" class="close" @click="close()">×</button>
         </template>
         <p>{{$t('IntroductionText')}}</p>
-        <functionLinks />
+        <div v-if="$i18n.locale=='en'">
+          <ul>
+            <li><a href="https://www.canada.ca/en/public-service-commission/services/appointment-framework.html" target="_blank">Public Service Commission’s Appointment Framework</a></li>
+            <li><a href="https://www.canada.ca/en/public-service-commission/services/appointment-framework/appointment-policy.html#:~:text=The%20Public%20Service%20Commission%E2%80%99s%20%28PSC%29%20Appointment%20Policy%20applies,based%20on%20merit%20and%20free%20from%20political%20influence." target="_blank">Public Service Commission’s Appointment Policy</a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/(S(e021jvamqbhco5551teiyz55))/doc-eng.aspx?id=32621" target="_blank">Policy on People Management</a></li>
+            <li><a href="https://laws-lois.justice.gc.ca/eng/acts/e-5.401/" target="_blank">Employment Equity Act</a></li>
+            <li><a href="https://laws-lois.justice.gc.ca/eng/acts/A-0.6/" target="_blank">Accessible Canada Act</a></li>
+            <li><a href="https://lois-laws.justice.gc.ca/eng/acts/P-33.01/FullText.html" target="_blank">Public Service Employment Act</a></li>
+            <li><a href="https://laws-lois.justice.gc.ca/eng/acts/f-11/" target="_blank">Financial Administration Act</a></li>
+            <li><a href="https://www.canada.ca/en/public-service-commission/services/appointment-framework/delegation-overview/appointment-delegation-accountability-instrument.html" target="_blank">Appointment Delegation and Accountability Instrument</a></li>
+            <li><a href="https://www.canada.ca/en/public-service-commission/services/appointment-framework/guides-tools-appointment-framework.html" target="_blank">Public Service Commission – Guides and Tools</a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=13616" target="_blank">Treasury Board’s policy framework</a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=25049" target="_blank">Values and Ethics Code for the Public Sector</a></li>
+            <li><a href="https://www.csps-efpc.gc.ca/video/inclusive-hiring-five-tips-eng.aspx" target="_blank">Five Tips on Diversifying your Workforce</a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32635&section=html" target="_blank">Directive on Employment Equity, Diversity and Inclusion</a></li>
+            <li><a href="https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.canada.ca%2Fen%2Fpublic-service-commission%2Fservices%2Fappointment-framework%2Ffederal-public-service-inclusive-appointment-lens.html&data=04%7C01%7CEECCC-CCPEE%40tbs-sct.gc.ca%7C40b8cdede4a649ec9bf208d8fb6874ad%7C6397df10459540479c4f03311282152b%7C0%7C0%7C637535773344495625%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=bv1DmMxZ82FcXqUldLAlWls7Zjg5YiKrVpC04RJrfwQ%3D&reserved=0" target="_blank">Federal Public Service Inclusive Appointment Lens</a></li>
+            <li><a href="https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.canada.ca%2Fen%2Fpublic-service-commission%2Fservices%2Fappointment-framework%2Fguides-tools-appointment-framework%2Fqa-staffing-options-support-ee-di-under-psac.html&data=04%7C01%7CEECCC-CCPEE%40tbs-sct.gc.ca%7C40b8cdede4a649ec9bf208d8fb6874ad%7C6397df10459540479c4f03311282152b%7C0%7C0%7C637535773344495625%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=fYuLVkLpS%2BAuZUPoHNdXpkhvXYL8pJVW8gDFVnx7Apw%3D&reserved=0" target="_blank">Staffing options to support employment equity, and diversity and inclusion, under the Public Service Employment Act – Questions and answers</a></li>
+            <li><a href="https://www.canada.ca/en/public-service-commission/services/appointment-framework/appointment-policy.html#toc5" target="_blank">Appointment Policy</a></li>
+          </ul>
+        </div>
+        <div v-if="$i18n.locale=='fr'">
+          <ul>
+            <li><a href="https://www.canada.ca/fr/commission-fonction-publique/services/cadre-nomination.html" target="_blank">Cadre de nomination de la Commission de la fonction publique</a></li>
+            <li><a href="https://www.canada.ca/fr/commission-fonction-publique/services/cadre-nomination/lignes-directrices-matiere-nomination.html#:~:text=mati%C3%A8re%20de%20renseignements-,Application,fond%C3%A9es%20sur%20le%20m%C3%A9rite%20et%20ind%C3%A9pendantes%20de%20toute%20influence%20politique.,-R%C3%A9sultats%20attendus" target="_blank">Politique de nomination de la Commission de la fonction publique</a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/(S(e021jvamqbhco5551teiyz55))/doc-fra.aspx?id=32621" target="_blank">Politique sur la gestion des personnes</a></li>
+            <li><a href="https://laws-lois.justice.gc.ca/fra/lois/e-5.401/" target="_blank">Loi sur l’équité en matière d’emploi</a></li>
+            <li><a href="https://laws-lois.justice.gc.ca/fra/lois/a-0.6/" target="_blank">Loi canadienne sur l’accessibilité</a></li>
+            <li><a href="https://lois-laws.justice.gc.ca/fra/lois/p-33.01/TexteComplet.html" target="_blank">Loi sur l’emploi dans la fonction publique</a></li>
+            <li><a href="https://laws-lois.justice.gc.ca/fra/lois/f-11/" target="_blank">Loi sur la gestion des finances publiques</a></li>
+            <li><a href="https://www.canada.ca/fr/commission-fonction-publique/services/cadre-nomination/delegation/instrument-delegation-responsabilisation.html" target="_blank">Instrument de délégation et de responsabilisation en matière de nomination</a></li>
+            <li><a href="https://www.canada.ca/fr/commission-fonction-publique/services/cadre-nomination/guides-outils.html" target="_blank">Commission de la fonction publique – Guides et outils</a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=13616" target="_blank">Cadre principal des politiques du Conseil du Trésor</a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=25049" target="_blank">Code de valeurs et d’éthique du secteur public</a></li>
+            <li><a href="https://www.csps-efpc.gc.ca/video/inclusive-hiring-five-tips-fra.aspx" target="_blank">Cinq conseils pour diversifier votre effectif</a></li>
+            <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32635&section=html" target="_blank">Directive sur l’équité en matière d’emploi, la diversité et l’inclusion</a></li>
+            <li><a href="https://www.canada.ca/fr/commission-fonction-publique/services/cadre-nomination/optique-nomination-inclusive-fonction-publique-federale.html" target="_blank">Optique de nomination inclusive dans la fonction publique fédérale</a></li>
+            <li><a href="https://www.canada.ca/fr/commission-fonction-publique/services/cadre-nomination/guides-outils/faq-options-dotation-appuyer-eme-di-vertu-lefp.html" target="_blank">Options de dotation pour appuyer l’équité en matière d’emploi, la diversité et l’inclusion en vertu de la Loi sur l’emploi dans la fonction publique – Foire aux questions</a></li>
+            <li><a href="https://www.canada.ca/fr/commission-fonction-publique/services/cadre-nomination/lignes-directrices-matiere-nomination.html#toc5" target="_blank">Politique de nomination</a></li>
+          </ul>
+        </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
       </b-modal>
       <b-modal id="StaffingNeeds" @hide="resumePlay()" size="xl" okOnly>
@@ -392,12 +431,12 @@
           </b-row>
         <div v-if="$i18n.locale=='fr'">
           <p><b>Pour approfondir les connaissances nécessaires à l’exercice de vos fonctions de dotation, suivez le cours supplémentaire suivant : </b></p>
-          <ul><li>Les fondements de la dotation dans la fonction publique (H200, modules 1 et 2).</li></ul>
+          <ul><li>Les fondements de la dotation dans la fonction publique.</li></ul>
           <p>Ce cours, qui examine de manière approfondie la dotation, vise à vous aider à accomplir vos fonctions dans ce domaine.</p>
         </div>
         <div v-if="$i18n.locale=='en'">
           <p><b>To supplement the knowledge required to perform your staffing functions, be sure to complete this additional course:</b></p>
-          <ul><li>Basics of Staffing in the Public Service (H200 Modules 1 and 2)</li></ul>
+          <ul><li>Basics of Staffing in the Public Service</li></ul>
           <p>This course will provide a more in-depth look at staffing to help you perform your duties in this area.</p>
         </div>
         <template v-slot:modal-ok>{{$t('close')}}</template>
@@ -427,6 +466,7 @@
 import videoPlayer from '~/components/interface/videoPlayer'
 import microlearning from '~/components/microlearning'
 import functionLinks from '~/components/spend_links'
+import externalLink from "~/components/externalLink"
 import staffingNeeds from '~/components/slides/function/functionPart3StaffingNeeds'
 import inclusiveHiring from '~/components/slides/function/functionPart3InclusiveHiring'
 import Quiz from '~/components/slides/function/functionPart3Quiz'
@@ -440,6 +480,7 @@ export default {
     videoPlayer,
     microlearning,
     functionLinks,
+    externalLink,
     staffingNeeds,
     inclusiveHiring,
     Quiz

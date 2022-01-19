@@ -169,9 +169,9 @@
                   <li><a href="https://laws-lois.justice.gc.ca/eng/acts/A-0.6/" target="_blank" alt="Link to the Accessible Canada Act web page">Accessible Canada Act</a></li>
                   <li><a href="https://www.canada.ca/en/government/publicservice/wellness-inclusion-diversity-public-service/diversity-inclusion-public-service/accessibility-public-service/accessibility-strategy-public-service-toc.html" target="_blank" alt="Link to the Accessibility Strategy for the Public Service of Canada web page">Accessibility Strategy for the Public Service of Canada</a></li>
                   <li><a href="https://laws-lois.justice.gc.ca/eng/acts/e-5.401/page-1.html" target="_blank" alt="Link to the Employment Equity Act web page">Employment Equity Act</a></li>
-                  <li><a href="https://www.justice.gc.ca/eng/sjc-csj/dlc-rfc/ccdl-ccrf/index.html" target="_blank" alt="Link to the The Canadian Charter of Rights and Freedoms web page">The Canadian Charter of Rights and Freedoms</a></li>
+                  <li><a href="https://www.justice.gc.ca/eng/csj-sjc/rfc-dlc/ccrf-ccdl/" target="_blank" alt="Link to the The Canadian Charter of Rights and Freedoms web page">The Canadian Charter of Rights and Freedoms</a></li>
                   <li><a href="https://laws-lois.justice.gc.ca/eng/const/page-1.html" target="_blank" alt="Link to the Constitution Act web page">Constitution Act</a></li>
-                  <li><a href="https://laws-lois.justice.gc.ca/eng/lois/h-6/" target="_blank" alt="Link to the Canadian Human Rights Act web page">Canadian Human Rights Act</a></li>
+                  <li><a href="https://laws-lois.justice.gc.ca/eng/acts/h-6/" target="_blank" alt="Link to the Canadian Human Rights Act web page">Canadian Human Rights Act</a></li>
                   <li><a href="https://www.canada.ca/en/privy-council/corporate/clerk/call-to-action-anti-racism-equity-inclusion-federal-public-service.html" target="_blank" alt="Link to the Call to action on anti-racism, equity, and inclusion in the Federal Public Service web page">Call to action on anti-racism, equity, and inclusion in the Federal Public Service</a></li>
                   <li><a href="https://www.csps-efpc.gc.ca/anti-racism-eng.aspx" target="_blank" alt="Link to the Anti-Racism Learning Series web page">Anti-Racism Learning Series</a></li>
                 </ul>
@@ -200,8 +200,8 @@
                 <button type="button" aria-label="Close" class="close" @click="close()">×</button>
             </template>
             <div v-if="$i18n.locale=='en'">
-                <p>Watch this short video on how to make hiring more accessibly.<br />
-                <a href=" https://www.csps-efpc.gc.ca/video/disability-inclusion-psc-intro-eng.aspx" target="_blank" alt="Link to the Disability and Inclusion video">https://www.csps-efpc.gc.ca/video/disability-inclusion-psc-intro-eng.aspx</a></p>
+                <p>Watch this short video on how to make hiring more accessible:<br />
+                <a href=" https://www.csps-efpc.gc.ca/video/disability-inclusion-psc-intro-eng.aspx" target="_blank" alt="Link to the Disability and Inclusion video">Disability Inclusion in the Public Service of Canada: An Introduction</a>.</p>
                 <p>Be sure to apply legislation, government policies and your organization’s procedures in your role as manager.</p>
                 <ul>
                   <li><a href="https://laws-lois.justice.gc.ca/eng/acts/e-5.401/page-1.html" target="_blank" alt="Link to the Employment Equity Act web page">Employment Equity Act</a></li>
@@ -215,7 +215,7 @@
                 </ul>
               </div>
               <div v-if="$i18n.locale=='fr'">
-                <p>Regardez la courte vidéo ci-dessous qui explique comment rendre l’embauche plus accessible : <a href="https://www.csps-efpc.gc.ca/video/disability-inclusion-psc-intro-fra.aspx" target="_blank">https://www.csps-efpc.gc.ca/video/disability-inclusion-psc-intro-fra.aspx</a>. </p>
+                <p>Regardez la courte vidéo ci-dessous qui explique comment rendre l’embauche plus accessible : <a href="https://www.csps-efpc.gc.ca/video/disability-inclusion-psc-intro-fra.aspx" target="_blank">L'inclusion des personnes en situation de handicap dans la fonction publique du Canada : une introduction</a>.</p>
                 <p>Assurez-vous d’appliquer les lois et règlements, les politiques gouvernementales et les procédures de votre organisation à votre rôle de gestionnaire. </p>
                 <ul>
                   <li><a href="https://laws-lois.justice.gc.ca/fra/lois/h-6/" target="_blank" alt="Lien vers la page web de la loi sur l'équité en matière d'emploi">Loi canadienne sur les droits de la personne</a></li>
@@ -285,16 +285,16 @@
             <div v-if="$i18n.locale=='en'">
               <p><b>To supplement the knowledge required to perform your employment equity, diversity, inclusion and accessibility functions, be sure to complete the courses</b></p>
               <ul>
-                <li>Employment Equity Under the <i>Employment Equity Act</i> (P745)</li>
-                <li>Workplace Accommodation for Federal Public Service Employees (C345)</li>
+                <li>Employment Equity Under the <i>Employment Equity Act</i></li>
+                <li>Workplace Accommodation for Federal Public Service Employees</li>
               </ul>
               <p>These courses provide a more in-depth look at employment equity, inclusivity and accommodation to help you perform your duties in this area.</p>
             </div>
             <div v-if="$i18n.locale=='fr'">
               <p><b>Pour approfondir les connaissances nécessaires à l’exercice de vos fonctions relatives à l’équité en matière d’emploi, à la diversité, à l’inclusion et à l’accessibilité, suivez les cours suivants : </b></p>
               <ul>
-                <li>L’équité en matière d’emploi en vertu de la <i>Loi sur l’équité en matière d’emploi</i> (P745) </li>
-                <li>Mesures d’adaptation en milieu de travail à l’intention des employés de la fonction publique fédérale (C345) </li>
+                <li>L’équité en matière d’emploi en vertu de la <i>Loi sur l’équité en matière d’emploi</i></li>
+                <li>Mesures d’adaptation en milieu de travail à l’intention des employés de la fonction publique fédérale</li>
               </ul>
               <p>Ces cours, qui examinent de manière approfondie l’équité en matière d’emploi, l’inclusion et les mesures d’adaptation,  visent à vous aider à accomplir vos fonctions dans ce domaine. </p>
             </div>
