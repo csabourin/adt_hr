@@ -81,7 +81,7 @@
                 <template v-slot:title>
                   <span class="v-inv">Question </span>08
                 </template>
-               <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q8')" qId="7" :refill="Refill('7')" @response="arraysMatch($event,4,7)" />
+               <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q8')" qId="7" :refill="Refill('7')" @response="calculateAnswer($event,4,7)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[8]}]">
                 <template v-slot:title>
