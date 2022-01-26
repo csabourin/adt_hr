@@ -117,14 +117,13 @@
                 <template v-slot:title>
                   <span class="v-inv">Question </span>14
                 </template>
-                <checkboxQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q14')" qId="13" :refill="Refill('13')" @response="arraysMatch($event,['1','2','3'],13)" />
+                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q14')" qId="13" :refill="Refill('13')" @response="arraysMatch($event,4,13)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[14]}]">
                 <template v-slot:title>
                   <span class="v-inv">Question </span>15
                 </template>
                 <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q15')" qId="14" :refill="Refill('14')" @response="calculateAnswer($event,1,14)" />
-              </b-tab>
               </b-tab>
             </b-tabs>
           </b-card>
@@ -439,7 +438,7 @@ export default {
       "text": "In which of the situations is an employee entitled to present a grievance? ",
       "options": {
       "1": "If they feel aggrieved by a provision of a collective agreement ",
-      "2": "If they feel aggrieved about an occurrence affecting the terms and conditions of employment ",
+      "2": "If they feel aggrieved by the interpretation or application of an instrument that deals with the terms and conditions of employment",
       "3": "If they feel aggrieved by a policy or regulation on the distribution of organizational funding "
       },
       "feedback": {
@@ -595,16 +594,18 @@ export default {
       }
       },
       "q14": {
-      "text": "Which of the items  is considered a political activity?",
+      "text": "Which of the items is considered a political activity?",
       "options": {
       "1": "Voting in an election",
       "2": "Contributing funds to a candidate or political party ",
-      "3": "Displaying a lawn sign during an election campaign "
+      "3": "Displaying a lawn sign during an election campaign",
+      "4": "All of the above"
       },
       "feedback": {
       "1": "",
       "2": "",
-      "3": ""
+      "3": "",
+      "4": ""
       }
       },
       "q15": {
@@ -654,7 +655,7 @@ export default {
       "text": "Dans lesquelles des situations suivantes un employé a-t-il le droit de déposer un grief? ",
       "options": {
       "1": "S’il s’estime lésé par une disposition d’une convention collective. ",
-      "2": "S’il s’estime lésé par un incident ayant une incidence sur ses conditions d’emploi. ",
+      "2": "S’il s’estime lésé par l’interprétation ou l’application d’un instrument qui traite des conditions d’emploi. ",
       "3": "S’il s’estime lésé par une politique ou un règlement sur la distribution des fonds de l’organisation. "
       },
       "feedback": {
@@ -810,16 +811,18 @@ export default {
       }
       },
       "q14": {
-      "text": "Lequel des éléments suivants est considéré comme une activité politique?  ",
+      "text": "Lequel des éléments suivants est considéré comme une activité politique?",
       "options": {
       "1": "Voter à une élection. ",
       "2": "Contribuer au financement d’un candidat ou d’un parti politique. ",
-      "3": "Mettre une pancarte sur une pelouse pendant une campagne électorale.  "
+      "3": "Mettre une pancarte sur une pelouse pendant une campagne électorale.",
+      "4": "Toutes ces réponses."
       },
       "feedback": {
       "1": "",
       "2": "",
-      "3": ""
+      "3": "",
+      "4": ""
       }
       },
       "q15": {
