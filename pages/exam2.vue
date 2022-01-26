@@ -75,7 +75,7 @@
                 <template v-slot:title>
                   <span class="v-inv">Question </span>07
                 </template>
-                <checkboxQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q7')" qId="6" :refill="Refill('6')" @response="arraysMatch($event,['2','3','5'],6)" />
+                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q7')" qId="6" :refill="Refill('6')" @response="arraysMatch($event,3,6)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[7]}]">
                 <template v-slot:title>
@@ -99,7 +99,7 @@
                 <template v-slot:title>
                   <span class="v-inv">Question </span>11
                 </template>
-                <checkboxQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q11')" qId="10" :refill="Refill('10')" @response="arraysMatch($event,['1','2','3'],10)" />
+                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q11')" qId="10" :refill="Refill('10')" @response="arraysMatch($event,4,10)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[11]}]">
                 <template v-slot:title>
@@ -530,16 +530,14 @@ export default {
         }
       },
       "q7": {
-        "text": "Organization and Classification has a direct impact on human resources management.  Which of the following are areas of HR management in Organization and Classification.",
+        "text": "Organization and Classification has a direct impact on human resources management.  Which of the following is not an area of HR management in Organization and Classification.",
         "options": {
-          "1": "Labour relations",
-          "2": "Mandate and budget",
-          "3": "Organizational design",
-          "4": "Employment Equity ",
-          "5": "Resourcing"
+          "1": "Mandate and budget",
+          "2": "Organizational design",
+          "3": "Employment Equity ",
+          "4": "Resourcing"
         },
         "feedback": {
-          "1": "",
           "2": "",
           "3": "",
           "4": "",
@@ -588,16 +586,18 @@ export default {
         }
       },
       "q11": {
-        "text": "What should you consider  when determining your staffing needs?",
+        "text": "What should you consider when determining your staffing needs?",
         "options": {
           "1": "Business plans",
           "2": "Qualifications required for the position ",
-          "3": "Organizational objectives, such as employment equity"
+          "3": "Organizational objectives, such as employment equity",
+          "4": "All of the above"
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": ""
+          "3": "",
+          "4": ""
         }
       },
       "q12": {
@@ -825,20 +825,18 @@ export default {
         }
       },
       "q7": {
-        "text": "L’organisation et la classification ont une incidence directe sur la gestion des ressources humaines. Quels aspects de la gestion des RH sont liés à l’organisation et à la classification?  ",
+        "text": "L’organisation et la classification ont une incidence directe sur la gestion des ressources humaines. Quel aspect de la gestion des RH n'est pas pas lié à l’organisation et à la classification?",
         "options": {
-          "1": "Relations de travail ",
-          "2": "Mandat et budget ",
-          "3": "Conception organisationnelle ",
-          "4": "Équité en matière d’emploi ",
-          "5": "Ressourcement"
+          "1": "Mandat et budget ",
+          "2": "Conception organisationnelle ",
+          "3": "Équité en matière d’emploi ",
+          "4": "Ressourcement"
         },
         "feedback": {
           "1": "",
           "2": "",
           "3": "",
-          "4": "",
-          "5": ""
+          "4": ""
         }
       },
       "q8": {
@@ -887,12 +885,14 @@ export default {
         "options": {
           "1": "Les plans d’activités",
           "2": "Les qualifications requises pour le poste",
-          "3": "Les objectifs organisationnels, comme l’équité en matière d’emploi"
+          "3": "Les objectifs organisationnels, comme l’équité en matière d’emploi",
+          "4": "Toutes ces réponses"
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": ""
+          "3": "",
+          "4": ""
         }
       },
       "q12": {
