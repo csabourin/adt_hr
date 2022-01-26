@@ -801,7 +801,7 @@ export default {
       "text": "Dans les régions bilingues, les gestionnaires et les superviseurs doivent veiller au respect de la <i>Loi sur les langues officielles</i>. Laquelle des affirmations suivantes est <u>fausse</u>?",
       "options": {
       "1": "Les gestionnaires supervisent les employés dans la langue associée à leur poste s’il s’agit de postes unilingues. ",
-      "2": "Les gestionnaires permettent aux employés à parler leur deuxième langue en alternant les réunions unilingues anglaises et les réunions unilingues françaises.",
+      "2": "Les gestionnaires permettent aux employés de pratiquer les deux langues officielles en alternant les réunions unilingues anglaises et les réunions unilingues françaises.",
       "3": "Les gestionnaires s’assurent que les séances de formation et les activités de perfectionnement professionnel sont offertes aux employés dans la langue officielle de leur choix. "
       },
       "feedback": {
