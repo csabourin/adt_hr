@@ -57,7 +57,7 @@
                 <template v-slot:title>
                   <span class="v-inv">Question </span>04
                 </template>
-                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q4')" qId="3" :refill="Refill('3')" @response="arraysMatch($event,3,3)" />
+                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q4')" qId="3" :refill="Refill('3')" @response="calculateAnswer($event,3,3)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[4]}]">
                 <template v-slot:title>
@@ -75,7 +75,7 @@
                 <template v-slot:title>
                   <span class="v-inv">Question </span>07
                 </template>
-                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q7')" qId="6" :refill="Refill('6')" @response="arraysMatch($event,3,6)" />
+                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q7')" qId="6" :refill="Refill('6')" @response="calculateAnswer($event,3,6)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[7]}]">
                 <template v-slot:title>
@@ -99,13 +99,13 @@
                 <template v-slot:title>
                   <span class="v-inv">Question </span>11
                 </template>
-                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q11')" qId="10" :refill="Refill('10')" @response="arraysMatch($event,4,10)" />
+                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q11')" qId="10" :refill="Refill('10')" @response="calculateAnswer($event,4,10)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[11]}]">
                 <template v-slot:title>
                   <span class="v-inv">Question </span>12
                 </template>
-                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q12')" qId="11" :refill="Refill('11')" @response="arraysMatch($event,4,11)" />
+                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q12')" qId="11" :refill="Refill('11')" @response="calculateAnswer($event,4,11)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[12]}]">
                 <template v-slot:title>
@@ -123,7 +123,7 @@
                 <template v-slot:title>
                   <span class="v-inv">Question </span>15
                 </template>
-                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q15')" qId="14" :refill="Refill('14')" @response="arraysMatch($event,4,14)" />
+                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q15')" qId="14" :refill="Refill('14')" @response="calculateAnswer($event,4,14)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[15]}]">
                 <template v-slot:title>
