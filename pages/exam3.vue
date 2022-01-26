@@ -581,10 +581,10 @@ export default {
       }
       },
       "q13": {
-      "text": "In bilingual regions, managers and supervisors are responsible for ensuring that the <i>Official Languages Act</i> is upheld.  Which of the following statements is <u>wrong</u>? ",
+      "text": "In bilingual regions, managers and supervisors are responsible for ensuring that the <i>Official Languages Act</i> is upheld. Which of the following statements is <u>wrong</u>? ",
       "options": {
       "1": "Managers supervise employees in the language of the position when they occupy unilingual positions ",
-      "2": "Managers take all necessary measures to enable employees practice both official languages by holding meetings alternately in French and English ",
+      "2": "Managers enable employees to practice both official languages by alternating between English only meetings and French only meetings",
       "3": "Managers ensure that training and professional development is available to employees in the official language of their choice"
       },
       "feedback": {
@@ -801,7 +801,7 @@ export default {
       "text": "Dans les régions bilingues, les gestionnaires et les superviseurs doivent veiller au respect de la <i>Loi sur les langues officielles</i>. Laquelle des affirmations suivantes est <u>fausse</u>?",
       "options": {
       "1": "Les gestionnaires supervisent les employés dans la langue associée à leur poste s’il s’agit de postes unilingues. ",
-      "2": "Les gestionnaires prennent toutes les mesures nécessaires pour que les employés puissent s’exercer à comprendre et à parler leur deuxième langue en tenant des réunions en anglais ou en français, en alternance. ",
+      "2": "Les gestionnaires permettent aux employés à parler leur deuxième langue en alternant les réunions unilingues anglaises et les réunions unilingues françaises.",
       "3": "Les gestionnaires s’assurent que les séances de formation et les activités de perfectionnement professionnel sont offertes aux employés dans la langue officielle de leur choix. "
       },
       "feedback": {
