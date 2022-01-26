@@ -57,7 +57,7 @@
                 <template v-slot:title>
                   <span class="v-inv">Question </span>04
                 </template>
-                <checkboxQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q4')" qId="3" :refill="Refill('3')" @response="arraysMatch($event,['3','5'],3)" />
+                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q4')" qId="3" :refill="Refill('3')" @response="arraysMatch($event,3,3)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[4]}]">
                 <template v-slot:title>
@@ -105,7 +105,7 @@
                 <template v-slot:title>
                   <span class="v-inv">Question </span>12
                 </template>
-                <checkboxQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q12')" qId="11" :refill="Refill('11')" @response="arraysMatch($event,['1','2','3'],11)" />
+                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q12')" qId="11" :refill="Refill('11')" @response="arraysMatch($event,4,11)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[12]}]">
                 <template v-slot:title>
@@ -123,7 +123,7 @@
                 <template v-slot:title>
                   <span class="v-inv">Question </span>15
                 </template>
-                <checkboxQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q15')" qId="14" :refill="Refill('14')" @response="arraysMatch($event,['1','2','3'],14)" />
+                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q15')" qId="14" :refill="Refill('14')" @response="arraysMatch($event,4,14)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[15]}]">
                 <template v-slot:title>
@@ -494,15 +494,13 @@ export default {
           "1": "Ensure that the position fits into the organizational structure",
           "2": "Write a job description that aligns with your organizational mandate and business objectives",
           "3": "Decide on the group and level of the position based on the job description",
-          "4": "Verify that the job description is representative of the work assigned to the position ",
-          "5": "Ensure that the funds are available to staff the position  "
+          "4": "Verify that the job description is representative of the work assigned to the position"
         },
         "feedback": {
           "1": "",
           "2": "",
           "3": "",
-          "4": "",
-          "5": ""
+          "4": ""
         }
       },
       "q5": {
@@ -607,12 +605,14 @@ export default {
         "options": {
           "1": "The Clerk of the Privy Council",
           "2": "The Treasury Board Secretariat",
-          "3": "The Deputy Head"
+          "3": "The Deputy Head",
+          "4": "All of the above"
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": ""
+          "3": "",
+          "4": ""
         }
       },
       "q13": {
@@ -642,7 +642,7 @@ export default {
         }
       },
       "q15": {
-        "text": "Which of the following staffing options can a manager use to hire someone for an indeterminate period of employment?  ",
+        "text": "Which of the following staffing options is <u>NOT</u> used to hire someone for an indeterminate period of employment?",
         "options": {
           "1": "External advertised appointment process",
           "2": "Deployment  ",
@@ -784,20 +784,18 @@ export default {
         }
       },
       "q4": {
-        "text": "Lequel des éléments suivants <u>NE</u> représente <u>PAS</u>, lors de la création d’un nouveau poste, une de vos responsabilités en matière d’organisation et de classification en tant que gestionnaire?  ",
+        "text": "Lequel des éléments suivants NE représente PAS, lors de la création d’un nouveau poste, une de vos responsabilités en matière d’organisation et de classification en tant que gestionnaire?",
         "options": {
-          "1": "Faire en sorte que le poste s’intègre bien dans la structure organisationnelle.  ",
-          "2": "Rédiger une description de travail qui correspond au mandat et aux objectifs opérationnels de votre organisation.  ",
-          "3": "Déterminer le groupe et le niveau du poste à la lumière de la description de travail.  ",
-          "4": "Vérifier que la description du poste est représentative des fonctions du poste. ",
-          "5": "S’assurer que les fonds sont disponibles pour la dotation du poste. "
+          "1": "Faire en sorte que le poste s’intègre bien dans la structure organisationnelle.",
+          "2": "Rédiger une description de travail qui correspond au mandat et aux objectifs opérationnels de votre organisation.",
+          "3": "Déterminer le groupe et le niveau du poste à la lumière de la description de travail.",
+          "4": "Vérifier que la description du poste est représentative des fonctions du poste."
         },
         "feedback": {
           "1": "",
           "2": "",
           "3": "",
-          "4": "",
-          "5": ""
+          "4": ""
         }
       },
       "q5": {
@@ -902,12 +900,14 @@ export default {
         "options": {
           "1": "Le greffier du Conseil privé",
           "2": "Le Secrétariat du Conseil du Trésor",
-          "3": "L’administrateur général  "
+          "3": "L’administrateur général  ",
+          "4": "Toutes ces réponses"
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": ""
+          "3": "",
+          "4": ""
         }
       },
       "q13": {
@@ -937,7 +937,7 @@ export default {
         }
       },
       "q15": {
-        "text": "Lesquelles des options de dotation suivantes un gestionnaire peut-il utiliser pour embaucher une personne pour une période indéterminée?  ",
+        "text": "Laquelle des options de dotation suivantes n'est pas une stratégie pour embaucher une personne pour une période indéterminée?",
         "options": {
           "1": "Processus de nomination externe annoncé  ",
           "2": "Mutation",
