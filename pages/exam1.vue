@@ -81,7 +81,7 @@
                 <template v-slot:title>
                   <span class="v-inv">Question </span>08
                 </template>
-               <checkboxQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q8')" qId="7" :refill="Refill('7')" @response="arraysMatch($event,['2','3'],7)" />
+               <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q8')" qId="7" :refill="Refill('7')" @response="arraysMatch($event,4,7)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[8]}]">
                 <template v-slot:title>
@@ -426,7 +426,7 @@ export default {
         }
       },
       "q5": {
-        "text": "For which activities would you use your Organizational HR Delegation Instrument?  ",
+        "text": "Organizations use the Organizational HR Delegation Instrument to confirm the level of authority needed to approve such HR activities as :",
         "options": {
           "1": "Assign authorities to a person  ",
           "2": "Approve leave requests ",
@@ -469,12 +469,12 @@ export default {
         }
       },
       "q8": {
-        "text": "Managers are responsible for which of the following  HR planning activities? ",
+        "text": "Managers are responsible for which of the following HR planning activities?",
         "options": {
-          "1": "Identify and eliminate barriers to employment to ensure equity and diversity in the workforce   ",
+          "1": "Communicate the HR plan",
           "2": "Evaluate the effectiveness of the plan and adapting it as required   ",
           "3": "Link succession planning strategies to program and financial planning ",
-          "4": "Redeploy individuals who are surplus in one area to a different area  "
+          "4": "All of the above"
         },
         "feedback": {
           "1": "",
@@ -575,7 +575,7 @@ export default {
         }
       },
       "q5": {
-        "text": "Pour quelles activités utiliseriez-vous l’instrument de délégation des pouvoirs en matière de RH de votre organisation?  ",
+        "text": "Les organisations utilisent leur instrument de délégation des pouvoirs en matière de RH de l’organisation pour confirmer le niveau décisionnel requis pour approuver des activités de RH comme : ",
         "options": {
           "1": "Attribuer des pouvoirs à une personne. ",
           "2": "Approuver les congés. ",
@@ -620,10 +620,10 @@ export default {
       "q8": {
         "text": "Parmi les activités de planification des RH suivantes, lesquelles incombent aux gestionnaires? ",
         "options": {
-          "1": "Déterminer et éliminer les obstacles à l’emploi afin d’assurer l’équité et la diversité de l’effectif.   ",
+          "1": "Communiquer le plan des RH.",
           "2": "Évaluer l’efficacité du plan et l’adapter au besoin.  ",
           "3": "Établir un lien entre, d’une part, les stratégies de planification de la relève et, d’autre part, la planification de programme et la planification financière.  ",
-          "4": "Muter à un autre secteur les employés qui sont excédentaires dans un secteur donné. "
+          "4": "Toutes ces réponses."
         },
         "feedback": {
           "1": "",
