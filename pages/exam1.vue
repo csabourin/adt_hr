@@ -57,7 +57,7 @@
                 <template v-slot:title>
                   <span class="v-inv">Question </span>04
                 </template>
-                <checkboxQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q4')" qId="3" :refill="Refill('3')" @response="arraysMatch($event,['1','2','4','5'],3)" />
+                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q4')" qId="3" :refill="Refill('3')" @response="calculateAnswer($event,2,3)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[4]}]">
                 <template v-slot:title>
@@ -411,20 +411,18 @@ export default {
         }
       },
       "q4": {
-        "text": "Deputy heads obtain their HR delegated authorities from which sources.   ",
+        "text": "Deputy heads are accountable to the ____________ for the application of all of the appointment and appointment-related authorities delegated to them, including those that they have sub- delegated.",
         "options": {
           "1": "Parliament ",
           "2": "The Public Service Commission ",
-          "3": "Appointment Delegation and Accountability Instrument  ",
-          "4": "The <i>Financial Administration Act</i>",
-          "5": "The Clerk of the Privy Council "
+          "3": "Treasury Board Secretariat of Canada",
+          "4": "The Clerk of the Privy Council"
         },
         "feedback": {
           "1": "",
           "2": "",
           "3": "",
-          "4": "",
-          "5": ""
+          "4": ""
         }
       },
       "q5": {
@@ -562,20 +560,18 @@ export default {
         }
       },
       "q4": {
-        "text": "Auprès de quelles sources les administrateurs généraux obtiennent-ils leurs pouvoirs délégués en matière de RH?",
+        "text": "Les administrateurs généraux sont responsables auprès de la CFP de l’utilisation de tous les pouvoirs de nomination et pouvoirs connexes qui leur sont délégués, y compris tous les pouvoirs qu’ils ont subdélégués.",
         "options": {
           "1": "Le Parlement  ",
           "2": "La Commission de la fonction publique ",
-          "3": "L’Instrument de délégation et de responsabilisation en matière de nomination ",
-          "4": "La <i>Loi sur la gestion des finances publiques</i>",
-          "5": "Le greffier du Conseil privé  "
+          "3": "Le Secrétariat du Conseil du Trésor du Canada ",
+          "4": "Le greffier du Conseil privé"
         },
         "feedback": {
           "1": "",
           "2": "",
           "3": "",
-          "4": "",
-          "5": ""
+          "4": ""
         }
       },
       "q5": {

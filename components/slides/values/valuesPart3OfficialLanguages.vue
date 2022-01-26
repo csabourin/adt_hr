@@ -9,13 +9,6 @@
       <b-tab title="Question 1"><radioQuiz :question="$t('q1')" qId="1" /></b-tab>
       <b-tab title="Question 2"><radioQuiz :question="$t('q2')" qId="2" /></b-tab>
       <b-tab title="Question 3"><radioQuiz :question="$t('q3')" qId="3" /></b-tab>
-      <b-tab title="Question 4"><radioQuiz :question="$t('q4')" qId="4" /></b-tab>
-      <b-tab title="Question 5"><radioQuiz :question="$t('q5')" qId="5" /></b-tab>
-      <b-tab title="Question 6"><radioQuiz :question="$t('q6')" qId="6" /></b-tab>
-      <b-tab title="Question 7"><radioQuiz :question="$t('q7')" qId="7" /></b-tab>
-      <b-tab title="Question 8"><radioQuiz :question="$t('q8')" qId="8" /></b-tab>
-      <b-tab title="Question 9"><radioQuiz :question="$t('q9')" qId="9" /></b-tab>
-      <b-tab title="Question 10"><radioQuiz :question="$t('q10')" qId="10" /></b-tab>
     </b-tabs>
           <!-- Control buttons-->
       <div class="text-center">
@@ -93,90 +86,6 @@
         "2": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       },
       "conclusion": ""
-    },
-    "q4": {
-      "text": "Organizations respect the language-of-work rights of employees in the institutions they provide services to or have authority over.",
-      "options": {
-        "1": "Unilingual region",
-        "2": "Bilingual region"
-      },
-      "feedback": {
-        "1": "<span class='v-right' /><strong>Correct!</strong>",
-        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>"
-      },
-      "conclusion": ""
-    },
-    "q5": {
-      "text": "Employees who occupy bilingual positions have email signature blocks, voicemail messages and automated messages that are complete in each of the two official languages.",
-      "options": {
-        "1": "Unilingual region",
-        "2": "Bilingual region"
-      },
-      "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
-      },
-      "conclusion": ""
-    },
-    "q6": {
-      "text": "Employees are able to communicate with employees of other institutions who speak the other official language.",
-      "options": {
-        "1": "Unilingual region",
-        "2": "Bilingual region"
-      },
-      "feedback": {
-        "1": "<span class='v-right' /><strong>Correct!</strong>",
-        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>"
-      },
-      "conclusion": ""
-    },
-    "q7": {
-      "text": "Employees are able to communicate with employees of other institutions in either official language.",
-      "options": {
-        "1": "Unilingual region",
-        "2": "Bilingual region"
-      },
-      "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
-      },
-      "conclusion": ""
-    },
-    "q8": {
-      "text": "Employees who occupy bilingual positions have email signature blocks, voicemail messages and automated messages that are complete in each of the two official languages.",
-      "options": {
-        "1": "Unilingual region",
-        "2": "Bilingual region"
-      },
-      "feedback": {
-        "1": "<span class='v-right' /><strong>Correct!</strong>",
-        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>"
-      },
-      "conclusion": ""
-    },
-    "q9": {
-      "text": "Communications with employees in regions with differing languages of work are conducted using one of the options listed in Appendix 1 of the <a href='https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=26164' target='_blank' alt='Link to the Directive on Official Languages for Communications and Services web page'>Directive on Official Languages for Communications and Services</a>.",
-      "options": {
-        "1": "Unilingual region",
-        "2": "Bilingual region"
-      },
-      "feedback": {
-        "1": "<span class='v-right' /><strong>Correct!</strong>",
-        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>"
-      },
-      "conclusion": ""
-    },
-    "q10": {
-      "text": "Communications with specific employees are in their preferred language.",
-      "options": {
-        "1": "Unilingual region",
-        "2": "Bilingual region"
-      },
-      "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
-      },
-      "conclusion": ""
     }
   },
   "fr": {
@@ -207,90 +116,6 @@
     },
     "q3": {
       "text": "Les communications et les services destinés exclusivement aux employés des régions unilingues sont offerts dans la langue officielle de la province ou du territoire en question.",
-      "options": {
-        "1": "Région unilingue",
-        "2": "Région bilingue "
-      },
-      "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
-      },
-      "conclusion": ""
-    },
-    "q4": {
-      "text": "Les organisations respectent les droits en matière de langue de travail des employés qui travaillent dans les institutions auxquelles elles offrent des services ou sur lesquelles elles exercent une autorité.",
-      "options": {
-        "1": "Région unilingue",
-        "2": "Région bilingue "
-      },
-      "feedback": {
-        "1": "<span class='v-right' /><strong>Correct!</strong>",
-        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>"
-      },
-      "conclusion": ""
-    },
-    "q5": {
-      "text": "Les employés occupant un poste bilingue ont un bloc‑signature de courriel, un message de boîte vocale et un message de réponse automatique entièrement bilingues (dans les deux langues officielles).",
-      "options": {
-        "1": "Région unilingue",
-        "2": "Région bilingue "
-      },
-      "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
-      },
-      "conclusion": ""
-    },
-    "q6": {
-      "text": "Les employés sont en mesure de communiquer avec les employés d’autres institutions qui s’expriment dans l’autre langue officielle.",
-      "options": {
-        "1": "Région unilingue",
-        "2": "Région bilingue "
-      },
-      "feedback": {
-        "1": "<span class='v-right' /><strong>Correct!</strong>",
-        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>"
-      },
-      "conclusion": ""
-    },
-    "q7": {
-      "text": "Les employés sont en mesure de communiquer avec les employés d’autres institutions dans l’une ou l’autre des langues officielles.",
-      "options": {
-        "1": "Région unilingue",
-        "2": "Région bilingue "
-      },
-      "feedback": {
-        "1": "<span class='v-wrong' /><strong>Incorrect.</strong>",
-        "2": "<span class='v-right' /><strong>Correct!</strong>"
-      },
-      "conclusion": ""
-    },
-    "q8": {
-      "text": "Les employés occupant un poste bilingue ont un bloc‑signature de courriel, un message de boîte vocale et un message de réponse automatique entièrement bilingues (dans les deux langues officielles).",
-      "options": {
-        "1": "Région unilingue",
-        "2": "Région bilingue "
-      },
-      "feedback": {
-        "1": "<span class='v-right' /><strong>Correct!</strong>",
-        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>"
-      },
-      "conclusion": ""
-    },
-    "q9": {
-      "text": "Les communications avec les employés de régions qui utilisent une langue de travail différente sont assurées conformément à l’une des options citées à l’appendice 1 de la <a href='https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=26164' target='_blank' alt='Lien vers la page web de la directive sur les langues officielles pour les communications et les services'>Directive sur les langues officielles pour les communications et services</a>.",
-      "options": {
-        "1": "Région unilingue",
-        "2": "Région bilingue "
-      },
-      "feedback": {
-        "1": "<span class='v-right' /><strong>Correct!</strong>",
-        "2": "<span class='v-wrong' /><strong>Incorrect.</strong>"
-      },
-      "conclusion": ""
-    },
-    "q10": {
-      "text": "Les communications directes avec un employé se font  dans la langue de préférence de ce dernier.",
       "options": {
         "1": "Région unilingue",
         "2": "Région bilingue "
