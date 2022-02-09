@@ -3,9 +3,9 @@ export const state = () => ({
   showCC: window.localStorage.getItem("showCC") || false,
   volume: window.localStorage.getItem("volume") || 100,
   homepage: parseInt(window.localStorage.getItem("homepage"),10) || 0,
-  kmPlan: parseInt(window.localStorage.getItem("kmPlan"),10) || 0,
-  kmSpend: parseInt(window.localStorage.getItem("kmSpend"),10) || 0,
-  kmReport: parseInt(window.localStorage.getItem("kmReport"),10) || 0,
+  kmPlan: parseInt(window.localStorage.getItem("kmFoundation"),10) || 0,
+  kmSpend: parseInt(window.localStorage.getItem("kmFunction"),10) || 0,
+  kmReport: parseInt(window.localStorage.getItem("kmValues"),10) || 0,
   buildWP: parseInt(window.localStorage.getItem("foundationPart1"),10) || 0,
   createBudget: parseInt(window.localStorage.getItem("foundationPart2"),10) || 0,
   spendPart1: parseInt(window.localStorage.getItem("functionPart1"),10) || 0,
@@ -41,15 +41,15 @@ export const mutations = {
     state.homepage = playing
   },
   setKmPlan(state, playing) {
-    window.localStorage.setItem("kmPlan", playing)
+    window.localStorage.setItem("kmFoundation", playing)
     state.kmPlan = playing
   },
   setKmSpend(state, playing) {
-    window.localStorage.setItem("kmSpend", playing)
+    window.localStorage.setItem("kmFunction", playing)
     state.kmSpend = playing
   },
   setKmReport(state, playing) {
-    window.localStorage.setItem("kmReport", playing)
+    window.localStorage.setItem("kmValues", playing)
     state.kmReport = playing
   },
   setBuildWP(state, playing) {
