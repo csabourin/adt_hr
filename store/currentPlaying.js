@@ -6,13 +6,15 @@ export const state = () => ({
   kmPlan: parseInt(window.localStorage.getItem("kmPlan"),10) || 0,
   kmSpend: parseInt(window.localStorage.getItem("kmSpend"),10) || 0,
   kmReport: parseInt(window.localStorage.getItem("kmReport"),10) || 0,
-  buildWP: parseInt(window.localStorage.getItem("buildWP"),10) || 0,
-  createBudget: parseInt(window.localStorage.getItem("createBudget"),10) || 0,
-  spendPart1: parseInt(window.localStorage.getItem("spendPart1"),10) || 0,
-  spendPart2: parseInt(window.localStorage.getItem("spendPart2"),10) || 0,
-  spendPart3: parseInt(window.localStorage.getItem("spendPart3"),10) || 0,
-  reportPart1: parseInt(window.localStorage.getItem("reportPart1"),10) || 0,
-  reportPart2: parseInt(window.localStorage.getItem("reportPart2"),10) || 0,
+  buildWP: parseInt(window.localStorage.getItem("foundationPart1"),10) || 0,
+  createBudget: parseInt(window.localStorage.getItem("foundationPart2"),10) || 0,
+  spendPart1: parseInt(window.localStorage.getItem("functionPart1"),10) || 0,
+  spendPart2: parseInt(window.localStorage.getItem("functionPart2"),10) || 0,
+  spendPart3: parseInt(window.localStorage.getItem("functionPart3"),10) || 0,
+  reportPart1: parseInt(window.localStorage.getItem("valuesPart1"),10) || 0,
+  reportPart2: parseInt(window.localStorage.getItem("valuesPart2"),10) || 0,
+  valuesPart3: parseInt(window.localStorage.getItem("valuesPart3"),10) || 0,
+  valuesPart4: parseInt(window.localStorage.getItem("valuesPart4"),10) || 0,
   buildWP_player: parseInt(window.localStorage.getItem("buildWP_player"),10) || 0,
   createBudget_player: parseInt(window.localStorage.getItem("createBudget_player"),10) || 0,
   spendPart1_player: parseInt(window.localStorage.getItem("spendPart1_player"),10) || 0,
@@ -51,31 +53,39 @@ export const mutations = {
     state.kmReport = playing
   },
   setBuildWP(state, playing) {
-    window.localStorage.setItem("buildWP", playing)
+    window.localStorage.setItem("foundationPart1", playing)
     state.buildWP = playing
   },
   setCreateBudget(state, playing) {
-    window.localStorage.setItem("createBudget", playing)
+    window.localStorage.setItem("foundationPart2", playing)
     state.createBudget = playing
   },
   setSpendPart1(state, playing) {
-    window.localStorage.setItem("spendPart1", playing)
+    window.localStorage.setItem("functionPart1", playing)
     state.spendPart1 = playing
   },
   setSpendPart2(state, playing) {
-    window.localStorage.setItem("spendPart2", playing)
+    window.localStorage.setItem("functionPart2", playing)
     state.spendPart2 = playing
   },
   setSpendPart3(state, playing) {
-    window.localStorage.setItem("spendPart3", playing)
+    window.localStorage.setItem("functionPart3", playing)
     state.spendPart3 = playing
   },
   setReportPart1(state, playing) {
-    window.localStorage.setItem("reportPart1", playing)
+    window.localStorage.setItem("valuesPart1", playing)
     state.reportPart1 = playing
   },
   setReportPart2(state, playing) {
-    window.localStorage.setItem("reportPart2", playing)
+    window.localStorage.setItem("valuesPart2", playing)
+    state.reportPart2 = playing
+  },
+  setValuesPart3(state, playing) {
+    window.localStorage.setItem("valuesPart3", playing)
+    state.reportPart2 = playing
+  },
+  setValuesPart4(state, playing) {
+    window.localStorage.setItem("valuesPart4", playing)
     state.reportPart2 = playing
   },
   setBuildWP_player(state, playing) {
