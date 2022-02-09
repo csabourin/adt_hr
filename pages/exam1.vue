@@ -520,7 +520,7 @@ export default {
     "tryAgain": "Essayer de nouveau",
     "scoreIs":"Votre note finale est de",
     "unanswered":"Question(s) sans réponse",
-    "plan": "BASE",
+    "plan": "ÉLÉMENTS DE BASE",
     "Questions": {
       "q1": {
         "text": "Les administrateurs généraux se voient confier certains pouvoirs par la Commission de la fonction publique, comme le choix du processus de nomination et l’embauche de travailleurs occasionnels. Quel document octroie ces pouvoirs? ",

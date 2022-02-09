@@ -288,7 +288,7 @@ export default {
   "gotIt":"Passer au segment suivant.",
   "gotItContent": "Les fenêtres contextuelles apparaissent tout au long du cours pour indiquer ce qui vient ensuite comme une vidéo, un exercice, une liste de liens ou une aide à l’emploi.",
   "transcriptText":"",
-  "planSectionBar": "BASE"
+  "planSectionBar": "ÉLÉMENTS DE BASE"
   }
   }
 </i18n>

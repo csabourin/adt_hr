@@ -299,7 +299,7 @@ export default {
   "jumpModalPartsWP":"Sauter à l’activité",
   "playSegment":"Faire jouer le segment vidéo",
   "transcriptText":"",
-  "planSectionBar": "BASE"
+  "planSectionBar": "ÉLÉMENTS DE BASE"
   }
   }
 </i18n>
