@@ -67,343 +67,237 @@
             <b-card-body>
               <b-card-text>
                 <span v-if="$i18n.locale=='en'">
-                  <!--<dl>
-                    <dt>Coding structure</dt>
-                    <dd>It’s a method of classifying transactions that allows an organization to capture financial information. It is the common language that permits accounting and financial data to be identified, aggregated, and reported for planning, resource allocation, management control, and evaluation purposes.</dd>
+                  <dl>
+                    <dt>apparent conflict of interest (conflit d’intérêts apparent)</dt>
+                    <dd>A situation that could be perceived as a conflict of interest by a reasonable observer, whether or not it is the case.</dd>
                   </dl>
                   <dl>
-                    <dt>Fund</dt>
+                    <dt>barriers (obstacles)</dt>
+                    <dd>Include physical, architectural, technological or attitudinal obstacles, policies, practices, systems, or procedures that exclude or hinder the full and equal participation of persons protected from discrimination by the <em>Canadian Human Rights Act</em>, in employment.</dd>
+                  </dl>
+                  <dl>
+                    <dt>candidate (candidat(e))</dt>
+                    <dd>For the purposes of the <em>Directive on the Duty to Accommodate</em>, a person who has applied for a position for which a bona fide occupational requirement has been established.</dd>
+                  </dl>
+                  <dl>
+                    <dt>casual worker (travailleur occasionnel)</dt>
+                    <dd>A person who is appointed pursuant to subsection 50(1) of the <em>Public Service Employment Act</em>.</dd>
+                  </dl>
+                  <dl>
+                    <dt>classification conversion (conversion en matière de classification)</dt>
+                    <dd>A change in the method of establishing the relative value of work for an occupational group or subgroup.</dd>
+                  </dl>
+                  <dl>
+                    <dt>classification decision (décision de classification)</dt>
+                    <dd>A decision made by the deputy head, a senior official designated by the deputy head for classification grievances purposes, or an accredited person exercising classification authority, which establishes or confirms the occupational group, subgroup (if applicable), level, or ratings assigned to a job.</dd>
+                  </dl>
+                  <dl>
+                    <dt>classification grievance (grief de classification)</dt>
                     <dd>A budget made available for a particular purpose; for example, salary, operating, and capital.</dd>
                   </dl>
                   <dl>
-                    <dt>General ledger</dt>
-                    <dd>It’s the lowest level to which expenditures get coded. </dd>
+                    <dt>conflict of interest (conflit d’intérêt)</dt>
+                    <dd>A situation, whether real, apparent or potential, in which the person employed has private interests that could influence the performance of their official duties and responsibilities or in which the person employed uses their office for personal gain.</dd>
                   </dl>
                   <dl>
-                    <dt>Internal order</dt>
-                    <dd>It’s a self-contained mini-project in which you can track expenditures.</dd>
+                    <dt>designated groups (groupes désignés)</dt>
+                    <dd>Has the same meaning as in section 3 of the Employment Equity Act: means women, Aboriginal peoples, persons with disabilities and members of visible minorities.</dd>
                   </dl>
                   <dl>
-                    <dt>Program inventory</dt>
-                    <dd>Identifies the programs that contribute to the department’s Core Responsibilities and Results.</dd>
+                    <dt>diversity (diversité)</dt>
+                    <dd>A workforce that comprises individuals who have an array of identities, abilities, backgrounds, cultures, skills, perspectives, and experiences that are representative of Canada’s current and evolving population. This includes but is not limited to differences in ethnicity or race, culture, religion, disability, sexual orientation, gender identity, age, educational background, region, and marital or parental status.</dd>
                   </dl>
                   <dl>
-                    <dt>Responsibility centre</dt>
-                    <dd>It’s an identifier associated with a manager or unit within an organization, to which budget commitments and expenditures can be recorded. </dd>
+                    <dt>emergency (urgence)</dt>
+                    <dd>An abnormal event or situation that requires prompt action, beyond normal procedures, in order to limit damage to persons, property, or the environment.</dd>
                   </dl>
                   <dl>
-                    <dt>Result</dt>
-                    <dd>An external consequence attributed, in part, to an organization, policy, program, or initiative. Results are set within various control areas of the organization.</dd>
+                    <dt>executive (cadre supérieur)</dt>
+                    <dd>A person appointed or deployed to a position allocated to the Executive Group (EX01 to EX05). Unless specifically excluded in the application of the associated directives, standards, or mandatory procedures, this includes persons employed in the following excluded or unrepresented positions:
+                      <ol>
+                        <li>Defence Scientific Service (DS) Group, levels 7A, 7B, and 8;</li>
+                        <li>Medical Officer (MDMOF) Group, levels 4 and 5; and</li>
+                        <li>Medical Specialist (MDMSP) Group, level 3; or</li>
+                        <li>Law Management (LC) Group, levels 1 to 4.</li>
+                      </ol>
+                    </dd>
                   </dl>
                   <dl>
-                    <dt>Target</dt>
-                    <dd>A measurable performance or success level that an organization, program, or initiative plans to achieve within a specified time period. Targets can be either quantitative or qualitative.</dd>
-                  </dl>-->
-                  <dl>
-                    <dt>capital budget</dt>
-                    <dd>Long term investments like infrastructure and facilities, that are paid off over time.</dd>
+                    <dt>flexible work arrangements (régimes de travail souples)</dt>
+                    <dd>Includes measures that allow for flexibility in scheduling hours worked and in the place of work, including but not limited to, telework and compressed workweeks.</dd>
                   </dl>
                   <dl>
-                    <dt>coding structure </dt>
-                    <dd>It’s a method of classifying transactions that allows an organization to capture financial information. It is the common language that permits accounting and financial data to be identified, aggregated, and reported for planning, resource allocation, management control, and evaluation purposes.</dd>
+                    <dt>harassment and violence (harcèlement et violence)</dt>
+                    <dd>Has the same meaning as subsection 122(1) of the <em>Canada Labour Code</em>, Part II: means any action, conduct or comment, including of a sexual nature, that can reasonably be expected to cause offence, humiliation or other physical or psychological injury or illness to an employee, including any prescribed action, conduct or comment.</dd>
                   </dl>
                   <dl>
-                    <dt>delegation of financial authority chart</dt>
-                    <dd>Shows your organization’s official spending and financial authorities.</dd>
+                    <dt>inclusion (inclusion)</dt>
+                    <dd>Refers to creating a workplace that is fair, equitable, supportive, welcoming and respectful of all. It recognizes, values and leverages differences in identities, abilities, backgrounds, cultures, skills, experiences, and perspectives that support and reinforce Canada’s evolving human rights framework.</dd>
                   </dl>
                   <dl>
-                    <dt>Departmental Results Report</dt>
-                    <dd>A report on what was accomplished against what was planned to be done during the fiscal year in terms of priorities and expected results.</dd>
+                    <dt>occupational group (groupe professionnel)</dt>
+                    <dd>A series of jobs or occupations related in broad terms by the nature of the functions performed.</dd>
                   </dl>
                   <dl>
-                    <dt>discretionary costs</dt>
-                    <dd>Costs not directly linked to your activities and less likely to have a negative impact on them. If you are asked to reduce or cut costs, you have a quick snapshot of what you can and cannot cut.</dd>
+                    <dt>occupational group structure (structure des groupes professionnels)</dt>
+                    <dd>The suite of occupational groups established by the Treasury Board within the core public administration.</dd>
                   </dl>
                   <dl>
-                    <dt>fiscal year</dt>
-                    <dd>It starts on April 1 and is divided, by month, into periods. P1 is April, P2 is May, P3 is June, and so forth.</dd>
+                    <dt>organizational chart (organigramme)</dt>
+                    <dd>A depiction of the hierarchical arrangement of work and lines of authority.</dd>
                   </dl>
                   <dl>
-                    <dt>fund </dt>
-                    <dd>A budget made available for a particular purpose; for example, salary, operating, and capital.</dd>
+                    <dt>people management (gestion des personnes)</dt>
+                    <dd>Any of the powers or functions in relation to human resources management, including organization and job classification, collective bargaining, terms and conditions of employment, labour relations, official languages, employment equity, values and ethics, performance management, total compensation, workplace harassment or violence, and employment that the employer is authorized to exercise under the <em>Financial Administration Act</em>, <em>Employment Equity Act</em>, <em>Public Service Employment Act</em>, or <em>Federal Public Sector Labour Relations Act</em>.</dd>
                   </dl>
                   <dl>
-                    <dt>general ledger </dt>
-                    <dd>It’s the lowest level to which expenditures get coded.</dd>
+                    <dt>position (poste)</dt>
+                    <dd>A specific set of duties and responsibilities outlined in a job description, to be performed by one individual in a specific organizational context.</dd>
                   </dl>
                   <dl>
-                    <dt>grants and contributions budget</dt>
-                    <dd>Commonly known as Gs&Cs. Money that is provided to entities outside of the federal government to advance the department’s mandate. Grants are given to the entity whereas with Contributions, the entity is expected to also contribute some money.</dd>
+                    <dt>potential conflict of interest (conflit d’intérèts potentiel)</dt>
+                    <dd>A conflict of interest situation that could reasonably be foreseen to happen in the future.</dd>
                   </dl>
                   <dl>
-                    <dt>expenditure initiation</dt>
-                    <dd>When you decide to obtain goods or services that will result in the eventual spending of funds, such as the decision to hire staff, order supplies, or authorize travel.</dd>
+                    <dt>real conflict of interest (conflit d’intérêt réel)</dt>
+                    <dd>A conflict of interest situation that exists at the present time.</dd>
                   </dl>
                   <dl>
-                    <dt>financial authorities</dt>
-                    <dd>Are granted to ministers and deputy heads through the Financial Administration Act.</dd>
+                    <dt>relevant collective agreement (convention collective pertinente)</dt>
+                    <dd>The collective agreement for the bargaining unit to which the person is assigned or would be assigned if the person’s position was represented or not excluded.</dd>
                   </dl>
                   <dl>
-                    <dt>financial situation report</dt>
-                    <dd>It is a document that provides senior management with the most up-to-date financial picture and the best estimates of forecast spending.</dd>
+                    <dt>standardized job description (description d’emploi normalisée)</dt>
+                    <dd>A document that describes a job applied to more than one position where all positions are classified at the same occupational group and level.</dd>
                   </dl>
                   <dl>
-                    <dt>internal audit</dt>
-                    <dd>Examines compliance relating to governance, risk management, and control processes and makes recommendations to improve performance, effectiveness, and efficiency of government operations.</dd>
+                    <dt>substantive position (poste de titularisation)</dt>
+                    <dd>A position to or from which a person has been appointed or deployed in accordance with the <em>Public Service Employment Act</em>, other than an acting appointment.</dd>
                   </dl>
                   <dl>
-                    <dt>internal order </dt>
-                    <dd>It’s a self-contained mini-project in which you can track expenditures.</dd>
+                    <dt>term employee (fonctionnaire nommé pour une période déterminée)</dt>
+                    <dd>A person appointed for a specified period in accordance with subsection 58(1) of the <em>Public Service Employment Act</em>.</dd>
                   </dl>
                   <dl>
-                    <dt>Management Accountability Framework</dt>
-                    <dd>An annual assessment of management practices and performance, in areas such as finance, people, and IT.</dd>
-                  </dl>
-                  <dl>
-                    <dt>non-discretionary costs</dt>
-                    <dd>Costs essential for delivering on your activities and if cut may result in you not being able to deliver on them.</dd>
-                  </dl>
-                  <dl>
-                    <dt>Payables at Year-End</dt>
-                    <dd>It is an amount owed for goods and/or services delivered in the old fiscal year using old year funds but paid in the new fiscal year when the supplier invoice is received.</dd>
-                  </dl>
-                  <dl>
-                    <dt>performance indicator</dt>
-                    <dd>A criterion for measuring success in the achievement of objectives.</dd>
-                  </dl>
-                  <dl>
-                    <dt>proactive disclosure</dt>
-                    <dd>Published information on departments’ websites related to travel, hospitality, contracts, position reclassifications, wrongdoing, and grants and contributions</dd>
-                  </dl>
-                  <dl>
-                    <dt>Program Evaluation</dt>
-                    <dd>Assesses the performance of programs, initiatives and policies in terms of efficiency, effectiveness, and relevance</dd>
-                  </dl>
-                  <dl>
-                    <dt>program inventory</dt>
-                    <dd>Identifies the programs that contribute to the department’s Core Responsibilities and Results.</dd>
-                  </dl>
-                  <dl>
-                    <dt>Public Accounts of Canada </dt>
-                    <dd>Contain the annual audited and consolidated financial statements of the Government of Canada and information on spending by organizations.</dd>
-                  </dl>
-                  <dl>
-                    <dt>Quarterly financial report </dt>
-                    <dd>A comparison between planned and actual expenditures, published three times a year.</dd>
-                  </dl>
-                  <dl>
-                    <dt>Receivables at Year-End</dt>
-                    <dd>It is an amount due from another department for goods and/or services delivered in the old fiscal year, for which receipt of payment will be in the new fiscal year.</dd>
-                  </dl>
-                  <dl>
-                    <dt>reference levels</dt>
-                    <dd>Predetermined budget amounts. Some departments provide reference levels and others don’t.</dd>
-                  </dl>
-                  <dl>
-                    <dt>responsibility centre </dt>
-                    <dd>It’s an identifier associated with a manager or unit within an organization, to which budget commitments and expenditures can be recorded.</dd>
-                  </dl>
-                  <dl>
-                    <dt>result</dt>
-                    <dd>An external consequence attributed, in part, to an organization, policy, program, or initiative. Results are set within various control areas of the organization.</dd>
-                  </dl>
-                  <dl>
-                    <dt>section 32</dt>
-                    <dd>When you commit an expenditure, you are certifying that the money is available. This is known as section 32 of the Financial Administration Act.</dd>
-                  </dl>
-                  <dl>
-                    <dt>section 33</dt>
-                    <dd>When your financial department ensures that the payment complies with policy requirements, this is known as section 33 of the Financial Administration Act.</dd>
-                  </dl>
-                  <dl>
-                    <dt>section 34</dt>
-                    <dd>When you certify that the work has been performed as required, and services and supplies have been satisfactorily rendered, this is known as section 34 of the Financial Administration Act.</dd>
-                  </dl>
-                  <dl>
-                    <dt>target</dt>
-                    <dd>A measurable performance or success level that an organization, program, or initiative plans to achieve within a specified time period. Targets can be either quantitative or qualitative.</dd>
-                  </dl>
-                  <dl>
-                    <dt>trends</dt>
-                    <dd>Costs in your budget that are either constant, or show a similar pattern year after year.</dd>
-                  </dl>
-                  <dl>
-                    <dt>variance</dt>
-                    <dd>The difference between the budgeted amount and the actual amount spent during the year.</dd>
-                  </dl>
-                  <dl>
-                    <dt>work plan</dt>
-                    <dd>It is a detailed schedule of the activities to be carried out, resources to be consumed, and results to be achieved over a one-year period, usually a fiscal year for a responsibility centre.</dd>
+                    <dt>workforce (effectif)</dt>
+                    <dd>Comprises the persons employed in the core public administration regardless their status, tenure, or bargaining agent affiliation, other than persons appointed by the Governor in Council, members of the Canadian Armed Forces, or members of the RCMP.</dd>
                   </dl>
                 </span>
                 <span v-if="$i18n.locale=='fr'">
-                  <!--<dl>
-                    <dt>Centre de responsabilité</dt>
-                    <dd>Il s’agit d’un identificateur associé à un gestionnaire ou à une unité au sein d’une organisation, pour lequel des engagements et des dépenses budgétaires peuvent être enregistrés.</dd>
+                  <dl>
+                    <dt>cadre supérieur (executive)</dt>
+                    <dd>Personne nommée ou mutée à un poste du groupe de la direction (de EX01 à EX05). Sauf exclusion explicite dans l’application des directives, normes ou procédures obligatoires associées, renvoie aux personnes employées dans les postes cidessous, exclus ou non représentés : 
+                      <ol>
+                        <li>le groupe Services scientifiques de la défense (DS), niveaux 7A, 7B et 8;</li>
+                        <li>le sousgroupe des médecins fonctionnaires (MDMOF), niveaux 4 et 5;</li>
+                        <li>le sousgroupe des médecins spécialistes (MDMSP), niveau 3;</li>
+                        <li>le groupe Gestion du droit (LC), niveaux 1 à 4.</li>
+                      </ol>
+                    </dd>
                   </dl>
                   <dl>
-                    <dt>Fonds</dt>
-                    <dd>Un budget mis à disposition à des fins particulières. Par exemple : salaires, fonctionnement, capital.</dd>
+                    <dt>candidat (candidate)</dt>
+                    <dd>Dans le contexte de la <em>Directive sur l’obligation de prendre des mesures d’adaptation</em>, personne qui a posé sa candidature à un poste pour lequel une exigence professionnelle justifiée a été établie.</dd>
                   </dl>
                   <dl>
-                    <dt>Grand livre général</dt>
-                    <dd>C’est le niveau le plus bas auquel les dépenses sont codées. </dd>
+                    <dt>conflit d’intérêts (conflict of interest)</dt>
+                    <dd>Situation, qu’elle soit réelle, apparente ou potentielle, dans laquelle la personne employée a des intérêts privés qui pourraient influer sur l’exécution de ses fonctions et de ses responsabilités officielles ou par laquelle la personne employée utilise ses fonctions officielles à des fins personnelles.</dd>
                   </dl>
                   <dl>
-                    <dt>Inventaire des programmes</dt>
-                    <dd>Détermine les programmes qui contribuent aux responsabilités essentielles et aux résultats du ministère.</dd>
+                    <dt>conflit d’intérêts apparent (apparent conflict of interest)</dt>
+                    <dd>Situation qui pourrait être perçue comme un conflit d’intérêts par un observateur raisonnable, que ce soit ou non le cas.</dd>
                   </dl>
                   <dl>
-                    <dt>Objectif</dt>
-                    <dd>Performance mesurable ou degré de succès qu’une organisation, un programme ou une initiative prévoit atteindre dans une période de temps donnée. Les objectifs peuvent être quantitatifs ou qualitatifs.</dd>
+                    <dt>conflit d’intérêts potentiel (potential conflict of interest)</dt>
+                    <dd>Situation de conflit d’intérêts raisonnablement prévisible dans l’avenir.</dd>
                   </dl>
                   <dl>
-                    <dt>Ordre interne</dt>
-                    <dd>Il s’agit d’un mini projet autonome dans lequel vous pouvez suivre les dépenses.</dd>
+                    <dt>conflit d’intérêt réel (real conflict of interest)</dt>
+                    <dd>Situation de conflit d’intérêts qui existe actuellement.</dd>
                   </dl>
                   <dl>
-                    <dt>Résultat</dt>
-                    <dd>Une conséquence externe, attribuée, en partie, à une organisation, une politique, un programme ou une initiative. Les résultats sont fixés grâce à divers  domaines de contrôle de l’organisation.</dd>
+                    <dt>convention collective pertinente (relevant collective agreement)</dt>
+                    <dd>Convention collective de l’unité de négociation dans laquelle le poste de la personne est classifié ou serait classifié s’il était représenté ou non exclu.</dd>
                   </dl>
                   <dl>
-                    <dt>Structure de codage</dt>
-                    <dd>Il s’agit d’une méthode de classification des transactions qui permet à une organisation de saisir l’information financière. C’est le langage commun qui permet de déterminer, d’agréger et de rapporter les données comptables et financières à des fins de planification, d’affectation des ressources, de contrôle de gestion et d’évaluation.</dd>
-                  </dl>-->
-                  <dl>
-                    <dt>article 32</dt>
-                    <dd>Lorsque vous engagez une dépense, vous certifiez que l’argent est disponible. C’est ce à quoi on fait référence lorsqu’on parle de l’article 32 de la Loi sur la gestion des finances publiques.</dd>
+                    <dt>conversion en matière de classification (classification conversion)</dt>
+                    <dd>Changement dans la méthode d’établissement de la valeur relative du travail pour un groupe ou un sous-groupe professionnel.</dd>
                   </dl>
                   <dl>
-                    <dt>article 33</dt>
-                    <dd>Lorsque votre service financier s’assure que le paiement est conforme aux exigences de la politique, il s’agit de l’article 33 de la Loi sur la gestion des finances publiques.</dd>
+                    <dt>description d’emploi normalisé (standardized job description)</dt>
+                    <dd>Document qui décrit un travail qui s’applique à plus d’un poste, où tous les postes sont classifiés au même niveau et dans le même groupe professionnel.</dd>
                   </dl>
                   <dl>
-                    <dt>article 34</dt>
-                    <dd>Lorsque vous attestez que les travaux ont été exécutés conformément aux exigences et que les services ont été rendus et les fournitures livrées de façon satisfaisante, il s’agit de l’article 34 de la Loi sur la gestion des finances publiques.</dd>
+                    <dt>décision de classification (classification decision)</dt>
+                    <dd>Décision prise par l’administrateur général, par un haut fonctionnaire désigné par l’administrateur général à des fins de griefs de classification ou par une personne accréditée exerçant un pouvoir en matière de classification, qui établit ou confirme le groupe professionnel, le sous-groupe (le cas échéant), le niveau ou les cotes attribués à un travail.</dd>
                   </dl>
                   <dl>
-                    <dt>audit interne </dt>
-                    <dd>Examine la conformité aux processus de gouvernance, de gestion des risques et de contrôle et formule des recommandations pour améliorer le rendement, l'efficacité et l'efficience des opérations gouvernementales.</dd>
+                    <dt>diversité (diversity)</dt>
+                    <dd>Effectif ayant un éventail d’identités, de capacités, d’origines, de cultures, de compétences, de points de vue et d’expériences qui sont représentatifs de la population actuelle et future du Canada. Ces caractéristiques comprennent, sans s’y limiter, les différences d’origine ethnique, de race, de culture, de religion, de handicap, d’orientation sexuelle, d’identité de genre, d’âge, de scolarité, de région et d’état matrimonial ou parental.</dd>
                   </dl>
                   <dl>
-                    <dt>budget des subventions et contributions</dt>
-                    <dd>Communément connues sous le nom de S et C. L'argent qui est fourni à des entités à l'extérieur du gouvernement fédéral pour faire avancer le mandat du ministère. Les subventions sont accordées à l'entité, tandis que les contributions lui permettent d'apporter une contribution financière.</dd>
+                    <dt>effectif (workforce)</dt>
+                    <dd>Composition des personnes employées à l’administration publique centrale indépendamment de leur statut, de leur période d’emploi ou de leur affiliation à un agent négociateur, autres que celles nommées par le gouverneur en conseil, les membres des Forces armées canadiennes ou les membres de la Gendarmerie royale du Canada.</dd>
                   </dl>
                   <dl>
-                    <dt>budget d’investissement</dt>
-                    <dd>Des investissements à long terme, comme l'infrastructure et les installations, qui sont amortis au fil du temps.</dd>
+                    <dt>employé nommé pour une période déterminée (term employee)</dt>
+                    <dd>Personne nommée pour une période précise conformément au paragraphe 58(1) de la <em>Loi sur l’emploi dans la fonction publique</em>.</dd>
                   </dl>
                   <dl>
-                    <dt>Cadre de responsabilisation de gestion</dt>
-                    <dd>Une évaluation annuelle des pratiques de gestion et du rendement dans des domaines tels que les finances, les ressources humaines et la TI.</dd>
+                    <dt>gestion des personnes (people management)</dt>
+                    <dd>Toute autorité ou fonction liée à la gestion des ressources humaines, y compris l’organisation et la classification des postes, la négociation collective, les conditions d’emploi, les relations de travail, les langues officielles, l’équité en matière d’emploi, les valeurs et l’éthique, la gestion du rendement, la rémunération totale, le harcèlement ou la violence en milieu de travail, et l’emploi que l’employeur est autorisé à exercer en vertu de la <em>Loi sur la gestion des finances publiques</em>, de la <em>Loi sur l’équité en matière d’emploi</em>, de la <em>Loi sur l’emploi dans la fonction publique</em> et de la <em>Loi sur les relations de travail dans le secteur public fédéral</em>.</dd>
                   </dl>
                   <dl>
-                    <dt>centre de responsabilité</dt>
-                    <dd>Il s’agit d’un identificateur associé à un gestionnaire ou à une unité au sein d’une organisation, pour lequel des engagements et des dépenses budgétaires peuvent être enregistrés.</dd>
+                    <dt>grief de classification (classification grievance)</dt>
+                    <dd>Plainte écrite par un employé à l’égard de la classification (c’est-à-dire, le groupe professionnel, le sous-groupe [le cas échéant], le niveau ou les cotes) du travail attribué par le gestionnaire responsable au poste occupé par le plaignant et décrit dans la description d’emploi, à l’exception des plaintes liées au contenu du travail ou à la date d’entrée en vigueur de la description d’emploi.</dd>
                   </dl>
                   <dl>
-                    <dt>Comptes publics du Canada</dt>
-                    <dd>Renferment les états financiers vérifiés et consolidés du gouvernement du Canada ainsi que des renseignements sur les dépenses faites par les organisations.</dd>
+                    <dt>groupe professionnel (occupational group)</dt>
+                    <dd>Ensemble de professions ou d’emplois liés de façon générale par la nature des fonctions accomplies.</dd>
                   </dl>
                   <dl>
-                    <dt>coûts discrétionnaires</dt>
-                    <dd>Coûts non directement liés à vos activités et moins susceptibles d'avoir un impact négatif sur celles-ci. Si on vous demande de réduire ou de diminuer les coûts, vous avez un aperçu rapide de ce que vous pouvez et ne pouvez pas réduire.</dd>
+                    <dt>groupes désignés (designated groups)</dt>
+                    <dd>A la même signification qu’à l’article 3 de la <em>Loi sur l’équité en matière d’emploi</em> : Les femmes, les autochtones, les personnes handicapées et les personnes qui font partie des minorités visibles.</dd>
                   </dl>
                   <dl>
-                    <dt>coûts non discrétionnaires</dt>
-                    <dd>Les coûts essentiels à la réalisation de vos activités et, en cas de réduction, vous pourriez ne pas être en mesure de les réaliser.</dd>
+                    <dt>harcèlement et violence (harassment and violence)</dt>
+                    <dd>A la même signification qu’au paragraphe 122(1) du <em>Code canadien du travail</em>, partie II : tout acte, comportement ou propos, notamment de nature sexuelle, qui pourrait vraisemblablement offenser ou humilier un employé ou lui causer toute autre blessure ou maladie, physique ou psychologique, y compris tout acte, comportement ou propos réglementaire.</dd>
                   </dl>
                   <dl>
-                    <dt>créditeurs à la fin de l’exercice</dt>
-                    <dd>C’est un montant dû pour des biens ou des services fournis dans l’exercice financier précédent, en se servant des fonds de l’exercice financier précédent, mais payés dans le nouvel exercice financier alors qu’on aura reçu la facture du fournisseur.</dd>
+                    <dt>inclusion (inclusion)</dt>
+                    <dd>Création d’un milieu de travail juste, équitable, positif, accueillant et respectueux pour tous. L’inclusion reconnaît, valorise et met à profit les différences relatives aux identités, aux capacités, aux origines, aux cultures, aux compétences, aux expériences et aux points de vue qui appuient et renforcent l’évolution du cadre des droits de la personne du Canada.</dd>
                   </dl>
                   <dl>
-                    <dt>débiteurs à la fin de l’exercice</dt>
-                    <dd>C’est un montant dû d’un autre ministère pour des biens ou des services fournis dans l’exercice financier précédent pour lesquels le paiement sera fait dans le nouvel exercice financier.</dd>
+                    <dt>obstacles (barriers)</dt>
+                    <dd>Obstacles, physiques, architecturaux, technologiques ou comportementaux, politiques, pratiques, systèmes ou procédures, entre autres, qui excluent ou entravent la participation entière et égale à l’emploi des personnes protégées contre la discrimination par la <em>Loi canadienne sur les droits de la personne</em>.</dd>
                   </dl>
                   <dl>
-                    <dt>divulgation proactive</dt>
-                    <dd>Publier de l'information sur les sites Web des ministères concernant les voyages, l'accueil, les contrats, les reclassifications de postes, les actes répréhensibles, les subventions et les contributions.</dd>
+                    <dt>organigramme (organizational chart)</dt>
+                    <dd>Représentation de l’organisation hiérarchique du travail et des liens hiérarchiques.</dd>
                   </dl>
                   <dl>
-                    <dt>engager une dépense</dt>
-                    <dd>Lorsque vous décidez d'obtenir des biens ou des services qui entraîneront une dépense éventuelle, comme l’embauche de personnel, la commande de fournitures ou l’autorisation de voyager.</dd>
+                    <dt>poste (position)</dt>
+                    <dd>Ensemble précis de fonctions et de responsabilités décrites dans une description d’emploi, qui doit être exécuté par une seule personne dans un contexte organisationnel précis.</dd>
                   </dl>
                   <dl>
-                    <dt>Évaluation des programmes</dt>
-                    <dd>Évalue le rendement des programmes, des initiatives et des politiques en termes d'efficience, d'efficacité et de pertinence.</dd>
+                    <dt>poste de titularisation (substantive position)</dt>
+                    <dd>Poste auquel une personne a été nommée ou duquel elle est mutée conformément à la <em>Loi sur l’emploi dans la fonction publique</em>, autre qu’une nomination intérimaire.</dd>
                   </dl>
                   <dl>
-                    <dt>exercice financier</dt>
-                    <dd>Il commence le 1er avril et est divisé, par mois, en périodes. P1 est avril, P2 est mai, P3 est juin, et ainsi de suite.</dd>
+                    <dt>régimes de travail souples (flexible work arrangements)</dt>
+                    <dd>Comprend des mesures permettant une certaine souplesse dans l’établissement de l’horaire de travail et du nombre d’heures passées sur le lieu de travail, y compris, sans toutefois s’y limiter, le télétravail et les semaines de travail comprimées.</dd>
                   </dl>
                   <dl>
-                    <dt>fonds </dt>
-                    <dd>Un budget mis à disposition à des fins particulières. Par exemple : salaires, fonctionnement, capital.</dd>
+                    <dt>structure des groupes professionnels (occupational group structure)</dt>
+                    <dd>Ensemble de groupes professionnels établis par le Conseil du Trésor au sein de l’administration publique centrale.</dd>
                   </dl>
                   <dl>
-                    <dt>grand livre général </dt>
-                    <dd>C’est le niveau le plus bas auquel les dépenses sont codées.</dd>
+                    <dt>travailleur temporaire (casual worker)</dt>
+                    <dd>Personne qui est nommée en vertu du paragraphe 50 (1) de la <em>Loi sur l’emploi dans la fonction publique</em>.</dd>
                   </dl>
                   <dl>
-                    <dt>indicateur de rendement </dt>
-                    <dd>Un critère pour mesurer le succès dans la réalisation des objectifs.</dd>
-                  </dl>
-                  <dl>
-                    <dt>inventaire des programmes </dt>
-                    <dd>Détermine les programmes qui contribuent aux responsabilités essentielles et aux résultats du ministère.</dd>
-                  </dl>
-                  <dl>
-                    <dt>niveaux de référence </dt>
-                    <dd>Montants budgétaires prédéterminés. Certains ministères fournissent des niveaux de référence et d'autres non.</dd>
-                  </dl>
-                  <dl>
-                    <dt>objectif</dt>
-                    <dd>Performance mesurable ou degré de succès qu’une organisation, un programme ou une initiative prévoit atteindre dans une période de temps donnée. Les objectifs peuvent être quantitatifs ou qualitatifs.</dd>
-                  </dl>
-                  <dl>
-                    <dt>ordre interne</dt>
-                    <dd>Il s’agit d’un mini projet autonome dans lequel vous pouvez suivre les dépenses.</dd>
-                  </dl>
-                  <dl>
-                    <dt>plan de travail</dt>
-                    <dd>Un plan de travail est une liste détaillée des activités à exercer, des ressources à utiliser et des résultats à atteindre au cours d’une période d’un an, laquelle correspond habituellement à un exercice financier pour un centre de responsabilité.</dd>
-                  </dl>
-                  <dl>
-                    <dt>pouvoirs financiers</dt>
-                    <dd>C’est la Loi sur la gestion des finances publiques qui confère aux ministres et aux administrateurs généraux leurs pouvoirs financiers.</dd>
-                  </dl>
-                  <dl>
-                    <dt>Rapport financier trimestriel </dt>
-                    <dd>Une comparaison entre les dépenses prévues et les dépenses réelles publiées 3 fois par an.</dd>
-                  </dl>
-                  <dl>
-                    <dt>rapport sur la situation financière </dt>
-                    <dd>C’est un document qui fournit à la haute direction le portrait financier le plus récent et les meilleures estimations des dépenses prévues.</dd>
-                  </dl>
-                  <dl>
-                    <dt>Rapport sur les résultats ministériels</dt>
-                    <dd>C'est ce qui a été accompli par rapport à ce qui était prévu au cours de l'exercice financier pour ce qui est des priorités et des résultats attendus.</dd>
-                  </dl>
-                  <dl>
-                    <dt>résultat</dt>
-                    <dd>Une conséquence externe, attribuée, en partie, à une organisation, une politique, un programme ou une initiative. Les résultats sont fixés grâce à divers domaines de contrôle de l’organisation.</dd>
-                  </dl>
-                  <dl>
-                    <dt>structure de codage </dt>
-                    <dd>Il s’agit d’une méthode de classification des transactions qui permet à une organisation de saisir l’information financière. C’est le langage commun qui permet de déterminer, d’agréger et de rapporter les données comptables et financières à des fins de planification, d’affectation des ressources, de contrôle de gestion et d’évaluation.</dd>
-                  </dl>
-                  <dl>
-                    <dt>tableau de délégation des pouvoirs financiers</dt>
-                    <dd>Indique les pouvoirs de dépenser et les pouvoirs financiers officiels de votre organisation.</dd>
-                  </dl>
-                  <dl>
-                    <dt>tendances</dt>
-                    <dd>Coûts dans votre budget qui sont soit constants, soit semblables d'une année à l'autre.</dd>
-                  </dl>
-                  <dl>
-                    <dt>variance</dt>
-                    <dd>La différence entre le montant prévu au budget et le montant réel dépensé au cours de l'exercice.</dd>
+                    <dt>urgence (emergency)</dt>
+                    <dd>Situation ou événement anormal exigeant la prise de mesures immédiates, outre les procédures normales, pour limiter les dommages causés aux personnes, aux biens ou à l’environnement.</dd>
                   </dl>
                 </span>
               </b-card-text>
