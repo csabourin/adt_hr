@@ -393,7 +393,7 @@ export default {
       this.$refs.vp.resumePlay()
     },
     updatePercent(e) {
-      this.$store.commit('currentPlaying/setReportPart2_player', e)
+      this.$store.commit('currentPlaying/setValuesPart3_player', e)
     }
   }
 }
