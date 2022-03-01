@@ -63,7 +63,7 @@
                 <template v-slot:title>
                   <span class="v-inv">Question </span>05
                 </template>
-                <checkboxQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q5')" qId="4" :refill="Refill('4')" @response="arraysMatch($event,['2','3','4'],4)" />
+                <checkboxQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q5')" qId="4" :refill="Refill('4')" @response="arraysMatch($event,['2','3'],4)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[5]}]">
                 <template v-slot:title>
@@ -430,7 +430,7 @@ export default {
         "options": {
           "1": "Assign authorities to a person  ",
           "2": "Approve leave requests ",
-          "3": "Approve job descriptions  "
+          "3": "Approve job descriptions"
         },
         "feedback": {
           "1": "",
