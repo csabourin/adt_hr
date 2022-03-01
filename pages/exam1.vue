@@ -376,7 +376,7 @@ export default {
       "q1": {
         "text": "Deputy heads are delegated certain authorities from the Public Service Commission such as the choice of appointment process and hiring casual workers.  Which document grants these authorities? ",
         "options": {
-          "1": "<i>Public Service Employment Act</i> (PSEA) ",
+          "1": "<i>Financial Administration Act</i> (FAA) ",
           "2": "Policy on People Management ",
           "3": "Authority Delegation and accountability Instrument (ADAI) "
         },
@@ -387,11 +387,11 @@ export default {
         }
       },
       "q2": {
-        "text": "Ms. Dupré, a director with sub-delegated appointment authorities, would like to find a replacement to exercise her authorities in her absence for the summer holidays. How should this be done?  ",
+        "text": "Ms. Dupré, a director with sub-delegated appointment authorities, would like to find someone to exercise her authorities while she is away for summer holidays. How should this be done?  ",
         "options": {
-          "1": "The replacement should complete the training and obtain permission in writing from the head of human resources ",
-          "2": "The replacement should complete the training, sign the attestation and obtain sub-delegation in writing from the deputy head ",
-          "3": "The replacement should sign the attestation and obtain permission in writing from the deputy head "
+          "1": "The person chosen should complete the training and obtain permission in writing from the head of human resources ",
+          "2": "The person chosen should complete the training, sign the attestation and obtain sub-delegation in writing from the deputy head ",
+          "3": "The person chosen should sign the attestation and obtain permission in writing from the deputy head "
         },
         "feedback": {
           "1": "",
@@ -430,14 +430,12 @@ export default {
         "options": {
           "1": "Assign authorities to a person  ",
           "2": "Approve leave requests ",
-          "3": "Approve job descriptions  ",
-          "4": "Assign performance agreement ratings "
+          "3": "Approve job descriptions  "
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": "",
-          "4": ""
+          "3": ""
         }
       },
       "q6": {
@@ -472,9 +470,9 @@ export default {
         "text": "Managers are responsible for which of the following HR planning activities?",
         "options": {
           "1": "Communicate the HR plan",
-          "2": "Evaluate the effectiveness of the plan and adapting it as required   ",
+          "2": "Evaluate the effectiveness of the HR plan and adapting it as required   ",
           "3": "Link succession planning strategies to program and financial planning ",
-          "4": "All of the above"
+          "4": "All these answers"
         },
         "feedback": {
           "1": "",
@@ -523,9 +521,9 @@ export default {
     "plan": "ÉLÉMENTS DE BASE",
     "Questions": {
       "q1": {
-        "text": "Les administrateurs généraux se voient confier certains pouvoirs par la Commission de la fonction publique, comme le choix du processus de nomination et l’embauche de travailleurs occasionnels. Quel document octroie ces pouvoirs? ",
+        "text": "Les administrateurs généraux se voient confier certains pouvoirs par la Commission de la fonction publique, comme le choix du processus de nomination et l’embauche de travailleurs occasionnels. Quel document permet d'exercer ces pouvoirs? ",
         "options": {
-          "1": "La <i>Loi sur l’emploi dans la fonction publique</i> (LEFP) ",
+          "1": "La <i>Loi sur la gestion des finances publiques</i> (LGFP) ",
           "2": "La Politique sur la gestion des personnes ",
           "3": "L’Instrument de délégation et de responsabilisation en matière de nomination (IDRN)   "
         },
@@ -538,9 +536,9 @@ export default {
       "q2": {
         "text": "Mme Dupré, une directrice ayant des pouvoirs de nomination subdélégués, souhaite trouver une personne pour la remplacer et exercer ses pouvoirs pendant ses vacances estivales. Comment devrait‑elle procéder?",
         "options": {
-          "1": "Le remplaçant devrait suivre la formation appropriée et obtenir l’autorisation écrite du responsable des ressources humaines. ",
-          "2": "Le remplaçant devrait suivre la formation appropriée, signer l’attestation et se voir subdéléguer les pouvoirs par écrit par l’administrateur général. ",
-          "3": "Le remplaçant devrait signer l’attestation et obtenir l’autorisation écrite de l’administrateur général. "
+          "1": "La personne choisie devrait suivre la formation appropriée et obtenir l’autorisation écrite du responsable des ressources humaines. ",
+          "2": "La personne choisie devrait suivre la formation appropriée, signer l’attestation et se voir subdéléguer les pouvoirs par écrit par l’administrateur général. ",
+          "3": "La personne choisie devrait signer l’attestation et obtenir l’autorisation écrite de l’administrateur général. "
         },
         "feedback": {
           "1": "",
@@ -579,14 +577,12 @@ export default {
         "options": {
           "1": "Attribuer des pouvoirs à une personne. ",
           "2": "Approuver les congés. ",
-          "3": "Approuver les descriptions de travail.  ",
-          "4": "Attribuer les cotes des ententes de rendement."
+          "3": "Approuver les descriptions de travail.  "
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": "",
-          "4": ""
+          "3": ""
         }
       },
       "q6": {
@@ -621,7 +617,7 @@ export default {
         "text": "Parmi les activités de planification des RH suivantes, lesquelles incombent aux gestionnaires? ",
         "options": {
           "1": "Communiquer le plan des RH.",
-          "2": "Évaluer l’efficacité du plan et l’adapter au besoin.  ",
+          "2": "Évaluer l’efficacité du plan des RH et l’adapter au besoin.  ",
           "3": "Établir un lien entre, d’une part, les stratégies de planification de la relève et, d’autre part, la planification de programme et la planification financière.  ",
           "4": "Toutes ces réponses."
         },
