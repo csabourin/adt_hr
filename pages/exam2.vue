@@ -39,13 +39,13 @@
                   <span class="v-inv">Question </span>01
                 </template>
                 <!-- calculateAnswer($event,correctAnswer,qId) -->
-                <checkboxQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q1')" qId="0" :refill="Refill('0')" @response="arraysMatch($event,['1','3'],0)" />
+                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q1')" qId="0" :refill="Refill('0')" @response="calculateAnswer($event,1,0)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[1]}]">
                 <template v-slot:title>
                   <span class="v-inv">Question </span>02
                 </template>
-                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q2')" qId="1" :refill="Refill('1')" @response="calculateAnswer($event,1,1)" />
+                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q2')" qId="1" :refill="Refill('1')" @response="calculateAnswer($event,2,1)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[2]}]">
                 <template v-slot:title>
@@ -57,7 +57,7 @@
                 <template v-slot:title>
                   <span class="v-inv">Question </span>04
                 </template>
-                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q4')" qId="3" :refill="Refill('3')" @response="calculateAnswer($event,3,3)" />
+                <checkboxQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q4')" qId="3" :refill="Refill('3')" @response="arraysMatch($event,['1','2','4'],3)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[4]}]">
                 <template v-slot:title>
@@ -129,13 +129,13 @@
                 <template v-slot:title>
                   <span class="v-inv">Question </span>16
                 </template>
-                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q16')" qId="15" :refill="Refill('15')" @response="calculateAnswer($event,4,15)" />
+                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q16')" qId="15" :refill="Refill('15')" @response="calculateAnswer($event,3,15)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[16]}]">
                 <template v-slot:title>
                   <span class="v-inv">Question </span>17
                 </template>
-                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q17')" qId="16" :refill="Refill('16')" @response="calculateAnswer($event,2,16)" />
+                <radioQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q17')" qId="16" :refill="Refill('16')" @response="calculateAnswer($event,1,16)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[17]}]">
                 <template v-slot:title>
@@ -448,21 +448,19 @@ export default {
         "options": {
           "1": "enable you to deliver your product or service",
           "2": "build inclusivity ",
-          "3": "help meet the organization’s objectives ",
-          "4": "ensure that the employee can deliver the product or service effectively "
+          "3": "ensure that the employee can deliver the product or service effectively "
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": "",
-          "4": ""
+          "3": ""
         }
       },
       "q2": {
         "text": "Rendering a classification decision for new and revised job descriptions _________________. ",
         "options": {
           "1": "will help avoid grievances ",
-          "2": "must be done  before hiring",
+          "2": "must be done before hiring",
           "3": "will ensure that the employee can deliver the product or service effectively "
         },
         "feedback": {
@@ -489,7 +487,7 @@ export default {
         }
       },
       "q4": {
-        "text": "Which of the following is <u>NOT</u> among your organization and classification responsibilities as a manager, when creating a new position.",
+        "text": "Which of the following <u>are</u> among your organization and classification responsibilities as a manager, when creating a new position.",
         "options": {
           "1": "Ensure that the position fits into the organizational structure",
           "2": "Write a job description that aligns with your organizational mandate and business objectives",
@@ -517,7 +515,7 @@ export default {
         }
       },
       "q6": {
-        "text": "<p>Mr. Drolet is the director general in the National Capital Region responsible for the management of the fleet services located in headquarters and the regions. A decision was made to move this function to Miramichi, NB causing the need to restructure  Mr. Drolet’s directorate.</p><p> What is the most appropriate next step? </p>",
+        "text": "<p>Mr. Drolet is the director general in the National Capital Region. He is responsible for the management of the fleet services located in headquarters and the regions. A decision was made to move this function to New Brunswick causing the need to restructure Mr. Drolet’s directorate.</p><p> What is the most appropriate next step? </p>",
         "options": {
           "1": "Conduct an organizational analysis in consultation with an organization and classification (OC)-accredited HR advisor ",
           "2": "Reclassify all positions affected",
@@ -530,7 +528,7 @@ export default {
         }
       },
       "q7": {
-        "text": "Organization and Classification has a direct impact on human resources management.  Which of the following is not an area of HR management in Organization and Classification.",
+        "text": "Organization and Classification has a direct impact on human resources management. Which of the following is an area of HR management in Organization and Classification.",
         "options": {
           "1": "Mandate and budget",
           "2": "Organizational design",
@@ -571,7 +569,7 @@ export default {
         }
       },
       "q10": {
-        "text": "You are a sub-delegated manager, who has  been trying to staff a specialized position in a remote location. In recent years, it has been difficult to attract and retain employees in your unit. Experts are hard to find. Last week, you attended a conference in Vancouver. During a break, you met someone who is just finishing her term in the Interchange Canada program and will be returning to her substantive position in the public service. She  has the expertise required for the vacant position in your team. Which staffing process could be used to appoint this person to this position?",
+        "text": "You are a sub-delegated manager, who has been trying to staff a specialized position in a remote location. In recent years, it has been difficult to attract and retain employees in your unit. Experts are hard to find. Last week, you attended a conference in Vancouver. During a break, you met someone who is just finishing her term in the Interchange Canada program and will be returning to her substantive position in the public service. She is at the same group and level as the vacant position in your team. Which staffing process could be used to appoint this person to this position?",
         "options": {
           "1": "Deployment",
           "2": "Internal advertised",
@@ -591,7 +589,7 @@ export default {
           "1": "Business plans",
           "2": "Qualifications required for the position ",
           "3": "Organizational objectives, such as employment equity",
-          "4": "All of the above"
+          "4": "All these answers"
         },
         "feedback": {
           "1": "",
@@ -606,7 +604,7 @@ export default {
           "1": "The Clerk of the Privy Council",
           "2": "The Treasury Board Secretariat",
           "3": "The Deputy Head",
-          "4": "All of the above"
+          "4": "All these answers"
         },
         "feedback": {
           "1": "",
@@ -661,8 +659,7 @@ export default {
         "options": {
           "1": "Assess the candidate on slightly different criteria  ",
           "2": "Offer no accommodation because they are not required during the assessment ",
-          "3": "Consider the validity of the accommodation request ",
-          "4": "Arrange to meet the accommodation needs of the candidate "
+          "3": "Arrange to meet the accommodation needs of the candidate "
         },
         "feedback": {
           "right": "",
@@ -672,22 +669,20 @@ export default {
       "q17": {
         "text": "Demand for your program’s services has increased substantially, and now everyone is required to work four night shifts per month. Brad is a single father of two young children, and he is unable to comply and requested accommodation. Are you required to accommodate Brad? ",
         "options": {
-          "1": "Yes, because he is a single father ",
-          "2": "Yes, because he has requested accommodation based on family status  ",
-          "3": "Yes, because you must accommodate when someone makes a request ",
-          "4": "No, because his situation does not impede his ability to do his job "
+          "1": "Yes, because he has requested accommodation based on family status  ",
+          "2": "Yes, because you must accommodate when someone makes a request ",
+          "3": "No, because his situation does not impede his ability to do his job "
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": "",
-          "4": ""
+          "3": ""
         }
       },
       "q18": {
-        "text": "What is the impact of employment equity, diversity and inclusion policies.",
+        "text": "What is the impact of employment equity, diversity and inclusion policies?",
         "options": {
-          "1": "Increases the cost of doing business by needing to accommodate with special tools and equipment for those who request them",
+          "1": "Limits the range of ideas and insights and diminishes resilience",
           "2": "Ensures that current and potential employees have equal opportunity to be hired or promoted for their qualifications",
           "3": "Hinders full and equal participation in the workplace"
         },
@@ -717,7 +712,7 @@ export default {
         "options": {
           "1": "Assess an employee’s need for accommodation to determine what the employee is able to do ",
           "2": "Inform all employees of their right to request work-related accommodation to address needs that may impede their ability to work effectively ",
-          "3": "Suggest your employees read the organizational policies and procedures on diversity equity and inclusion, so they know their rights. "
+          "3": "Prepare an employment equity plan"
         },
         "feedback": {
           "1": "",
@@ -743,14 +738,12 @@ export default {
         "options": {
           "1": "vous permettra de livrer votre produit ou de fournir votre service ",
           "2": "favorisera l’inclusivité ",
-          "3": "contribuera à l’atteinte des objectifs de l’organisation ",
-          "4": "fera en sorte que l’employé pourra livrer le produit ou fournir le service efficacement  "
+          "3": "fera en sorte que l’employé pourra livrer le produit ou fournir le service efficacement  "
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": "",
-          "4": ""
+          "3": ""
         }
       },
       "q2": {
@@ -769,7 +762,7 @@ export default {
       "q3": {
         "text": "Les décisions en matière d’organisation et de classification ______________. ",
         "options": {
-          "1": "consistent essentiellement en des opérations financières ",
+          "1": "sont essentiellement des opérations financières ",
           "2": "sont prises par l’administrateur général ",
           "3": "sont prises par un gestionnaire ",
           "4": "sont prises par un conseiller accrédité en OC ",
@@ -784,7 +777,7 @@ export default {
         }
       },
       "q4": {
-        "text": "Lequel des éléments suivants NE représente PAS, lors de la création d’un nouveau poste, une de vos responsabilités en matière d’organisation et de classification en tant que gestionnaire?",
+        "text": "Lesquels des éléments suivants représentent, lors de la création d’un nouveau poste, vos responsabilités en matière d’organisation et de classification en tant que gestionnaire?",
         "options": {
           "1": "Faire en sorte que le poste s’intègre bien dans la structure organisationnelle.",
           "2": "Rédiger une description de travail qui correspond au mandat et aux objectifs opérationnels de votre organisation.",
@@ -799,7 +792,7 @@ export default {
         }
       },
       "q5": {
-        "text": "Il incombe au gestionnaire _______________________. ",
+        "text": "Le gestionnaire est responsable _______________________. ",
         "options": {
           "1": "d’évaluer la situation, de prendre des décisions en matière de classification et de déterminer la structure organisationnelle du ministère ",
           "2": "de veiller à ce que la structure organisationnelle soit conforme au mandat et aux objectifs opérationnels de l’organisation ",
@@ -812,7 +805,7 @@ export default {
         }
       },
       "q6": {
-        "text": "<p>M. Drolet est le directeur général de la région de la capitale nationale qui est responsable de la gestion des parcs automobiles situés à l’administration centrale et dans les régions. Il a été décidé que cette fonction serait transférée à Miramichi, au Nouveau-Brunswick, ce qui entraîne la nécessité de restructurer la direction où travaille M. Drolet. </p><p>Quelle est la prochaine étape la plus appropriée parmi les suivantes? </p>",
+        "text": "<p>M. Drolet est le directeur général de la région de la capitale nationale. Il est responsable de la gestion des parcs automobiles situés à l’administration centrale et dans les régions. Il a été décidé que cette fonction serait transférée au Nouveau-Brunswick, ce qui entraîne la nécessité de restructurer la direction où travaille M. Drolet. </p><p>Quelle est la prochaine étape la plus appropriée parmi les suivantes? </p>",
         "options": {
           "1": "Effectuer une analyse organisationnelle en consultation avec un conseiller en RH accrédité en organisation et en classification (OC). ",
           "2": "Reclassifier tous les postes concernés. ",
@@ -825,7 +818,7 @@ export default {
         }
       },
       "q7": {
-        "text": "L’organisation et la classification ont une incidence directe sur la gestion des ressources humaines. Quel aspect de la gestion des RH n'est pas pas lié à l’organisation et à la classification?",
+        "text": "L’organisation et la classification ont une incidence directe sur la gestion des ressources humaines. Quels aspects de la gestion des RH sont liés à l’organisation et à la classification?",
         "options": {
           "1": "Mandat et budget ",
           "2": "Conception organisationnelle ",
@@ -866,7 +859,7 @@ export default {
         }
       },
       "q10": {
-        "text": "Vous occupez un poste de gestionnaire subdélégué et vous essayez de pourvoir un poste spécialisé dans une région éloignée. Ces dernières années, vous avez eu du mal à attirer et à maintenir en poste des employés au sein de votre unité. Les experts sont difficiles à trouver. La semaine dernière, vous avez assisté à une conférence à Vancouver. Lors d’une pause, vous avez rencontré quelqu’un qui vient de terminer son mandat au programme Échanges Canada et qui retournera à son poste d’attache dans la fonction publique. Elle possède l’expertise requise pour le poste vacant dans votre équipe. Quel processus de dotation pourrait servir à nommer cette personne à ce poste?",
+        "text": "Vous occupez un poste de gestionnaire subdélégué et vous essayez de doter un poste spécialisé dans une région éloignée. Ces dernières années, vous avez eu du mal à attirer et à maintenir en poste des employés au sein de votre unité. Les experts sont difficiles à trouver. La semaine dernière, vous avez assisté à une conférence à Vancouver. Lors d’une pause, vous avez rencontré quelqu’un qui vient de terminer son mandat au programme Échanges Canada et qui retournera à son poste d’attache dans la fonction publique. Elle est au même groupe et niveau que le poste vacant dans votre équipe. Quel processus de dotation pourrait servir à nommer cette personne à ce poste?",
         "options": {
           "1": "Mutation",
           "2": "Processus interne annoncé",
@@ -956,8 +949,7 @@ export default {
         "options": {
           "1": "Évaluer le candidat selon des critères légèrement différents.",
           "2": "Refuser d’offrir des mesures d’adaptation, car il n’est pas nécessaire de le faire à l’étape de l’évaluation. ",
-          "3": "Examiner la validité de la demande.",
-          "4": "Prendre des dispositions pour répondre aux besoins d’adaptation du candidat."
+          "3": "Prendre des dispositions pour répondre aux besoins d’adaptation du candidat."
         },
         "feedback": {
           "right": "",
@@ -967,22 +959,20 @@ export default {
       "q17": {
         "text": "Vous avez observé une augmentation importante des demandes de services dans le cadre de votre programme, et tous les employés doivent désormais travailler quatre quarts de nuit par mois. Brad, qui élève seul ses deux jeunes enfants, est incapable de se conformer à cette nouvelle réalité et demande une mesure d'adaptation. Avez‑vous l’obligation de lui offrir des mesures d’adaptation?",
         "options": {
-          "1": "Oui, parce qu’il est un père célibataire.",
-          "2": "Oui, parce qu’il a demandé des mesures d’adaptation en raison de sa situation familiale.",
-          "3": "Oui, car vous devez prendre des mesures d’adaptation lorsqu’une personne en fait la demande.",
-          "4": "Non, car sa situation n’entrave pas sa capacité à travailler. "
+          "1": "Oui, parce qu’il a demandé des mesures d’adaptation en raison de sa situation familiale.",
+          "2": "Oui, car vous devez prendre des mesures d’adaptation lorsqu’une personne en fait la demande.",
+          "3": "Non, car sa situation n’entrave pas sa capacité à travailler. "
         },
         "feedback": {
           "1": "",
           "2": "",
-          "3": "",
-          "4": ""
+          "3": ""
         }
       },
       "q18": {
         "text": "Quelle est l’incidence des politiques d’équité en matière d’emploi, de diversité et d’inclusion?",
         "options": {
-          "1": "Elles entraînent une augmentation des coûts d’exploitation, car il faut prévoir des outils et du matériel particuliers pour ceux qui en font la demande. ",
+          "1": "Elles limitent l’éventail d’idées et de points de vue et nuisent à la résilience. ",
           "2": "Elles font en sorte que les employés actuels et potentiels ont des chances égales d’être promus ou embauchés grâce à leurs qualifications.  ",
           "3": "Elles empêchent une participation totale et égale dans le lieu de travail. "
         },
@@ -1012,7 +1002,7 @@ export default {
         "options": {
           "1": "Évaluer le besoin de mesures d’adaptation d’un employé afin de déterminer ce que celui-ci est capable de faire. ",
           "2": "Informer tous les employés qu’ils ont le droit de demander des mesures d’adaptation liées au travail pour remédier à une lacune qui pourrait les empêcher de travailler efficacement.",
-          "3": "Suggérer à vos employés de lire les politiques et les procédures de l’organisation en matière de diversité, d’équité et d’inclusion afin de sa familiariser avec leurs droits. "
+          "3": "Préparer un plan d’équité en matière d’emploi. "
         },
         "feedback": {
           "1": "",
