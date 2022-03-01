@@ -596,7 +596,7 @@ export default {
       "q14": {
       "text": "Which of the items is considered a political activity?",
       "options": {
-      "1": "Voting in an election",
+      "1": "Seeking to be a candidate in a municipal election",
       "2": "Contributing funds to a candidate or political party ",
       "3": "Displaying a lawn sign during an election campaign",
       "4": "All of the above"
@@ -813,7 +813,7 @@ export default {
       "q14": {
       "text": "Lequel des éléments suivants est considéré comme une activité politique?",
       "options": {
-      "1": "Voter à une élection. ",
+      "1": "Chercher à être candidat à une élection municipale.",
       "2": "Contribuer au financement d’un candidat ou d’un parti politique. ",
       "3": "Mettre une pancarte sur une pelouse pendant une campagne électorale.",
       "4": "Toutes ces réponses."
