@@ -532,7 +532,7 @@ export default {
       "options": {
       "1": "You do not have any responsibilities in this situation as the employee is not in a real, apparent or potential conflict of interest ",
       "2": "Advise the employee to review the requirements outlined in the Directive on Conflict of Interest ",
-      "3": "Write a report that will inform the deputy head of the situation and support the determination of a real, apparent or potential conflict of interest"
+      "3": "Write a report to inform the deputy head to determine whether the situation could place the employee in a real, apparent or potential conflict of interest"
       },
       "feedback": {
       "1": "",
@@ -749,7 +749,7 @@ export default {
       "options": {
       "1": "Vous n’avez aucune responsabilité dans cette situation, car l’employé n’est pas en situation de conflit d’intérêts réel, apparent ou potentiel. ",
       "2": "Vous devez demander à l’employé de revoir les exigences figurant dans la Directive sur les conflits d’intérêts. ",
-      "3": "Vous devez rédiger un rapport qui informera l’administrateur général de la situation et qui aidera à déterminer s’il y a conflit d’intérêts réel, apparent ou potentiel."
+      "3": "Vous devez rédiger un rapport pour informer l’administrateur général afin qu’il détermine si l’employé pourrait se retrouver en situation de conflit d’intérêts réel, apparent ou potentiel."
       },
       "feedback": {
       "1": "",
