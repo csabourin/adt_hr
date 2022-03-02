@@ -377,7 +377,7 @@ export default {
   },
   computed: {
     thatPoint() {
-      return this.$store.state.currentPlaying.reportPart2
+      return this.$store.state.currentPlaying.valuesPart3
     },
     chosenScenario: {
       set(scenario) {
