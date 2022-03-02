@@ -96,7 +96,7 @@ export default {
     line2: "Comm",
     name: "Pouvoirs conférés à la Commission de la fonction publique en vertu de la Loi sur l'emploi dans la fonction publique et d’autres lois et règlements applicables",
     download: "Télécharger le document des pouvoirs conférés à la Commission",
-    filename: "Job Aid - Authorities granted to PSC through PSEA FR.pdf"
+    filename: "Job Aid - Authorities granted to PSC through PSEA FR.pptx"
   },
   
   psOrganizations:{
@@ -104,7 +104,7 @@ export default {
     line2: "Gestion",
     name: "Organisations de la fonction publique - gestion des personnes",
     download: "Télécharger le plan d'Organisations de la fonction publique - gestion des personnes",
-    filename: "Job Aid - PS Organizations - People Management FR.pdf"
+    filename: "Job Aid - PS Organizations - People Management FR.pptx"
   },
   
   ourRoles:{
@@ -112,7 +112,7 @@ export default {
     line2: "rôles",
     name: "Nos rôles",
     download: "Télécharger le document 'Nos rôles'",
-    filename: "V+E Graphics-fr - final.pdf"
+    filename: "V+E Graphics_fr.pptx"
   },
     
   congratulations:"<h3>Félicitations!</h3><p>Vous avez réussi ce cours.</p><p>Quittez le cours en fermant cette fenêtre.</p>",

@@ -93,7 +93,7 @@ export default {
     line2: "PSC",
     name: "Job Aid - Authorities granted to PSC through PSEA",
     download: "Download the Authorities granted to PSC through PSEA Job Aid",
-    filename: "Job Aid - Authorities granted to PSC through PSEA EN.pdf"
+    filename: "Job Aid - Authorities granted to PSC through PSEA EN.pptx"
   },
   
   psOrganizations:{
@@ -101,7 +101,7 @@ export default {
     line2:"Management",
     name:"Job Aid - PS Organizations - People Management",
     download: "Download the Public Servant Organizations Job Aid",
-    filename: "Job Aid - PS Organizations - People Management EN.pdf"
+    filename: "Job Aid - PS Organizations - People Management EN.pptx"
   },
   
   ourRoles:{
@@ -109,7 +109,7 @@ export default {
     line2:"Roles",
     name:"Our Roles",
     download: "Download the 'Our Roles' document",
-    filename: "V+E Graphics_EN.pdf"
+    filename: "V+E Graphics_EN.pptx"
   },
   
   fileFolder: "Download files and tools",
