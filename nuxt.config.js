@@ -137,7 +137,7 @@ export default {
        config.output.publicPath = '_nuxt/'
      }
       config.module.rules.push({
-        test: /\.(pdf|docx|xlsx)(\?.*)?$/,
+        test: /\.(pdf|docx|xlsx|pptx)(\?.*)?$/,
         loader: 'file-loader',
         options: {
           name: '[path][name].[ext]'

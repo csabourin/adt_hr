@@ -85,7 +85,7 @@ export default {
     line2: "DH",
     name: "Job Aid - Authorities conferred to deputy heads",
     download: "Download the Authorities conferred to deputy heads Job Aid",
-    filename: "Job Aid - Authorities conferred to deputy heads EN.pdf"
+    filename: "Job Aid - Authorities conferred to deputy heads EN.pptx"
   },
   
   authoritiesPSC:{

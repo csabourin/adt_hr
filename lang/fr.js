@@ -88,7 +88,7 @@ export default {
     line2: "Admin",
     name: "Pouvoirs conférés aux administrateurs généraux",
     download: "Télécharger le document des pouvoirs conférés aux administrateurs généraux",
-    filename: "Job Aid - Authorities conferred to deputy heads FR.pdf"
+    filename: "Job Aid - Authorities conferred to deputy heads FR.pptx"
   },
   
   authoritiesPSC:{
