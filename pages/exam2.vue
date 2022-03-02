@@ -528,7 +528,7 @@ export default {
         }
       },
       "q7": {
-        "text": "Organization and Classification has a direct impact on human resources management. Which of the following is an area of HR management in Organization and Classification.",
+        "text": "Organization and Classification has a direct impact on human resources management. Which of the following is <u>NOT</u> an area of HR management in Organization and Classification.",
         "options": {
           "1": "Mandate and budget",
           "2": "Organizational design",
@@ -818,7 +818,7 @@ export default {
         }
       },
       "q7": {
-        "text": "L’organisation et la classification ont une incidence directe sur la gestion des ressources humaines. Quels aspects de la gestion des RH sont liés à l’organisation et à la classification?",
+        "text": "L’organisation et la classification ont une incidence directe sur la gestion des ressources humaines. Quel aspect de la gestion des RH n'est pas lié à l’organisation et à la classification?",
         "options": {
           "1": "Mandat et budget ",
           "2": "Conception organisationnelle ",
