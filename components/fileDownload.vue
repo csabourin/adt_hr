@@ -72,6 +72,9 @@ export default {
       else if(this.texts.filename.indexOf(".xlsx") >= 0){
         return {name: "XLSX", longName: "Microsoft Excel (OpenXML)", mime: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"};
       }
+      else if(this.texts.filename.indexOf(".pptx") >= 0){
+        return {name: "PPTX", longName: "Microsoft PowerPoint (OpenXML)", mime: "application/vnd.openxmlformats-officedocument.presentationml.presentation"};
+      }
     },
     detectIE() {
       var ua = window.navigator.userAgent;
