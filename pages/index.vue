@@ -91,8 +91,8 @@
         <div role="navigation" class="courseSection reportSection" :style="{ backgroundImage: `url(${reportbgBarUrl})` }" :aria-label="$t('report') + ' - Navigation'">
           <microlearning imagePath="R-Conduct.svg" path="valuesPart1" time="20" :text="$t('Labour Relations')" :completion="$store.state.currentPlaying.reportPart1_player" type="video" />
           <microlearning imagePath="ValuesPart2.svg"  path="valuesPart2" time="20" :text="$t('Values and Ethics')" :completion="$store.state.currentPlaying.reportPart2_player" type="video" />
-          <microlearning imagePath="ValuesPart3.svg" path="valuesPart3" time="20" :text="$t('OfficialLanguages')" :completion="$store.state.currentPlaying.reportPart1_player" type="video" />
-          <microlearning imagePath="ValuesPart4.svg"  path="valuesPart4" time="20" :text="$t('PoliticalActivities')" :completion="$store.state.currentPlaying.reportPart2_player" type="video" />
+          <microlearning imagePath="ValuesPart3.svg" path="valuesPart3" time="20" :text="$t('OfficialLanguages')" :completion="$store.state.currentPlaying.valuesPart3_player" type="video" />
+          <microlearning imagePath="ValuesPart4.svg"  path="valuesPart4" time="20" :text="$t('PoliticalActivities')" :completion="$store.state.currentPlaying.valuesPart4_player" type="video" />
           <microlearning imagePath="KeyMessR.svg" path="valuesKey" time="5" :text="$t('KeyMessagesReport')" :completion="$store.state.currentPlaying.kmReport" :highlighted="chosenScenario == 'refresh'" type="keyMessages" />
           <microlearning imagePath="R-Test.svg" path="exam3" time="15" :text="$t('TestReport')" :completion="parseInt(reportCompleted)" :highlighted="chosenScenario == 'justExam'" type="exam" questionNum="10" />
         </div>

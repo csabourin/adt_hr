@@ -120,11 +120,11 @@ export const mutations = {
   },
   setValuesPart3_player(state, playing) {
     window.localStorage.setItem("valuesPart3_player", playing)
-    state.reportPart3_player = playing
+    state.valuesPart3_player = playing
   },
   setValuesPart4_player(state, playing) {
     window.localStorage.setItem("valuesPart4_player", playing)
-    state.reportPart4_player = playing
+    state.valuesPart4_player = playing
   },
   setCurrentModule(state, module) {
     window.localStorage.setItem("currentModule", module)
