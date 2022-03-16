@@ -4,7 +4,7 @@
     <section>
       <b-row>
         <b-col>
-          <videoPlayer ref="vp" enVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_k3myd13h/flavorId/0_qv11ig9g/name/a.mp4" frVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_u95qd7p3/flavorId/0_cmv9l5i2/name/a.mp4" chapters chapterFile="ReportPart1.vtt" ccFile="ValuesPart1_captions.vtt" :restartAt="parseInt(thatPoint)" toResume="setReportPart1" :modalArray="modalArray" @timeupdate="updatePercent($event)" />
+          <videoPlayer ref="vp" enVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_e17fqv08/flavorId/0_s1fb25jz/name/a.mp4" frVideoFile="https://video.csps-efpc.gc.ca/p/101/serveFlavor/entryId/0_uqypilv0/flavorId/0_dcb0y2tt/name/a.mp4" chapters chapterFile="ReportPart1.vtt" ccFile="ValuesPart1_captions.vtt" :restartAt="parseInt(thatPoint)" toResume="setReportPart1" :modalArray="modalArray" @timeupdate="updatePercent($event)" />
         </b-col>
       </b-row>
       <b-container>
