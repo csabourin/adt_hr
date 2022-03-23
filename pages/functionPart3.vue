@@ -256,13 +256,13 @@
                         <ul>
                           <li>garder en tête les objectifs de dotation tout au long du processus;</li>
                           <li>planifier et préparer le processus de dotation avant de le lancer;</li>
-                          <li>tirer parti de la souplesse qu’offre la Loi sur l’emploi dans la fonction publique et prendre des mesures d’adaptation raisonnables à mesure que les circonstances évoluent;</li>
+                          <li>tirer parti de la souplesse qu’offre la <em>Loi sur l’emploi dans la fonction publique</em> et prendre des mesures d’adaptation raisonnables à mesure que les circonstances évoluent;</li>
                           <li>promouvoir la mobilisation et le maintien en poste en faisant preuve de transparence auprès des postulants et des employés.</li>
                         </ul>
                         <p>Les cinq étapes suivantes permettent de mener un processus fondé sur l’intégrité et l’éthique : </p>
                         <ul>
                           <li>satisfaire aux exigences du cadre de dotation (de la fonction publique et du ministère) et faire preuve de souplesse en proposant des solutions et des mesures d’adaptation pour les outils et approches d’évaluation afin d’assurer une évaluation juste des qualifications de tous les candidats;</li>
-                          <li>utiliser l’un des assouplissements prévus dans la Loi sur l’emploi dans la fonction publique, par exemple :  
+                          <li>utiliser l’un des assouplissements prévus dans la <em>Loi sur l’emploi dans la fonction publique</em>, par exemple :  
                             <ul>
                               <li>cibler exclusivement les membres des groupes visés par l’équité en matière d’emploi ou élargir la zone de sélection pour inclure ces groupes;</li>
                               <li>définir un besoin organisationnel afin de sélectionner des personnes ayant déclaré leur appartenance à un groupe désigné pour lequel il existe ou pourrait bientôt exister une sous-représentation; dans un processus non annoncé, nommer une personne appartenant à l’un des groupes désignés;</li>
