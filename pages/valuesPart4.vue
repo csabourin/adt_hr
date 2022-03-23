@@ -36,9 +36,7 @@
                         <hr>
 
                         <h2>2. Non-Partisanship and Political Activities</h2>
-                        <h3>Non-partisanship</h3>
                         <p>Non-partisanship is an essential element of a professional public service and a responsible democratic government. Upholding the non-partisan character of the public service is the responsibility of all public service employees.</p>
-                        <h3>Political activities</h3>
                         <p>According to the <i>Public Service Employment Act</i> (PSEA), public service employees can engage in political activities if those activities do not impair, or are not seen to impair, their ability to perform their public service duties in a politically impartial manner.</p>
                         <p>Political activities can be divided into two categories: candidacy (seeking nomination as, or to be, a candidate) and non-candidacy.</p>
                         <p>Any public servant wishing to seek nomination as or to be a candidate in an election at the municipal, provincial, territorial, or federal level must first request permission from the Public Service Commission.</p>
@@ -85,9 +83,7 @@
                         <hr>
 
                         <h2>2. Impartialité et activités politiques</h2>
-                        <h3>Impartialité</h3>
                         <p>L’impartialité est un élément essentiel au sein d’une fonction publique professionnelle et d’un gouvernement démocratique responsable. Tous les fonctionnaires doivent préserver le caractère impartial de la fonction publique.</p>
-                        <h3>Activités politiques</h3>
                         <p>Conformément à la LEFP, les fonctionnaires peuvent se livrer à des activités politiques, sauf si celles-ci portent ou semblent porter atteinte à leur capacité d’exercer leurs fonctions de façon politiquement impartiale.</p>
                         <p>Les activités politiques sont divisées en deux catégories : activités liées à une candidature (fonctionnaire désireux d’être choisi comme candidat) et activités non liées à une candidature.</p>
                         <p>Tout fonctionnaire désireux d’être choisi comme candidat à une élection municipale, provinciale, territoriale ou fédérale doit d’abord demander la permission de la Commission de la fonction publique.</p>
