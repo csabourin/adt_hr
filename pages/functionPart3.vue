@@ -19,7 +19,7 @@
                   <b-card-body>
                     <b-card-text>
                       <span v-if="$i18n.locale=='en'">
-                        <h2>Staffing</h2>
+                        <h2>1. Introduction</h2>
                         <p>Finding and recruiting employees is a key step in helping an organization achieve its goals.</p>
                         <p>As a sub-delegated manager, you will be asked to staff positions within your section or work unit by finding the skills and other attributes needed for the work.</p>
                         <p>Federal public service managers and human resources professionals must comply with a variety of policies and legislation governing how staffing processes are conducted. These laws, regulations and policies support and promote impartial appointments, based on merit, which help advance diversity and inclusion in the workplace.</p>
@@ -30,9 +30,10 @@
                           <li>Recognize considerations for staffing a position</li>
                         </ul>
                         <p>This section should take you approximately 20 minutes to complete.</p>
+                        <p>[An External Links reference pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>Identifying Your Staffing Needs</h2>
+                        <h2>2. Identifying Your Staffing Needs</h2>
                         <p>In determining your staffing needs, consider various sources of information. A few good sources to begin with are your business objectives, your organizational goals and the public service workforce goals.</p>
                         <p>Considering your business objectives when staffing will help ensure that your programs and services are properly managed and delivered. For clarity on business objectives, consult documents such as business plans, performance agreements, Treasury Board submissions, and Cabinet documents.</p>
                         <p>When considering your business objectives, ask yourself the following questions:</p>
@@ -53,9 +54,10 @@
                           <li>Agreements like the Nunavut Land Claims Agreement and even the Canadian Free Trade Agreement, as well as</li>
                           <li>Your Minister's mandate, statements by the Clerk of the Privy Council, and the Speech from the Throne</li>
                         </ul>
+                        <p>[An Identifying Your Staffing Needs activity pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>Get Familiar With Your Staffing Obligations</h2>
+                        <h2>3. Get Familiar With Your Staffing Obligations</h2>
                         <p>Before you initiate an appointment process, it’s important to be acquainted with the legislation, policies and guidelines that govern appointments. These include the Public Service Commission’s Appointment Framework and the Treasury Board’s policy framework, as well as your organizational staffing framework.</p>
                         <p>The purpose of the <i>Employment Equity Act</i> is to achieve equality in the workplace and to correct conditions of disadvantage in employment for such designated groups as: women, Aboriginal peoples, persons with disabilities and members of visible minorities.</p>
                         <p>The Act requires that every employer identify and eliminate employment barriers against persons in the identified groups. Employers must also institute positive policies and practices and make reasonable accommodations to ensure their workforce reflects the diversity of Canadians.</p>
@@ -74,13 +76,15 @@
                           <li>Programs such as: employment equity, diversity and inclusion, student programs, and the Interchange Canada program.</li>
                           <li>Qualification standards in relation to education, occupational certification, official languages and other requirements to qualify for employment in the core public service.</li>
                         </ol>
+                        <p>[A Staffing Obligations reference pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>Inclusive Hiring</h2>
+                        <h2>4. Inclusive Hiring</h2>
                         <p>Watch this video on inclusive hiring, which offers five tips on diversifying your workforce.</p>
+                        <p>[An Inclusive Hiring activity pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>Staffing Your Position</h2>
+                        <h2>5. Staffing Your Position</h2>
                         <p>As a sub-delegated manager, you are responsible for making decisions that are subdelegated to you and for working in partnership with HR. There are three lenses to apply when staffing a position: diversity, equity and inclusion; business objectives and the judicious management of resources; and integrity and ethics.</p>
                         <p>In order to conduct a fair and inclusive process and to hire qualified individuals to form a diverse workforce that reflects the Canadian population and meets your organizational needs, the following must be done:</p>
                         <ul>
@@ -127,9 +131,10 @@
                           <li>Focus on merit rather than on likeability or other sources of bias.</li>
                           <li>Be able to clearly explain decisions and document appointment information including your decisions and considerations.</li>
                         </ul>
+                        <p>[A Staffing Your Position reference pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>In Real Life</h2>
+                        <h2>6. In Real Life</h2>
                         <p>Take what you have learned into real life!</p>
                         <p>Your organization will have its own ways of doing things.</p>
                         <p>As a last step, locate some essential resources to assist you in staffing effectively.</p>
@@ -141,11 +146,17 @@
                           <li>Identify and meet your HR advisors and consult them before making decisions.</li>
                         </ul>
                         <p>As a sub-delegated manager, you have many different options.  Remember to consult your HR advisor.</p>
-                        <p>Take time out from the course to consult the Public Service Commission’s Guides and Tools web page. These tools are designed to assist managers involved in the appointment process.</p>
+                        <p>Take a time out from the course to consult the Public Service Commission’s Guides and Tools web page. These tools are designed to assist managers involved in the appointment process.</p>
+                        <p>[An In Real Life activity pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>Quiz</h2>
+                        <h2>7. Quiz</h2>
                         <p>Test your knowledge by answering the following questions. Select “Submit” when you are done.</p>
+                        <p>[A Take the Quiz activity pop-up text box appears.]</p>
+                        <hr>
+
+                        <h2>8. Section Completed</h2>
+                        <p>[Onscreen text showing Section Completed instruction.]</p>
                       </span>
                       <span v-if="$i18n.locale=='fr'">
                         <h2>Introduction</h2>

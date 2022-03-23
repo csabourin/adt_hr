@@ -20,7 +20,7 @@
                     <b-card-text>
                       <!-- <button class="accessibilityButton" v-for="(tracks, index) in navBarTracks" :key="index" @click="accessibleModal(index)">{{$t('jumpModalParts') + ' - ' +navBarTracks[index]}}</button> -->
                       <span v-if="$i18n.locale=='en'">
-                        <h2>Your Employment Equity, Diversity and Inclusion Responsibilities</h2>
+                        <h2>1. Introduction</h2>
                         <p>Everyone benefits from employment equity, diversity and inclusion because they ensure that current and potential employees have equal opportunity to be hired or promoted for their skills and abilities.</p>
                         <p>They also enhance your organization and your team as a whole, because a diverse workforce can provide a broader range of ideas and insights and greater resilience.</p>
                         <p>In this section you will learn to:</p>
@@ -29,9 +29,10 @@
                         </ul>
                         <p>Ultimately, employment equity is about removing barriers, and diversity, equity and inclusion are about embracing differences so that employees can perform effectively and fully contribute to the organization.</p>
                         <p>This section should take you approximately 20 minutes to complete.</p>
+                        <p>[An External Links reference pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>Workplace Accommodation</h2>
+                        <h2>2. Workplace Accommodation</h2>
                         <p>It is your responsibility as a manager to ensure an equal access to opportunities that is free of discrimination. It is also your responsibility to remove barriers that prevent or hinder full and equal participation in employment in the core public administration.</p>
                         <p>Be sure to inform your employees of their right to request work-related accommodation to address needs and limitations that impede their ability to do their best work.</p>
                         <p>In offering accommodation, there is no set formula. While respecting the privacy and dignity of employees, handle each request on a case-by-case basis.</p>
@@ -46,9 +47,10 @@
                           <li>Adapting training programs to the needs of employees</li>
                         </ul>
                         <p>Your organization has policies and procedures that offer guidance in creating a workplace that is more equitable, diverse and inclusive and assistance in removing barriers, to ensure that all employees can participate equally in the work environment.</p>
+                        <p>[A Workplace Accommodation reference pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>Workplace Discrimination</h2>
+                        <h2>3. Workplace Discrimination</h2>
                         <p>Did you know?</p>
                         <ol>
                           <li>Systemic racism in Canada is not new. It dates back to 1536, if not earlier, and still exists today.</li>
@@ -58,28 +60,37 @@
                           <li>There are those who deny that racism exists and who actively work against efforts to dismantle racism.</li>
                         </ol>
                         <p>Given that the <i>Employment Equity Act</i> is law and The Canadian Charter of Rights and Freedoms is part of the <i>Constitution Act</i>, it is illegal to discriminate based on race. In addition, the <i>Canadian Human Rights Act</i> specifies all of the prohibited grounds of discrimination.</p>
+                        <p>[A Workplace Discrimination reference pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>Levelling the Playing Field</h2>
+                        <h2>4. Levelling the Playing Field</h2>
                         <p>Identifying, removing and preventing conditions of disadvantage faced by racialized groups and persons with disabilities is key to ensuring an equitable environment where individuals have equal access to opportunities and services.</p>
+                        <p>[A Levelling the Playing Field activity pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>Unconscious Biases</h2>
+                        <h2>5. Unconscious Biases</h2>
                         <p>Everyone holds unconscious beliefs about various social and identity groups, which stem from our tendency to organize social worlds into categories.</p>
                         <p>A bias is an attitude or belief, conscious or unconscious, positive or negative, about something in particular, including groups of people, while an unconscious bias is an attitude or belief we hold but are unaware of.</p>
                         <p>The brain has learned to take shortcuts based on our own personal experiences. Although we may be unaware of it, the brain makes generalizations, leading to stereotypes of people based on characteristics such as age, gender, ethnicity, religion and sexual orientation.</p>
                         <p>Biases, both conscious and unconscious, affect our attitudes, behaviours and decisions. Become familiar with your own unconscious biases and how these may affect your behaviour toward current and potential employees, whether regarding staffing processes, accommodation requests, performance evaluations or other situations.</p>
                         <p>Remember, biases are learned and can be unlearned.</p>
+                        <p>[An Unconscious Bias reference pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>In Real Life</h2>
+                        <h2>6. In Real Life</h2>
                         <p>Take what you have learned into real life!</p>
                         <p>Your organization will have its own ways of doing things.</p>
                         <p>Take a time out from the course to familiarize yourself with your organization’s policies and procedures, as well as the scope of possible accommodations, to help you address where barriers exist, and to help build a more inclusive workplace. You should also consider employment equity, diversity and inclusion as part of your HR planning, to support the organization’s employment equity commitments.</p>
+                        <p>[An In Real Life activity pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>Quiz</h2>
+                        <h2>7. Quiz</h2>
                         <p>Test your knowledge by answering the following questions. Select “Submit” when you are done.</p>
+                        <p>[A Take the Quiz activity pop-up text box appears.]</p>
+                        <hr>
+
+                        <h2>8. Section Completed</h2>
+                        <p>[Onscreen text showing Section Completed instruction]</p>
 
                       </span>
                       <span v-if="$i18n.locale=='fr'">
