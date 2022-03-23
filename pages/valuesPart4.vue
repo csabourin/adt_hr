@@ -20,7 +20,7 @@
                     <b-card-text>
                       <span v-if="$i18n.locale=='en'">
                         <h2>1. Introduction</h2>
-                        <p>The <i>Public Service Employment Act</i> (PSEA) defines “political activity” as:</p>
+                        <p>The <i>Public Service Employment Act</i> (PSEA) defines “political activity” as:</p>
                         <ul>
                           <li>any activity in support of, within, or in opposition to a political party or a candidate before or during an election period, or</li>
                           <li>seeking nomination as, or being, a candidate in a municipal, provincial, territorial or federal election, before or during the election period</li>
