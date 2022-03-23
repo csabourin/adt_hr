@@ -70,7 +70,7 @@
                          <button class="accessibilityButton" v-for="(tracks, index) in navBarTracks" :key="index" @click="accessibleModal(index)">{{$t('jumpModalPartsWP') + ' - ' +navBarTracks[index]}}</button> -->
                     </span>
                     <span v-if="$i18n.locale=='fr'">
-                      <h2>Introduction</h2>
+                      <h2>1. Introduction</h2>
                       <p>On pourrait vous demander, en tant que gestionnaire, de réaliser diverses activités de ressources humaines comme embaucher un nouvel employé, rédiger une nouvelle description de travail, approuver des demandes de congé et effectuer des évaluations du rendement. Cependant, avant d’accomplir ces tâches, vous devez savoir si vous avez les pouvoirs nécessaires. </p>
                       <p>Il est possible qu’on vous délègue des pouvoirs clés en matière de ressources humaines, communément appelées les RH. Vous devez comprendre comment ces pouvoirs sont délégués si vous voulez les exercer correctement. Vous devez aussi être en mesure d’interpréter les instruments de délégation en matière de RH de votre organisation et de les utiliser de manière efficace et efficiente, et ce en collaboration avec les experts en la matière.</p>
                       <p>Dans cette section, vous apprendrez à : </p>
@@ -79,8 +79,10 @@
                         <li>déterminer le niveau décisionnel requis pour approuver différentes demandes de RH.</li>
                       </ul>
                       <p>Il vous faudra environ 15 minutes pour compléter cette section.</p>
-                     <hr>
-                      <h2>Pouvoirs en matière de RH – Délégation et subdélégation</h2>
+                      <p>[Une boîte de texte de référence de Liens externes apparaît.]</p>
+                      <hr>
+
+                      <h2>2. Pouvoirs en matière de RH – Délégation et subdélégation</h2>
                       <p>Le Parlement crée des pouvoirs par l’entremise des lois. Ainsi, les lois et règlements, tout particulièrement la <i>Loi sur la gestion des finances publiques</i> et la <i>Loi sur l’emploi dans la fonction publique</i>, confèrent directement aux administrateurs généraux certains pouvoirs en matière de RH.</p>
                       <p>De plus, la <i>Loi sur l’emploi dans la fonction publique</i> donne à la Commission de la fonction publique le pouvoir de faire des nominations à la fonction publique et au sein de celle-ci. Cette loi permet aussi à la Commission de la fonction publique de déléguer aux administrateurs généraux des pouvoirs de nomination et des pouvoirs connexes, pour les postes qui relèvent de sa compétence.</p>
                       <p>Il existe deux types de pouvoirs en matière de RH : les pouvoirs conférés directement et les pouvoirs délégués. Les premiers sont conférés directement aux administrateurs généraux et à la Commission de la fonction publique. Cette dernière peut ensuite déléguer d’autres pouvoirs aux administrateurs généraux.</p>
@@ -90,18 +92,29 @@
                       <p>Une personne peut exercer ses pouvoirs subdélégués de dotation une fois qu’elle occupe le poste auquel ces derniers sont associés, qu’elle a suivi la formation nécessaire, qu’elle a reçu la délégation de la part de l’administrateur général et qu’elle a signé l’attestation.</p>
                       <p>Pour leur part, les pouvoirs de nomination doivent être exercés par un gestionnaire dûment investi des pouvoirs subdélégués. Même si de nombreuses personnes peuvent avoir un rôle à jouer dans le cadre d’un processus de sélection, le gestionnaire subdélégué demeure responsable de toutes les décisions.</p>
                       <p>Pour avoir un aperçu des délégations, consultez l’Instrument de délégation et de responsabilisation en matière de nomination. Examinez les types de pouvoirs conférés directement aux administrateurs généraux ainsi que ceux qui sont confiés à la Commission de la fonction publique.</p>
+                      <p>[Une boîte de texte de l’activité Reconnaître les pouvoirs délégués apparaît.]</p>
                       <hr>
-                      <h2>Instrument de délégation en matière de RH</h2>
+
+                      <h2>3. Instrument de délégation en matière de RH</h2>
                       <p>Chaque organisation a ses propres outils lui permettant de déléguer les pouvoirs au niveau de gestion approprié. De façon générale, l’instrument de délégation en matière de RH d’une organisation présente une série d’activités ainsi que le ou les niveaux d’approbation qui y sont associés.</p>
                       <p>Une personne peut seulement exercer les pouvoirs qui lui ont été délégués à juste titre. Consultez l’instrument de votre organisation.</p>
+                      <p>[Une boîte de texte de l’activité Déterminer les niveaux décisionnels repuis pour approuver différentes demandes de RH apparaît.]</p>
                       <hr>
-                      <h2>Dans la vraie vie</h2>
+                      
+                      <h2>4. Dans la vraie vie</h2>
                       <p>Appliquez maintenant ce que vous avez appris – dans la vraie vie!</p>
                       <p>Votre organisation aura sa propre façon de faire les choses. Par conséquent, la subdélégation varie d’une organisation à l’autre. Il est bon de vous demander si vous avez le pouvoir d’agir avant de prendre une décision en matière de RH.</p>
                       <p>Prenez le temps pour demander à votre superviseur ou à un conseiller en RH où se trouve l’instrument de délégation de votre organisation et comment l’utiliser dans le cadre des décisions que vous prenez. Certaines activités liées aux RH comme la classification, la paye et la dotation peuvent exiger d’exercer des pouvoirs dans plusieurs domaines.</p>
+                      <p>[Une boîte de texte de l’activité Dans la vraie vie apparaît.]</p>
                       <hr>
-                      <h2>Quiz</h2>
+                      
+                      <h2>5. Quiz</h2>
                       <p>Évaluez vos connaissances en répondant aux questions suivantes. Cliquez sur « Soumettre » lorsque vous avez terminé.</p>
+                      <p>[Une boîte de texte de l’activité Répondez au quiz apparaît.]</p>
+                      <hr>
+
+                      <h2>6. Section complétée</h2>
+                      <p>[Texte à l’écran indiquant l’instruction Section complétée.]</p>
                     </span>
                   </b-card-text>
                 </b-card-body>

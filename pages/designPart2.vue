@@ -74,7 +74,7 @@
 
                       </span>
                       <span v-if="$i18n.locale=='fr'">
-                        <h2>Introduction</h2>
+                        <h2>1. Introduction</h2>
                         <p>La planification des ressources humaines est [à] la base de l’évaluation et de la compréhension des besoins actuels et futurs des ministères, des organismes et de l’ensemble de la fonction publique.</p> 
                         <p>De plus, la planification des RH est un outil décisionnel clé qui permet au personnel des RH d’agir rapidement et dans le respect des valeurs de la fonction publique fédérale.</p>
                         <p>Dans cette section, vous : </p>
@@ -83,8 +83,10 @@
                           <li>prendrez conscience de vos responsabilités en tant que gestionnaire.</li>
                         </ul>
                         <p>Il vous faudra environ 10 minutes pour parcourir cette section.</p>
+                        <p>[Une boîte de texte de référence de Liens externes apparaît.]</p>
                         <hr>
-                        <h2>Aperçu de la planification des RH</h2>
+
+                        <h2>2. Aperçu de la planification des RH</h2>
                         <p>Le processus de planification des RH vise à déterminer les besoins actuels et futurs en RH. Cette planification correspond à la manière dont une organisation sélectionne et utilise ses ressources humaines pour réaliser ses objectifs opérationnels, remplir son mandat et répondre aux grandes priorités du gouvernement.</p>
                         <p>La planification des RH nous permet d’avoir un lieu de travail bien structuré, de trouver les bonnes personnes, de bâtir un environnement de travail positif et de garantir le succès de l’organisation.</p>
                         <p>La planification des RH permet aussi de trouver des stratégies et des activités optimales pour une grande variété de volets et de la gestion jugés importants, comme le recrutement, le maintien en poste, l’apprentissage, le perfectionnement, la mobilisation des employés, la gestion des talents, l’avancement, la relève, l’équité en matière d’emploi et les langues officielles.</p>
@@ -103,18 +105,24 @@
                           <li>Lier les stratégies de planification de la relève à la planification de programmes et à la planification financière.</li>
                           <li>Évaluer l’efficacité du plan et l’adapter au besoin.</li>
                         </ol>
+                        <p>[Une boîte de texte de l’activité Aperçu de la planification des RH apparaît.]</p>
                         <hr>
 
-                        <h2>Dans la vraie vie</h2>
+                        <h2>3. Dans la vraie vie</h2>
                         <p>Appliquez maintenant ce que vous avez appris – dans la vraie vie!</p>
                         <p>Votre organisation aura sa propre façon de faire les choses.</p>
                         <p>La planification des RH permet aux organisations de réaliser leur mandat. Dans certaines organisations, un plan des RH sera combiné aux buts opérationnels de l’organisation et produira ainsi un plan intégré des RH et des activités.</p>
                         <p>Prenez du temps pour consulter le plan des RH de votre organisation pour mieux comprendre comment il aide celle-ci à réaliser ses buts opérationnels et son mandat général.</p>
-                        
+                        <p>[Une boîte de texte de l’activité Dans la vraie vie apparaît.]</p>
                         <hr>
 
-                        <h2>Quiz</h2>
+                        <h2>4. Quiz</h2>
                         <p>Évaluez vos connaissances en répondant aux questions suivantes. Cliquez sur « Soumettre » lorsque vous avez terminé.</p>
+                        <p>[Une boîte de texte de l’activité Répondez au quiz apparaît.]</p>
+                        <hr>
+
+                        <h2>5. Section complétée</h2>
+                        <p>[Texte à l’écran indiquant l’instruction Section complétée.]</p>
 
                       </span>
                     </b-card-text>
