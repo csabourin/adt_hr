@@ -159,7 +159,7 @@
                         <p>[Onscreen text showing Section Completed instruction.]</p>
                       </span>
                       <span v-if="$i18n.locale=='fr'">
-                        <h2>Introduction</h2>
+                        <h2>1. Introduction</h2>
                         <p>La recherche et le recrutement d’employés constituent des étapes clés qui permettent à une organisation d’atteindre ses objectifs.</p>
                         <p>Si vous êtes gestionnaire subdélégué, on vous demandera de pourvoir des postes dans votre section ou unité de travail en établissant les compétences et les autres capacités nécessaires au travail.</p>
                         <p>Les gestionnaires et les professionnels de ressources humaines de la fonction publique fédérale doivent se conformer à une multitude de politiques et de textes législatifs régissant le processus de dotation. Ces lois, règlements et politiques soutiennent et favorisent les nominations impartiales et fondées sur le mérite, et encouragent ainsi la diversité et l’inclusion dans le milieu de travail.</p>
@@ -170,9 +170,10 @@
                           <li>reconnaître les éléments à prendre en considération pour la dotation d’un poste.</li>
                         </ul>
                         <p>Il vous faudra environ 20 minutes pour parcourir cette section.</p>
+                        <p>[Une boîte de texte de référence de Liens externes apparaît.]</p>
                         <hr>
 
-                        <h2>Détermination de vos besoins en matière de dotation</h2>
+                        <h2>2. Détermination de vos besoins en matière de dotation</h2>
                         <p>Lorsque vous déterminez vos besoins en matière de dotation, prenez en considération diverses sources d’information. Les objectifs opérationnels, les buts de votre organisation et les buts de l’effectif de la fonction publique constituent de bonnes sources de départ.</p>
                         <p>Le fait de prendre en considération les objectifs opérationnels au moment de pourvoir des postes vous aidera à faire en sorte que les programmes et les services sont gérés [et] exécutés correctement. Pour obtenir des précisions sur les objectifs opérationnels, consultez des documents comme les plans d’activités, les ententes de rendement, les présentations au Conseil du Trésor et les documents du Cabinet.</p>
                         <p>Lorsque vous prenez en considération les objectifs opérationnels, posez-vous les questions suivantes : </p>
@@ -193,9 +194,10 @@
                           <li>des accords comme l’Accord sur les revendications territoriales du Nunavut et même l’Accord de libre-échange canadien;</li>
                           <li>le mandat de votre ministre, les déclarations du greffier du Conseil privé et le discours du Trône.</li>
                         </ul>
+                        <p>[Une boîte de texte de l’activité Détermination de vos besoins en matière de dotation apparaît.]</p>
                         <hr>
 
-                        <h2>Familiarisez-vous avec vos obligations en matière de dotation</h2>
+                        <h2>3. Familiarisez-vous avec vos obligations en matière de dotation</h2>
                         <p>Avant de commencer un processus de nomination, il est important de connaître les lois, les politiques et les lignes directrices qui régissent les nominations. Le Cadre de nomination de la Commission de la fonction publique, le Cadre principal des politiques du Conseil du Trésor et le cadre de dotation de votre organisation en sont des exemples.</p>
                         <p>La <i>Loi sur l’équité en matière d’emploi</i> vise à atteindre l’égalité en milieu de travail et à corriger les conditions qui désavantagent les groupes désignés suivants dans le domaine de l’emploi : les femmes, les Autochtones, les personnes handicapées et les membres de minorités visibles.</p>
                         <p>La <i>Loi</i> nécessite que chaque employeur cerne et élimine les obstacles à l’emploi rencontrés par les groupes désignés. Les employeurs doivent aussi mettre en œuvre des pratiques et des politiques positives et prendre des mesures d’adaptation raisonnables de façon à ce que leur milieu de travail reflète la diversité de la population canadienne.</p>
@@ -215,13 +217,15 @@
                           <li>des programmes comme ceux qui sont destinés aux étudiants ou qui concernent l’équité en matière d’emploi, la diversité et l’inclusion, ou encore Échanges Canada;</li>
                           <li>les normes de qualification en matière d’études, d’attestation professionnelle et de langues officielles et d’autres exigences permettant à une personne d’obtenir un emploi dans la fonction publique centrale.</li>
                         </ol>
+                        <p>[Une boîte de texte de référence d’Obligations en matière de dotation apparaît.]</p>
                         <hr>
 
-                        <h2>Embauche inclusive</h2>
+                        <h2>4. Embauche inclusive</h2>
                         <p>Regardez la vidéo suivante sur l’embauche inclusive. Vous vous verrez présenter cinq conseils qui vous permettront de diversifier votre effectif.</p>
+                        <p>[Une boîte de texte de l’activité Embauche inclusive apparaît.]</p>
                         <hr>
 
-                        <h2>Dotation d’un poste</h2>
+                        <h2>5. Dotation d’un poste</h2>
                         <p>Si vous êtes gestionnaire subdélégué, vous êtes responsable de prendre les décisions qui relèvent des pouvoirs qui vous ont été subdélégués et de travailler en partenariat avec les RH. La dotation d’un poste doit être considérée selon trois optiques : la diversité, l’équité et l’inclusion; les objectifs opérationnels et la gestion judicieuse des ressources; et l’intégrité et l’éthique.</p>
                         <p>Les éléments suivants vous permettront de mener un processus juste et inclusif et d’embaucher des personnes qualifiées pour former un effectif diversifié qui est représentatif de la population canadienne et répond à vos besoins organisationnels : </p>
                         <ul>
@@ -268,9 +272,10 @@
                           <li>mettre l’accent sur le mérite plutôt que sur les affinités ou d’autres sources de préjugés;</li>
                           <li>être capable d’expliquer clairement les décisions et consigner les renseignements sur la nomination, y compris vos décisions et les facteurs que vous avez pris en considération.</li>
                         </ul>
+                        <p>[Une boîte de texte de référence de Dotation d’un poste apparaît.]</p>
                         <hr>
 
-                        <h2>Dans la vraie vie</h2>
+                        <h2>6. Dans la vraie vie</h2>
                         <p>Appliquez ce que vous avez appris - dans la vraie vie!</p>
                         <p>Votre organisation aura sa propre façon de faire les choses.</p>
                         <p>En dernier lieu, trouvez certaines ressources essentielles qui vous aideront à doter des postes de manière efficace, par exemple : </p>
@@ -283,10 +288,16 @@
                         </ul>
                         <p>En tant que gestionnaire subdélégué, vous avez de nombreuses options. N’oubliez pas de consulter vos conseillers en RH.</p>
                         <p>Prenez le temps pour consulter les guides et les outils de la Commission de la fonction publique sur le Web de l’organisation. Ces outils visent à aider les gestionnaires qui mènent les processus de nomination.</p>
+                        <p>[Une boîte de texte de l’activité Dans la vraie vie apparaît.]</p>
                         <hr>
 
-                        <h2>Quiz</h2>
+                        <h2>7. Quiz</h2>
                         <p>Évaluez vos connaissances en répondant aux questions suivantes. Cliquez sur « Soumettre » lorsque vous avez terminé.</p>
+                        <p>[Une boîte de texte de l’activité Répondez au quiz apparaît.]</p>
+                        <hr>
+
+                        <h2>8. Section complétée</h2>
+                        <p>[Texte à l’écran indiquant l’instruction Section complétée.]</p>
                       </span>
                     </b-card-text>
                   </b-card-body>
