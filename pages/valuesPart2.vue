@@ -19,9 +19,9 @@
                   <b-card-body>
                     <b-card-text>
                       <span v-if="$i18n.locale=='en'">
-                        <h2>Values and Ethics</h2>
+                        <h2>1. Introduction</h2>
                         <p>Values and ethics guide managers in responsible decision making and in exercising due diligence in their responsibilities and accountabilities.</p>
-                        <p>The Values and Ethics Code for the Public Sector and the  Directive on Conflict of Interest, issued under the Policy on People Management, guide all public servants in their professional duties. The code and the directive are a condition of employment, which means that all employees must read and agree to them in order to be employed in the public service.</p>
+                        <p>The Values and Ethics Code for the Public Sector and the Directive on Conflict of Interest, issued under the Policy on People Management, guide all public servants in their professional duties. The code and the directive are a condition of employment, which means that all employees must read and agree to them in order to be employed in the public service.</p>
                         <p>Values and ethics at the core</p>
                         <p>The values and expected behaviours outlined in the Values and Ethics Code for the Public Sector are at the foundation of good management and leadership, and they are a key element in upholding integrity and respect.</p>
                         <p>When considering a values and ethics decision, ask yourself these questions:</p>
@@ -40,9 +40,10 @@
                           <li>Identify acts of wrongdoing as defined by the <i>Public Servants Disclosure Protection Act</i></li>
                         </ul>
                         <p>This section should take you approximately 30 minutes to complete.</p>
+                        <p>[An External Links reference pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>Respect for People</h2>
+                        <h2>2. Respect for People</h2>
                         <p>Respect for people is one value that must be emphasized among all others.</p>
                         <p>Fostering a safe, healthy work environment, including protecting employees from harassment and violence, is a key requirement of employers (or deputy heads), as outlined in the Directive on the Prevention and Resolution of Workplace Harassment and Violence and the Work Place Harassment and Violence Prevention Regulations.</p>
                         <p>As a manager you are in a position of influence and authority. You have a responsibility to:</p>
@@ -59,9 +60,10 @@
                         <p>For a definition of workplace harassment and violence and a full list of examples, please consult the web page Requirements for employers to prevent harassment and violence in federally regulated workplaces.</p>
                         <p>Harassment and violence can be one severe incident that has a lasting impact on the individual, or it can be a series of objectionable actions, conduct or comments against a person because of, for example, that person’s race, national or ethnic origin, religion, age, sexual orientation, gender identity or expression, genetic characteristics, disability or any of the other prohibited grounds listed in the <i>Canadian Human Rights Act</i>. In addition, the United Nations Declaration on the Rights of Indigenous Peoples expands the scope of discrimination to include culture, identity, religion, language, health, education and community.</p>
                         <p>When assessing a situation, consider the severity and impropriety of the act, the circumstances and context of the situation, and whether the behaviour is prohibited under the <i>Canadian Human Rights Act</i>.</p>
+                        <p>[A Respect for People activity pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>Harassment and Violence</h2>
+                        <h2>3. Harassment and Violence</h2>
                         <p>A formal process is initiated when an employee files a written complaint with the individual or unit responsible for managing harassment and violence complaints.</p>
                         <p>For more information on the formal process, please refer to the Work Place Harassment and Violence Prevention Regulations.</p>
                         <p>Harassment and violence is serious and needs to be addressed promptly, with sensitivity, competence and discretion.</p>
@@ -72,9 +74,10 @@
                           <li>Making every reasonable effort to resolve the occurrence, and</li>
                           <li>Recording  all occurrences of harassment and violence that have been reported to you</li>
                         </ul>
+                        <p>[A Harassment and Violence activity pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>Directive on Conflict of Interest</h2>
+                        <h2>4. Directive on Conflict of Interest</h2>
                         <p>During your career in the public service, you may be required to address conflicts of interest between your private and professional activities outside of work and your official duties and responsibilities.</p>
                         <p>Compliance with the Policy on People Management and the Directive on Conflict of Interest is a condition of employment. The directive details requirements for public servants to prevent and deal with any real, apparent or potential conflict of interest during their employment and post-employment.</p>
                         <p>In essence, the directive states that all public servants must serve the public interest by taking all possible steps to prevent and resolve, in favour of the public interest, any real, apparent or potential conflicts of interest between their official responsibilities and their private affairs.</p>
@@ -83,9 +86,10 @@
                           <li>ask the employee to review the requirements outlined in the directive, and</li>
                           <li>write a report to inform the deputy head to determine whether the situation could place the employee in a real, apparent or potential conflict of interest</li>
                         </ul>
+                        <p>[An Additional Course reference pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>Defining Wrongdoing</h2>
+                        <h2>5. Defining Wrongdoing</h2>
                         <p>The Public Servants Disclosure Protection Act (PSDPA) establishes a process for public sector employees to come forward if they believe that wrongdoing has occurred or is about to occur in the workplace.</p>
                         <p>Wrongdoing is defined under the PSDPA as any of the following:</p>
                         <ul>
@@ -98,15 +102,22 @@
                         </ul>
                         <p>The legislation protects public servants’ confidentiality when disclosing suspected wrongdoing and protects them from possible reprisals. As a manager, you have an important role to play in modelling values-based leadership and informing your employees of their rights and options under the PSDPA.</p>
                         <p>You may encounter situations where employees disclose wrongdoing to you. It is your role to receive the disclosure, inform your organization’s senior officer for internal disclosure, and protect the identity of those involved in the disclosure process. Employees may also choose to approach the senior officer for internal disclosure or the Public Sector Integrity Commissioner directly.</p>
+                        <p>[A Defining Wrongdoing reference pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>In Real Life</h2>
+                        <h2>6. In Real Life</h2>
                         <p>Take what you have learned into real life!</p>
                         <p>Your organization will have its own ways of doing things. Take a time out from the course to do several things.</p>
+                        <p>[An In Real Life activity pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>Quiz</h2>
+                        <h2>7. Quiz</h2>
                         <p>Test your knowledge by answering the following questions. Select “Submit” when you are done.</p>
+                        <p>[A Take the Quiz activity pop-up text box appears.]</p>
+                        <hr>
+
+                        <h2>8. Section Completed</h2>
+                        <p>[Onscreen text showing Section Completed instruction]</p>
                       </span>
                       <span v-if="$i18n.locale=='fr'">
                         <h2>Introduction</h2>

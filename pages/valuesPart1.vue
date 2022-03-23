@@ -19,7 +19,7 @@
                   <b-card-body>
                     <b-card-text>
                       <span v-if="$i18n.locale=='en'">
-                        <h2>Labour Relations</h2>
+                        <h2>1. Introduction</h2>
                         <p>Good labour relations are essential to good human resources management. It is your responsibility to contribute to effective labour relations in your organization and to ensure that the <i>Federal Public Sector Labour Relations Act</i>, labour relations policies and collective agreements, and National Joint Council directives are respected and applied in a consistent manner.</p>
                         <p>The <i>Federal Public Sector Labour Relations Act</i> provides for dialogue, joint problem solving, mutually agreed-upon solutions, and effective collective bargaining. The preamble of the Act outlines key values and principles, such as:</p>
                         <ul>
@@ -35,9 +35,10 @@
                           <li>Discover the resources available to help you manage workplace conflict</li>
                         </ul>
                         <p>This section should take you approximately 20 minutes to complete.</p>
+                        <p>[An External Links reference pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>Types of Positions</h2>
+                        <h2>2. Types of Positions</h2>
                         <p>Essential positions are defined as jobs that maintain the services, facilities and activities of the federal public service and that are or will be necessary for the safety or security of the public.</p>
                         <p>Under the Federal Public Sector Labour Relations Act (Division 8), the employer holds the authority and responsibility for determining essential positions.</p>
                         <p>As a delegated manager, you are responsible for: </p>
@@ -49,16 +50,18 @@
                         <p>For more information, see the Guidelines for Essential Services Designations.</p>
                         <p>Having managerial or confidential duties means that these positions are excluded from a bargaining unit. Section 59 of the Federal Public Sector Labour Relations Act lists the grounds for declaring a position managerial or confidential, but departments play a key role in identifying and justifying these positions to the Treasury Board of Canada Secretariat.</p>
                         <p>For more information, see the Guidelines on Managerial or Confidential Exclusions.</p>
+                        <p>[A Types of Positions activity pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>Collective Agreements</h2>
+                        <h2>3. Collective Agreements</h2>
                         <p>Collective agreements specify the terms and conditions governing employee and employer rights and entitlements. They also address key elements such as leave entitlements, hours of work, remuneration, and so forth.</p>
                         <p>Different collective agreements may appear to be quite similar, but they contain important differences in entitlements that you must recognize.</p>
                         <p>In your new role as manager, it is quite possible that you will manage employees under more than one collective agreement. Make sure you read them and are able to answer questions that may arise among your employees.</p>
                         <p>You should also be aware that directives developed by the National Joint Council affect collective agreements. National Joint Council provisions form part of the collective agreements of the participating parties under the bylaws of the National Joint Council. The provisions also apply to individuals not covered by collective agreements, as specified in the directive or by employer policy.</p>
+                        <p>[A Collective Agreements activity pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>Managing Disciplinary Measures</h2>
+                        <h2>4. Managing Disciplinary Measures</h2>
                         <p>The <i>Financial Administration Act</i> authorizes every deputy head in the core public administration to establish standards of conduct and to set penalties as disciplinary measures.</p>
                         <p>Penalties that may be applied for misconduct include:</p>
                         <ul>
@@ -68,21 +71,29 @@
                           <li>other financial penalties</li>
                         </ul>
                         <p>Disciplinary measures, as opposed to performance management measures, may be the appropriate response to an employee’s willful breach of rules or standards in the workplace.</p>
+                        <p>[A Managing Disciplinary Measures activity pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>Managing Workplace Conflict</h2>
+                        <h2>5. Managing Workplace Conflict</h2>
                         <p>A grievance is a formal administrative process that employees can use to seek the resolution of disputes regarding the terms and conditions of their employment. The <i>Federal Public Sector Labour Relations Act</i> gives all employees the right to present grievances, unless there is an administrative alternative.</p>
                         <p>Employees are entitled to present a grievance if they feel aggrieved:</p>
                         <p>When you receive a grievance from an employee, it is your responsibility as a supervisor or manager to acknowledge receipt to the employee and send the grievance form to the person in your organization who is authorized to deal with the grievance.</p>
                         <p>According to the <i>Federal Public Sector Labour Relations Act</i>,  all organizations in the core public administration must have an informal conflict management system in place. The purpose of an ICMS is to resolve workplace conflict by offering alternative dispute resolution methods.</p>
+                        <p>[A Managing Workplace Conflict reference pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>In Real Life</h2>
+                        <h2>6. In Real Life</h2>
                         <p>Your organization will have its own ways of doing things. Take a time out from the course to find out who in your department is the labour relations advisor.  They can offer excellent support.  As well, find out which positions are designated managerial or confidential in your team or organization.</p>
+                        <p>[An In Real Life activity pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>Quiz</h2>
+                        <h2>7. Quiz</h2>
                         <p>Test your knowledge by answering the following questions. Select “Submit” when you are done.</p>
+                        <p>[A Take the Quiz activity pop-up text box appears.]</p>
+                        <hr>
+
+                        <h2>8. Section Completed</h2>
+                        <p>[Onscreen text showing Section Completed instruction]</p>
                       </span>
                       <span v-if="$i18n.locale=='fr'">
                         <h2>Introduction</h2>

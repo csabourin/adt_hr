@@ -19,7 +19,7 @@
                   <b-card-body>
                     <b-card-text>
                       <span v-if="$i18n.locale=='en'">
-                        <h2>Official Languages</h2>
+                        <h2>1. Introduction</h2>
                         <p>The federal government’s official languages programs not only ensure that services are delivered to Canadians in both English and French. They also protect the official language rights of all public servants and promote the use of both official languages in the workplace in bilingual regions.</p>
                         <p>To accomplish this, the official languages programs ensure that organizations comply with the requirements of the <i>Official Languages Act</i> and the Treasury Board’s official languages policy instruments.</p>
                         <p>In this section you will learn to:</p>
@@ -28,9 +28,10 @@
                           <li>Recognize responsibilities regarding employee rights related to language of work</li>
                         </ul>
                         <p>This section should take you approximately 30 minutes to complete.</p>
+                        <p>[An External Links reference pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>Legal Framework</h2>
+                        <h2>2. Legal Framework</h2>
                         <p>Did you know that the <i>Official Languages Act</i> is based on the Constitution Act of 1867 and the Canadian Charter of Rights and Freedoms. The Act has a quasi-constitutional status that is recognized by the Canadian courts.</p>
                         <p>The Policy on Official Languages exists to facilitate the effective implementation of the <i>Official Languages Act</i> and its Official Languages (Communications with and Services to the Public) Regulations by government institutions.</p>
                         <p>The policy sets out the following expected results:</p>
@@ -40,9 +41,10 @@
                           <li>English-speaking and French-speaking Canadians have equal opportunities for employment and advancement in institutions, taking into account the institutions’ mandate, location, and the public they serve, and</li>
                           <li>Appropriate governance structures, mechanisms, and resources are in place to ensure coherent management of the institution’s official languages responsibilities</li>
                         </ul>
+                        <p>[A Legal Framework activity pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>Directive on Official Languages for Communications and Services</h2>
+                        <h2>3. Directive on Official Languages for Communications and Services</h2>
                         <p>Did you know that there is a difference between a bilingual region and a designated bilingual office. Some offices are designated bilingual for the purpose of communications and services to the public even if they are located in a unilingual region for language-of-work purposes. To identify such regions, consult the Burolis database.</p>
                         <p>Let’s look at how the requirements apply in bilingual or unilingual offices for language-of-work purposes.</p>
                         <p>The Directive on Official Languages for Communications and Services applies to all communications involving the public or public service employees.</p>
@@ -55,9 +57,10 @@
                         </ul>
                         <p>The managerial responsibilities linked to your institution’s obligations regarding communications with public service employees can vary depending on whether your office is located in a unilingual region or a bilingual region.</p>
                         <p>To find out whether your organization is located in a bilingual region, you can refer to the List of Bilingual Regions of Canada for Language-of-Work Purposes.</p>
+                        <p>[A Regions designated bilingual for language-of-work purposes activity pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>Managers’ Official Languages Responsibilities for People Management</h2>
+                        <h2>4. Managers’ Official Languages Responsibilities for People Management</h2>
                         <p>The Directive on Official Languages for People Management supports the Policy on Official Languages by identifying requirements related to:</p>
                         <ul>
                           <li>the linguistic identification of a position</li>
@@ -80,9 +83,10 @@
                           <li>providing employees with regularly and widely used work instruments and electronic systems in both official languages, if they are required to communicate or provide services to the public or employees in English and French</li>
                         </ul>
                         <p>Using the Leadership Competencies Profile for Official Languages can help individuals self-assess their level of functionality in their second language.</p>
+                        <p>[A Managers’ official languages responsibilities for people management activity pop-up text box appears.]</p>
                         <hr>
 
-                        <h2> Identifying Language Requirements</h2>
+                        <h2>5. Identifying Language Requirements</h2>
                         <p>Managers in various federal organizations are responsible for ensuring that the positions they manage reflect the level of language proficiency required to perform the duties and tasks of the positions.</p>
                         <p>If you are a manager in an institution listed in Schedules I or IV of the <i>Financial Administration Act</i>, you can identify a language profile using the following definitions:</p>
                         <ul>
@@ -91,15 +95,22 @@
                           <li>Bilingual: The functions and duties of the position will require the use of both English and French (bilingual position)</li>
                           <li>Either/or position: The functions and duties of the position will require only the use of one official language, and the incumbent chooses which language they will use. The language of the position is the one chosen by the incumbent for as long as they remain in this position (either/or position).</li>
                         </ul>
+                        <p>[An Identifying language requirements reference pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>In Real Life</h2>
+                        <h2>6. In Real Life</h2>
                         <p>Take what you have learned into real life!</p>
                         <p>Your organization will have its own ways of doing things. Take a time out from the course to consult the course tool box for a list of the persons responsible for official languages and the official languages champions in institutions subject to the <i>Official Languages Act</i>.</p>
+                        <p>[An In Real Life activity pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>Quiz</h2>
+                        <h2>7. Quiz</h2>
                         <p>Test your knowledge by answering the following questions. Select “Submit” when you are done.</p>
+                        <p>[A Take the Quiz activity pop-up text box appears.]</p>
+                        <hr>
+
+                        <h2>8. Section Completed</h2>
+                        <p>[Onscreen text showing Section Completed instruction]</p>
 
                       </span>
                       <span v-if="$i18n.locale=='fr'">

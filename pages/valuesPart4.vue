@@ -19,7 +19,7 @@
                   <b-card-body>
                     <b-card-text>
                       <span v-if="$i18n.locale=='en'">
-                        <h2>Political Activities</h2>
+                        <h2>1. Introduction</h2>
                         <p>The <i>Public Service Employment Act</i> (PSEA) defines “political activity” as:</p>
                         <ul>
                           <li>any activity in support of, within, or in opposition to a political party or a candidate before or during an election period, or</li>
@@ -32,9 +32,10 @@
                           <li>Recognize when permission from the Public Service Commission is required to participate in political activities</li>
                         </ul>
                         <p>This section should take you approximately 10 minutes to complete.</p>
+                        <p>[An External Links reference pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>Non-Partisanship and Political Activities</h2>
+                        <h2>2. Non-Partisanship and Political Activities</h2>
                         <h3>Non-partisanship</h3>
                         <p>Non-partisanship is an essential element of a professional public service and a responsible democratic government. Upholding the non-partisan character of the public service is the responsibility of all public service employees.</p>
                         <h3>Political activities</h3>
@@ -46,18 +47,25 @@
                         <p>In these instances, public service employees are responsible for making informed decisions about whether the activities could impair (or be perceived as impairing) their ability to perform their duties in an impartial manner.</p>
                         <p>Public servants wishing to engage in political activities are encouraged to consult their organization’s designated political activities representative, their values and ethics advisor, or the Political Activities and Non-Partisanship Division at the Public Service Commission.</p>
                         <p>Allegations of improper political activity against an employee may be investigated by the Public Service Commission to determine if corrective action is appropriate.</p>
+                        <p>[A Non-partisanship reference pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>In Real Life</h2>
+                        <h2>3. In Real Life</h2>
                         <p>Take what you have learned into real life!</p>
                         <p>Your organization will have its own ways of doing things. Take a time out from the course to watch these short videos and share them with your employees:</p>
                         <p>Political Activities: Candidacy</p>
                         <p>Political Activities: Making an Informed Decision</p>
-                        <p>They are an excellent source of information if  you or any of your employees are considering becoming a candidate in a federal, provincial, territorial or municipal election, or participating in political activities.</p>
+                        <p>They are an excellent source of information if you or any of your employees are considering becoming a candidate in a federal, provincial, territorial or municipal election, or participating in political activities.</p>
+                        <p>[An In Real Life activity pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>Quiz</h2>
+                        <h2>4. Quiz</h2>
                         <p>Test your knowledge by answering the following questions. Select “Submit” when you are done.</p>
+                        <p>[A Take the Quiz activity pop-up text box appears.]</p>
+                        <hr>
+
+                        <h2>5. Section Completed</h2>
+                        <p>[Onscreen text showing Section Completed instruction]</p>
                       </span>
                       <span v-if="$i18n.locale=='fr'">
                         <h2>Introduction</h2>
