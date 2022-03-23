@@ -580,6 +580,7 @@ export default {
   "StaffingObligationsTitle": "Références : Obligations en matière de dotation ",
   "InclusiveHiringTitle": "Activité – Embauche inclusive",
   "StaffingPositionTitle": "Références : Dotation d’un poste",
+  "IRLTitle":"Dans la vraie vie",
   "DataComparisonTitle":"Activité : Comparaison des données",
   "ContinuousMonitoringTitle":"Activité : Suivi continu",
   "YearEndProceduresTitle":"Activité : Procédures de fin d’année",

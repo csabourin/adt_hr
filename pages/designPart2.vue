@@ -299,7 +299,7 @@ export default {
   "planSectionBar": "FOUNDATION"
   },
   "fr":{
-  "TakeTheQuiz":"Répondez au questionnaire",
+  "TakeTheQuiz":"Répondez au quiz",
   "activityLinks":"Références : Liens externes",
   "overviewTitle": "Activité : Aperçu de la planification des RH ",
   "completewptitle":"Activité : Compléter le plan de travail",

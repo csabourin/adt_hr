@@ -98,7 +98,7 @@
                       <h2>3. Instrument de délégation en matière de RH</h2>
                       <p>Chaque organisation a ses propres outils lui permettant de déléguer les pouvoirs au niveau de gestion approprié. De façon générale, l’instrument de délégation en matière de RH d’une organisation présente une série d’activités ainsi que le ou les niveaux d’approbation qui y sont associés.</p>
                       <p>Une personne peut seulement exercer les pouvoirs qui lui ont été délégués à juste titre. Consultez l’instrument de votre organisation.</p>
-                      <p>[Une boîte de texte de l’activité Déterminer les niveaux décisionnels repuis pour approuver différentes demandes de RH apparaît.]</p>
+                      <p>[Une boîte de texte de l’activité Déterminer les niveaux décisionnels requis pour approuver différentes demandes de RH apparaît.]</p>
                       <hr>
                       
                       <h2>4. Dans la vraie vie</h2>
@@ -305,11 +305,12 @@ export default {
   "planSectionBar": "FOUNDATION"
   },
   "fr":{
-  "TakeTheQuiz":"Répondez au questionnaire",
+  "TakeTheQuiz":"Répondez au quiz",
   "activityLinks":"Références : Liens externes",
   "gotoLinks":"Pour plus d'information, veuillez consulter les liens suivants. Ces liens sont également disponibles dans la boîte à outils.",
   "hrAuthoritiesTitle": "Activité : Reconnaître les pouvoirs délégués",
   "hrDelegationTitle": "Activité : Déterminer les niveaux décisionnels requis pour approuver différentes demandes de RH",
+  "InRealLife":"Dans la vraie vie",
   "IRLText":"<p>Appliquez maintenant ce que vous avez appris – dans la vraie vie! </p>  <p>Votre organisation aura sa propre façon de faire les choses. Par conséquent, la subdélégation varie d’une organisation à l’autre. Il est bon de vous demander si vous avez le pouvoir d’agir avant de prendre une décision en matière de RH. </p>  <p>Prenez le temps pour demander à votre superviseur ou à un conseiller en RH où se trouve l’instrument de délégation de votre organisation et comment l’utiliser dans le cadre des décisions que vous prenez. Certaines activités liées aux RH comme la classification, la paye et la dotation peuvent exiger d’exercer des pouvoirs dans plusieurs domaines. </p>",
   "gotIt":"Passer au segment suivant.",
   "gotItContent": "Les fenêtres contextuelles apparaissent tout au long du cours pour indiquer ce qui vient ensuite comme une vidéo, un exercice, une liste de liens ou une aide à l’emploi.",
