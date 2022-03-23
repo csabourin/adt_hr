@@ -114,7 +114,7 @@
 
                       </span>
                       <span v-if="$i18n.locale=='fr'">
-                        <h2>Introduction</h2>
+                        <h2>1. Introduction</h2>
                         <p>Les programmes des langues officielles du gouvernement fédéral ne garantissent pas seulement des services en français et en anglais aux Canadiens. Ils protègent aussi les droits de tous les fonctionnaires en matière de langues officielles et favorisent l’utilisation des deux langues officielles dans les milieux de travail situés dans les régions bilingues.</p>
                         <p>Les programmes des langues officielles doivent donc veiller à ce que les organisations se conforment aux exigences de la <i>Loi sur les langues officielles</i> et aux instruments de politique en matière de langues officielles du Conseil du Trésor.</p>
                         <p>Dans cette section, vous apprendrez à : </p>
@@ -123,9 +123,10 @@
                           <li>reconnaître les responsabilités liées aux droits des employés quant à la langue de travail.</li>
                         </ul>
                         <p>Il vous faudra environ 30 minutes pour compléter cette section.</p>
+                        <p>[Une boîte de texte de référence de Liens externes apparaît.]</p>
                         <hr>
 
-                        <h2>Cadre juridique</h2>
+                        <h2>2. Cadre juridique</h2>
                         <p>Saviez-vous que la <i>Loi sur les langues officielles</i> se fonde sur la <i>Loi constitutionnelle de 1867</i> et la Charte canadienne des droits et libertés? Son statut quasi constitutionnel est reconnu par les tribunaux canadiens.</p>
                         <p>La Politique sur les langues officielles facilite la mise en œuvre efficace de la <i>Loi sur les langues officielles</i> et du Règlement sur les langues officielles – communications avec le public et prestation des services par les institutions gouvernementales.</p>
                         <p>La politique énonce les résultats attendus suivants : </p>
@@ -135,9 +136,10 @@
                           <li>les Canadiens d’expression française et ceux d’expression anglaise ont des chances égales d’emploi et d’avancement au sein des institutions – le mandat des institutions, leur emplacement et leur public doivent être pris en compte;</li>
                           <li>des structures de gouvernance, des mécanismes adéquats et des ressources sont en place pour assurer une gestion cohérente des obligations de l’institution en matière de langues officielles.</li>
                         </ul>
+                        <p>[Une boîte de texte de l’activité Cadre juridique apparaît.]</p>
                         <hr>
 
-                        <h2>Directive sur les langues officielles pour les communications et services</h2>
+                        <h2>3. Directive sur les langues officielles pour les communications et services</h2>
                         <p>Saviez-vous qu’il y a une différence entre une région bilingue et un bureau désigné bilingue? Certains bureaux sont désignés bilingues aux fins des communications avec le public et de la prestation des services, même si ces bureaux sont situés dans des régions unilingues aux fins de la langue de travail. Pour trouver ces régions, consultez la base de données Burolis.</p>
                         <p>Observons comment les exigences s’appliquent aux bureaux bilingues ou unilingues aux fins de la langue de travail.</p>
                         <p>La Directive sur les langues officielles pour les communications et services s’applique à toutes les communications avec le public ou les employés de la fonction publique.</p>
@@ -150,9 +152,10 @@
                         </ul>
                         <p>Les responsabilités de la direction de votre organisation découlant des obligations en matière de communication avec les employés de la fonction publique pourraient varier selon que votre bureau est situé dans une région bilingue ou unilingue.</p>
                         <p>Pour savoir si votre organisation se trouve dans une région bilingue, consultez la Liste des régions bilingues du Canada aux fins de la langue de travail.</p>
+                        <p>[Une boîte de texte de l’activité Régions désignées bilingues aux fins de la langue de travail apparaît.]</p>
                         <hr>
 
-                        <h2>Responsabilités des gestionnaires en matière de langues officielles pour la gestion des personnes</h2>
+                        <h2>4. Responsabilités des gestionnaires en matière de langues officielles pour la gestion des personnes</h2>
                         <p>La Directive sur les langues officielles pour la gestion des personnes appuie la Politique sur les langues officielles en établissant les exigences relatives à : </p>
                         <ul>
                           <li>l’identification linguistique des postes;</li>
@@ -175,9 +178,10 @@
                           <li>mettre à la disposition des employés qui communiquent ou fournissent des services en français et en anglais au public ou aux employés des instruments de travail et des systèmes informatiques d’usage courant et généralisé dans les deux langues officielles.</li>
                         </ul>
                         <p>Le Profil de compétences en leadership axé sur les langues officielles peut permettre aux personnes d’autoévaluer leurs compétences en langue seconde.</p>
+                        <p>[Une boîte de texte de l’activité Responsabilités des gestionnaires en matière de langues officielles pour la gestion des personnes apparaît.]</p>
                         <hr>
 
-                        <h2>Établir les exigences linguistiques</h2>
+                        <h2>5. Établir les exigences linguistiques</h2>
                         <p>Les gestionnaires des différentes organisations fédérales doivent faire en sorte que le profil des postes sous leur supervision correspond aux compétences linguistiques nécessaires à l’exercice des fonctions et des tâches de ces postes.</p>
                         <p>Si vous êtes gestionnaire dans l’une des institutions énumérées dans les annexes I ou IV de la <i>Loi sur la gestion des finances publiques</i>, vous pouvez établir un profil linguistique selon les définitions suivantes : </p>
                         <ul>
@@ -186,15 +190,22 @@
                           <li>bilingue : les fonctions et les tâches du poste requièrent l’utilisation du français et de l’anglais (poste bilingue);</li>
                           <li>réversible : les fonctions et les tâches du poste requièrent l’utilisation d’une seule langue officielle, et le titulaire du poste choisit laquelle utiliser. La langue du poste est celle qui est choisie par le titulaire aussi longtemps que celui-ci y demeure (poste réversible).</li>
                         </ul>
+                        <p>[Une boîte de texte de référence Établir les exigences linguistiques apparaît.]</p>
                         <hr>
 
-                        <h2>Dans la vraie vie</h2>
+                        <h2>6. Dans la vraie vie</h2>
                         <p>Appliquer ce que vous avez appris - dans la vraie vie!</p>
                         <p>Votre organisation aura sa propre façon de faire les choses. Prenez le temps pour consulter la boîte à outils du cours, où vous trouverez la liste des personnes responsables des langues officielles et des champions des langues officielles dans les institutions assujetties à la <i>Loi sur les langues officielles</i>.</p>
+                        <p>[Une boîte de texte de l’activité Dans la vraie vie apparaît.]</p>
                         <hr>
 
-                        <h2>Quiz</h2>
-                        <p>Évaluez vos connaissances en répondant aux questions suivantes. Cliquez sur « Soumettre » lorsque vous avez terminé.</p>                    
+                        <h2>7. Quiz</h2>
+                        <p>Évaluez vos connaissances en répondant aux questions suivantes. Cliquez sur « Soumettre » lorsque vous avez terminé.</p>
+                        <p>[Une boîte de texte de l’activité Répondez au quiz apparaît.]</p>
+                        <hr>
+
+                        <h2>8. Section complétée</h2>
+                        <p>[Texte à l’écran indiquant l’instruction Section complétée.]</p>                  
                       </span>
                     </b-card-text>
                   </b-card-body>

@@ -68,7 +68,7 @@
                         <p>[Onscreen text showing Section Completed instruction]</p>
                       </span>
                       <span v-if="$i18n.locale=='fr'">
-                        <h2>Introduction</h2>
+                        <h2>1. Introduction</h2>
                         <p> La <i>Loi sur l’emploi dans la fonction publique</i> (LEFP) définit une « activité politique » comme : </p>
                         <ul>
                           <li>toute activité exercée au sein d’un parti politique, ou exercée pour soutenir un tel parti ou un candidat ou pour s’y opposer, avant ou pendant la période électorale;</li>
@@ -81,9 +81,10 @@
                           <li>reconnaître les situations dans lesquelles la permission de la Commission de la fonction publique est nécessaire pour qu’une personne puisse participer à des activités politiques.</li>
                         </ul>
                         <p>Il vous faudra environ 10 minutes pour compléter cette section.</p>
+                        <p>[Une boîte de texte de référence de Liens externes apparaît.]</p>
                         <hr>
 
-                        <h2>Impartialité et activités politiques</h2>
+                        <h2>2. Impartialité et activités politiques</h2>
                         <h3>Impartialité</h3>
                         <p>L’impartialité est un élément essentiel au sein d’une fonction publique professionnelle et d’un gouvernement démocratique responsable. Tous les fonctionnaires doivent préserver le caractère impartial de la fonction publique.</p>
                         <h3>Activités politiques</h3>
@@ -95,18 +96,25 @@
                         <p>Dans ce cas, le fonctionnaire est responsable de juger si cette activité pourrait porter atteinte (ou sembler porter atteinte) à sa capacité d’exercer ses fonctions de façon politiquement impartiale.</p>
                         <p>Les fonctionnaires qui souhaitent se livrer à des activités politiques sont invités à consulter leur RDAP, leur conseiller en valeurs et éthique ou la Direction des activités politiques et de l’impartialité politique de la Commission de la fonction publique.</p>
                         <p>Toute allégation d’activités politiques irrégulières formulée contre un fonctionnaire pourrait faire l’objet d’une enquête par la Commission de la fonction publique, qui visera à déterminer si la prise de mesures correctives est nécessaire.</p>
+                        <p>[Une boîte de texte de référence d’Impartialité apparaît.]</p>
                         <hr>
 
-                        <h2>Dans la vraie vie</h2>
+                        <h2>3. Dans la vraie vie</h2>
                         <p>Appliquer ce que vous avez appris dans la vraie vie!</p>
                         <p>Votre organisation aura sa propre façon de faire les choses. Prenez le temps pour jeter un coup d’œil à ces courtes vidéos et pour les faire suivre à vos employés : </p>
                         <p>Activités politiques – Candidature;</p>
                         <p>Activités politiques – Prenez une décision éclairée.</p>
                         <p>Ces vidéos sont une excellente source d’information si vous ou l’un de vos employés envisagez de devenir candidat à une élection fédérale, provinciale, territoriale ou municipale, ou si vous voulez vous livrer à des activités politiques.</p>
+                        <p>[Une boîte de texte de l’activité Dans la vraie vie apparaît.]</p>
                         <hr>
 
-                        <h2>Quiz</h2>
-                        <p>Évaluez vos connaissances en répondant aux questions suivantes. Cliquez sur « Soumettre » lorsque vous avez terminé.</p>                        
+                        <h2>4. Quiz</h2>
+                        <p>Évaluez vos connaissances en répondant aux questions suivantes. Cliquez sur « Soumettre » lorsque vous avez terminé.</p>
+                        <p>[Une boîte de texte de l’activité Répondez au quiz apparaît.]</p>
+                        <hr>
+
+                        <h2>5. Section complétée</h2>
+                        <p>[Texte à l’écran indiquant l’instruction Section complétée.]</p>                
                       </span>
                     </b-card-text>
                   </b-card-body>

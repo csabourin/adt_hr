@@ -120,7 +120,7 @@
                         <p>[Onscreen text showing Section Completed instruction]</p>
                       </span>
                       <span v-if="$i18n.locale=='fr'">
-                        <h2>Introduction</h2>
+                        <h2>1. Introduction</h2>
                         <p>Les valeurs et l’éthique guident les gestionnaires vers une prise de décisions responsable et vers l’exercice d’une diligence raisonnable dans le cadre de leurs responsabilités et de leurs obligations.</p>
                         <p>Le Code de valeurs et d’éthique du secteur public et la Directive sur les conflits d’intérêts, qui a été élaborée conformément à la Politique sur la gestion des personnes, orientent les fonctionnaires dans l’exercice de leurs fonctions. Le respect du Code et de la Directive constitue une condition d’emploi, ce qui signifie que tous les employés doivent les lire et les accepter pour travailler dans la fonction publique.</p>
                         <p>Les valeurs et les comportements attendus qui sont présentés dans le <i>Code de valeurs et d’éthique du secteur public</i> sont au cœur d’une bonne gestion et d’un bon leadership. Ils constituent un élément incontournable du maintien de l’intégrité et du respect.</p>
@@ -138,9 +138,10 @@
                           <li>reconnaître le harcèlement et la violence.</li>
                         </ul>
                         <p>Il vous faudra environ 30 minutes pour compléter cette section.</p>
+                        <p>[Une boîte de texte de référence de Liens externes apparaît.]</p>
                         <hr>
 
-                        <h2>Respecter les gens</h2>
+                        <h2>2. Respecter les gens</h2>
                         <p>Le respect envers les gens est l’une des valeurs sur laquelle il faut insister.</p>
                         <p>Les employeurs (ou les administrateurs généraux) doivent mettre un point d’honneur à favoriser un environnement de travail sain et sécuritaire, notamment en protégeant les employés contre le harcèlement et la violence, comme le soulignent la Directive sur la Prévention et la résolution du harcèlement et de la violence dans le lieu de travail et le Règlement sur la prévention du harcèlement et de la violence dans le lieu de travail.</p>
                         <p>En tant que gestionnaire, vous êtes en position d’influence et d’autorité. Il vous incombe : </p>
@@ -157,9 +158,10 @@
                         <p>Pour connaître la définition du harcèlement et de la violence au travail et consulter une liste exhaustive d’exemples, rendez-vous sur la page Web Obligations des employeurs pour prévenir le harcèlement et la violence en milieu de travail sous réglementation fédérale.</p>
                         <p>Le harcèlement et la violence peuvent consister en un seul incident grave ayant des conséquences durables sur la personne visée ou en une série de gestes, de comportements ou de commentaires répréhensibles à l’égard d’une personne en raison, par exemple, de sa race, de son origine nationale ou ethnique, de sa religion, de son âge, de son orientation sexuelle, de son identité ou de son expression de genre, de ses caractéristiques génétiques, d’une déficience ou d’un autre motif de distinction illicite mentionnée dans la <i>Loi canadienne sur les droits de la personne</i>. Par ailleurs, la Déclaration des Nations Unies sur les Droits des Peuples Autochtones redéfinit la discrimination pour que soient prises en compte la culture, l’identité, la religion, la langue, la santé, l’éducation et la communauté.</p>
                         <p>Au moment d’évaluer une situation, il faut examiner la gravité et le caractère inopportun du geste, les circonstances et le contexte, et il faut déterminer si le comportement est interdit aux termes de la <i>Loi canadienne sur les droits de la personne</i>.</p>
+                        <p>[Une boîte de texte de l’activité Respecter les gens apparaît.]</p>
                         <hr>
 
-                        <h2>Harcèlement et violence</h2>
+                        <h2>3. Harcèlement et violence</h2>
                         <p>Un processus formel est amorcé lorsqu’un employé dépose une plainte écrite auprès de la personne ou de l’unité responsable de la gestion des plaintes pour harcèlement et violence.</p>
                         <p>Pour en savoir plus sur le processus officiel, consultez le Règlement sur la prévention du harcèlement et de la violence dans le lieu de travail.</p>
                         <p>Les situations de harcèlement et de violence sont sérieuses et doivent être réglées sans délai, avec doigté, compétence et discrétion.</p>
@@ -170,9 +172,10 @@
                           <li>faire tous les efforts raisonnables pour régler l’incident;</li>
                           <li>consigner toutes les situations de harcèlement et de violence qui vous ont été signalées.</li>
                         </ul>
+                        <p>[Une boîte de texte de l’activité Harcèlement et violence apparaît.]</p>
                         <hr>
 
-                        <h2>Directive sur les conflits d’intérêts</h2>
+                        <h2>4. Directive sur les conflits d’intérêts</h2>
                         <p>Au cours de votre carrière dans la fonction publique, vous pourriez vous retrouver dans une situation de conflits d’intérêts entre vos activités personnelles et professionnelles en dehors du travail et vos fonctions et responsabilités officielles.</p>
                         <p>La conformité à la Politique sur la gestion des personnes et à la Directive sur les conflits d’intérêts est une condition d’emploi. La Directive énonce en détail les exigences auxquelles doivent se soumettre les fonctionnaires pour prévenir et traiter tout conflit d’intérêts réel, apparent ou potentiel pendant et après leur emploi.</p>
                         <p>La Directive indique essentiellement que tous les fonctionnaires doivent servir l’intérêt public en prenant toutes les mesures possibles pour prévenir et résoudre tout conflit d’intérêts réel, apparent ou potentiel entre leurs responsabilités officielles et leurs intérêts personnels.</p>
@@ -181,9 +184,10 @@
                           <li>demander à l’employé de revoir les exigences présentées dans la Directive;</li>
                           <li>rédiger un rapport pour informer l’administrateur général afin qu’il détermine si l’employé pourrait se retrouver en situation de conflit d’intérêts réel, apparent ou potentiel.</li>
                         </ul>
+                        <p>[Une boîte de texte de référence de Cours supplémentaire apparaît.]</p>
                         <hr>
 
-                        <h2>Définition d’un acte répréhensible</h2>
+                        <h2>5. Définition d’un acte répréhensible</h2>
                         <p>La <i>Loi sur la protection des fonctionnaires divulgateurs d’actes répréhensibles</i> (LPFDAR) énonce le processus que les employés du secteur public doivent suivre pour dénoncer tout acte répréhensible qui est commis ou sur le point d’être commis en milieu de travail.</p>
                         <p>Selon la LPFDAR, un acte répréhensible s’entend de ce qui suit : </p>
                         <ul>
@@ -196,15 +200,21 @@
                         </ul>
                         <p>La loi préserve la confidentialité des fonctionnaires qui révèlent des actes répréhensibles présumés et les protège contre d’éventuelles représailles. En tant que gestionnaire, vous jouez un rôle important en montrant l’exemple d’un leadership fondé sur des valeurs et en informant vos employés sur leurs droits [et] des options qui s’offrent à eux aux termes de la LPFDAR.</p>
                         <p>Il pourrait arriver que des employés vous révèlent des actes répréhensibles. Vous avez la responsabilité de recevoir la divulgation, d’informer l’agent principal chargé de la divulgation à l’interne et de protéger l’identité des personnes visées par le processus de divulgation. Les employés peuvent également s’adresser directement à l’agent principal chargé de la divulgation à l’interne ou au commissaire à l’intégrité du secteur public.</p>
+                        <p>[Une boîte de texte de référence de Définir un acte répréhensible apparaît.]</p>
                         <hr>
 
-                        <h2>Dans la vraie vie</h2>
+                        <h2>6. Dans la vraie vie</h2>
                         <p>Appliquez ce que vous avez appris - dans la vraie vie!</p>
                         <p>Votre organisation aura sa propre façon de faire les choses. Prenez le temps pour faire ce que l’on vous propose ci-dessous.</p>
+                        <p>[Une boîte de texte de l’activité Dans la vraie vie apparaît.]</p>
                         <hr>
 
-                        <h2>Quiz</h2>
-                        <p>Évaluez vos connaissances en répondant aux questions suivantes. Cliquez sur « Soumettre » lorsque vous avez terminé.</p>                        
+                        <h2>7. Quiz</h2>
+                        <p>Évaluez vos connaissances en répondant aux questions suivantes. Cliquez sur « Soumettre » lorsque vous avez terminé.</p>
+                        <p>[Une boîte de texte de l’activité Répondez au quiz apparaît.]</p>
+
+                        <h2>8. Section complétée</h2>
+                        <p>[Texte à l’écran indiquant l’instruction Section complétée.]</p>                 
                       </span>
                     </b-card-text>
                   </b-card-body>
