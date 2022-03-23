@@ -20,7 +20,7 @@
                 <b-card-body>
                   <b-card-text>
                     <span v-if="$i18n.locale=='en'">
-                      <h2>Introduction</h2>
+                      <h2>1. Introduction</h2>
                       <p>As a manager, you may be asked to perform various HR activities such as hire a new employee, draft a new job description, approve leave requests and conduct performance reviews. But before you do any of these, you will need to know if you have the authority to do so.</p>
                       <p>You may be delegated key authorities in human resources, commonly referred to as HR. To exercise these authorities appropriately, you need to understand how they are delegated. You must also be able to interpret your organization’s HR delegation instruments and use them efficiently and effectively, in consultation with the appropriate subject matter experts.</p>
                       <p>In this section, you will learn to:</p>
@@ -29,8 +29,10 @@
                         <li>Identify levels of authority required to approve specific HR requests</li>
                       </ul>
                       <p>This section should take you approximately 15 minutes to complete.</p>
+                      <p>[An External Links reference pop-up text box appears.]</p>
                       <hr>
-                      <h2>HR Authorities - Delegation and Sub-delegation</h2>
+
+                      <h2>2. HR Authorities - Delegation and Sub-delegation</h2>
                       <p>Parliament creates authorities through legislation and from here deputy heads receive certain HR-related authorities directly from legislation and regulations, most specifically from the <i>Financial Administration Act</i> and the <i>Public Service Employment Act</i>.</p>
                       <p>In addition, the <i>Public Service Employment Act</i> gives the Public Service Commission the authority to make appointments to and within the public service. The <i>Public Service Employment Act</i> also authorizes the Public Service Commission to delegate appointment and appointment-related authorities to deputy heads, for positions within the jurisdiction. </p>
                       <p>Human resources authorities are divided into directly conferred authorities and delegated authorities. Directly conferred authorities are those granted directly to deputy heads and those granted to the Public Service Commission. The Public Service Commission may then delegate additional authorities to deputy heads.</p>
@@ -40,18 +42,29 @@
                       <p>An individual may exercise sub-delegated authorities for staffing once they occupy the position to which authorities have been associated, have completed the necessary training, have received the delegation from the deputy head and have signed the attestation.</p>
                       <p>In the case of appointment authorities, they must be exercised by a duly sub-delegated manager. Although many people may be involved in a selection process, the sub-delegated manager remains accountable and responsible for all decisions.</p>
                       <p>For an overview of delegations, take a look at the Appointment Delegation and Accountability Instrument and review the types of authorities directly conferred to deputy heads, as well as those granted to the Public Service Commission.</p>
+                      <p>[A Recognize delegated authorities activity pop-up text box appears.]</p>
                       <hr>
-                      <h2>HR Delegation Instrument</h2>
+
+                      <h2>3. HR Delegation Instrument</h2>
                       <p>Each organization has its own tools to delegate authorities appropriately through managerial levels. Generally speaking, an organization’s HR delegation instrument describes a series of activities and the authorization level or levels associated with it.</p>
                       <p>An individual may only exercise authorities for which they have received appropriate delegation. Consult your own organization’s instrument.</p>
+                      <p>[An Identify levels of authority required to approve specific HR requests activity pop-up text box appears.]</p>
                       <hr>
-                      <h2>In Real Life</h2>
+
+                      <h2>4. In Real Life</h2>
                       <p>Take what you have learned into real life!</p>
                       <p>Your organization will have its own ways of doing things. As a result, sub-delegation varies from one organization to another. It is a good practice to question if you have the authority to act before making an HR decision.</p>
                       <p>Take a time out from the course and ask your supervisor or an HR advisor where you can find your organization’s delegation instrument and how it should be used for the decisions you are making. Some human resources actions such as classification, pay, staffing may involve exercising authorities from multiple areas.</p>
+                      <p>[An In Real Life activity pop-up text box appears.]</p>
                       <hr>
-                      <h2>Quiz</h2>
+
+                      <h2>5. Quiz</h2>
                       <p>Test your knowledge by answering the following questions. Select “Submit” when you are done.</p>
+                      <p>[A Take the Quiz activity pop-up text box appears.]</p>
+                      <hr>
+
+                      <h2>6. Section Completed</h2>
+                      <p>[Onscreen text showing Section Completed instruction.]</p>
                       <!-- Used to generate buttons to jump to activity
 
                          <button class="accessibilityButton" v-for="(tracks, index) in navBarTracks" :key="index" @click="accessibleModal(index)">{{$t('jumpModalPartsWP') + ' - ' +navBarTracks[index]}}</button> -->

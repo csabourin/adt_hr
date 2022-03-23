@@ -22,7 +22,7 @@
                     <b-card-text>
                       <!-- Used to jump to activities<button class="accessibilityButton" v-for="(tracks, index) in navBarTracks" :key="index" @click="accessibleModal(index)">{{$t('jumpModalPartsWP') + ' - ' +navBarTracks[index]}}</button> -->
                       <span v-if="$i18n.locale=='en'">
-                        <h2>Introduction</h2>
+                        <h2>1. Introduction</h2>
                         <p>Human Resources planning is the foundation for assessing and understanding the current and future needs of government departments, agencies, and the public service as a whole.</p> 
                         <p>Moreover, HR planning is a key decision-support tool which allows HR staff to act expeditiously and in accordance with federal public service values.</p>
                         <p>In this section you will learn to: </p>
@@ -31,8 +31,10 @@
                           <li>Recognize your responsibilities as a manager.</li>
                         </ul>
                         <p>This section should take you approximately 10 minutes to complete.</p>
+                        <p>[An External Links reference pop-up text box appears.]</p>
                         <hr>
-                        <h2>Overview of HR Planning</h2>
+                        
+                        <h2>2. Overview of HR Planning</h2>
                         <p>Human resources planning is the process of identifying current and future human resources needs. When we talk about HR planning, we are talking about how an organization identifies and deploys its workforce to achieve its business objectives, its mandate, and high-level government priorities.</p>
                         <p>HR planning ensures that we have a well-structured workplace, and can secure the right people, build a supportive work environment, and develop the capacity to ensure organizational success.</p>
                         <p>HR planning can help identify optimal strategies and activities for a wide variety of important management components such as recruitment, retention, learning, development, employee engagement, talent management, promotion, succession, employment equity, and official languages.</p>
@@ -51,18 +53,24 @@
                           <li>Linking succession planning strategies to program and financial planning and</li>
                           <li>Evaluating the effectiveness of the plan and adapting it as required</li>
                         </ol>
+                        <p>[An Overview or HR Planning activity pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>In Real Life</h2>
+                        <h2>3. In Real Life</h2>
                         <p>Take what you have learned into real life!</p>
                         <p>Your organization will have its own ways of doing things.</p>
                         <p>HR planning helps organizations to fulfill their mandate. In some organizations, an HR plan and the organization’s business goals will be combined to produce an Integrated HR and business plan.</p>
                         <p>Take a time out from the course to locate your organization’s HR plan to better understand how it meets your business goals and the larger mandate.</p>
-                        
+                        <p>[An In Real Life activity pop-up text box appears.]</p>
                         <hr>
 
-                        <h2>Quiz</h2>
+                        <h2>4. Quiz</h2>
                         <p>Test your knowledge by answering the following questions. Select “Submit” when you are done.</p>
+                        <p>[A Take the Quiz activity pop-up text box appears.]</p>
+                        <hr>
+
+                        <h2>5. Section Completed</h2>
+                        <p>[Onscreen text showing Section Completed instruction.]</p>
 
                       </span>
                       <span v-if="$i18n.locale=='fr'">
