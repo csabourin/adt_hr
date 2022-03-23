@@ -212,6 +212,7 @@
                         <h2>7. Quiz</h2>
                         <p>Évaluez vos connaissances en répondant aux questions suivantes. Cliquez sur « Soumettre » lorsque vous avez terminé.</p>
                         <p>[Une boîte de texte de l’activité Répondez au quiz apparaît.]</p>
+                        <hr>
 
                         <h2>8. Section complétée</h2>
                         <p>[Texte à l’écran indiquant l’instruction Section complétée.]</p>                 
