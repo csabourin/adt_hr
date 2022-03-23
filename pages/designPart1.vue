@@ -54,7 +54,7 @@
                       <h2>4. In Real Life</h2>
                       <p>Take what you have learned into real life!</p>
                       <p>Your organization will have its own ways of doing things. As a result, sub-delegation varies from one organization to another. It is a good practice to question if you have the authority to act before making an HR decision.</p>
-                      <p>Take a time out from the course and ask your supervisor or an HR advisor where you can find your organization’s delegation instrument and how it should be used for the decisions you are making. Some human resources actions such as classification, pay, staffing may involve exercising authorities from multiple areas.</p>
+                      <p>Take time out from the course and ask your supervisor or an HR advisor where you can find your organization’s delegation instrument and how it should be used for the decisions you are making. Some human resources actions such as classification, pay, staffing may involve exercising authorities from multiple areas.</p>
                       <p>[An In Real Life activity pop-up text box appears.]</p>
                       <hr>
 

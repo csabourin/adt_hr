@@ -65,7 +65,7 @@
                         <hr>
 
                         <h2>5. Section Completed</h2>
-                        <p>[Onscreen text showing Section Completed instruction]</p>
+                        <p>[Onscreen text showing Section Completed instruction.]</p>
                       </span>
                       <span v-if="$i18n.locale=='fr'">
                         <h2>1. Introduction</h2>

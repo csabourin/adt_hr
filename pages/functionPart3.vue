@@ -146,7 +146,7 @@
                           <li>Identify and meet your HR advisors and consult them before making decisions.</li>
                         </ul>
                         <p>As a sub-delegated manager, you have many different options.  Remember to consult your HR advisor.</p>
-                        <p>Take a time out from the course to consult the Public Service Commission’s Guides and Tools web page. These tools are designed to assist managers involved in the appointment process.</p>
+                        <p>Take time out from the course to consult the Public Service Commission’s Guides and Tools web page. These tools are designed to assist managers involved in the appointment process.</p>
                         <p>[An In Real Life activity pop-up text box appears.]</p>
                         <hr>
 

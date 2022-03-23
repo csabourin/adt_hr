@@ -60,7 +60,7 @@
                         <p>Take what you have learned into real life!</p>
                         <p>Your organization will have its own ways of doing things.</p>
                         <p>HR planning helps organizations to fulfill their mandate. In some organizations, an HR plan and the organization’s business goals will be combined to produce an Integrated HR and business plan.</p>
-                        <p>Take a time out from the course to locate your organization’s HR plan to better understand how it meets your business goals and the larger mandate.</p>
+                        <p>Take time out from the course to locate your organization’s HR plan to better understand how it meets your business goals and the larger mandate.</p>
                         <p>[An In Real Life activity pop-up text box appears.]</p>
                         <hr>
 

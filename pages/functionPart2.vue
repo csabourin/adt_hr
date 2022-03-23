@@ -80,7 +80,7 @@
                         <h2>6. In Real Life</h2>
                         <p>Take what you have learned into real life!</p>
                         <p>Your organization will have its own ways of doing things.</p>
-                        <p>Take a time out from the course to familiarize yourself with your organization’s policies and procedures, as well as the scope of possible accommodations, to help you address where barriers exist, and to help build a more inclusive workplace. You should also consider employment equity, diversity and inclusion as part of your HR planning, to support the organization’s employment equity commitments.</p>
+                        <p>Take time out from the course to familiarize yourself with your organization’s policies and procedures, as well as the scope of possible accommodations, to help you address where barriers exist, and to help build a more inclusive workplace. You should also consider employment equity, diversity and inclusion as part of your HR planning, to support the organization’s employment equity commitments.</p>
                         <p>[An In Real Life activity pop-up text box appears.]</p>
                         <hr>
 
@@ -90,7 +90,7 @@
                         <hr>
 
                         <h2>8. Section Completed</h2>
-                        <p>[Onscreen text showing Section Completed instruction]</p>
+                        <p>[Onscreen text showing Section Completed instruction.]</p>
 
                       </span>
                       <span v-if="$i18n.locale=='fr'">
