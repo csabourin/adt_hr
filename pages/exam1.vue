@@ -560,12 +560,12 @@ export default {
         }
       },
       "q4": {
-        "text": "Les administrateurs généraux sont responsables auprès de la CFP de l’utilisation de tous les pouvoirs de nomination et pouvoirs connexes qui leur sont délégués, y compris tous les pouvoirs qu’ils ont subdélégués.",
+        "text": "Les administrateurs généraux sont responsables auprès __________ de l’utilisation de tous les pouvoirs de nomination et pouvoirs connexes qui leur sont délégués, y compris tous les pouvoirs qu’ils ont subdélégués.",
         "options": {
-          "1": "Le Parlement  ",
-          "2": "La Commission de la fonction publique ",
-          "3": "Le Secrétariat du Conseil du Trésor du Canada ",
-          "4": "Le greffier du Conseil privé"
+          "1": "du Parlement  ",
+          "2": "de la Commission de la fonction publique ",
+          "3": "du Secrétariat du Conseil du Trésor du Canada ",
+          "4": "du greffier du Conseil privé"
         },
         "feedback": {
           "1": "",
