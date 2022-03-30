@@ -176,7 +176,12 @@
           </b-row>
         <div v-if="$i18n.locale=='en'">
           <p>Every organization has a designated political activities representative (DPAR). <a href="https://www.canada.ca/en/public-service-commission/services/political-activities/designated-political-activities-representatives-organizations-subject-political-activities-provisions-public-service-employment-act.html" target="_blank" alt="Link to the Public Service Commission web page">Find yours!</a> The list is available on the Public Service Commission’s website.</p>
-          <p>To learn more about political activities, you can also visit the following web pages:</p>
+          <p>To learn more about political activities, see the following videos:</p>
+          <ul>
+            <li><a href="https://www.youtube.com/watch?v=dbh8-JdIcjQ" target="_blank">Political Activities: Candidacy</a></li>
+            <li><a href="https://www.youtube.com/watch?v=3k3nkuGr6vU" target="_blank">Political Activities: Making an Informed Decision</a></li>
+          </ul>
+          <p>You can also visit the following web pages:</p>
           <ul>
               <li><a href="https://www.canada.ca/en/public-service-commission/services/political-activities.html" target="_blank" alt="Link to the Political Activities web page">Political Activities</a></li>
               <li><a href="https://www.canada.ca/en/public-service-commission/services/political-activities/i-want-to-become-a-candidate.html" target="_blank" alt="Link to the I want to become a candidate web page">I want to become a candidate</a></li>
@@ -186,11 +191,16 @@
         </div>
         <div v-if="$i18n.locale=='fr'">
          <p>Chaque organisation a un représentant désigné en matière d’activités politiques (RDAP). <a href="https://www.canada.ca/fr/commission-fonction-publique/services/activites-politiques/representants-designes-matiere-activites-politiques-organisations-assujetties-dispositions-loi-emploi-fonction-publique-regissant-activites-politiques.html" target="_blank" alt="Lien vers la page web de la Commission du service public">Trouvez le vôtre</a>! La liste se trouve sur le site Web de la Commission de la fonction publique.</p>
-          <p>Pour en apprendre plus sur les activités politiques, consultez les pages Web suivantes :  </p>
+          <p>Pour en apprendre plus sur les activités politiques, voir les vidéos suivantes : </p>
           <ul>
-              <li><a href="https://www.canada.ca/fr/commission-fonction-publique/services/activites-politiques.html" target="_blank" alt="Lien vers la page web des activités politiques">Activités politiques;</a></li>
-              <li><a href="https://www.canada.ca/fr/commission-fonction-publique/services/activites-politiques/je-souhaite-etre-candidat.html" target="_blank" alt="Lien vers la page web Je veux devenir candidat.">Je souhaite être candidat; </a></li>
-              <li><a href="https://www.canada.ca/fr/commission-fonction-publique/services/activites-politiques/autres-activites-politiques/gamme-d-outils-sur-les-autres-activites-politique.html" target="_blank" alt="Lien vers la page web Suite d'outils liés à d'autres activités politiques">Gamme d’outils sur les autres activités politiques.</a></li>
+            <li><a href="https://www.youtube.com/watch?v=t82RvSluS48" target="_blank">Activités politiques – Candidature;</a></li>
+            <li><a href="https://www.youtube.com/watch?v=kKqB8wgtV-c" target="_blank">Activités politiques – Prenez une décision éclairée.</a></li>
+          </ul>
+          <p>Vous pouvez aussi consulter les pages Web suivantes : </p>
+          <ul>
+              <li><a href="https://www.canada.ca/fr/commission-fonction-publique/services/activites-politiques.html" target="_blank" alt="Lien vers la page web des activités politiques">Activités politiques</a></li>
+              <li><a href="https://www.canada.ca/fr/commission-fonction-publique/services/activites-politiques/je-souhaite-etre-candidat.html" target="_blank" alt="Lien vers la page web Je veux devenir candidat.">Je souhaite être candidat</a></li>
+              <li><a href="https://www.canada.ca/fr/commission-fonction-publique/services/activites-politiques/autres-activites-politiques/gamme-d-outils-sur-les-autres-activites-politique.html" target="_blank" alt="Lien vers la page web Suite d'outils liés à d'autres activités politiques">Gamme d’outils sur les autres activités politiques</a></li>
           </ul>
           <p>Si vous avez des questions, n’hésitez pas à communiquer avec <a href="https://www.canada.ca/fr/commission-fonction-publique/services/activites-politiques/representants-designes-matiere-activites-politiques-organisations-assujetties-dispositions-loi-emploi-fonction-publique-regissant-activites-politiques.html" target="_blank" alt="Lien vers la page web de la Commission du service public">votre RDAP</a> ou avec la Direction des activités politiques et de l’impartialité politique par courriel à l’adresse <a href="mailto:cfp.activitespolitiques-politicalactivities.psc@cfp-psc.gc.ca" target="_blank" alt="Adresse électronique de la Division des activités politiques et de la non-partisannerie">cfp.activitespolitiques-politicalactivities.psc@cfp-psc.gc.ca</a> ou par téléphone au 1-866-707-7152.</p>
         </div>
