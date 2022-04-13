@@ -85,8 +85,7 @@ export default {
     line2: "DH",
     name: "Job Aid - Authorities conferred to deputy heads",
     download: "Download the Authorities conferred to deputy heads Job Aid",
-    filename: "Job Aid - Authorities conferred to deputy heads EN.pptx",
-    HTMLFilename: "Jobaid_AuthoritiesConfered.html"
+    filename: "Job Aid - Authorities conferred to deputy heads EN.pptx"
   },
   
   authoritiesPSC:{
@@ -94,8 +93,7 @@ export default {
     line2: "PSC",
     name: "Job Aid - Authorities granted to PSC through PSEA",
     download: "Download the Authorities granted to PSC through PSEA Job Aid",
-    filename: "Job Aid - Authorities granted to PSC through PSEA EN.pptx",
-    HTMLFilename: "Jobaid_AuthoritiesGranted.html"
+    filename: "Job Aid - Authorities granted to PSC through PSEA EN.pptx"
   },
   
   psOrganizations:{
@@ -103,8 +101,7 @@ export default {
     line2:"Management",
     name:"Job Aid - PS Organizations - People Management",
     download: "Download the Public Servant Organizations Job Aid",
-    filename: "Job Aid - PS Organizations - People Management EN.pptx",
-    HTMLFilename: "Jobaid_PSOrganization.html"
+    filename: "Job Aid - PS Organizations - People Management EN.pptx"
   },
   
   ourRoles:{
@@ -112,8 +109,7 @@ export default {
     line2:"Roles",
     name:"Our Roles",
     download: "Download the 'Our Roles' document",
-    filename: "V+E Graphics_EN.pptx",
-    HTMLFilename: "Jobaid_Charts.html"
+    filename: "V+E Graphics_EN.pptx"
   },
   
   fileFolder: "Download files and tools",
