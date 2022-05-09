@@ -632,7 +632,7 @@ export default {
         "text": "Which policy covers the requirements for deployments, assignments, secondments, reclassifications, and official languages in relation to staffing?",
         "options": {
           "1": "Policy on People Management ",
-          "2": "Apppointment Policy ",
+          "2": "Appointment Policy ",
           "3": "<i>Public Service Employment Act</i>"
         },
         "feedback": {

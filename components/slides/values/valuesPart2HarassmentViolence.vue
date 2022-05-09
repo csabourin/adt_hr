@@ -4,6 +4,7 @@
       <b-row>
         <b-col>
 		 <b-card>
+     <p v-html="$t('instructions')" />
     <b-tabs content v-model="tabIndex">
         <b-tab title="Question 1">
           <radioQuiz :question="$t('q1')" qId="1" /><hr>
@@ -45,7 +46,7 @@
 </script>
 <i18n>{
   "en": {
-  "instructions":"Match the correct stage of the resolution process to the answers provided.",
+  "instructions":"Answer the following questions.",
     "q1": {
       "text": "<p>Employees who experience an occurrence of harassment and violence in the workplace (principal party), or who witness such an occurrence, must notify the employer or the Harassment and Violence Prevention Unit. They will be asked to complete a form identifying the principal party involved (if known) as well as the details of the occurrence.</p><p>The identities of the parties involved in the resolution process are held in the strictest of confidence, but may be revealed to each other as part of the resolution process. </p> ",
       "options": {
@@ -112,7 +113,7 @@
     }
   },
   "fr": {
-  "instructions":"Associez l'étape du processus de règlement à la bonne description.",
+  "instructions":"Répondez aux questions suivantes.",
     "q1": {
       "text": "<p>Les employés qui subissent une situation de harcèlement et de violence au travail (partie principale) ou qui sont témoins d’une telle situation doivent en informer l’employeur ou l’Unité de prévention du harcèlement et de la violence. Ils seront invités à remplir un formulaire pour identifier la partie principale (si elle est connue) et fournir les détails de l’incident. </p><p>L’identité des parties concernées par le processus de résolution reste strictement confidentielle, mais elle peut être révélée aux autres parties dans le cadre du processus de résolution. </p> ",
       "options": {

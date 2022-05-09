@@ -77,6 +77,11 @@
                         <h2>5. Managing Workplace Conflict</h2>
                         <p>A grievance is a formal administrative process that employees can use to seek the resolution of disputes regarding the terms and conditions of their employment. The <i>Federal Public Sector Labour Relations Act</i> gives all employees the right to present grievances, unless there is an administrative alternative.</p>
                         <p>Employees are entitled to present a grievance if they feel aggrieved:</p>
+                        <ul>
+                          <li>by the interpretation or application of statutes, regulations, directions or other instruments that deal with terms and conditions of employment</li>
+                          <li>by a provision of a collective agreement or an arbitral award, or</li>
+                          <li>as a result of any occurrence or matter affecting their terms and conditions of employment</li>
+                        </ul>
                         <p>When you receive a grievance from an employee, it is your responsibility as a supervisor or manager to acknowledge receipt to the employee and send the grievance form to the person in your organization who is authorized to deal with the grievance.</p>
                         <p>According to the <i>Federal Public Sector Labour Relations Act</i>,  all organizations in the core public administration must have an informal conflict management system in place. The purpose of an ICMS is to resolve workplace conflict by offering alternative dispute resolution methods.</p>
                         <p>[A Managing Workplace Conflict reference pop-up text box appears.]</p>
