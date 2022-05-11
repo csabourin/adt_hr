@@ -88,7 +88,8 @@ export default {
     line2: "Admin",
     name: "Pouvoirs conférés aux administrateurs généraux",
     download: "Télécharger le document des pouvoirs conférés aux administrateurs généraux",
-    filename: "Job Aid - Pouvoirs conférés aux administrateurs généraux.pdf"
+    filename: "Job Aid - Pouvoirs conférés aux administrateurs généraux.pdf",
+    HTMLFilename: "Jobaid_AuthoritiesConfered_FR.html"
   },
   
   authoritiesPSC:{
@@ -96,7 +97,8 @@ export default {
     line2: "Comm",
     name: "Pouvoirs conférés à la Commission de la fonction publique en vertu de la Loi sur l'emploi dans la fonction publique et d’autres lois et règlements applicables",
     download: "Télécharger le document des pouvoirs conférés à la Commission",
-    filename: "Job Aid - Pouvoirs conférés à la Commission de la fonction publique.pdf"
+    filename: "Job Aid - Pouvoirs conférés à la Commission de la fonction publique.pdf",
+    HTMLFilename: "Jobaid_AuthoritiesGranted_FR.html"
   },
   
   psOrganizations:{
@@ -104,7 +106,8 @@ export default {
     line2: "Gestion",
     name: "Organisations de la fonction publique - gestion des personnes",
     download: "Télécharger le plan d'Organisations de la fonction publique - gestion des personnes",
-    filename: "Job Aid - Organisations de la fonction publique - gestion des personnes.pdf"
+    filename: "Job Aid - Organisations de la fonction publique - gestion des personnes.pdf",
+    HTMLFilename: "Jobaid_PSOrganization_FR.html"
   },
   
   ourRoles:{

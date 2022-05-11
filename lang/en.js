@@ -85,7 +85,8 @@ export default {
     line2: "DH",
     name: "Job Aid - Authorities conferred to deputy heads",
     download: "Download the Authorities conferred to deputy heads Job Aid",
-    filename: "Job Aid - Authorities conferred to deputy heads EN.pptx"
+    filename: "Job Aid - Authorities conferred to deputy heads EN.pdf",
+    HTMLFilename: "Jobaid_AuthoritiesConfered_EN.html"
   },
   
   authoritiesPSC:{
@@ -93,7 +94,8 @@ export default {
     line2: "PSC",
     name: "Job Aid - Authorities granted to PSC through PSEA",
     download: "Download the Authorities granted to PSC through PSEA Job Aid",
-    filename: "Job Aid - Authorities granted to PSC through PSEA EN.pptx"
+    filename: "Job Aid - Authorities granted to PSC through PSEA EN.pdf",
+    HTMLFilename: "Jobaid_AuthoritiesGranted_EN.html"
   },
   
   psOrganizations:{
@@ -101,7 +103,8 @@ export default {
     line2:"Management",
     name:"Job Aid - PS Organizations - People Management",
     download: "Download the Public Servant Organizations Job Aid",
-    filename: "Job Aid - PS Organizations - People Management EN.pptx"
+    filename: "Job Aid - PS Organizations - People Management EN.pdf",
+    HTMLFilename: "Jobaid_PSOrganization_EN.html"
   },
   
   ourRoles:{
