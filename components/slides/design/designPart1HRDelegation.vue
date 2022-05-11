@@ -51,7 +51,7 @@
 </script>
 <i18n>{
   "en": {
-  "instructions":"Using the sample <a href='jobaidHTML/eng/delegChart_en.html' target='_blank'>sub-delegation instrument for HR authorities</a>, identify the lowest level of authority that can approve the request.",
+  "instructions":"Using the sample <a href='jobaidHTML/en/delegChart_en.html' target='_blank'>sub-delegation instrument for HR authorities</a>, identify the lowest level of authority that can approve the request.",
   "instructions2":"Answer the following questions.",
     "q1": {
       "text": "<p>An employee calls in sick but their sick leave credits are all used up. They would like an advance of sick leave with pay.</p> <p>Which is the lowest level of authority that can approve the request?</p>",
@@ -142,7 +142,7 @@
     }
   },
   "fr": {
-  "instructions":"À l’aide de l’exemple d’<a href='jobaidHTML/fra/delegChart_fr.html' target='_blank'>instrument de subdélégation pour les pouvoirs en matière de RH</a>, déterminez le niveau décisionnel minimal requis pour approuver la demande.",
+  "instructions":"À l’aide de l’exemple d’<a href='jobaidHTML/fr/delegChart_fr.html' target='_blank'>instrument de subdélégation pour les pouvoirs en matière de RH</a>, déterminez le niveau décisionnel minimal requis pour approuver la demande.",
   "instructions2":"Répondez aux questions suivantes.",
     "q1": {
       "text": "<p>Un employé téléphone pour dire qu’il est malade, mais ses crédits de congé de maladie sont épuisés. Il demande une avance de crédits de congé de maladie payé.</p><p>Quel est le niveau décisionnel minimal requis pour approuver cette demande? </p>",
