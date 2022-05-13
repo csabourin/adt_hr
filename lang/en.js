@@ -103,7 +103,7 @@ export default {
     line2:"Management",
     name:"Job Aid - PS Organizations - People Management",
     download: "Download the Public Servant Organizations Job Aid",
-    filename: "Job Aid - PS Organizations - People Management EN.pdf",
+    filename: "Job Aid - PS Organizations - People Management EN V2.pdf",
     HTMLFilename: "Jobaid_PSOrganization_EN.html"
   },
   
