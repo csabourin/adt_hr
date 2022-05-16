@@ -58,9 +58,9 @@ export default {
   ContributeReporting: "Contribute to External Reporting",
   Test: "Test",
   ShowInstructions:"Show Instructions",
-  TestPlan: "<span class='v-inv'>Plan:</span> Test",
-  TestSpend: "<span class='v-inv'>Spend:</span> Test",
-  TestReport: "<span class='v-inv'>Report:</span> Test",
+  TestPlan: "<span class='v-inv'>Foundation:</span> Test",
+  TestSpend: "<span class='v-inv'>Function:</span> Test",
+  TestReport: "<span class='v-inv'>Values:</span> Test",
   MarkCompleted: "Mark as completed",
   questionNav: "Question Navigation",
   
