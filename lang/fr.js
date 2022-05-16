@@ -115,7 +115,8 @@ export default {
     line2: "rôles",
     name: "Nos rôles",
     download: "Télécharger le document 'Nos rôles'",
-    filename: "V+E Graphics_fr.pptx"
+    filename: "Structures CO.pdf",
+    HTMLFilename: "Jobaid_Charts.html"
   },
     
   congratulations:"<h3>Félicitations!</h3><p>Vous avez réussi ce cours.</p><p>Quittez le cours en fermant cette fenêtre.</p>",

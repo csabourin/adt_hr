@@ -112,7 +112,8 @@ export default {
     line2:"Roles",
     name:"Our Roles",
     download: "Download the 'Our Roles' document",
-    filename: "V+E Graphics_EN.pptx"
+    filename: "OC Structures.pdf",
+    HTMLFilename: "Jobaid_Charts_EN.html"
   },
   
   fileFolder: "Download files and tools",
