@@ -178,8 +178,8 @@
           <p>Every organization has a designated political activities representative (DPAR). <a href="https://www.canada.ca/en/public-service-commission/services/political-activities/designated-political-activities-representatives-organizations-subject-political-activities-provisions-public-service-employment-act.html" target="_blank" alt="Link to the Public Service Commission web page">Find yours!</a> The list is available on the Public Service Commission’s website.</p>
           <p>To learn more about political activities, see the following videos:</p>
           <ul>
-            <li><a href="https://www.youtube.com/watch?v=dbh8-JdIcjQ" target="_blank">Political Activities: Candidacy</a></li>
-            <li><a href="https://www.youtube.com/watch?v=3k3nkuGr6vU" target="_blank">Political Activities: Making an Informed Decision</a></li>
+            <li><a href="https://learn-apprendre.csps-efpc.gc.ca/application/en/content/political-activities-candidacy" target="_blank">Political Activities: Candidacy</a></li>
+            <li><a href="https://learn-apprendre.csps-efpc.gc.ca/application/en/content/political-activities-make-informed-decision" target="_blank">Political Activities: Making an Informed Decision</a></li>
           </ul>
           <p>You can also visit the following web pages:</p>
           <ul>

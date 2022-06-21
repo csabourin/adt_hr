@@ -76,8 +76,8 @@
           <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=26160">Policy on Official Languages</externalLink></li>
           <li><externalLink link="https://www.tbs-sct.gc.ca/pol/(S(e021jvamqbhco5551teiyz55))/doc-eng.aspx?id=32621">Policy on People Management</externalLink></li>
           <li><externalLink link="https://www.canada.ca/en/public-service-commission/services/political-activities.html">Political Activities</externalLink></li>
-          <li><externalLink link="https://learn-apprendre.csps-efpc.gc.ca/application/en/search/site/political activities">Political Activities: Candidacy </externalLink></li>
-          <li><externalLink link="https://learn-apprendre.csps-efpc.gc.ca/application/en/search/site/political activities">Political Activities: Making an Informed Decision</externalLink></li>
+          <li><externalLink link="https://learn-apprendre.csps-efpc.gc.ca/application/en/content/political-activities-candidacy">Political Activities: Candidacy </externalLink></li>
+          <li><externalLink link="https://learn-apprendre.csps-efpc.gc.ca/application/en/content/political-activities-make-informed-decision">Political Activities: Making an Informed Decision</externalLink></li>
           <li><externalLink link="https://laws-lois.justice.gc.ca/eng/acts/p-31.9/">Public Servants Disclosure Protection Act</externalLink></li>
           <li><externalLink link="https://www.canada.ca/en/employment-social-development/programs/workplace-health-safety/harassment-violence-prevention.html">Requirements for employers to prevent harassment and violence in federally regulated workplaces</externalLink></li>
           <li><externalLink link="https://www.canada.ca/en/employment-social-development/programs/workplace-health-safety/harassment-violence-prevention/complaints/resolve.html">Resolve a workplace harassment and violence complaint</externalLink></li>

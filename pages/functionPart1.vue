@@ -339,7 +339,7 @@
     <b-modal no-stacking id="Authorities" @hide="resumePlay()" size="xl" okOnly>
       <template v-slot:modal-header="{ close }">
         <h3 class="h5">
-          <img src="~/assets/QuizIcon.svg" :alt="$t('quizIcon')" width="32" height="32"> {{$t('authoritiesTitle')}}
+          <img src="~/assets/ActivityIcon.svg" :alt="$t('pencilIcon')" width="32" height="32"> {{$t('authoritiesTitle')}}
         </h3>
         <button type="button" aria-label="Close" class="close" @click="close()">×</button>
       </template>

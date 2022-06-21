@@ -162,47 +162,47 @@ export default {
       changeButton: false,
       popups: {
         designPart1: {
-          references: [0],
-          infos: [3],
+          references: [],
+          infos: [0,3],
           quiz: [4]
         },
         designPart2: {
-          references: [0],
-          infos: [2],
+          references: [],
+          infos: [0,2],
           quiz: [3]
         },
         functionPart1: {
-          references: [0],
+          references: [],
           infos: [0,1,3,5,6],
           quiz: [7]
         },
         functionPart2: {
-          references: [0],
+          references: [],
           infos: [0,1,2,4,5],
           quiz: [6]
         },
         functionPart3: {
-          references: [0],
+          references: [],
           infos: [0,2,4,5],
           quiz: [6]
         },
         valuesPart1: {
-          references: [0],
+          references: [],
           infos: [0,4,5],
           quiz: [6]
         },
         valuesPart2: {
-          references: [0],
-          infos: [0,1,3,4,5],
+          references: [],
+          infos: [0,3,4,5],
           quiz: [6]
         },
         valuesPart3: {
-          references: [0],
+          references: [],
           infos: [0,1,4,5],
           quiz: [6]
         },
          valuesPart4: {
-          references: [0],
+          references: [],
           infos: [0,1,2],
           quiz: [3]
         }

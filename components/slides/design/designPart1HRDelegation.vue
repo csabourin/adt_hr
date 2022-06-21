@@ -198,7 +198,7 @@
     "q4": {
       "text": "<p>Une employée demande de ne pas se présenter au travail parce que les routes de son quartier sont glacées et trop dangereuses. Puisqu’elle n’est pas responsable de cette situation, elle estime qu’elle devrait être rémunérée même si elle est absente. </p> <p>Quel est le niveau décisionnel minimal requis pour approuver cette demande? </p>",
       "options": {
-          "1": "Administrateur général",
+        "1": "Administrateur général",
         "2": "Sous-ministre adjoint ",
         "3": "Directeur général ",
         "4": "Directeur (EX) ",
