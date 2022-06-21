@@ -240,7 +240,7 @@
           <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=28699" target="_blank" alt="Directive sur la surveillance de la classification">Directive sur la surveillance de la classification</a></li>
           <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=28698" target="_blank" alt="Directive sur les griefs de classification">Directive sur les griefs de classification</a></li>
           <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=15772" target="_blank" alt="Directive sur les conditions d’emploi">Directive sur les conditions d’emploi</a></li>
-          <li><a href="https://laws-lois.justice.gc.ca/fra/acts/o-3.01/" target="_blank" alt="Loi sur les langues officielles">Loi sur les langues officielles</a></li>
+          <li><a href="https://laws-lois.justice.gc.ca/fra/lois/o-3.01/" target="_blank" alt="Loi sur les langues officielles">Loi sur les langues officielles</a></li>
           <li><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/conventions-collectives/groupes-professionnels/groupes-professionnels-representation-agents-negociateurs.html" target="_blank" alt="Groupes professionnels par représentation d’agents négociateurs">Groupes professionnels par représentation d’agents négociateurs</a></li>
           <li><a href="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=26160" target="_blank" alt="Politique sur les langues officielles">Politique sur les langues officielles</a></li>
         </ul>

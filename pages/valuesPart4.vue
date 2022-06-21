@@ -193,8 +193,8 @@
          <p>Chaque organisation a un représentant désigné en matière d’activités politiques (RDAP). <a href="https://www.canada.ca/fr/commission-fonction-publique/services/activites-politiques/representants-designes-matiere-activites-politiques-organisations-assujetties-dispositions-loi-emploi-fonction-publique-regissant-activites-politiques.html" target="_blank" alt="Lien vers la page web de la Commission du service public">Trouvez le vôtre</a>! La liste se trouve sur le site Web de la Commission de la fonction publique.</p>
           <p>Pour en apprendre plus sur les activités politiques, voir les vidéos suivantes : </p>
           <ul>
-            <li><a href="https://www.youtube.com/watch?v=t82RvSluS48" target="_blank">Activités politiques – Candidature;</a></li>
-            <li><a href="https://www.youtube.com/watch?v=kKqB8wgtV-c" target="_blank">Activités politiques – Prenez une décision éclairée.</a></li>
+            <li><a href="https://learn-apprendre.csps-efpc.gc.ca/application/fr/content/activites-politiques-candidature" target="_blank">Activités politiques – Candidature;</a></li>
+            <li><a href="https://learn-apprendre.csps-efpc.gc.ca/application/fr/content/activites-politiques-prenez-une-decision-eclairee" target="_blank">Activités politiques – Prenez une décision éclairée.</a></li>
           </ul>
           <p>Vous pouvez aussi consulter les pages Web suivantes : </p>
           <ul>
