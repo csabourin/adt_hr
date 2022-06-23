@@ -37,7 +37,7 @@
           <li><externalLink link="https://www.tbs-sct.gc.ca/pol/(S(e021jvamqbhco5551teiyz55))/doc-fra.aspx?id=32621">Politique sur la gestion des personnes</externalLink></li>
           <li><externalLink link="https://sencanada.ca/content/sen/committee/431/CIBA/Reports/CIBA_RPT4_f.pdf">Politique sur la prévention et la résolution du harcèlement en milieu de travail au Sénat</externalLink></li>
           <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=26160">Politique sur les langues officielles</externalLink></li>
-          <li><externalLink link="https://www.clo-ocol.gc.ca/html/stu_etu_032011_p7_f.php">Profil de compétences en leadership axé sur les langues officielles</externalLink></li>
+          <li><externalLink link="https://www.clo-ocol.gc.ca/sites/default/files/self_assess_outil_auto_f.pdf">Profil de compétences en leadership axé sur les langues officielles</externalLink></li>
           <li><externalLink link="https://laws.justice.gc.ca/fra/reglements/DORS-92-48/index.html">Règlement sur les langues officielles – communications avec le public et prestation des services</externalLink></li>
           <li><externalLink link="https://canadagazette.gc.ca/rp-pr/p2/2020/2020-06-24/html/sor-dors130-fra.html">Règlement sur la prévention du harcèlement et de la violence dans le lieu de travail</externalLink></li>
           <li><externalLink link="https://www.canada.ca/fr/emploi-developpement-social/programmes/sante-securite-travail/prevenir-harcelement-violence/plaintes/regler.html">Régler une plainte de harcèlement ou de violence en milieu de travail</externalLink></li>
@@ -67,7 +67,7 @@
           <li><externalLink link="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=12602">Guidelines on Managerial or Confidential Exclusions</externalLink></li>
           <li><externalLink link="https://www.canada.ca/en/government/publicservice/wellness-inclusion-diversity-public-service/harassment-conflict-resolution/informal-conflict-management-system/guide-key-elements-icms-core-public-administration.html">Guide to the key elements of an ICMS in the core public administration</externalLink></li>
           <li><externalLink link="https://www.canada.ca/en/public-service-commission/services/political-activities/i-want-to-become-a-candidate.html">I want to become a candidate</externalLink></li>
-          <li><externalLink link="https://www.clo-ocol.gc.ca/html/stu_etu_032011_p7_e.php">Leadership Competencies Profile for Official Languages</externalLink></li>
+          <li><externalLink link="https://www.clo-ocol.gc.ca/sites/default/files/self_assess_outil_auto_e.pdf">Leadership Competencies Profile for Official Languages</externalLink></li>
           <li><externalLink link="https://www.canada.ca/en/treasury-board-secretariat/services/values-ethics/official-languages/list-bilingual-regions-canada-language-of-work-purposes.html">List of Bilingual Regions of Canada for Language-of-Work Purposes</externalLink></li>
           <li><externalLink link="https://www.njc-cnm.gc.ca/en">National Joint Council</externalLink></li>
           <li><externalLink link="https://www.njc-cnm.gc.ca/directive/d7/v23/s252/en%22 /l %22s252-tc-tm_3">Occupational Health and Safety Directive</externalLink></li>

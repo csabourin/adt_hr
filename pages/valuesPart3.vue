@@ -244,7 +244,7 @@
           <ul>
             <li><a href="https://www.canada.ca/en/public-service-commission/services/appointment-framework/guides-tools-appointment-framework/assessment-official-languages-appointment-process.html" target="_blank" alt="Link to the Assessment of official languages in the appointment process web page">Assessment of official languages in the appointment process</a></li>
             <li><a href="https://www.tbs-sct.gc.ca/burolis/search-recherche/search-recherche-eng.aspx" target="_blank" alt="Link to the Burolis database web page">Burolis database</a></li>
-            <li><a href="https://www.clo-ocol.gc.ca/html/stu_etu_032011_p7_e.php" target="_blank" alt="Link to the Leadership Competencies Profile for Official Languages web page">Leadership Competencies Profile for Official Languages</a></li>
+            <li><a href="https://www.clo-ocol.gc.ca/sites/default/files/self_assess_outil_auto_e.pdf" target="_blank" alt="Link to the Leadership Competencies Profile for Official Languages web page">Leadership Competencies Profile for Official Languages</a></li>
             <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/values-ethics/official-languages/list-bilingual-regions-canada-language-of-work-purposes.html" target="_blank" alt="Link to the •	List of Bilingual Regions of Canada for Language-of-Work Purposes web page">List of Bilingual Regions of Canada for Language-of-Work Purposes</a></li>
           </ul>
         </div>
@@ -268,7 +268,7 @@
           <ul>
             <li><a href="https://www.canada.ca/fr/commission-fonction-publique/services/cadre-nomination/guides-outils/evaluation-langues-officielles-cadre-dun-processus-nomination.html" target="_blank" alt="Lien vers la page web Évaluation des langues officielles dans le processus de nomination">Évaluation des langues officielles dans le cadre d’un processus de nomination</a></li>
             <li><a href="https://www.tbs-sct.gc.ca/burolis/search-recherche/search-recherche-eng.aspx?GoCTemplateCulture=fr-CA" target="_blank" alt="Lien vers la page web de la base de données Burolis">Base de données Burolis</a></li>
-            <li><a href="https://www.clo-ocol.gc.ca/html/stu_etu_032011_p7_f.php" target="_blank" alt="Lien vers la page web du profil de compétences en leadership pour les langues officielles">Profil de compétences en leadership axé sur les langues officielles </a></li>
+            <li><a href="https://www.clo-ocol.gc.ca/sites/default/files/self_assess_outil_auto_f.pdf" target="_blank" alt="Lien vers la page web du profil de compétences en leadership pour les langues officielles">Profil de compétences en leadership axé sur les langues officielles </a></li>
             <li><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/valeurs-ethique/langues-officielles/liste-regions-bilingues-canada-fins-langue-travail.html" target="_blank" alt="Lien vers la page Web Liste des régions bilingues du Canada aux fins de la langue de travail">Liste des régions bilingues du Canada aux fins de la langue de travail </a></li>
           </ul>
         </div>
