@@ -210,7 +210,7 @@
         "2": "<span class='v-wrong' /><strong>Incorrect.</strong>",
         "3": "<span class='v-wrong' /><strong>Incorrect.</strong>"
       },
-      "conclusion": "La <em>Loi sur la gestion des finances publiques</em> et la<em>Loi sur l’emploi dans la fonction publique</em> confèrent aux administrateurs généraux leurs pouvoirs en matière de RH."
+      "conclusion": "La <em>Loi sur la gestion des finances publiques</em> et la <em>Loi sur l’emploi dans la fonction publique</em> confèrent aux administrateurs généraux leurs pouvoirs en matière de RH."
     },
     "q3": {
       "text": "Une personne peut exercer ses pouvoirs délégués une fois qu’elle a suivi la formation nécessaire. ",
