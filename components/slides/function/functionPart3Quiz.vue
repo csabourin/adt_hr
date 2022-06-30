@@ -199,7 +199,7 @@
       "text": "When conducting an appointment process, managers must respect_______________ .",
       "options": {
         "1": "The <i>Public Service Employment Act</i>",
-        "2": "The Public Service Commision Appointment Policy",
+        "2": "The Public Service Commission Appointment Policy",
         "3": "The organizational staffing framework"
       },
       "feedback": {
