@@ -53,7 +53,7 @@
                 <template v-slot:title>
                   <span class="v-inv">Question </span>03
                 </template>
-                <checkboxQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q3')" qId="2" :refill="Refill('2')" @response="arraysMatch($event,['1','4','5'],2)" />
+                <checkboxQuiz exam :lock="quizLocked" :forceEmpty="isNull" :question="$t('Questions.q3')" qId="2" :refill="Refill('2')" @response="arraysMatch($event,['3','4'],2)" />
               </b-tab>
               <b-tab :title-link-class="[{'filled':answerScore[3]}]">
                 <template v-slot:title>
@@ -474,18 +474,16 @@ export default {
       "q3": {
         "text": "Organization and classification decisions ______________. ",
         "options": {
-          "1": "are essentially financial transactions",
-          "2": "are made by the deputy head",
-          "3": "are made by a manager",
-          "4": "are made by an OC-accredited advisor ",
-          "5": "are based on job descriptions approved by a manager "
+          "1": "are made by the deputy head",
+          "2": "are made by a manager",
+          "3": "are made by an OC-accredited advisor ",
+          "4": "are based on job descriptions approved by a manager "
         },
         "feedback": {
           "1": "",
           "2": "",
           "3": "",
-          "4": "",
-          "5": ""
+          "4": ""
         }
       },
       "q4": {
@@ -764,18 +762,16 @@ export default {
       "q3": {
         "text": "Les décisions en matière d’organisation et de classification ______________. ",
         "options": {
-          "1": "sont essentiellement des opérations financières ",
-          "2": "sont prises par l’administrateur général ",
-          "3": "sont prises par un gestionnaire ",
-          "4": "sont prises par un conseiller accrédité en OC ",
-          "5": "reposent sur des descriptions de travail approuvées par un gestionnaire "
+          "1": "sont prises par l’administrateur général ",
+          "2": "sont prises par un gestionnaire ",
+          "3": "sont prises par un conseiller accrédité en OC ",
+          "4": "reposent sur des descriptions de travail approuvées par un gestionnaire "
         },
         "feedback": {
           "1": "",
           "2": "",
           "3": "",
-          "4": "",
-          "5": ""
+          "4": ""
         }
       },
       "q4": {
