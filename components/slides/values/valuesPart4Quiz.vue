@@ -62,10 +62,10 @@
     "q1": {
       "sentence": "In the case of {0} permission from the Public Service Commission {1}.",
       "choices": {
-        "1": "CANDIDACY",
-        "2": "NON-CANDIDACY",
-        "3": "IS REQUIRED",
-        "4": "IS NOT REQUIRED"
+        "1": "candidacy",
+        "2": "non-candidacy",
+        "3": "is required",
+        "4": "is not required"
       },
       "feedback": {
         "right": "In the case of candidacy, permission from the Public Service Commission is required.",
@@ -75,12 +75,12 @@
     "q2": {
       "sentence": "In advance of {0} a public servant {1} granted  permission by the {2}.",
       "choices": {
-        "1": "CANDIDACY",
-        "2": "NON-CANDIDACY",
-        "3": "MUST BE",
-        "4": "SHOULD BE",
-        "5": "DEPUTY HEAD",
-        "6": "PUBLIC SERVICE COMMISSION"
+        "1": "candidacy",
+        "2": "non-candidacy",
+        "3": "must be",
+        "4": "should be",
+        "5": "Deputy Head",
+        "6": "Public Service Commission"
       },
       "feedback": {
         "right": "In advance of candidacy, a public servant must be granted permission by the Public Service Commission.",
