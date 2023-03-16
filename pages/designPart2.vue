@@ -74,6 +74,9 @@
 
                       </span>
                       <span v-if="$i18n.locale=='fr'">
+                        <p><strong>[00:00:01 : Un titre apparaît à l'écran.]</strong></p>
+                        <h2>Module 2 : Planification des ressources humaines</h2>
+                        <p><strong>[00:00:08 : Un titre apparaît à l'écran.]</strong></p>
                         <h2>1. Introduction</h2>
                         <p>La planification des ressources humaines est [à] la base de l’évaluation et de la compréhension des besoins actuels et futurs des ministères, des organismes et de l’ensemble de la fonction publique.</p> 
                         <p>De plus, la planification des RH est un outil décisionnel clé qui permet au personnel des RH d’agir rapidement et dans le respect des valeurs de la fonction publique fédérale.</p>
@@ -83,7 +86,8 @@
                           <li>prendrez conscience de vos responsabilités en tant que gestionnaire.</li>
                         </ul>
                         <p>Il vous faudra environ 10 minutes pour parcourir cette section.</p>
-                        <p>[Une boîte de texte de référence de Liens externes apparaît.]</p>
+                        <p><strong>[00:00:48 : Une fenêtre contextuelle Références : Liens externes apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:00:49 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>2. Aperçu de la planification des RH</h2>
@@ -105,7 +109,8 @@
                           <li>Lier les stratégies de planification de la relève à la planification de programmes et à la planification financière.</li>
                           <li>Évaluer l’efficacité du plan et l’adapter au besoin.</li>
                         </ol>
-                        <p>[Une boîte de texte de l’activité Aperçu de la planification des RH apparaît.]</p>
+                        <p><strong>[00:03:43 : Une fenêtre contextuelle Activité : Aperçu de la planification des RH apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:03:44 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>3. Dans la vraie vie</h2>
@@ -113,17 +118,15 @@
                         <p>Votre organisation aura sa propre façon de faire les choses.</p>
                         <p>La planification des RH permet aux organisations de réaliser leur mandat. Dans certaines organisations, un plan des RH sera combiné aux buts opérationnels de l’organisation et produira ainsi un plan intégré des RH et des activités.</p>
                         <p>Prenez du temps pour consulter le plan des RH de votre organisation pour mieux comprendre comment il aide celle-ci à réaliser ses buts opérationnels et son mandat général.</p>
-                        <p>[Une boîte de texte de l’activité Dans la vraie vie apparaît.]</p>
+                        <p><strong>[00:04:18 : Une fenêtre contextuelle Dans la vraie vie apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:04:19 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>4. Quiz</h2>
                         <p>Évaluez vos connaissances en répondant aux questions suivantes. Cliquez sur « Soumettre » lorsque vous avez terminé.</p>
-                        <p>[Une boîte de texte de l’activité Répondez au quiz apparaît.]</p>
-                        <hr>
-
-                        <h2>5. Section complétée</h2>
-                        <p>[Texte à l’écran indiquant l’instruction Section complétée.]</p>
-
+                        <p><strong>[00:04:30 : Texte indiquant l'instruction Répondez au quiz! apparaît à l’écran.]</strong></p>
+                        <p><strong>[00:04:33 : Une fenêtre contextuelle Répondez au quiz apparaît à l’écran.]</strong></p>
+                        <p><strong>[00:04:34 : Texte indiquant Vous avez complété cette section apparaît à l’écran.]</strong></p>
                       </span>
                     </b-card-text>
                   </b-card-body>

@@ -118,6 +118,9 @@
                       </span>
                       <span v-if="$i18n.locale=='fr'">
 
+                        <p><strong>[00:00:01 : Un titre apparaît à l'écran.]</strong></p>
+                        <h2>Module 3 : Organisation et classification</h2>
+                        <p><strong>[00:00:07 : Un titre apparaît à l'écran.]</strong></p>
                         <h2>1. Introduction</h2>
                         <p>Vos responsabilités en matière d’organisation et de classification (OC) ont une incidence sur toutes les autres disciplines des RH et peuvent avoir des répercussions sur le plan des coûts. Dans ce contexte, il est important de comprendre comment l’organisation et la classification fonctionnent, à la fois indépendamment et ensemble.</p>
                         <p>La gestion des emplois et des postes est une responsabilité courante dans ce domaine des RH. Elle découle de la <i>Loi sur la gestion des finances publiques</i>, de la <i>Loi canadienne sur les droits de la personne</i> et de plusieurs politiques des RH. Nous allons en étudier certaines dans ce cours.</p>
@@ -130,8 +133,8 @@
                           <li>se rappeler / énumérer les rôles en matière d’organisation et de classification dans le contexte de la gestion des RH.</li>
                         </ul>
                         <p> Il vous faudra environ 20 minutes pour parcourir cette section.</p>
-                        <p>[Une boîte de texte de référence de Liens externes apparaît.]</p>
-
+                        <p><strong>[00:01:20 : Une fenêtre contextuelle Références : Liens externes apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:01:21 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>2. Organisation et classification</h2>
@@ -143,7 +146,8 @@
                         <p>La structure de l’organisation est conçue avec l’aide du conseiller en RH, qui participe également à la définition des tâches à exécuter aux fins de la réalisation du mandat.</p>
                         <p>Selon les tâches d’un poste (ou d’un emploi), le conseiller en RH ou le comité d’évaluation de la classification détermine le groupe et le niveau du poste au sein de la structure organisationnelle. Les taux de rémunération sont ensuite mis en correspondance avec chaque groupe et niveau professionnels, et les employés sont payés en fonction du groupe et du niveau du poste qu’ils occupent.</p>
                         <p>La rémunération et les avantages sociaux sont négociés dans le cadre du processus de négociation collective et non dans le cadre du processus de classification.</p>
-                        <p>[Une boîte de texte de l’activité Organisation et classification apparaît.]</p>
+                        <p><strong>[00:03:09 : Une fenêtre contextuelle Activité : Organisation et classification apparaît à l'écran.]</strong></p>
+                        </p><strong>[00:03:10 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>3. Conception organisationnelle</h2>
@@ -152,7 +156,8 @@
                         <p>Par la suite, un groupe et un niveau seront inscrits dans chaque case, qui contiendra le nom de la personne titulaire du poste.</p>
                         <p>Lors de la création [et] de la mise à jour d’une structure organisationnelle, on discute des obligations de rendre compte, des rôles et des responsabilités, on les définit et on en tient compte. Les fonctions associées à chaque rôle sont ensuite définies dans une description de travail écrite, puis classifiées en conséquence.</p>
                         <p>Consultez votre conseiller en RH accrédité en OC pour confirmer la structure organisationnelle et planifier l’examen ou la création des postes requis pour répondre aux besoins opérationnels.</p>
-                        <p>[Une boîte de texte de l’activité Conception organisationnelle apparaît.]</p>
+                        <p><strong>[00:04:29 : Une fenêtre contextuelle Activité : Conception organisationnelle apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:04:30 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>4. Rôles et responsabilités</h2>
@@ -160,7 +165,8 @@
                         <p>Comme il est énoncé dans la Politique sur la gestion des personnes, les administrateurs généraux sont responsables de l’établissement de la structure organisationnelle du ministère et des exigences en matière de ressources à l’échelon de la direction.</p>
                         <p>Les gestionnaires doivent s’assurer que leur structure organisationnelle est conforme au mandat et aux objectifs opérationnels de l’organisation et déterminer le travail qui est attribué à un poste et détaillé dans la description de travail.</p>
                         <p>Un conseiller en RH accrédité en OC se réfère à la structure organisationnelle et aux descriptions de travail approuvées par le gestionnaire délégué pour évaluer le groupe professionnel, le sous-groupe (le cas échéant) et le niveau d’un poste et prendre une décision en matière de classification. La classification du poste viendra établir un lien avec le taux de rémunération et les renseignements au sujet des avantages sociaux, ce qui permettra au gestionnaire d’embauche de s’assurer qu’il y a suffisamment de fonds pour doter le poste.</p>
-                        <p>[Une boîte de texte de référence des Rôles et responsabilités apparaît.]</p>
+                        <p><strong>[00:05:36 : Une fenêtre contextuelle Références : Rôles et responsabilités apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:05:38 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>5. Pouvoirs</h2>
@@ -173,7 +179,8 @@
                         <p>Le Secrétariat du Conseil du Trésor du Canada est responsable de toutes les conditions d’emploi, des négociations collectives, des conventions collectives et des taux de rémunération au sein de l’administration publique centrale.</p>
                         <p>Pour plus d’informations, consultez la Directive sur les conditions d’emploi et la Directive sur la classification, qui se trouvent également dans la boîte à outils.</p>
                         <p>Comme il a déjà été mentionné, la plupart des organisations disposent d’un instrument de délégation des pouvoirs en matière de RH qui précise à qui sont subdélégués les pouvoirs et les responsabilités en matière d’organisation et de classification. Parmi les principales responsabilités déléguées figurent l’approbation des structures organisationnelles, des descriptions de travail, des dates d’entrée en vigueur et des mesures ou des demandes de classification ainsi que la prise des décisions en matière de classification.</p>
-                        <p>[Une boîte de texte de l’activité Pouvoirs apparaît.]</p>
+                        <p><strong>[00:08:13 : Une fenêtre contextuelle Activité : Pouvoirs apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:08:14 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>6. Rôle de l’organisation et de la classification dans le contexte de la gestion des ressources humaines</h2>
@@ -186,7 +193,8 @@
                         <p>La rémunération et les avantages sociaux (y compris les pensions) sont déterminés pour des groupes de postes en particulier. Une fois que le groupe, le sous-groupe (le cas échéant) et le niveau d’un poste ont été établis, ils sont associés aux conditions de travail de ce groupe professionnel.</p>
                         <p>Avec l’aide d’un conseiller en RH, vous pouvez pourvoir les postes vacants en déterminant en premier lieu les critères de mérite et les qualifications constituant un atout nécessaire à l’accomplissement du travail.</p>
                         <p>Les gestionnaires de tous les niveaux fixent des objectifs de rendement et d’apprentissage; ceux-ci sont passés en revue deux fois par an avec les employés.</p>
-                        <p>[Une boîte de texte de référence de Le rôle de l’organisation et de la classification dans le contexte de la gestion des RH apparaît.]</p>
+                        <p><strong>[00:10:21 : Une fenêtre contextuelle Références : Le rôle de l’organisation et de la classification dans le contexte de la gestion des RH apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:10:23 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>7. Dans la vraie vie</h2>
@@ -199,17 +207,15 @@
                           <li>déterminer de manière appropriée les exigences en matière de langues officielles d’un poste, pour faire en sorte que l’employé puisse fournir le produit ou le service de manière efficace;</li>
                           <li>veiller à ce qu’une décision en matière de classification soit prise pour les descriptions de travail nouvelles ou révisées avant de procéder à l’embauche.</li>
                         </ul>
-                        <p>[Une boîte de texte de l’activité Dans la vraie vie apparaît.]</p>
+                        <p><strong>[00:11:23 : Une fenêtre contextuelle Dans la vraie vie apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:11:25 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>8. Quiz</h2>
                         <p>Évaluez vos connaissances en répondant aux questions suivantes. Cliquez sur « Soumettre » lorsque vous avez terminé.</p>
-                        <p>[Une boîte de texte de l’activité Répondez au quiz apparaît.]</p>
-
-                        <hr>
-
-                        <h2>9. Section complétée</h2>
-                        <p>[Texte à l’écran indiquant l’instruction Section complétée.]</p>
+                        <p><strong>[00:11:34 : Texte indiquant l'instruction Répondez au quiz! apparaît à l’écran.]</strong></p>
+                        <p><strong>[00:11:37 : Une fenêtre contextuelle Répondez au quiz apparaît à l’écran.]</strong></p>
+                        <p><strong>[00:11:38 : Texte indiquant Vous avez complété cette section apparaît à l’écran.]</strong></p>
 
                       </span>
                     </b-card-text>

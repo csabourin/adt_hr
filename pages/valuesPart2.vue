@@ -120,6 +120,9 @@
                         <p>[Onscreen text showing Section Completed instruction.]</p>
                       </span>
                       <span v-if="$i18n.locale=='fr'">
+                        <p><strong>[00:00:01 : Un titre apparaît à l'écran.]</strong></p>
+                        <h2>Module 7 : Valeurs et éthique</h2>
+                        <p><strong>[00:00:08 : Un titre apparaît à l'écran.]</strong></p>
                         <h2>1. Introduction</h2>
                         <p>Les valeurs et l’éthique guident les gestionnaires vers une prise de décisions responsable et vers l’exercice d’une diligence raisonnable dans le cadre de leurs responsabilités et de leurs obligations.</p>
                         <p>Le Code de valeurs et d’éthique du secteur public et la Directive sur les conflits d’intérêts, qui a été élaborée conformément à la Politique sur la gestion des personnes, orientent les fonctionnaires dans l’exercice de leurs fonctions. Le respect du Code et de la Directive constitue une condition d’emploi, ce qui signifie que tous les employés doivent les lire et les accepter pour travailler dans la fonction publique.</p>
@@ -138,7 +141,8 @@
                           <li>reconnaître le harcèlement et la violence.</li>
                         </ul>
                         <p>Il vous faudra environ 30 minutes pour compléter cette section.</p>
-                        <p>[Une boîte de texte de référence de Liens externes apparaît.]</p>
+                        <p><strong>[00:01:39 : Une fenêtre contextuelle Références : Liens externes apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:01:40 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>2. Respecter les gens</h2>
@@ -158,7 +162,8 @@
                         <p>Pour connaître la définition du harcèlement et de la violence au travail et consulter une liste exhaustive d’exemples, rendez-vous sur la page Web Obligations des employeurs pour prévenir le harcèlement et la violence en milieu de travail sous réglementation fédérale.</p>
                         <p>Le harcèlement et la violence peuvent consister en un seul incident grave ayant des conséquences durables sur la personne visée ou en une série de gestes, de comportements ou de commentaires répréhensibles à l’égard d’une personne en raison, par exemple, de sa race, de son origine nationale ou ethnique, de sa religion, de son âge, de son orientation sexuelle, de son identité ou de son expression de genre, de ses caractéristiques génétiques, d’une déficience ou d’un autre motif de distinction illicite mentionnée dans la <i>Loi canadienne sur les droits de la personne</i>. Par ailleurs, la Déclaration des Nations Unies sur les Droits des Peuples Autochtones redéfinit la discrimination pour que soient prises en compte la culture, l’identité, la religion, la langue, la santé, l’éducation et la communauté.</p>
                         <p>Au moment d’évaluer une situation, il faut examiner la gravité et le caractère inopportun du geste, les circonstances et le contexte, et il faut déterminer si le comportement est interdit aux termes de la <i>Loi canadienne sur les droits de la personne</i>.</p>
-                        <p>[Une boîte de texte de l’activité Respecter les gens apparaît.]</p>
+                        <p><strong>[00:04:02 : Une fenêtre contextuelle Activité : Respecter les gens apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:04:04 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>3. Harcèlement et violence</h2>
@@ -172,7 +177,8 @@
                           <li>faire tous les efforts raisonnables pour régler l’incident;</li>
                           <li>consigner toutes les situations de harcèlement et de violence qui vous ont été signalées.</li>
                         </ul>
-                        <p>[Une boîte de texte de l’activité Harcèlement et violence apparaît.]</p>
+                        <p><strong>[00:05:09 : Une fenêtre contextuelle Activité : Harcèlement et violence apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:05:11 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>4. Directive sur les conflits d’intérêts</h2>
@@ -184,7 +190,8 @@
                           <li>demander à l’employé de revoir les exigences présentées dans la Directive;</li>
                           <li>rédiger un rapport pour informer l’administrateur général afin qu’il détermine si l’employé pourrait se retrouver en situation de conflit d’intérêts réel, apparent ou potentiel.</li>
                         </ul>
-                        <p>[Une boîte de texte de référence de Cours supplémentaire apparaît.]</p>
+                        <p><strong>[00:06:31 : Une fenêtre contextuelle Références : Cours supplémentaire apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:06:32 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>5. Définition d’un acte répréhensible</h2>
@@ -200,22 +207,22 @@
                         </ul>
                         <p>La loi préserve la confidentialité des fonctionnaires qui révèlent des actes répréhensibles présumés et les protège contre d’éventuelles représailles. En tant que gestionnaire, vous jouez un rôle important en montrant l’exemple d’un leadership fondé sur des valeurs et en informant vos employés sur leurs droits [et] des options qui s’offrent à eux aux termes de la LPFDAR.</p>
                         <p>Il pourrait arriver que des employés vous révèlent des actes répréhensibles. Vous avez la responsabilité de recevoir la divulgation, d’informer l’agent principal chargé de la divulgation à l’interne et de protéger l’identité des personnes visées par le processus de divulgation. Les employés peuvent également s’adresser directement à l’agent principal chargé de la divulgation à l’interne ou au commissaire à l’intégrité du secteur public.</p>
-                        <p>[Une boîte de texte de référence de Définir un acte répréhensible apparaît.]</p>
+                        <p><strong>[00:08:09 : Une fenêtre contextuelle Références : Définir un acte répréhensible apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:08:10 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>6. Dans la vraie vie</h2>
                         <p>Appliquez ce que vous avez appris - dans la vraie vie!</p>
                         <p>Votre organisation aura sa propre façon de faire les choses. Prenez le temps pour faire ce que l’on vous propose ci-dessous.</p>
-                        <p>[Une boîte de texte de l’activité Dans la vraie vie apparaît.]</p>
+                        <p><strong>[00:08:25 : Une fenêtre contextuelle Dans la vraie vie apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:08:26 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>7. Quiz</h2>
                         <p>Évaluez vos connaissances en répondant aux questions suivantes. Cliquez sur « Soumettre » lorsque vous avez terminé.</p>
-                        <p>[Une boîte de texte de l’activité Répondez au quiz apparaît.]</p>
-                        <hr>
-
-                        <h2>8. Section complétée</h2>
-                        <p>[Texte à l’écran indiquant l’instruction Section complétée.]</p>                 
+                        <p><strong>[00:08:34 : Texte indiquant l'instruction Répondez au quiz! apparaît à l’écran.]</strong></p>
+                        <p><strong>[00:08:39 : Une fenêtre contextuelle Répondez au quiz apparaît à l’écran.]</strong></p>
+                        <p><strong>[00:08:40 : Texte indiquant Vous avez complété cette section apparaît à l’écran.]</strong></p>           
                       </span>
                     </b-card-text>
                   </b-card-body>
