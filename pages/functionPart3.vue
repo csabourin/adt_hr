@@ -173,6 +173,9 @@
 
                       </span>
                       <span v-if="$i18n.locale=='fr'">
+                        <p><strong>[00:00:01 : Un titre apparaît à l'écran.]</strong></p>
+                        <h2>Module 5 : Dotation</h2>
+                        <p><strong>[00:00:06 : Un titre apparaît à l'écran.]</strong></p>
                         <h2>1. Introduction</h2>
                         <p>La recherche et le recrutement d’employés constituent des étapes clés qui permettent à une organisation d’atteindre ses objectifs.</p>
                         <p>Si vous êtes gestionnaire subdélégué, on vous demandera de pourvoir des postes dans votre section ou unité de travail en établissant les compétences et les autres capacités nécessaires au travail.</p>
@@ -184,7 +187,8 @@
                           <li>reconnaître les éléments à prendre en considération pour la dotation d’un poste.</li>
                         </ul>
                         <p>Il vous faudra environ 20 minutes pour parcourir cette section.</p>
-                        <p>[Une boîte de texte de référence de Liens externes apparaît.]</p>
+                        <p><strong>[00:01:11 : Une fenêtre contextuelle Références : Liens externes apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:01:13 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>2. Détermination de vos besoins en matière de dotation</h2>
@@ -208,7 +212,8 @@
                           <li>des accords comme l’Accord sur les revendications territoriales du Nunavut et même l’Accord de libre-échange canadien;</li>
                           <li>le mandat de votre ministre, les déclarations du greffier du Conseil privé et le discours du Trône.</li>
                         </ul>
-                        <p>[Une boîte de texte de l’activité Détermination de vos besoins en matière de dotation apparaît.]</p>
+                        <p><strong>[00:03:24 : Une fenêtre contextuelle Activité : Détermination de vos besoins en matière de dotation apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:03:27 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>3. Familiarisez-vous avec vos obligations en matière de dotation</h2>
@@ -231,16 +236,21 @@
                           <li>des programmes comme ceux qui sont destinés aux étudiants ou qui concernent l’équité en matière d’emploi, la diversité et l’inclusion, ou encore Échanges Canada;</li>
                           <li>les normes de qualification en matière d’études, d’attestation professionnelle et de langues officielles et d’autres exigences permettant à une personne d’obtenir un emploi dans la fonction publique centrale.</li>
                         </ol>
-                        <p>[Une boîte de texte de référence d’Obligations en matière de dotation apparaît.]</p>
+                        <p><strong>[00:06:44 : Une fenêtre contextuelle Références : Obligations en matière de dotation apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:06:45 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>4. Embauche inclusive</h2>
                         <p>Regardez la vidéo suivante sur l’embauche inclusive. Vous vous verrez présenter cinq conseils qui vous permettront de diversifier votre effectif.</p>
-                        <p>[Une boîte de texte de l’activité Embauche inclusive apparaît.]</p>
+                        <p><strong>[00:06:54 : Un lien vidéo apparaît à l’écran : Savoir Faire / Embauche inclusive : cinq conseils pour diversifier votre effectif.]</strong></p>
+                        <p><strong>[00:06:56 : Un lien d’une page web apparaît à l’écran : https://www.csps-efpc.gc.ca/video/inclusive-hiring-five-tips-fra.aspx.]</strong></p>
+                        <p><strong>[00:07:07 : Une fenêtre contextuelle Activité – Embauche inclusive apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:07:08 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
-                        <h2>5. Dotation d’un poste</h2>
+                        <h2>5. Dotation d’un poste</h2>>
                         <p>Si vous êtes gestionnaire subdélégué, vous êtes responsable de prendre les décisions qui relèvent des pouvoirs qui vous ont été subdélégués et de travailler en partenariat avec les RH. La dotation d’un poste doit être considérée selon trois optiques : la diversité, l’équité et l’inclusion; les objectifs opérationnels et la gestion judicieuse des ressources; et l’intégrité et l’éthique.</p>
+                        <p><strong>[00:07:42 : Un texte indiquant : 1. Diversité, équité et inclusion apparaît à l'écran.]</strong></p>
                         <p>Les éléments suivants vous permettront de mener un processus juste et inclusif et d’embaucher des personnes qualifiées pour former un effectif diversifié qui est représentatif de la population canadienne et répond à vos besoins organisationnels : </p>
                         <ul>
                           <li>tenir compte des objectifs d’équité en matière d’emploi et adopter des pratiques inclusives;</li>
@@ -266,6 +276,7 @@
                           </li>
                         </ul>
                         <p>Pour plus de renseignements, consultez l’Instrument de délégation et de responsabilisation en matière de nomination et la Politique de nomination.</p>
+                        <p><strong>[00:10:27 : Un texte indiquant : 2. Objectifs opérationnels et la gestion judicieuse des ressources apparaît à l'écran.]</strong></p>
                         <p>Afin de mener un processus efficace permettant d’atteindre les objectifs opérationnels au moyen d’une gestion judicieuse des ressources, pensez à : </p>
                         <ul>
                           <li>garder en tête les objectifs de dotation tout au long du processus;</li>
@@ -273,6 +284,7 @@
                           <li>tirer parti de la souplesse qu’offre la <em>Loi sur l’emploi dans la fonction publique</em> et prendre des mesures d’adaptation raisonnables à mesure que les circonstances évoluent;</li>
                           <li>promouvoir la mobilisation et le maintien en poste en faisant preuve de transparence auprès des postulants et des employés.</li>
                         </ul>
+                        <p><strong>[00:11:04 : Un texte indiquant : 3. L’intégrité et l’éthique apparaît à l'écran.]</strong></p>
                         <p>Les cinq étapes suivantes permettent de mener un processus fondé sur l’intégrité et l’éthique : </p>
                         <ul>
                           <li>satisfaire aux exigences du cadre de dotation (de la fonction publique et du ministère) et faire preuve de souplesse en proposant des solutions et des mesures d’adaptation pour les outils et approches d’évaluation afin d’assurer une évaluation juste des qualifications de tous les candidats;</li>
@@ -286,7 +298,8 @@
                           <li>mettre l’accent sur le mérite plutôt que sur les affinités ou d’autres sources de préjugés;</li>
                           <li>être capable d’expliquer clairement les décisions et consigner les renseignements sur la nomination, y compris vos décisions et les facteurs que vous avez pris en considération.</li>
                         </ul>
-                        <p>[Une boîte de texte de référence de Dotation d’un poste apparaît.]</p>
+                        <p><strong>[00:12:17 : Une fenêtre contextuelle Références : Dotation d’un poste apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:12:20 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>6. Dans la vraie vie</h2>
@@ -302,16 +315,15 @@
                         </ul>
                         <p>En tant que gestionnaire subdélégué, vous avez de nombreuses options. N’oubliez pas de consulter vos conseillers en RH.</p>
                         <p>Prenez le temps pour consulter les guides et les outils de la Commission de la fonction publique sur le Web de l’organisation. Ces outils visent à aider les gestionnaires qui mènent les processus de nomination.</p>
-                        <p>[Une boîte de texte de l’activité Dans la vraie vie apparaît.]</p>
+                        <p><strong>[00:13:20 : Une fenêtre contextuelle Dans la vraie vie apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:13:21 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>7. Quiz</h2>
                         <p>Évaluez vos connaissances en répondant aux questions suivantes. Cliquez sur « Soumettre » lorsque vous avez terminé.</p>
-                        <p>[Une boîte de texte de l’activité Répondez au quiz apparaît.]</p>
-                        <hr>
-
-                        <h2>8. Section complétée</h2>
-                        <p>[Texte à l’écran indiquant l’instruction Section complétée.]</p>
+                        <p><strong>[00:13:26 : Texte indiquant l'instruction Répondez au quiz! apparaît à l’écran.]</strong></p>
+                        <p><strong>[00:13:38 : Une fenêtre contextuelle Répondez au quiz apparaît à l’écran.]</strong></p>
+                        <p><strong>[00:13:39 : Texte indiquant Vous avez complété cette section apparaît à l’écran.]</strong></p>
                       </span>
                     </b-card-text>
                   </b-card-body>

@@ -121,6 +121,9 @@
 
                       </span>
                       <span v-if="$i18n.locale=='fr'">
+                        <p><strong>[00:00:01 : Un titre apparaît à l'écran.]</strong></p>
+                        <h2>Module 8 : Langues officielles</h2>
+                        <p><strong>[00:00:08 : Un titre apparaît à l'écran.]</strong></p>
                         <h2>1. Introduction</h2>
                         <p>Les programmes des langues officielles du gouvernement fédéral ne garantissent pas seulement des services en français et en anglais aux Canadiens. Ils protègent aussi les droits de tous les fonctionnaires en matière de langues officielles et favorisent l’utilisation des deux langues officielles dans les milieux de travail situés dans les régions bilingues.</p>
                         <p>Les programmes des langues officielles doivent donc veiller à ce que les organisations se conforment aux exigences de la <i>Loi sur les langues officielles</i> et aux instruments de politique en matière de langues officielles du Conseil du Trésor.</p>
@@ -130,7 +133,8 @@
                           <li>reconnaître les responsabilités liées aux droits des employés quant à la langue de travail.</li>
                         </ul>
                         <p>Il vous faudra environ 30 minutes pour compléter cette section.</p>
-                        <p>[Une boîte de texte de référence de Liens externes apparaît.]</p>
+                        <p><strong>[00:00:57 : Une fenêtre contextuelle Références : Liens externes apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:01:00 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>2. Cadre juridique</h2>
@@ -143,7 +147,8 @@
                           <li>les Canadiens d’expression française et ceux d’expression anglaise ont des chances égales d’emploi et d’avancement au sein des institutions – le mandat des institutions, leur emplacement et leur public doivent être pris en compte;</li>
                           <li>des structures de gouvernance, des mécanismes adéquats et des ressources sont en place pour assurer une gestion cohérente des obligations de l’institution en matière de langues officielles.</li>
                         </ul>
-                        <p>[Une boîte de texte de l’activité Cadre juridique apparaît.]</p>
+                        <p><strong>[00:02:10 : Une fenêtre contextuelle Activité : Cadre juridique apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:02:11 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>3. Directive sur les langues officielles pour les communications et services</h2>
@@ -159,7 +164,8 @@
                         </ul>
                         <p>Les responsabilités de la direction de votre organisation découlant des obligations en matière de communication avec les employés de la fonction publique pourraient varier selon que votre bureau est situé dans une région bilingue ou unilingue.</p>
                         <p>Pour savoir si votre organisation se trouve dans une région bilingue, consultez la Liste des régions bilingues du Canada aux fins de la langue de travail.</p>
-                        <p>[Une boîte de texte de l’activité Régions désignées bilingues aux fins de la langue de travail apparaît.]</p>
+                        <p><strong>[00:04:00 : Une fenêtre contextuelle Activité : Régions désignées bilingues aux fins de la langue de travail apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:04:02 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>4. Responsabilités des gestionnaires en matière de langues officielles pour la gestion des personnes</h2>
@@ -185,7 +191,8 @@
                           <li>mettre à la disposition des employés qui communiquent ou fournissent des services en français et en anglais au public ou aux employés des instruments de travail et des systèmes informatiques d’usage courant et généralisé dans les deux langues officielles.</li>
                         </ul>
                         <p>Le Profil de compétences en leadership axé sur les langues officielles peut permettre aux personnes d’autoévaluer leurs compétences en langue seconde.</p>
-                        <p>[Une boîte de texte de l’activité Responsabilités des gestionnaires en matière de langues officielles pour la gestion des personnes apparaît.]</p>
+                        <p><strong>[00:06:12 : Une fenêtre contextuelle Activité : Responsabilités des gestionnaires en matière de langues officielles pour la gestion des personnes apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:06:13 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>5. Établir les exigences linguistiques</h2>
@@ -197,22 +204,22 @@
                           <li>bilingue : les fonctions et les tâches du poste requièrent l’utilisation du français et de l’anglais (poste bilingue);</li>
                           <li>réversible : les fonctions et les tâches du poste requièrent l’utilisation d’une seule langue officielle, et le titulaire du poste choisit laquelle utiliser. La langue du poste est celle qui est choisie par le titulaire aussi longtemps que celui-ci y demeure (poste réversible).</li>
                         </ul>
-                        <p>[Une boîte de texte de référence Établir les exigences linguistiques apparaît.]</p>
+                        <p><strong>[00:07:23 : Une fenêtre contextuelle Références : Établir les exigences linguistiques apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:07:24 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>6. Dans la vraie vie</h2>
                         <p>Appliquer ce que vous avez appris - dans la vraie vie!</p>
                         <p>Votre organisation aura sa propre façon de faire les choses. Prenez le temps pour consulter la boîte à outils du cours, où vous trouverez la liste des personnes responsables des langues officielles et des champions des langues officielles dans les institutions assujetties à la <i>Loi sur les langues officielles</i>.</p>
-                        <p>[Une boîte de texte de l’activité Dans la vraie vie apparaît.]</p>
+                        <p><strong>[00:07:49 : Une fenêtre contextuelle Dans la vraie vie apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:07:50 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>7. Quiz</h2>
                         <p>Évaluez vos connaissances en répondant aux questions suivantes. Cliquez sur « Soumettre » lorsque vous avez terminé.</p>
-                        <p>[Une boîte de texte de l’activité Répondez au quiz apparaît.]</p>
-                        <hr>
-
-                        <h2>8. Section complétée</h2>
-                        <p>[Texte à l’écran indiquant l’instruction Section complétée.]</p>                  
+                        <p><strong>[00:07:59 : Texte indiquant l'instruction Répondez au quiz! apparaît à l’écran.]</strong></p>
+                        <p><strong>[00:08:03 : Une fenêtre contextuelle Répondez au quiz apparaît à l’écran.]</strong></p>
+                        <p><strong>[00:08:04 : Texte indiquant Vous avez complété cette section apparaît à l’écran.]</strong></p>               
                       </span>
                     </b-card-text>
                   </b-card-body>

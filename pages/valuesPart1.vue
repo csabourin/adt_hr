@@ -108,6 +108,9 @@
                         <p><strong>[00:06:50 Text showing “You have completed this section” appears onscreen.] </strong></p>
                       </span>
                       <span v-if="$i18n.locale=='fr'">
+                        <p><strong>[00:00:01 : Un titre apparaît à l'écran.]</strong></p>
+                        <h2>Module 6 : Relations de travail</h2>
+                        <p><strong>[00:00:07 : Un titre apparaît à l'écran.]</strong></p>
                         <h2>1. Introduction</h2>
                         <p>De bonnes relations de travail sont essentielles à une saine gestion des ressources humaines. Il vous incombe de contribuer à maintenir des relations de travail efficaces dans votre organisation, et de veiller au respect et à l’application uniforme de la Loi sur les relations de travail dans le secteur public fédéral, des politiques sur les relations de travail, des conventions collectives et des directives du Conseil national mixte (CNM).</p>
                         <p>La Loi sur les relations de travail dans le secteur public fédéral favorise le dialogue, la résolution conjointe des problèmes, les solutions convenues d’un commun accord et les négociations collectives efficaces. Le préambule de la Loi décrit les valeurs et les principes clés, tels que : </p>
@@ -124,7 +127,8 @@
                           <li>vous découvrirez les ressources disponibles pour vous aider à gérer les conflits au travail.</li>
                         </ul>
                         <p>Il vous faudra environ 20 minutes pour parcourir cette section.</p>
-                        <p>[Une boîte de texte de référence de Liens externes apparaît.]</p>
+                        <p><strong>[00:01:47 : Une fenêtre contextuelle Références : Liens externes apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:01:49 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>2. Types de postes</h2>
@@ -139,7 +143,8 @@
                         <p>Pour en savoir plus, consultez les Lignes directrices pour la désignation des services essentiels.</p>
                         <p>Les fonctions de direction ou de confiance signifient que les postes concernés sont exclus d’une unité de négociation. L’article 59 de la Loi sur les relations de travail dans le secteur public fédéral dresse la liste des motifs pour lesquels un poste peut être désigné « poste de direction » ou « poste de confiance », mais les ministères jouent un rôle clé dans la désignation de ces postes et la justification de la décision auprès du Secrétariat du Conseil du Trésor du Canada.</p>
                         <p>Pour obtenir de plus amples renseignements, consultez les Lignes directrices sur les postes de direction ou de confiance exclus.</p>
-                        <p>[Une boîte de texte de l’activité Types de postes apparaît.]</p>
+                        <p><strong>[00:03:24 : Une fenêtre contextuelle Activité : Types de postes apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:03:25 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>3. Conventions collectives</h2>
@@ -147,7 +152,8 @@
                         <p>Certaines conventions collectives peuvent sembler très similaires, mais elles comportent d’importantes différences dans les droits évoqués que vous devez reconnaître.</p>
                         <p>Dans votre nouveau rôle de gestionnaire, il est tout à fait possible que vous gériez des employés assujettis à plus d’une convention collective. Assurez-vous de lire les conventions collectives et de pouvoir répondre aux questions que pourraient se poser vos employés.</p>
                         <p>Vous devriez également savoir que les directives élaborées par le Conseil national mixte ont une incidence sur les conventions collectives. Les dispositions du Conseil national mixte font partie des conventions collectives des parties concernées en vertu du <i>Règlement du Conseil national mixte</i>. Ces dispositions s’appliquent aussi aux personnes qui ne sont pas visées par les conventions collectives, comme l’indique la directive ou la politique de l’employeur.</p>
-                        <p>[Une boîte de texte de l’activité Conventions collectives apparaît.]</p>
+                        <p><strong>[00:04:32 : Une fenêtre contextuelle Activité : Conventions collectives apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:04:33 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>4. Gestion des mesures disciplinaires</h2>
@@ -160,7 +166,8 @@
                           <li>des sanctions pécuniaires.</li>
                         </ul>
                         <p>Les mesures disciplinaires, contrairement aux mesures de gestion du rendement, peuvent être une intervention appropriée en cas de violation délibérée par un employé des règles ou des normes en milieu de travail.</p>
-                        <p>[Une boîte de texte de l’activité Gestion des mesures disciplinaires apparaît.]</p>
+                        <p><strong>[00:05:20 : Une fenêtre contextuelle Activité : Gestion des mesures disciplinaires apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:05:21 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>5. Gérer les conflits en milieu de travail</h2>
@@ -174,22 +181,22 @@
                         </ul>
                         <p>Lorsque vous recevez un grief d’un employé, il vous incombe, en tant que superviseur ou encore de gestionnaire, d’en accuser réception, puis d’envoyer le formulaire correspondant à la personne de votre organisation autorisée à traiter le grief.</p>
                         <p>Selon la <i>Loi sur les relations de travail dans le secteur public fédéral</i>, toutes les organisations de l’administration publique centrale doivent avoir mis en place un système de gestion informelle des conflits (SGIC). Le but d’un tel système est de résoudre les conflits au travail en offrant d’autres modes de résolution des conflits.</p>
-                        <p>[Une boîte de texte de référence de Gérer les conflits en milieu de travail apparaît.]</p>
+                        <p><strong>[00:06:36 : Une fenêtre contextuelle Références : Gérer les conflits en milieu de travail apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:06:37 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>6. Dans la vraie vie</h2>
                         <p>Appliquez ce que vous avez appris – dans la vraie vie!</p>
                         <p>Votre organisation aura sa propre façon de faire les choses. Prenez le temps pour découvrir qui dans votre ministère est le conseiller en relations de travail. Cette personne peut vous offrir un excellent soutien. Déterminez également quels sont les postes de direction ou de confiance dans votre équipe ou dans votre organisation.</p>
-                        <p>[Une boîte de texte de l’activité Dans la vraie vie apparaît.]</p>
+                        <p><strong>[00:07:03 : Une fenêtre contextuelle Dans la vraie vie apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:07:04 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>7. Quiz</h2>
                         <p>Évaluez vos connaissances en répondant aux questions suivantes. Cliquez sur « Soumettre » lorsque vous avez terminé.</p>
-                        <p>[Une boîte de texte de l’activité Répondez au quiz apparaît.]</p>
-                        <hr>
-
-                        <h2>8. Section complétée</h2>
-                        <p>[Texte à l’écran indiquant l’instruction Section complétée.]</p>
+                        <p><strong>[00:07:12 : Texte indiquant l'instruction Répondez au quiz! apparaît à l’écran.]</strong></p>
+                        <p><strong>[00:07:17 : Une fenêtre contextuelle Répondez au quiz apparaît à l’écran.]</strong></p>
+                        <p><strong>[00:07:18 : Texte indiquant Vous avez complété cette section apparaît à l’écran.]</strong></p>
                       </span>
                     </b-card-text>
                   </b-card-body>

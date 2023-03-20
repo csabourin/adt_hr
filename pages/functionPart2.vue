@@ -102,7 +102,9 @@
 
                       </span>
                       <span v-if="$i18n.locale=='fr'">
-
+                        <p><strong>[00:00:02 : Un titre apparaît à l'écran.]</strong></p>
+                        <h2>Module 4 : Équité en matière d’emploi, diversité et inclusion</h2>
+                        <p><strong>[00:00:07 : Un titre apparaît à l'écran.]</strong></p>
                         <h2>1. Introduction</h2>
                         <p>Tout le monde tire avantage de l’équité en matière d’emploi, de la diversité et de l’inclusion, car elles permettent aux employés actuels et futurs d’avoir des chances égales d’être embauchés et promus grâce à leurs compétences et à leurs habiletés.</p>
                         <p>Votre organisation et votre équipe en profitent également, car un effectif diversifié peut apporter un éventail plus large d’idées et de points de vue ainsi qu’une meilleure résilience.</p>
@@ -112,7 +114,8 @@
                         </ul>
                         <p>Au bout du compte, l’équité en matière d’emploi consiste à éliminer les obstacles, tandis que la diversité, l’équité et l’inclusion consistent à accepter les différences pour que les employés aient un bon rendement et qu’ils contribuent pleinement à l’organisation.</p>
                         <p>Il vous faudra environ 20 minutes pour parcourir cette section.</p>
-                        <p>[Une boîte de texte de référence de Liens externes apparaît.]</p>
+                        <p><strong>[00:01:01 : Une fenêtre contextuelle Références : Liens externes apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:01:02 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>2. Mesures d’adaptation en milieu de travail</h2>
@@ -130,7 +133,8 @@
                           <li>adapter les programmes de formation aux besoins des employés.</li>
                         </ul>
                         <p>Les politiques et les procédures de votre organisation vous aident à créer un milieu de travail plus équitable, diversifié et inclusif, et à éliminer les obstacles, ce qui permet à tous les employés de participer de manière égale à l’environnement de travail.</p>
-                        <p>[Une boîte de texte de référence de Mesures d’adaptation en milieu de travail apparaît.]</p>
+                        <p><strong>[00:02:28 : Une fenêtre contextuelle Références : Mesures d’adaptation en milieu de travail apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:02:29 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>3. Discrimination en milieu de travail</h2>
@@ -143,12 +147,14 @@
                           <li>Il y a des gens qui nient l’existence du racisme et qui s’opposent activement aux efforts de lutte contre le racisme.</li>
                         </ol>
                         <p>Étant donné que la <i>Loi sur l’équité en matière d’emploi</i> est en vigueur et que la Charte canadienne des droits et libertés fait partie de la <i>Loi constitutionnelle</i>, la discrimination fondée sur la race est illégale. De plus, la <i>Loi canadienne sur les droits de la personne</i> énonce tous les motifs de distinction illicites.</p>
-                        <p>[Une boîte de texte de référence de Discrimination en milieu de travail apparaît.]</p>
+                        <p><strong>[00:03:44 : Une fenêtre contextuelle Références : Discrimination en milieu de travail apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:03:46 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>4. Égalité des chances</h2>
                         <p>Repérer, éliminer et prévenir les conditions qui désavantagent les groupes racisés et les personnes handicapées est essentiel à la mise en place d’un environnement équitable où tout le monde peut accéder de manière égale aux possibilités et aux services.</p>
-                        <p>[Une boîte de texte de l’activité Égalité des chances apparaît.]</p>
+                        <p><strong>[00:04:04 : Une fenêtre contextuelle Activité : Égalité des chances apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:04:06 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>5. Préjugés inconscients</h2>
@@ -157,23 +163,23 @@
                         <p>Notre cerveau a appris à prendre des raccourcis fondés sur nos expériences personnelles. Même si nous n’en sommes pas conscients, notre cerveau fait des généralisations, ce qui crée des stéréotypes à l’égard des gens selon des caractéristiques comme l’âge, le genre, l’origine ethnique, la religion et l’orientation sexuelle.</p>
                         <p>Les préjugés, qu’ils soient conscients ou inconscients, agissent sur nos attitudes, nos comportements et nos décisions. Familiarisiez-vous avec vos propres préjugés inconscients et la manière dont ils peuvent influencer votre comportement envers les employés actuels et futurs, qu’il soit question de processus de dotation, de demandes de mesures d’adaptation, d’évaluations de rendement ou d’autres situations.</p>
                         <p>Rappelez-vous que les préjugés sont des croyances que vous avez apprises, et que vous pouvez donc vous en défaire.</p>
-                        <p>[Une boîte de texte de référence de Préjugés inconscients apparaît.]</p>
+                        <p><strong>[00:05:22 : Une fenêtre contextuelle Références : Préjugés inconscients apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:05:23 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>6. Dans la vraie vie</h2>
                         <p>Appliquez ce que vous avez appris - dans la vraie vie!</p>
                         <p>Votre organisation aura sa propre façon de faire les choses.</p>
                         <p>Prenez le temps pour vous familiariser avec les politiques et les procédures de votre organisation de même qu’avec la portée des mesures d’adaptation possibles pour mieux déterminer où sont les obstacles et pour bâtir un milieu de travail plus inclusif. Vous devez aussi intégrer l’équité en matière d’emploi, la diversité et l’inclusion à votre planification des RH afin de soutenir les engagements de votre organisation concernant l’équité en matière d’emploi.</p>
-                        <p>[Une boîte de texte de l’activité Dans la vraie vie apparaît.]</p>
+                        <p><strong>[00:05:56 : Une fenêtre contextuelle Dans la vraie vie apparaît à l'écran.]</strong></p>
+                        <p><strong>[00:05:58 : Un titre apparaît à l'écran.]</strong></p>
                         <hr>
 
                         <h2>7. Quiz</h2>
                         <p>Évaluez vos connaissances en répondant aux questions suivantes. Cliquez sur « Soumettre » lorsque vous avez terminé.</p>
-                        <p>[Une boîte de texte de l’activité Répondez au quiz apparaît.]</p>
-                        <hr>
-
-                        <h2>8. Section complétée</h2>
-                        <p>[Texte à l’écran indiquant l’instruction Section complétée.]</p>
+                        <p><strong>[00:06:07 : Texte indiquant l'instruction Répondez au quiz! apparaît à l’écran.]</strong></p>
+                        <p><strong>[00:06:10 : Une fenêtre contextuelle Répondez au quiz apparaît à l’écran.]</strong></p>
+                        <p><strong>[00:06:11 : Texte indiquant Vous avez complété cette section apparaît à l’écran.]</strong></p>
                       </span>
                     </b-card-text>
                   </b-card-body>
