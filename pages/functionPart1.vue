@@ -19,7 +19,9 @@
                   <b-card-body>
                     <b-card-text>
                       <span v-if="$i18n.locale=='en'">
-
+                        <p><strong>[00:00:02 Title is shown onscreen.] </strong></p>
+                        <h2>Module 3: Organization and Classification </h2>
+                        <p><strong>[00:00:09 Title is shown onscreen.] </strong></p>
                         <h2>1. Introduction</h2>
                         <p>Your organization and classification (or OC) responsibilities have an impact on every other HR discipline and may also have cost implications. It is therefore important to understand how organization and classification work, both independently and together.</p>
                         <p>Job and position management are common responsibilities in this area of HR. They are associated with the <i>Financial Administration Act</i>, the <i>Canadian Human Rights Act</i>, and several HR policies. We will look at all of these in this course.</p>
@@ -32,7 +34,8 @@
                           <li>Recall the roles of organization and classification in HR management</li>
                         </ul>
                         <p>This section should take you approximately 20 minutes to complete.</p>
-                        <p>[An External Links reference pop-up text box appears.]</p>
+                        <p><strong>[00:01:13 A “References: External Links” pop-up text box appears onscreen.] </strong></p>
+                        <p><strong>[00:01:15 Title is shown onscreen.]  </strong></p>
                         <hr>
 
                         <h2>2. Organization and Classification</h2>
@@ -45,7 +48,8 @@
                         <p>The structure of the organization is designed with the assistance of an HR advisor, who also helps define the duties to be performed in achieving the mandate.</p>
                         <p>Based on the duties of a position (or job), the HR advisor or classification evaluation committee determines the group and level of the positions within the organization’s structure. Rates of pay are then matched to each occupational group and level, and employees are paid based on the group and level of the position they occupy.</p>
                         <p>Pay and benefits are negotiated outside of classification through the collective bargaining process.</p>
-                        <p>[An Organizational and Classification activity pop-up text box appears.]</p>
+                        <p><strong>[00:02:52 A pop-up box with “Activity: Organizational and Classification” appears onscreen.] </strong></p>
+                        <p><strong>[00:02:56 Title is shown onscreen.]    </strong></p>
                         <hr>
 
                         <h2>3. Organizational Design</h2>
@@ -54,7 +58,8 @@
                         <p>Eventually, each box will be assigned a group and level and will reflect the name of the incumbent.</p>
                         <p>In the creation and maintenance of an organizational structure, accountabilities, roles and responsibilities are discussed, defined and reflected. The work associated with each role is then defined in a written job description and classified accordingly.</p>
                         <p>Consult with your OC-accredited HR advisor to confirm your organizational structure and to plan the review or creation of positions to meet your operational needs.</p>
-                        <p>[An Organizational Design activity pop-up text box appears.]</p>
+                        <p><strong>[00:04:03 A pop-up box with “Activity: Organizational Design” appears onscreen.] </strong></p>
+                        <p><strong>[00:04:05 Title is shown onscreen.]   </strong></p>
                         <hr>
 
                         <h2>4. Roles and Responsibilities</h2>
@@ -62,7 +67,8 @@
                         <p>As outlined in the Policy on People Management, deputy heads are responsible for determining the department’s organizational structure and executive resourcing requirements.</p>
                         <p>Managers are responsible for ensuring their organizational structure is in line with the organization’s mandate and business objectives and determining the work assigned to a position and described in the job description.</p>
                         <p>An OC-accredited HR advisor uses the organizational structure and the job descriptions approved by the delegated manager to evaluate and render a classification decision on the occupational group, subgroup if applicable, and level to a position. The classification of the position will link the rate of pay as well as benefits information, enabling the hiring manager to ensure that sufficient funds are available to staff the position.</p>
-                        <p>[A Roles and Responsibilities reference pop-up text box appears.]</p>
+                        <p><strong>[00:05:05 A “Reference: Roles and Responsibilities” pop-up text box appears onscreen.]  </strong></p>
+                        <p><strong>[00:05:08 Title is shown onscreen.]   </strong></p>
                         <hr>
 
                         <h2>5. Authorities</h2>
@@ -75,7 +81,8 @@
                         <p>The Treasury Board of Canada Secretariat is responsible for all terms and conditions of employment, collective bargaining negotiations, collective agreements and rates of pay within the core public administration.</p>
                         <p>For more information, consult the Directive on Terms and Conditions of Employment and the Directive on Classification, which can also be found in the toolbox.</p>
                         <p>As mentioned, most organizations have an HR delegation instrument that indicates to whom organization and classification authorities and responsibilities are sub-delegated. Some key delegated responsibilities include approving organizational structures, job descriptions, effective dates, classification actions or requests, as well as rendering classification decisions.</p>
-                        <p>[An Authorities activity pop-up text box appears.]</p>
+                        <p><strong>[00:07:25 A pop-up box with “Activity: Authorities” appears onscreen.] </strong></p>
+                        <p><strong>[00:07:27 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>6. The Role of Organization and Classification in Human Resources Management</h2>
@@ -88,7 +95,8 @@
                         <p>Salary and benefits (including pensions) are determined for particular groups of positions. Once the group, subgroups (if applicable), and level are determined for a position, they are linked to the terms and conditions associated with that occupational group.</p>
                         <p>With the assistance of an HR advisor you can staff vacant positions by first establishing the relevant merit and asset criteria required for the successful performance of the work.</p>
                         <p>Managers at all levels set performance and learning objectives that are reviewed semi-annually with employees.</p>
-                        <p>[A The Role of Organization and Classification in HR Management reference pop-up text box appears.]</p>
+                        <p><strong>[00:09:25 A “Reference: The Role of Organization and Classification in HR Management” pop-up text box appears onscreen.]  </strong></p>
+                        <p><strong>[00:09:29 Title is shown onscreen.]   </strong></p>
                         <hr>
 
                         <h2>7. In Real Life</h2>
@@ -105,16 +113,16 @@
                         <p>Your organization will have its own ways of doing things.</p>
                         <p>To supplement the knowledge required to perform your organization and classification functions, be sure to complete the course Introduction to Organization and Classification (P930).</p>
                         <p>This mandatory course is the first step in the training and accreditation of public servants working and specializing in classification.</p>
-                        <p>[An In Real Life activity pop-up text box appears.]</p>
+                        <p><strong>[00:10:48 An “In Real Life” pop-up text box appears onscreen.]  </strong></p>
+                        <p><strong>[00:10:52 Title is shown onscreen.]</strong></p>
                         <hr>
 
                         <h2>8. Quiz</h2>
-                        <p>Test your knowledge by answering the following questions. Select “Submit” when you are done.</p>
-                        <p>[A Take the Quiz activity pop-up text box appears.]</p>
-                        <hr>
-
-                        <h2>9. Section Completed</h2>
-                        <p>[Onscreen text showing Section Completed instruction.]</p>
+                        <p>Test your knowledge by answering the following questions. <strong>Select “Submit” when you are done.</strong></p>
+                        <p><strong>[00:11:00 Text is shown onscreen that reads “Take the quiz”.]  </strong></p>
+                        <p><strong>[00:11:05 A "Take the Quiz" pop-up box text box appears onscreen.] </strong></p>
+                        <p><strong>[00:11:05 Text showing “You have completed this section” appears onscreen.] </strong></p>
+                        
                       </span>
                       <span v-if="$i18n.locale=='fr'">
 
@@ -205,11 +213,7 @@
                         <h2>8. Quiz</h2>
                         <p>Évaluez vos connaissances en répondant aux questions suivantes. Cliquez sur « Soumettre » lorsque vous avez terminé.</p>
                         <p>[Une boîte de texte de l’activité Répondez au quiz apparaît.]</p>
-
                         <hr>
-
-                        <h2>9. Section complétée</h2>
-                        <p>[Texte à l’écran indiquant l’instruction Section complétée.]</p>
 
                       </span>
                     </b-card-text>

@@ -19,6 +19,9 @@
                   <b-card-body>
                     <b-card-text>
                       <span v-if="$i18n.locale=='en'">
+                        <p><strong>[00:00:02 Title is shown onscreen.] </strong></p>
+                        <h2>Module 6: Labour Relations </h2>
+                        <p><strong>[00:00:09 Title is shown onscreen.]   </strong></p>
                         <h2>1. Introduction</h2>
                         <p>Good labour relations are essential to good human resources management. It is your responsibility to contribute to effective labour relations in your organization and to ensure that the <i>Federal Public Sector Labour Relations Act</i>, labour relations policies and collective agreements, and National Joint Council directives are respected and applied in a consistent manner.</p>
                         <p>The <i>Federal Public Sector Labour Relations Act</i> provides for dialogue, joint problem solving, mutually agreed-upon solutions, and effective collective bargaining. The preamble of the Act outlines key values and principles, such as:</p>
@@ -35,7 +38,8 @@
                           <li>Discover the resources available to help you manage workplace conflict</li>
                         </ul>
                         <p>This section should take you approximately 20 minutes to complete.</p>
-                        <p>[An External Links reference pop-up text box appears.]</p>
+                        <p><strong>[00:01:34 A “References: External Links” pop-up text box appears onscreen.]  </strong></p>
+                        <p><strong>[00:01:36 Title is shown onscreen.]   </strong></p>
                         <hr>
 
                         <h2>2. Types of Positions</h2>
@@ -50,7 +54,8 @@
                         <p>For more information, see the Guidelines for Essential Services Designations.</p>
                         <p>Having managerial or confidential duties means that these positions are excluded from a bargaining unit. Section 59 of the Federal Public Sector Labour Relations Act lists the grounds for declaring a position managerial or confidential, but departments play a key role in identifying and justifying these positions to the Treasury Board of Canada Secretariat.</p>
                         <p>For more information, see the Guidelines on Managerial or Confidential Exclusions.</p>
-                        <p>[A Types of Positions activity pop-up text box appears.]</p>
+                        <p><strong>[00:03:04 A pop-up box with “Activity: Types of Positions” appears onscreen.] </strong></p>
+                        <p><strong>[00:03:05 Title is shown onscreen.]   </strong></p>
                         <hr>
 
                         <h2>3. Collective Agreements</h2>
@@ -58,7 +63,8 @@
                         <p>Different collective agreements may appear to be quite similar, but they contain important differences in entitlements that you must recognize.</p>
                         <p>In your new role as manager, it is quite possible that you will manage employees under more than one collective agreement. Make sure you read them and are able to answer questions that may arise among your employees.</p>
                         <p>You should also be aware that directives developed by the National Joint Council affect collective agreements. National Joint Council provisions form part of the collective agreements of the participating parties under the bylaws of the National Joint Council. The provisions also apply to individuals not covered by collective agreements, as specified in the directive or by employer policy.</p>
-                        <p>[A Collective Agreements activity pop-up text box appears.]</p>
+                        <p><strong>[00:04:12 A pop-up box with “Activity: Collective Agreements” appears onscreen.] </strong></p>
+                        <p><strong>[00:04:13 Title is shown onscreen.]  </strong></p>
                         <hr>
 
                         <h2>4. Managing Disciplinary Measures</h2>
@@ -71,7 +77,8 @@
                           <li>other financial penalties</li>
                         </ul>
                         <p>Disciplinary measures, as opposed to performance management measures, may be the appropriate response to an employee’s willful breach of rules or standards in the workplace.</p>
-                        <p>[A Managing Disciplinary Measures activity pop-up text box appears.]</p>
+                        <p><strong>[00:04:53 A pop-up box with “Activity: Managing Disciplinary Measures” appears onscreen.] </strong></p>
+                        <p><strong>[00:04:55 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>5. Managing Workplace Conflict</h2>
@@ -84,21 +91,21 @@
                         </ul>
                         <p>When you receive a grievance from an employee, it is your responsibility as a supervisor or manager to acknowledge receipt to the employee and send the grievance form to the person in your organization who is authorized to deal with the grievance.</p>
                         <p>According to the <i>Federal Public Sector Labour Relations Act</i>,  all organizations in the core public administration must have an informal conflict management system in place. The purpose of an ICMS is to resolve workplace conflict by offering alternative dispute resolution methods.</p>
-                        <p>[A Managing Workplace Conflict reference pop-up text box appears.]</p>
+                        <p><strong>[00:06:08 A “References: Managing Workplace Conflict” pop-up text box appears onscreen.] </strong></p>
+                        <p><strong>[00:06:10 Title is shown onscreen.]   </strong></p>
                         <hr>
 
                         <h2>6. In Real Life</h2>
                         <p>Your organization will have its own ways of doing things. Take a time out from the course to find out who in your department is the labour relations advisor.  They can offer excellent support.  As well, find out which positions are designated managerial or confidential in your team or organization.</p>
-                        <p>[An In Real Life activity pop-up text box appears.]</p>
+                        <p><strong>[00:06:35 An “In Real Life” pop-up text box appears onscreen.] </strong></p>
+                        <p><strong>[00:06:36 Title is shown onscreen.]   </strong></p>
                         <hr>
 
                         <h2>7. Quiz</h2>
-                        <p>Test your knowledge by answering the following questions. Select “Submit” when you are done.</p>
-                        <p>[A Take the Quiz activity pop-up text box appears.]</p>
-                        <hr>
-
-                        <h2>8. Section Completed</h2>
-                        <p>[Onscreen text showing Section Completed instruction.]</p>
+                        <p>Test your knowledge by answering the following questions. <strong>Select “Submit” when you are done.</strong></p>
+                        <p><strong>[00:06:45 Text is shown onscreen that reads “Take the quiz”.]   </strong></p>
+                        <p><strong>[00:06:50 A "Take the Quiz" pop-up box text box appears onscreen.]  </strong></p>
+                        <p><strong>[00:06:50 Text showing “You have completed this section” appears onscreen.] </strong></p>
                       </span>
                       <span v-if="$i18n.locale=='fr'">
                         <h2>1. Introduction</h2>

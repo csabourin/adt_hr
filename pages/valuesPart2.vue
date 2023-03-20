@@ -19,6 +19,9 @@
                   <b-card-body>
                     <b-card-text>
                       <span v-if="$i18n.locale=='en'">
+                        <p><strong>[00:00:02 Title is shown onscreen.]</strong></p>
+                        <h2>Module 7: Values and Ethics</h2>
+                        <p><strong>[00:00:08 Title is shown onscreen.]</strong></p>
                         <h2>1. Introduction</h2>
                         <p>Values and ethics guide managers in responsible decision making and in exercising due diligence in their responsibilities and accountabilities.</p>
                         <p>The Values and Ethics Code for the Public Sector and the Directive on Conflict of Interest, issued under the Policy on People Management, guide all public servants in their professional duties. The code and the directive are a condition of employment, which means that all employees must read and agree to them in order to be employed in the public service.</p>
@@ -40,7 +43,8 @@
                           <li>Identify acts of wrongdoing as defined by the <i>Public Servants Disclosure Protection Act</i></li>
                         </ul>
                         <p>This section should take you approximately 30 minutes to complete.</p>
-                        <p>[An External Links reference pop-up text box appears.]</p>
+                        <p><strong>[00:01:55 A “Reference: External Links” pop-up text box appears onscreen.]</strong></p>
+                        <p><strong>[00:01:56 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>2. Respect for People</h2>
@@ -60,7 +64,8 @@
                         <p>For a definition of workplace harassment and violence and a full list of examples, please consult the web page Requirements for employers to prevent harassment and violence in federally regulated workplaces.</p>
                         <p>Harassment and violence can be one severe incident that has a lasting impact on the individual, or it can be a series of objectionable actions, conduct or comments against a person because of, for example, that person’s race, national or ethnic origin, religion, age, sexual orientation, gender identity or expression, genetic characteristics, disability or any of the other prohibited grounds listed in the <i>Canadian Human Rights Act</i>. In addition, the United Nations Declaration on the Rights of Indigenous Peoples expands the scope of discrimination to include culture, identity, religion, language, health, education and community.</p>
                         <p>When assessing a situation, consider the severity and impropriety of the act, the circumstances and context of the situation, and whether the behaviour is prohibited under the <i>Canadian Human Rights Act</i>.</p>
-                        <p>[A Respect for People activity pop-up text box appears.]</p>
+                        <p><strong>[00:04:08 A pop-up box with “Activity: Respect for People” appears onscreen.] </strong></p>
+                        <p><strong>[00:04:09 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>3. Harassment and Violence</h2>
@@ -74,7 +79,8 @@
                           <li>Making every reasonable effort to resolve the occurrence, and</li>
                           <li>Recording  all occurrences of harassment and violence that have been reported to you</li>
                         </ul>
-                        <p>[A Harassment and Violence activity pop-up text box appears.]</p>
+                        <p><strong>[00:05:14 A pop-up box with “Activity: Harassment and Violence” appears onscreen.] </strong></p>
+                        <p><strong>[00:05:17 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>4. Directive on Conflict of Interest</h2>
@@ -86,7 +92,8 @@
                           <li>ask the employee to review the requirements outlined in the directive, and</li>
                           <li>write a report to inform the deputy head to determine whether the situation could place the employee in a real, apparent or potential conflict of interest</li>
                         </ul>
-                        <p>[An Additional Course reference pop-up text box appears.]</p>
+                        <p><strong>[00:06:37 A “References: Additional Course” pop-up text box appears onscreen.]  </strong></p>
+                        <p><strong>[00:06:39 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>5. Defining Wrongdoing</h2>
@@ -102,22 +109,23 @@
                         </ul>
                         <p>The legislation protects public servants’ confidentiality when disclosing suspected wrongdoing and protects them from possible reprisals. As a manager, you have an important role to play in modelling values-based leadership and informing your employees of their rights and options under the PSDPA.</p>
                         <p>You may encounter situations where employees disclose wrongdoing to you. It is your role to receive the disclosure, inform your organization’s senior officer for internal disclosure, and protect the identity of those involved in the disclosure process. Employees may also choose to approach the senior officer for internal disclosure or the Public Sector Integrity Commissioner directly.</p>
-                        <p>[A Defining Wrongdoing reference pop-up text box appears.]</p>
+                        <p><strong>[00:08:02 A “References: Defining Wrongdoing” pop-up text box appears onscreen.]  </strong></p>
+                        <p><strong>[00:08:05 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>6. In Real Life</h2>
                         <p>Take what you have learned into real life!</p>
                         <p>Your organization will have its own ways of doing things. Take a time out from the course to do several things.</p>
-                        <p>[An In Real Life activity pop-up text box appears.]</p>
+                        <p><strong>[00:08:17 An “In Real Life” pop-up text box appears onscreen.]   </strong></p>
+                        <p><strong>[00:08:19 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>7. Quiz</h2>
-                        <p>Test your knowledge by answering the following questions. Select “Submit” when you are done.</p>
-                        <p>[A Take the Quiz activity pop-up text box appears.]</p>
-                        <hr>
+                        <p>Test your knowledge by answering the following questions. <strong>Select “Submit” when you are done.</strong></p>
+                        <p><strong>[00:08:28 Text is shown onscreen that reads “Take the quiz”.]   </strong></p>
+                        <p><strong>[00:08:32 A "Take the Quiz" pop-up box text box appears onscreen.]  </strong></p>
+                        <p><strong>[00:08:32 Text showing “You have completed this section” appears onscreen.] </strong></p>
 
-                        <h2>8. Section Completed</h2>
-                        <p>[Onscreen text showing Section Completed instruction.]</p>
                       </span>
                       <span v-if="$i18n.locale=='fr'">
                         <h2>1. Introduction</h2>

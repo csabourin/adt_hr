@@ -22,6 +22,9 @@
                     <b-card-text>
                       <!-- Used to jump to activities<button class="accessibilityButton" v-for="(tracks, index) in navBarTracks" :key="index" @click="accessibleModal(index)">{{$t('jumpModalPartsWP') + ' - ' +navBarTracks[index]}}</button> -->
                       <span v-if="$i18n.locale=='en'">
+                        <p><strong>[00:00:02 Title is shown onscreen.] </strong></p>
+                        <h2>Module 2: Human Resources Planning </h2>
+                        <p><strong>[00:00:08 Title is shown onscreen.] </strong></p>
                         <h2>1. Introduction</h2>
                         <p>Human Resources planning is the foundation for assessing and understanding the current and future needs of government departments, agencies, and the public service as a whole.</p> 
                         <p>Moreover, HR planning is a key decision-support tool which allows HR staff to act expeditiously and in accordance with federal public service values.</p>
@@ -30,8 +33,8 @@
                           <li>Recall the functions of HR planning and</li>
                           <li>Recognize your responsibilities as a manager.</li>
                         </ul>
-                        <p>This section should take you approximately 10 minutes to complete.</p>
-                        <p>[An External Links reference pop-up text box appears.]</p>
+                        <p><strong>[00:00:47 A “Reference: External Links” pop-up text box appears onscreen.]  </strong></p>
+                        <p><strong>[00:00:49 Title is shown onscreen.] </strong></p>
                         <hr>
                         
                         <h2>2. Overview of HR Planning</h2>
@@ -53,7 +56,8 @@
                           <li>Linking succession planning strategies to program and financial planning and</li>
                           <li>Evaluating the effectiveness of the plan and adapting it as required</li>
                         </ol>
-                        <p>[An Overview or HR Planning activity pop-up text box appears.]</p>
+                        <p><strong>[00:03:28 A pop-up box with “Activity: An Overview or HR Planning ” appears onscreen.] </strong></p>
+                        <p><strong>[00:03:30 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>3. In Real Life</h2>
@@ -61,16 +65,16 @@
                         <p>Your organization will have its own ways of doing things.</p>
                         <p>HR planning helps organizations to fulfill their mandate. In some organizations, an HR plan and the organization’s business goals will be combined to produce an Integrated HR and business plan.</p>
                         <p>Take time out from the course to locate your organization’s HR plan to better understand how it meets your business goals and the larger mandate.</p>
-                        <p>[An In Real Life activity pop-up text box appears.]</p>
+                        <p><strong>[00:04:04 An “In Real Life” pop-up text box appears onscreen.]   </strong></p>
+                        <p><strong>[00:04:06 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>4. Quiz</h2>
-                        <p>Test your knowledge by answering the following questions. Select “Submit” when you are done.</p>
-                        <p>[A Take the Quiz activity pop-up text box appears.]</p>
-                        <hr>
-
-                        <h2>5. Section Completed</h2>
-                        <p>[Onscreen text showing Section Completed instruction.]</p>
+                        <p>Test your knowledge by answering the following questions. <strong>Select “Submit” when you are done.</strong></p>
+                        <p><strong>[00:04:14 Text is shown onscreen that reads “Take the quiz”.]  </strong></p>
+                        <p><strong>[00:04:18  A "Take the Quiz" pop-up box text box appears onscreen.] </strong></p>
+                        <p><strong>[00:04:19 Text showing “You have completed this section” appears onscreen.] </strong></p>
+                        
 
                       </span>
                       <span v-if="$i18n.locale=='fr'">

@@ -19,6 +19,9 @@
                   <b-card-body>
                     <b-card-text>
                       <span v-if="$i18n.locale=='en'">
+                        <p><strong>[00:00:02 Title is shown onscreen.] </strong></p>
+                        <h2>Module 8: Official Languages </h2>
+                        <p><strong>[00:00:08 Title is shown onscreen.] </strong></p>
                         <h2>1. Introduction</h2>
                         <p>The federal government’s official languages programs not only ensure that services are delivered to Canadians in both English and French. They also protect the official language rights of all public servants and promote the use of both official languages in the workplace in bilingual regions.</p>
                         <p>To accomplish this, the official languages programs ensure that organizations comply with the requirements of the <i>Official Languages Act</i> and the Treasury Board’s official languages policy instruments.</p>
@@ -28,7 +31,8 @@
                           <li>Recognize responsibilities regarding employee rights related to language of work</li>
                         </ul>
                         <p>This section should take you approximately 30 minutes to complete.</p>
-                        <p>[An External Links reference pop-up text box appears.]</p>
+                        <p><strong>[00:00:58 A “References: External Links” pop-up text box appears onscreen.]</strong></p>
+                        <p><strong>[00:01:00 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>2. Legal Framework</h2>
@@ -41,7 +45,8 @@
                           <li>English-speaking and French-speaking Canadians have equal opportunities for employment and advancement in institutions, taking into account the institutions’ mandate, location, and the public they serve, and</li>
                           <li>Appropriate governance structures, mechanisms, and resources are in place to ensure coherent management of the institution’s official languages responsibilities</li>
                         </ul>
-                        <p>[A Legal Framework activity pop-up text box appears.]</p>
+                        <p><strong>[00:02:09 A pop-up box with “Activity: Legal Framework” appears onscreen.]   </strong></p>
+                        <p><strong>[00:02:12 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>3. Directive on Official Languages for Communications and Services</h2>
@@ -57,7 +62,8 @@
                         </ul>
                         <p>The managerial responsibilities linked to your institution’s obligations regarding communications with public service employees can vary depending on whether your office is located in a unilingual region or a bilingual region.</p>
                         <p>To find out whether your organization is located in a bilingual region, you can refer to the List of Bilingual Regions of Canada for Language-of-Work Purposes.</p>
-                        <p>[A Regions designated bilingual for language-of-work purposes activity pop-up text box appears.]</p>
+                        <p><strong>[00:03:59 A pop-up box with “Activity: Regions designated bilingual for language-of-work purposes” appears onscreen.]   </strong></p>
+                        <p><strong>[00:04:00 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>4. Managers’ Official Languages Responsibilities for People Management</h2>
@@ -83,7 +89,8 @@
                           <li>providing employees with regularly and widely used work instruments and electronic systems in both official languages, if they are required to communicate or provide services to the public or employees in English and French</li>
                         </ul>
                         <p>Using the Leadership Competencies Profile for Official Languages can help individuals self-assess their level of functionality in their second language.</p>
-                        <p>[A Managers’ official languages responsibilities for people management activity pop-up text box appears.]</p>
+                        <p><strong>[00:06:06 A pop-up box with “Activity: Managers’ official languages responsibilities for people management” appears onscreen.] </strong></p>
+                        <p><strong>[00:06:08 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>5. Identifying Language Requirements</h2>
@@ -95,22 +102,22 @@
                           <li>Bilingual: The functions and duties of the position will require the use of both English and French (bilingual position)</li>
                           <li>Either/or position: The functions and duties of the position will require only the use of one official language, and the incumbent chooses which language they will use. The language of the position is the one chosen by the incumbent for as long as they remain in this position (either/or position).</li>
                         </ul>
-                        <p>[An Identifying language requirements reference pop-up text box appears.]</p>
+                        <p><strong>[00:07:18 A “References: Identifying language requirements” pop-up text box appears onscreen.]  </strong></p>
+                        <p><strong>[00:07:20 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>6. In Real Life</h2>
                         <p>Take what you have learned into real life!</p>
                         <p>Your organization will have its own ways of doing things. Take a time out from the course to consult the course tool box for a list of the persons responsible for official languages and the official languages champions in institutions subject to the <i>Official Languages Act</i>.</p>
-                        <p>[An In Real Life activity pop-up text box appears.]</p>
+                        <p><strong>[00:07:40 An “In Real Life” pop-up text box appears onscreen.] </strong></p>
+                        <p><strong>[00:07:42 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>7. Quiz</h2>
-                        <p>Test your knowledge by answering the following questions. Select “Submit” when you are done.</p>
-                        <p>[A Take the Quiz activity pop-up text box appears.]</p>
-                        <hr>
-
-                        <h2>8. Section Completed</h2>
-                        <p>[Onscreen text showing Section Completed instruction.]</p>
+                        <p>Test your knowledge by answering the following questions. <strong>Select “Submit” when you are done.</strong></p>
+                        <p><strong>[00:07:50 Text is shown onscreen that reads “Take the quiz”.]    </strong></p>
+                        <p><strong>[00:07:55 A "Take the Quiz" pop-up box text box appears onscreen.]   </strong></p>
+                        <p><strong>[00:07:55 Text showing “You have completed this section” appears onscreen.] </strong></p>
 
                       </span>
                       <span v-if="$i18n.locale=='fr'">

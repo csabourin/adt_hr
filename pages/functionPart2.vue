@@ -20,6 +20,9 @@
                     <b-card-text>
                       <!-- <button class="accessibilityButton" v-for="(tracks, index) in navBarTracks" :key="index" @click="accessibleModal(index)">{{$t('jumpModalParts') + ' - ' +navBarTracks[index]}}</button> -->
                       <span v-if="$i18n.locale=='en'">
+                        <p><strong>[00:00:02 Title is shown onscreen.] </strong></p>
+                        <h2>Module 4: Employment Equity, Diversity and Inclusion</h2>
+                        <p><strong>[00:00:09 Title is shown onscreen.] </strong></p>
                         <h2>1. Introduction</h2>
                         <p>Everyone benefits from employment equity, diversity and inclusion because they ensure that current and potential employees have equal opportunity to be hired or promoted for their skills and abilities.</p>
                         <p>They also enhance your organization and your team as a whole, because a diverse workforce can provide a broader range of ideas and insights and greater resilience.</p>
@@ -29,7 +32,8 @@
                         </ul>
                         <p>Ultimately, employment equity is about removing barriers, and diversity, equity and inclusion are about embracing differences so that employees can perform effectively and fully contribute to the organization.</p>
                         <p>This section should take you approximately 20 minutes to complete.</p>
-                        <p>[An External Links reference pop-up text box appears.]</p>
+                        <p><strong>[00:01:01 A “Reference: External Links” pop-up text box appears onscreen.]  </strong></p>
+                        <p><strong>[00:01:01 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>2. Workplace Accommodation</h2>
@@ -47,7 +51,8 @@
                           <li>Adapting training programs to the needs of employees</li>
                         </ul>
                         <p>Your organization has policies and procedures that offer guidance in creating a workplace that is more equitable, diverse and inclusive and assistance in removing barriers, to ensure that all employees can participate equally in the work environment.</p>
-                        <p>[A Workplace Accommodation reference pop-up text box appears.]</p>
+                        <p><strong>[00:02:28 A “References: Workplace Accommodation” pop-up text box appears onscreen.]  </strong></p>
+                        <p><strong>[00:02:31 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>3. Workplace Discrimination</h2>
@@ -60,12 +65,14 @@
                           <li>There are those who deny that racism exists and who actively work against efforts to dismantle racism.</li>
                         </ol>
                         <p>Given that the <i>Employment Equity Act</i> is law and The Canadian Charter of Rights and Freedoms is part of the <i>Constitution Act</i>, it is illegal to discriminate based on race. In addition, the <i>Canadian Human Rights Act</i> specifies all of the prohibited grounds of discrimination.</p>
-                        <p>[A Workplace Discrimination reference pop-up text box appears.]</p>
+                        <p><strong>[00:03:38 A “References: Workplace Discrimination” pop-up text box appears onscreen.]  </strong></p>
+                        <p><strong>[00:03:40 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>4. Levelling the Playing Field</h2>
                         <p>Identifying, removing and preventing conditions of disadvantage faced by racialized groups and persons with disabilities is key to ensuring an equitable environment where individuals have equal access to opportunities and services.</p>
-                        <p>[A Levelling the Playing Field activity pop-up text box appears.]</p>
+                        <p><strong>[00:04:00 A pop-up box with “Activity: Levelling the Playing Field” appears onscreen.] </strong></p>
+                        <p><strong>[00:04:02 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>5. Unconscious Biases</h2>
@@ -74,23 +81,24 @@
                         <p>The brain has learned to take shortcuts based on our own personal experiences. Although we may be unaware of it, the brain makes generalizations, leading to stereotypes of people based on characteristics such as age, gender, ethnicity, religion and sexual orientation.</p>
                         <p>Biases, both conscious and unconscious, affect our attitudes, behaviours and decisions. Become familiar with your own unconscious biases and how these may affect your behaviour toward current and potential employees, whether regarding staffing processes, accommodation requests, performance evaluations or other situations.</p>
                         <p>Remember, biases are learned and can be unlearned.</p>
-                        <p>[An Unconscious Bias reference pop-up text box appears.]</p>
+                        <p><strong>[00:05:14 A “References: Unconscious Bias” pop-up text box appears onscreen.]  </strong></p>
+                        <p><strong>[00:05:16 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>6. In Real Life</h2>
                         <p>Take what you have learned into real life!</p>
                         <p>Your organization will have its own ways of doing things.</p>
                         <p>Take time out from the course to familiarize yourself with your organization’s policies and procedures, as well as the scope of possible accommodations, to help you address where barriers exist, and to help build a more inclusive workplace. You should also consider employment equity, diversity and inclusion as part of your HR planning, to support the organization’s employment equity commitments.</p>
-                        <p>[An In Real Life activity pop-up text box appears.]</p>
+                        <p><strong>[00:05:48 An “In Real Life” pop-up text box appears onscreen.] </strong></p>
+                        <p><strong>[00:05:50 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>7. Quiz</h2>
-                        <p>Test your knowledge by answering the following questions. Select “Submit” when you are done.</p>
-                        <p>[A Take the Quiz activity pop-up text box appears.]</p>
-                        <hr>
-
-                        <h2>8. Section Completed</h2>
-                        <p>[Onscreen text showing Section Completed instruction.]</p>
+                        <p>Test your knowledge by answering the following questions. <strong>Select “Submit” when you are done.</strong></p>
+                        <p><strong>[00:05:59 Text is shown onscreen that reads “Take the quiz”.]  </strong></p>
+                        <p><strong>[00:06:01 A "Take the Quiz" pop-up box text box appears onscreen.] </strong></p>
+                        <p><strong>[00:06:01 Text showing “You have completed this section” appears onscreen.] </strong></p>
+                        
 
                       </span>
                       <span v-if="$i18n.locale=='fr'">

@@ -19,6 +19,9 @@
                   <b-card-body>
                     <b-card-text>
                       <span v-if="$i18n.locale=='en'">
+                        <p><strong>[00:00:02 Title is shown onscreen.] </strong></p>
+                        <h2>Module 5: Staffing</h2>
+                        <p><strong>[00:00:08 Title is shown onscreen.] </strong></p>
                         <h2>1. Introduction</h2>
                         <p>Finding and recruiting employees is a key step in helping an organization achieve its goals.</p>
                         <p>As a sub-delegated manager, you will be asked to staff positions within your section or work unit by finding the skills and other attributes needed for the work.</p>
@@ -30,7 +33,8 @@
                           <li>Recognize considerations for staffing a position</li>
                         </ul>
                         <p>This section should take you approximately 20 minutes to complete.</p>
-                        <p>[An External Links reference pop-up text box appears.]</p>
+                        <p><strong>[00:01:11 A “References: External Links” pop-up text box appears onscreen.] </strong></p>
+                        <p><strong>[00:01:14 Title is shown onscreen.]   </strong></p>
                         <hr>
 
                         <h2>2. Identifying Your Staffing Needs</h2>
@@ -54,7 +58,8 @@
                           <li>Agreements like the Nunavut Land Claims Agreement and even the Canadian Free Trade Agreement, as well as</li>
                           <li>Your Minister's mandate, statements by the Clerk of the Privy Council, and the Speech from the Throne</li>
                         </ul>
-                        <p>[An Identifying Your Staffing Needs activity pop-up text box appears.]</p>
+                        <p><strong>[0:03:12 A pop-up box with “Activity: Identifying Your Staffing Needs” appears onscreen.] </strong></p>
+                        <p><strong>[00:03:15 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>3. Get Familiar With Your Staffing Obligations</h2>
@@ -76,16 +81,21 @@
                           <li>Programs such as: employment equity, diversity and inclusion, student programs, and the Interchange Canada program.</li>
                           <li>Qualification standards in relation to education, occupational certification, official languages and other requirements to qualify for employment in the core public service.</li>
                         </ol>
-                        <p>[A Staffing Obligations reference pop-up text box appears.]</p>
+                        <p><strong>[00:06:12 A “References: Staffing Obligations” pop-up text box appears onscreen.]  </strong></p>
+                        <p><strong>[00:06:16 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>4. Inclusive Hiring</h2>
                         <p>Watch this video on inclusive hiring, which offers five tips on diversifying your workforce.</p>
-                        <p>[An Inclusive Hiring activity pop-up text box appears.]</p>
+                        <p><strong>[00:06:22 A video thumbnail appears on screen with text that reads “How To – Inclusive Hiring: Five Tips on Diversifying Your Workforce”. </strong></p>
+                        <p><strong>[00:06:24 The link, https://www.csps-efpc.gc.ca/video/inclusive-hiring-five-tips-eng.aspx is provided along with the text “See link in toolbox”.] </strong></p>
+                        <p><strong>[00:06:35 A pop-up box with “Activity: Inclusive Hiring” appears onscreen.] </strong></p>
+                        <p><strong>[00:06:38 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>5. Staffing Your Position</h2>
                         <p>As a sub-delegated manager, you are responsible for making decisions that are subdelegated to you and for working in partnership with HR. There are three lenses to apply when staffing a position: diversity, equity and inclusion; business objectives and the judicious management of resources; and integrity and ethics.</p>
+                        <p><strong>[00:07:10 Text is shown that reads “1. Diversity, equity and inclusion”. </strong></p>
                         <p>In order to conduct a fair and inclusive process and to hire qualified individuals to form a diverse workforce that reflects the Canadian population and meets your organizational needs, the following must be done:</p>
                         <ul>
                           <li>Take into account employment equity objectives and adopt inclusive practices.</li>
@@ -111,6 +121,7 @@
                           </li>
                         </ul>
                         <p>For more details, please consult the Appointment Delegation and Accountability Instrument and the Appointment Policy.</p>
+                        <p><strong>[00:09:30 Text is shown that reads “2. Business objectives and judicious management of resources”.] </strong></p>
                         <p>To conduct an effective process that achieves business objectives through the judicious management of resources, consider:</p>
                         <ul>
                           <li>Keeping your staffing objectives in mind throughout the process</li>
@@ -118,6 +129,7 @@
                           <li>Using flexibilities provided in the Public Service Employment Act and make reasonable adaptations as the circumstances evolve</li>
                           <li>Promoting engagement and retention by being transparent with applicants and employees</li>
                         </ul>
+                        <p><strong>[00:10:01 Text is shown that reads: “3. Integrity and ethics”.] </strong></p>
                         <p>To conduct a process based on integrity and ethics these 5 steps are necessary:</p>
                         <ul>
                           <li>Comply with the requirements of the staffing framework (public service and departmental) and exercise flexibility by suggesting solutions and adaptations for the assessment tools and approach in order to ensure a fair assessment of each candidate’s qualifications.</li>
@@ -131,7 +143,8 @@
                           <li>Focus on merit rather than on likeability or other sources of bias.</li>
                           <li>Be able to clearly explain decisions and document appointment information including your decisions and considerations.</li>
                         </ul>
-                        <p>[A Staffing Your Position reference pop-up text box appears.]</p>
+                        <p><strong>[00:11:26 A “References: Staffing Your Position” pop-up text box appears onscreen.]</strong></p>
+                        <p><strong>[00:11:30 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>6. In Real Life</h2>
@@ -147,16 +160,17 @@
                         </ul>
                         <p>As a sub-delegated manager, you have many different options.  Remember to consult your HR advisor.</p>
                         <p>Take time out from the course to consult the Public Service Commission’s Guides and Tools web page. These tools are designed to assist managers involved in the appointment process.</p>
-                        <p>[An In Real Life activity pop-up text box appears.]</p>
+                        <p><strong>[00:12:26 An “In Real Life” pop-up text box appears onscreen.]  </strong></p>
+                        <p><strong>[00:12:29 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>7. Quiz</h2>
-                        <p>Test your knowledge by answering the following questions. Select “Submit” when you are done.</p>
-                        <p>[A Take the Quiz activity pop-up text box appears.]</p>
-                        <hr>
+                        <p>Test your knowledge by answering the following questions. <strong>Select “Submit” when you are done.</strong></p>
+                        <p><strong>[00:12:33 Text is shown onscreen that reads “Take the quiz”.]</strong></p>
+                        <p><strong>[00:12:33 A "Take the Quiz" pop-up text box appears onscreen.] </strong></p>
+                        <p><strong>[00:12:37 Text showing “You have completed this section” appears onscreen.] </strong></p>
+                        
 
-                        <h2>8. Section Completed</h2>
-                        <p>[Onscreen text showing Section Completed instruction.]</p>
                       </span>
                       <span v-if="$i18n.locale=='fr'">
                         <h2>1. Introduction</h2>

@@ -19,6 +19,9 @@
                   <b-card-body>
                     <b-card-text>
                       <span v-if="$i18n.locale=='en'">
+                        <p><strong>[00:00:02 Title is shown onscreen.] </strong></p>
+                        <h2>Module 9: Political Activities </h2>
+                        <p><strong>[00:00:09 Title is shown onscreen.] </strong></p>
                         <h2>1. Introduction</h2>
                         <p>The <i>Public Service Employment Act</i> (PSEA) defines “political activity” as:</p>
                         <ul>
@@ -32,7 +35,8 @@
                           <li>Recognize when permission from the Public Service Commission is required to participate in political activities</li>
                         </ul>
                         <p>This section should take you approximately 10 minutes to complete.</p>
-                        <p>[An External Links reference pop-up text box appears.]</p>
+                        <p><strong>[00:01:07 A “References: External Links” pop-up text box appears onscreen.]  </strong></p>
+                        <p><strong>[00:01:08 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>2. Non-Partisanship and Political Activities</h2>
@@ -45,7 +49,8 @@
                         <p>In these instances, public service employees are responsible for making informed decisions about whether the activities could impair (or be perceived as impairing) their ability to perform their duties in an impartial manner.</p>
                         <p>Public servants wishing to engage in political activities are encouraged to consult their organization’s designated political activities representative, their values and ethics advisor, or the Political Activities and Non-Partisanship Division at the Public Service Commission.</p>
                         <p>Allegations of improper political activity against an employee may be investigated by the Public Service Commission to determine if corrective action is appropriate.</p>
-                        <p>[A Non-partisanship reference pop-up text box appears.]</p>
+                        <p><strong>[00:03:11 A “References: Non-partisanship” pop-up text box appears onscreen.]  </strong></p>
+                        <p><strong>[00:03:13 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>3. In Real Life</h2>
@@ -54,16 +59,15 @@
                         <p>Political Activities: Candidacy</p>
                         <p>Political Activities: Making an Informed Decision</p>
                         <p>They are an excellent source of information if you or any of your employees are considering becoming a candidate in a federal, provincial, territorial or municipal election, or participating in political activities.</p>
-                        <p>[An In Real Life activity pop-up text box appears.]</p>
+                        <p><strong>[00:03:46 An “In Real Life” pop-up text box appears onscreen.] </strong></p>
+                        <p><strong>[00:03:48 Title is shown onscreen.] </strong></p>
                         <hr>
 
                         <h2>4. Quiz</h2>
-                        <p>Test your knowledge by answering the following questions. Select “Submit” when you are done.</p>
-                        <p>[A Take the Quiz activity pop-up text box appears.]</p>
-                        <hr>
-
-                        <h2>5. Section Completed</h2>
-                        <p>[Onscreen text showing Section Completed instruction.]</p>
+                        <p>Test your knowledge by answering the following questions. <strong>Select “Submit” when you are done.</strong></p>
+                        <p><strong>[00:03:56 Text is shown onscreen that reads “Take the quiz”.]  </strong></p>
+                        <p><strong>[00:04:00 A "Take the Quiz" pop-up box text box appears onscreen.]   </strong></p>
+                        <p><strong>[00:04:01 Text showing “You have completed this section” appears onscreen.] </strong></p>
                       </span>
                       <span v-if="$i18n.locale=='fr'">
                         <h2>1. Introduction</h2>
