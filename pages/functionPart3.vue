@@ -320,7 +320,7 @@
                         <hr>
 
                         <h2>7. Quiz</h2>
-                        <p>Évaluez vos connaissances en répondant aux questions suivantes. Cliquez sur « Soumettre » lorsque vous avez terminé.</p>
+                        <p>Évaluez vos connaissances en répondant aux questions suivantes. <strong>Cliquez sur « Soumettre » lorsque vous avez terminé.</strong></p>
                         <p><strong>[00:13:26 : Texte indiquant l'instruction Répondez au quiz! apparaît à l’écran.]</strong></p>
                         <p><strong>[00:13:38 : Une fenêtre contextuelle Répondez au quiz apparaît à l’écran.]</strong></p>
                         <p><strong>[00:13:39 : Texte indiquant Vous avez complété cette section apparaît à l’écran.]</strong></p>

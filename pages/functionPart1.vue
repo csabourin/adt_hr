@@ -220,15 +220,10 @@
                         <hr>
 
                         <h2>8. Quiz</h2>
-                        <p>Évaluez vos connaissances en répondant aux questions suivantes. Cliquez sur « Soumettre » lorsque vous avez terminé.</p>
-<<<<<<< HEAD
-                        <p>[Une boîte de texte de l’activité Répondez au quiz apparaît.]</p>
-                        <hr>
-=======
+                        <p>Évaluez vos connaissances en répondant aux questions suivantes. <strong>Cliquez sur « Soumettre » lorsque vous avez terminé.</strong></p>
                         <p><strong>[00:11:34 : Texte indiquant l'instruction Répondez au quiz! apparaît à l’écran.]</strong></p>
                         <p><strong>[00:11:37 : Une fenêtre contextuelle Répondez au quiz apparaît à l’écran.]</strong></p>
                         <p><strong>[00:11:38 : Texte indiquant Vous avez complété cette section apparaît à l’écran.]</strong></p>
->>>>>>> a3a01dacf2daf58097a81530ddd622c98f4496fc
 
                       </span>
                     </b-card-text>
