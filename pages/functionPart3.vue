@@ -506,8 +506,20 @@
       <microlearning path="functionPart2"  imagePath="FunctionPart2.svg" size="140" time="20" :completion="$store.state.currentPlaying.spendPart2_player" :text="$t('DiversityInclusion')" type="video" />
       <microlearning youAreHere path="functionPart3" size="140" time="20" :completion="$store.state.currentPlaying.spendPart3_player" imagePath="FunctionPart3.svg" :text="$t('Staffing')" type="video" />
       <microlearning path="functionKey" time="5" size="140" :completion="$store.state.currentPlaying.kmSpend" imagePath="KeyMessS.svg" :text="$t('KeyMessages')" :highlighted="chosenScenario == 'refresh'" type="keyMessages" />
-      <microlearning path="exam2" size="140" time="25" imagePath="S-Test.svg" :text="$t('Test')" :completion="parseInt($store.getters['spend/getScore'],10)" :highlighted="chosenScenario == 'justExam'" type="exam" questionNum="20" />
-    </div>
+      <TestTile
+  time="25"
+  path="exam2"
+  imagePath="S-Test.svg"
+  :text="$t('TestSpend')"
+  :completion="parseInt(spendCompleted)"
+  :highlighted="chosenScenario == 'justExam'"
+  type="exam"
+  questionNum="20"
+  quizUrl="https://app.csps-efpc.gc.ca/d2l/lms/quizzing/user/quiz_summary.d2l?qi=4125&ou=7748
+
+"
+/>
+ </div>
   </div>
 </template>
 <script type="text/javascript">
@@ -518,6 +530,7 @@ import externalLink from "~/components/externalLink"
 import staffingNeeds from '~/components/slides/function/functionPart3StaffingNeeds'
 import inclusiveHiring from '~/components/slides/function/functionPart3InclusiveHiring'
 import Quiz from '~/components/slides/function/functionPart3Quiz'
+import TestTile from '../components/testTile.vue'
 export default {
   data() {
     return {
@@ -531,8 +544,9 @@ export default {
     externalLink,
     staffingNeeds,
     inclusiveHiring,
-    Quiz
-  },
+    Quiz,
+    TestTile
+},
   computed: {
     thatPoint() {
       return this.$store.state.currentPlaying.spendPart3

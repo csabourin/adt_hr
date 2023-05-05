@@ -388,8 +388,20 @@
       <microlearning youAreHere :completion="$store.state.currentPlaying.valuesPart3_player" path="valuesPart3" imagePath="ValuesPart3.svg" size="100" time="30" :text="$t('OfficialLanguages')" type="video" />
       <microlearning :completion="$store.state.currentPlaying.valuesPart4_player" path="valuesPart4" imagePath="ValuesPart4.svg" size="100" time="10" :text="$t('PoliticalActivities')" type="video" />
       <microlearning :completion="$store.state.currentPlaying.kmReport" path="valuesKey" size="100" imagePath="KeyMessR.svg" :text="$t('KeyMessages')" time="5" :highlighted="chosenScenario == 'refresh'" type="keyMessages" />
-      <microlearning :completion="parseInt($store.getters['report/getScore'],10)" path="exam3" size="100" time="25" imagePath="R-Test.svg" :text="$t('Test')" :highlighted="chosenScenario == 'justExam'" type="exam" questionNum="20" />
-    </div>
+      <TestTile
+  imagePath="R-Test.svg"
+  path="exam3"
+  time="25"
+  :text="$t('TestReport')"
+  :completion="parseInt(reportCompleted)"
+  :highlighted="chosenScenario == 'justExam'"
+  type="exam"
+  questionNum="10"
+  quizUrl="https://app.csps-efpc.gc.ca/d2l/lms/quizzing/user/quiz_summary.d2l?qi=4149&ou=7748
+
+
+"
+/></div>
   </div>
 </template>
 <script type="text/javascript">
@@ -398,6 +410,7 @@ import microlearning from '~/components/microlearning'
 import officialLanguages from '~/components/slides/values/valuesPart3OfficialLanguages'
 import languagesResponsibilities from '~/components/slides/values/valuesPart3LanguagesResponsibilities'
 import Quiz from '~/components/slides/values/valuesPart3Quiz'
+import TestTile from '../components/testTile.vue'
 export default {
   data() {
     return {
@@ -409,8 +422,9 @@ export default {
     microlearning,
     officialLanguages,
     languagesResponsibilities,
-    Quiz
-  },
+    Quiz,
+    TestTile
+},
   computed: {
     thatPoint() {
       return this.$store.state.currentPlaying.valuesPart3

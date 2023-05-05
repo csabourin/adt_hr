@@ -215,7 +215,20 @@
       <microlearning path="designPart1" imagePath="R-Contribute.svg" size="140" time="15" :completion="$store.state.currentPlaying.buildWP_player" :text="$t('HRDelegation')" type="video" />
       <microlearning youAreHere size="140" path="designPart2" time="10" :completion="$store.state.currentPlaying.createBudget_player" imagePath="InitiateAuthSpending.svg" :text="$t('HRPlanning')" type="video" />
       <microlearning path="designKey" time="5" size="140" :completion="$store.state.currentPlaying.kmPlan" imagePath="KeyMessP.svg" :text="$t('KeyMessages')" :highlighted="chosenScenario == 'refresh'" type="keyMessages" />
-      <microlearning size="140" path="exam1" time="25" :completion="parseInt($store.getters['plan/getScore'],10)" imagePath="P-Test.svg" :text="$t('Test')" :highlighted="chosenScenario == 'justExam'" type="exam" questionNum="10" />
+      <TestTile
+  time="25"
+  path="exam1"
+  imagePath="P-Test.svg"
+  :text="$t('TestPlan')"
+  :completion="parseInt(planCompleted)"
+  :highlighted="chosenScenario == 'justExam'"
+  type="exam"
+  questionNum="20"
+  quizUrl="https://app.csps-efpc.gc.ca/d2l/lms/quizzing/user/quiz_summary.d2l?qi=4148&ou=7748
+
+
+"
+/>
     </div>
   </div>
 </template>
@@ -227,6 +240,7 @@ import part2Quiz from '~/components/slides/design/designPart2Quiz'
 import continuePopup from '~/components/continuePopup'
 import download from "~/components/fileDownload"
 import HTMLJobaidLink from "~/components/HTMLJobaidLink"
+import TestTile from '../components/testTile.vue'
 export default {
   data() {
     return {
@@ -240,8 +254,9 @@ export default {
     part2Quiz,
     continuePopup,
     download,
-    HTMLJobaidLink
-  },
+    HTMLJobaidLink,
+    TestTile
+},
   methods: {
     resumePlay() {
       this.$refs.vp.resumePlay()
