@@ -29,7 +29,7 @@ export default {
     // base: 'd2l/le/content/'
     // base: '/ProdContent/cninv000000000017454/'
     // base: '/ProdContent/cninv000000000018107/'
-     //base: './',
+     base: './',
      mode: "hash"
   },
   /*
@@ -61,7 +61,7 @@ export default {
     '@nuxtjs/axios',
     ['nuxt-i18n', {
   strategy: 'prefix',
-  defaultLocale: 'fr'
+  defaultLocale: 'en'
 }],
     ['vue-scrollto/nuxt', {container: "#scrollDiv",
      duration: 750,
@@ -110,8 +110,8 @@ export default {
     lazy: true,
     loadedLanguages :['fr','en'],
     langDir: 'lang/',
-    defaultLocale: 'fr',
-    fallbackLocale: 'fr',
+    defaultLocale: 'en',
+    fallbackLocale: 'en',
     fallbackRoot: true,
     silentTranslationWarn: true,
     silentFallbackWarn: true
